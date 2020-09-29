@@ -20,6 +20,10 @@ This topic describes the process for upgrading the Microsoft BitLocker Administr
 #### Download the May 2019 servicing release
 [Desktop Optimization Pack](https://www.microsoft.com/download/details.aspx?id=58345)
 
+#### Download the July 2018 servicing release
+[Desktop Optimization Pack](https://www.microsoft.com/download/details.aspx?id=57157)
+
+
 #### Verify the installation documentaion
 Verify you have a current documentation of your MBAM environment, including all server names, database names, service accounts and their passwords.
 
