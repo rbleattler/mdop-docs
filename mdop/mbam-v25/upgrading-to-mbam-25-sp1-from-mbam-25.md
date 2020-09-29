@@ -21,7 +21,7 @@ This topic describes the process for upgrading the Microsoft BitLocker Administr
 [Desktop Optimization Pack](https://www.microsoft.com/download/details.aspx?id=58345)
 
 #### Download the July 2018 servicing release
-[Desktop Optimization Pack](https://www.microsoft.com/en-us/download/details.aspx?id=57157)
+[Desktop Optimization Pack](https://www.microsoft.com/download/details.aspx?id=57157)
 
 
 #### Verify the installation documentaion
