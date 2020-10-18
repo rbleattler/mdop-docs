@@ -40,22 +40,22 @@ The following policy settings can be configured for UE-V.
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left"><p>Configure Sync Method</p></td>
+<td align="left"><p>Computers and Users</p></td>
+<td align="left"><p>By using this Group Policy setting, you can configure whether UE-V uses the sync provider feature. This policy setting also lets you enable notification to appear when the import of user settings is delayed.</p></td>
+<td align="left"><p>Enable this setting to configure the UE-V Agent not to use the sync provider, or to use external synchronization engine.</p></td>
+</tr>
+<tr class="even">
 <td align="left"><p>Contact IT Link Text</p></td>
 <td align="left"><p>Computers Only</p></td>
 <td align="left"><p>This Group Policy setting specifies the text of the Contact IT URL hyperlink in the Company Settings Center.</p></td>
 <td align="left"><p>If you enable this Group Policy setting, the Company Settings Center displays the specified text in the link to the Contact IT URL.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p>Contact IT URL</p></td>
 <td align="left"><p>Computers Only</p></td>
 <td align="left"><p>This Group Policy setting specifies the URL for the Contact IT link in the Company Settings Center.</p></td>
 <td align="left"><p>If you enable this setting, the Company Settings Center Contact IT text links to the specified URL. The link can be of any standard protocol, such as HTTP or mailto.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Do not use the sync provider</p></td>
-<td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>By using this Group Policy setting, you can configure whether UE-V uses the sync provider feature. This policy setting also lets you enable notification to appear when the import of user settings is delayed.</p></td>
-<td align="left"><p>Enable this setting to configure the UE-V Agent not to use the sync provider.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>First Use Notification</p></td>
@@ -65,11 +65,10 @@ The following policy settings can be configured for UE-V.
 <td align="left"><p>The default is enabled.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>Roam Windows settings</p></td>
+<td align="left"><p>Ping the settings storage location before sync</p></td>
 <td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>This Group Policy setting configures the synchronization of Windows settings.</p></td>
-<td align="left"><p>Select which Windows settings synchronize between computers.</p>
-<p>By default, Windows themes, desktop settings, and Ease of Access settings synchronize settings between computers of the same operating system version.</p></td>
+<td align="left"><p>This policy setting allows to configure the UE-V sync provider to ping the settings storage path before attempting to sync settings, to verify the connection.</p></td>
+<td align="left"><p>Enable or disable this Group Policy setting.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Settings package size warning threshold</p></td>
@@ -110,15 +109,28 @@ The following policy settings can be configured for UE-V.
 <td align="left"><p>Specify the preferred synchronization time-out in milliseconds. The default value is 2000 milliseconds.</p></td>
 </tr>
 <tr class="even">
+<td align="left"><p>Synchronize Windows settings </p></td>
+<td align="left"><p>Computers and Users</p></td>
+<td align="left"><p>This Group Policy setting configures the synchronization of Windows settings.</p></td>
+<td align="left"><p>Select which Windows settings synchronize between computers.</p>
+<p>By default, Windows themes, desktop settings, and Ease of Access settings synchronize settings between computers of the same operating system version.</p></td>
+</tr>
+<tr class="odd">
 <td align="left"><p>Tray Icon</p></td>
 <td align="left"><p>Computers Only</p></td>
 <td align="left"><p>This Group Policy setting enables the User Experience Virtualization (UE-V) tray icon.</p></td>
 <td align="left"><p>The default is enabled.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p>Use User Experience Virtualization (UE-V)</p></td>
 <td align="left"><p>Computers and Users</p></td>
 <td align="left"><p>This Group Policy setting lets you enable or disable User Experience Virtualization (UE-V).</p></td>
+<td align="left"><p>Enable or disable this Group Policy setting.</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><p>VDI Configuration</p></td>
+<td align="left"><p>Computers and Users</p></td>
+<td align="left"><p>This policy setting configures the synchronization of UE-V rollback information for computers running in a pooled VDI environment. If policy is enabled, the UE-V rollback state is copied to the settings storage location on logout and restored on login.</p></td>
 <td align="left"><p>Enable or disable this Group Policy setting.</p></td>
 </tr>
 </tbody>
