@@ -124,7 +124,7 @@ The following policy settings can be configured for UE-V.
 <tr class="even">
 <td align="left"><p>Use User Experience Virtualization (UE-V)</p></td>
 <td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>This Group Policy setting lets you enable or disable User Experience Virtualization (UE-V).</p></td>
+<td align="left"><p>This Group Policy setting lets you enable or disable UE-V.</p></td>
 <td align="left"><p>Enable or disable this Group Policy setting.</p></td>
 </tr>
 <tr class="odd">
@@ -222,6 +222,5 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
  
 
  
-
 
 
