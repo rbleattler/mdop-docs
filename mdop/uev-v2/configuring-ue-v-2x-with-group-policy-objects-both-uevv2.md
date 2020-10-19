@@ -67,7 +67,7 @@ The following policy settings can be configured for UE-V.
 <tr class="odd">
 <td align="left"><p>Ping the settings storage location before sync</p></td>
 <td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>This policy setting allows to configure the UE-V sync provider to ping the settings storage path before attempting to sync settings, to verify the connection.</p></td>
+<td align="left"><p>This policy setting allows configuration of the UE-V sync provider to ping the settings storage path before attempting to sync settings in order to verify the connection.</p></td>
 <td align="left"><p>Enable or disable this Group Policy setting.</p></td>
 </tr>
 <tr class="even">
@@ -222,7 +222,6 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
  
 
  
-
 
 
 
