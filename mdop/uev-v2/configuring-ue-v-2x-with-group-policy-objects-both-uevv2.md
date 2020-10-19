@@ -118,7 +118,7 @@ The following policy settings can be configured for UE-V.
 <tr class="odd">
 <td align="left"><p>Tray Icon</p></td>
 <td align="left"><p>Computers Only</p></td>
-<td align="left"><p>This Group Policy setting enables the User Experience Virtualization (UE-V) tray icon.</p></td>
+<td align="left"><p>This Group Policy setting enables the UE-V tray icon.</p></td>
 <td align="left"><p>The default is enabled.</p></td>
 </tr>
 <tr class="even">
@@ -222,4 +222,3 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
  
 
  
-
