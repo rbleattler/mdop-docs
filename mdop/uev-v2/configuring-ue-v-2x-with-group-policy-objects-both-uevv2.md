@@ -130,7 +130,7 @@ The following policy settings can be configured for UE-V.
 <tr class="odd">
 <td align="left"><p>VDI Configuration</p></td>
 <td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>This policy setting configures the synchronization of UE-V rollback information for computers running in a pooled VDI environment. If policy is enabled, the UE-V rollback state is copied to the settings storage location on logout and restored on login.</p></td>
+<td align="left"><p>This policy setting configures the synchronization of UE-V rollback information for computers running in a pooled VDI environment. If this policy is enabled, the UE-V rollback state is copied to the settings storage location on logout and restored on login.</p></td>
 <td align="left"><p>Enable or disable this Group Policy setting.</p></td>
 </tr>
 </tbody>
@@ -222,5 +222,4 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
  
 
  
-
 
