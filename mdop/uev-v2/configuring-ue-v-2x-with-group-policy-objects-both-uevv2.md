@@ -42,7 +42,7 @@ The following policy settings can be configured for UE-V.
 <tr class="odd">
 <td align="left"><p>Configure Sync Method</p></td>
 <td align="left"><p>Computers and Users</p></td>
-<td align="left"><p>By using this Group Policy setting, you can configure whether UE-V uses the sync provider feature. This policy setting also lets you enable notification to appear when the import of user settings is delayed.</p></td>
+<td align="left"><p>By using this Group Policy setting, you can configure whether User Experience Virtualization (UE-V) uses the sync provider feature. This policy setting also lets you enable a notification to appear when the import of user settings is delayed.</p></td>
 <td align="left"><p>Enable this setting to configure the UE-V agent not to use the sync provider, or to use the external synchronization engine.</p></td>
 </tr>
 <tr class="even">
