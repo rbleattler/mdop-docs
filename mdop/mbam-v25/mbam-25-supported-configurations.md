@@ -162,6 +162,12 @@ The following table lists the operating systems that are supported for the MBAM 
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left"><p>Windows Server 2019</p></td>
+<td align="left"><p>Standard or Datacenter</p></td>
+<td align="left"></td>
+<td align="left"><p>64-bit</p></td>
+</tr>
+<tr class="odd">
 <td align="left"><p>Windows Server 2016</p></td>
 <td align="left"><p>Standard or Datacenter</p></td>
 <td align="left"></td>
@@ -345,6 +351,10 @@ You must install SQL Server with the **SQL\_Latin1\_General\_CP1\_CI\_AS** colla
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left"><p>Microsoft SQL Server 2019</p></td>
+<td align="left"><p>Standard, Enterprise, or Datacenter</p></td>
+<td align="left"><p></p></td>
+<td align="left"><p>64-bit</p></td><br/><tr class="even">
 <td align="left"><p>Microsoft SQL Server 2017</p></td>
 <td align="left"><p>Standard, Enterprise, or Datacenter</p></td>
 <td align="left"><p></p></td>
@@ -373,6 +383,8 @@ You must install SQL Server with the **SQL\_Latin1\_General\_CP1\_CI\_AS** colla
 </table>
 
 **Note**  
+MBAM has a maximum supported compatibility level of 140. The default compatibility level for new databases created on SQL Server 2019 is 150 which will need to be altered to 140 or lower, using the ALTER DATABASE command, after the database has been created. Existing databases migrated from SQL server 2017 or below will remain at their previous compatibility level and do not need to be altered.
+
 In order to support SQL 2016 you must install the March 2017 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=54967  and to support SQL 2017 you must install the July 2018 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=57157. In general stay current by always using the most recent servicing update as it also includes all bugfixes and new features.
 
 
