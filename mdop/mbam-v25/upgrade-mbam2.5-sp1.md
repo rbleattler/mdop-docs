@@ -38,7 +38,7 @@ In this guide, we will use a two-server configuration. One server will be a data
 
 ## Upgrade the MBAM infrastructure to the latest version available.
 
-Latest Version as of Mar 20201 : v2.5.1152.0 ([October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/en-us/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9))
+Latest Version as of March 2021 : v2.5.1152.0 ([October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/en-us/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9))
 
 MBAM Server infrastructure installation or upgrade is always performed in the order listed below:
 
