@@ -13,7 +13,6 @@ ms.prod: w10
 ms.date: 08/30/2016
 ---
 
-
 # About DaRT 10
 
 DaRT 10 includes the following enhancements and changes.
@@ -64,7 +63,7 @@ DaRT 10 is available in the following languages:
 
 ## How to get DaRT
 
-DaRT 10 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049) (https://go.microsoft.com/fwlink/?LinkId=322049).
+DaRT 10 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049).
 
 ## Related topics
 
