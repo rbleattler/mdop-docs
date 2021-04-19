@@ -27,8 +27,8 @@ Access keys let you quickly use a command by pressing a few keys. You can get to
 
 2. Press the letter shown in the keyboard shortcut over the feature that you want to use.
 
-> [!Note]
-> To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
+    > [!Note]
+    > To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
 ## Documentation in alternative formats
 
