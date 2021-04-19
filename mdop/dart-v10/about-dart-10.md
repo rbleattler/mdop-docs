@@ -10,7 +10,7 @@ ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library
 ms.prod: w10
-ms.date: 08/30/2016
+ms.date: 04/20/2021
 ---
 
 # About DaRT 10
@@ -34,9 +34,9 @@ DaRT 10 includes the following enhancements and changes.
 
 - **Windows Assessment and Deployment Kit 10.0**
 
-    [Windows Assessment and Deployment Kit (ADK) 10.0](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install) is a required prerequisite for the DaRT Recovery Image Wizard. Windows ADK 10.0 contains deployment tools that are used to customize, deploy, and service Windows images. It also contains the Windows PE.
+    [Windows Assessment and Deployment Kit (ADK) 10.0](https://docs.microsoft.com/windows-hardware/get-started/adk-install) is a required prerequisite for the DaRT Recovery Image Wizard. Windows ADK 10.0 contains deployment tools that are used to customize, deploy, and service Windows images. It also contains the Windows PE.
 
-    > [!NOTE]  
+    > [!NOTE]
     > Windows ADK 10.0 is not required if you are installing only Remote Connection Viewer or Crash Analyzer.
 
 - **Windows 10 Debugging Tools**

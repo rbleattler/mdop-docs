@@ -10,7 +10,7 @@ ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library
 ms.prod: w10
-ms.date: 08/30/2016
+ms.date: 04/20/2021
 ---
 
 # Accessibility for DaRT 10
@@ -27,7 +27,7 @@ Access keys let you quickly use a command by pressing a few keys. You can get to
 
 2. Press the letter shown in the keyboard shortcut over the feature that you want to use.
 
-    > [!Note]
+    > [!NOTE]
     > To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
 ## Documentation in alternative formats

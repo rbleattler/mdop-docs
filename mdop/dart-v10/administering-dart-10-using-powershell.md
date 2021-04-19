@@ -10,7 +10,7 @@ ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library
 ms.prod: w10
-ms.date: 06/16/2016
+ms.date: 04/20/2021
 ---
 
 # Administering DaRT 10 Using PowerShell
