@@ -22,6 +22,7 @@ After you boot the computer into DaRT, you can run the different DaRT tools to t
 You can create the DaRT recovery image by using either of two methods:
 
 - Use the DaRT Recovery Image wizard, which runs in a Windows environment.
+
 - Modify an example PowerShell script with the values you want. For more information, see [Administering DaRT 10 Using PowerShell](administering-dart-10-using-powershell.md).
 
 You can write the ISO to a recordable CD or DVD, save it to a USB flash drive, or save it in a format that you can use to boot into DaRT from a remote partition or from a recovery partition.
@@ -35,9 +36,12 @@ On the Windows 10 Media page, you select whether to create a 32-bit or 64-bit Da
 To select the image architecture and specify the path:
 
 1. On the **Windows 10 Media** page, select one of the following:
+
     - If you are creating a recovery image for 64-bit computers, select **Create x64 (64-bit) DaRT image**.
+
     - If you are creating a recovery image for 32-bit computers, select **Create x86 (32-bit) DaRT image**.
 2. In the **Specify the root path of the Windows 10 &lt;64-bit or 32-bit&gt; install media** box, type the path of the Windows 10 installation files. Use a path that matches the architecture of the recovery image that you are creating.
+
 3. Click **Next**.
 
 ## Select the tools to include on the recovery image
@@ -49,6 +53,7 @@ To restrict end-user access to these tools, but still retain full access to the 
 To select the tools to include on the recovery image:
 
 1. On the **Tools** page, select the check box beside each tool that you want to include on the image.
+
 2. Click **Next**.
 
 ## Choose whether to allow remote connectivity by a help desk
@@ -58,13 +63,17 @@ On the Remote Connection page, you can choose to enable a help desk worker to re
 To choose whether to allow remote connectivity by help desk workers:
 
 1. On the **Remote Connection** page, select the **Allow remote connections** check box to allow remote connections, or clear the check box to prevent remote connections.
+
 2. If you cleared the **Allow remote connections** check box, click **Next**. Otherwise, go to the next step to continue configuring remote connectivity.
+
 3. Select one of the following:
 
     - Let Windows choose an open port number.
+
     - Specify the port number. If you select this option, enter a port number between 1 and 65535 in the field beneath the option. This port number will be used when establishing a remote connection. We recommend that the port number be 1024 or higher to minimize the possibility of a conflict.
 
 4. (Optional) in the **Remote connection welcome** message box, create a customized message that end users receive when they establish a remote connection. The message can be a maximum of 2048 characters.
+
 5. Click **Next**.
 
     For more information about running the DaRT tools remotely, see [How to Recover Remote Computers by Using the DaRT Recovery Image](how-to-recover-remote-computers-by-using-the-dart-recovery-image-dart-10.md).
@@ -79,13 +88,16 @@ On the Drivers tab of the Advanced Options page, you can add additional device d
 To add drivers to the recovery image:
 
 1. On the **Advanced Options** page, click the **Drivers** tab.
+
 2. Click **Add**.
+
 3. Browse to the file to be added for the driver, and then click **Open**.
 
     > [!NOTE]
     > The driver file is provided by the manufacturer of the storage or network controller.
 
 4. Repeat Steps 2 and 3 for every driver that you want to include.
+
 5. Click **Next**.
 
 ## Add WinPE optional packages to the recovery image
@@ -97,8 +109,11 @@ You can also specify the size of the scratch space. Scratch space is the amount 
 To add WinPE optional packages to the recovery image:
 
 1. On the **Advanced Options** page, click the **WinPE** tab.
+
 2. Select the check box beside each package that you want to include on the image, or click the **Name** check box to select all of the packages.
+
 3. In the **Scratch Space** field, select the amount of RAM disk space to allocate for running DaRT in case the end user’s hard disk is not available.
+
 4. Click **Next**.
 
 ## Add the debugging tools for Crash Analyzer
@@ -118,10 +133,13 @@ To download the Windows Debugging Tools, see [Debugging Tools for Windows](https
 To add the debugging tools for Crash Analyzer:
 
 1. On the **Advanced Options** page, click the **Crash Analyzer** tab.
+
 2. (Optional) Click **Download the Debugging Tools** to download the Debugging Tools for Windows.
+
 3. Select one of the following options:
 
     - **Include the Windows 10 &lt;64-bit or 32-bit&gt; Debugging Tools**. If you select this option, browse to and select the location of the tools if the path is not already displaying.
+
     - **Use the Debugging Tools from the system that is being debugged**. If you select this option, the Crash Analyzer will not work if the Debugging Tools for Windows are not found on the problem computer.
 
 4. Click **Next**.
@@ -133,7 +151,9 @@ On the Create Image page, you choose an output folder for the recovery image, en
 The available image file types are:
 
 - **Windows Imaging File (WIM)** - used to deploy DaRT to a preboot execution environment (PXE) or local partition).
-- **International Standards Organization (ISO)** – used to deploy to CD or DVD, or for use in virtual machines (VM)s). The wizard requires that the ISO image have an .iso file name extension because most programs that burn a CD or DVD require that extension. If you do not specify a different location, the ISO image is created on your desktop with the name DaRT10.ISO.
+
+- **ISO image file** – used to deploy to CD or DVD, or for use in virtual machines (VM)s). The wizard requires that the ISO image have an .iso file name extension because most programs that burn a CD or DVD require that extension. If you do not specify a different location, the ISO image is created on your desktop with the name DaRT10.ISO.
+
 - **PowerShell script** – creates a DaRT recovery image with commands that provide essentially the same options that you can select by using the DaRT Recovery Image wizard. The script also enables you to add or changes files in the DaRT recovery image.
 
 If you select the Edit Image check box on this page, you can customize the recovery image during the image creation process. For example, you can change the “winpeshl.ini” file to create a custom startup order or to add third-party tools.
@@ -150,6 +170,7 @@ To select the types of recovery image files to create:
     The wizard creates a subfolder in the output path by this name.
 
 3. Select the types of image files that you want to create.
+
 4. Choose one of the following:
 
     - To change the files in the recovery image before you create the image files, select the **Edit Image** check box, and then click **Prepare**.
@@ -164,8 +185,11 @@ You can edit the recovery image only if you selected the Edit Image check box on
 To edit the recovery image files:
 
 1. On the **Edit Image** page, click **Open** in Windows Explorer.
+
 2. Create a subfolder in the folder that is listed in the dialog box.
+
 3. Copy the files that you want to the new subfolder, or remove files that you don’t want.
+
 4. Click **Create** to start creating the recovery image.
 
 ## Generate the recovery image files
@@ -186,12 +210,14 @@ On the Create Bootable Media page, you can optionally copy the image file to a C
 To copy the recovery image to a CD, DVD, or USB:
 
 1. On the **Create Bootable Media** page, select the iso file that you want to copy.
+
 2. Insert a CD, DVD, or USB, and then select the drive.
 
     > [!NOTE]
     > If a drive is not recognized and you install a new drive, you can click **Refresh** to force the wizard to update the list of available drives.
 
 3. Click the **Create Bootable Media** button.
+
 4. To create another recovery image, click Restart, or click **Close** if you have finished creating all of the media that you want.
 
 ## Related topics
