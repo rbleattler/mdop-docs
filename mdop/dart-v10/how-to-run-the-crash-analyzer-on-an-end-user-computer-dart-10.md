@@ -15,7 +15,7 @@ ms.date: 08/30/2016
 
 # How to Run the Crash Analyzer on an End-user Computer
 
-To run **Crash Analyzer** from the **Diagnostics and Recovery Toolset** window on an end-user computer that is experiencing problems, you must have the Microsoft Debugging Tools for Windows and the symbol files installed. To download the Windows Debugging Tools, see [Debugging Tools for Windows](https://go.microsoft.com/fwlink/?LinkId=266248).
+To run **Crash Analyzer** from the **Diagnostics and Recovery Toolset** window on an end-user computer that is experiencing problems, you must have the Microsoft Debugging Tools for Windows and the symbol files installed. To download the Windows Debugging Tools, see the "[Download Debugging Tools for Windows](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools)" page.
 
 To run the Crash Analyzer on an end-user computer:
 
