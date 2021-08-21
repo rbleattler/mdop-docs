@@ -52,7 +52,7 @@ For more information about App-V infrastructure models, see the following docume
 
 These models utilize some but possibly not all of the App-V components depicted in the following illustration.
 
-![app-v branch office diagram](images/appvbranchoffices.gif)
+![app-v branch office diagram.](images/appvbranchoffices.gif)
 
 <a href="" id="application-virtualization--app-v--management-server"></a>Application Virtualization (App-V) Management Server  
 The App-V Management Server streams the package content and publishes the shortcuts and file-type associations to the App-V Client. The App-V Management Server also supports active upgrade, license management, and a database that can be used for reporting.

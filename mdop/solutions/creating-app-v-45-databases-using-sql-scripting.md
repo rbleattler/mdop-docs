@@ -155,7 +155,7 @@ The two sample batch files must be placed in the same directory where the rest o
 
     -   Run the create schema.bat file from the directory where it was copied to. Syntax is: “Create\_schema.bat `SQLSERVERNAME`”
 
-        ![AppV46SQLcreatebat](images/appv46sqlcreatebat.bmp)
+        ![AppV46SQLcreatebat.](images/appv46sqlcreatebat.bmp)
 
     -   If this script fails during the creation of the new “APPVIRTDB” database, check the log as indicated to correct the issue. It will be necessary to delete the database that was created with a partial running of the scripts in order to ensure that subsequent attempts will work properly.
 
@@ -163,7 +163,7 @@ The two sample batch files must be placed in the same directory where the rest o
 
     -   Run the create\_tables.bat file from the directory where it was copied. Syntax is: “create\_tables.bat `SQLSERVERNAME DBNAME`”
 
-        ![app-v 4.6 sql create\-table.bat](images/appv46sqlcreate-tablebat.gif)
+        ![app-v 4.6 sql create\-table.bat.](images/appv46sqlcreate-tablebat.gif)
 
         If the script fails during the creation of the tables, check the log as indicated to correct the issue. It will be necessary to delete the database and run create\_schema.bat before attempting to run the create\_tables.bat file on all subsequent attempts.
 
@@ -173,15 +173,15 @@ The following accounts will need to be created on the SQL server with specific p
 
 -   Create a login for the App-V administrators group on the SQL Server and the APPVIRTDB database for the “domain\\App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment) and add them to the SFTAdmin and SFTEveryone database role.
 
-    ![app-v 4.6 sql script set permissions and roles](images/appv46sqlscriptsetpermsroles.gif)
+    ![app-v 4.6 sql script set permissions and roles.](images/appv46sqlscriptsetpermsroles.gif)
 
 -   Grant this group “VIEW ANY DEFINITION” permission at the global level (This allows the Microsoft Application Virtualization Management Server setup process to verify that the Management Server login already exists). Under MS-SQL 2005 and above access restrictions to the metadata contained in master.db were added. The user created in the previous step will by default not have the rights needed by the server installation. Open the properties of the previously created login, Login Properties-&gt;Securables. Add the Database instance and enable “GRANT” for “View any definition” as shown in the screenshot below.
 
-    ![app-v 4.6 sql script grant perm for view any def](images/appv46sqlscriptviewanydef.gif)
+    ![app-v 4.6 sql script grant perm for view any def.](images/appv46sqlscriptviewanydef.gif)
 
 -   Add a role to the ROLE\_ASSIGNMENTS table for the login created in the previous step to allow App-V administrators access to the Application Virtualization Management Console, with role = “ADMIN” and group\_ref = “domain\\App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment).
 
-    ![app-v 4.6 sql script role assignment](images/appv46sqlscriptroleassign.gif)
+    ![app-v 4.6 sql script role assignment.](images/appv46sqlscriptroleassign.gif)
 
 -   Create login for SQL Server and App-V database for the Management Server. This account is used by the Microsoft Application Virtualization Management Server to connect to the data store and is responsible for servicing client requests for streamed applications. There are two options, depending on where the SQL Server and Management Server are to be installed:
 

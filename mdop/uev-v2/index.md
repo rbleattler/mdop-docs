@@ -34,7 +34,7 @@ Capture and centralize your users’ application settings and Windows OS setting
 
 This diagram shows how deployed UE-V components work together to synchronize settings.
 
-![uev2 architectural diagram](images/uev2archdiagram.gif)
+![uev2 architectural diagram.](images/uev2archdiagram.gif)
 
 <table>
 <colgroup>
@@ -109,7 +109,7 @@ Use these UE-V components to create and manage custom templates for your third-p
 
 
 
-![ue-v generator process](images/ue-vgeneratorprocess.gif)
+![ue-v generator process.](images/ue-vgeneratorprocess.gif)
 
 ## Settings Synchronized by Default
 

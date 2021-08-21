@@ -19,7 +19,7 @@ ms.date: 06/16/2016
 
 This topic describes high-level architectural elements of the Microsoft User Experience Virtualization (UE-V) settings roaming solution. The following elements are part of a standard UE-V deployment.
 
-![ue-v agent architectural diagram](images/ue-vagentarchitecturaldiagram.gif)
+![ue-v agent architectural diagram.](images/ue-vagentarchitecturaldiagram.gif)
 
 The UE-V Agent monitors the applications and the operating system processes as they are identified in the UE-V settings location templates. When the application or operating system starts, the settings are read from the settings package and applied to the computer. When the application closes or when the operating system is locked or shut down, settings are saved in a UE-V settings package in the settings storage location.
 
@@ -51,7 +51,7 @@ UE-V includes a set of settings location templates that specify settings locatio
 
 Application settings and Windows settings are stored in settings packages, which are created by the UE-V Agent. A settings package is a collection of the settings that are represented in the settings location templates. These settings packages are built, locally stored, and then copied to the settings storage location. “Last write wins” determines which settings are preserved when a single user synchronizes the more than one computer to a storage location. The agent that runs on one computer reads and writes to the settings location independent of agents that run on other computers. The most recently written settings and values are applied when the next agent reads from the settings storage location.
 
-![ue-v generator process](images/ue-vgeneratorprocess.gif)
+![ue-v generator process.](images/ue-vgeneratorprocess.gif)
 
 ## Settings template catalog
 
