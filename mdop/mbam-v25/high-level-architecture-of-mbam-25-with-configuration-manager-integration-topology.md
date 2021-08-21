@@ -70,7 +70,7 @@ The main differences between the topologies are:
 
 The following diagram and table describe the recommended high-level architecture for MBAM with the Configuration Manager Integration topology. MBAM multi-forest deployments require a one-way or two-way trust. One-way trusts require that the server domain trusts the client domain.
 
-![mbam2\-5](images/mbam2-5-cmserver.png)
+![mbam2\-5.](images/mbam2-5-cmserver.png)
 
 ### Database server
 

@@ -21,7 +21,7 @@ Microsoft BitLocker Administration and Monitoring (MBAM) Server features for the
 
 The following diagram shows an example of how you can configure the recommended two-server MBAM deployment. This configuration supports up to 200,000 MBAM clients in a production environment. The server features and databases in the architecture image are described in the following section and are listed under the computer or server where we recommend that you install them.
 
-![mbam 2 two-server deployment topology](images/mbam2-3-servers.gif)
+![mbam 2 two-server deployment topology.](images/mbam2-3-servers.gif)
 
 ## Administration and Monitoring Server
 

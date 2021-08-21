@@ -19,7 +19,7 @@ ms.date: 06/16/2016
 
 In an environment where securing administrative operations is important, App-V allows for secure communication between the App-V Web Management Service and the App-V Management Console. Because the Management Service is a Web-based application, it requires securing the App-V Management Server application on the Web server that hosts the Management Service. As shown in the following illustration, this process includes using HTTPS for communication and configuring the IIS server to allow only Windows Integrated Authentication.
 
-![app-v web service network configuration](images/appvmgmtwebservice.gif)
+![app-v web service network configuration.](images/appvmgmtwebservice.gif)
 
 The App-V Web Management Service is installed as a Web-based application on IIS. For the Web Management Service to support secure (SSL) connections between the App-V Management Console and the Web Management Service, you will need to configure the IIS server where the Web Management Service is installed and configure the App-V Management Console.
 

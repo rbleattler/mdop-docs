@@ -47,7 +47,7 @@ First, let’s look at the tasks you’ll do to deploy UE-V:
 
 This workflow diagram provides a high-level understanding of a UE-V deployment and the decisions that determine how you deploy UE-V in your enterprise.
 
-![deploymentworkflow](images/deploymentworkflow.png)
+![deploymentworkflow.](images/deploymentworkflow.png)
 
 **Planning a UE-V deployment:** First, you want to do a little bit of planning so that you can determine which UE-V components you’ll be deploying. Planning a UE-V deployment involves these things:
 

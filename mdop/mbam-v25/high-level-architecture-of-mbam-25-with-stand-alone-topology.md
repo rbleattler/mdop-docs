@@ -62,7 +62,7 @@ The recommended number of servers and supported number of clients in a productio
 
 The following diagram and table describe the recommended high-level, two-server architecture for MBAM with the Stand-alone topology. MBAM multi-forest deployments require a one-way or two-way trust. One-way trusts require that the server domain trusts the client domain.
 
-![mbam2](images/mbam2-5-2servers.png)
+![mbam2.](images/mbam2-5-2servers.png)
 
 Server
 Features to configure on this server
