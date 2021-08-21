@@ -180,7 +180,7 @@ After the certificate is issued, you should add the certificate to the personal 
 
 1. Right-select Start, and then select Run.
 
-   ![Select .](images/deploying-MBAM-2.png)
+   ![Select.](images/deploying-MBAM-2.png)
 
 2. Type "MMC.EXE" (without the quotation marks), and then select **OK**.
 
