@@ -901,7 +901,7 @@ Adding an App-V package to the client is the first step of the publishing refres
 
 This completes an App-V package add of the publishing refresh process. The next step is publishing the package to the specific target (machine or user).
 
-![package add file and registry data](images/packageaddfileandregistrydata.png)
+![package add file and registry data.](images/packageaddfileandregistrydata.png)
 
 ### Publishing an App-V package
 
@@ -932,7 +932,7 @@ During the Publishing Refresh operation, the specific publishing operation (Publ
 
 Publishing an App-V Package that is part of a Connection Group is very similar to the above process. For connection groups, the path that stores the specific catalog information includes PackageGroups as a child of the Catalog Directory. Review the machine and users catalog information above for details.
 
-![package add file and registry data - global](images/packageaddfileandregistrydata-global.png)
+![package add file and registry data - global.](images/packageaddfileandregistrydata-global.png)
 
 ### Application launch
 
@@ -958,7 +958,7 @@ After the Publishing Refresh process, the user launches and subsequently re-laun
 
 7.  The Application launches. For any missing files in the package store (sparse files), App-V will stream fault the files on an as needed basis.
 
-    ![package add file and registry data - stream](images/packageaddfileandregistrydata-stream.png)
+    ![package add file and registry data - stream.](images/packageaddfileandregistrydata-stream.png)
 
 ### Upgrading an App-V package
 

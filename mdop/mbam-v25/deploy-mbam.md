@@ -38,7 +38,7 @@ Before we start configuring MBAM 2.5, we have to make sure that both servers are
 
     SQL Server Reporting Services must be installed and configured in "native" mode and not in unconfigured or "SharePoint" mode.
 
-    ![The required SQL Server features](images/deploying-MBAM-1.png)
+    ![The required SQL Server features.](images/deploying-MBAM-1.png)
 
 4. If you plan to use SSL for the Administration and Monitoring website, make sure that you configure SQL Server Reporting Services (SSRS) to use the Secure Sockets Layer (SSL) protocol before you configure the Administration and Monitoring website. Otherwise, the Reports feature will use unencrypted (HTTP) data transport instead of encrypted (HTTPS).
 
@@ -180,31 +180,31 @@ After the certificate is issued, you should add the certificate to the personal 
 
 1. Right-select Start, and then select Run.
 
-   ![Select ](images/deploying-MBAM-2.png)
+   ![Select.](images/deploying-MBAM-2.png)
 
 2. Type "MMC.EXE" (without the quotation marks), and then select **OK**.
 
-   ![Run box](images/deploying-MBAM-3.png) 
+   ![Run box.](images/deploying-MBAM-3.png) 
 
 3. Select **File** in the new MMC that you opened, and then select **Add/Remove Snap-in**.
    
-   ![Select](images/deploying-MBAM-4.png)
+   ![Select.](images/deploying-MBAM-4.png)
 
 4. Highlight the **Certificates** snap-in, and then select **Add**.
 
-   ![Add or Remove Snap-ins window](images/deploying-MBAM-5.png)
+   ![Add or Remove Snap-ins window.](images/deploying-MBAM-5.png)
 
 5. Select the **Computer account** option, and then select **Next**.
    
-   ![Certificates snap-in window](images/deploying-MBAM-6.png)
+   ![Certificates snap-in window.](images/deploying-MBAM-6.png)
 
 6. Select **Local Computer** on the next screen, and then select **Finish**.
    
-   ![Select Computer window](images/deploying-MBAM-7.png)
+   ![Select Computer window.](images/deploying-MBAM-7.png)
 
 7. You have now added the Certificates snap-in. This will enable you to work with any certificates in your computer's certificate store.
 
-   ![Add or Remove Snap-ins window](images/deploying-MBAM-8.png)
+   ![Add or Remove Snap-ins window.](images/deploying-MBAM-8.png)
 
 8. Import the web server certificate into your computer's certificate store.
 
@@ -212,36 +212,36 @@ After the certificate is issued, you should add the certificate to the personal 
 
 9. Open the Certificates (Local Computer) snap-in, and browse to **Personal** and then **Certificates**.
    
-   ![Certificates (Local Computer) snap-in window](images/deploying-MBAM-9.png)
+   ![Certificates (Local Computer) snap-in window.](images/deploying-MBAM-9.png)
 
    > [!Note]
    > The Certificates snap-in may not be listed. If it is not, no certificates are installed.
 
 10. Right-select **Certificates**, select **All Tasks**, and then select **Import**.
 
-    ![Certificates (Local Computer) snap-in window](images/deploying-MBAM-10.png)
+    ![Certificates (Local Computer) snap-in window.](images/deploying-MBAM-10.png)
 
 11. When the wizard starts, select **Next**. Browse to the file that you created that contains your server certificate and private key, and then select **Next**.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-11.png)
+    ![Certificate Import Wizard window.](images/deploying-MBAM-11.png)
 
 12. Enter the password if you specified one for the file when you created it.
 
-   ![Enter password window](images/deploying-MBAM-12.png)
+   ![Enter password window.](images/deploying-MBAM-12.png)
 
    > [!Note]
    > Make sure that the **Mark the key as exportable** option is selected if you want to be able to export the key pair again from this computer. As an added security measure, you may want to leave this option cleared to make sure that no one can make a backup of your private key.
  
 13. Select **Next**, and then select the **Certificate Store** to which you want to save the certificate.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-13.png)
+    ![Certificate Import Wizard window.](images/deploying-MBAM-13.png)
 
     > [!Note]
     > You should select **Personal**, because it is a web server certificate. If you included the certificate in the certification hierarchy, it will also be added to this store.
  
 14. Select **Next**, and then select **Finish**.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-14.png)
+    ![Certificate Import Wizard window.](images/deploying-MBAM-14.png)
 
 You will now see the server certificate for your web server in the Personal Certificates list. It will be denoted by the common name of the server. (You can find this in the subject section of the certificate.)
 

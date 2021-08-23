@@ -28,7 +28,7 @@ A single-server architecture should be used only in test environments.
 
  
 
-![mbam 2 two-server deployment topology](images/mbam2-3-servers.gif)
+![mbam 2 two-server deployment topology.](images/mbam2-3-servers.gif)
 
 ## Administration and Monitoring Server
 

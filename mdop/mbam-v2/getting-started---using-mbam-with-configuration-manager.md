@@ -68,7 +68,7 @@ There are four reports that you can use to view compliance. They are:
 
 The following image shows the MBAM architecture with the Configuration Manager topology. This configuration supports up to 200,000 MBAM clients in a production environment.
 
-![mbam architecture with configuration manager](images/mbam2-cmserver.gif)
+![mbam architecture with configuration manager.](images/mbam2-cmserver.gif)
 
 A description of the servers, databases, and features of this architecture follows. The server features and databases in the architecture image are listed under the computer or server where we recommend that you install them.
 

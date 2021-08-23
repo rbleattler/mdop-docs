@@ -573,13 +573,13 @@ To re-install or reconfigure MBAM infrastructure, you must know the following th
 
 To find the Application Pool account, log on to the MBAM Web Server, open **Internet Information Services (IIS) Manager**, and then select **Application Pools**:
 
-![application pools](images/troubleshooting-MBAM-installation-1.png)
+![application pools.](images/troubleshooting-MBAM-installation-1.png)
 
 The Service Principal Name (SPN) must be set in this account. This setting is very important to the functionality of MBAM.
 
 ### MBAM Groups (Helpdesk, Advanced, Report Users Group and Reports URL)
 
-![MBAM Groups](images/troubleshooting-MBAM-installation-2.png)
+![MBAM Groups.](images/troubleshooting-MBAM-installation-2.png)
 
 This provides information such as Helpdesk Group, Advanced Helpdesk Group, Report Users group, and MBAM Reports URL. The MBAM Reports URL must be provided in the MBAM setup and should read as: http(s)://servername/ReportServer.
 
@@ -589,7 +589,7 @@ To find the SQL Server names and instances hosting the MBAM DBs, log on to the M
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MBAM Server\Web**
 
-![Regedit](images/troubleshooting-MBAM-installation-3.png)
+![Regedit.](images/troubleshooting-MBAM-installation-3.png)
 
 The highlighted portions are connection strings. These should have the SQL Server name, database names, and instances (if named).
 
@@ -605,33 +605,33 @@ This information will be in the SQL Server database, for which we already found 
 
 For example, The the lab account name is **MBAMWrite**. The Application Pool and ReadWrite accounts are set to be the same.
 
-![SQL DB](images/troubleshooting-MBAM-installation-4.png)
+![SQL DB.](images/troubleshooting-MBAM-installation-4.png)
 
-![DB properties](images/troubleshooting-MBAM-installation-5.png)
+![DB properties.](images/troubleshooting-MBAM-installation-5.png)
 
 Browse to **Security** and then **Logins** in SQL Management Studio. Browse to the account shown in the previous screenshot.
 
-![SQL Security](images/troubleshooting-MBAM-installation-6.png)
+![SQL Security.](images/troubleshooting-MBAM-installation-6.png)
 
 Right-click the accounts, go to **Properties User Mapping**, and locate the MBAM Recovery and Hardware database:
 
-![User Mapping](images/troubleshooting-MBAM-installation-7.png)
+![User Mapping.](images/troubleshooting-MBAM-installation-7.png)
 
 #### ReadOnly account
 
 Open SQL Server Reporting Services Configuration Manager on the SSRS Server. Select **Report Manager URL**, and then browse the **URLs**:
 
-![Report Manager](images/troubleshooting-MBAM-installation-8.png)
+![Report Manager.](images/troubleshooting-MBAM-installation-8.png)
 
 Select **Microsoft Bitlocker Administration and Monitoring**:
 
-![Bitlocker Administration and Monitoring](images/troubleshooting-MBAM-installation-9.png)
+![Bitlocker Administration and Monitoring.](images/troubleshooting-MBAM-installation-9.png)
 
 Select **MaltaDatasource**:
 
-![DBs](images/troubleshooting-MBAM-installation-10.png)
+![DBs.](images/troubleshooting-MBAM-installation-10.png)
 
-![MaltaDatasource](images/troubleshooting-MBAM-installation-11.png)
+![MaltaDatasource.](images/troubleshooting-MBAM-installation-11.png)
 
 MaltaDataSource should have the ReadOnly Account name and should be used in MBAM setup.
 

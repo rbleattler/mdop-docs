@@ -21,7 +21,7 @@ The procedures in this topic describe how to install Microsoft BitLocker Adminis
 
 The following diagram shows an example of a single-server architecture. For a description of the databases and features, see [High-Level Architecture for MBAM 2.0](high-level-architecture-for-mbam-20-mbam-2.md).
 
-![mbam 2 single server deployment topology](images/mbam2-1-server.gif)
+![mbam 2 single server deployment topology.](images/mbam2-1-server.gif)
 
 Each server feature has certain prerequisites. To verify that you have met the prerequisites and hardware and software requirements, see [MBAM 2.0 Deployment Prerequisites](mbam-20-deployment-prerequisites-mbam-2.md) and [MBAM 2.0 Supported Configurations](mbam-20-supported-configurations-mbam-2.md). In addition, some features also have information that must be provided during the installation process to successfully deploy the feature. You should also review [Preparing your Environment for MBAM 2.0](preparing-your-environment-for-mbam-20-mbam-2.md) before you start MBAM deployment.
 

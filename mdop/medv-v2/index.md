@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 # Microsoft Enterprise Desktop Virtualization 2.0
 
 
-![med-v logotype](images/med-v2logo.gif)
+![med-v logotype.](images/med-v2logo.gif)
 
 Welcome to Microsoft Enterprise Desktop Virtualization (MED-V) 2.0. MED-V 2.0 uses Windows Virtual PC to provide an enterprise solution for desktop virtualization. By using MED-V, you can easily create, deliver, and manage corporate Windows Virtual PC images on any Windows-based desktop running Windows 7 Professional, Enterprise, or Windows 7 Ultimate.
 

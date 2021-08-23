@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 # Microsoft Enterprise Desktop Virtualization Planning, Deployment, and Operations Guide
 
 
-![microsoft enterprise desktop virtualization](images/medv.gif)
+![microsoft enterprise desktop virtualization.](images/medv.gif)
 
 Microsoft Enterprise Desktop Virtualization (MED-V) uses Microsoft Virtual PC to provide an enterprise solution for desktop virtualization. With MED-V, you can easily create, deliver, and manage corporate Virtual PC images on any Windows®-based desktop.
 
