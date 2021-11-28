@@ -314,9 +314,12 @@ To install the MBAM Server software by using the Microsoft BitLocker Administrat
 
 6. To start the installation, select **Install**.
 
-7. To configure the server features after the MBAM Server software finishes installing, select the **Run MBAM Server Configuration after the wizard closes** check box. Or, you can configure MBAM later by using the **MBAM Server Configuration** shortcut that the server installation creates on your **Start** menu.
+7. Select **Finish**.
 
-8. Select **Finish**.
+8. Before proceeding with configuring MBAM, install the latest MDOP servicing release update as otherwise your database server will not be recognized/supported and the configuration wizard will report an error when trying to validate the database configuration:
+   [October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9)
+
+9. You can configure MBAM by using the **MBAM Server Configuration** shortcut that the server installation creates on your **Start** menu.
 
 For more information, see [Installing the MBAM 2.5 Server Software](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/installing-the-mbam-25-server-software).
 
@@ -458,9 +461,9 @@ To validate your MBAM Server deployment to use the standalone topology, follow t
 
 2. On the server on which the Recovery Database is configured, open SQL Server Management Studio, and verify that the **MBAM Recovery and Hardware** database is configured.
 
-3. On the server om which the Compliance and Audit Database is configured, open SQL Server Management Studio, and verify that the MBAM Compliance Status Database is configured.
+3. On the server on which the Compliance and Audit Database is configured, open SQL Server Management Studio, and verify that the MBAM Compliance Status Database is configured.
 
-4. On the server onm which the Reports feature is configured, open a web browser by using administrative credentials, and browse to the homepage of the SQL Server Reporting Services site.
+4. On the server on which the Reports feature is configured, open a web browser by using administrative credentials, and browse to the homepage of the SQL Server Reporting Services site.
    
    The default homepage location of a SQL Server Reporting Services site instance is as follows:
    http(s)://*\<MBAM Reports Server Name\>*:*\<port\>*/Reports.aspx
