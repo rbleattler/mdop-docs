@@ -52,11 +52,11 @@ You can manage the feature settings of certain Microsoft Desktop Optimization Pa
    <tbody>
    <tr class="odd">
    <td align="left"><p>Group Policy template (.admx)</p></td>
-   <td align="left"><p><code>%systemroot%</code>&lt;strong&gt;policyDefinitions</strong></p></td>
+   <td align="left"><p><code>%systemroot%</code>\<strong>policyDefinitions</strong>\</p></td>
    </tr>
    <tr class="even">
    <td align="left"><p>Group Policy language file (.adml)</p></td>
-   <td align="left"><p><code>%systemroot%</code>&lt;strong&gt;policyDefinitions</strong><code>[MUIculture]</code></p></td>
+   <td align="left"><p><code>%systemroot%</code>\<strong>policyDefinitions</strong>\<code>[MUIculture]</code></p></td>
    </tr>
    </tbody>
    </table>
@@ -77,12 +77,12 @@ You can manage the feature settings of certain Microsoft Desktop Optimization Pa
    <tbody>
    <tr class="odd">
    <td align="left"><p>Group Policy template (.admx)</p></td>
-   <td align="left"><p><code>%systemroot%</code>&lt;strong&gt;sysvol\domain\policies\PolicyDefinitions</strong></p></td>
+   <td align="left"><p><code>%systemroot%</code>\<strong>sysvol\domain\policies\PolicyDefinitions</strong>\</p></td>
    </tr>
    <tr class="even">
    <td align="left"><p>Group Policy language file (.adml)</p></td>
-   <td align="left"><p><code>%systemroot%</code>&lt;strong&gt;sysvol\domain\policies\PolicyDefinitions[MUIculture]</strong><code>[MUIculture]</code></p>
-   <p>For example, the U.S. English ADML language-specific file will be stored in %systemroot%\sysvol\domain\policies\PolicyDefinitions\en-us.</p></td>
+   <td align="left"><p><code>%systemroot%</code>\<strong>sysvol\domain\policies\PolicyDefinitions\</strong><code>[MUIculture]</code></p>
+   <p>For example, the U.S. English ADML language-specific file will be stored in <code>%systemroot%\sysvol\domain\policies\PolicyDefinitions\en-us</code>.</p></td>
    </tr>
    </tbody>
    </table>
