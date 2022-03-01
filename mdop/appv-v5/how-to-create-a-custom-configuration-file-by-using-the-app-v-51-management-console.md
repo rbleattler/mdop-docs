@@ -36,9 +36,7 @@ Use the following procedure to create a Dynamic User Configuration file by using
 
 
 
-~~~
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
 
 ## Related topics
 

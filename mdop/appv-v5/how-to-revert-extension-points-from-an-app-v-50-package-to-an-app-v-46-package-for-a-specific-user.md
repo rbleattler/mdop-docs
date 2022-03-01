@@ -34,9 +34,7 @@ Use the following procedure to revert an App-V 5.0 package to the App-V file for
 
 
 
-~~~
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
 
 ## Related topics
 

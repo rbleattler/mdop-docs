@@ -40,9 +40,7 @@ Use the following procedure to revert extension points from an App-V 5.1 package
 
 
 
-~~~
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
 
 ## Related topics
 

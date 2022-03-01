@@ -351,9 +351,7 @@ Use the following procedure to install the Microsoft Application Virtualization 
 
 
 
-~~~
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
 
 ## Related topics
 

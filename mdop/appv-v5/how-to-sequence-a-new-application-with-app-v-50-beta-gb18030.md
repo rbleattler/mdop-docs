@@ -313,9 +313,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
 
 ## Related topics
 
