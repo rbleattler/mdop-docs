@@ -494,7 +494,7 @@ After you download the Office 2016 applications through the Office Deployment To
 
 
 
-~~~
+
 After you run the **/packager** command, the following folders appear up in the directory where you specified the package should be saved:
 
 -   **App-V Packages** – contains an Office 2016 App-V package and two deployment configuration files.
@@ -502,7 +502,7 @@ After you run the **/packager** command, the following folders appear up in the 
 -   **WorkingDir**
 
 **Note** To troubleshoot any issues, see the log files in the %temp% directory (default).
-~~~
+
 
 
 

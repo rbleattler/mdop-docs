@@ -63,9 +63,9 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
 
 
-~~~
+
 If the package accelerator requires an application to be installed before you apply the Package Accelerator, and if you have already installed the required application, select **I have installed all applications**, and then click **Next** on the **Local Installation** page.
-~~~
+
 
 6. On the **Package Name** page, specify a name that will be associated with the package. The name that you specify identifies the package in the App-V Management Console. Click **Next**.
 

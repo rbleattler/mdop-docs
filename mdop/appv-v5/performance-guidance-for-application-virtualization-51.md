@@ -697,9 +697,9 @@ For documentation on How to Apply a Dynamic Configuration, see:
 
 
 
-~~~
+
 &lt;/appv:Fonts&gt;
-~~~
+
 
 ### Excluding virtual fonts from the package
 

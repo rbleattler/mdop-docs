@@ -44,11 +44,11 @@ Use these instructions to recover a computer when you are physically present at 
 
 
 
-~~~
+
 If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.
 
 The **System Recovery Options** window appears and lists various recovery tools.
-~~~
+
 
 7. On the **System Recovery Options** window, click **Microsoft Diagnostics and Recovery Toolset**.
 

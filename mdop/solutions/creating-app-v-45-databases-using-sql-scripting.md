@@ -228,7 +228,7 @@ The following accounts will need to be created on the SQL server with specific p
 
 
 
-~~~
+
 -   Assign the App-V Users Group to the New Provider Policy created above
 
 -   Under “Server Groups,” create a New Server Group, specifying the New Provider Policy
@@ -241,7 +241,7 @@ The following accounts will need to be created on the SQL server with specific p
 
 
 -   Administrator restarts the Application Virtualization Management Server service.
-~~~
+
 
 ## Conclusion
 

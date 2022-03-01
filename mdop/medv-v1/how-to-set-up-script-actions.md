@@ -49,10 +49,10 @@ The following is a list of actions that can be added to the domain setup script:
 
      
 
-~~~
+
 **Note**  
 To rename a computer, Windows must be restarted. It is recommended to add a Restart Windows action following a Rename Computer action.
-~~~
+
 
 
 

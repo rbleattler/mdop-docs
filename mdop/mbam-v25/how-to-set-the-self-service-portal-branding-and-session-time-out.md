@@ -46,7 +46,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 
 
-~~~
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -136,7 +136,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 

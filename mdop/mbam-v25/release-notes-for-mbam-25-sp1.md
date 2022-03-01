@@ -42,7 +42,7 @@ MBAM Active Directory (AD) Migration cmdlets fail to retrieve volume recovery in
 Read-ADRecoveryInformation : Unknown error (0x80005000)
 At line:1 char:1
 + Read-ADRecoveryInformation -Server "…" -SearchBase " ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ ~~
     + CategoryInfo          : NotSpecified: (:) [Read-ADRecoveryInformation], COMException
     + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException,Microsoft.Mbam.Server.Commands.ADPullCommands.ReadADRecoveryInformationCommand
 ```

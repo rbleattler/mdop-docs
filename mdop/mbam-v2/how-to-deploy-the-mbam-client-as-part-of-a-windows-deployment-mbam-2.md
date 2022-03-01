@@ -88,10 +88,10 @@ The procedure in this topic describes modifying the Windows registry. Using Regi
 
 
 
-~~~
+
 **Note**  
 MBAM policy or registry values can be set here to override previously set values.
-~~~
+
 
 
 

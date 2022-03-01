@@ -43,11 +43,11 @@ Before performing the following procedure you should read and understand [About 
 
 
 
-~~~
+
 For the SQL Server Instance, select **Use the default instance**. If you are using a custom Microsoft SQL Server instance, you must select **Use a custom instance** and then type the name of the instance.
 
 Specify the **SQL Server Database name** that this reporting server will use, for example **AppvReporting**.
-~~~
+
 
 7. On the **Configure Reporting Server Configuration** page.
 

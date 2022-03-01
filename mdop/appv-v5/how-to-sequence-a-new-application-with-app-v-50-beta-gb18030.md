@@ -84,9 +84,9 @@ ms.date: 06/16/2016
 
 
 
-~~~
+
 If the application does not have an associated installer file and you plan to run all installation steps manually, select the **Perform a Custom Installation** check box, and then Click **Next**.
-~~~
+
 
 6. On the **Package Name** page, type a name that will be associated with the package. Use a name that helps identify the purpose and version of the application that will be added to the package. The package name is displayed in the App-V 5.0 Management Console.
 
@@ -97,7 +97,7 @@ If the application does not have an associated installer file and you plan to ru
 
 
 
-~~~
+
 **Important**  
 The primary application virtual directory should match the installation location for the application that is being sequenced. For example, if you install Notepad to **C:\\Program Files\\Notepad**; you should configure **C:\\Program Files\\Notepad** as your primary virtual directory. Alternatively, you can choose to set **C:\\Notepad** as the primary virtual application directory, as long as during installation time, you configure the installer to install to **C:\\Notepad**. Editing the Application Virtualization path is an advanced configuration task. For most applications, the default path is recommended for the following reasons:
 
@@ -113,7 +113,7 @@ It is recommended that prior to Sequencing an application, you open the associat
 
 
 Click **Next**.
-~~~
+
 
 7. On the **Installation** page, when the sequencer and application installer are ready you can proceed to install the application so that the sequencer can monitor the installation process.
 
@@ -122,9 +122,9 @@ Click **Next**.
 
 
 
-~~~
+
 Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
-~~~
+
 
 8. On the **Installation** page, wait while the sequencer configures the virtualized application package.
 
@@ -135,9 +135,9 @@ Use the application's installation process to perform the installation. If addit
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 10. On the **Installation Report** page, you can review information about the virtualized application package you have just sequenced. In **Additional Information**, double-click an event to obtain more detailed information. To proceed, click **Next**.
 
@@ -172,9 +172,9 @@ Click **Next**.
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 15. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory where the package was created.
 
@@ -196,9 +196,9 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
+
 On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
-~~~
+
 
 2. *<strong><em>In the sequencer, click *</em>Create a New Virtual Application Package</strong>. Select **Create Package (default)**, and then click **Next**.
 
@@ -224,9 +224,9 @@ On the computer that runs the sequencer, click **All Programs**, and then Click 
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 8. On the **Installation** page, when the sequencer and application installer are ready you can proceed to install the plug-in or add-in application so the sequencer can monitor the installation process. Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** and locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**, and then click **Next**.
 
@@ -258,9 +258,9 @@ Click **Next**.
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 **To sequence a middleware application**
 
@@ -300,9 +300,9 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 12. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory specified in step 11 of this procedure.
 

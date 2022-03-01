@@ -336,10 +336,10 @@ User Experience Virtualization provides the following set of WMI commands. Admin
 
 
 
-~~~
+
 **Note**  
 Where a list of Package Family Names is called by the WMI command, the list must be in quotes and separated by a pipe symbol, for example, `"<package family name | package family name>"`.
-~~~
+
 
 
 

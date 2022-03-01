@@ -58,9 +58,9 @@ You can also use an existing virtual application package as the parent applicati
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 7. On the **Package Name** page, specify a name that will be associated with the package. Use a name that helps identify the purpose and version of the application that will be added to the package. The package name will also be displayed in the App-V management console. The **Installation Location** displays the Application Virtualization path where the application will be installed. To edit this location, select **Edit (Advanced)**.
 
@@ -69,9 +69,9 @@ Click **Next**.
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 8. On the **Installation** page, when the sequencer and application installer are ready, install the plug-in or add-in application so the sequencer can monitor the installation process. Perform the installation by using the application’s installation process. If additional installation files must be run as part of the installation, click **Run** and locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**, and then click **Next**.
 

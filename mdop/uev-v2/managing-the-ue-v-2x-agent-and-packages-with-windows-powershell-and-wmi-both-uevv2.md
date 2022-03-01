@@ -320,13 +320,13 @@ You can use Windows Management Instrumentation (WMI) and Windows PowerShell to m
 
 
 
-~~~
+
 Upon configuration of the UE-V Agent with WMI and Windows PowerShell, the defined configuration is stored in the registry in the following locations.
 
 `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\UEV\Agent\Configuration`
 
 `\HKEY_CURRENT_USER\SOFTWARE\Microsoft\UEV\Agent\Configuration`
-~~~
+
 
 **To export UE-V package settings and repair UE-V templates by using WMI**
 

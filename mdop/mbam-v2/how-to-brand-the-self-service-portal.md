@@ -36,7 +36,7 @@ After you install the Microsoft BitLocker Administration and Monitoring (MBAM) S
 
 
 
-~~~
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -86,7 +86,7 @@ After you install the Microsoft BitLocker Administration and Monitoring (MBAM) S
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 

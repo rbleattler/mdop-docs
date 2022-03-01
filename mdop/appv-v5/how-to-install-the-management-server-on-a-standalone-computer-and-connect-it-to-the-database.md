@@ -38,11 +38,11 @@ Use the following procedure to install the management server on a standalone com
 
 
 
-~~~
+
 For the SQL Server Instance, select **Use the default instance**. If you are using a custom Microsoft SQL Server instance, you must select **Use a custom instance** and then type the name of the instance.
 
 Specify the **SQL Server Database name** that this management server will use, for example **AppvManagement**.
-~~~
+
 
 7. On the **Configure Management Server Configuration** page, specify the AD group or account that will connect to the management console for administrative purposes for example **MyDomain\\MyUser** or **MyDomain\\AdminGroup**. The account or AD group you specify will be enabled to manage the server through the management console. You can add additional users or groups using the management console after installation
 

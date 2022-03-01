@@ -49,9 +49,9 @@ After you complete the deployment, the **Microsoft SQL Server name**, **instance
 
 
 
-~~~
+
 Specify the user name for the management server **Install Administrator** using the following format: **Domain\\AdministratorLoginName**. Click **Next**.
-~~~
+
 
 8. To start the installation, click **Install**.
 
@@ -80,9 +80,9 @@ Specify the user name for the management server **Install Administrator** using 
 
 
 
-~~~
+
 Specify the user name for the reporting server **Install Administrator** using the following format: **Domain\\AdministratorLoginName**. Click **Next**.
-~~~
+
 
 8. To start the installation, click **Install**.
 

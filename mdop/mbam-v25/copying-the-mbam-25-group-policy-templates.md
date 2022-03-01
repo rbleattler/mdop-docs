@@ -68,7 +68,7 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 
 
 
-~~~
+
 **Domain central store.** To enable Group Policy settings configuration by a Group Policy administrator from any computer on the domain, copy files to the following locations on the domain controller:
 
 <table>
@@ -94,7 +94,7 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 

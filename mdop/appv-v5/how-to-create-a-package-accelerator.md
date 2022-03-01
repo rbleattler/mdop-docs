@@ -47,9 +47,9 @@ Before you begin the following procedure, you should perform the following:
 
 
 
-~~~
+
 To start the App-V 5.0 sequencer, on the computer that is running the sequencer, click **Start** / **All Programs** / **Microsoft Application Virtualization** / **Microsoft Application Virtualization Sequencer**.
-~~~
+
 
 2. To start the App-V 5.0 **Create Package Accelerator** wizard, in the App-V 5.0 sequencer console, click **Tools** / **Create Accelerator**.
 
@@ -60,9 +60,9 @@ To start the App-V 5.0 sequencer, on the computer that is running the sequencer,
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 4. On the **Installation Files** page, to specify the folder that contains the installation files that you used to create the original virtual application package, click **Browse**, and then select the directory that contains the installation files.
 
