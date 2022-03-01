@@ -62,7 +62,7 @@ To start the App-V 5.1 sequencer, on the computer that is running the sequencer,
 
    Create the new virtual application package. The settings saved with the specified template will be applied to the new virtual application package that you are creating.
 
-   **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

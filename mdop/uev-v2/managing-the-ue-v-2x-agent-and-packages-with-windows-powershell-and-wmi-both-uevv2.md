@@ -359,9 +359,9 @@ Upon configuration of the UE-V Agent with WMI and Windows PowerShell, the define
 
 
 
-~~~
-**Got a suggestion for UE-V**? Add or vote on suggestions [here](http://uev.uservoice.com/forums/280428-microsoft-user-experience-virtualization). **Got a UE-V issue**? Use the [UE-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopuev).
-~~~
+
+**Got a UE-V issue**? Use the [UE-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopuev).
+
 
 ## Related topics
 
