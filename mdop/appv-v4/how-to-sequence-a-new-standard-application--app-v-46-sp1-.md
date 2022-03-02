@@ -55,9 +55,9 @@ Running the App-V sequencer in Safe Mode is not supported.
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 7. On the **Installation** page, when the Sequencer and application installer are ready, install the application so that the Sequencer can monitor the installation process. Perform the installation by using the application’s installation process. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
 

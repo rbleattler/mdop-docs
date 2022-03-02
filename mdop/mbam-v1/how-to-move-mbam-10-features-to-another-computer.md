@@ -266,9 +266,9 @@ You can use the following procedure to move the MBAM Recovery and Hardware Datab
 
 
 
-~~~
+
 You must run the command for each Administration and Monitoring Server that will be accessing the database in your environment.
-~~~
+
 
 **To update the Database Connection data on MBAM Administration and Monitoring Servers**
 
@@ -484,9 +484,9 @@ If you choose to move the MBAM Compliance Status Database feature from one compu
 
 
 
-~~~
+
 For each Administration and Monitoring Server that will access the database of your environment, you must run the command that will add the servers to the MBAM Compliance Auditing DB Access local group.
-~~~
+
 
 **To update the database connection data on MBAM Administration and Monitoring servers**
 
@@ -576,9 +576,9 @@ If you choose to move the MBAM Compliance and Audit Reports from one computer to
 
 
 
-~~~
+
 The command to add the users to the MBAM Report Users local group must be run for each user that will be accessing the reports in your environment.
-~~~
+
 
 **To stop all instances of the MBAM Administration and Monitoring website**
 
@@ -679,9 +679,9 @@ If you choose to move the MBAM Administration and Monitoring Reports feature fro
 
 
 
-~~~
+
 The commands listed for adding the server computer accounts to the MBAM local groups must be run for each Administration and Monitoring Server that will be accessing the databases in your environment.
-~~~
+
 
 ## Related topics
 

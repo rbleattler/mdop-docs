@@ -260,9 +260,9 @@ To move the Recovery Database from one computer to another (for example, from Se
 
 
 
-~~~
+
 This command line must be run for each Administration and Monitoring Server that will be accessing the database in your environment.
-~~~
+
 
 **Update the Recovery Database Connection Data on the MBAM Administration and Monitoring Servers**
 
@@ -484,9 +484,9 @@ If you want to move the MBAM Compliance and Audit Database from one computer to 
 
 
 
-~~~
+
 The command line for adding the servers to the MBAM Compliance and Audit Database access local group must be run for each Administration and Monitoring Server that will be accessing the database in your environment.
-~~~
+
 
 **Update the Database Connection Data on MBAM Administration and Monitoring Servers**
 
@@ -578,9 +578,9 @@ If you want to move the MBAM Compliance and Audit Reports from one computer to a
 
 
 
-~~~
+
 The command line for adding the users to the MBAM Report Users local group must be run for each user that will be accessing the reports in your environment.
-~~~
+
 
 **Stop All Instances of the MBAM Administration and Monitoring Website**
 
@@ -681,9 +681,9 @@ If you want to move the MBAM Administration and Monitoring Reports feature from 
 
 
 
-~~~
+
 The command lines that are listed for adding server computer accounts to the MBAM local groups must be run for each Administration and Monitoring Server that will be accessing the databases in your environment.
-~~~
+
 
 ## Related topics
 

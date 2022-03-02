@@ -34,9 +34,9 @@ Use the following procedure to branch a sequenced virtual application package.
 
 
 
-~~~
+
 The sequencer will automatically generate new GUID files for the new package. The version number associated with the package will also be automatically appended to the OSD file name.
-~~~
+
 
 4. After you save the new version you can apply the required configuration changes and save the associated ICO, OSD, SFT, and SPRJ files to correct location on the Application Virtualization (App-V) server.
 

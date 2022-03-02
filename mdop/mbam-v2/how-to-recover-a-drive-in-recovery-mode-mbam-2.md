@@ -41,7 +41,7 @@ Microsoft BitLocker Administration and Monitoring uses single-use recovery keys 
 
 
 
-~~~
+
 MBAM returns the following:
 
 -   An error message if no matching recovery password is found
@@ -56,7 +56,7 @@ MBAM returns the following:
 
 
 After the recovery password and recovery package are retrieved, the recovery password is displayed.
-~~~
+
 
 5. To copy the password, click **Copy Key**, and then paste the recovery password into an email message. Alternatively, click **Save** to save the recovery password to a file.
 

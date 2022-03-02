@@ -41,14 +41,14 @@ When using a deployment package that does not include an image, ensure that the 
 
 
 
-~~~
+
 **Note**  
 If an older version of the MED-V client exists, it will prompt you asking whether you want to upgrade.
 
 
 
 Depending on the components that have been installed, you might need to reboot. If rebooting is necessary, a message appears notifying you that you must reboot.
-~~~
+
 
 3. If necessary, reboot the computer.
 

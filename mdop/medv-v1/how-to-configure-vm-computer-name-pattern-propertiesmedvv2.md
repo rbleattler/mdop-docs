@@ -64,10 +64,10 @@ A virtual machine computer name pattern can be assigned both for revertible and 
 
 
 
-~~~
+
 **Note**  
 A unique computer name can be assigned only if it is configured prior to MED-V workspace setup. Changing the name will not affect MED-V workspaces that were already set up.
-~~~
+
 
 
 

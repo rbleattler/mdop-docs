@@ -59,7 +59,7 @@ Because settings packages may contain personal information, you should take care
 
 
 
-~~~
+
 2.  Set the following NTFS permissions for the settings storage location folder:
 
     <table>
@@ -170,7 +170,7 @@ Because settings packages may contain personal information, you should take care
     </tr>
     </tbody>
     </table>
-~~~
+
 
 
 
