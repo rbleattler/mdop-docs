@@ -44,9 +44,9 @@ You can reset a TPM lockout only if MBAM owns the TPM.
 
 
 
-~~~
+
 After the TPM owner password is retrieved, the owner password is displayed.
-~~~
+
 
 5. To save the password to a .tpm file, click the **Save** button.
 

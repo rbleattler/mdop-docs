@@ -62,9 +62,9 @@ The following list displays the end–to-end high-level workflow for reporting i
 
      
 
-~~~
+
 If the App-V 5.0 client device does not receive a success notification from the server, it retains data in the cache and tries to resend data at the next configured interval. Clients continue to collect data and add it to the cache.
-~~~
+
 
 ### <a href="" id="-------------app-v-5-0-reporting-server-frequently-asked-questions"></a> App-V 5.0 reporting server frequently asked questions
 

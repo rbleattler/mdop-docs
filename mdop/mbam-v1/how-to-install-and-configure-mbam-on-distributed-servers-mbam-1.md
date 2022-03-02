@@ -68,7 +68,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
 
 
-~~~
+
 **To install the Recovery and Hardware Database**
 
 1.  Choose an option for MBAM communication encryption. MBAM can encrypt the communication between the Recovery and Hardware Database and the Administration and Monitoring servers. If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that is used for encryption.
@@ -148,7 +148,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
 
 12. Click **Next** to continue with the MBAM Setup wizard.
-~~~
+
 
 5. 
 
@@ -227,9 +227,9 @@ When the MBAM Server feature installation is complete, you should validate that 
 
 
 
-~~~
+
 Verify that each web page loads successfully.
-~~~
+
 
 ## Related topics
 

@@ -68,7 +68,7 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 
 
 
-~~~
+
 **Domain central store.** To enable Group Policy settings configuration by a Group Policy administrator from any computer on the domain, copy files to the following locations on the domain controller:
 
 <table>
@@ -94,7 +94,7 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 
@@ -110,8 +110,8 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

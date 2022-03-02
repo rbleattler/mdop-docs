@@ -54,14 +54,14 @@ After you complete the installation process, reboot the server.
 
 
 
-~~~
+
 If a database is available, click the radio button, select the database from the list, and then click **Next**. Setup will upgrade it to this newer version. If the name does not appear in the list, enter the name in the space provided.
 
 **Note**  
 When naming a server, do not use the backslash character (/) in the server name.
 
 If you need to install a database, see [How to Install a Database](how-to-install-a-database.md). If you would like to create a new database for this version, select **Create a new database** and specify the name that will be assigned to the new database. You can also specify a new location for the database by selecting the check box and entering the path.
-~~~
+
 
 
 

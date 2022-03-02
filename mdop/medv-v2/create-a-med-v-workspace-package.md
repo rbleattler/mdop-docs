@@ -75,7 +75,7 @@ Before you start to build your MED-V workspace deployment package, verify that y
 
 
 
-~~~
+
 Enter each web address on a single line, for example:
 
 http://www.contoso.com/webapps/webapp1
@@ -88,7 +88,7 @@ http://www.contoso.com/webapps/\*
 
 **Important**  
 If you import a text file that includes a URL that uses special characters (such as ~ ! @ \# and so on), make sure that you specify UTF-8 encoding when you save the text file. Special characters do not import correctly into the MED-V Workspace Packager if the text file was saved using the default ANSI encoding.
-~~~
+
 
 
 
@@ -168,9 +168,9 @@ To create a MED-V workspace package, follow these steps:
 
 
 
-~~~
+
 After you have finished, click **Next**.
-~~~
+
 
 4. On the **Select Windows XP Image** page, specify the location of your prepared MED-V Windows XP Virtual PC image (.vhd file).
 
@@ -179,9 +179,9 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 After you have finished, click **Next**.
-~~~
+
 
 5. On the **First Time Setup** page, select whether you want first time setup to run while attended or unattended and whether you want the MED-V workspace used separately or used by all end users on a shared computer.
 
@@ -198,7 +198,7 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 You can also specify how a MED-V workspace is used on computers that are shared by multiple end users. You can decide that you want to create a unique MED-V workspace for each end user or that you want the MED-V workspace made available to all end users who share the computer. The default is that the MED-V workspace is unique for each end user.
 
 **Important**  
@@ -214,7 +214,7 @@ When you create a name mask for the MED-V workspace on the **Naming Computers** 
 You can also specify whether the MED-V workspace is added to the Administrators group or administrator credentials are managed outside MED-V. By default, the MED-V workspace is not automatically added to the Administrators group.
 
 After you have finished, click **Next**.
-~~~
+
 
 6. On the **MED-V Messages** page, specify the following messages that the end user sees during first time setup:
 
@@ -227,7 +227,7 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 You can also specify an optional URL location for help information that is provided to the end user when first time setup is running.
 
 For example, the URL can point to an internal IT webpage with answers to questions such as "How long will this take and how will I know when it has completed?" or "What do you do if you get an error message?"
@@ -238,7 +238,7 @@ If you specify a URL, a link is shown during first time setup that points the en
 
 
 After you have finished, click **Next**.
-~~~
+
 
 7. On the **Naming Computers** page, you can specify whether computer naming is managed by MED-V or by a system management tool, such as Sysprep. The default is that computer naming is managed by a system management tool.
 
@@ -255,14 +255,14 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 **Caution**  
 The computer name settings that you specify on this page override those specified in the Sysprep.inf answer file.
 
 
 
 After you have finished, click **Next**.
-~~~
+
 
 8. On the **Copy Settings from Host** page, you can select the following settings to specify how the MED-V workspace is configured:
 
@@ -271,7 +271,7 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -336,7 +336,7 @@ FullName</code></pre>
 
 
 After you have finished, click **Next**.
-~~~
+
 
 9. On the **Startup and Networking** page, you can change the default behavior for the following settings:
 
@@ -390,9 +390,9 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 After you have finished, click **Next**.
-~~~
+
 
 10. On the **Web Redirection** page, you can enter, paste, or import a list of the URLs that are redirected to Internet Explorer in the MED-V workspace. For more information about how to configure your URL redirection information, see [Prerequisites](#bkmk-prereq).
 
@@ -403,9 +403,9 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 After you have finished, click **Next**.
-~~~
+
 
 11. On the **Summary** page, you can review the packaging settings for this MED-V workspace. If you want to change any settings, click the **Previous** button to return to the relevant page. After you have finished reviewing the settings, click **Create**.
 
@@ -416,7 +416,7 @@ After you have finished, click **Next**.
 
 
 
-~~~
+
 If the MED-V workspace package is created successfully, the **Completion** page displays a list of the files that you created and their respective locations. The following is a list of the files that are created and their descriptions:
 
 -   **setup.exe**—an installation program that you deploy and run on end-user computers to install the MED-V workspaces.
@@ -433,7 +433,7 @@ If the MED-V workspace package is created successfully, the **Completion** page 
     Before deployment, you can edit configuration settings by updating the .ps1 file that has your preferred method of script editing, such as Windows PowerShell. After you change the .ps1 file, use that file to rebuild the MED-V workspace package that you deploy to your enterprise. For more information, see [Configuring Advanced Settings by Using Windows PowerShell](configuring-advanced-settings-by-using-windows-powershell.md).
 
     However, after the MED-V workspace is deployed, you must edit configuration settings through the registry. For a list and description of the configuration settings, see [Managing MED-V Workspace Configuration Settings](managing-med-v-workspace-configuration-settings.md).
-~~~
+
 
 
 

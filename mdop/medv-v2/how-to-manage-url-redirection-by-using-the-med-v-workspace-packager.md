@@ -32,7 +32,7 @@ You can use the MED-V Workspace Packager to manage URL redirection in the MED-V 
 
 
 
-~~~
+
 Enter each web address on a single line, for example:
 
 http://www.contoso.com/webapps/webapp1
@@ -45,7 +45,7 @@ http://www.contoso.com/webapps/\*
 
 **Important**  
 If you import a text file that includes a URL that uses special characters (such as ~ ! @ \# and so on), make sure that you specify UTF-8 encoding when you save the text file. Special characters do not import correctly into the MED-V Workspace Packager if the text file was saved using the default ANSI encoding.
-~~~
+
 
 
 

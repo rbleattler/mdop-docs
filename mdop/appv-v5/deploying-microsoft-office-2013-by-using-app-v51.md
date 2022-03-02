@@ -247,7 +247,7 @@ The XML file that is included in the Office Deployment Tool specifies the produc
 
 
 
-~~~
+
     The above XML configuration file specifies that Office 2013 ProPlus 32-bit edition, including Visio ProPlus, will be downloaded in English to the \\\\server\\Office 2013, which is the location where Office applications will be saved to. Note that the Product ID of the applications will not affect the final licensing of Office. Office 2013 App-V packages with various licensing can be created from the same applications through specifying licensing in a later stage. The table below summarizes the customizable attributes and elements of XML file:
 
     <table>
@@ -307,7 +307,7 @@ The XML file that is included in the Office Deployment Tool specifies the produc
 
 
     After editing the configuration.xml file to specify the desired product, languages, and also the location which the Office 2013 applications will be saved onto, you can save the configuration file, for example, as Customconfig.xml.
-~~~
+
 
 2. **Download the applications into the specified location:** Use an elevated command prompt and a 64 bit operating system to download the Office 2013 applications that will later be converted into an App-V package. Below is an example command with description of details:
 
@@ -551,7 +551,7 @@ After you download the Office 2013 applications through the Office Deployment To
 
 
 
-~~~
+
 After you run the **/packager** command, the following folders appear up in the directory where you specified the package should be saved:
 
 -   **App-V Packages** – contains an Office 2013 App-V package and two deployment configuration files.
@@ -560,7 +560,7 @@ After you run the **/packager** command, the following folders appear up in the 
 
 **Note**  
 To troubleshoot any issues, see the log files in the %temp% directory (default).
-~~~
+
 
 
 

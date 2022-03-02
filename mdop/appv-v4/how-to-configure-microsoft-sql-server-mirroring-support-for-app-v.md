@@ -73,9 +73,9 @@ This procedure is written for administrators who are familiar with setting up an
 
 
 
-~~~
+
 After the failover has occurred successfully, as verified by using the SQL Server status monitoring information, right-click the **Applications** node in the App-V Management Console, and then select **Refresh**. The list of applications should display normally if the system is working correctly.
-~~~
+
 
 ## Related topics
 
