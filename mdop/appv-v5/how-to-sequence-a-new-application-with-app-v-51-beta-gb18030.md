@@ -76,10 +76,10 @@ ms.date: 06/16/2016
 
 
 
-~~~
+
 > [!NOTE]  
 > There is currently no way to disable Windows Defender in Windows 10. If you receive a warning, you can safely ignore it. It is unlikely that Windows Defender will affect sequencing at all.
-~~~
+
 
 
 
@@ -92,9 +92,9 @@ ms.date: 06/16/2016
 
 
 
-~~~
+
 If the application does not have an associated installer file and you plan to run all installation steps manually, select the **Perform a Custom Installation** check box, and then Click **Next**.
-~~~
+
 
 6. On the **Package Name** page, type a name that will be associated with the package. Use a name that helps identify the purpose and version of the application that will be added to the package. The package name is displayed in the App-V 5.0 Management Console.
 
@@ -107,9 +107,9 @@ If the application does not have an associated installer file and you plan to ru
 
 
 
-~~~
+
 Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
-~~~
+
 
 8. On the **Installation** page, wait while the sequencer configures the virtualized application package.
 
@@ -120,9 +120,9 @@ Use the application's installation process to perform the installation. If addit
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 10. On the **Installation Report** page, you can review information about the virtualized application package you have just sequenced. In **Additional Information**, double-click an event to obtain more detailed information. To proceed, click **Next**.
 
@@ -157,9 +157,9 @@ Click **Next**.
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 15. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory where the package was created.
 
@@ -179,9 +179,9 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
+
 On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
-~~~
+
 
 2. *<strong><em>In the sequencer, click *</em>Create a New Virtual Application Package</strong>. Select **Create Package (default)**, and then click **Next**.
 
@@ -234,9 +234,9 @@ On the computer that runs the sequencer, click **All Programs**, and then Click 
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 **To sequence a middleware application**
 
@@ -276,9 +276,9 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
+
 The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-~~~
+
 
 12. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory specified in step 11 of this procedure.
 
@@ -289,9 +289,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 
 
-~~~
-**Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
+**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

@@ -737,7 +737,7 @@ Use the following tables for more information about installing the App-V 5.0 ser
     <td align="left"><p>/EXISTING_MANAGEMENT_DB_NAME</p></td>
     <td align="left"><p>Specifies the name of the existing management database that should be used. Example usage: <strong>/EXISTING_MANAGEMENT_DB_NAME=”AppVMgmtDB”</strong>. If /DB_PREDEPLOY_MANAGEMENT is specified, this will be ignored.</p>
     <p></p>
-    <p><strong>Got a suggestion for App-V</strong>? Add or vote on suggestions <a href="http://appv.uservoice.com/forums/280448-microsoft-application-virtualization" data-raw-source="[here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization)">here</a>. <strong>Got an App-V issu</strong>e? Use the <a href="https://social.technet.microsoft.com/Forums/home?forum=mdopappv" data-raw-source="[App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv)">App-V TechNet Forum</a>.</p></td>
+    <p><strong>Got an App-V issue</strong>? Use the <a href="https://social.technet.microsoft.com/Forums/home?forum=mdopappv" data-raw-source="[App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv)">App-V TechNet Forum</a>.</p></td>
 </tr>
 </tbody>
 </table>

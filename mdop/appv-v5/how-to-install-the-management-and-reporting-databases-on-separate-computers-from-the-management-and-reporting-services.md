@@ -49,9 +49,9 @@ After you complete the deployment, the **Microsoft SQL Server name**, **instance
 
 
 
-~~~
+
 Specify the user name for the management server **Install Administrator** using the following format: **Domain\\AdministratorLoginName**. Click **Next**.
-~~~
+
 
 8. To start the installation, click **Install**.
 
@@ -80,9 +80,9 @@ Specify the user name for the management server **Install Administrator** using 
 
 
 
-~~~
+
 Specify the user name for the reporting server **Install Administrator** using the following format: **Domain\\AdministratorLoginName**. Click **Next**.
-~~~
+
 
 8. To start the installation, click **Install**.
 
@@ -109,7 +109,7 @@ Specify the user name for the reporting server **Install Administrator** using t
 
 5.  Run the scripts on the computer running Microsoft SQL Server.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

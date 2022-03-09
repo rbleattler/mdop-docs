@@ -61,9 +61,9 @@ Recovery passwords expire after a single use. On operating system drives and fix
 
 
 
-~~~
+
 After the recovery password and recovery package are retrieved, the recovery password is displayed.
-~~~
+
 
 6. To copy the password, click **Copy Key**, and then paste the recovery password into an email message. Alternatively, click **Save** to save the recovery password to a file.
 
@@ -79,8 +79,8 @@ After the recovery password and recovery package are retrieved, the recovery pas
 
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
 
 
 

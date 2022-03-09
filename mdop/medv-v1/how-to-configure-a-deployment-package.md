@@ -80,7 +80,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
 
 
-    ~~~
+    
     2.  In the **Virtual machines images folder** field, type the path of the folder where the virtual images files will be installed on the host computer.
 
         **Note**  
@@ -97,7 +97,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
     6.  Select the **Start automatically on computer startup** check box to start MED-V automatically on startup.
 
     7.  Click **Next**.
-    ~~~
+    
 
 12. On the **Additional Installations** page, select the **Include installation of virtualization software** check box to include the Virtual PC installation in the package.
 

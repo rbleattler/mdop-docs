@@ -67,12 +67,12 @@ The following steps describe how to install general MBAM features.
 
 
 
-~~~
+
 The MBAM Setup wizard displays installation pages for the features that you select. The following sections describe the installation procedures for each feature.
 
 **Note**  
 For the following instructions, it is assumed that each feature is to be installed on a separate server. If you install multiple features on a single server, you can change or eliminate some steps.
-~~~
+
 
 
 
@@ -289,10 +289,10 @@ When Microsoft BitLocker Administration and Monitoring Server feature installati
 
 
 
-~~~
+
 **Note**  
 If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the reports will be set to HTTP instead of HTTPS when you install the MBAM Server. If you then go to the Administration and Monitoring website and select a report, the following message appears: “Only Secure Content is Displayed.” To show the report, click **Show All Content**.
-~~~
+
 
 
 
@@ -307,7 +307,7 @@ If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the rep
 
 
 
-~~~
+
 -   *http://&lt;hostname&gt;/HelpDesk/default.aspx* and confirm each of the links for navigation and reports
 
 -   *http://&lt;hostname&gt;/SelfService&gt;/*
@@ -324,7 +324,7 @@ If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the rep
 It is assumed that the server features were installed on the default port without network encryption. If you installed the server features on a different port or virtual directory, change the URLs to include the appropriate port, for example, *http://&lt;hostname&gt;:&lt;port&gt;/HelpDesk/default.aspx* or*http://&lt;hostname&gt;:&lt;port&gt;/&lt;virtualdirectory&gt;/default.aspx*
 
 If the server features were installed with network encryption, change http:// to https://.
-~~~
+
 
 
 

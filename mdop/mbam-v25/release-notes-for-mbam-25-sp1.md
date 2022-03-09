@@ -42,7 +42,7 @@ MBAM Active Directory (AD) Migration cmdlets fail to retrieve volume recovery in
 Read-ADRecoveryInformation : Unknown error (0x80005000)
 At line:1 char:1
 + Read-ADRecoveryInformation -Server "…" -SearchBase " ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ ~~
     + CategoryInfo          : NotSpecified: (:) [Read-ADRecoveryInformation], COMException
     + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException,Microsoft.Mbam.Server.Commands.ADPullCommands.ReadADRecoveryInformationCommand
 ```
@@ -158,8 +158,8 @@ This is the reason why the issue was not seen with other browsers like Chrome, F
  
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
 
 
 

@@ -52,10 +52,10 @@ Use the following steps to validate your MBAM Server deployment with the Stand-a
 
 
 
-~~~
+
 **Note**  
 If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the reports will be set to HTTP instead of HTTPS when you install the MBAM Server. If you then go to the Administration and Monitoring Website (also known as Help Desk) and select a report, the following message appears: "Only Secure Content is Displayed." To show the report, click **Show All Content**.
-~~~
+
 
 
 
@@ -182,8 +182,8 @@ Use these steps to validate your MBAM Server deployment when you are using MBAM 
 
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

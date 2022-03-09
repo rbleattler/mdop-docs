@@ -336,10 +336,10 @@ User Experience Virtualization provides the following set of WMI commands. Admin
 
 
 
-~~~
+
 **Note**  
 Where a list of Package Family Names is called by the WMI command, the list must be in quotes and separated by a pipe symbol, for example, `"<package family name | package family name>"`.
-~~~
+
 
 
 
@@ -360,7 +360,7 @@ Where a list of Package Family Names is called by the WMI command, the list must
 
     -   `& msiexec.exe /i "<path to msi file>" /quiet /norestart /l*v "%temp%\UE-VAgentInstaller.log" SettingsStoragePath=\\server\settingsshare\%username%`
 
-**Got a suggestion for UE-V**? Add or vote on suggestions [here](http://uev.uservoice.com/forums/280428-microsoft-user-experience-virtualization). **Got a UE-V issue**? Use the [UE-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopuev).
+**Got a UE-V issue**? Use the [UE-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopuev).
 
 ## Related topics
 
