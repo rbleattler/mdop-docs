@@ -130,7 +130,7 @@ To enable FIPS compliance in your organization, you must configure the Federal I
 
 ### Customize pre-boot recovery message and URL with new Group Policy setting
 
-A new Group Policy setting, **Configure pre-boot recovery message and URL**, lets you configure a custom recovery message or specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 10.
+A new Group Policy setting, **Configure pre-boot recovery message and URL**, lets you configure a custom recovery message or specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 11 and Windows 10.
 
 If you enable this policy setting, you can you can select one of these options for the pre-boot recovery message:
 
