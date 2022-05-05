@@ -13,9 +13,7 @@ ms.prod: w10
 ms.date: 10/24/2018
 ---
 
-
 # MBAM 2.5 Supported Configurations
-
 
 You can run Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 in a Stand-alone topology or in a Configuration Manager Integration topology that integrates MBAM with System Center Configuration Manager. If you use the recommended configuration for either topology in a production environment, MBAM supports up to 500,000 MBAM clients. For information about the recommended architecture and features that are configured on each server for each topology, see [High-Level Architecture for MBAM 2.5](high-level-architecture-for-mbam-25.md).
 
@@ -24,10 +22,7 @@ For additional configurations that are specific to the Configuration Manager Int
 **Note**  
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
-
-
 ## MBAM Supported Languages
-
 
 The following tables show the languages that are supported for the MBAM Client (including the Self-Service Portal) and the MBAM Server in MBAM 2.5 and MBAM 2.5 SP1.
 
@@ -87,8 +82,6 @@ The following tables show the languages that are supported for the MBAM Client (
 </tbody>
 </table>
 
-
-
 **Supported Languages in MBAM 2.5:**
 
 <table>
@@ -134,10 +127,7 @@ The following tables show the languages that are supported for the MBAM Client (
 </tbody>
 </table>
 
-
-
 ## <a href="" id="---------mbam-server-system-requirements"></a> MBAM Server system requirements
-
 
 ### MBAM Server operating system requirements
 
@@ -194,8 +184,6 @@ The following table lists the operating systems that are supported for the MBAM 
 </tbody>
 </table>
 
-
-
 The enterprise domain must contain at least one Windows Server 2008 (or later) domain controller.
 
 ### <a href="" id="bkmk-stand-alone-ramreqs"></a>MBAM Server processor, RAM, and disk space requirements – Stand-alone topology
@@ -234,8 +222,6 @@ These requirements are for the MBAM Stand-alone topology. For the requirements f
 </tbody>
 </table>
 
-
-
 ### <a href="" id="bkmk-cm-ramreqs"></a>MBAM Server processor, RAM, and disk space requirements - Configuration Manager Integration topology
 
 The following table lists the server processor, RAM, and disk space requirements for MBAM servers when you are using the Configuration Manager Integration topology. For the requirements for the Stand-alone topology, see [MBAM Server Processor, RAM, and Disk Space Requirements – Stand-alone Topology](#bkmk-stand-alone-ramreqs).
@@ -271,8 +257,6 @@ The following table lists the server processor, RAM, and disk space requirements
 </tr>
 </tbody>
 </table>
-
-
 
 ### <a href="" id="bkmk-cmversions"></a>Versions of Configuration Manager that MBAM supports
 
@@ -323,8 +307,6 @@ MBAM supports the following versions of Configuration Manager.
 </tr>
 </tbody>
 </table>
-
-
 
 For a list of supported configurations for the Configuration Manager Server, see the appropriate TechNet documentation for the version of Configuration Manager that you are using. MBAM has no additional system requirements for the Configuration Manager Server.
 
@@ -387,7 +369,6 @@ MBAM has a maximum supported compatibility level of 140. The default compatibili
 
 In order to support SQL 2016 you must install the March 2017 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=54967  and to support SQL 2017 you must install the July 2018 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=57157. In general stay current by always using the most recent servicing update as it also includes all bugfixes and new features.
 
-
 ### <a href="" id="bkmk-sql-stand-alone-ramreqs"></a>SQL Server processor, RAM, and disk space requirements – Stand-alone topology
 
 The following table lists the recommended server processor, RAM, and disk space requirements for the SQL Server computer when you are using the Stand-alone topology. Use these requirements as a guide. Your specific requirements will vary based on the number of client computers you are supporting in your enterprise. To view the requirements for the Configuration Manager Integration topology, see [SQL Server Processor, RAM, and Disk Space Requirements - Configuration Manager Integration Topology](#bkmk-cm-sql-ramreqs).
@@ -423,8 +404,6 @@ The following table lists the recommended server processor, RAM, and disk space 
 </tr>
 </tbody>
 </table>
-
-
 
 ### <a href="" id="bkmk-cm-sql-ramreqs"></a>SQL Server processor, RAM, and disk space requirements - Configuration Manager Integration topology
 
@@ -489,6 +468,12 @@ The following table lists the operating systems that are supported for MBAM Clie
 </tr>
 </thead>
 <tbody>
+  </tr><br/><tr class="odd">
+<td align="left"><p>Windows 11</p></td>
+<td align="left"><p>Enterprise</p></td>
+<td align="left"><p></p></td>
+<td align="left"><p>32-bit or 64-bit</p></td>
+</tr>
 <tr class="even">
     <td align="left"><p>Windows 10 IoT</p></td>
     <td align="left"><p>Enterprise</p></td>
@@ -521,14 +506,11 @@ The following table lists the operating systems that are supported for MBAM Clie
 </tbody>
 </table>
 
-
-
 ### <a href="" id="client-ram-requirements-"></a>Client RAM requirements
 
 There are no RAM requirements that are specific to the MBAM Client installation.
 
 ## <a href="" id="---------mbam-group-policy-system-requirements"></a> MBAM Group Policy system requirements
-
 
 The following table lists the operating systems that are supported for MBAM Group Policy Templates installation.
 
@@ -548,6 +530,12 @@ The following table lists the operating systems that are supported for MBAM Grou
 </tr>
 </thead>
 <tbody>
+ <tr class="odd">
+<td align="left"><p>Windows 11</p></td>
+<td align="left"><p>Enterprise</p></td>
+<td align="left"><p></p></td>
+<td align="left"><p>32-bit or 64-bit</p></td>
+</tr>
  <tr class="even">
       <td align="left"><p>Windows 10 IoT</p></td>
       <td align="left"><p>Enterprise</p></td>
@@ -599,7 +587,6 @@ The MBAM server can be deployed in Azure Infrastructure as a Service (IaaS) on a
 
 The MBAM client is not supported on virtual machines and is also not supported on Azure IaaS.
 
-
 ## Service releases 
 
 - [April 2016 hotfix](https://support.microsoft.com/help/3144445/april-2016-hotfix-rollup-for-microsoft-desktop-optimization-pack)
@@ -614,12 +601,9 @@ The MBAM client is not supported on virtual machines and is also not supported o
 
 ## Related topics
 
-
 [Planning to Deploy MBAM 2.5](planning-to-deploy-mbam-25.md)
 
 [Preparing your Environment for MBAM 2.5](preparing-your-environment-for-mbam-25.md)
-
-
 
 
 ## Got a suggestion for MBAM?
