@@ -13,7 +13,6 @@ ms.date: 08/23/2018
 ms.author: dansimp
 ---
 
-
 # High-level architecture of MBAM 2.5 with Configuration Manager Integration topology
 
 This topic describes the recommended architecture for deploying Microsoft BitLocker Administration and Monitoring (MBAM) with the Configuration Manager Integration topology. This topology integrates MBAM with System Center Configuration Manager. To deploy MBAM with the Stand-alone topology, see [High-Level Architecture of MBAM 2.5 with Stand-alone Topology](high-level-architecture-of-mbam-25-with-stand-alone-topology.md).
@@ -23,10 +22,7 @@ For a list of the supported versions of the software mentioned in this topic, se
 **Important**  
 Windows To Go is not supported for the Configuration Manager Integration topology installation when you are using Configuration Manager 2007.
 
- 
-
 ## Recommended number of servers and supported number of clients
-
 
 The recommended number of servers and supported number of clients in a production environment is as follows:
 
@@ -54,10 +50,7 @@ The recommended number of servers and supported number of clients in a productio
 </tbody>
 </table>
 
- 
-
 ## Differences between Configuration Manager Integration and stand-alone topologies
-
 
 The main differences between the topologies are:
 
@@ -66,7 +59,6 @@ The main differences between the topologies are:
 -   Reports are viewed from the Configuration Manager Management Console, with the exception of the Recovery Audit Report, which you continue to view from the MBAM Administration and Monitoring Website.
 
 ## Recommended MBAM high-level architecture with the Configuration Manager Integration topology
-
 
 The following diagram and table describe the recommended high-level architecture for MBAM with the Configuration Manager Integration topology. MBAM multi-forest deployments require a one-way or two-way trust. One-way trusts require that the server domain trusts the client domain.
 
@@ -130,8 +122,6 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 
 **Important**<br>The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
 
- 
-
 ### Management workstation
 
 #### MBAM group policy templates
@@ -140,9 +130,7 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 
 -   Before you run MBAM, you must download the Group Policy Templates from [How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
 
-    **NOTE**<br>The workstation does not have to be a dedicated computer.
-
-     
+    **NOTE**<br>The workstation does not have to be a dedicated computer.     
 
 ### MBAM Client and Configuration Manager Client computer
 
@@ -158,12 +146,9 @@ The **MBAM Client**:
 
 #### Configuration Manager Client
 
-The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information.
-
- 
+The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information. 
 
 ## Differences in MBAM deployment for supported Configuration Manager versions
-
 
 When you deploy MBAM with the Configuration Manager Integration topology, you can install MBAM on a primary site server. However, the MBAM installation works differently for System Center 2012 Configuration Manager and Configuration Manager 2007.
 
@@ -193,10 +178,7 @@ When you deploy MBAM with the Configuration Manager Integration topology, you ca
 </tbody>
 </table>
 
- 
-
 ## How MBAM works with Configuration Manager
-
 
 The integration of MBAM with Configuration Manager is based on a configuration pack that installs the items described in the following table.
 
@@ -231,7 +213,7 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 <ul>
 <li><p>The computer is a supported version of the Windows operating system.</p></li>
 <li><p>The computer is a physical computer. Virtual machines are not supported.</p></li>
-<li><p>The computer has a Trusted Platform Module (TPM) that is available. A compatible version of TPM 1.2 or later is required for Windows 7. Windows 10, Windows 8.1, Windows 8, and Windows To Go do not require a TPM.</p></li>
+<li><p>The computer has a Trusted Platform Module (TPM) that is available. A compatible version of TPM 1.2 or later is required for Windows 7. Windows 11, Windows 10, Windows 8.1, Windows 8, and Windows To Go do not require a TPM.</p></li>
 </ul>
 <p>The collection is evaluated against all computers and a subset of compatible computers is created, which provides the basis for compliance evaluation and reporting for the MBAM integration.</p></td>
 </tr>
@@ -273,25 +255,17 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 </tbody>
 </table>
 
- 
-
 
 ## Related topics
-
 
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
 
 [High-Level Architecture of MBAM 2.5 with Stand-alone Topology](high-level-architecture-of-mbam-25-with-stand-alone-topology.md)
 
-[Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md)
+[Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md
 
- 
-
- 
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
 
 
