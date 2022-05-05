@@ -27,8 +27,7 @@ If the version of the GPMC on your AGPM Server is older than the version on the 
 
 ## AGPM 4.0 SP3
 
-
-If you are using computers that are running Windows 10 to manage GPOs, you must use AGPM 4.0 SP3. You cannot install earlier versions of AGPM on computers that are running the Windows 10 operating system.
+If you are using computers that are running Windows 11 or Windows 10 to manage GPOs, you must use AGPM 4.0 SP3. You cannot install earlier versions of AGPM on computers that are running the Windows 10 operating system.
 
 Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and the policy settings that you can manage by using AGPM 4.0 SP3.
 
@@ -49,18 +48,18 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Windows Server 2019 or Windows 10</p></td>
-<td align="left"><p>Windows Server 2019 or Windows 10</p></td>
+<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
+<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Supported</p></td>
 </tr>
  <tr class="even">
-<td align="left"><p>Windows Server 2019 or Windows 10</p></td>
-<td align="left"><p>Windows Server 2019 or Windows 10</p></td>
+<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
+<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Supported</p></td>
 </tr>
 <tr class="edd">
 <td align="left"><p>Windows Server 2012 R2</p></td>
-<td align="left"><p>Windows 10</p></td>
+<td align="left"><p>Windows 10 or Windows 11</p></td>
 <td align="left"><p>Supported with the caveats outlined in <a href="https://support.microsoft.com/help/4015786/known-issues-managing-a-windows-10-group-policy-client-in-windows-serv" data-raw-source="[KB 4015786](https://support.microsoft.com/help/4015786/known-issues-managing-a-windows-10-group-policy-client-in-windows-serv)">KB 4015786</a>
 </p></td>
 </tr>
