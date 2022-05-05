@@ -13,14 +13,11 @@ ms.prod: w10
 ms.date: 08/30/2016
 ---
 
-
 # Planning for MBAM 2.5 Group Policy Requirements
-
 
 Use the following information to determine the types of BitLocker protectors that you can use to manage the Microsoft BitLocker Administration and Monitoring (MBAM) client computers in your enterprise.
 
 ## Types of BitLocker protectors that MBAM supports
-
 
 MBAM supports the following types of BitLocker protectors.
 
@@ -69,8 +66,6 @@ MBAM supports the following types of BitLocker protectors.
 </tbody>
 </table>
 
-
-
 ### Support for the Used Space Encryption BitLocker policy
 
 In MBAM 2.5 SP1, if you enable Used Space Encryption via BitLocker Group policy, the MBAM Client honors it.
@@ -78,7 +73,6 @@ In MBAM 2.5 SP1, if you enable Used Space Encryption via BitLocker Group policy,
 This Group Policy setting is called **Enforce drive encryption type on operating system drives** and is located in the following GPO node: **Computer Configuration** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **BitLocker Drive Encryption** &gt; **Operating System Drives**. If you enable this policy and select the encryption type as **Used Space Only encryption**, MBAM will honor the policy and BitLocker will only encrypt disk space that is used on the volume.
 
 ## How to get the MBAM Group Policy Templates and edit the settings
-
 
 When you are ready to configure the MBAM Group Policy settings you want, do the following:
 
@@ -105,17 +99,12 @@ When you are ready to configure the MBAM Group Policy settings you want, do the 
 </tbody>
 </table>
 
-
-
 ## Descriptions of the MBAM Group Policy settings
-
 
 The **MDOP MBAM (BitLocker Management)** GPO node contains four global policy settings and four child GPO nodes: **Client Management**, **Fixed Drive**, **Operating System Drive**, and **Removable Drive**. The following sections describe and suggest settings for the MBAM Group Policy settings.
 
 **Important**  
 Do not change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM will not work correctly. MBAM automatically configures the settings in this node for you when you configure the settings in the **MDOP MBAM (BitLocker Management)** node.
-
-
 
 ### Global Group Policy definitions
 
@@ -146,7 +135,7 @@ This section describes MBAM Global Group Policy definitions at the following GPO
 </div>
 <ul>
 <li><p>AES 128-bit with Diffuser – for Windows 7 only</p></li>
-<li><p>AES 128 for Windows 8, Windows 8.1, and Windows 10</p></li>
+<li><p>AES 128 for Windows 8, Windows 8.1, Windows 10, and Windows 11</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -170,8 +159,6 @@ This section describes MBAM Global Group Policy definitions at the following GPO
 </tr>
 </tbody>
 </table>
-
-
 
 ### Client Management Group Policy definitions
 
@@ -310,8 +297,6 @@ This section describes Fixed Drive policy definitions for Microsoft BitLocker Ad
 </tbody>
 </table>
 
-
-
 ### Operating System Drive Group Policy definitions
 
 This section describes Operating System Drive policy definitions for Microsoft BitLocker Administration and Monitoring at the following GPO node: **Computer Configuration** &gt; **Policies** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **MDOP MBAM (BitLocker Management)** &gt; **Operating System Drive**.
@@ -433,7 +418,7 @@ This section describes Operating System Drive policy definitions for Microsoft B
 <tr class="odd">
 <td align="left"><p>Configure pre-boot recovery message and URL</p></td>
 <td align="left"><p>Suggested configuration: <strong>Not Configured</strong></p>
-<p>Enable this policy setting to configure a custom recovery message or to specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 10.</p>
+<p>Enable this policy setting to configure a custom recovery message or to specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 11 and Windows 10.</p>
 <p>When this policy is enabled, you can select one of these options for the pre-boot recovery message:</p>
 <ul>
 <li><p><strong>Use custom recovery message</strong>: Select this option to include a custom message in the pre-boot BitLocker recovery screen. In the <strong>Custom recovery message option</strong> box, type the message that you want displayed. If you also want to specify a recovery URL, include it as part of your custom recovery message.</p></li>
@@ -449,8 +434,6 @@ This section describes Operating System Drive policy definitions for Microsoft B
 </tr>
 </tbody>
 </table>
-
-
 
 ### Removable Drive Group Policy definitions
 
@@ -506,23 +489,12 @@ This section describes Removable Drive Group Policy definitions for Microsoft Bi
 </tbody>
 </table>
 
-
-
-
 ## Related topics
-
 
 [Preparing your Environment for MBAM 2.5](preparing-your-environment-for-mbam-25.md)
 
 [MBAM 2.5 Deployment Prerequisites](mbam-25-deployment-prerequisites.md)
 
-
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
-
-
