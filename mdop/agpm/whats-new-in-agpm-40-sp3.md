@@ -21,8 +21,11 @@ This content describes enhancements and supported configurations for Microsoft A
 
 ## <a href="" id="what-s-new"></a>What’s new
 
-
 AGPM 4.0 SP3 supports the following features and functionality.
+
+### Support for Windows 11
+
+AGPM 4.0 SP3 adds support for the Windows 11.
 
 ### Support for Windows 10
 
