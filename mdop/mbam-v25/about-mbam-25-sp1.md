@@ -16,11 +16,9 @@ ms.date: 09/27/2016
 
 # About MBAM 2.5 SP1
 
-
 MBAM 2.5 SP1 provides a simplified administrative interface for BitLocker Drive Encryption. BitLocker offers enhanced protection against data theft or data exposure for computers that are lost or stolen. BitLocker encrypts all data that is stored on the Windows operating system and drives and configured data drives.
 
 ## Overview of MBAM
-
 
 MBAM 2.5 SP1 has the following features:
 
@@ -51,10 +49,7 @@ The following groups might be interested in using MBAM to manage BitLocker:
 **Note**  
 BitLocker is not explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
 
- 
-
 ## <a href="" id="what-s-new-in-mbam-2-5-sp1"></a>What’s new in MBAM 2.5 SP1
-
 
 This section describes the new features in MBAM 2.5 SP1.
 
@@ -92,7 +87,7 @@ For a list of all languages supported for client and server in MBAM 2.5 and MBAM
 
 ### Support for Windows 10
 
-MBAM 2.5 SP1 adds support for Windows 10 and Windows Server 2016, in addition to the same software that is supported in earlier versions of MBAM.
+MBAM 2.5 SP1 adds support for Windows 11, Windows 10, and Windows Server 2016, in addition to the same software that is supported in earlier versions of MBAM.
 
 Windows 10 is supported in both MBAM 2.5 and MBAM 2.5 SP1.
 
