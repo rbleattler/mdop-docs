@@ -20,7 +20,7 @@ You can run Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 in a St
 For additional configurations that are specific to the Configuration Manager Integration topology, see [Versions of Configuration Manager that MBAM supports](#bkmk-cm-ramreqs).
 
 **Note**  
-Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
+Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For more information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 ## MBAM Supported Languages
 
@@ -224,7 +224,7 @@ These requirements are for the MBAM Stand-alone topology. For the requirements f
 
 ### <a href="" id="bkmk-cm-ramreqs"></a>MBAM Server processor, RAM, and disk space requirements - Configuration Manager Integration topology
 
-The following table lists the server processor, RAM, and disk space requirements for MBAM servers when you are using the Configuration Manager Integration topology. For the requirements for the Stand-alone topology, see [MBAM Server Processor, RAM, and Disk Space Requirements – Stand-alone Topology](#bkmk-stand-alone-ramreqs).
+The following table lists the server processor, RAM, and disk space requirements for MBAM servers when you're using the Configuration Manager Integration topology. For the requirements for the Stand-alone topology, see [MBAM Server Processor, RAM, and Disk Space Requirements – Stand-alone Topology](#bkmk-stand-alone-ramreqs).
 
 <table>
 <colgroup>
@@ -308,7 +308,7 @@ MBAM supports the following versions of Configuration Manager.
 </tbody>
 </table>
 
-For a list of supported configurations for the Configuration Manager Server, see the appropriate TechNet documentation for the version of Configuration Manager that you are using. MBAM has no additional system requirements for the Configuration Manager Server.
+For a list of supported configurations for the Configuration Manager Server, see the appropriate TechNet documentation for the version of Configuration Manager that you're using. MBAM has no additional system requirements for the Configuration Manager Server.
 
 ### <a href="" id="sql-server-database-requirements-"></a>SQL Server database requirements
 
@@ -365,13 +365,13 @@ You must install SQL Server with the **SQL\_Latin1\_General\_CP1\_CI\_AS** colla
 </table>
 
 **Note**  
-MBAM has a maximum supported compatibility level of 140. The default compatibility level for new databases created on SQL Server 2019 is 150 which will need to be altered to 140 or lower, using the ALTER DATABASE command, after the database has been created. Existing databases migrated from SQL server 2017 or below will remain at their previous compatibility level and do not need to be altered.
+MBAM has a maximum supported compatibility level of 140. The default compatibility level for new databases created on SQL Server 2019 is 150, which will need to be altered to 140 or lower, using the ALTER DATABASE command, after the database has been created. Existing databases migrated from SQL server 2017 or below will remain at their previous compatibility level and don't need to be altered.
 
-In order to support SQL 2016 you must install the March 2017 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=54967  and to support SQL 2017 you must install the July 2018 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=57157. In general stay current by always using the most recent servicing update as it also includes all bugfixes and new features.
+In order to support SQL 2016 you must install the March 2017 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=54967  and to support SQL 2017 you must install the July 2018 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=57157. In general, stay current by always using the most recent servicing update as it also includes all bug fixes and new features.
 
 ### <a href="" id="bkmk-sql-stand-alone-ramreqs"></a>SQL Server processor, RAM, and disk space requirements – Stand-alone topology
 
-The following table lists the recommended server processor, RAM, and disk space requirements for the SQL Server computer when you are using the Stand-alone topology. Use these requirements as a guide. Your specific requirements will vary based on the number of client computers you are supporting in your enterprise. To view the requirements for the Configuration Manager Integration topology, see [SQL Server Processor, RAM, and Disk Space Requirements - Configuration Manager Integration Topology](#bkmk-cm-sql-ramreqs).
+The following table lists the recommended server processor, RAM, and disk space requirements for the SQL Server computer when you're using the Stand-alone topology. Use these requirements as a guide. Your specific requirements will vary based on the number of client computers you're supporting in your enterprise. To view the requirements for the Configuration Manager Integration topology, see [SQL Server Processor, RAM, and Disk Space Requirements - Configuration Manager Integration Topology](#bkmk-cm-sql-ramreqs).
 
 <table>
 <colgroup>
@@ -407,7 +407,7 @@ The following table lists the recommended server processor, RAM, and disk space 
 
 ### <a href="" id="bkmk-cm-sql-ramreqs"></a>SQL Server processor, RAM, and disk space requirements - Configuration Manager Integration topology
 
-The following table lists the server processor, RAM, and disk space requirements for the Microsoft SQL Server computer when you are using the Configuration Manager Integration topology, see [SQL Server Processor, RAM, and Disk Space Requirements – Stand-alone Topology](#bkmk-sql-stand-alone-ramreqs).
+The following table lists the server processor, RAM, and disk space requirements for the Microsoft SQL Server computer when you're using the Configuration Manager Integration topology, see [SQL Server Processor, RAM, and Disk Space Requirements – Stand-alone Topology](#bkmk-sql-stand-alone-ramreqs).
 
 <table>
 <colgroup>
@@ -585,7 +585,7 @@ The following table lists the operating systems that are supported for MBAM Grou
 
 The MBAM server can be deployed in Azure Infrastructure as a Service (IaaS) on any of the supported OS versions listed above, connecting to an Active Directory hosted on premises or an Active Directory also hosted in Azure IaaS.  Documentation for setting up and configuring Active Directory on Azure IaaS is [here](https://msdn.microsoft.com/library/azure/jj156090.aspx).
 
-The MBAM client is not supported on virtual machines and is also not supported on Azure IaaS.
+The MBAM client isn't supported on virtual machines and is also not supported on Azure IaaS.
 
 ## Service releases 
 
@@ -599,7 +599,7 @@ The MBAM client is not supported on virtual machines and is also not supported o
 - [July 2018](https://support.microsoft.com/help/4340040/july-2018-servicing-release-for-microsoft-desktop-optimization-pack)
 - [May 2019](https://support.microsoft.com/help/4505175/may-2019-servicing-release-for-microsoft-desktop-optimization-pack)
 
-## Related topics
+## Related articles
 
 [Planning to Deploy MBAM 2.5](planning-to-deploy-mbam-25.md)
 
