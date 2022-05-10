@@ -103,8 +103,8 @@ When you're ready to configure the MBAM Group Policy settings you want, do the f
 
 The **MDOP MBAM (BitLocker Management)** GPO node contains four global policy settings and four child GPO nodes: **Client Management**, **Fixed Drive**, **Operating System Drive**, and **Removable Drive**. The following sections describe and suggest settings for the MBAM Group Policy settings.
 
-**Important**  
-Don't change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM won't work correctly. MBAM automatically configures the settings in this node for you when you configure the settings in the **MDOP MBAM (BitLocker Management)** node.
+> [!IMPORTANT]
+> Don't change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM won't work correctly. MBAM automatically configures the settings in this node for you when you configure the settings in the **MDOP MBAM (BitLocker Management)** node.
 
 ### Global Group Policy definitions
 
@@ -224,8 +224,6 @@ You can set the same Group Policy settings for the Stand-alone and System Center
 </tr>
 </tbody>
 </table>
-
-
 
 ### Fixed Drive Group Policy definitions
 
