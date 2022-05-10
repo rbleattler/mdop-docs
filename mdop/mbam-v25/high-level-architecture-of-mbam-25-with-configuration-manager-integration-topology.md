@@ -19,8 +19,8 @@ This article describes the recommended architecture for deploying Microsoft BitL
 
 For a list of the supported versions of the software mentioned in this article, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 
-**Important**  
-Windows To Go isn't supported for the Configuration Manager Integration topology installation when you're using Configuration Manager 2007.
+> [!IMPORTANT]
+> Windows To Go isn't supported for the Configuration Manager Integration topology installation when you're using Configuration Manager 2007.
 
 ## Recommended number of servers and supported number of clients
 
@@ -120,7 +120,8 @@ This feature is installed on a computer running Windows Server.
 
 The **monitoring web services** are used by the MBAM Client and the websites to communicate to the database.
 
-**Important**<br>The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
+> [!IMPORTANT]
+> The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
 
 ### Management workstation
 
@@ -130,7 +131,8 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 
 -   Before you run MBAM, you must download the Group Policy Templates from [How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
 
-    **NOTE**<br>The workstation doesn't have to be a dedicated computer.     
+    > [!NOTE]
+    > The workstation doesn't have to be a dedicated computer.     
 
 ### MBAM Client and Configuration Manager Client computer
 
@@ -262,7 +264,7 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 
 [High-Level Architecture of MBAM 2.5 with Stand-alone Topology](high-level-architecture-of-mbam-25-with-stand-alone-topology.md)
 
-[Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md
+[Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md)
 
 ## Got a suggestion for MBAM?
 
