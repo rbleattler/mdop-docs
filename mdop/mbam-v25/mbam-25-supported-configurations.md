@@ -18,9 +18,9 @@ ms.date: 10/24/2018
 You can run Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 in a Stand-alone topology or in a Configuration Manager Integration topology that integrates MBAM with System Center Configuration Manager. If you use the recommended configuration for either topology in a production environment, MBAM supports up to 500,000 MBAM clients. For information about the recommended architecture and features that are configured on each server for each topology, see [High-Level Architecture for MBAM 2.5](high-level-architecture-for-mbam-25.md).
 
 For additional configurations that are specific to the Configuration Manager Integration topology, see [Versions of Configuration Manager that MBAM supports](#bkmk-cm-ramreqs).
-
-**Note**  
-Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For more information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
+  
+> [!NOTE]
+> Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For more information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 ## MBAM Supported Languages
 
@@ -364,8 +364,8 @@ You must install SQL Server with the **SQL\_Latin1\_General\_CP1\_CI\_AS** colla
 </tbody>
 </table>
 
-**Note**  
-MBAM has a maximum supported compatibility level of 140. The default compatibility level for new databases created on SQL Server 2019 is 150, which will need to be altered to 140 or lower, using the ALTER DATABASE command, after the database has been created. Existing databases migrated from SQL server 2017 or below will remain at their previous compatibility level and don't need to be altered.
+> [!NOTE]
+> MBAM has a maximum supported compatibility level of 140. The default compatibility level for new databases created on SQL Server 2019 is 150, which will need to be altered to 140 or lower, using the ALTER DATABASE command, after the database has been created. Existing databases migrated from SQL server 2017 or below will remain at their previous compatibility level and don't need to be altered.
 
 In order to support SQL 2016 you must install the March 2017 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=54967  and to support SQL 2017 you must install the July 2018 Servicing Release for MDOP https://www.microsoft.com/download/details.aspx?id=57157. In general, stay current by always using the most recent servicing update as it also includes all bug fixes and new features.
 
@@ -441,10 +441,7 @@ The following table lists the server processor, RAM, and disk space requirements
 </tbody>
 </table>
 
-
-
 ## <a href="" id="---------mbam-client-system-requirements"></a> MBAM Client system requirements
-
 
 ### Client operating system requirements
 
@@ -605,11 +602,7 @@ The MBAM client isn't supported on virtual machines and is also not supported on
 
 [Preparing your Environment for MBAM 2.5](preparing-your-environment-for-mbam-25.md)
 
-
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
 
