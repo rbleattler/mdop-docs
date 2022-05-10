@@ -13,7 +13,6 @@ ms.prod: w10
 ms.date: 09/27/2016
 ---
 
-
 # About MBAM 2.5 SP1
 
 MBAM 2.5 SP1 provides a simplified administrative interface for BitLocker Drive Encryption. BitLocker offers enhanced protection against data theft or data exposure for computers that are lost or stolen. BitLocker encrypts all data that is stored on the Windows operating system and drives and configured data drives.
@@ -46,8 +45,8 @@ The following groups might be interested in using MBAM to manage BitLocker:
 
 -   Administrators who are responsible for client computers that are running Windows
 
-**Note**  
-BitLocker isn't explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
+> [!NOTE]
+>  BitLocker isn't explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
 
 ## <a href="" id="what-s-new-in-mbam-2-5-sp1"></a>What’s new in MBAM 2.5 SP1
 
@@ -121,10 +120,8 @@ In MBAM 2.5, support was added for Federal Information Processing Standard (FIP
 
 The Windows team has backported FIPS-compliant recovery keys with a hotfix, and MBAM 2.5 SP1 has added support for them as well.
 
-**Note**  
-Client computers that are running the Windows 8 operating system still require a DRA protector since the hotfix wasn't backported to that OS. See [Hotfix Package 2 for BitLocker Administration and Monitoring 2.5](https://support.microsoft.com/kb/3015477) to download and install the BitLocker hotfix for Windows 7 and Windows 8 computers. For information about DRA, see [Using Data Recovery Agents with BitLocker](https://go.microsoft.com/fwlink/?LinkId=393557).
-
- 
+> [!NOTE]
+> Client computers that are running the Windows 8 operating system still require a DRA protector since the hotfix wasn't backported to that OS. See [Hotfix Package 2 for BitLocker Administration and Monitoring 2.5](https://support.microsoft.com/kb/3015477) to download and install the BitLocker hotfix for Windows 7 and Windows 8 computers. For information about DRA, see [Using Data Recovery Agents with BitLocker](https://go.microsoft.com/fwlink/?LinkId=393557).
 
 To enable FIPS compliance in your organization, you must configure the Federal Information Processing Standard (FIPS) Group Policy settings. For configuration instructions, see [BitLocker Group Policy Settings](https://go.microsoft.com/fwlink/?LinkId=393560).
 
@@ -216,14 +213,11 @@ After installation, the service will now set the MBAM agent service to use delay
 
 The compliance calculation logic for "Locked Fixed Data" volumes has been changed to report the volumes as "Compliant," but with a Protector State and Encryption State of "Unknown" and with a Compliance Status Detail of "Volume is locked". Previously, locked volumes were reported as “Non-Compliant”, a Protector State of "Encrypted", an Encryption State of "Unknown", and a Compliance Status Detail of "An unknown error".
 
-
 ## How to Get MDOP Technologies
-
 
 MBAM is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of the Microsoft Software Assurance program. For more information about the Microsoft Software Assurance program and how to acquire the MDOP, see [How Do I Get MDOP?](https://go.microsoft.com/fwlink/?LinkId=322049).
 
 ## MBAM 2.5 SP1 Release Notes
-
 
 For more information and late-breaking news that isn't included in this documentation, see [Release Notes for MBAM 2.5 SP1](release-notes-for-mbam-25-sp1.md).
 
@@ -233,16 +227,7 @@ For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.c
 
 ## Related articles
 
-
 [Microsoft BitLocker Administration and Monitoring 2.5](index.md)
 
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
-
- 
-
- 
-
-
-
-
 
