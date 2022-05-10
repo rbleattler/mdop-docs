@@ -16,7 +16,6 @@ ms.date: 09/27/2016
 
 # What's New in AGPM 4.0 SP3
 
-
 This content describes enhancements and supported configurations for Microsoft Advanced Group Policy Management (AGPM) 4.0 Service Pack 3 (SP3). If there's a difference between this content and other AGPM documentation, consider this content authoritative and assume that it supersedes the other documentation.
 
 ## <a href="" id="what-s-new"></a>What’s new
@@ -113,10 +112,7 @@ You can upgrade the AGPM Client or AGPM Server to AGPM 4.0 SP3 without being pr
 </tbody>
 </table>
 
- 
-
 ## Supported configurations
-
 
 AGPM 4.0 SP3 supports the configurations in the following table. Although AGPM supports mixed configurations, we strongly recommend that you run the AGPM Client and AGPM Server on the same operating system line—for example, Windows 10 with Windows Server 2016, Windows 8.1 with Windows Server 2012 R2, and so on.
 
@@ -179,8 +175,6 @@ AGPM 4.0 SP3 supports the configurations in the following table. Although AGPM 
 </tbody>
 </table>
 
- 
-
 ## Prerequisites for installing AGPM 4.0 SP3
 
 The following table describes the behavior of AGPM 4.0 SP3 Client and Server installers when the .NET Framework 4.5.1, PowerShell 3.0, or the GPMC in the Remote Server Administration Tools is missing.
@@ -192,27 +186,16 @@ The following table describes the behavior of AGPM 4.0 SP3 Client and Server in
 | Windows 8.1            | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If PowerShell 3.0 isn't installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. |
 | Windows Server 2012 R2 | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If PowerShell 3.0 isn't installed, the installer blocks the installation. | If the GPMC isn't enabled, the installer enables it during the installation.   | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If the GPMC isn't enabled, the installer enables it during the installation.   |
 
- 
-
 ## How to Get MDOP Technologies
-
 
 AGPM 4.0 SP3 is a part of the Microsoft Desktop Optimization Pack (MDOP) since MDOP 2015. MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049) (https://go.microsoft.com/fwlink/?LinkId=322049).
 
 ## Related articles
-
 
 [Advanced Group Policy Management](index.md)
 
 [Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3](release-notes-for-microsoft-advanced-group-policy-management-40-sp3.md)
 
 [Choosing Which Version of AGPM to Install](choosing-which-version-of-agpm-to-install.md)
-
- 
-
- 
-
-
-
 
 
