@@ -13,20 +13,16 @@ ms.date: 08/23/2018
 ms.author: dansimp
 ---
 
-
 # High-level architecture of MBAM 2.5 with Configuration Manager Integration topology
 
-This topic describes the recommended architecture for deploying Microsoft BitLocker Administration and Monitoring (MBAM) with the Configuration Manager Integration topology. This topology integrates MBAM with System Center Configuration Manager. To deploy MBAM with the Stand-alone topology, see [High-Level Architecture of MBAM 2.5 with Stand-alone Topology](high-level-architecture-of-mbam-25-with-stand-alone-topology.md).
+This article describes the recommended architecture for deploying Microsoft BitLocker Administration and Monitoring (MBAM) with the Configuration Manager Integration topology. This topology integrates MBAM with System Center Configuration Manager. To deploy MBAM with the Stand-alone topology, see [High-Level Architecture of MBAM 2.5 with Stand-alone Topology](high-level-architecture-of-mbam-25-with-stand-alone-topology.md).
 
-For a list of the supported versions of the software mentioned in this topic, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
+For a list of the supported versions of the software mentioned in this article, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 
-**Important**  
-Windows To Go is not supported for the Configuration Manager Integration topology installation when you are using Configuration Manager 2007.
-
- 
+> [!IMPORTANT]
+> Windows To Go isn't supported for the Configuration Manager Integration topology installation when you're using Configuration Manager 2007.
 
 ## Recommended number of servers and supported number of clients
-
 
 The recommended number of servers and supported number of clients in a production environment is as follows:
 
@@ -54,10 +50,7 @@ The recommended number of servers and supported number of clients in a productio
 </tbody>
 </table>
 
- 
-
 ## Differences between Configuration Manager Integration and stand-alone topologies
-
 
 The main differences between the topologies are:
 
@@ -66,7 +59,6 @@ The main differences between the topologies are:
 -   Reports are viewed from the Configuration Manager Management Console, with the exception of the Recovery Audit Report, which you continue to view from the MBAM Administration and Monitoring Website.
 
 ## Recommended MBAM high-level architecture with the Configuration Manager Integration topology
-
 
 The following diagram and table describe the recommended high-level architecture for MBAM with the Configuration Manager Integration topology. MBAM multi-forest deployments require a one-way or two-way trust. One-way trusts require that the server domain trusts the client domain.
 
@@ -112,7 +104,7 @@ This feature is configured on a computer running Windows Server.
 
 The **Administration and monitoring website** is used to:
 
--   Help end users regain access to their computers when they are locked out. (This area of the Website is commonly called the Help Desk.)
+-   Help end users regain access to their computers when they're locked out. (This area of the Website is commonly called the Help Desk.)
 
 -   View the Recovery Audit Report, which shows recovery activity for client computers. Other reports are viewed from the Configuration Manager console.
 
@@ -120,7 +112,7 @@ The **Administration and monitoring website** is used to:
 
 This feature is configured on a computer running Windows Server.
 
-The **Self-Service Portal** is a website that enables end users on client computers to independently log on to a website to get a recovery key if they lose or forget their BitLocker password.
+The **Self-Service Portal** is a website that enables end users on client computers to independently sign in a website to get a recovery key if they lose or forget their BitLocker password.
 
 #### Monitoring web services for this website
 
@@ -128,9 +120,8 @@ This feature is installed on a computer running Windows Server.
 
 The **monitoring web services** are used by the MBAM Client and the websites to communicate to the database.
 
-**Important**<br>The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
-
- 
+> [!IMPORTANT]
+> The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
 
 ### Management workstation
 
@@ -140,9 +131,8 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 
 -   Before you run MBAM, you must download the Group Policy Templates from [How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
 
-    **NOTE**<br>The workstation does not have to be a dedicated computer.
-
-     
+    > [!NOTE]
+    > The workstation doesn't have to be a dedicated computer.     
 
 ### MBAM Client and Configuration Manager Client computer
 
@@ -158,12 +148,9 @@ The **MBAM Client**:
 
 #### Configuration Manager Client
 
-The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information.
-
- 
+The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information. 
 
 ## Differences in MBAM deployment for supported Configuration Manager versions
-
 
 When you deploy MBAM with the Configuration Manager Integration topology, you can install MBAM on a primary site server. However, the MBAM installation works differently for System Center 2012 Configuration Manager and Configuration Manager 2007.
 
@@ -193,10 +180,7 @@ When you deploy MBAM with the Configuration Manager Integration topology, you ca
 </tbody>
 </table>
 
- 
-
 ## How MBAM works with Configuration Manager
-
 
 The integration of MBAM with Configuration Manager is based on a configuration pack that installs the items described in the following table.
 
@@ -230,8 +214,8 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 <p>This is a dynamic collection. By default, it runs every 12 hours and evaluates membership, based on three criteria:</p>
 <ul>
 <li><p>The computer is a supported version of the Windows operating system.</p></li>
-<li><p>The computer is a physical computer. Virtual machines are not supported.</p></li>
-<li><p>The computer has a Trusted Platform Module (TPM) that is available. A compatible version of TPM 1.2 or later is required for Windows 7. Windows 10, Windows 8.1, Windows 8, and Windows To Go do not require a TPM.</p></li>
+<li><p>The computer is a physical computer. Virtual machines aren't supported.</p></li>
+<li><p>The computer has a Trusted Platform Module (TPM) that is available. A compatible version of TPM 1.2 or later is required for Windows 7. Windows 11, Windows 10, Windows 8.1, Windows 8, and Windows To Go don't require a TPM.</p></li>
 </ul>
 <p>The collection is evaluated against all computers and a subset of compatible computers is created, which provides the basis for compliance evaluation and reporting for the MBAM integration.</p></td>
 </tr>
@@ -252,11 +236,11 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 <tbody>
 <tr class="odd">
 <td align="left"><p>BitLocker Enterprise Compliance Dashboard</p></td>
-<td align="left"><p>Gives IT administrators three views of information in a single report: Compliance Status Distribution, Non Compliant – Errors Distribution, and Compliance Status Distribution By Drive Type. Drill-down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
+<td align="left"><p>Gives IT administrators three views of information in a single report: Compliance Status Distribution, Non Compliant – Errors Distribution, and Compliance Status Distribution By Drive Type. Drill down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>BitLocker Enterprise Compliance Details</p></td>
-<td align="left"><p>Lets IT administrators view information about the BitLocker encryption compliance status of the enterprise and includes the compliance status for each computer. Drill-down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
+<td align="left"><p>Lets IT administrators view information about the BitLocker encryption compliance status of the enterprise and includes the compliance status for each computer. Drill down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>BitLocker Computer Compliance</p></td>
@@ -264,7 +248,7 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 </tr>
 <tr class="even">
 <td align="left"><p>BitLocker Enterprise Compliance Summary</p></td>
-<td align="left"><p>Lets IT administrators view the status of MBAM policy compliance in the enterprise. Each computer’s state is evaluated, and the report shows a summary of the compliance of all computers in the enterprise against the policy. Drill-down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
+<td align="left"><p>Lets IT administrators view the status of MBAM policy compliance in the enterprise. Each computer’s state is evaluated, and the report shows a summary of the compliance of all computers in the enterprise against the policy. Drill down options on the report let IT administrators click through the data and view a list of computers that match the selected state.</p></td>
 </tr>
 </tbody>
 </table>
@@ -273,11 +257,8 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 </tbody>
 </table>
 
- 
 
-
-## Related topics
-
+## Related articles
 
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
 
@@ -285,13 +266,8 @@ The integration of MBAM with Configuration Manager is based on a configuration p
 
 [Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md)
 
- 
-
- 
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
 
 

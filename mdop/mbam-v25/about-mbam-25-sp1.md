@@ -13,14 +13,11 @@ ms.prod: w10
 ms.date: 09/27/2016
 ---
 
-
 # About MBAM 2.5 SP1
-
 
 MBAM 2.5 SP1 provides a simplified administrative interface for BitLocker Drive Encryption. BitLocker offers enhanced protection against data theft or data exposure for computers that are lost or stolen. BitLocker encrypts all data that is stored on the Windows operating system and drives and configured data drives.
 
 ## Overview of MBAM
-
 
 MBAM 2.5 SP1 has the following features:
 
@@ -42,19 +39,16 @@ MBAM enforces the BitLocker encryption policy options that you set for your ente
 
 The following groups might be interested in using MBAM to manage BitLocker:
 
--   Administrators, IT security professionals, and compliance officers who are responsible for ensuring that confidential data is not disclosed without authorization
+-   Administrators, IT security professionals, and compliance officers who are responsible for ensuring that confidential data isn't disclosed without authorization
 
 -   Administrators who are responsible for computer security in remote or branch offices
 
 -   Administrators who are responsible for client computers that are running Windows
 
-**Note**  
-BitLocker is not explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
-
- 
+> [!NOTE]
+>  BitLocker isn't explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
 
 ## <a href="" id="what-s-new-in-mbam-2-5-sp1"></a>What’s new in MBAM 2.5 SP1
-
 
 This section describes the new features in MBAM 2.5 SP1.
 
@@ -92,7 +86,7 @@ For a list of all languages supported for client and server in MBAM 2.5 and MBAM
 
 ### Support for Windows 10
 
-MBAM 2.5 SP1 adds support for Windows 10 and Windows Server 2016, in addition to the same software that is supported in earlier versions of MBAM.
+MBAM 2.5 SP1 adds support for Windows 11, Windows 10, and Windows Server 2016, in addition to the same software that is supported in earlier versions of MBAM.
 
 Windows 10 is supported in both MBAM 2.5 and MBAM 2.5 SP1.
 
@@ -106,11 +100,11 @@ Beginning in MBAM 2.5 SP1, a separate MSI is no longer included with the MBAM pr
 
 ### MBAM can escrow OwnerAuth passwords without owning the TPM
 
-Previously, if MBAM did not own the TPM, the TPM OwnerAuth could not be escrowed to the MBAM database. To configure MBAM to own the TPM and to store the passwords, you had to disable TPM auto-provisioning and clear the TPM on the client computer.
+Previously, if MBAM didn't own the TPM, the TPM OwnerAuth couldn't be escrowed to the MBAM database. To configure MBAM to own the TPM and to store the passwords, you had to disable TPM auto-provisioning and clear the TPM on the client computer.
 
 In Windows 8 and higher, MBAM 2.5 SP1 can now escrow the OwnerAuth passwords without owning the TPM. During service startup, MBAM queries to see if the TPM is already owned and if so, it requests the passwords from the operating system. The passwords are then escrowed to the MBAM database. In addition, Group Policy must be set to prevent the OwnerAuth from being deleted locally.
 
-In Windows 7, MBAM must own the TPM to automatically escrow TPM OwnerAuth information in the MBAM database. If MBAM does not own the TPM and Active Directory (AD) backup of the TPM is configured through Group Policy, you must use the **MBAM Active Directory (AD) Data Import cmdlets** to copy TPM OwnerAuth from AD into the MBAM database. These are five new PowerShell cmdlets that pre-populate MBAM databases with the Volume recovery and TPM owner information stored in Active Directory.
+In Windows 7, MBAM must own the TPM to automatically escrow TPM OwnerAuth information in the MBAM database. If MBAM doesn't own the TPM and Active Directory (AD) backup of the TPM is configured through Group Policy, you must use the **MBAM Active Directory (AD) Data Import cmdlets** to copy TPM OwnerAuth from AD into the MBAM database. These are five new PowerShell cmdlets that pre-populate MBAM databases with the Volume recovery and TPM owner information stored in Active Directory.
 
 For more information, see [MBAM 2.5 Security Considerations](mbam-25-security-considerations.md#bkmk-tpm).
 
@@ -122,22 +116,20 @@ This feature must be enabled on both the server side and in Group Policy on the 
 
 ### Support for FIPS-compliant BitLocker numerical password protectors
 
-In MBAM 2.5, support was added for Federal Information Processing Standard (FIPS)-compliant BitLocker recovery keys on devices running the Windows 8.1 operating system. However, Windows did not implement FIPS-compliant recovery keys in Windows 7. Therefore, Windows 7 and Windows 8 devices still required a Data Recovery Agent (DRA) protector for recovery.
+In MBAM 2.5, support was added for Federal Information Processing Standard (FIPS)-compliant BitLocker recovery keys on devices running the Windows 8.1 operating system. However, Windows didn't implement FIPS-compliant recovery keys in Windows 7. Therefore, Windows 7 and Windows 8 devices still required a Data Recovery Agent (DRA) protector for recovery.
 
 The Windows team has backported FIPS-compliant recovery keys with a hotfix, and MBAM 2.5 SP1 has added support for them as well.
 
-**Note**  
-Client computers that are running the Windows 8 operating system still require a DRA protector since the hotfix was not backported to that OS. See [Hotfix Package 2 for BitLocker Administration and Monitoring 2.5](https://support.microsoft.com/kb/3015477) to download and install the BitLocker hotfix for Windows 7 and Windows 8 computers. For information about DRA, see [Using Data Recovery Agents with BitLocker](https://go.microsoft.com/fwlink/?LinkId=393557).
-
- 
+> [!NOTE]
+> Client computers that are running the Windows 8 operating system still require a DRA protector since the hotfix wasn't backported to that OS. See [Hotfix Package 2 for BitLocker Administration and Monitoring 2.5](https://support.microsoft.com/kb/3015477) to download and install the BitLocker hotfix for Windows 7 and Windows 8 computers. For information about DRA, see [Using Data Recovery Agents with BitLocker](https://go.microsoft.com/fwlink/?LinkId=393557).
 
 To enable FIPS compliance in your organization, you must configure the Federal Information Processing Standard (FIPS) Group Policy settings. For configuration instructions, see [BitLocker Group Policy Settings](https://go.microsoft.com/fwlink/?LinkId=393560).
 
 ### Customize pre-boot recovery message and URL with new Group Policy setting
 
-A new Group Policy setting, **Configure pre-boot recovery message and URL**, lets you configure a custom recovery message or specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 10.
+A new Group Policy setting, **Configure pre-boot recovery message and URL**, lets you configure a custom recovery message or specify a URL that is then displayed on the pre-boot BitLocker recovery screen when the OS drive is locked. This setting is only available on client computers running Windows 11 and Windows 10.
 
-If you enable this policy setting, you can you can select one of these options for the pre-boot recovery message:
+If you enable this policy setting, you can select one of these options for the pre-boot recovery message:
 
 -   **Use custom recovery message**: Select this option to include a custom message in the pre-boot BitLocker recovery screen.
 
@@ -161,7 +153,7 @@ MBAM supports BitLocker on Encrypted Hard Drives that meet TCG specification req
 
 ### Delegation configuration no longer required when registering SPNs
 
-The requirement to configure constrained delegation for SPNs that you register for the application pool account is no longer necessary in MBAM 2.5 SP1. However, it is still a requirement for MBAM 2.5.
+The requirement to configure constrained delegation for SPNs that you register for the application pool account is no longer necessary in MBAM 2.5 SP1. However, it's still a requirement for MBAM 2.5.
 
 ### Enable BitLocker using MBAM as Part of a Windows Deployment
 
@@ -179,7 +171,7 @@ An issue in MBAM 2.5 caused help links in the Server Configuration tool to cause
 
 ### No longer need to download the JavaScript files to configure the Self-Service Portal when the CDN is inaccessible
 
-In MBAM 2.5 and earlier, the jQuery files used for configuration of the Self-Service Portal had to be downloaded from the CDN in advance if clients accessing the Self-Service Portal did not have internet access. In MBAM 2.5 SP1, all JavaScript files are included in the product, so downloading them is unnecessary.
+In MBAM 2.5 and earlier, the jQuery files used for configuration of the Self-Service Portal had to be downloaded from the CDN in advance if clients accessing the Self-Service Portal didn't have internet access. In MBAM 2.5 SP1, all JavaScript files are included in the product, so downloading them is unnecessary.
 
 ### Reports can be opened in Report Builder 3.0
 
@@ -207,7 +199,7 @@ The following parameters have been implemented in the Enable-MbamWebApplication 
 
 -   TpmAutoUnlock
 
-For information about the cmdlets, see [MBAM 2.5 Security Considerations](mbam-25-security-considerations.md) and [Microsoft Bitlocker Administration and Monitoring Cmdlet Help](https://technet.microsoft.com/library/dn720418.aspx).
+For information about the cmdlets, see [MBAM 2.5 Security Considerations](mbam-25-security-considerations.md) and [Microsoft BitLocker Administration and Monitoring Cmdlet Help](https://technet.microsoft.com/library/dn720418.aspx).
 
 ### MBAM agent detects presentation mode
 
@@ -221,33 +213,21 @@ After installation, the service will now set the MBAM agent service to use delay
 
 The compliance calculation logic for "Locked Fixed Data" volumes has been changed to report the volumes as "Compliant," but with a Protector State and Encryption State of "Unknown" and with a Compliance Status Detail of "Volume is locked". Previously, locked volumes were reported as “Non-Compliant”, a Protector State of "Encrypted", an Encryption State of "Unknown", and a Compliance Status Detail of "An unknown error".
 
-
 ## How to Get MDOP Technologies
-
 
 MBAM is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of the Microsoft Software Assurance program. For more information about the Microsoft Software Assurance program and how to acquire the MDOP, see [How Do I Get MDOP?](https://go.microsoft.com/fwlink/?LinkId=322049).
 
 ## MBAM 2.5 SP1 Release Notes
 
-
-For more information and late-breaking news that is not included in this documentation, see [Release Notes for MBAM 2.5 SP1](release-notes-for-mbam-25-sp1.md).
+For more information and late-breaking news that isn't included in this documentation, see [Release Notes for MBAM 2.5 SP1](release-notes-for-mbam-25-sp1.md).
 
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
-## Related topics
-
+## Related articles
 
 [Microsoft BitLocker Administration and Monitoring 2.5](index.md)
 
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
-
- 
-
- 
-
-
-
-
 

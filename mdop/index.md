@@ -30,7 +30,7 @@ The following table provides links to the product documentation for the MDOP pro
 <tbody>
 <tr class="odd">
 <td align="left"><p><strong>Microsoft Advanced Group Policy Management</strong> (AGPM) extends the capabilities of the Group Policy Management Console (GPMC) to provide change control and improved management.</p>
-<p><strong>AGPM 4.0 SP3</strong> – Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2008, Windows Server 2008 R2</p>
+<p><strong>AGPM 4.0 SP3</strong> – Windows 11, Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2008, Windows Server 2008 R2</p>
 <p><strong>AGPM 4.0 SP2</strong> - Windows 8.1, Windows 8, Windows 7, Windows Vista SP1, Windows Server 2012, Windows Server 2008, Windows Server 2008 R2</p>
 <p><strong>AGPM 4.0 SP1</strong> - Windows 8, Windows 7, Windows Vista SP1, Windows Server 2012, Windows Server 2008, Windows Server 2008 R2</p>
 <p><strong>AGPM 4.0</strong> - Windows Vista SP1, Windows 7, Windows Server 2008, Windows Server 2008 R2</p>
@@ -73,7 +73,7 @@ The following table provides links to the product documentation for the MDOP pro
 </tr>
 <tr class="even">
 <td align="left"><p><strong>Microsoft Diagnostics and Recovery Toolset</strong> (DaRT) helps troubleshoot and repair Windows-based computers.</p>
-<p><strong>DaRT 10</strong> - Windows 10</p>
+<p><strong>DaRT 10</strong> - Windows 11, Windows 10</p>
 <p><strong>DaRT 8.1</strong> - Windows 8.1, Windows Server 2012 R2</p>
 <p><strong>DaRT 8.0 SP1</strong> - Windows 8, Windows Server 2012</p>
 <p><strong>DaRT 8.0</strong> - Windows 8, Windows Server 2012</p>
