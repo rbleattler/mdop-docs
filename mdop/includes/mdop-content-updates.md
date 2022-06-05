@@ -2,6 +2,14 @@
 
 
 
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/2/2022 | [Deploying MBAM 2.5 in a stand-alone configuration](/microsoft-desktop-optimization-pack/mbam-v25/deploy-mbam) | modified |
+
+
 ## Week of May 09, 2022
 
 
