@@ -585,8 +585,6 @@ An account that's used for IIS portal installation must have Write ServicePrinci
 > [!Note]
 > You will this receive this warning message twice. This does not mean that the SPN must have two objects registered to it.
 
-For more information, see [MBAM Setup fails with “Register SPN Deferred” error message](https://support.microsoft.com/help/2754138/).
-
 ### Did I have to update the ADMX templates to the latest version?
 
 You'll see multiple OS options in the MBAM root node for GPO after you update the ADMX templates to their latest versions. For example, Windows 7, Windows 8.1, and Windows 10, version 1511 and later versions.
