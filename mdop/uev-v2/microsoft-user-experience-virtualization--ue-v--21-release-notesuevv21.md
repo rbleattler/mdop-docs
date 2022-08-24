@@ -156,10 +156,12 @@ This section contains hotfixes and KB articles for UE-V 2.1.
 <tr class="odd">
 <td align="left"><p>3018608</p></td>
 <td align="left"><p>UE-V 2.1 - TemplateConsole.exe crashes when UE-V WMI classes are missing</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2903501</p></td>
 <td align="left"><p>UE-V: User Experience Virtualization (UE-V) compatibility with user profiles</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2770042</p></td>
@@ -169,18 +171,22 @@ This section contains hotfixes and KB articles for UE-V 2.1.
 <tr class="even">
 <td align="left"><p>2847017</p></td>
 <td align="left"><p>UE-V settings replicated by Internet Explorer</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2769631</p></td>
 <td align="left"><p>How to repair a corrupted UE-V install</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2850989</p></td>
 <td align="left"><p>Migrating MAPI profiles with Microsoft UE-V is not supported</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2769586</p></td>
 <td align="left"><p>UE-V roams empty folders and registry keys</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2782997</p></td>
@@ -190,18 +196,22 @@ This section contains hotfixes and KB articles for UE-V 2.1.
 <tr class="odd">
 <td align="left"><p>2769570</p></td>
 <td align="left"><p>UE-V does not update the theme on RDS or VDI sessions</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2850582</p></td>
 <td align="left"><p>How To Use Microsoft User Experience Virtualization With App-V Applications</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>3041879</p></td>
 <td align="left"><p>Current file versions for Microsoft User Experience Virtualization</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2843592</p></td>
 <td align="left"><p>Information on User Experience Virtualization and High Availability</p></td>
+<td align="left"><p></p></td>
 </tr>
 </tbody>
 </table>

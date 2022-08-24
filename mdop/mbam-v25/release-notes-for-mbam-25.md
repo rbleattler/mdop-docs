@@ -141,6 +141,7 @@ This table lists the hotfixes and KB articles for MBAM 2.5.
 <tr class="odd">
 <td align="left"><p>3011022</p></td>
 <td align="left"><p>MBAM 2.5 installation or Configuration Manager reporting fails if the name of SSRS instance contains an underscore</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2756402</p></td>
@@ -155,6 +156,7 @@ This table lists the hotfixes and KB articles for MBAM 2.5.
 <tr class="even">
 <td align="left"><p>2870842</p></td>
 <td align="left"><p>MBAM 2.0 Setup fails during Configuration Manager Integration Scenario with SQL Server 2008</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2975472</p></td>

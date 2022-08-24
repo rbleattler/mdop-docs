@@ -147,6 +147,7 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 <tr class="odd">
 <td align="left"><p>2831166</p></td>
 <td align="left"><p>Installing Microsoft BitLocker Administration and Monitoring (MBAM) 2.0 fails with &quot;System Center CM Objects Already Installed&quot;</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2870849</p></td>
@@ -176,10 +177,12 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 <tr class="odd">
 <td align="left"><p>2712461</p></td>
 <td align="left"><p>Installing MBAM on a Domain Controller is not supported</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2876732</p></td>
 <td align="left"><p>You receive error code 0x80071a90 during Standalone or Configuration Manager Integration setup of MBAM 2.0</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2754259</p></td>
@@ -189,6 +192,7 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 <tr class="even">
 <td align="left"><p>2870842</p></td>
 <td align="left"><p>MBAM 2.0 Setup fails during Configuration Manager Integration Scenario with SQL Server 2008</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>2668533</p></td>
@@ -203,6 +207,7 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 <tr class="odd">
 <td align="left"><p>2870839</p></td>
 <td align="left"><p>MBAM 2.0 Enterprise Reports are not refreshed in MBAM 2.0 Standalone topology due to SQL job CreateCache failure</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2620269</p></td>
@@ -212,6 +217,7 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 <tr class="odd">
 <td align="left"><p>2935997</p></td>
 <td align="left"><p>MBAM Supported Computers compliance reporting incorrectly includes unsupported products</p></td>
+<td align="left"><p></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>2612822</p></td>
