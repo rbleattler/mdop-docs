@@ -64,4 +64,4 @@ Watch this video to learn how to upgrade the MBAM Web Server:
 
 ## More information
 
-For more information about known issues in MBAM 2.5 SP1, see [Release Notes for MBAM 2.5 SP1](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1).
+For more information about known issues in MBAM 2.5 SP1, see [Release Notes for MBAM 2.5 SP1](/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1).
