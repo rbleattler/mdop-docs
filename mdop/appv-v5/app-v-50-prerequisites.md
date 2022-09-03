@@ -203,7 +203,7 @@ The following table lists the installation prerequisites for the App-V 5.0 Seque
 <tr class="odd">
 <td align="left"><p><strong>Software requirements</strong></p></td>
 <td align="left"><ul>
-<li><p><a href="https://www.microsoft.com/download/details.aspx?id=40784"Visual C++ Redistributable Packages for Visual Studio 2013</a></p>
+<li><p><a href="https://www.microsoft.com/download/details.aspx?id=40784">Visual C++ Redistributable Packages for Visual Studio 2013</a></p>
 <p>This prerequisite is required only if you have installed Hotfix Package 4 for Application Virtualization 5.0 SP2.</p>
 <p></p></li>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p>
