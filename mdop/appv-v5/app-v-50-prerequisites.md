@@ -18,7 +18,7 @@ ms.date: 08/30/2016
 
 Before you begin the Microsoft Application Virtualization (App-V) 5.0 Setup, you should make sure that you have met the prerequisites to install the product. This topic contains information to help you successfully plan for preparing your computing environment before you deploy the App-V 5.0 features.
 
-> [!Important]
+> [!IMPORTANT]
 > **The prerequisites in this article apply only to App-V 5.0**. For additional prerequisites that apply to App-V 5.0 Service Packs, see the following web pages:
 
 -   [What's new in App-V 5.0 SP1](whats-new-in-app-v-50-sp1.md)
@@ -60,7 +60,7 @@ The following table lists prerequisite information that pertains to specific ope
 <li><p>Windows Server 2008</p></li>
 </ul></td>
 <td align="left"><p>You may want to download the following KB:</p>
-<p><a href="https://support.microsoft.com/kb/2533623" data-raw-source="[Microsoft Security Advisory: Insecure library loading could allow remote code execution](https://support.microsoft.com/kb/2533623)">Microsoft Security Advisory: Insecure library loading could allow remote code execution</a></p>
+<p><a href="https://support.microsoft.com/kb/2533623">Microsoft Security Advisory: Insecure library loading could allow remote code execution</a></p>
 <p>Be sure to check for subsequent KBs that have superseded this one, and note that some KBs may require that you uninstall previous updates.</p></td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ The following table lists prerequisite information that pertains to specific ope
 
 ## Installation prerequisites for App-V 5.0
 
-> [!Note]  
+> [!NOTE]
 > The following prerequisites are already installed for computers that run Windows 8.
 
 Each of the App-V 5.0 features have specific prerequisites that must be met before the App-V 5.0 features can be successfully installed.
@@ -92,22 +92,21 @@ The following table lists the installation prerequisites for the App-V 5.0 clien
 <tr class="odd">
 <td align="left"><p><strong>Software requirements</strong></p></td>
 <td align="left"><ul>
-<li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</p></li>
+<li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</p>
+<p></p></li>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=34595">Windows PowerShell 3.0</a></p>
 <p></p>
 <div class="alert">
 <strong>Note</strong><br/><p>Installing PowerShell 3.0 requires a restart.</p>
 </div>
 <div>
-
 </div></li>
-<li><p>Download and install <a href="https://support.microsoft.com/kb/2533623" data-raw-source="[KB2533623](https://support.microsoft.com/kb/2533623)">KB2533623</a></p>
+<li><p>Download and install <a href="https://support.microsoft.com/kb/2533623">KB2533623</a></p>
 <p></p>
 <div class="alert">
 <strong>Important</strong><br/><p>You can download and install the previous KB article. However, it may have been replaced with a more recent version.</p>
 </div>
 <div>
-
 </div></li>
 <li><p>The client installer (.exe) will detect if it is necessary to install the following prerequisites, and it will do so accordingly:</p>
 <p></p>
