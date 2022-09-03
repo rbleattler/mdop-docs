@@ -92,10 +92,8 @@ The following table lists the installation prerequisites for the App-V 5.0 clien
 <tr class="odd">
 <td align="left"><p><strong>Software requirements</strong></p></td>
 <td align="left"><ul>
-<li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</p>
-<p></p></li>
+<li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p></li>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=34595">Windows PowerShell 3.0</a></p>
-<p></p>
 <div class="alert">
 <strong>Note</strong><br/><p>Installing PowerShell 3.0 requires a restart.</p>
 </div>
