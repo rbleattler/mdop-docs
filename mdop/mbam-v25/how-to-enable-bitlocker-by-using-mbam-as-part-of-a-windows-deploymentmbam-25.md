@@ -52,7 +52,7 @@ This topic explains how to enable BitLocker on an end user's computer by using M
    -   Escrow TPM OwnerAuth
    For Windows 7, MBAM must own the TPM for escrow to occur.
    For Windows 8.1, Windows 10 RTM and Windows 10 version 1511, escrow of TPM OwnerAuth is supported.
-   For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+   For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
    -   Escrow recovery keys and recovery key packages
 
@@ -71,7 +71,7 @@ This topic explains how to enable BitLocker on an end user's computer by using M
    <a href="" id="mbam-machine-wmi-class"></a>**MBAM\_Machine WMI Class**
    **PrepareTpmAndEscrowOwnerAuth:** Reads the TPM OwnerAuth and sends it to the MBAM recovery database by using the MBAM recovery service. If the TPM is not owned and auto-provisioning is not on, it generates a TPM OwnerAuth and takes ownership. If it fails, an error code is returned for troubleshooting.
 
-   **Note** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+   **Note** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
 | Parameter | Description |
 | -------- | ----------- |
@@ -184,7 +184,7 @@ Here are a list of common error messages:
            3.  Name the step **Persist TPM OwnerAuth**
 
            4.  Set the command line to `cscript.exe "%SCRIPTROOT%/SaveWinPETpmOwnerAuth.wsf"`
-           **Note:** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+           **Note:** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
        3.  In the **State Restore** folder, delete the **Enable BitLocker** task.
 
