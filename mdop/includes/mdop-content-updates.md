@@ -2,6 +2,15 @@
 
 
 
+## Week of September 12, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/14/2022 | [Deploying MBAM 2.5 in a stand-alone configuration](/microsoft-desktop-optimization-pack/mbam-v25/deploy-mbam) | modified |
+| 9/14/2022 | [Microsoft User Experience Virtualization (UE-V) 2.x](/microsoft-desktop-optimization-pack/uev-v2/index) | modified |
+
+
 ## Week of September 05, 2022
 
 
