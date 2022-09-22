@@ -24,7 +24,7 @@ Going forward, the functionality of MBAM will be incorporated into Microsoft End
 Customers not using Config Manager can utilize the built-in features of Azure AD and Microsoft Endpoint Manager Microsoft Intune (MEMMI) for administration and monitoring, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor)
 
 For customers in extended support:
-To obtain MBAM, see [How Do I Get MDOP](https://docs.microsoft.com/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
+To obtain MBAM, see [How Do I Get MDOP](/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
 
 ## Outline
 

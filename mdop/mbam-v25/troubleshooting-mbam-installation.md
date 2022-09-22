@@ -135,7 +135,7 @@ Review the MBAM Admin event log. You will see an event entry that resembles the 
     The system volume is missing.
     SystemVolume is needed to encrypt the operating system drive.
 
-BitLocker requires a SYSTEM partition to enable encryption ([BitLocker Drive Encryption in Windows 7: Frequently Asked Questions](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-7/ee449438(v=ws.10)?redirectedfrom=MSDN#bkmk_partitions)).
+BitLocker requires a SYSTEM partition to enable encryption ([BitLocker Drive Encryption in Windows 7: Frequently Asked Questions](/previous-versions/windows/it-pro/windows-7/ee449438(v=ws.10)?redirectedfrom=MSDN#bkmk_partitions)).
 
 MBAM doesn't create the system partition automatically. You can use the BitLocker drive preparation utility (bdehdcfg.exe) to create the system partition and move the required startup files.
 
@@ -145,7 +145,7 @@ For example, you can use the command **%windir%\system32\bdeHdCfg.exe -target de
 
 ### Drives are not formatted to have a compatible file system
 
-See the [TechNet article for file system requirements for BitLocker](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-7/ee449438(v=ws.10)?redirectedfrom=MSDN#bkmk_hsrequirements).
+See the [TechNet article for file system requirements for BitLocker](/previous-versions/windows/it-pro/windows-7/ee449438(v=ws.10)?redirectedfrom=MSDN#bkmk_hsrequirements).
 
 ### Group Policy conflict
 
@@ -641,4 +641,4 @@ For more information, see the following articles:
 
 [Deploying MBAM 2.5 in a standalone configuration](https://support.microsoft.com/help/3046555)
 
-[Microsoft BitLocker Administration and Monitoring 2.5](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/)
+[Microsoft BitLocker Administration and Monitoring 2.5](/microsoft-desktop-optimization-pack/mbam-v25/)

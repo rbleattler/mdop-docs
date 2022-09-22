@@ -2,22 +2,18 @@
 
 
 
-## Week of May 30, 2022
+## Week of September 12, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/2/2022 | [Deploying MBAM 2.5 in a stand-alone configuration](/microsoft-desktop-optimization-pack/mbam-v25/deploy-mbam) | modified |
+| 9/14/2022 | [Deploying MBAM 2.5 in a stand-alone configuration](/microsoft-desktop-optimization-pack/mbam-v25/deploy-mbam) | modified |
+| 9/14/2022 | [Microsoft User Experience Virtualization (UE-V) 2.x](/microsoft-desktop-optimization-pack/uev-v2/index) | modified |
 
 
-## Week of May 09, 2022
+## Week of September 05, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/11/2022 | [Choosing Which Version of AGPM to Install](/microsoft-desktop-optimization-pack/agpm/choosing-which-version-of-agpm-to-install) | modified |
-| 5/11/2022 | [What's New in AGPM 4.0 SP3](/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3) | modified |
-| 5/11/2022 | [About MBAM 2.5 SP1](/microsoft-desktop-optimization-pack/mbam-v25/about-mbam-25-sp1) | modified |
-| 5/11/2022 | [High-Level Architecture of MBAM 2.5 with Configuration Manager Integration Topology](/microsoft-desktop-optimization-pack/mbam-v25/high-level-architecture-of-mbam-25-with-configuration-manager-integration-topology) | modified |
-| 5/11/2022 | [MBAM 2.5 Supported Configurations](/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-supported-configurations) | modified |
-| 5/11/2022 | [Planning for MBAM 2.5 Group Policy Requirements](/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-group-policy-requirements) | modified |
+| 9/6/2022 | [App-V 5.0 Prerequisites](/microsoft-desktop-optimization-pack/appv-v5/app-v-50-prerequisites) | modified |
