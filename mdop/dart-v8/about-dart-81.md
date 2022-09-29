@@ -62,7 +62,7 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 8.1 provides the following enh
 
 
 
-To download Windows ADK 8.1, see [Windows Assessment and Deployment Kit (Windows ADK) for Windows 8.1](https://www.microsoft.com/download/details.aspx?id=39982) in the Microsoft Download Center.
+[Download Windows Assessment and Deployment Kit (Windows ADK) for Windows 8.1](/windows-hardware/get-started/adk-install)
 
 
 -   **Microsoft .NET Framework 4.5.1**
