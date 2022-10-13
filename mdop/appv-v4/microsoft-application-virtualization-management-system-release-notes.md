@@ -71,11 +71,11 @@ When this has been completed, install the App-V 4.5 CU1 client by using setup.m
 
 When installing Microsoft Application Error Reporting, use the following command if you're installing or upgrading to the App-V 4.5 CU1 Desktop client:
 
-    msiexec /i dw20shared.msi APPGUID={FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
+    `msiexec /i dw20shared.msi APPGUID={FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus`
 
 Alternatively, if you're installing or upgrading to the App-V 4.5 CU1 Terminal Services client, use the following command:
 
-    msiexec /i dw20shared.msi APPGUID={8A97C241-D92A-47DC-B360-E716C1AAA929} allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
+    `msiexec /i dw20shared.msi APPGUID={8A97C241-D92A-47DC-B360-E716C1AAA929} allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus`
 
 **Note**  
 The APPGUID parameter references the product code of the App-V client that you install or upgrade to. The product code is unique for each setup.msi. You can use the Orca database editor or similar tool to examine Windows Installer files and determine the product code. This step is required for all installs or upgrades to App-V 4.5 CU1.
@@ -88,7 +88,7 @@ When sequencing on Windows 7 Beta or on a computer with Windows Installer 5.0,
 
 WORKAROUND   You must manually grant the Everyone group Full Control permissions to the following registry key:
 
-    HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\SoftGrid\\4.5\\SystemGuard
+    `HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\SoftGrid\\4.5\\SystemGuard`
 
 **Important**  
 You must use the **Advanced** button to set the “Include inheritable permissions from this object’s parent” option.
