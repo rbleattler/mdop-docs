@@ -1,5 +1,5 @@
 ---
-title: Diagnosing System Failures with Crash Analyzer
+title: How to Diagnose System Failures with Crash Analyzer
 description: Diagnosing System Failures with Crash Analyzer
 author: dansimp
 ms.assetid: 170d40ef-4edb-4a32-a349-c285c0ea5e56
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Diagnosing System Failures with Crash Analyzer
+# How to Diagnose System Failures with Crash Analyzer
 
 
 The Crash Analyzer in Microsoft Diagnostics and Recovery Toolset (DaRT) 7 lets you debug a crash dump file on a Windows-based computer and then diagnose any related computer errors. The Crash Analyzer uses the Microsoft Debugging Tools for Windows to examine a crash dump file for the driver that caused the computer to fail.

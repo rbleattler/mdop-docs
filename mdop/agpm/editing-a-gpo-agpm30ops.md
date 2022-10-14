@@ -1,5 +1,5 @@
 ---
-title: Editing a GPO
+title: How to edit a GPO
 description: Editing a GPO
 author: dansimp
 ms.assetid: 3024051a-ff33-46d0-9c3e-68ebae7f6b60
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Editing a GPO
+# How to edit a GPO
 
 
 A Group Policy Object (GPO) must be controlled by Advanced Group Policy Management (AGPM) before you can edit it. See [Creating, Controlling, or Importing a GPO](creating-controlling-or-importing-a-gpo-agpm30ops.md) for more information about controlling a GPO.

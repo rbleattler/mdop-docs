@@ -1,5 +1,5 @@
 ---
-title: Configure AGPM Server Connections
+title: How to Configure AGPM Server Connections
 description: Configure AGPM Server Connections
 author: dansimp
 ms.assetid: 6062b77b-2fd7-442c-ad1b-6f14419ebd5f
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure AGPM Server Connections
+# How to  Configure AGPM Server Connections
 
 
 All versions of each controlled Group Policy Object (GPO) are stored in a central archive so that Group Policy administrators can view and modify GPOs offline without immediately impacting the deployed version of each GPO.
