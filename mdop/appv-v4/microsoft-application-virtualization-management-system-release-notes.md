@@ -47,10 +47,9 @@ Comprehensive documentation for Application Virtualization (App-V) is available 
 ## Protect Against Security Vulnerabilities and Viruses
 
 
-To help protect against security vulnerabilities and viruses, it's important to install the latest available security updates for any new software being installed. For more information, see the Microsoft Security Web site at <https://go.microsoft.com/fwlink/?LinkId=3482>.
+To help protect against security vulnerabilities and viruses, it's important to install the latest available security updates for any new software being installed. For more information, see the [Microsoft Security Web site.](https://www.microsoft.com/security) 
 
 ## Providing Feedback
-
 
 You can provide feedback, make a suggestion, or report an issue with the Microsoft Application Virtualization (App-V) Management System via a community forum on the Microsoft Application Virtualization TechCenter (<https://go.microsoft.com/fwlink/?LinkId=122917>).
 
@@ -80,7 +79,7 @@ Alternatively, if you're installing or upgrading to the App-V 4.5 CU1 Terminal S
 **Note**  
 The APPGUID parameter references the product code of the App-V client that you install or upgrade to. The product code is unique for each setup.msi. You can use the Orca database editor or similar tool to examine Windows Installer files and determine the product code. This step is required for all installs or upgrades to App-V 4.5 CU1.
 
- ### <a href="" id="some-applications-might-fail-to-install-during-the-monitoring-phase-when-sequencing-on-windows-7-beta--"></a>Some applications might fail to install during the monitoring phase when sequencing on Windows 7 Beta
+### Some applications might fail to install during the monitoring phase when sequencing on Windows 7 Beta
 
 When sequencing on Windows 7 Beta or on a computer with Windows Installer 5.0, some applications might fail to install during the monitoring phase.
 
@@ -151,13 +150,13 @@ If you receive error 450478-1F702339-0000010B “The directory name is invalid�
 
 WORKAROUND   Remove the trailing tilde from any CSIDL variable that exists in the OSD file.
 
-### <a href="" id="correct-syntax-for-decodepath-parameter-for-command-line-sequencer-"></a>Correct syntax for DECODEPATH parameter for command-line Sequencer
+### Correct syntax for DECODEPATH parameter for command-line Sequencer
 
 In the command-line Sequencer, when opening a package for upgrade and decoding it to the root of the Q drive, the syntax for the *DECODEPATH* parameter shouldn't include a trailing slash.
 
 WORKAROUND   You can use **Q:** rather than **Q:\\** (omitting the trailing “\\” character).
 
-### <a href="" id="when-upgrading-4-2-packages--you-encounter-problems-caused-by-windows-installer-files-in-the-virtual-file-system-"></a>When upgrading 4.2 packages, you encounter problems caused by Windows Installer files in the Virtual File System
+### When upgrading 4.2 packages, you encounter problems caused by Windows Installer files in the Virtual File System
 
 When upgrading a package from 4.2, you might experience issues relating to a mismatch of Windows Installer system files that were included by default in 4.2 and the Windows Installer libraries locally installed on your Sequencing workstation. The following files are located in CSIDL\_SYSTEM\\:
 
@@ -173,7 +172,7 @@ msimsg.dlll
 
 WORKAROUND   Delete all of the preceding files from the package. Delete the mappings on the **VFS** tab as well as the actual files in the CSIDL\_SYSTEM folder in your decode path.
 
-### <a href="" id="on-windows-xp--client-install-logging-is-not-enabled-by-default-"></a>On Windows XP, client install logging isn't enabled by default
+### On Windows XP, client install logging isn't enabled by default
 
 When installing the client, to ensure that any install errors are captured for troubleshooting purposes, you should enable logging by using the command line.
 
@@ -209,7 +208,7 @@ WORKAROUND   After the upgrade, reset existing client logs or manually change
 
 Microsoft Application Virtualization Cumulative Update 1 supports sequencing the .NET Framework on Windows XP (SP2 or later). Sequencing routines for .NET applications that were written for SoftGrid 4.2 might need to be updated when used with the App-V 4.5 Sequencer. For details and workarounds, please refer to the Knowledge Base article at <https://go.microsoft.com/fwlink/?LinkId=123412>.
 
-### <a href="" id="after-client-upgrade-from-app-v-4-2--some-applications-are-not-shown-"></a>After client upgrade from App-V 4.2, some applications aren't shown
+### After client upgrade from App-V 4.2, some applications aren't shown
 
 Check for the following error in the log: ”The Application Virtualization Client couldn't parse the OSD file”. The Microsoft Application Virtualization 4.5 client filters out applications that have an OSD file containing an empty OS tag (&lt;OS&gt;&lt;/OS&gt;).
 
