@@ -1,5 +1,5 @@
 ---
-title: Creating, Controlling, or Importing a GPO
+title: How to create, control, or import a GPO
 description: Creating, Controlling, or Importing a GPO
 author: dansimp
 ms.assetid: 0cc1b6ee-3335-4d84-9e1c-d1aefabfef51
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Creating, Controlling, or Importing a GPO
+# How to create, control, or importing a GPO
 
 
 To use Advanced Group Policy Management (AGPM) to provide change control for a Group Policy Object (GPO), you must first control the GPO with AGPM. New GPOs created through the **Change Control** folder will automatically be controlled.
