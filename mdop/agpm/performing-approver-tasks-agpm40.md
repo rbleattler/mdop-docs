@@ -1,5 +1,5 @@
 ---
-title: Performing Approver Tasks
+title: Perform Approver Tasks
 description: Performing Approver Tasks
 author: dansimp
 ms.assetid: e0a4b7fe-ce69-4755-9104-c7f523ea6b62
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Performing Approver Tasks
+# Perform Approver Tasks
 
 
 An Approver is a person authorized by an AGPM Administrator (Full Control) to create, deploy, and delete Group Policy Objects (GPOs) and to approve or reject requests (typically from Editors) to create, deploy, or delete GPOs.

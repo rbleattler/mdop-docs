@@ -1,5 +1,5 @@
 ---
-title: How to Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
+title: Run Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
 description: How to Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
 author: dansimp
 ms.assetid: 27c1e1c6-123a-4f8a-b7d2-5bddc9ca3249
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
+# Run Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
 
 
 If you cannot access the Microsoft Debugging Tools for Windows or the symbol files on the end-user computer, you can copy the dump file from the problem computer and analyze it on a computer that has the stand-alone version of Crash Analyzer installed, such as a help desk computer that contains Microsoft Diagnostics and Recovery Toolset (DaRT) 10.

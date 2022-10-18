@@ -1,5 +1,5 @@
 ---
-title: Performing AGPM Administrator Tasks
+title: Perform AGPM Administrator Tasks
 description: Performing AGPM Administrator Tasks
 author: dansimp
 ms.assetid: 9678b0f4-70a5-411e-a896-afa4dc9ea6c4
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Performing AGPM Administrator Tasks
+# Perform AGPM Administrator Tasks
 
 
 In Advanced Group Policy Management (AGPM), an AGPM Administrator (Full Control) configures domain-wide options and delegates permissions to Approvers, Editors, Reviewers, and other AGPM Administrators. By default, an AGPM Administrator is an individual with Full Control—all AGPM permissions—and who therefore can perform tasks associated with any role.
