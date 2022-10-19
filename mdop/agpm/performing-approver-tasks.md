@@ -41,7 +41,7 @@ Because the Approver role includes the permissions for the Reviewer role, an App
 
  
 
-### Extra considerations
+### Other considerations
 
 By default, the following permissions are provided for the Approver role:
 
