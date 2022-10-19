@@ -17,10 +17,10 @@ ms.date: 06/16/2016
 # Approver Task Guidance
 
 
-An Approver is a person authorized by an AGPM Administrator (Full Control) to create, deploy, and delete Group Policy objects (GPOs) and to approve or reject requests (typically from Editors) to create, deploy, or delete GPOs.
+An Approver is a person who is authorized by an AGPM Administrator (Full Control) to create, deploy, and delete Group Policy objects (GPOs) and to approve or reject requests (typically from Editors) to create, deploy, or delete GPOs.
 
 **Important**  
-Ensure that you are connecting to the central archive for GPOs. For more information, see [Configure the AGPM Server Connection](configure-the-agpm-server-connection-reviewer.md).
+Ensure that you're connecting to the central archive for GPOs. For more information, see [Configure the AGPM Server Connection](configure-the-agpm-server-connection-reviewer.md).
 
  
 
@@ -41,7 +41,7 @@ Because the Approver role includes the permissions for the Reviewer role, an App
 
  
 
-### Additional considerations
+### Extra considerations
 
 By default, the following permissions are provided for the Approver role:
 
@@ -55,7 +55,7 @@ By default, the following permissions are provided for the Approver role:
 
 -   Delete GPO
 
-Also, an Approver has full control over GPOs that he created or controlled.
+Also, an Approver has full control over GPOs that they created or controlled.
 
  
 
