@@ -1,6 +1,6 @@
 ---
 title: Production Delegation Tab
-description: Production Delegation Tab
+description: Production Delegation Tab Overview
 author: dansimp
 ms.assetid: 046bb9bc-769a-4306-bc49-c159a9533552
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Production Delegation Tab
+# Production Delegation Tab Overview
 
 
 The **Production Delegation** tab on the **Change Control** pane provides a list of users and groups who have domain-level access to controlled Group Policy Objects (GPOs) in the production environment and indicates the allowed permissions of each user or group.

@@ -1,5 +1,5 @@
 ---
-title: Import a GPO from Production
+title: How to Import a GPO from Production
 description: Import a GPO from Production
 author: dansimp
 ms.assetid: ad90f13e-e73c-400f-b86f-c12f2e75d19d
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Import a GPO from Production
+# How to Import a GPO from Production
 
 
 If changes are made to a controlled Group Policy Object (GPO) outside of Advanced Group Policy Management (AGPM), you can import a copy of the GPO from the production environment and save it to the archive to bring the archive and the production environment to a consistent state. (To import an uncontrolled GPO, control the GPO. See [Control an Uncontrolled GPO](control-an-uncontrolled-gpo-agpm30ops.md).)

@@ -1,5 +1,5 @@
 ---
-title: Planning for Using App-V with Office
+title: How to Plan for Using App-V with Office
 description: Planning for Using App-V with Office
 author: dansimp
 ms.assetid: e7a19b43-1746-469f-bad6-8e75cf4b3f67
@@ -14,7 +14,7 @@ ms.date: 03/16/2017
 ---
 
 
-# Planning for Using App-V with Office
+# How to Plan for Using App-V with Office
 
 
 Use the following information to plan how to deploy Office by using Microsoft Application Virtualization (App-V) 5.1. This article includes:

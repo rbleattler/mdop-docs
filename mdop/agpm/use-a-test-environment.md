@@ -29,11 +29,11 @@ If you use a testing organizational unit (OU) to test Group Policy objects (GPOs
 
 4.  Click **OK** in the dialog box asking whether to create a link to the GPO in the test OU.
 
-### Additional considerations
+### Other considerations
 
 -   When testing is complete, checking in the GPO automatically deletes the link to the checked-out copy of the GPO.
 
-### Additional references
+### References
 
 -   [Editing a GPO](editing-a-gpo.md)
 
