@@ -1,5 +1,5 @@
 ---
-title: Approve or Reject a Pending Action
+title: Learn to Approve or Reject a Pending Action
 description: Approve or Reject a Pending Action
 author: dansimp
 ms.assetid: 6d78989a-b600-4876-9dd9-bc6207ff2ce7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Approve or Reject a Pending Action
+# Learn to Approve or Reject a Pending Action
 
 
 The core responsibility of an Approver is to evaluate and then approve or reject requests for Group Policy Object (GPO) creation, deployment, and deletion from Editors or Reviewers who do not have permission to complete those actions. Reports can assist an Approver with evaluating a new version of a GPO.

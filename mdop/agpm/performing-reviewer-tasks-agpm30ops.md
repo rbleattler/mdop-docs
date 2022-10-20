@@ -1,5 +1,5 @@
 ---
-title: Performing Reviewer Tasks
+title: Reviewer Tasks
 description: Performing Reviewer Tasks
 author: dansimp
 ms.assetid: 1faf396d-be0d-49ac-b063-0722fda2e43d
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Performing Reviewer Tasks
+# Reviewer Tasks
 
 
 A Reviewer is a person authorized by an AGPM Administrator (Full Control) to review or audit Group Policy Objects (GPOs). An individual with only the Reviewer role cannot modify GPOs; however, all other roles include the Reviewer role.
