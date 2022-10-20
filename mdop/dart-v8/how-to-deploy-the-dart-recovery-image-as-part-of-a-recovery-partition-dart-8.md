@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the DaRT Recovery Image as Part of a Recovery Partition
+title: Deploying the DaRT Recovery Image as Part of a Recovery Partition
 description: How to Deploy the DaRT Recovery Image as Part of a Recovery Partition
 author: dansimp
 ms.assetid: 07c5d539-51d9-4759-adc7-72b40d5d7bb3
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Deploy the DaRT Recovery Image as Part of a Recovery Partition
+# Deploying the DaRT Recovery Image as Part of a Recovery Partition
 
 
 After you have finished running the Microsoft Diagnostics and Recovery Toolset (DaRT) 8.0 Recovery Image wizard and created the recovery image, you can extract the boot.wim file from the ISO image file and deploy it as a recovery partition in a Windows 8 image. A partition is recommended, because any corruption issues that prevent the Windows operating system from starting would also prevent the recovery image from starting. A separate partition also eliminates the need to provide the BitLocker recovery key twice. Consider hiding the partition to prevent users from storing files on it.

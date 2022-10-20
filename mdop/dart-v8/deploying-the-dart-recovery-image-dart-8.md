@@ -1,5 +1,5 @@
 ---
-title: Deploying the DaRT Recovery Image
+title: Deploy the DaRT Recovery Image
 description: Deploying the DaRT Recovery Image
 author: dansimp
 ms.assetid: df5cb54a-be8c-4ed2-89ea-d3c67c2ef4d4
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Deploying the DaRT Recovery Image
+# Deploy the DaRT Recovery Image
 
 
 After you have created the International Organization for Standardization (ISO) file that contains the Microsoft Diagnostics and Recovery Toolset (DaRT) 8.0 recovery image, you can deploy the DaRT 8.0 recovery image throughout your enterprise so that it is available to end users and help desk workers. There are four supported methods that you can use to deploy the DaRT recovery image. To review the advantages and disadvantages of each method, see [Planning How to Save and Deploy the DaRT 8.0 Recovery Image](planning-how-to-save-and-deploy-the-dart-80-recovery-image-dart-8.md).
