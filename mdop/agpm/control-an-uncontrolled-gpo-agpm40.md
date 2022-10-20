@@ -1,5 +1,5 @@
 ---
-title: Control an Uncontrolled GPO
+title: How to Control an Uncontrolled GPO
 description: Control an Uncontrolled GPO
 author: dansimp
 ms.assetid: dc81545c-8da5-4b6f-b266-f01a82e27c6b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Control an Uncontrolled GPO
+# How to Control an Uncontrolled GPO
 
 
 To provide change control for a Group Policy Object (GPO), you must first control the GPO.
