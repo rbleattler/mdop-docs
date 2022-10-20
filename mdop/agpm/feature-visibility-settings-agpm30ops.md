@@ -1,5 +1,5 @@
 ---
-title: Feature Visibility Settings
+title: Configure Feature Visibility Settings
 description: Feature Visibility Settings
 author: dansimp
 ms.assetid: 6a844478-a6b0-490d-923f-5a6f82467831
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Feature Visibility Settings
+# Configure Feature Visibility Settings
 
 
 The Administrative template settings for Advanced Group Policy Management (AGPM) enable you to centrally configure the visibility of the **Change Control** folder and **History** tab for Group Policy administrators to whom a Group Policy Object (GPO) with these settings is applied.

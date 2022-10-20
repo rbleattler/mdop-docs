@@ -1,5 +1,5 @@
 ---
-title: Delegate Management of a Controlled GPO
+title: How to Delegate Management of a Controlled GPO
 description: Delegate Management of a Controlled GPO
 author: dansimp
 ms.assetid: 96b4bfb3-5657-4267-8326-85d7a0db87ce
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delegate Management of a Controlled GPO
+# How to Delegate Management of a Controlled GPO
 
 
 An Approver can delegate the management of a controlled Group Policy Object (GPO) that was created by that Approver. Like an AGPM Administrator (Full Control), the Approver can delegate access to such a GPO so that selected Editors can edit it, Reviewers can review it, and other Approvers can approve it. By default, an Approver cannot delegate access to GPOs created by another Group Policy administrator.
