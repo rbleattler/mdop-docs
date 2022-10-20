@@ -1,5 +1,5 @@
 ---
-title: How to Connect to the Management Console
+title: Connect to the Management Console
 description: How to Connect to the Management Console
 author: dansimp
 ms.assetid: 5a15ed86-7db7-4df3-80ca-bde26f3285e1
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Connect to the Management Console
+# Connect to the Management Console
 
 
 Use the following procedure to connect to the App-V 5.1 Management Console.

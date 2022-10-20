@@ -1,5 +1,5 @@
 ---
-title: Planning for Migrating from a Previous Version of App-V
+title: Plan for Migrating from a Previous Version of App-V
 description: Planning for Migrating from a Previous Version of App-V
 author: dansimp
 ms.assetid: d4ca8f09-86fd-456f-8ec2-242ff94ae9a0
@@ -14,7 +14,7 @@ ms.date: 06/21/2016
 ---
 
 
-# Planning for Migrating from a Previous Version of App-V
+# Plan for Migrating from a Previous Version of App-V
 
 
 Use the following information to plan how to migrate to App-V 5.0 from previous versions of App-V.

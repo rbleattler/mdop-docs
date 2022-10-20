@@ -1,5 +1,5 @@
 ---
-title: Managing the AGPM Service
+title: Manage the AGPM Service
 description: Managing the AGPM Service
 author: dansimp
 ms.assetid: a522b1f1-c57b-43aa-9d75-acc6f9bedbf9
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Managing the AGPM Service
+# Manage the AGPM Service
 
 
 The AGPM Service is a Windows service that acts as a security proxy, managing client access to Group Policy Objects (GPOs) in the archive and production environment. It enforces Advanced Group Policy Management (AGPM) delegation and provides an enhanced level of security. The AGPM Service is hosted on the server on which the Microsoft Advanced Group Policy Management - Server is installed.
