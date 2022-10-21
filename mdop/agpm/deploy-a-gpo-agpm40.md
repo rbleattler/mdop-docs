@@ -1,5 +1,5 @@
 ---
-title: Deploy a GPO
+title: How to Deploy a GPO
 description: Deploy a GPO
 author: dansimp
 ms.assetid: a6febeaa-144b-4c02-99af-d972f0f2b544
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Deploy a GPO
+# How to Deploy a GPO
 
 
 An Approver can deploy a new or edited Group Policy Object (GPO) to the production environment. For information about redeploying an earlier version of a GPO, see [Roll Back to an Earlier Version of a GPO](roll-back-to-an-earlier-version-of-a-gpo-agpm40.md).

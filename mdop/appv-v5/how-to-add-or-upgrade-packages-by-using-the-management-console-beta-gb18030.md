@@ -1,5 +1,5 @@
 ---
-title: How to Add or Upgrade Packages by Using the Management Console
+title: Add or Upgrade Packages by Using the Management Console
 description: How to Add or Upgrade Packages by Using the Management Console
 author: dansimp
 ms.assetid: 4e389d7e-f402-44a7-bc4c-42c2a8440573
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Add or Upgrade Packages by Using the Management Console
+# Add or Upgrade Packages by Using the Management Console
 
 
 You can the following procedure to add or upgrade a package to the App-V 5.0 Management Console. To upgrade a package that already exists in the Management Console, use the following steps and import the upgraded package using the same package **Name**.

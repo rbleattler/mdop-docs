@@ -1,5 +1,5 @@
 ---
-title: Request Deletion of a GPO
+title: How to Request Deletion of a GPO
 description: Request Deletion of a GPO
 author: dansimp
 ms.assetid: 2410f7a1-ccca-44cf-ab26-76ad474409e7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Request Deletion of a GPO
+# How to Request Deletion of a GPO
 
 
 Unless you are an Approver or an AGPM Administrator (Full Control), you must request the deletion of a Group Policy Object (GPO).
