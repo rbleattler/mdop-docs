@@ -1,5 +1,5 @@
 ---
-title: Label the Current Version of a GPO
+title: How to Label the Current Version of a GPO
 description: Label the Current Version of a GPO
 author: dansimp
 ms.assetid: cadc8769-21da-44b0-8122-6cafdb448913
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Label the Current Version of a GPO
+# How to Label the Current Version of a GPO
 
 
 You can label the current version of a Group Policy Object (GPO) for easy identification in its history. You can use a label to identify a known good version to which you could roll back if a problem occurs. Also, by labeling multiple GPOs with the same label at one time, you can mark related GPOs that should be rolled back to the same point if rollback should later be necessary.

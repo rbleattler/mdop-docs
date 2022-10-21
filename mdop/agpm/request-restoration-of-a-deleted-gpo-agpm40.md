@@ -1,5 +1,5 @@
 ---
-title: Request Restoration of a Deleted GPO
+title: How to Request Restoration of a Deleted GPO
 description: Request Restoration of a Deleted GPO
 author: dansimp
 ms.assetid: bac5ca3b-be47-49b5-bf1b-96280625fda8
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Request Restoration of a Deleted GPO
+# How to Request Restoration of a Deleted GPO
 
 
 Unless you are an Approver or an AGPM Administrator (Full Control), you must request the restoration of a deleted Group Policy Object (GPO) from the Recycle Bin to return it to the archive.

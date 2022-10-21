@@ -1,5 +1,5 @@
 ---
-title: How to Create a Package Accelerator by Using PowerShell
+title: Create a Package Accelerator by Using PowerShell
 description: How to Create a Package Accelerator by Using PowerShell
 author: dansimp
 ms.assetid: 0cb98394-4477-4193-8c5f-1c1773c7263a
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Package Accelerator by Using PowerShell
+# Create a Package Accelerator by Using PowerShell
 
 
 App-V 5.1 package accelerators automatically sequence large, complex applications. Additionally, when you apply an App-V 5.1 package accelerator, you are not always required to manually install an application to create the virtualized package.
