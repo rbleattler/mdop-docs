@@ -1,5 +1,5 @@
 ---
-title: How to Convert a Package Created in a Previous Version of App-V
+title: Convert a Package Created in a Previous Version of App-V
 description: How to Convert a Package Created in a Previous Version of App-V
 author: dansimp
 ms.assetid: 3366d399-2891-491d-8de1-f8cfdf39bbab
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Convert a Package Created in a Previous Version of App-V
+# Convert a Package Created in a Previous Version of App-V
 
 
 You can use the package converter utility to upgrade virtual application packages that have been created with previous versions of App-V.
