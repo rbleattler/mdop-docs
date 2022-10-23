@@ -1,5 +1,5 @@
 ---
-title: Delegate Domain-Level Access to the Archive
+title: How to Delegate Domain-Level Access to the Archive
 description: Delegate Domain-Level Access to the Archive
 author: dansimp
 ms.assetid: 11ca1d40-4b5c-496e-8922-d01412717858
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delegate Domain-Level Access to the Archive
+# How to Delegate Domain-Level Access to the Archive
 
 
 Set up delegation for your environment so that Group Policy administrators have the appropriate access to and control over Group Policy Objects (GPOs) in the archive. There are baseline permissions you can apply to make operation more efficient. You can grant permissions in any manner that meets the needs of your organization.
