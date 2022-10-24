@@ -1,5 +1,5 @@
 ---
-title: How to Delete a Package in the Management Console
+title: Delete a Package in the Management Console
 description: How to Delete a Package in the Management Console
 author: dansimp
 ms.assetid: 4a2be40b-bbb8-4fab-992d-7466df432858
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Delete a Package in the Management Console
+# Delete a Package in the Management Console
 
 
 Use the following procedure to delete an App-V 5.1 package.

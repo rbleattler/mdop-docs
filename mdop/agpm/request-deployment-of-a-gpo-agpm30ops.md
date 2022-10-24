@@ -1,5 +1,5 @@
 ---
-title: Request Deployment of a GPO
+title: Request GPO Deployment of a GPO
 description: Request Deployment of a GPO
 author: dansimp
 ms.assetid: f44ae0fb-bcf7-477b-b99e-9dd6a55ee597
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Request Deployment of a GPO
+# Request GPO Deployment
 
 
 After you have modified and checked in a Group Policy Object (GPO), deploy the GPO, so it will take effect in the production environment.
