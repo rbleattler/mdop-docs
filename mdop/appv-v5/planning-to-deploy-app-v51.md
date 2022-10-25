@@ -1,5 +1,5 @@
 ---
-title: Planning to Deploy App-V
+title: Plan for Deploying App-V
 description: Planning to Deploy App-V
 author: dansimp
 ms.assetid: 39cbf981-d9c6-457f-b047-f9046e1a6442
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Planning to Deploy App-V
+# Plan for Deploying App-V
 
 
 You should consider a number of different deployment configurations and prerequisites before you create your deployment plan for Microsoft Application Virtualization (App-V) 5.1. This section includes information that can help you gather the information that you must have to formulate a deployment plan that best meets your business requirements.

@@ -1,5 +1,5 @@
 ---
-title: Performing BitLocker Management with MBAM
+title: Performing BitLocker Management via MBAM
 description: Performing BitLocker Management with MBAM
 author: dansimp
 ms.assetid: 9bfc6c67-f12c-4daa-8f08-5884fb47443c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Performing BitLocker Management with MBAM
+# Performing BitLocker Management via MBAM
 
 
 After planning and then deploying Microsoft BitLocker Administration and Monitoring (MBAM), you can configure and use it to manage enterprise BitLocker encryption. The information in this section describes post-installation day-to-day BitLocker encryption management tasks that are accomplished by using Microsoft BitLocker Administration and Monitoring.
