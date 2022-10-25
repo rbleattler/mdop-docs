@@ -1,6 +1,6 @@
 ---
 title: Contents Tab
-description: Contents Tab
+description: Contents Tab Information
 author: dansimp
 ms.assetid: cf9d1f17-3c3d-422f-bd6b-3db87be45554
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Contents Tab
+# Contents Tab Information
 
 
 The **Contents** tab on the **Change Control** pane provides access to Group Policy Objects (GPOs) and a shortcut menu for managing GPOs. The options displayed when right-clicking items are dependent on your role, your permissions, and your ownership stake in the GPO being managed. Additionally, these shortcut menus differ with the state of the GPO being managed.

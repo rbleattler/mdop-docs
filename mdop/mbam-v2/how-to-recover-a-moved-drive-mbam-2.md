@@ -1,5 +1,5 @@
 ---
-title: How to Recover a Moved Drive
+title: How to Recover a that was Moved
 description: How to Recover a Moved Drive
 author: dansimp
 ms.assetid: 697cd78d-962c-411e-901a-2e9220ba6552
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Recover a Moved Drive
+# How to Recover a that was Moved
 
 
 When you move an operating system drive that is encrypted by using Microsoft BitLocker Administration and Monitoring (MBAM), the drive will not accept the PIN that was used in a previous computer because of the change to the Trusted Platform Module (TPM) chip. To use the moved drive, you will need a way to obtain the recovery key ID to retrieve the recovery password. Use the following procedure to recover a drive that has moved.
