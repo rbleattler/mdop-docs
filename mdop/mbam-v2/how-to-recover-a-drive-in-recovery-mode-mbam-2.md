@@ -1,5 +1,5 @@
 ---
-title: How to Recover a Drive in Recovery Mode
+title:  Recovering a Drive in Recovery Mode
 description: How to Recover a Drive in Recovery Mode
 author: dansimp
 ms.assetid: 8b792bc8-b671-4345-9d37-0208db3e5b03
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Recover a Drive in Recovery Mode
+# Recovering a Drive in Recovery Mode
 
 
 The encrypted drive recovery features of Microsoft BitLocker Administration and Monitoring (MBAM) ensure the capture and storage of data and availability of tools required to access a BitLocker-protected volume when BitLocker goes into recovery mode. A BitLocker-protected volume goes into recovery mode when a PIN or password is lost or forgotten, or when the Trusted Module Platform (TPM) chip detects changes to the BIOS or startup files of a computer.

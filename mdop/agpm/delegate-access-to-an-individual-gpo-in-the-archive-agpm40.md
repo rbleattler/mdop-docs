@@ -1,5 +1,5 @@
 ---
-title: Delegate Access to an Individual GPO in the Archive
+title: How to Delegate Access to an Individual GPO in the Archive
 description: Delegate Access to an Individual GPO in the Archive
 author: dansimp
 ms.assetid: 284d2aa2-7c10-4ffa-8978-bbe30867c1c1
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delegate Access to an Individual GPO in the Archive
+# How to Delegate Access to an Individual GPO in the Archive
 
 
 As an AGPM Administrator (Full Control), you can delegate the management of a controlled Group Policy Object (GPO) in the archive so that selected groups and Editors can edit it, Reviewers can review it, and Approvers can approve it.

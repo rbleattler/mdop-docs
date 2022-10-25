@@ -1,5 +1,5 @@
 ---
-title: About Client Configuration Settings
+title: Client Configuration Settings
 description: About Client Configuration Settings
 author: dansimp
 ms.assetid: 18bb307a-7eda-4dd6-a83e-6afaefd99470
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# About Client Configuration Settings
+# Client Configuration Settings
 
 
 The Microsoft Application Virtualization (App-V) 5.1 client stores its configuration in the registry. You can gather some useful information about the client if you understand the format of data in the registry. You can also configure many client actions by changing registry entries. This topic lists the App-V 5.1 Client configuration settings and explains their uses. You can use PowerShell to modify the client configuration settings. For more information about using PowerShell and App-V 5.1 see [Administering App-V 5.1 by Using PowerShell](administering-app-v-51-by-using-powershell.md).
