@@ -1,5 +1,5 @@
 ---
-title: How to Recover Remote Computers by Using the DaRT Recovery Image
+title: Recover Remote Computers by Using the DaRT Recovery Image
 description: How to Recover Remote Computers by Using the DaRT Recovery Image
 author: dansimp
 ms.assetid: 363ccd48-6820-4b5b-a43a-323c0b208a9d
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Recover Remote Computers by Using the DaRT Recovery Image
+# Recover Remote Computers by Using the DaRT Recovery Image
 
 
 Use the Remote Connection feature in Microsoft Diagnostics and Recovery Toolset (DaRT) 8.0 to run the DaRT tools remotely on an end-user computer. After the end user provides the administrator or help desk worker with certain information, the IT administrator or help desk worker can take control of the end user's computer and run the necessary DaRT tools remotely.

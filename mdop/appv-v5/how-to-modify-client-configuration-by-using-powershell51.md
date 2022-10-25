@@ -1,5 +1,5 @@
 ---
-title: How to Modify Client Configuration by Using PowerShell
+title: Modify Client Configuration by Using PowerShell
 description: How to Modify Client Configuration by Using PowerShell
 author: dansimp
 ms.assetid: c3a59592-bb0d-43b6-8f4e-44f3a2d5b7ea
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Modify Client Configuration by Using PowerShell
+# Modify Client Configuration by Using PowerShell
 
 
 Use the following procedure to configure the App-V 5.1 client configuration.

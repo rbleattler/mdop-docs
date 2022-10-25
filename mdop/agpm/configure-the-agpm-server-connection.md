@@ -1,5 +1,5 @@
 ---
-title: Configure the AGPM Server Connection
+title: How to Configure the AGPM Server Connection
 description: Configure the AGPM Server Connection
 author: dansimp
 ms.assetid: 9a42b5bc-41be-44ef-a6e2-6f56e2cf1996
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure the AGPM Server Connection
+# How to Configure the AGPM Server Connection
 
 
 Advanced Group Policy Management (AGPM) stores all versions of each controlled Group Policy object (GPO) in a central archive, so Group Policy administrators can view and modify GPOs offline without immediately impacting the deployed version of each GPO.
