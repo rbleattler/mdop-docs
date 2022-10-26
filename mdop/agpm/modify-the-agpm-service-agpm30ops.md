@@ -1,5 +1,5 @@
 ---
-title: Modify the AGPM Service
+title: How to Modify the AGPM Service
 description: Modify the AGPM Service
 author: dansimp
 ms.assetid: 3485f85f-59d1-48dc-8748-36826214dcb1
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Modify the AGPM Service
+# How to Modify the AGPM Service
 
 
 The AGPM Service is a Windows service that acts as a security proxy, managing client access to Group Policy Objects (GPOs) in the archive and production environment. If this service is stopped or disabled, AGPM Clients cannot perform operations through the server. You can modify the archive path, the AGPM Service Account, and the port on which the AGPM Service listens.

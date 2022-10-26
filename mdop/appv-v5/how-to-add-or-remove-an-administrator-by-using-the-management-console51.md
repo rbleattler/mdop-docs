@@ -1,5 +1,5 @@
 ---
-title: How to Add or Remove an Administrator by Using the Management Console
+title: Add or Remove an Administrator by Using the Management Console
 description: How to Add or Remove an Administrator by Using the Management Console
 author: dansimp
 ms.assetid: 7ff8c436-9d2e-446a-9ea2-bbab7e25bf21
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Add or Remove an Administrator by Using the Management Console
+# Add or Remove an Administrator by Using the Management Console
 
 
 Use the following procedures to add or remove an administrator on the Microsoft Application Virtualization (App-V) 5.1 server.

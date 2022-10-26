@@ -1,5 +1,5 @@
 ---
-title: How to Reset a TPM Lockout
+title: Reset a TPM Lockout
 description: How to Reset a TPM Lockout
 author: dansimp
 ms.assetid: dd20a728-c52e-48e6-9f6c-1311c71dee74
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Reset a TPM Lockout
+# Reset a TPM Lockout
 
 
 This topic explains how to use the Administration and Monitoring Website (also referred to as the Help Desk) to reset a TPM lockout. TPM lockouts can occur if an end user enters the incorrect PIN too many times. The number of times that a user can enter an incorrect PIN before the TPM locks varies from manufacturer to manufacturer.

@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the App-V Client
+title: Deploy the App-V Client
 description: How to Deploy the App-V Client
 ms.author: dansimp
 author: dansimp
@@ -14,7 +14,7 @@ ms.date: 11/05/2018
 ---
 
 
-# How to Deploy the App-V Client
+# Deploy the App-V Client
 
 
 Use the following procedure to install the Microsoft Application Virtualization (App-V) 5.0 client and Remote Desktop Services client. You must install the version of the client that matches the operating system of the target computer.
