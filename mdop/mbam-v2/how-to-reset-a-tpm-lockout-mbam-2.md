@@ -1,5 +1,5 @@
 ---
-title: How to Reset a TPM Lockout
+title: TPM Lockout Reset
 description: How to Reset a TPM Lockout
 author: dansimp
 ms.assetid: 20719ab2-18ae-4d3b-989a-539341909816
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Reset a TPM Lockout
+# TPM Lockout Reset
 
 
 The Encrypted Drive Recovery feature of Microsoft BitLocker Administration and Monitoring (MBAM) encompasses both the capture and storage of data and the availability for tools that are needed to manage the Trusted Platform Module (TPM). This topic covers how to access the centralized Key Recovery data system in the Administration and Monitoring website, which can provide a TPM owner password file when a computer ID and associated user identifier are supplied.
