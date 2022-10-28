@@ -44,7 +44,7 @@ You can upgrade the AGPM Client or AGPM Server to AGPM 4.0 SP3 without being pr
 
 **AGPM 4.0 SP3 supported upgrades**
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />

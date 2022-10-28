@@ -38,9 +38,9 @@ By default, the installation of the client registers file type associations (FTA
 
 Starting with App-V version 4.6, the file type association is no longer created for OSD files during a new installation of the client, although the existing settings will be maintained during an upgrade from version 4.2 or 4.5 of the App-V client. If for any reason it is essential to create the file type association, you can create the following registry keys and set their values as shown:
 
-    Create HKEY\_CLASSES\_ROOT\\.osd with a default value of SoftGrid.osd.File
+`Create HKEY\_CLASSES\_ROOT\\.osd with a default value of SoftGrid.osd.File`
 
-    Under HKEY\_LOCAL\_MACHINE\\software\\classes\\Softgrid.osd.file, create a string value named AppUserModelID with a data value of Microsoft.AppV.Client.Tray
+   Under HKEY\_LOCAL\_MACHINE\\software\\classes\\Softgrid.osd.file, create a string value named AppUserModelID with a data value of Microsoft.AppV.Client.Tray
 
 ### Authorization
 

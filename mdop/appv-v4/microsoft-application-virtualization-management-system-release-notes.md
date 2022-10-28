@@ -74,7 +74,7 @@ When this has been completed, install the App-V 4.5 CU1 client by using setup.m
 
 When installing Microsoft Application Error Reporting, use the following command if you are installing or upgrading to the App-V 4.5 CU1 Desktop client:
 
-    msiexec /i dw20shared.msi APPGUID={FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
+    msiexec /i dw20shared.msi APPGUID{FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
 
 Alternatively, if you are installing or upgrading to the App-V 4.5 CU1 Terminal Services client, use the following command:
 

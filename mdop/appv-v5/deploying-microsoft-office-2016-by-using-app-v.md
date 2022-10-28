@@ -203,8 +203,9 @@ Office 2016 App-V Packages are created using the Office Deployment Tool, which g
 
 1.  Download the [Office 2016 Deployment Tool for Click-to-Run](https://www.microsoft.com/download/details.aspx?id=49117).
 
-> **Important** You must use the Office 2016 Deployment Tool to create Office 2016 App-V Packages.
-> 2. Run the .exe file and extract its features into the desired location. To make this process easier, you can create a shared network folder where the features will be saved.
+    > **Important** You must use the Office 2016 Deployment Tool to create Office 2016 App-V Packages.
+
+ 2. Run the .exe file and extract its features into the desired location. To make this process easier, you can create a shared network folder where the features will be saved.
 
     Example: \\\\Server\\Office2016
 

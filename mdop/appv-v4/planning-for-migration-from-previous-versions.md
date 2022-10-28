@@ -100,7 +100,7 @@ To run new 64-bit packages on the App-V 4.6 Client, you must sequence the appli
 
 The following table lists which client versions will run packages created by using the various versions of the Sequencer.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
