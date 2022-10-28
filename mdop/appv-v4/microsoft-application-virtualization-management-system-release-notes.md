@@ -20,7 +20,7 @@ ms.date: 08/30/2016
 To search these Release Notes, press CTRL+F.
 
 **Important**  
-Read these Release Notes thoroughly before you install the Application Virtualization Management System. These Release Notes contain information that you need to successfully install the Application Virtualization Management System. This document contains information that is not available in the product documentation. If there is a discrepancy between these Release Notes and other Application Virtualization Management System documentation, the latest change should be considered authoritative. These Release Notes supersede the content included with this product.
+Read these Release Notes thoroughly before you install the Application Virtualization Management System. These Release Notes contain information that you need to successfully install the Application Virtualization Management System. This document contains information that isn't available in the product documentation. If there's a discrepancy between these Release Notes and other Application Virtualization Management System documentation, the latest change should be considered authoritative. These Release Notes supersede the content included with this product.
 
  
 
@@ -34,26 +34,22 @@ These Release Notes have been updated to reflect the changes introduced with Mic
 -   Support for Windows 7 Beta and Windows Server 2008 R2 Beta: App-V 4.5 CU1 addresses compatibility issues with Windows 7 Beta and Windows Server 2008 R2 Beta. Support will be provided for blocking issues that prevent App-V 4.5 CU1 running in a test environment on pre-RTM versions of Windows 7. This will help ensure that your virtual applications can run successfully in a test environment where compatibility between App-V 4.5 Client and Windows 7 Beta is required.
 
     **Important**  
-    Running App-V 4.5 CU1 on any version of Windows 7 or Windows Server 2008 R2 in a live operating environment is not supported.
-
-     
+    Running App-V 4.5 CU1 on any version of Windows 7 or Windows Server 2008 R2 in a live operating environment isn't supported.
 
 -   Improved support for sequencing the .NET Framework: App-V 4.5 CU1 addresses previous issues with sequencing the .NET Framework 3.5 and earlier on Windows XP (SP2 or later). For more information about the new capabilities, see the TechNet article at <https://go.microsoft.com/fwlink/?LinkId=123412>.
 
--   Customer Feedback and Hotfix Rollup: App-V 4.5 CU1 also includes a rollup up of fixes to address issues found since the App-V 4.5 RTM release. This includes a combination of known issues and customer feedback from our internal teams, partners, and customers who are using App-V 4.5. For a full list of the included updates, see the KB article at <https://go.microsoft.com/fwlink/?LinkId=141258>.
+-   Customer Feedback and Hotfix Rollup: App-V 4.5 CU1 also includes a rollup up of fixes to address issues found since the App-V 4.5 RTM release. This includes a combination of known issues and customer feedback from our internal teams, partners, and customers who are using App-V 4.5. 
 
 ## About the Product Documentation
-
 
 Comprehensive documentation for Application Virtualization (App-V) is available on Microsoft TechNet in the Application Virtualization (App-V) TechCenter at <https://go.microsoft.com/fwlink/?LinkId=122939>. The TechNet documentation includes the online Help for the Application Virtualization Sequencer, the Application Virtualization Client, and the Application Virtualization Server. It also includes the Application Virtualization Planning and Deployment Guide and the Application Virtualization Operations Guide.
 
 ## Protect Against Security Vulnerabilities and Viruses
 
 
-To help protect against security vulnerabilities and viruses, it is important to install the latest available security updates for any new software being installed. For more information, see the Microsoft Security Web site at <https://go.microsoft.com/fwlink/?LinkId=3482>.
+To help protect against security vulnerabilities and viruses, it's important to install the latest available security updates for any new software being installed. For more information, see the [Microsoft Security Web site.](https://www.microsoft.com/security) 
 
 ## Providing Feedback
-
 
 You can provide feedback, make a suggestion, or report an issue with the Microsoft Application Virtualization (App-V) Management System via a community forum on the Microsoft Application Virtualization TechCenter (<https://go.microsoft.com/fwlink/?LinkId=122917>).
 
@@ -62,36 +58,34 @@ You can also provide your feedback on the documentation directly to the App-V do
 ## Known Issues with Application Virtualization 4.5 CU1
 
 
-This section provides the most up-to-date information about issues with Microsoft Application Virtualization (App-V) 4.5 CU1. These issues do not appear in the product documentation and in some cases might contradict existing product documentation. Whenever possible, these issues will be addressed in later releases.
+This section provides the most up-to-date information about issues with Microsoft Application Virtualization (App-V) 4.5 CU1. These issues don't appear in the product documentation and in some cases might contradict existing product documentation. Whenever possible, these issues will be addressed in later releases.
 
 ### Guidance for installing or upgrading clients to App-V 4.5 CU1 using setup.msi
 
-When installing or upgrading your App-V clients to App-V 4.5 CU1 by using setup.msi, the prerequisites are not installed automatically.
+When installing or upgrading your App-V clients to App-V 4.5 CU1 by using setup.msi, the prerequisites aren't installed automatically.
 
 WORKAROUND   You must manually install the prerequisites before installing or upgrading the App-V client to 4.5 CU1. For detailed procedures for installing the prerequisites and the App-V client, see <https://go.microsoft.com/fwlink/?LinkId=144106>.
 
 When this has been completed, install the App-V 4.5 CU1 client by using setup.msi with elevated privileges. This file is available on the App-V 4.5 CU1 release media in the Installers\\Client folder.
 
-When installing Microsoft Application Error Reporting, use the following command if you are installing or upgrading to the App-V 4.5 CU1 Desktop client:
+When installing Microsoft Application Error Reporting, use the following command if you're installing or upgrading to the App-V 4.5 CU1 Desktop client:
 
-    msiexec /i dw20shared.msi APPGUID{FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
+`msiexec /i dw20shared.msi APPGUID={FE495DBC-6D42-4698-B61F-86E655E0796D}  allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus`
 
-Alternatively, if you are installing or upgrading to the App-V 4.5 CU1 Terminal Services client, use the following command:
+Alternatively, if you're installing or upgrading to the App-V 4.5 CU1 Terminal Services client, use the following command:
 
-    msiexec /i dw20shared.msi APPGUID={8A97C241-D92A-47DC-B360-E716C1AAA929} allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus
+`msiexec /i dw20shared.msi APPGUID={8A97C241-D92A-47DC-B360-E716C1AAA929} allusers=1 reboot=suppress REINSTALL=all REINSTALLMODE=vomus`
 
 **Note**  
 The APPGUID parameter references the product code of the App-V client that you install or upgrade to. The product code is unique for each setup.msi. You can use the Orca database editor or similar tool to examine Windows Installer files and determine the product code. This step is required for all installs or upgrades to App-V 4.5 CU1.
 
- 
-
-### <a href="" id="some-applications-might-fail-to-install-during-the-monitoring-phase-when-sequencing-on-windows-7-beta--"></a>Some applications might fail to install during the monitoring phase when sequencing on Windows 7 Beta
+### Some applications might fail to install during the monitoring phase when sequencing on Windows 7 Beta
 
 When sequencing on Windows 7 Beta or on a computer with Windows Installer 5.0, some applications might fail to install during the monitoring phase.
 
 WORKAROUND   You must manually grant the Everyone group Full Control permissions to the following registry key:
 
-    HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\SoftGrid\\4.5\\SystemGuard
+`HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\SoftGrid\\4.5\\SystemGuard`
 
 **Important**  
 You must use the **Advanced** button to set the “Include inheritable permissions from this object’s parent” option.
@@ -102,7 +96,7 @@ You must use the **Advanced** button to set the “Include inheritable permissio
 
 When sequencing on Windows 7 Beta, you might be unable to save your sequenced package because of a sharing violation.
 
-WORKAROUND   As specified in the best practices section of the Microsoft Application Virtualization 4.5 Sequencing Guide (see <https://go.microsoft.com/fwlink/?LinkId=144108>), you must shutdown and disable the following software programs before you begin sequencing:
+WORKAROUND   Shutdown and disable the following software programs before you begin sequencing:
 
 -   Windows Defender
 
@@ -114,7 +108,7 @@ WORKAROUND   As specified in the best practices section of the Microsoft Appl
 
 -   Any open Windows Explorer session
 
-In addition, if you have Microsoft Update running on the sequencing station to capture updates during the package update process, you will need to add “C:\\Windows\\SoftwareDistribution” as a VFS exclusion before you start sequencing.
+In addition, if you have Microsoft Update running on the sequencing station to capture updates during the package update process, you'll need to add “C:\\Windows\\SoftwareDistribution” as a VFS exclusion before you start sequencing.
 
 ### Improving performance when sequencing the .NET Framework
 
@@ -124,23 +118,23 @@ WORKAROUND   When sequencing the .NET Framework, disable the Microsoft .NET F
 
 ### Interoperability issues with the Windows 7 Taskbar
 
-When you run the Application Virtualization Client on Windows 7, the Windows 7 taskbar does not collapse multiple instances of a virtual application into a single taskbar button. In addition, jump Lists do not appear when you right-click a taskbar button of a virtual application, unless the application has been pinned to the Windows 7 taskbar.
+When you run the Application Virtualization Client on Windows 7, the Windows 7 taskbar doesn't collapse multiple instances of a virtual application into a single taskbar button. In addition, jump Lists don't appear when you right-click a taskbar button of a virtual application, unless the application has been pinned to the Windows 7 taskbar.
 
 ### When you uninstall the Microsoft Application Virtualization Client, user settings associated with the user performing the uninstall will be deleted
 
-When you uninstall the Microsoft Application Virtualization Client, the Windows Installer will remove Application Virtualization settings from the current user's profile. If your computer uses roaming profiles, do not use your personal network account to uninstall the client because it will remove settings for your virtual applications on all of your computers.
+When you uninstall the Microsoft Application Virtualization Client, the Windows Installer will remove Application Virtualization settings from the current user's profile. If your computer uses roaming profiles, don't use your personal network account to uninstall the client because it will remove settings for your virtual applications on all of your computers.
 
-WORKAROUND   You should perform the App-V Client uninstall with an administrative account that is not used for running virtual applications.
+WORKAROUND   You should perform the App-V Client uninstall with an administrative account that isn't used for running virtual applications.
 
 ### Edits made on the virtual file system and virtual registry tabs must be saved while running the Sequencing wizard
 
-If you open a package to perform an upgrade or have already run the Sequencing wizard with a new package and you make changes to the package in the virtual file system or virtual registry tabs, those changes are not automatically saved.
+If you open a package to perform an upgrade or have already run the Sequencing wizard with a new package and you make changes to the package in the virtual file system or virtual registry tabs, those changes aren't automatically saved.
 
-WORKAROUND   Save the changes before re-running the wizard, to ensure that they are reflected inside the wizard’s virtual environment.
+WORKAROUND   Save the changes before rerunning the wizard, to ensure that they are reflected inside the wizard’s virtual environment.
 
 ### Command-line Sequencer must be run from an elevated command prompt
 
-When you use the command-line Sequencer, it does not prompt for elevation.
+When you use the command-line Sequencer, it doesn't prompt for elevation.
 
 WORKAROUND   Run the command-line Sequencer using an elevated command prompt.
 
@@ -152,17 +146,17 @@ To distribute the management components across multiple servers, Kerberos delega
 
 ### Short path variable names in OSD files can cause errors
 
-If you receive error 450478-1F702339-0000010B “The directory name is invalid” when starting a virtual application on the client, it is possible that the variable in the OSD is set incorrectly. This can happen if the application’s installer sets a short path name during sequencing.
+If you receive error 450478-1F702339-0000010B “The directory name is invalid” when starting a virtual application on the client, it's possible that the variable in the OSD is set incorrectly. This can happen if the application’s installer sets a short path name during sequencing.
 
 WORKAROUND   Remove the trailing tilde from any CSIDL variable that exists in the OSD file.
 
-### <a href="" id="correct-syntax-for-decodepath-parameter-for-command-line-sequencer-"></a>Correct syntax for DECODEPATH parameter for command-line Sequencer
+### Correct syntax for DECODEPATH parameter for command-line Sequencer
 
-In the command-line Sequencer, when opening a package for upgrade and decoding it to the root of the Q drive, the syntax for the *DECODEPATH* parameter should not include a trailing slash.
+In the command-line Sequencer, when opening a package for upgrade and decoding it to the root of the Q drive, the syntax for the *DECODEPATH* parameter shouldn't include a trailing slash.
 
 WORKAROUND   You can use **Q:** rather than **Q:\\** (omitting the trailing “\\” character).
 
-### <a href="" id="when-upgrading-4-2-packages--you-encounter-problems-caused-by-windows-installer-files-in-the-virtual-file-system-"></a>When upgrading 4.2 packages, you encounter problems caused by Windows Installer files in the Virtual File System
+### When upgrading 4.2 packages, you encounter problems caused by Windows Installer files in the Virtual File System
 
 When upgrading a package from 4.2, you might experience issues relating to a mismatch of Windows Installer system files that were included by default in 4.2 and the Windows Installer libraries locally installed on your Sequencing workstation. The following files are located in CSIDL\_SYSTEM\\:
 
@@ -178,7 +172,7 @@ msimsg.dlll
 
 WORKAROUND   Delete all of the preceding files from the package. Delete the mappings on the **VFS** tab as well as the actual files in the CSIDL\_SYSTEM folder in your decode path.
 
-### <a href="" id="on-windows-xp--client-install-logging-is-not-enabled-by-default-"></a>On Windows XP, client install logging is not enabled by default
+### On Windows XP, client install logging isn't enabled by default
 
 When installing the client, to ensure that any install errors are captured for troubleshooting purposes, you should enable logging by using the command line.
 
@@ -204,9 +198,9 @@ When using IIS 6.0 or 7.0 for icon or OSD file retrieval and streaming of pack
 
 For more information, see <https://go.microsoft.com/fwlink/?LinkId=131407>.
 
-### On upgrade from RC, the default permissions on client logs do not allow for non-admin users to access the logs for troubleshooting and support
+### On upgrade from RC, the default permissions on client logs don't allow for non-admin users to access the logs for troubleshooting and support
 
-The default permissions on client logs for the Application Virtualization RC client did not allow for non-admin access to log files, and manual changes to these log permissions were reverted when clients were restarted. This has been corrected in the RTM release for new client installs, but on upgrade from RC, the custom permissions on existing log files are not reset. However, when any new logs are created or after a log reset, the files will have the new default permissions.
+The default permissions on client logs for the Application Virtualization RC client didn't allow for non-admin access to log files, and manual changes to these log permissions were reverted when clients were restarted. This has been corrected in the RTM release for new client installs, but on upgrade from RC, the custom permissions on existing log files aren't reset. However, when any new logs are created or after a log reset, the files will have the new default permissions.
 
 WORKAROUND   After the upgrade, reset existing client logs or manually change their permissions.
 
@@ -214,9 +208,9 @@ WORKAROUND   After the upgrade, reset existing client logs or manually change
 
 Microsoft Application Virtualization Cumulative Update 1 supports sequencing the .NET Framework on Windows XP (SP2 or later). Sequencing routines for .NET applications that were written for SoftGrid 4.2 might need to be updated when used with the App-V 4.5 Sequencer. For details and workarounds, please refer to the Knowledge Base article at <https://go.microsoft.com/fwlink/?LinkId=123412>.
 
-### <a href="" id="after-client-upgrade-from-app-v-4-2--some-applications-are-not-shown-"></a>After client upgrade from App-V 4.2, some applications are not shown
+### After client upgrade from App-V 4.2, some applications aren't shown
 
-Check for the following error in the log: ”The Application Virtualization Client could not parse the OSD file”. The Microsoft Application Virtualization 4.5 client filters out applications that have an OSD file containing an empty OS tag (&lt;OS&gt;&lt;/OS&gt;).
+Check for the following error in the log: ”The Application Virtualization Client couldn't parse the OSD file”. The Microsoft Application Virtualization 4.5 client filters out applications that have an OSD file containing an empty OS tag (&lt;OS&gt;&lt;/OS&gt;).
 
 WORKAROUND   Delete the empty OS tag from the OSD file.
 
@@ -237,15 +231,15 @@ This issue has been fixed in Microsoft Application Virtualization 4.5 Cumulativ
 
  
 
-### When the server installer is run in silent mode, it does not correctly check for MSXML6
+### When the server installer is run in silent mode, it doesn't correctly check for MSXML6
 
-The App-V Management Server depends on MSXML6. However, if you run the installer in silent mode—for example, by using the command “msiexec -i setup.msi /qn” on a system where MSXML6 is not already installed—the installer does not notice the missing dependency and installs anyway. The most common result is that when clients attempt to refresh publishing information from the App-V Management Server, they will see failures.
+The App-V Management Server depends on MSXML6. However, if you run the installer in silent mode—for example, by using the command “msiexec -i setup.msi /qn” on a system where MSXML6 is not already installed—the installer doesn't notice the missing dependency and installs anyway. The most common result is that when clients attempt to refresh publishing information from the App-V Management Server, they'll see failures.
 
 WORKAROUND   Verify that MSXML6 is installed on the system before attempting a silent install of the App-V Management Server.
 
 ### Error code 000C800 when attempting to connect to the Application Virtualization Management Console
 
-An Application Virtualization administrator who is not a local admin on the Application Virtualization Management Service server will receive an error (Error code: 000C800) when attempting to connect to the Application Virtualization Management Console, and the sftmmc.log entry will indicate that access to SftMgmt.udl is denied. To successfully connect to the Application Virtualization Management Console, an Application Virtualization administrator who is not a local admin on the Application Virtualization Management Service server must have at least read and execute access to the SftMgmt.udl file.
+An Application Virtualization administrator who isn't a local admin on the Application Virtualization Management Service server will receive an error (Error code: 000C800) when attempting to connect to the Application Virtualization Management Console, and the sftmmc.log entry will indicate that access to SftMgmt.udl is denied. To successfully connect to the Application Virtualization Management Console, an Application Virtualization administrator who isn't a local admin on the Application Virtualization Management Service server must have at least read and execute access to the SftMgmt.udl file.
 
 The Application Virtualization administrators must be given read and execute permissions to the SftMgmt.UDL file under %systemdrive%\\Program Files\\Microsoft System Center App Virt Management Server\\App Virt Management Service.
 
@@ -269,7 +263,7 @@ This issue has been fixed in Microsoft Application Virtualization 4.5 Cumulativ
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice, and is provided for informational purposes only. The entire risk of the use or results of the use of this document remains with the user, and Microsoft Corporation makes no warranties, either express or implied. The example companies, organizations, products, people and events depicted herein are fictitious. No association with any real company, organization, product, person or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
-Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
+Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document doesn't give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
 
 
