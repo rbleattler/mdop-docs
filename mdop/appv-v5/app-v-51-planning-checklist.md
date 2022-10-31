@@ -21,7 +21,7 @@ This checklist can be used to help you plan for preparing your computing environ
 > [!NOTE]
 > This checklist outlines the recommended steps and a high-level list of items to consider when planning for an App-V 5.1 deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
-| |Task |References |
+| &nbsp; |Task |References |
 |-|-|-|
 |![Checklist box.](images/checklistbox.gif) |Review the getting started information about App-V 5.1 to gain a basic understanding of the product before beginning deployment planning.|[Getting Started with App-V 5.1](getting-started-with-app-v-51.md)|
 |![Checklist box.](images/checklistbox.gif) |Plan for App-V 5.1 1.0 Deployment Prerequisites and prepare your computing environment.|[App-V 5.1 Prerequisites](app-v-51-prerequisites.md)|
