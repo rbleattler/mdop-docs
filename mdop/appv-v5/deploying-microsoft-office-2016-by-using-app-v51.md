@@ -406,7 +406,7 @@ After you download the Office 2016 applications through the Office Deployment To
    <tr class="even">
    <td align="left"><p>ProductID</p></td>
    <td align="left"><p>Specify Subscription licensing, as shown in the following example:</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
+   <pre class="syntax"=><code>&lt;Configuration&gt;
       &lt;Add SourcePath= &quot;\server\Office 2016&quot; OfficeClientEdition=&quot;32&quot; &gt;
        &lt;Product ID=&quot;O365ProPlusRetail&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
@@ -546,7 +546,7 @@ Deploy the App-V package for Office 2016 by using the same methods you use for a
 <td align="left"><p>Enable PowerShell scripting on the App-V clients</p></td>
 <td align="left"><p>To publish Office 2016 packages, you must run a script.</p>
 <p>Package scripts are disabled by default on App-V clients. To enable scripting, run the following PowerShell command:</p>
-<pre class="syntax" space="preserve"><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
+<pre class="syntax" <code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Publish the Office 2016 package globally</p></td>
