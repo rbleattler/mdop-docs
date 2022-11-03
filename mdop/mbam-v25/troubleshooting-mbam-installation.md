@@ -424,7 +424,7 @@ If you can successfully browse to both service URLs, and there is connectivity b
 
 The MBAM services may be unable to connect to the database server because of a network issue or an incorrect database connection string setting. Review the Application logs on the administration and monitoring server. You might see errors entries or warnings from source ASP.NET 2.0.50727.0 that resemble the following log entry:
 
-
+```
     Log Name:      Application
     Source:        ASP.NET 2.0.50727.0
     Date:          7/11/2013 6:16:34 PM
@@ -503,6 +503,8 @@ The MBAM services may be unable to connect to the database server because of a n
         Sql ErrorCode: 5
         Error Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
 
+```
+
 #### Possible causes
 
 ##### Cause 1
@@ -555,6 +557,8 @@ You should primarily investigate the service trace logs of RecoveryandHardwareSe
 
 Review the activity in the service trace log for any error or warning entries. By default, error entries are highlighted in red. Select the error description on the right pane of the trace viewer to view detailed information about the error entry. The following is a sample error entry from the trace log:
 
+```
+
     <E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
     <System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
     <EventID>15183</EventID>
@@ -571,6 +575,8 @@ Review the activity in the service trace log for any error or warning entries. B
     <ApplicationData>AddUpdateVolume: While executing sql transaction for add volume to store exception occurred Key Recovery Data Store processing error: Violation of UNIQUE KEY constraint 'UniqueRecoveryKeyId'. Cannot insert duplicate key in object 'RecoveryAndHardwareCore.Keys'. The duplicate key value is (8637036e-b379-4798-bd9e-5a0b36296de3).
     </ApplicationData>
     </E2ETraceEvent>
+
+```
 
 ## Re-installation or reconfiguration of MBAM infrastructure
 
