@@ -34,7 +34,7 @@ Use the following procedure to install the Microsoft Application Virtualization 
 2. Review the client coexistence and unsupported scenarios, as applicable to your installation:
 
 
-   |                                               |                                                                                                                            |
+   | &nbsp;  |    &nbsp; |
    |-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
    |      Deploying coexisting App-V clients       | [Planning for the App-V 5.0 Sequencer and Client Deployment](planning-for-the-app-v-50-sequencer-and-client-deployment.md) |
    | Unsupported or limited installation scenarios |                         [App-V 5.0 Supported Configurations](app-v-50-supported-configurations.md)                         |
@@ -92,7 +92,7 @@ Use the following procedure to install the Microsoft Application Virtualization 
    >[!NOTE]
    >The client Windows Installer (.msi) supports the same set of switches, except for the **/LOG** parameter.
 
-   |                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+   |&nbsp; | &nbsp;                                                                                                                                                                                                                                                                                                                                                                                      |
    |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |           /INSTALLDIR            |                                                                                                                                                               Specifies the installation directory. Example usage:<p><p>**/INSTALLDIR=C:\Program Files\AppV Client**                                                                                                                                                                |
    |            /CEIPOPTIN            |                                                                                                                                                          Enables participation in the Customer Experience Improvement Program. Example usage:<p><p>**/CEIPOPTIN=[0\|1\]**                                                                                                                                                           |

@@ -398,6 +398,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    To check whether the account was added to the local security settings, open the **Local Security Policy editor**, expand the **Local Policies** node, select the **User Rights Assignment** node, and double-select **Impersonate a client after authentication** and **Log on as a batch job** policies in the right-side pane.
 
 6. Use the following field descriptions to configure the connection information in the wizard for the Compliance and Audit Database.
+
    |Field	|Description|
    |------|------|
    |SQL Server name	|Name of the server on which the Compliance and Audit Database is configured.|
@@ -405,6 +406,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    |Database name	|Name of the Compliance and Audit Database. By default, it’s "MBAM Compliance Status".|
 
 7. Use the following field descriptions to configure the connection information in the wizard for the Recovery Database.
+
    |Field	|Description|
    |----|----|
    |SQL Server name	|Name of the server on which the Recovery Database is configured.|
@@ -412,6 +414,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    |Database name	|Name of the Recovery Database. By default, it’s "MBAM Recovery and Hardware".|
 
 8. Use the following descriptions to enter the field values in the wizard to configure the Administration and Monitoring Website.
+
    |Field	|Description|
    |----|----|
    |Advanced Helpdesk role domain group	|Specify the name of the MBAMAdvHelpDsk Group as configured in step 2.|
