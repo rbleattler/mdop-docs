@@ -1,6 +1,6 @@
 ---
 title: Deploy the App-V Client
-description: How to Deploy the App-V Client
+description: Describes How to Deploy the App-V Client
 ms.author: dansimp
 author: dansimp
 ms.assetid: 9c4e67ae-ddaf-4e23-8c16-72d029a74a27

@@ -42,11 +42,11 @@ Before we start configuring MBAM 2.5, we have to make sure that both servers are
 
 4. If you plan to use SSL for the Administration and Monitoring website, make sure that you configure SQL Server Reporting Services (SSRS) to use the Secure Sockets Layer (SSL) protocol before you configure the Administration and Monitoring website. Otherwise, the Reports feature will use unencrypted (HTTP) data transport instead of encrypted (HTTPS).
 
-    You can follow [Configure SSL Connections](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017) on a Native Mode Report Server to configure SSL on Report Server.
+    You can follow [Configure SSL Connections](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server) on a Native Mode Report Server to configure SSL on Report Server.
     
     > [!Note]
     > You can follow the SQL Server Installation Guide for your respective version of SQL Server to install SQL Server. The links are as follows:
-        > * [SQL Server 2014](/sql/sql-server/install/planning-a-sql-server-installation?view=sql-server-2014)
+        > * [SQL Server 2014](/sql/sql-server/install/planning-a-sql-server-installation?)
         > * [SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
         > * [SQL Server 2008 R2](/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
 
@@ -180,7 +180,7 @@ After the certificate is issued, you should add the certificate to the personal 
 
 1. Right-select Start, and then select Run.
 
-   ![Select.](images/deploying-MBAM-2.png)
+   ![Screenshot show where to select run.](images/deploying-MBAM-2.png)
 
 2. Type "MMC.EXE" (without the quotation marks), and then select **OK**.
 
@@ -192,7 +192,7 @@ After the certificate is issued, you should add the certificate to the personal 
 
 4. Highlight the **Certificates** snap-in, and then select **Add**.
 
-   ![Add or Remove Snap-ins window.](images/deploying-MBAM-5.png)
+   ![Screenshot show where to Add or Remove Snap-ins.](images/deploying-MBAM-5.png)
 
 5. Select the **Computer account** option, and then select **Next**.
    
@@ -212,7 +212,7 @@ After the certificate is issued, you should add the certificate to the personal 
 
 9. Open the Certificates (Local Computer) snap-in, and browse to **Personal** and then **Certificates**.
    
-   ![Certificates (Local Computer) snap-in window.](images/deploying-MBAM-9.png)
+   ![Screenshot show the Certificates (Local Computer) snap-in window.](images/deploying-MBAM-9.png)
 
    > [!Note]
    > The Certificates snap-in may not be listed. If it is not, no certificates are installed.
@@ -234,14 +234,14 @@ After the certificate is issued, you should add the certificate to the personal 
  
 13. Select **Next**, and then select the **Certificate Store** to which you want to save the certificate.
 
-    ![Certificate Import Wizard window.](images/deploying-MBAM-13.png)
+    ![Screenshot shows the Certificate Import Wizard window.](images/deploying-MBAM-13.png)
 
     > [!Note]
     > You should select **Personal**, because it is a web server certificate. If you included the certificate in the certification hierarchy, it will also be added to this store.
  
 14. Select **Next**, and then select **Finish**.
 
-    ![Certificate Import Wizard window.](images/deploying-MBAM-14.png)
+    ![Screenshot show where to select Finish in the Certificate Import Wizard window.](images/deploying-MBAM-14.png)
 
 You will now see the server certificate for your web server in the Personal Certificates list. It will be denoted by the common name of the server. (You can find this in the subject section of the certificate.)
 

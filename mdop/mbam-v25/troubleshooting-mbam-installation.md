@@ -93,7 +93,7 @@ After the service starts, if you log in locally on the computer and there are no
 
 Review the MBAM Admin event log. You will see an event entry that resembles the following in the MBAM Admin event log:
 
-
+```
     Log Name:      Microsoft-Windows-MBAM/Admin
     Source:        Microsoft-Windows-MBAM
     Date:          8/3/2013 12:31:10 PM
@@ -106,6 +106,7 @@ Review the MBAM Admin event log. You will see an event entry that resembles the 
     Description:
     The TPM hardware is missing.
     TPM is needed to encrypt the operating system drive with any TPM protector.
+```
 
 Open TPM Management (tpm.msc), and check whether the computer has a TPM device. If tpm.msc does not show a device, open Device Manager (devmgmt.msc), and check for a Trusted Platform Module under Security Devices. If you do not see a Trusted Platform Module device, this might be true for one of the following reasons:
 
@@ -400,6 +401,8 @@ Basic checks:
 * If the communication between client and server is secure, make sure that you are using a valid SSL certificate.
 
 * Verify network connectivity between the web server and the database server to which the data is sent for insertion. You can check database connectivity from the web server to the database server by using ODBC Data Source Administrator. Detailed SQL Server connection troubleshooting information is available in [How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx).
+
+```
 
 #### Troubleshooting the connectivity issue
 

@@ -1,5 +1,5 @@
 ---
-title: High-Level Architecture
+title: MED-V High-Level Architecture
 description: High-Level Architecture
 author: dansimp
 ms.assetid: a78e12ad-5aa6-40e0-ae8b-51acaf005712
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# High-Level Architecture
+# MED-V High-Level Architecture
 
 
 The MED-V solution comprises the following elements:
