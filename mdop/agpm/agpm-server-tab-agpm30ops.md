@@ -1,6 +1,6 @@
 ---
 title: AGPM Server Tab Functionality
-description: AGPM Server Tab
+description: Description of the AGPM Server Tab
 author: dansimp
 ms.assetid: fb3b0265-53ed-4bf6-88a4-c409f5f1bed4
 ms.reviewer: 

@@ -1,6 +1,6 @@
 ---
 title: Version Control Best Practices
-description: Best Practices for Version Control
+description:  Version Control Best Practices
 author: dansimp
 ms.assetid: 4a2a1ac7-67f3-4ba3-ab07-860d33da0efe
 ms.reviewer: 

@@ -1,6 +1,6 @@
 ---
 title: Contents Tab
-description: Contents Tab Information
+description: Information on the Contents Tab
 author: dansimp
 ms.assetid: cf9d1f17-3c3d-422f-bd6b-3db87be45554
 ms.reviewer: 

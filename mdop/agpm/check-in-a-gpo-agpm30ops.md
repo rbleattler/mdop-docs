@@ -1,6 +1,6 @@
 ---
 title: Check In a GPO
-description: Check In a GPO
+description: How to Check In a GPO
 author: dansimp
 ms.assetid: 437397db-c94b-4940-b1a4-05442619ebee
 ms.reviewer: 
