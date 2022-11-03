@@ -93,6 +93,7 @@ After the service starts, if you log in locally on the computer and there are no
 
 Review the MBAM Admin event log. You will see an event entry that resembles the following in the MBAM Admin event log:
 
+```
     Log Name:      Microsoft-Windows-MBAM/Admin
     Source:        Microsoft-Windows-MBAM
     Date:          8/3/2013 12:31:10 PM
@@ -105,6 +106,7 @@ Review the MBAM Admin event log. You will see an event entry that resembles the 
     Description:
     The TPM hardware is missing.
     TPM is needed to encrypt the operating system drive with any TPM protector.
+```
 
 Open TPM Management (tpm.msc), and check whether the computer has a TPM device. If tpm.msc does not show a device, open Device Manager (devmgmt.msc), and check for a Trusted Platform Module under Security Devices. If you do not see a Trusted Platform Module device, this might be true for one of the following reasons:
 
@@ -122,18 +124,20 @@ If the TPM device is not using the C:\Windows\System32\tpm.sys driver, you shoul
 
 Review the MBAM Admin event log. You will see an event entry that resembles the following in the MBAM Admin event log:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 4:13:37 AM
-    Event ID:      8
-    Task Category: None
-    Level:         Error
-    Keywords:      
-    User:          SYSTEM
-    Computer:      BITTESTVM.xtremelabs.com
-    Description:
-    The system volume is missing.
-    SystemVolume is needed to encrypt the operating system drive.
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 4:13:37 AM
+Event ID:      8
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      BITTESTVM.xtremelabs.com
+Description:
+The system volume is missing.
+SystemVolume is needed to encrypt the operating system drive.
+```
 
 BitLocker requires a SYSTEM partition to enable encryption ([BitLocker Drive Encryption in Windows 7: Frequently Asked Questions](/previous-versions/windows/it-pro/windows-7/ee449438(v=ws.10)?redirectedfrom=MSDN#bkmk_partitions)).
 
@@ -151,18 +155,20 @@ See the [TechNet article for file system requirements for BitLocker](/previous-v
 
 You will see an event entry that resembles the following in the MBAM Admin event log:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          7/25/2013 9:27:58 PM
-    Event ID:      22
-    Task Category: None
-    Level:         Error
-    Keywords:      
-    User:          SYSTEM
-    Computer:      Mbamclient.contoso.com
-    Description:
-    Detected Fixed Data Drive volume encryption policies conflict.
-    Check BitLocker and MBAM policies related to FDD drive protectors.
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          7/25/2013 9:27:58 PM
+Event ID:      22
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      Mbamclient.contoso.com
+Description:
+Detected Fixed Data Drive volume encryption policies conflict.
+Check BitLocker and MBAM policies related to FDD drive protectors.
+```
 
 Verify your Group Policy settings to make sure that you do not have a conflicting setting among the MBAM Group Policy settings.
 
@@ -180,17 +186,20 @@ By default, if the user requests an exemption, the exemption will be valid for 7
 
 You will see the following entry in the MBAM Admin event log when a computer is under user exemption:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 3:06:40 PM
-    Event ID:      13
-    Task Category: None
-    Level:         Warning
-    Keywords:      
-    User:          SYSTEM
-    Computer:      MBAMCLIENT.contoso.com
-    Description:
-    The user is exempt from encryption.
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 3:06:40 PM
+Event ID:      13
+Task Category: None
+Level:         Warning
+Keywords:      
+User:          SYSTEM
+Computer:      MBAMCLIENT.contoso.com
+Description:
+The user is exempt from encryption.
+```
+
 
 If you want to manually override user exemption for a computer, follow these steps:
  
@@ -208,21 +217,23 @@ Be aware that after you apply Group Policy to the computer, these values may rev
 
 MBAM uses methods of the win32_encryptablevolume class to manage BitLocker. If this module is unregistered or corrupted, the MBAM client will not operate correctly, and you will see the following event entry in the MBAM Admin event log:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          7/27/2013 11:18:51 PM
-    Event ID:      4
-    Task Category: None
-    Level:         Error
-    Keywords:      
-    User:          SYSTEM
-    Computer:      BITTEST.xtremelabs.com
-    Description:
-    An error occurred while sending encryption status data.
-    Error code:
-    0x80041016 
-    Details:
-    NULL
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          7/27/2013 11:18:51 PM
+Event ID:      4
+Task Category: None
+Level:         Error
+Keywords:      
+User:          SYSTEM
+Computer:      BITTEST.xtremelabs.com
+Description:
+An error occurred while sending encryption status data.
+Error code:
+0x80041016 
+Details:
+NULL
+```
 
 Additionally, you may notice that the Recovery and Hardware policies do not apply with Error Code 0x8007007e. This translates to "The specified module could not be found."
 
@@ -240,69 +251,71 @@ This section contains troubleshooting information for the following issues that 
 
 If the value of MBAM Compliance Status Service or Recovery and Hardware Service is incorrect, you'll see an event entry that resembles the following in the MBAM Admin event log on the client computer:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 4:13:36 PM
-    Event ID:      4
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      Mbamclient.contoso.com
-    Description:
-    An error occurred while sending encryption status data.
-    Error code:
-    0x803d0010
-    Details:
-    The remote endpoint was not reachable.
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 4:13:36 PM
+Event ID:      4
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      Mbamclient.contoso.com
+Description:
+An error occurred while sending encryption status data.
+Error code:
+0x803d0010
+Details:
+The remote endpoint was not reachable.
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 4:13:33 PM
-    Event ID:      18
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      Mbamclient.contoso.com
-    Description:
-    Unable to connect to the MBAM Recovery and Hardware service.
-    Error code:
-    0x803d0010
-    Details:
-    The remote endpoint was not reachable.
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 4:13:33 PM
+Event ID:      18
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      Mbamclient.contoso.com
+Description:
+Unable to connect to the MBAM Recovery and Hardware service.
+Error code:
+0x803d0010
+Details:
+The remote endpoint was not reachable.
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 4:20:32 PM
-    Event ID:      4
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      Mbamclient.contoso.com
-    Description:
-    An error occurred while sending encryption status data.
-    Error code:
-    0x803d0020
-    Details:
-    The endpoint address URL is invalid.
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 4:20:32 PM
+Event ID:      4
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      Mbamclient.contoso.com
+Description:
+An error occurred while sending encryption status data.
+Error code:
+0x803d0020
+Details:
+The endpoint address URL is invalid.
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          8/3/2013 4:20:32 PM
-    Event ID:      18
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      Mbamclient.contoso.com
-    Description:
-    Unable to connect to the MBAM Recovery and Hardware service.
-    Error code:
-    0x803d0020
-    Details:
-    The endpoint address URL is invalid.
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          8/3/2013 4:20:32 PM
+Event ID:      18
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      Mbamclient.contoso.com
+Description:
+Unable to connect to the MBAM Recovery and Hardware service.
+Error code:
+0x803d0020
+Details:
+The endpoint address URL is invalid.
+```
 
 Verify the values of **KeyRecoveryServiceEndPoint** and **StatusReportingServiceEndpoint** under the following registry subkey on the client computer: <br />
 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FVE\MDOPBitLockerManagement**
@@ -324,55 +337,56 @@ If the service URL is incorrect, you should correct the service URL in the follo
 
 The MBAM agent will be unable to post any updates to the database if connectivity issues exist between the client agent and the MBAM administration server. In this case, you will notice connectivity failure entries in the MBAM Admin event log on the client computer:
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          29-04-2014 18:21:22
-    Event ID:      2
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      TESTLABS.CONTOSO.COM
-    Description:
-    An error occurred while applying MBAM policies.
-    Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
-    Error code:
-    0x803D0010 
-    Details:
-    The remote endpoint was not reachable.
- 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          29-04-2014 23:06:48
-    Event ID:      2
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      TESTLABS.CONTOSO.COM
-    Description:
-    An error occurred while applying MBAM policies.
-    Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
-    Error code:
-    0x803D0006 
-    Details:
-    The operation did not complete within the time allotted.
+```
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          29-04-2014 18:21:22
+Event ID:      2
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      TESTLABS.CONTOSO.COM
+Description:
+An error occurred while applying MBAM policies.
+Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
+Error code:
+0x803D0010 
+Details:
+The remote endpoint was not reachable.
 
-    Log Name:      Microsoft-Windows-MBAM/Admin
-    Source:        Microsoft-Windows-MBAM
-    Date:          02-09-2013 02:02:04
-    Event ID:      18
-    Task Category: None
-    Level:         Error
-    Keywords:     
-    User:          SYSTEM
-    Computer:      TESTLABS.CONTOSO.COM
-    Description:
-    Unable to connect to the MBAM Recovery and Hardware service.
-    Error code:
-    0x803D0010 
-    Details:
-    The remote endpoint was not reachable.
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          29-04-2014 23:06:48
+Event ID:      2
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      TESTLABS.CONTOSO.COM
+Description:
+An error occurred while applying MBAM policies.
+Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
+Error code:
+0x803D0006 
+Details:
+The operation did not complete within the time allotted.
+
+Log Name:      Microsoft-Windows-MBAM/Admin
+Source:        Microsoft-Windows-MBAM
+Date:          02-09-2013 02:02:04
+Event ID:      18
+Task Category: None
+Level:         Error
+Keywords:     
+User:          SYSTEM
+Computer:      TESTLABS.CONTOSO.COM
+Description:
+Unable to connect to the MBAM Recovery and Hardware service.
+Error code:
+0x803D0010 
+Details:
+The remote endpoint was not reachable.
 
 Basic checks:
 
@@ -387,6 +401,8 @@ Basic checks:
 * If the communication between client and server is secure, make sure that you are using a valid SSL certificate.
 
 * Verify network connectivity between the web server and the database server to which the data is sent for insertion. You can check database connectivity from the web server to the database server by using ODBC Data Source Administrator. Detailed SQL Server connection troubleshooting information is available in [How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx).
+
+```
 
 #### Troubleshooting the connectivity issue
 
@@ -408,6 +424,7 @@ If you can successfully browse to both service URLs, and there is connectivity b
 
 The MBAM services may be unable to connect to the database server because of a network issue or an incorrect database connection string setting. Review the Application logs on the administration and monitoring server. You might see errors entries or warnings from source ASP.NET 2.0.50727.0 that resemble the following log entry:
 
+```
     Log Name:      Application
     Source:        ASP.NET 2.0.50727.0
     Date:          7/11/2013 6:16:34 PM
@@ -486,6 +503,8 @@ The MBAM services may be unable to connect to the database server because of a n
         Sql ErrorCode: 5
         Error Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
 
+```
+
 #### Possible causes
 
 ##### Cause 1
@@ -538,6 +557,8 @@ You should primarily investigate the service trace logs of RecoveryandHardwareSe
 
 Review the activity in the service trace log for any error or warning entries. By default, error entries are highlighted in red. Select the error description on the right pane of the trace viewer to view detailed information about the error entry. The following is a sample error entry from the trace log:
 
+```
+
     <E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
     <System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
     <EventID>15183</EventID>
@@ -554,6 +575,8 @@ Review the activity in the service trace log for any error or warning entries. B
     <ApplicationData>AddUpdateVolume: While executing sql transaction for add volume to store exception occurred Key Recovery Data Store processing error: Violation of UNIQUE KEY constraint 'UniqueRecoveryKeyId'. Cannot insert duplicate key in object 'RecoveryAndHardwareCore.Keys'. The duplicate key value is (8637036e-b379-4798-bd9e-5a0b36296de3).
     </ApplicationData>
     </E2ETraceEvent>
+
+```
 
 ## Re-installation or reconfiguration of MBAM infrastructure
 
