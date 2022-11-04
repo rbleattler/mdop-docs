@@ -1,6 +1,6 @@
 ---
 title: Creating a Template
-description: Create a Template
+description: How to Create a Template
 author: dansimp
 ms.assetid: 8208f14a-5c18-43a7-8564-118230398cca
 ms.reviewer: 
