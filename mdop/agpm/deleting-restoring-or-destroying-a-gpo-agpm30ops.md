@@ -1,6 +1,6 @@
 ---
 title: Delete, Restore, or Destroy a GPO
-description: Deleting, Restoring, or Destroying a GPO
+description: Delete, Restore, or Destroy a GPO
 author: dansimp
 ms.assetid: 3e1b862e-007a-4b60-900f-0489069f5c75
 ms.reviewer: 
