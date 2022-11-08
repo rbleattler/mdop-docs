@@ -1,6 +1,6 @@
 ---
 title: How to Delete, Restore, or Destroy a GPO
-description: How to Delete, Restor, or Destroy a GPO
+description: How to Delete, Restore, or Destroy a GPO
 author: dansimp
 ms.assetid: 3af6c396-61c8-4b32-9fd8-28e9f15e575c
 ms.reviewer: 

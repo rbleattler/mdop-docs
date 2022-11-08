@@ -1,6 +1,6 @@
 ---
 title: How to Delegate Domain-Level Access to the Archive
-description: Delegate Domain-Level Access to the Archive
+description: Delegating Domain-Level Access to the Archive
 author: dansimp
 ms.assetid: 11ca1d40-4b5c-496e-8922-d01412717858
 ms.reviewer: 

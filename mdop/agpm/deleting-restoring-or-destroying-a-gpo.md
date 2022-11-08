@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Deleting, Restoring, or Destroying a GPO
+# Delete, Restore, or Destroy a GPO
 
 
 As an Approver, you can delete a Group Policy object (GPO) (moving it to the Recycle Bin), restore a GPO from the Recycle Bin (returning it to the archive), or destroy a GPO (permanently deleting it so that it can no longer be restored).
