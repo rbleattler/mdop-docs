@@ -1,5 +1,5 @@
 ---
-title: Roll Back to a Previous Version of a GPO
+title: How to Roll Back to a Previous Version of a GPO
 description: Roll Back to a Previous Version of a GPO
 author: dansimp
 ms.assetid: 2a98ad8f-32cb-41eb-ab99-0318f2a55d81
@@ -14,8 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Roll Back to a Previous Version of a GPO
-
+# How to Roll Back to a Previous Version of a GPO
 
 An Approver can roll back changes to a Group Policy Object (GPO) by redeploying an earlier version of the GPO from its history. Deploying an earlier version of a GPO overwrites the version of the GPO currently in production.
 

@@ -1,6 +1,6 @@
 ---
-title: Import a GPO from a File
-description: Import a GPO from a File
+title: How to Import a GPO from a File
+description: How to Import a GPO from a File
 author: dansimp
 ms.assetid: 6e901a52-1101-4fed-9f90-3819b573b378
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Import a GPO from a File
+# How to Import a GPO from a File
 
 
 In Advanced Group Policy Management (AGPM), if you have exported a Group Policy Object (GPO) to a CAB file, you can import the policy settings from that GPO into an existing GPO in a domain in another forest. Importing policy settings into an existing GPO replaces all policy settings within that GPO. For information about exporting GPO settings to a CAB file, see [Export a GPO to a File](export-a-gpo-to-a-file.md).

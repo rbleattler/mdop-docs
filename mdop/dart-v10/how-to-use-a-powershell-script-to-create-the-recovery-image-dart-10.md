@@ -1,5 +1,5 @@
 ---
-title: How to Use a PowerShell Script to Create the Recovery Image
+title: Use a PowerShell Script to Create the Recovery Image
 description: How to Use a PowerShell Script to Create the Recovery Image
 author: dansimp
 ms.assetid: cf5b0814-71a8-4f0b-b1f1-1ac6d8b51c4f
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Use a PowerShell Script to Create the Recovery Image
+# Use a PowerShell Script to Create the Recovery Image
 
 
 ## <a href="" id="bkmk-create-image-use-script"></a>To create the DaRT recovery image by using a PowerShell script

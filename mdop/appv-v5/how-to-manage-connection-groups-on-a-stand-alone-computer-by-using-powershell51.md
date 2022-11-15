@@ -1,5 +1,5 @@
 ---
-title: How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell
+title: Manage Connection Groups on a Stand-alone Computer by Using PowerShell
 description: How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell
 author: dansimp
 ms.assetid: e1589eff-d306-40fb-a0ae-727190dafe26
@@ -14,7 +14,7 @@ ms.date: 11/01/2016
 ---
 
 
-# How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell
+#  Manage Connection Groups on a Stand-alone Computer by Using PowerShell
 
 
 An App-V connection group allows you to run all the virtual applications as a defined set of packages in a single virtual environment. For example, you can virtualize an application and its plug-ins by using separate packages, but run them together in a single connection group.

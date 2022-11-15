@@ -1,5 +1,5 @@
 ---
-title: How to Generate MBAM Reports
+title: Generate MBAM Reports
 description: How to Generate MBAM Reports
 author: dansimp
 ms.assetid: cdf4ae76-040c-447c-8736-c9e57068d221
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Generate MBAM Reports
+# Generate MBAM Reports
 
 
 Microsoft BitLocker Administration and Monitoring (MBAM) generates various reports to monitor BitLocker encryption usage and compliance. This topic describes how to open the MBAM administration website and how to generate MBAM reports on enterprise compliance, individual computers, hardware compatibility, and key recovery activity. For more information about MBAM reports, see [Understanding MBAM Reports](understanding-mbam-reports-mbam-1.md).

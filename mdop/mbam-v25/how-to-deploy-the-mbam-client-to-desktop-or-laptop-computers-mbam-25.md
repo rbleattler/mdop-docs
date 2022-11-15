@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the MBAM Client to Desktop or Laptop Computers
+title: Deploy the MBAM Client to Desktop and Laptop Computers
 description: How to Deploy the MBAM Client to Desktop or Laptop Computers
 author: dansimp
 ms.assetid: 3a7639e0-468e-4496-8be2-ed29b8e07c53
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Deploy the MBAM Client to Desktop or Laptop Computers
+# Deploy the MBAM Client to Desktop and Laptop Computers
 
 
 This topic explains how to deploy the MBAM Client to end users’ computers. You can deploy the MBAM Client through an electronic software distribution system, such as Active Directory Domain Services or Microsoft System Center Configuration Manager.

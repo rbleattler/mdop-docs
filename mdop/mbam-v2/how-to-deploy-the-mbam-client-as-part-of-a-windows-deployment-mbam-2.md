@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the MBAM Client as Part of a Windows Deployment
+title: Deploying the MBAM Client as Part of a Windows Deployment
 description: How to Deploy the MBAM Client as Part of a Windows Deployment
 author: dansimp
 ms.assetid: 67387de7-8b02-4412-9850-3b8d8e5c18af
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Deploy the MBAM Client as Part of a Windows Deployment
+# Deploying the MBAM Client as Part of a Windows Deployment
 
 
 The Microsoft BitLocker Administration and Monitoring (MBAM) Client enables administrators to enforce and monitor BitLocker drive encryption on computers in the enterprise. If computers that have a Trusted Platform Module (TPM) chip, the BitLocker client can be integrated into an organization by enabling BitLocker management and encryption on client computers as part of the imaging and Windows deployment process.

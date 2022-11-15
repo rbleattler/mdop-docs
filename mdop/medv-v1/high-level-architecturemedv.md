@@ -1,6 +1,6 @@
 ---
-title: High-Level Architecture
-description: High-Level Architecture
+title: MED-V High-Level Architecture
+description: MED-V High-Level Architecture
 author: dansimp
 ms.assetid: a78e12ad-5aa6-40e0-ae8b-51acaf005712
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# High-Level Architecture
+# MED-V High-Level Architecture
 
 
 The MED-V solution comprises the following elements:
@@ -37,13 +37,6 @@ The MED-V solution comprises the following elements:
 
 All communication between the client and the servers (management server and image repository) is carried on top of a standard HTTP or HTTPS channel.
 
-![](images/506f54d0-38fa-446a-8070-17ae26da5355.gif)
-
- 
-
- 
-
-
-
+![Flow chart shows communication between client and server computers.](images/506f54d0-38fa-446a-8070-17ae26da5355.gif)
 
 

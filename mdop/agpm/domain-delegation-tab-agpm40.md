@@ -1,6 +1,6 @@
 ---
-title: Domain Delegation Tab
-description: Domain Delegation Tab
+title: About the Domain Delegation Tab
+description: Domain Delegation Tab Details
 author: dansimp
 ms.assetid: 5be5841e-92fb-4af6-aa68-0ae50f8d5141
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Domain Delegation Tab
+# About the Domain Delegation Tab
 
 
 The **Domain Delegation** tab on the **Change Control** pane provides a list of Group Policy administrators who have domain-level access to the archive and indicates the roles of each. Additionally, this tab enables AGPM Administrators (Full Control) to configure domain-level permissions for Editors, Approvers, Reviewers, and other AGPM Administrators. There are two sections on the **Domain Delegation** tab—configuration of e-mail notification and role-based delegation for Advanced Group Policy Management (AGPM) at the domain level.

@@ -1,6 +1,6 @@
 ---
-title: AGPM Server Tab
-description: AGPM Server Tab
+title: AGPM Server Tab Functionality
+description: The **AGPM Server** tab on the **Change Control** pane lets you select an AGPM Server by entering a fully-qualified computer name and port. You can also delete older versions of GPOs from the archive.
 author: dansimp
 ms.assetid: fb3b0265-53ed-4bf6-88a4-c409f5f1bed4
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# AGPM Server Tab
+# AGPM Server Tab Functionality
 
 
 The **AGPM Server** tab on the **Change Control** pane enables you to select an AGPM Server by entering a fully-qualified computer name and port, and to delete older versions of Group Policy Objects (GPOs) from the archive to conserve disk space on the AGPM Server.

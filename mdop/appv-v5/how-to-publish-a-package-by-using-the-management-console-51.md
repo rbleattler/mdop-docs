@@ -1,5 +1,5 @@
 ---
-title: How to Publish a Package by Using the Management Console
+title: Publish a Package by Using the Management Console
 description: How to Publish a Package by Using the Management Console
 author: dansimp
 ms.assetid: e34d2bcf-15ac-4a75-9dc8-79380b36a25f
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Publish a Package by Using the Management Console
+# Publish a Package by Using the Management Console
 
 
 Use the following procedure to publish an App-V 5.1 package. Once you publish a package, computers that are running the App-V 5.1 client can access and run the applications in that package.

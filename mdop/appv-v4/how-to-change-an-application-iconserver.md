@@ -1,5 +1,5 @@
 ---
-title: How to Change an Application Icon
+title: Change an Application Icon
 description: How to Change an Application Icon
 author: dansimp
 ms.assetid: 52c870eb-4a54-410b-8abf-79395a53f846
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Change an Application Icon
+# Change an Application Icon
 
 
 You can use the following procedure to change an icon associated with the selected application directly from the **Results** pane of the **Application** node in the Application Virtualization Server Management Console.

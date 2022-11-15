@@ -1,5 +1,5 @@
 ---
-title: How to Deploy a Workspace Image
+title: Deploy a Workspace Image
 description: How to Deploy a Workspace Image
 author: dansimp
 ms.assetid: b2c77e0d-101d-4956-a27c-8beb0e4f262e
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Deploy a Workspace Image
+# Deploy a Workspace Image
 
 
 When using a deployment package, a new image can be deployed onto client computers in one of the following ways:

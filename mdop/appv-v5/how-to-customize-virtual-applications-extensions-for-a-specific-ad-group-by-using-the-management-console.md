@@ -1,5 +1,5 @@
 ---
-title: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
+title: Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
 description: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
 author: dansimp
 ms.assetid: 4f249ee3-cc2d-4b1e-afe5-d1cbf9cabd88
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
+# Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
 
 
 Use the following procedure to customize the virtual application extensions for an Active Directory (AD) group.

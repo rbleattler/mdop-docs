@@ -1,5 +1,5 @@
 ---
-title: How to Delete a Connection Group
+title: Delete a Connection Group
 description: How to Delete a Connection Group
 author: dansimp
 ms.assetid: dfdfb507-8891-4f17-9125-5759c9b74483
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Delete a Connection Group
+# Delete a Connection Group
 
 
 Use the following procedure to delete an existing App-V connection group.

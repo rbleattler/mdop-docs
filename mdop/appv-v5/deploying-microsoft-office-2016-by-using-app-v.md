@@ -1,6 +1,6 @@
 ---
-title: Deploying Microsoft Office 2016 by Using App-V
-description: Deploying Microsoft Office 2016 by Using App-V
+title: Deploy Microsoft Office 2016 by Using App-V
+description: How to eploy Microsoft Office 2016 by Using App-V
 author: dansimp
 ms.assetid: cc675cde-cb8d-4b7c-a700-6104b78f1d89
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 07/25/2017
 ---
 
 
-# Deploying Microsoft Office 2016 by Using App-V
+# Deploy Microsoft Office 2016 by Using App-V
 
 
 Use the information in this article to use Microsoft Application Virtualization 5.0, or later versions, to deliver Microsoft Office 2016 as a virtualized application to computers in your organization. For information about using App-V to deliver Office 2013, see [Deploying Microsoft Office 2013 by Using App-V](deploying-microsoft-office-2013-by-using-app-v.md). For information about using App-V to deliver Office 2010, see [Deploying Microsoft Office 2010 by Using App-V](deploying-microsoft-office-2010-by-using-app-v.md).
@@ -203,8 +203,9 @@ Office 2016 App-V Packages are created using the Office Deployment Tool, which g
 
 1.  Download the [Office 2016 Deployment Tool for Click-to-Run](https://www.microsoft.com/download/details.aspx?id=49117).
 
-> **Important** You must use the Office 2016 Deployment Tool to create Office 2016 App-V Packages.
-> 2. Run the .exe file and extract its features into the desired location. To make this process easier, you can create a shared network folder where the features will be saved.
+    > **Important** You must use the Office 2016 Deployment Tool to create Office 2016 App-V Packages.
+
+ 2. Run the .exe file and extract its features into the desired location. To make this process easier, you can create a shared network folder where the features will be saved.
 
     Example: \\\\Server\\Office2016
 
@@ -405,7 +406,7 @@ After you download the Office 2016 applications through the Office Deployment To
    <tr class="even">
    <td align="left"><p>ProductID</p></td>
    <td align="left"><p>Specify Subscription licensing, as shown in the following example:</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
+   <pre class="syntax"><code>&lt;Configuration&gt;
       &lt;Add SourcePath= &quot;\server\Office 2016&quot; OfficeClientEdition=&quot;32&quot; &gt;
        &lt;Product ID=&quot;O365ProPlusRetail&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
@@ -545,7 +546,7 @@ Deploy the App-V package for Office 2016 by using the same methods you use for a
 <td align="left"><p>Enable PowerShell scripting on the App-V clients</p></td>
 <td align="left"><p>To publish Office 2016 packages, you must run a script.</p>
 <p>Package scripts are disabled by default on App-V clients. To enable scripting, run the following PowerShell command:</p>
-<pre class="syntax" space="preserve"><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
+<pre class="syntax"><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Publish the Office 2016 package globally</p></td>

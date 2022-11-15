@@ -142,7 +142,7 @@ You can also [customize UE-V to synchronize settings](https://technet.microsoft.
 
 Use this table to compare UE-V to Synchronize Profiles in Windows 7, Synchronize Profiles in Windows 8, and the Sync PC Settings feature of Microsoft account.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />

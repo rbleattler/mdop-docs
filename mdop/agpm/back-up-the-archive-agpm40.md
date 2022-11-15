@@ -1,6 +1,6 @@
 ---
-title: Back Up the Archive
-description: Back Up the Archive
+title: How to Back Up the Archive
+description: Backing Up the Archive
 author: dansimp
 ms.assetid: 538d85eb-3596-4c1d-bbd7-26bc28857c28
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Back Up the Archive
+# How to Back Up the Archive
 
 
 To help in the recovery of the archive for Advanced Group Policy Management (AGPM) if there is a disaster, an AGPM Administrator (Full Control) should back up the archive frequently. By default, the archive is created in %ProgramData%\\Microsoft\\AGPM. However, you can specify a different path during the setup of Microsoft Advanced Group Policy Management - Server.

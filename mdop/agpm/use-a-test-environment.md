@@ -1,5 +1,5 @@
 ---
-title: Use a Test Environment
+title: How to Use a Test Environment
 description: Use a Test Environment
 author: dansimp
 ms.assetid: b8d7b3ee-030a-4b5b-8223-4a3276fd47a7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Use a Test Environment
+# How to Use a Test Environment
 
 
 If you use a testing organizational unit (OU) to test Group Policy objects (GPOs) before deployment to the production environment, you must have the necessary permissions to access the test OU. The use of a test OU is optional.
@@ -29,11 +29,11 @@ If you use a testing organizational unit (OU) to test Group Policy objects (GPOs
 
 4.  Click **OK** in the dialog box asking whether to create a link to the GPO in the test OU.
 
-### Additional considerations
+### Other considerations
 
 -   When testing is complete, checking in the GPO automatically deletes the link to the checked-out copy of the GPO.
 
-### Additional references
+### References
 
 -   [Editing a GPO](editing-a-gpo.md)
 

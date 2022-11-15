@@ -1,5 +1,5 @@
 ---
-title: How to Load the PowerShell Cmdlets and Get Cmdlet Help
+title: Load the PowerShell Cmdlets and Get Cmdlet Help
 description: How to Load the PowerShell Cmdlets and Get Cmdlet Help
 author: dansimp
 ms.assetid: 0624495b-943e-485b-9e54-b50e4ee6591c
@@ -14,7 +14,7 @@ ms.date: 11/02/2016
 ---
 
 
-# How to Load the PowerShell Cmdlets and Get Cmdlet Help
+# Load the PowerShell Cmdlets and Get Cmdlet Help
 
 
 What this topic covers:

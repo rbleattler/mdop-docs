@@ -1,5 +1,5 @@
 ---
-title: Restore a Deleted GPO
+title: How to Restore a Deleted GPO
 description: Restore a Deleted GPO
 author: dansimp
 ms.assetid: 0a131d26-a741-4a51-b612-c0bc7dbba06b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Restore a Deleted GPO
+# How to Restore a Deleted GPO
 
 
 Approvers can restore a deleted Group Policy Object (GPO) from the Recycle Bin, returning it to the archive.

@@ -1,6 +1,6 @@
 ---
-title: Logging and Tracing Settings
-description: Logging and Tracing Settings
+title: Configure Logging and Tracing Settings
+description: Configure Logging and Tracing Settings
 author: dansimp
 ms.assetid: 858b6fbf-65b4-42fa-95a9-69b04e5734d7
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Logging and Tracing Settings
+# Configure Logging and Tracing Settings
 
 
 The Administrative template settings for Advanced Group Policy Management (AGPM) enable you to centrally configure logging and tracing options for AGPM Servers and clients to which a Group Policy Object (GPO) with these settings is applied.

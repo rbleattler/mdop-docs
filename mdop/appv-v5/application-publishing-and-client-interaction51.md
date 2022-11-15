@@ -1,5 +1,5 @@
 ---
-title: Application Publishing and Client Interaction
+title: Application Publishing and Client Interaction Reference
 description: Application Publishing and Client Interaction
 author: dansimp
 ms.assetid: 36a4bf6f-a917-41a6-9856-6248686df352
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# Application Publishing and Client Interaction
+# Application Publishing and Client Interaction Reference
 
 
 This article provides technical information about common App-V client operations and their integration with the local operating system.

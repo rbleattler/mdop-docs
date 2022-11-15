@@ -1,6 +1,6 @@
 ---
-title: Managing the Archive
-description: Managing the Archive
+title: Manage the Archive
+description: Manage the Archive
 author: dansimp
 ms.assetid: b11a3d71-74ea-4dd7-b243-6f2880b7af2d
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Managing the Archive
+# Manage the Archive
 
 
 In Advanced Group Policy Management (AGPM), as an AGPM Administrator (Full Control), you manage access to the archive and have the option to limit the number of versions of each Group Policy Object (GPO) stored in the archive. You can delegate access to GPOs in the archive at the domain level or GPO level. Additionally, you can back up the archive so that you may be able to recover it if a disaster occurs.
