@@ -1,6 +1,6 @@
 ---
 title: Import GPO from Production
-description: Import a GPO from Production
+description: Import GPO from Production
 author: dansimp
 ms.assetid: ad14203a-2e6a-41d4-a05e-4508c80045fd
 ms.reviewer: 

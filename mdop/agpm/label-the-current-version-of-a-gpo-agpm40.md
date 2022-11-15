@@ -1,6 +1,6 @@
 ---
 title: How to Label the Current Version of a GPO
-description: Label the Current Version of a GPO
+description: How to Label the Current Version of a GPO
 author: dansimp
 ms.assetid: cadc8769-21da-44b0-8122-6cafdb448913
 ms.reviewer: 

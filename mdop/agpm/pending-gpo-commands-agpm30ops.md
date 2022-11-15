@@ -1,6 +1,6 @@
 ---
 title: GPO Pending Tab Commands
-description: Pending GPO Commands
+description: GPO Pending GPO Commands
 author: dansimp
 ms.assetid: 3868dda0-8a41-4bba-9b0c-9f656f9a3cd5
 ms.reviewer: 

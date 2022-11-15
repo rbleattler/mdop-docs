@@ -1,6 +1,6 @@
 ---
 title: Settings for Logging and Tracing
-description: Logging and Tracing Settings
+description: Settings for Logging and Tracing
 author: dansimp
 ms.assetid: 66d03306-80d8-4132-bf71-2827157b1fc9
 ms.reviewer: 

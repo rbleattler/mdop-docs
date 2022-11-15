@@ -1,6 +1,6 @@
 ---
 title: How to Import a GPO from Production
-description: Import a GPO from Production
+description: How to Import a GPO from Production
 author: dansimp
 ms.assetid: ad90f13e-e73c-400f-b86f-c12f2e75d19d
 ms.reviewer: 
