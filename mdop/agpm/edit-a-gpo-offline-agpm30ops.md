@@ -1,6 +1,6 @@
 ---
 title: How to Edit a GPO Offline
-description: Edit a GPO Offline
+description: Editing a GPO Offline
 author: dansimp
 ms.assetid: 51677d8a-6209-41b5-82ed-4f3be817abc0
 ms.reviewer: 
