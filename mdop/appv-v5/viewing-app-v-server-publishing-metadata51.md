@@ -1,5 +1,5 @@
 ---
-title: Viewing App-V Server Publishing Metadata
+title: View App-V Server Publishing Metadata
 description: Viewing App-V Server Publishing Metadata
 author: dansimp
 ms.assetid: d5fa9eb5-647c-478d-8a4d-0ecda018bce6
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Viewing App-V Server Publishing Metadata
+# View App-V Server Publishing Metadata
 
 
 Use this procedure to view publishing metadata, which can help you resolve publishing-related issues. You must be using the App-V Management server to use this procedure.

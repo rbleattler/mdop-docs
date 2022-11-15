@@ -1,6 +1,6 @@
 ---
-title: Configure E-Mail Notification
-description: Configure E-Mail Notification
+title: How to Configure E-Mail Notification
+description: How to Configure E-Mail Notification
 author: dansimp
 ms.assetid: 6e152de0-4376-4963-8d1a-3e7f5866d30f
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure E-Mail Notification
+# How to Configure E-Mail Notification
 
 
 When an Editor or a Reviewer attempts to create, deploy, or delete a Group Policy object (GPO), a request for this action is sent to a designated e-mail address or addresses so that an Approver can evaluate the request and implement or deny it. You determine the e-mail address or addresses to which notifications are sent, as well as the alias from which notifications are sent.

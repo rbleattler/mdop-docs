@@ -1,6 +1,6 @@
 ---
-title: Checklist Administer the AGPM Server and Archive
-description: Checklist Administer the AGPM Server and Archive
+title: Administer the AGPM Server and Archive Checklist
+description: Checklist for Administering the AGPM Server and Archive
 author: dansimp
 ms.assetid: d9c60203-90c2-48a7-9318-197e0ec5038b
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Checklist: Administer the AGPM Server and Archive
+# Administer the AGPM Server and Archive Checklist
 
 
 In Advanced Group Policy Management (AGPM), both the AGPM Service and the archive are managed by AGPM Administrators (Full Control). The following are typical tasks for an AGPM Administrator.

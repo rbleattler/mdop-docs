@@ -1,5 +1,5 @@
 ---
-title: Request Control of an Uncontrolled GPO
+title: How to Request Control of an Uncontrolled GPO
 description: Request Control of an Uncontrolled GPO
 author: dansimp
 ms.assetid: a34e0aeb-33a1-4c9f-b187-1d08493a785c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Request Control of an Uncontrolled GPO
+# How to Request Control of an Uncontrolled GPO
 
 
 To provide change control for an existing Group Policy Object (GPO), the GPO must be controlled. Unless you are an Approver or an AGPM Administrator (Full Control), you must request that the GPO be controlled.

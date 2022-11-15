@@ -1,5 +1,5 @@
 ---
-title: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
+title: Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 description: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 author: dansimp
 ms.assetid: 23b2d03a-20ce-4973-99ee-748f3b682207
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
+# Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 
 
 Deploying packages and connection groups using the App-V 5.1 publishing server is helpful because it offers single-point management and high scalability.

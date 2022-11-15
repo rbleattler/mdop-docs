@@ -1,5 +1,5 @@
 ---
-title: Start and Stop the AGPM Service
+title: How to Start and Stop the AGPM Service
 description: Start and Stop the AGPM Service
 author: dansimp
 ms.assetid: dcc9566c-c515-4fbe-b7f5-8ac030141307
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Start and Stop the AGPM Service
+# How to Start and Stop the AGPM Service
 
 
 The AGPM Service is a Windows service that acts as a security proxy, managing client access to Group Policy Objects (GPOs) in the archive and production environment.

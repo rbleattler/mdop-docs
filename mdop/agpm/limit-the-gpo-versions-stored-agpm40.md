@@ -1,6 +1,6 @@
 ---
-title: Limit the GPO Versions Stored
-description: Limit the GPO Versions Stored
+title: How to Limit the GPO Versions Stored
+description: How to Limit the GPO Versions Stored
 author: dansimp
 ms.assetid: d802c7b6-f303-4b23-aefd-f19f1300b0ff
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Limit the GPO Versions Stored
+# How to Limit the GPO Versions Stored
 
 
 By default, all versions of every controlled Group Policy Object (GPO) are retained in the archive on the AGPM Server. However, you can limit the number of versions retained for each GPO and delete older versions when that limit is exceeded. When GPO versions are deleted, a record of the version remains in the history of the GPO, but the GPO version itself is deleted from the archive.

@@ -1,5 +1,5 @@
 ---
-title: DaRT 10
+title: DaRT 10 Cover Page
 description: DaRT 10
 author: dansimp
 ms.assetid: 4f62abe6-d971-44b4-b1e7-9dcaf199ca31
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# DaRT 10
+# DaRT 10 Cover Page
 
 
 ## Copyright

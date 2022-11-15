@@ -1,6 +1,6 @@
 ---
 title: History Window
-description: History Window
+description: Group Policy Object History Window
 author: dansimp
 ms.assetid: f11f9ad9-bffe-4c56-8c46-fe9c0a8e55c1
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# History Window
+# Group Policy Object History Window
 
 
 The history of a Group Policy object (GPO) can be displayed by double-clicking a GPO or by right-clicking a GPO and then clicking **History**. It is also displayed in the **Group Policy Management Console** (GPMC) as a tab for each GPO.

@@ -1,5 +1,5 @@
 ---
-title: How to Install the Sequencer
+title: Install the Sequencer
 description: How to Install the Sequencer
 author: dansimp
 ms.assetid: a122caf0-f408-458c-b119-dc84123c1d58
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install the Sequencer
+# Install the Sequencer
 
 
 Use the following procedure to install the Microsoft Application Virtualization (App-V) 5.0 sequencer. The computer that will run the sequencer must not be running any version of the App-V 5.0 client.

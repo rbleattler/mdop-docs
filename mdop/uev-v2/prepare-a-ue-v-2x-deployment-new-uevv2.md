@@ -621,7 +621,7 @@ Computers that run the UE-V Agent must use a time server to maintain a consisten
 
 Before you proceed, make sure your environment includes these requirements for running UE-V.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

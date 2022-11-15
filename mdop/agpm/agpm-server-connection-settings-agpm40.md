@@ -1,6 +1,6 @@
 ---
-title: AGPM Server Connection Settings
-description: AGPM Server Connection Settings
+title: Connection Settings for AGPM Server 
+description: Connection Settings for AGPM Server
 author: dansimp
 ms.assetid: cc67f122-6309-4820-92c2-f6a27d897123
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# AGPM Server Connection Settings
+# Connection Settings for AGPM Server
 
 
 You can use Administrative template settings for Advanced Group Policy Management (AGPM) to centrally configure AGPM Server connections for Group Policy administrators to whom a Group Policy Object (GPO) with these settings is applied.

@@ -1,5 +1,5 @@
 ---
-title: How to Install MED-V Client
+title: Install the MED-V Client
 description: How to Install MED-V Client
 author: dansimp
 ms.assetid: bfac6de7-d96d-4b3e-bd8b-183e051e53c8
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install MED-V Client
+# Install the MED-V Client
 
 
 In a deployment package-based scenario, the MED-V client installation is included in the deployment package and installed directly from the package.

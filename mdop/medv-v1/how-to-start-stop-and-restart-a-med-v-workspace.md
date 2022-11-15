@@ -35,7 +35,7 @@ ms.date: 06/16/2016
 
     -   If there are several MED-V workspaces on the computer and you have opted to use a specified MED-V workspace, the window shown in the following figure appears.
 
-        ![](images/medv-logon.gif)
+        ![Screenshot of Enterprise Desktop Virtualization sign-in dialog.](images/medv-logon.gif)
 
     -   If there is only one MED-V workspace on the computer, the “Start last used Workspace” option is unavailable.
 

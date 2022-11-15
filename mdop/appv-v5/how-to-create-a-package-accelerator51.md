@@ -1,5 +1,5 @@
 ---
-title: How to Create a Package Accelerator
+title: Create a Package Accelerator
 description: How to Create a Package Accelerator
 author: dansimp
 ms.assetid: b61f3581-7933-443e-b872-a96bed9ff8d7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Package Accelerator
+# Create a Package Accelerator
 
 
 App-V 5.1 package accelerators automatically generate new virtual application packages.

@@ -1,5 +1,5 @@
 ---
-title: Deploying Microsoft Office 2013 by Using App-V
+title: Deploy Microsoft Office 2013 by Using App-V
 description: Deploying Microsoft Office 2013 by Using App-V
 author: dansimp
 ms.assetid: 9a7be05e-2a7a-4874-af25-09c0f5037876
@@ -14,7 +14,7 @@ ms.date: 11/02/2016
 ---
 
 
-# Deploying Microsoft Office 2013 by Using App-V
+# Deploy Microsoft Office 2013 by Using App-V
 
 
 Use the information in this article to use Microsoft Application Virtualization (App-V) 5.1, or later versions, to deliver Microsoft Office 2013 as a virtualized application to computers in your organization. For information about using App-V to deliver Office 2010, see [Deploying Microsoft Office 2010 by Using App-V](deploying-microsoft-office-2010-by-using-app-v51.md). To successfully deploy Office 2013 with App-V, you need to be familiar with Office 2013 and App-V.

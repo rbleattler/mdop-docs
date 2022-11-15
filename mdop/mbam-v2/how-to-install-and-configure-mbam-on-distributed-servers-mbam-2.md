@@ -1,5 +1,5 @@
 ---
-title: How to Install and Configure MBAM on Distributed Servers
+title: Install and Configure MBAM on Distributed Servers
 description: How to Install and Configure MBAM on Distributed Servers
 author: dansimp
 ms.assetid: 67b91e6b-ae2e-4e47-9ef2-6819aba95976
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Install and Configure MBAM on Distributed Servers
+# Install and Configure MBAM on Distributed Servers
 
 
 The procedures in this topic describe how to install Microsoft BitLocker Administration and Monitoring (MBAM) 2.0 in the Stand-alone topology on distributed servers. To see a diagram of the recommended architecture, along with a description of the databases and features, see [Deploying the MBAM 2.0 Server Infrastructure](deploying-the-mbam-20-server-infrastructure-mbam-2.md). To install Microsoft BitLocker Administration and Monitoring with the Configuration Manager topology, see [Deploying MBAM with Configuration Manager](deploying-mbam-with-configuration-manager-mbam2.md).

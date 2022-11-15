@@ -1,5 +1,5 @@
 ---
-title: Edit a GPO Offline
+title: Editing a GPO Offline
 description: Edit a GPO Offline
 author: dansimp
 ms.assetid: 9c75eb3c-d4d5-41e0-b65e-8b4464a42cd9
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Edit a GPO Offline
+# Editing a GPO Offline
 
 
 To make changes to a controlled Group Policy Object (GPO), you must first check out a copy of the GPO from the archive. No one else will be able to modify the GPO until it is checked in again, preventing the introduction of conflicting changes by multiple Group Policy administrators. When you have finished modifying the GPO, you check it into the archive so that it can be reviewed and deployed to the production environment.

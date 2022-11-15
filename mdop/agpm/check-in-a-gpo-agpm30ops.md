@@ -1,6 +1,6 @@
 ---
-title: Check In a GPO
-description: Check In a GPO
+title: Checking In a GPO
+description: How to Check In a GPO
 author: dansimp
 ms.assetid: 437397db-c94b-4940-b1a4-05442619ebee
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Check In a GPO
+# Checking In a GPO
 
 
 Ordinarily, Editors should check in Group Policy Objects (GPOs) that they have edited when their modifications are complete. (For details, see [Edit a GPO Offline](edit-a-gpo-offline-agpm30ops.md).) However, if the Editor is unavailable, an Approver can also check in a GPO.

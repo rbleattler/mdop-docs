@@ -1,5 +1,5 @@
 ---
-title: History Window
+title: History Window Group Policy Object
 description: History Window
 author: dansimp
 ms.assetid: 5bea62e7-d267-40b2-a66d-fb1be7373a1c

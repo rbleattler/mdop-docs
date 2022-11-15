@@ -1,5 +1,5 @@
 ---
-title: Create a Template
+title: How to Create a Template
 description: Create a Template
 author: dansimp
 ms.assetid: b38423af-7d24-437a-98bc-01f1ae891127
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Create a Template
+# How to Create a Template
 
 
 Creating a template enables you to save all of the settings of a particular version of a Group Policy Object (GPO) to use as a starting point for creating new GPOs.

@@ -1,5 +1,5 @@
 ---
-title: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
+title: Run a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
 description: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
 author: dansimp
 ms.assetid: 71baf193-a9e8-4ffa-aa7f-e0bffed2e4b2
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
+# Run a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
 
 
 You can run a locally installed application in a virtual environment, alongside applications that have been virtualized by using Microsoft Application Virtualization (App-V). You might want to do this if you:

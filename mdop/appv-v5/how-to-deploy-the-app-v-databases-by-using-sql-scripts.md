@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the App-V Databases by Using SQL Scripts
+title: Deploy the App-V Databases by Using SQL Scripts
 description: How to Deploy the App-V Databases by Using SQL Scripts
 author: dansimp
 ms.assetid: 23637936-475f-4ca5-adde-76bb27d2372b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Deploy the App-V Databases by Using SQL Scripts
+# Deploy the App-V Databases by Using SQL Scripts
 
 
 Use the following instructions to use SQL scripts, rather than the Windows Installer, to:

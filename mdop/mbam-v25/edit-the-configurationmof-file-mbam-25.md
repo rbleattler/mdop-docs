@@ -1,5 +1,5 @@
 ---
-title: Edit the Configuration.mof File
+title: Editing the Configuration.mof File
 description: Edit the Configuration.mof File
 author: dansimp
 ms.assetid: 5d8cd76b-8ffc-4d46-b761-1b8350310c48
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Edit the Configuration.mof File
+# Editing the Configuration.mof File
 
 
 To enable the client computers to report BitLocker compliance details through the MBAM Configuration Manager reports, you have to edit the **Configuration.mof** file, whether you are using System Center 2012 Configuration Manager or Configuration Manager 2007. Complete the following instructions for the version of Configuration Manager that you are using.
