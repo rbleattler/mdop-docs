@@ -1,6 +1,6 @@
 ---
 title: Install the Sequencer
-description: How to Install the Sequencer
+description: Install the Sequencer
 author: dansimp
 ms.assetid: a122caf0-f408-458c-b119-dc84123c1d58
 ms.reviewer: 

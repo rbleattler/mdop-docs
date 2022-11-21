@@ -1,6 +1,6 @@
 ---
-title: Configure E-Mail Security for AGPM
-description: Configure E-Mail Security for AGPM
+title: Configuring E-Mail Security for AGPM
+description: Configuring E-Mail Security for AGPM
 author: dansimp
 ms.assetid: 4850ed8e-a1c6-43f0-95c5-853aa66a94ae
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure E-Mail Security for AGPM
+# Configuring E-Mail Security for AGPM
 
 
 By default, e-mail notifications sent because of actions in Advanced Group Policy Management (AGPM) are not encrypted and are sent through SMTP port 25. However, you can configure e-mail security for AGPM by using registry settings to specify whether to use Secure Sockets Layer (SSL) encryption and which SMTP port to use.

@@ -1,6 +1,6 @@
 ---
-title: Understanding MBAM Reports
-description: Understanding MBAM Reports
+title: Understand MBAM Reports
+description: Understand MBAM Reports
 author: dansimp
 ms.assetid: 34e4aaeb-7f89-41a1-b816-c6fe8397b060
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Understanding MBAM Reports
+# Understand MBAM Reports
 
 
 Microsoft BitLocker Administration and Monitoring (MBAM) generates various reports to monitor BitLocker usage and compliance. This topic describes the MBAM reports for enterprise compliance, individual computers, hardware compatibility, and key recovery activity.

@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Virtual Application Package Using an App-V Package Accelerator
+# Create a Virtual Application Package Using an App-V Package Accelerator
 
 
 **Important**  
