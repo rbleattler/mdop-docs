@@ -1,5 +1,5 @@
 ---
-title: Reviewing GPO Links
+title: Review GPO Links
 description: Review GPO Links
 author: dansimp
 ms.assetid: 5ae95afc-2b89-45cf-916c-efe2d43b2211

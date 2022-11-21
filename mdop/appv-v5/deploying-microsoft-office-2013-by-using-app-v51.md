@@ -421,7 +421,7 @@ After you download the Office 2013 applications through the Office Deployment To
    <td align="left"><p>Specify the type of licensing, as shown in the following examples:</p>
    <ul>
    <li><p>Subscription Licensing</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
+   <pre class="syntax"><code>&lt;Configuration&gt;
       &lt;Add SourcePath= &quot;\server\Office 2013&quot; OfficeClientEdition=&quot;32&quot; &gt;
        &lt;Product ID=&quot;O365ProPlusRetail&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
@@ -455,8 +455,8 @@ After you download the Office 2013 applications through the Office Deployment To
    <p> </p>
    <p></p></li>
    <li><p>Volume Licensing</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
-      &lt;Add SourcePath= &quot;\Server\Office2013&quot; OfficeClientEdition=&quot;32&quot; &gt;
+   <pre class="syntax"><code> &quot;\Server\Office2013&quot; OfficeClientEdition&lt;Configuration&gt;
+      &lt;Add SourcePath==&quot;32&quot; &gt;
        &lt;Product ID=&quot;ProPlusVolume&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
        &lt;/Product&gt;
@@ -603,7 +603,7 @@ Deploy the App-V package for Office 2013 by using the same methods you use for a
 <td align="left"><p>Enable PowerShell scripting on the App-V clients</p></td>
 <td align="left"><p>To publish Office 2013 packages, you must run a script.</p>
 <p>Package scripts are disabled by default on App-V clients. To enable scripting, run the following PowerShell command:</p>
-<pre class="syntax" space="preserve"><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
+<code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Publish the Office 2013 package globally</p></td>

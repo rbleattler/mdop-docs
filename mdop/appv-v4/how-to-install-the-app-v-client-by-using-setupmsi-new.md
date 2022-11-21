@@ -144,7 +144,7 @@ If you need to find the product code, you can use the Orca.exe database editor o
 
 2.  To install the software, run the following command:
 
-         **msiexec /i dw20shared.msi APPGUID={valuefromtable} REBOOT=Suppress REINSTALL=ALL REINSTALLMODE=vomus**
+    `**msiexec /i dw20shared.msi APPGUID={valuefromtable} REBOOT=Suppress REINSTALL=ALL REINSTALLMODE=vomus**`
 
 ## <a href="" id="msi-setup"></a>Installing the App-V Client by Using the Setup.msi Program
 

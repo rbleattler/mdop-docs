@@ -116,7 +116,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </ul></li>
 </ol>
 <p><strong>Example connection group XML document with optional packages:</strong></p>
-<pre class="syntax" space="preserve"><code>&lt;?xml version=&quot;1.0&quot; ?&gt;
+<pre class="syntax"><code>&lt;?xml version=&quot;1.0&quot; ?&gt;
 &lt;AppConnectionGroup
    xmlns=&quot;<a href="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&amp;quot" data-raw-source="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&amp;quot">https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&quot</a>;
    AppConnectionGroupId=&quot;8105CCD5-244B-4BA1-8888-E321E688D2CB&quot;

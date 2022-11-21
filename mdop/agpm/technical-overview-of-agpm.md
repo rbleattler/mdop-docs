@@ -142,7 +142,7 @@ Roles simplify delegation. Instead of assigning detailed permissions to Group Po
 
 AGPM gives AGPM Administrators the flexibility to configure permissions at a more detailed level than roles by using the AGPM snap-in. Table 2 describes these permissions and indicates the permissions granted to each role by default.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />
