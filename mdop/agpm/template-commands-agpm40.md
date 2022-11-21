@@ -1,6 +1,6 @@
 ---
 title: Commands on the Templates Tab
-description: Template Commands
+description: Commands on the Templates Tab
 author: dansimp
 ms.assetid: 243a9b18-bf3f-44fa-94d7-5c793f7322da
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Template Commands
+# Commands on the Templates Tab
 
 
 The **Templates** tab:

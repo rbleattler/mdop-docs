@@ -1,6 +1,6 @@
 ---
-title: Configuring Advanced Group Policy Management
-description: Configuring Advanced Group Policy Management
+title: Configure Advanced Group Policy Management
+description: Configure Advanced Group Policy Management
 author: dansimp
 ms.assetid: 8c978ddf-2789-44e4-9c08-de7b4cd1afa0
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configuring Advanced Group Policy Management
+# Configure Advanced Group Policy Management
 
 
 In Advanced Group Policy Management (AGPM), as an AGPM Administrator (Full Control), you can centrally configure AGPM Server connections for Group Policy administrators, configure e-mail notification for AGPM, configure optional e-mail security for AGPM, delegate access to Group Policy Objects (GPOs) in the production environment of the domain, and configure logging and tracing for troubleshooting.

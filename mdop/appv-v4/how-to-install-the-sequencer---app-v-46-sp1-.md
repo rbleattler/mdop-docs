@@ -1,5 +1,5 @@
 ---
-title: Install the Sequencer (App-V 4.6 SP1)
+title: How to Install the Sequencer (App-V 4.6 SP1)
 description: How to Install the Sequencer (App-V 4.6 SP1)
 author: dansimp
 ms.assetid: fe8eb876-28fb-46ae-b592-da055107e639
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Install the Sequencer (App-V 4.6 SP1)
+# How to Install the Sequencer (App-V 4.6 SP1)
 
 
 The Microsoft Application Virtualization (App-V) Sequencer monitors and records the installation and setup process for applications so that the application can be run as a virtual application. You should install the App-V Sequencer on a computer that has only the operating system installed. Alternatively, you can install the Sequencer on a computer running in a virtual environment, for example, a virtual computer. This method is useful because it is easier to maintain a clean sequencing environment that you can reuse with minimal additional configuration.
