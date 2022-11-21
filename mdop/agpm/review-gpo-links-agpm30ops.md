@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Reviewing GPO Links
+# Review GPO Links
 
 
 You can display a diagram showing where a Group Policy Object (GPO) or GPOs that you select are linked to organizational units. GPO link diagrams are updated each time the GPO is controlled, imported, or checked in.

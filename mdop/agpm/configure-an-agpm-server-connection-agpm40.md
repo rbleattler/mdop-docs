@@ -1,6 +1,6 @@
 ---
-title: Configure an AGPM Server Connection
-description: Configure an AGPM Server Connection
+title: Configuring an AGPM Server Connection
+description: Configuring an AGPM Server Connection
 author: dansimp
 ms.assetid: 409cbbcf-3b0e-459d-9bd2-75cb7b9430b0
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure an AGPM Server Connection
+# Configuring an AGPM Server Connection
 
 
 To ensure that you are connected to the correct central archive, review the configuration of the AGPM Server connection. If an AGPM Administrator (Full Control) has not configured an AGPM Server connection for you, then you must manually configure it.
