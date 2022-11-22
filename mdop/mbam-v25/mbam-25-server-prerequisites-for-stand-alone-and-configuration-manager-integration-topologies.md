@@ -296,7 +296,7 @@ The following table lists the installation prerequisites for the MBAM Administra
 <td align="left"><p>The web applications require an SPN for the virtual host name under the domain account that you use for the web application pools.</p>
 <p>If your administrative rights permit you to create SPNs in Active Directory Domain Services, MBAM creates the SPN for you. See <a href="https://technet.microsoft.com/library/cc731241.aspx" data-raw-source="[Setspn](https://technet.microsoft.com/library/cc731241.aspx)">Setspn</a> for information about the rights required to create SPNs.</p>
 <p>If you do not have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization to create the SPN for you by using the following command.</p>
-<pre class="syntax" space="preserve"><code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
+<pre class="syntax"<code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
 Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <p>In the code example, the virtual host name is mbamvirtual.contoso.com, and the domain account used for the web application pools is contoso\mbamapppooluser.</p>
 <div class="alert">
@@ -344,7 +344,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <td align="left"><p>The web applications require an SPN for the virtual host name under the domain account that you use for the web application pools.</p>
 <p>If your administrative rights permit you to create SPNs in Active Directory Domain Services, MBAM creates the SPN for you. See <a href="https://technet.microsoft.com/library/cc731241.aspx" data-raw-source="[Setspn](https://technet.microsoft.com/library/cc731241.aspx)">Setspn</a> for information about the rights required to create SPNs.</p>
 <p>If you do not have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization administrators in your organization to create the SPN for you by using the following command.</p>
-<pre class="syntax" space="preserve"><code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
+<pre class="syntax"><code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
 Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <p>In the code example, the virtual host name is mbamvirtual.contoso.com, and the domain account used for the web application pools is contoso\mbamapppooluser.</p>
 <div class="alert">

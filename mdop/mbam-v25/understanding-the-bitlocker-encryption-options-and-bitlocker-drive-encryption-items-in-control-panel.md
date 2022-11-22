@@ -102,7 +102,7 @@ The following table describes how the **Manage BitLocker** shortcut menu differs
 <td align="left"><p>Visibility of shortcut menu</p></td>
 <td align="left"><p>The Manage BitLocker option is hidden.</p>
 <p>To make the Manage BitLocker option visible on the shortcut menu, which displays the option to decrypt a drive, delete the following registry key:</p>
-<pre class="syntax" space="preserve"><code>HKEY_CLASSES_ROOT\Drive\Shell\manage-bde \REG_SZ LegacyDisable</code></pre></td>
+<pre class="syntax"><code>HKEY_CLASSES_ROOT\Drive\Shell\manage-bde \REG_SZ LegacyDisable</code></pre></td>
 <td align="left"><p>The Manage BitLocker option appears on the shortcut menu.</p></td>
 </tr>
 <tr class="even">
