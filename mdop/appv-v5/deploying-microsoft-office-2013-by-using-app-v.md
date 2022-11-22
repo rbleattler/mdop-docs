@@ -595,7 +595,7 @@ Deploy the App-V package for Office 2013 by using the same methods you use for a
 <td align="left"><p>Enable PowerShell scripting on the App-V clients</p></td>
 <td align="left"><p>To publish Office 2013 packages, you must run a script.</p>
 <p>Package scripts are disabled by default on App-V clients. To enable scripting, run the following PowerShell command:</p>
-<p<code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
+<p><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Publish the Office 2013 package globally</p></td>
