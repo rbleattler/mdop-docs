@@ -285,7 +285,7 @@ After you have finished, click **Next**.
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>If you select this check box, the following settings are set in the Sysprep.inf file:</p>
-<pre class="syntax" space="preserve"><code>[RegionalSettings]
+<pre class="syntax"><code>[RegionalSettings]
 Language
 SystemLocale
 UserLocale
@@ -301,7 +301,7 @@ InputLocale_DefaultUser
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>If you select this check box, the following settings are set in the Sysprep.inf file:</p>
-<pre class="syntax" space="preserve"><code>[UserData]
+<pre class="syntax"><code>[UserData]
 OrgName
 FullName</code></pre>
 <div class="alert">
