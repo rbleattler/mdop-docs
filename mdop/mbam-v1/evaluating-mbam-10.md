@@ -60,7 +60,7 @@ Even when you set up a non-production instance of MBAM to evaluate in a lab envi
 <div>
 
 </div>
-<pre class="syntax" space="preserve"><code>USE master;
+<pre class="syntax"><code>USE master;
 GO
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = &#39;P@55w0rd&#39;;
 GO

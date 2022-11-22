@@ -1,6 +1,6 @@
 ---
 title: Client Configuration Settings
-description: About Client Configuration Settings
+description: Client Configuration Settings
 author: dansimp
 ms.assetid: 18bb307a-7eda-4dd6-a83e-6afaefd99470
 ms.reviewer: 

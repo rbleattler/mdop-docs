@@ -24,7 +24,7 @@ The Microsoft Application Virtualization (App-V) 5.0 client stores its configura
 
 The following table displays information about the App-V 5.0 client configuration settings:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />
