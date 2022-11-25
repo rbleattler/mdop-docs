@@ -30,7 +30,7 @@ App-V 4.6 SP2 adds support for Windows 8 and Windows Server 2012 Remote Deskto
 
 **Support for coexistence with App-V 5.0 client**
 
-App-V 4.6 SP2 provides support for coexistence with the Microsoft Application Virtualization 5.0 client. Review the App-V 5.0 documentation for instructions on how to configure the App-V 5.0 client for coexistence with the App-V 4.6 SP2 client. For more information about App-V 5.0, see [Application Virtualization 5](https://go.microsoft.com/fwlink/?LinkId=267599) on TechNet.
+App-V 4.6 SP2 provides support for coexistence with the Microsoft Application Virtualization 5.0 client. Review the App-V 5.0 documentation for instructions on how to configure the App-V 5.0 client for coexistence with the App-V 4.6 SP2 client.
 
 **Ability to virtualize Adobe Reader X with Protected Mode**
 
