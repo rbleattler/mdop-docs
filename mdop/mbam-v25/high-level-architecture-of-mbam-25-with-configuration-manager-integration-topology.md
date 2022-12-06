@@ -129,8 +129,6 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 
 -   The **MBAM Group Policy Templates** are Group Policy settings that define implementation settings for MBAM, which enable you to manage BitLocker drive encryption.
 
--   Before you run MBAM, you must download the Group Policy Templates from [How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
-
     > [!NOTE]
     > The workstation doesn't have to be a dedicated computer.     
 

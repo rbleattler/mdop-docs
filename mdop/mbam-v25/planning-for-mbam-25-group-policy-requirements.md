@@ -89,7 +89,7 @@ When you're ready to configure the MBAM Group Policy settings you want, do the f
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Copy the MBAM Group Policy Templates from <a href="https://go.microsoft.com/fwlink/p/?LinkId=393941" data-raw-source="[How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941)">How to Get MDOP Group Policy (.admx) Templates</a> and install them on a computer that is capable of running the Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM).</p></td>
+<td align="left"><p>Copy the MBAM Group Policy Templates from <a href="https://learn.microsoft.com/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates" data-raw-source="[How to Download and Deploy MDOP Group Policy (.admx) Templates](https://learn.microsoft.com/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates)">How to Get MDOP Group Policy (.admx) Templates</a> and install them on a computer that is capable of running the Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM).</p></td>
 <td align="left"><p><a href="copying-the-mbam-25-group-policy-templates.md" data-raw-source="[Copying the MBAM 2.5 Group Policy Templates](copying-the-mbam-25-group-policy-templates.md)">Copying the MBAM 2.5 Group Policy Templates</a></p></td>
 </tr>
 <tr class="even">

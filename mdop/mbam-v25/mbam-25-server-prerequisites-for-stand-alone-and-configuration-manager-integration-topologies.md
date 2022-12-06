@@ -376,7 +376,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Before installing the MBAM Client, download the MBAM Group Policy Templates from <a href="https://go.microsoft.com/fwlink/p/?LinkId=393941" data-raw-source="[How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941)">How to Get MDOP Group Policy (.admx) Templates</a> and configure them with the settings that you want to implement in your enterprise for BitLocker Drive Encryption.</p></td>
+<td align="left"><p>Before installing the MBAM Client, download the MBAM Group Policy Templates from <a href="https://learn.microsoft.com/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates" data-raw-source="[How to Download and Deploy MDOP Group Policy (.admx) Templates](https://learn.microsoft.com/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates)">How to Download and Deploy MDOP Group Policy (.admx) Templates</a> and configure them with the settings that you want to implement in your enterprise for BitLocker Drive Encryption.</p></td>
 <td align="left"><p>Before installing the MBAM Client, do the following:</p>
 <table>
 <colgroup>
