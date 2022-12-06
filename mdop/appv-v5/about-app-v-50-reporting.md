@@ -17,7 +17,7 @@ ms.date: 08/30/2016
 # About App-V 5.0 Reporting
 
 
-Microsoft Application Virtualization (App-V) 5.0 includes a built-in reporting feature that helps you collect information about computers running the App-V 5.0 client as well as information about virtual application package usage. You can use this information to generate reports from a centralized database.
+Microsoft Application Virtualization (App-V) 5.0 includes a built-in reporting feature that helps you collect information about computers running the App-V 5.0 client and information about virtual application package usage. You can use this information to generate reports from a centralized database.
 
 ## <a href="" id="---------app-v-5-0-reporting-overview"></a> App-V 5.0 Reporting Overview
 
@@ -34,9 +34,9 @@ The following list displays the end–to-end high-level workflow for reporting i
 
     To confirm SQL Server Reporting Services is running, view `http://localhost/Reports` in a web browser as administrator on the server that will host App-V 5.0 Reporting. The SQL Server Reporting Services Home page should display.
 
-2.  Install the App-V 5.0 reporting server and associated database. For more information about installing the reporting server see [How to install the Reporting Server on a Standalone Computer and Connect it to the Database](how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database.md). Configure the time when the computer running the App-V 5.0 client should send data to the reporting server.
+2.  Install the App-V 5.0 reporting server and associated database. For more information about installing the reporting server, see [How to install the Reporting Server on a Standalone Computer and Connect it to the Database](how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database.md). Configure the time when the computer running the App-V 5.0 client should send data to the reporting server.
 
-3.  If you are not using an electronic software distribution system such as Configuration Manager to view reports then you can define reports in SQL Server Reporting Service.
+3.  If you are not using an electronic software distribution system such as Configuration Manager to view reports, then you can define reports in SQL Server Reporting Service.
 
     **Note**  
     If you are using the Configuration Manager integration with App-V 5.0, most reports are generated from Configuration Manager rather than from App-V 5.0.
@@ -51,9 +51,9 @@ The following list displays the end–to-end high-level workflow for reporting i
 
     To immediately send App-V 5.0 report data, run `Send-AppvClientReport` on the App-V 5.0 client.
 
-    For more information about installing the App-V 5.0 client with reporting enabled see [About Client Configuration Settings](about-client-configuration-settings.md). To administer App-V 5.0 Reporting with Windows PowerShell, see [How to Enable Reporting on the App-V 5.0 Client by Using PowerShell](how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell.md).
+    For more information about installing the App-V 5.0 client with reporting enabled, see [About Client Configuration Settings](about-client-configuration-settings.md). To administer App-V 5.0 Reporting with Windows PowerShell, see [How to Enable Reporting on the App-V 5.0 Client by Using PowerShell](how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell.md).
 
-5.  After the reporting server receives the data from the App-V 5.0 client it sends the data to the reporting database. When the database receives and processes the client data, a successful reply is sent to the reporting server and then a notification is sent to the App-V 5.0 client.
+5.  After the reporting server receives the data from the App-V 5.0 client, it sends the data to the reporting database. When the database receives and processes the client data, a successful reply is sent to the reporting server, and then a notification is sent to the App-V 5.0 client.
 
 6.  When the App-V 5.0 client receives the success notification, it empties the data cache to conserve space.
 
