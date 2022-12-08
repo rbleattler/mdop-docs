@@ -62,6 +62,9 @@ This section describes the new features in MBAM 2.5.
 
 MBAM adds support for Microsoft SQL Server 2014, in addition to the same software that is supported in earlier versions of MBAM.
 
+### <a href="" id="-------------mbam-group-policy-templates-downloaded-separately"></a> MBAM Group Policy Templates downloaded separately
+
+The MBAM Group Policy Templates must be downloaded separately from the MBAM installation. In previous versions of MBAM, the MBAM installer included an MBAM Policy Template, which contained the required MBAM-specific Group Policy Objects (GPOs) that define MBAM implementation settings for BitLocker Drive Encryption. These GPOs have been removed from the MBAM installer. You now download the GPOs from [How to Download and Deploy MDOP Group Policy (.admx) Templates](../solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md) and copy them to a server or workstation before you begin the MBAM Client installation. You can copy the Group Policy Templates to any server or workstation that is running a supported version of the Windows Server or Windows operating system.
 
 **Important**  
 Do not change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM will not work correctly. When you configure the Group Policy settings in the **MDOP MBAM (BitLocker Management)** node, MBAM automatically configures the BitLocker Drive Encryption settings for you.
