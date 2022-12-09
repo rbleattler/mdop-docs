@@ -152,7 +152,7 @@ The following table lists the installation prerequisites for the App-V 5.0 Remot
 <div>
 
 </div></li>
-<li><p>Download and install <a href="https://go.microsoft.com/fwlink/?LinkId=286102">KB2533623</a></p>
+<li><p>Download and install <a href="https://support.microsoft.com/kb/2533623">KB2533623</a></p>
 <p></p>
 <div class="alert">
 <strong>Important</strong><br/><p>You can download and install the previous KB article. However, it may have been replaced with a more recent version.</p>
@@ -209,7 +209,7 @@ The following table lists the installation prerequisites for the App-V 5.0 Seque
 <p></p></li>
 <li><p>Download and install <a href="https://support.microsoft.com/kb/2533623">KB2533623</a></p>
 <p></p></li>
-<li><p>For computers running Microsoft Windows Server 2008 R2 SP1, download and install <a href="https://go.microsoft.com/fwlink/?LinkId=286102">KB2533623</a></p>
+<li><p>For computers running Microsoft Windows Server 2008 R2 SP1, download and install <a href="https://support.microsoft.com/kb/2533623">KB2533623</a></p>
 <p></p>
 <div class="alert">
 <strong>Important</strong><br/><p>You can download and install either one of the previous KB articles. However, they may have been replaced with a more recent version.</p>
@@ -279,7 +279,7 @@ The App-V 5.0 server is supported for a standalone deployment, where all the com
 
 </div></li>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=13523">Microsoft Visual C++ 2010 SP1 Redistributable Package (x64)</a></p></li>
-<li><p><a href="https://go.microsoft.com/fwlink/?LinkId=267110">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
+<li><p>Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</p></li>
 <li><p>64-bit ASP.NET registration</p></li>
 </ul>
 <p>The App-V 5.0 server components are dependent but they have varying requirements and installation options that must be deployed. Use the following information to prepare your environment to run the App-V 5.0 management server.</p>
@@ -309,7 +309,7 @@ The App-V 5.0 server is supported for a standalone deployment, where all the com
 </div>
 <ul>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p></li>
-<li><p><a href="https://go.microsoft.com/fwlink/?LinkId=267110">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
+<li><p>Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
 </ul>
 <p>The App-V 5.0 server components are dependent but they have varying requirements and installation options that must be deployed. Use the following information to prepare your environment to run the App-V 5.0 management database.</p>
 <ul>
@@ -325,7 +325,7 @@ The App-V 5.0 server is supported for a standalone deployment, where all the com
 <td align="left"><p><strong>Reporting Server</strong></p></td>
 <td align="left"><ul>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p></li>
-<li><p><a href="https://go.microsoft.com/fwlink/?LinkId=267110">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
+<li><p>Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
 <li><div class="alert">
 <strong>Note</strong><br/><p>To help reduce the risk of unwanted or malicious data being sent to the reporting server, you should restrict access to the Reporting Web Service per your corporate security policy.</p>
 </div>
@@ -350,7 +350,7 @@ The App-V 5.0 server is supported for a standalone deployment, where all the com
 </div>
 <ul>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p></li>
-<li><p><a href="https://go.microsoft.com/fwlink/?LinkId=267110">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
+<li><p>Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
 </ul>
 <p>The App-V 5.0 server components are dependent but they have varying requirements and installation options that must be deployed. Use the following information to prepare your environment to run the App-V 5.0 reporting database.</p>
 <ul>
@@ -366,7 +366,7 @@ The App-V 5.0 server is supported for a standalone deployment, where all the com
 <td align="left"><p><strong>Publishing Server</strong></p></td>
 <td align="left"><ul>
 <li><p><a href="https://www.microsoft.com/download/details.aspx?id=17718">Microsoft .NET Framework 4 (Full Package)</a></p></li>
-<li><p><a href="https://go.microsoft.com/fwlink/?LinkId=267110">Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
+<li><p>Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)</a></p></li>
 <li><p>Windows Web Server with the IIS role with the following features: <strong>Common HTTP Features</strong> (static content and default document), <strong>Application Development</strong> (ASP.NET, .NET Extensibility, ISAPI Extensions and ISAPI Filters), <strong>Security</strong> (Windows Authentication, Request Filtering), <strong>Security</strong> (Windows Authentication, Request Filtering), <strong>Management Tools</strong> (IIS Management Console)</p></li>
 <li><p>64-bit ASP.NET registration</p></li>
 </ul>

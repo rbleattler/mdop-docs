@@ -62,8 +62,7 @@ The following table provides links to the product documentation for the MDOP pro
 </tr>
 <tr class="odd">
 <td align="left"><p><strong>Microsoft BitLocker Administration and Monitoring</strong> (MBAM) provides an administrative interface to enterprise-wide BitLocker drive encryption.</p></td>
-<td align="left"><p><a href="mbam-v25/index.md" data-raw-source="[Microsoft BitLocker Administration and Monitoring 2.5](mbam-v25/index.md)">Microsoft BitLocker Administration and Monitoring 2.5</a></p>
-<p><a href="https://go.microsoft.com/fwlink/?LinkId=518206" data-raw-source="[MBAM 2.5 Video Demonstration: Deploying MBAM 2.5](https://go.microsoft.com/fwlink/?LinkId=518206)">MBAM 2.5 Video Demonstration: Deploying MBAM 2.5</a> </p>
+<td align="left"></p>
 <p><a href="mbam-v25/about-mbam-25-sp1.md" data-raw-source="[About MBAM 2.5 SP1](mbam-v25/about-mbam-25-sp1.md)">About MBAM 2.5 SP1</a></p>
 <p><a href="mbam-v2/about-mbam-20-sp1.md" data-raw-source="[About MBAM 2.0 SP1](mbam-v2/about-mbam-20-sp1.md)">About MBAM 2.0 SP1</a></p>
 <p><a href="mbam-v2/index.md" data-raw-source="[Microsoft BitLocker Administration and Monitoring 2 Administrator&#39;s Guide](mbam-v2/index.md)">Microsoft BitLocker Administration and Monitoring 2 Administrator&#39;s Guide</a></p>
