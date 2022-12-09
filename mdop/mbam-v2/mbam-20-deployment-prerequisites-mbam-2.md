@@ -314,7 +314,7 @@ For a list of supported operating systems, see [MBAM 2.0 Supported Configuration
 <tr class="odd">
 <td>
 
-<strong>Windows 8 clients only</strong>: To have MBAM store and manage the TPM recovery keys: TPM auto-provisioning must be turned off, and MBAM must be set as the owner of the TPM before you deploy MBAM. To turn off TPM auto-provisioning, see [Disable-TpmAutoProvisioning](/powershell/module/trustedplatformmodule/disable-tpmautoprovisioning.md).<ul>
+<strong>Windows 8 clients only</strong>: To have MBAM store and manage the TPM recovery keys: TPM auto-provisioning must be turned off, and MBAM must be set as the owner of the TPM before you deploy MBAM. To turn off TPM auto-provisioning, see [Disable-TpmAutoProvisioning](/powershell/module/trustedplatformmodule/disable-tpmautoprovisioning).<ul>
 <li><p>TPM auto-provisioning must be turned off.</p></li>
 <li><p>MBAM must be set as the owner of the TPM before you deploy MBAM.</p></li>
 </ul></td>
