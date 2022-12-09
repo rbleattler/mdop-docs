@@ -320,7 +320,7 @@ For a list of supported operating systems, see [MBAM 2.0 Supported Configuration
 </ul></td>
 <td>
 
-To turn off TPM auto-provisioning, see [Disable-TpmAutoProvisioning](/powershell/module/trustedplatformmodule/disable-tpmautoprovisioning.md).<ul>
+To turn off TPM auto-provisioning, see [Disable-TpmAutoProvisioning](/powershell/module/trustedplatformmodule/disable-tpmautoprovisioning).<ul>
 <li><p>TPM auto-provisioning must be turned off.
 <div class="alert">
 <strong>Note</strong><br/><p>Ensure that the keyboard, video, or mouse are directly connected and not managed through a keyboard, video, or mouse (KVM) switch. A KVM switch can interfere with the ability of the computer to detect the physical presence of hardware.</p>
