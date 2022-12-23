@@ -287,10 +287,6 @@ The following table lists the installation prerequisites for the MBAM Administra
 <li><p>Configuration APIs</p></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td align="left"><p>ASP.NET MVC 4.0</p></td>
-<td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p></td>
-</tr>
 <tr class="odd">
 <td align="left"><p>Service Principal Name (SPN)</p></td>
 <td align="left"><p>The web applications require an SPN for the virtual host name under the domain account that you use for the web application pools.</p>
@@ -330,10 +326,6 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <tr class="odd">
 <td align="left"><p>Supported version of Windows Server</p></td>
 <td align="left"><p>See <a href="mbam-25-supported-configurations.md" data-raw-source="[MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md)">MBAM 2.5 Supported Configurations</a> for supported versions.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>ASP.NET MVC 4.0</p></td>
-<td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Web Service IIS Management Tools</p></td>
