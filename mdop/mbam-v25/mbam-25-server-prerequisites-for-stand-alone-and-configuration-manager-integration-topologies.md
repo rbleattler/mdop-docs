@@ -17,14 +17,14 @@ ms.date: 08/30/2016
 # MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies
 
 
-Before starting the Microsoft BitLocker Administration and Monitoring (MBAM) installation, you must complete the prerequisites listed in this topic. These prerequisites apply to the MBAM Stand-alone topology and System Center Configuration Manager Integration topology.
+Before starting the Microsoft BitLocker Administration and Monitoring (MBAM) installation, you must complete the prerequisites listed in this article. These prerequisites apply to the MBAM Stand-alone topology and System Center Configuration Manager Integration topology.
 
-If you are deploying MBAM with System Center Configuration Manager, you must complete additional prerequisites, which are listed in [MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md).
+If you're deploying MBAM with System Center Configuration Manager, you must complete additional prerequisites, which are listed in [MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md).
 
 For a list of the supported hardware and operating systems for MBAM, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 
 **Important**  
-If BitLocker was used without MBAM, you must decrypt the drive and then clear TPM using tpm.msc. MBAM cannot take ownership of TPM if the client PC is already encrypted and the TPM owner password created.
+If BitLocker was used without MBAM, you must decrypt the drive and then clear TPM using tpm.msc. MBAM can't take ownership of TPM if the client PC is already encrypted and the TPM owner password created.
 
 
 
@@ -92,7 +92,7 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 <td align="left"><p>Optional - Install the Transparent Data Encryption (TDE) feature available in SQL Server</p></td>
 <td align="left"><p>The TDE SQL Server feature performs real-time I/O encryption and decryption of the data and log files, which can help you to comply with laws, regulations, and guidelines that apply to various industries.</p>
 <div class="alert">
-<strong>Note</strong><br/><p>TDE performs real-time decryption of database information. This means that, if you are viewing recovery key information in the SQL Server database and you are logged on under an account that has permissions to the database, the recovery key information is visible. To read more about TDE, see <a href="mbam-25-security-considerations.md" data-raw-source="[MBAM 2.5 Security Considerations](mbam-25-security-considerations.md)">MBAM 2.5 Security Considerations</a>.</p>
+<strong>Note</strong><br/><p>TDE performs real-time decryption of database information. This means that, if you're viewing recovery key information in the SQL Server database and you're logged on under an account that has permissions to the database, the recovery key information is visible. To read more about TDE, see <a href="mbam-25-security-considerations.md" data-raw-source="[MBAM 2.5 Security Considerations](mbam-25-security-considerations.md)">MBAM 2.5 Security Considerations</a>.</p>
 </div>
 <div>
 
@@ -104,7 +104,7 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 </tr>
 <tr class="odd">
 <td align="left"><p>Windows PowerShell 3.0 or later</p></td>
-<td align="left"><p>Windows PowerShell does not have to be installed on the Recovery Database server if you are using Windows PowerShell to configure the database from a remote computer.</p></td>
+<td align="left"><p>Windows PowerShell doesn't have to be installed on the Recovery Database server if you're using Windows PowerShell to configure the database from a remote computer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -150,15 +150,15 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 <tr class="odd">
 <td align="left"><p>Optional - Install the Transparent Data Encryption (TDE) feature in SQL Server</p></td>
 <td align="left"><p>The TDE SQL Server feature performs real-time I/O encryption and decryption of the data and log files, which can help you to comply with laws, regulations, and guidelines that apply to various industries.</p>
-<p>TDE performs real-time decryption of database information. This means that, if you are viewing recovery key information in the SQL Server database and you are logged on under an account that has permissions to the database, the recovery key information is visible. To read more about TDE, see <a href="mbam-25-security-considerations.md" data-raw-source="[MBAM 2.5 Security Considerations](mbam-25-security-considerations.md)">MBAM 2.5 Security Considerations</a>.</p></td>
+<p>TDE performs real-time decryption of database information. This means that, if you're viewing recovery key information in the SQL Server database and you're logged on under an account that has permissions to the database, the recovery key information is visible. To read more about TDE, see <a href="mbam-25-security-considerations.md" data-raw-source="[MBAM 2.5 Security Considerations](mbam-25-security-considerations.md)">MBAM 2.5 Security Considerations</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>SQL Server Database Engine Services</p></td>
-<td align="left"><p>SQL Server Database Engine Services must be installed and running during MBAM Server installation. However, SQL Server can be running remotely; it doesn’t have to be on the same server on which you are installing the MBAM Server software.</p></td>
+<td align="left"><p>SQL Server Database Engine Services must be installed and running during MBAM Server installation. However, SQL Server can be running remotely; it doesn’t have to be on the same server on which you're installing the MBAM Server software.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Windows PowerShell 3.0 or later</p></td>
-<td align="left"><p>Windows PowerShell does not have to be installed on the Compliance and Audit Database server if you are using Windows PowerShell to configure the database from a remote computer.</p></td>
+<td align="left"><p>Windows PowerShell doesn't have to be installed on the Compliance and Audit Database server if you're using Windows PowerShell to configure the database from a remote computer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -191,7 +191,7 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 <p>Configure SSRS in &quot;native&quot; mode and not in unconfigured or &quot;SharePoint&quot; mode.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>SSRS instance rights – required for configuring Reports only if you are installing databases on a separate server from the server where Reports are configured.</p></td>
+<td align="left"><p>SSRS instance rights – required for configuring Reports only if you're installing databases on a separate server from the server where Reports are configured.</p></td>
 <td align="left"><p>Required instance rights:</p>
 <ul>
 <li><p>Create Folders</p></li>
@@ -200,7 +200,7 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 </tr>
 <tr class="even">
 <td align="left"><p>Windows PowerShell 3.0 or later</p></td>
-<td align="left"><p>Windows PowerShell does not have to be installed on this Database server if you are using Windows PowerShell to configure the database from a remote computer.</p></td>
+<td align="left"><p>Windows PowerShell doesn't have to be installed on this Database server if you're using Windows PowerShell to configure the database from a remote computer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,9 +264,9 @@ The following table lists the installation prerequisites for the MBAM Administra
 <ul>
 <li><p><strong>Windows Server 2016</strong> - .NET Framework 4.6 is already installed for these versions of Windows Server, but you must enable it.</p></li>  
 <li><p><strong>Windows Server 2012 or Windows Server 2012 R2</strong> - .NET Framework 4.5 is already installed for these versions of Windows Server, but you must enable it.</p></li>
-<li><p><strong>Windows Server 2008 R2</strong> - .NET Framework 4.5 is not included with Windows Server 2008 R2, so you must <a href="https://go.microsoft.com/fwlink/?LinkId=392318" data-raw-source="[download Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?LinkId=392318)">download Microsoft .NET Framework 4.5</a> and install it separately.</p>
+<li><p><strong>Windows Server 2008 R2</strong> - .NET Framework 4.5 isn't included with Windows Server 2008 R2, so you must <a href="https://go.microsoft.com/fwlink/?LinkId=392318" data-raw-source="[download Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?LinkId=392318)">download Microsoft .NET Framework 4.5</a> and install it separately.</p>
 <div class="alert">
-<strong>Note</strong><br/><p>If you are upgrading from MBAM 2.0 or MBAM 2.0 SP1 and need to install .NET Framework 4.5, see <a href="release-notes-for-mbam-25.md" data-raw-source="[Release Notes for MBAM 2.5](release-notes-for-mbam-25.md)">Release Notes for MBAM 2.5</a> for an additional required step to make the websites work.</p>
+<strong>Note</strong><br/><p>If you're upgrading from MBAM 2.0 or MBAM 2.0 SP1 and need to install .NET Framework 4.5, see <a href="release-notes-for-mbam-25.md" data-raw-source="[Release Notes for MBAM 2.5](release-notes-for-mbam-25.md)">Release Notes for MBAM 2.5</a> for an additional required step to make the websites work.</p>
 </div>
 <div>
 
@@ -291,12 +291,12 @@ The following table lists the installation prerequisites for the MBAM Administra
 <td align="left"><p>Service Principal Name (SPN)</p></td>
 <td align="left"><p>The web applications require an SPN for the virtual host name under the domain account that you use for the web application pools.</p>
 <p>If your administrative rights permit you to create SPNs in Active Directory Domain Services, MBAM creates the SPN for you. See <a href="https://technet.microsoft.com/library/cc731241.aspx" data-raw-source="[Setspn](https://technet.microsoft.com/library/cc731241.aspx)">Setspn</a> for information about the rights required to create SPNs.</p>
-<p>If you do not have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization to create the SPN for you by using the following command.</p>
+<p>If you don't have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization to create the SPN for you by using the following command.</p>
 <pre><code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
 Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <p>In the code example, the virtual host name is mbamvirtual.contoso.com, and the domain account used for the web application pools is contoso\mbamapppooluser.</p>
 <div class="alert">
-<strong>Note</strong><br/><p>If you are setting up Load Balancing, use the same application pool account on all servers.</p>
+<strong>Note</strong><br/><p>If you're setting up Load Balancing, use the same application pool account on all servers.</p>
 </div>
 <div>
 
@@ -335,12 +335,12 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <td align="left"><p>Service Principal Name (SPN)</p></td>
 <td align="left"><p>The web applications require an SPN for the virtual host name under the domain account that you use for the web application pools.</p>
 <p>If your administrative rights permit you to create SPNs in Active Directory Domain Services, MBAM creates the SPN for you. See <a href="https://technet.microsoft.com/library/cc731241.aspx" data-raw-source="[Setspn](https://technet.microsoft.com/library/cc731241.aspx)">Setspn</a> for information about the rights required to create SPNs.</p>
-<p>If you do not have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization administrators in your organization to create the SPN for you by using the following command.</p>
+<p>If you don't have administrative rights to create SPNs, you must ask the Active Directory administrators in your organization administrators in your organization to create the SPN for you by using the following command.</p>
 <pre class="syntax"><code>Setspn -s http/mbamvirtual contoso\mbamapppooluser
 Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <p>In the code example, the virtual host name is mbamvirtual.contoso.com, and the domain account used for the web application pools is contoso\mbamapppooluser.</p>
 <div class="alert">
-<strong>Note</strong><br/><p>If you are setting up Load Balancing, use the same application pool account on all servers.</p>
+<strong>Note</strong><br/><p>If you're setting up Load Balancing, use the same application pool account on all servers.</p>
 </div>
 <div>
 
@@ -403,7 +403,7 @@ Before installing the MBAM client, [download the MBAM Group Policy Templates](..
 
 
 
-## Related topics
+## Related articles
 
 
 [Preparing your Environment for MBAM 2.5](preparing-your-environment-for-mbam-25.md)
