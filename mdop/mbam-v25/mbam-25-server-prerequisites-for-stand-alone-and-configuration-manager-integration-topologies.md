@@ -310,7 +310,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 </tbody>
 </table>
 
-<p id="fn1">[1] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update.</p>
+<p id="fn1">[1] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).</p>
 
 ## Prerequisites for the Self-Service Portal
 
@@ -358,7 +358,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 </tbody>
 </table>
 
-<p id="fn2">[2] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update. </p>
+<p id="fn2">[2] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08). </p>
 
 ## Prerequisites for the Management Workstation
 
