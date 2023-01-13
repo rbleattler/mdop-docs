@@ -207,7 +207,7 @@ If BitLocker was used without MBAM, you must decrypt the drive and then clear TP
 
 
 
-## <a href="" id="bkmk-prereqsams"></a>Prerequisites for the Administration and Monitoring Server
+## Prerequisites for the Administration and Monitoring Server
 
 
 The following table lists the installation prerequisites for the MBAM Administration and Monitoring Server.
@@ -288,7 +288,7 @@ The following table lists the installation prerequisites for the MBAM Administra
 </ul></td>
 </tr>
 <tr class="even">
-<td align="left"><p>ASP.NET MVC 4.0 </p></td>
+<td align="left"><p>ASP.NET MVC 4.0</p></td>
 <td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p>
 <div class="alert">
 <strong>Note</strong><br/><p>ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).</p>
@@ -333,7 +333,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <td align="left"><p>See <a href="mbam-25-supported-configurations.md" data-raw-source="[MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md)">MBAM 2.5 Supported Configurations</a> for supported versions.</p></td>
 </tr>
 <tr class="even">
-<td align="left">ASP.NET MVC 4.0 </td>
+<td align="left"><p>ASP.NET MVC 4.0</p></td>
 <td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p>
 <div class="alert">
 <strong>Note</strong><br/><p>ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).</p>
