@@ -288,7 +288,7 @@ The following table lists the installation prerequisites for the MBAM Administra
 </ul></td>
 </tr>
 <tr class="even">
-<td align="left"><p>ASP.NET MVC 4.0 <a href="#fn1"><sup>[1]</sup></a></p></td>
+<td align="left">ASP.NET MVC 4.0<sup>[1]</sup></td>
 <td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p></td>
 </tr>
 <tr class="odd">
@@ -310,7 +310,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 </tbody>
 </table>
 
-<p id="fn1">[1] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).</p>
+<sup>[1]</sup>ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).
 
 ## Prerequisites for the Self-Service Portal
 
@@ -332,7 +332,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 <td align="left"><p>See <a href="mbam-25-supported-configurations.md" data-raw-source="[MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md)">MBAM 2.5 Supported Configurations</a> for supported versions.</p></td>
 </tr>
 <tr class="even">
-<td align="left">ASP.NET MVC 4.0 <a href= "#fn2"><sup>[2]</sup></a></td>
+<td align="left">ASP.NET MVC 4.0<sup>[2]</sup></td>
 <td align="left"><p><a href="https://go.microsoft.com/fwlink/?LinkId=392271" data-raw-source="[ASP.NET MVC 4 download](https://go.microsoft.com/fwlink/?LinkId=392271)">ASP.NET MVC 4 download</a></p></td>
 </tr>
 <tr class="odd">
@@ -358,7 +358,7 @@ Setspn -s http/mbamvirtual.contoso.com contoso\mbamapppooluser</code></pre>
 </tbody>
 </table>
 
-<p id="fn2">[2] ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08). </p>
+<sup>[2]</sup>ASP.NET MVC 4.0 is no longer required after the January 2023 servicing update (HF08).
 
 ## Prerequisites for the Management Workstation
 
