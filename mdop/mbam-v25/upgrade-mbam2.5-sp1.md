@@ -7,7 +7,8 @@ audience: ITPro
 ms.topic: article  
 ms.prod: w10
 ms.localizationpriority: Normal
---- 
+ms.date: 05/27/2020
+---
 
 # Upgrade from MBAM 2.5 to MBAM 2.5 SP1 Servicing Release Update
 
