@@ -96,6 +96,12 @@ If a user who has the Editor role submits a request to deploy a GPO, and the use
 
 As of HF02, AGPM has added a registry key to enable overriding the default AGPM GPO permission behavior. For more information, please see [Changes to Group Policy object permissions through AGPM are ignored](https://support.microsoft.com/kb/3174540)
 
+### Take control of uncontrolled policy fails:  HRSULT: 0x80070005 (E_ACCESSDENIED)
+
+After updating to [Microsoft Desktop Optimization Pack March 2017 Servicing Release](https://support.microsoft.com/en-us/topic/march-2017-servicing-release-for-microsoft-desktop-optimization-pack-f1c4a8d5-4af5-37f6-cb23-24fb934f416b) you may get this error. Could not take ownership.
+
+**Workaround:** Check permissions of your service account on this folder: "C:\ProgramData\Microsoft\AGPM" Make sure your service account has Full Control.
+
 ## Related topics
 
 
