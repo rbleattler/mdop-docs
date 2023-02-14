@@ -31,18 +31,25 @@ This section lists common issues that you may encounter when you use Advanced Gr
 ## What problems are you having?
 
 
-- [Troubleshooting AGPM](#troubleshooting-agpm)
-  - [What problems are you having?](#what-problems-are-you-having)
-    - [I am unable to access an archive](#i-am-unable-to-access-an-archive)
-    - [The GPO state varies for different Group Policy administrators](#the-gpo-state-varies-for-different-group-policy-administrators)
-    - [I am unable to modify the AGPM Server connection](#i-am-unable-to-modify-the-agpm-server-connection)
-    - [I am unable to change the default template or view, create, edit, rename, deploy, or delete GPOs](#i-am-unable-to-change-the-default-template-or-view-create-edit-rename-deploy-or-delete-gpos)
-    - [I am unable to use a particular GPO name](#i-am-unable-to-use-a-particular-gpo-name)
-    - [I am not receiving AGPM e-mail notifications](#i-am-not-receiving-agpm-e-mail-notifications)
-    - [I cannot use port 4600 for the AGPM Service](#i-cannot-use-port-4600-for-the-agpm-service)
-    - [The AGPM Service will not start](#the-agpm-service-will-not-start)
-    - [Group Policy Software Installation fails to install software](#group-policy-software-installation-fails-to-install-software)
-    - [An error occurred when I restored the archive to a new AGPM Server](#an-error-occurred-when-i-restored-the-archive-to-a-new-agpm-server)
+-   [I am unable to access an archive](#bkmk-access-an-archive)
+
+-   [The GPO state varies for different Group Policy administrators](#bkmk-state-varies)
+
+-   [I am unable to modify the AGPM Server connection](#bkmk-modify-archive-location)
+
+-   [I am unable to change the default template or view, create, edit, rename, deploy, or delete GPOs](#bkmk-perform-task)
+
+-   [I am unable to use a particular GPO name](#bkmk-use-particular-name)
+
+-   [I am not receiving AGPM e-mail notifications](#bkmk-email)
+
+-   [I cannot use port 4600 for the AGPM Service](#bkmk-port)
+
+-   [The AGPM Service will not start](#bkmk-not-start)
+
+-   [Group Policy Software Installation fails to install software](#bkmk-software-installation)
+
+-   [An error occurred when I restored the archive to a new AGPM Server](#bkmk-error-on-restore)
 
 ### <a href="" id="bkmk-access-an-archive"></a>I am unable to access an archive
 
