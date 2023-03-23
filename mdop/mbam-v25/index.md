@@ -21,10 +21,10 @@ Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 provides a simplifi
 > Enterprises can use Microsoft BitLocker Administration and Monitoring (MBAM) to manage client computers with BitLocker that are domain-joined on-premises until mainstream support ends in July 2019 or they can receive extended support until April 2026.
 >
 > Going forward, the functionality of MBAM has been incorporated into Microsoft Configuration Manager as Microsoft Configuration Manager BitLocker Management. For more information, see [Plan for BitLocker management](/mem/configmgr/protect/plan-design/bitlocker-management).
-
-Customers not using Microsoft Configuration Manager can utilize the built-in features of Azure AD and Microsoft Intune for administration and monitoring BitLocker. For more information, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor).
-
-To obtain MBAM for customers who are in extended support, see [How Do I Get MDOP](/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
+>
+> Customers not using Microsoft Configuration Manager can utilize the built-in features of Azure AD and Microsoft Intune for administration and monitoring of BitLocker. For more information, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor).
+>
+> To obtain MBAM for customers who are in extended support, see [How Do I Get MDOP](/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
 
 ## Outline
 
