@@ -18,13 +18,13 @@ ms.date: 04/19/2017
 Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 provides a simplified administrative interface that you can use to manage BitLocker Drive Encryption. You configure MBAM Group Policy Templates that enable you to set BitLocker Drive Encryption policy options that are appropriate for your enterprise, and then use them to monitor client compliance with those policies. You can also report on the encryption status of an individual computer and on the enterprise as a whole. In addition, you can access recovery key information when users forget their PIN or password or when their BIOS or boot record changes. For a more detailed description of MBAM, see [About MBAM 2.5](about-mbam-25.md).
 
 > [!IMPORTANT]
->Enterprises can use Microsoft BitLocker Administration and Monitoring (MBAM) to manage client computers with BitLocker that are domain-joined on-premises until mainstream support ends in July 2019 or they can receive extended support until April 2026
-Going forward, the functionality of MBAM will be incorporated into Microsoft Endpoint Manager Config Manager (MEMCM), see [Features in Configuration Manager technical preview version 1909](/mem/configmgr/core/get-started/2019/technical-preview-1909#bkmk_bitlocker)
+> Enterprises can use Microsoft BitLocker Administration and Monitoring (MBAM) to manage client computers with BitLocker that are domain-joined on-premises until mainstream support ends in July 2019 or they can receive extended support until April 2026.
+>
+> Going forward, the functionality of MBAM has been incorporated into Microsoft Configuration Manager as Microsoft Configuration Manager BitLocker Management. For more information, see [Plan for BitLocker management](/mem/configmgr/protect/plan-design/bitlocker-management).
 
-Customers not using Config Manager can utilize the built-in features of Azure AD and Microsoft Endpoint Manager Microsoft Intune (MEMMI) for administration and monitoring, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor)
+Customers not using Microsoft Configuration Manager can utilize the built-in features of Azure AD and Microsoft Intune for administration and monitoring BitLocker. For more information, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor).
 
-For customers in extended support:
-To obtain MBAM, see [How Do I Get MDOP](/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
+To obtain MBAM for customers who are in extended support, see [How Do I Get MDOP](/microsoft-desktop-optimization-pack/index#how-to-get-mdop).
 
 ## Outline
 
