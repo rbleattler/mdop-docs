@@ -21,7 +21,7 @@ ms.date: 04/23/2017
 > 
 > Furthermore, starting with Configuration Manager 2103, Configuration Manager BitLocker Management no longer uses the MBAM key recovery services site to escrow keys. Attempting to use the `Invoke-MbamClientDeployment.ps1` PowerShell script with Configuration Manager Current Branch 2103 or newer can result in serious problems with the Configuration Manager site. Known problems include creation of a large amount of policy targeted to all devices which can cause policy storms. This will lead to severe degradation of performance in Configuration Manager primarily in SQL and with Management Points.
 >
-> Starting with Configuration Manage 2203, escrowing of the BitLocker key to Configuration Manager BitLocker Management is available directly via the option **Automatically store the recovery key in:** > **The Configuration Manager database** in the native **Enable BitLocker** task.
+> Starting with Configuration Manage 2203, escrowing of the BitLocker key during a task sequence to Configuration Manager BitLocker Management is available natively via the option **Automatically store the recovery key in:** > **The Configuration Manager database** in the task sequence **Enable BitLocker** task.
 
 This topic explains how to enable BitLocker on an end user's computer by using MBAM as part of your Windows imaging and deployment process. If you see a black screen at restart (after Install phase concludes) indicating that the drive cannot be unlocked, see [Earlier Windows versions don't start after "Setup Windows and Configuration Manager" step if Pre-Provision BitLocker is used with Windows 10, version 1511](https://support.microsoft.com/en-us/help/4494799/earlier-windows-versions-don-t-start-after-you-use-pre-provision-bitlo).
 
