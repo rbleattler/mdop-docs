@@ -310,6 +310,9 @@ MBAM supports the following versions of Configuration Manager.
 
 For a list of supported configurations for the Configuration Manager Server, see the appropriate TechNet documentation for the version of Configuration Manager that you're using. MBAM has no additional system requirements for the Configuration Manager Server.
 
+> [!IMPORTANT]
+> Since all versions of Configuration Manager that MBAM supported are out of support, use of MBAM with Configuration Manager is no longer supported. Customers using MBAM with Configuration Manager should [migrate to Configuration Manager BitLocker Management](/mem/configmgr/protect/deploy-use/bitlocker/migration-considerations).
+
 ### <a href="" id="sql-server-database-requirements-"></a>SQL Server database requirements
 
 The following table lists the Microsoft SQL Server versions that are supported for the MBAM Server features, which include the Recovery Database, Compliance and Audit Database, and the Reports feature. The required versions apply to the Stand-alone or the Configuration Manager Integration topologies.
