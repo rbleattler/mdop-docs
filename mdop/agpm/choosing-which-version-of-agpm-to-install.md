@@ -19,7 +19,7 @@ ms.date: 04/05/2017
 
 Each release of Microsoft Advanced Group Policy Management (AGPM) supports specific versions of the Windows operating system. We strongly recommend that you run the AGPM Client and AGPM Server on the same line of operating systems. For example, Windows 10 with Windows Server 2016, Windows 8.1 with Windows Server 2012 R2, and so on.
 
-We recommend that you install the AGPM Server on the most recent version of the operating system in the domain. AGPM uses the Group Policy Management Console (GPMC) to back up and restore Group Policy Objects (GPOs). Because newer versions of the GPMC provide additional policy settings that aren't available in earlier versions, you can manage more policy settings by using the most recent version of the operating system.
+We recommend that you install the AGPM Server on the most recent version of the operating system in the domain that AGPM is supported on. AGPM uses the Group Policy Management Console (GPMC) to back up and restore Group Policy Objects (GPOs). Because newer versions of the GPMC provide additional policy settings that aren't available in earlier versions, you can manage more policy settings by using the most recent version of the operating system.
 
 All versions of AGPM can manage only the policy settings that were introduced in the same version or an earlier version of the operating system on which AGPM is running. For example, if you install AGPM 4.0 SP2 on Windows Server 2012, you can manage policy settings that were introduced in Windows Server 2012 or earlier, but you can't manage policy settings that were introduced later, in Windows 8.1 or Windows Server 2012 R2.
 
