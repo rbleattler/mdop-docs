@@ -10,7 +10,6 @@ ms.prod: w10
 ms.date: 11/23/2017
 ---
 
-
 # Advanced Group Policy Management
 
 
@@ -19,7 +18,7 @@ Microsoft Advanced Group Policy Management (AGPM) extends the capabilities of th
 ## AGPM Version Information
 
 
-[AGPM 4.0 SP3](agpm-40-sp3-navengl.md) supports Windows 11, Windows 10, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
+[AGPM 4.0 SP3](agpm-40-sp3-navengl.md) supports Windows 11, Windows 10, Windows Server 2022 Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
 
 [AGPM 4.0 SP2](agpm-40-sp2-navengl.md) supports Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
 
@@ -54,8 +53,6 @@ In addition to the product documentation available online, supplemental product 
 </tbody>
 </table>
 
- 
-
 ## <a href="" id="bkmk-getmdop"></a>How to Get MDOP
 
 
@@ -73,6 +70,7 @@ Visit the enterprise [Purchase Windows Enterprise Licensing](https://www.microso
  
 
  
+
 
 
 
