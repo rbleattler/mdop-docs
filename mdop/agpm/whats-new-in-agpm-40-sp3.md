@@ -13,7 +13,6 @@ ms.prod: w10
 ms.date: 09/27/2016
 ---
 
-
 # What's New in AGPM 4.0 SP3
 
 This content describes enhancements and supported configurations for Microsoft Advanced Group Policy Management (AGPM) 4.0 Service Pack 3 (SP3). If there's a difference between this content and other AGPM documentation, consider this content authoritative and assume that it supersedes the other documentation.
@@ -21,6 +20,10 @@ This content describes enhancements and supported configurations for Microsoft A
 ## <a href="" id="what-s-new"></a>What’s new
 
 AGPM 4.0 SP3 supports the following features and functionality.
+
+### Support for Windows Server 2022
+
+AGPM 4.0 SP3 adds support for Windows Server 2022
 
 ### Support for Windows 11
 
@@ -197,5 +200,6 @@ AGPM 4.0 SP3 is a part of the Microsoft Desktop Optimization Pack (MDOP) since M
 [Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3](release-notes-for-microsoft-advanced-group-policy-management-40-sp3.md)
 
 [Choosing Which Version of AGPM to Install](choosing-which-version-of-agpm-to-install.md)
+
 
 
