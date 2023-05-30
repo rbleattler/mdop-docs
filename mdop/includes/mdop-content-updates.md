@@ -2,17 +2,9 @@
 
 
 
-## Week of March 27, 2023
+## Week of May 22, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/27/2023 | [How to Enable BitLocker by Using MBAM as Part of a Windows Deployment](/microsoft-desktop-optimization-pack/mbam-v25/how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25) | modified |
-
-
-## Week of March 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/23/2023 | [Microsoft BitLocker Administration and Monitoring 2.5](/microsoft-desktop-optimization-pack/mbam-v25/index) | modified |
+| 5/25/2023 | [Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3](/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3) | modified |
