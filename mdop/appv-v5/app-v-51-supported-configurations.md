@@ -171,8 +171,10 @@ The following table lists the SQL Server versions that are supported for the App
 
 | SQL Server version           | Service Pack  | System Architecture           |
 |------------------------------|---------------|-------------------------------|
-| Microsoft SQL Server 2016    |      SP2   -  |        32-bit or 64-bit       |
-| Microsoft SQL Server 2014    |      SP2      |        32-bit or 64-bit       |
+| Microsoft SQL Server 2019    |      CU4      |        32-bit or 64-bit       |
+| Microsoft SQL Server 2017    |               |        32-bit or 64-bit       |
+| Microsoft SQL Server 2016    |      SP2      |        32-bit or 64-bit       |
+| Microsoft SQL Server 2014    |               |        32-bit or 64-bit       |
 | Microsoft SQL Server 2012    |      SP2      |        32-bit or 64-bit       |
 | Microsoft SQL Server 2008 R2 |      SP3      |        32-bit or 64-bit       |
  
