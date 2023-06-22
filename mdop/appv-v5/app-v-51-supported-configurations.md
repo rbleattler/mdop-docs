@@ -169,50 +169,13 @@ App-V adds no additional requirements beyond those of Windows Server.
 
 The following table lists the SQL Server versions that are supported for the App-V 5.1 Reporting database installation.
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">SQL Server version</th>
-<th align="left">Service pack</th>
-<th align="left">System architecture</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Microsoft SQL Server 2017</p></td>
-<td align="left"><p></p></td>
-<td align="left"><p>32-bit or 64-bit</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Microsoft SQL Server 2016</p></td>
-<td align="left"><p>SP2</p></td>
-<td align="left"><p>32-bit or 64-bit</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Microsoft SQL Server 2014</p></td>
-<td align="left"><p>SP2</p></td>
-<td align="left"><p>32-bit or 64-bit</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Microsoft SQL Server 2012</p></td>
-<td align="left"><p>SP2</p></td>
-<td align="left"><p>32-bit or 64-bit</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Microsoft SQL Server 2008 R2</p></td>
-<td align="left"><p>SP3</p></td>
-<td align="left"><p>32-bit or 64-bit</p></td>
-</tr>
-</tbody>
-</table>
-
+| SQL Server version           | Service Pack  | System Architecture           |
+|------------------------------|---------------|-------------------------------|
+| Microsoft SQL Server 2016    |      SP2   -  |        32-bit or 64-bit       |
+| Microsoft SQL Server 2014    |      SP2      |        32-bit or 64-bit       |
+| Microsoft SQL Server 2012    |      SP2      |        32-bit or 64-bit       |
+| Microsoft SQL Server 2008 R2 |      SP3      |        32-bit or 64-bit       |
  
-
 ## <a href="" id="bkmk-client-supp-cfgs"></a>App-V client system requirements
 
 The following table lists the operating systems that are supported for the App-V 5.1 client installation.
