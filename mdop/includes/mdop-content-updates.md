@@ -2,6 +2,14 @@
 
 
 
+## Week of June 19, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/22/2023 | [App-V 5.1 Supported Configurations](/microsoft-desktop-optimization-pack/appv-v5/app-v-51-supported-configurations) | modified |
+
+
 ## Week of May 22, 2023
 
 
