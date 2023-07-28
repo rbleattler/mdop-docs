@@ -42,7 +42,7 @@ MBAM Active Directory (AD) Migration cmdlets fail to retrieve volume recovery in
 Read-ADRecoveryInformation : Unknown error (0x80005000)
 At line:1 char:1
 + Read-ADRecoveryInformation -Server "…" -SearchBase " ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ ~~
     + CategoryInfo          : NotSpecified: (:) [Read-ADRecoveryInformation], COMException
     + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException,Microsoft.Mbam.Server.Commands.ADPullCommands.ReadADRecoveryInformationCommand
 ```
@@ -137,13 +137,13 @@ Reports Page does not render properly when SSRS is hosted on SQL Server 2016 edi
 For example – Browsing to Helpdesk – Clicking on Reports –  ( Highlighted portion have “x”  on it )
 Digging this further with Fiddler – it does look like once we click on Reports – it calls the SSRS page with HTML 4.0 rendering format.
 
-**Workaround:** Looking at the site.master code and noticed the X-UA mode was dictated as IE8. As IE8 is WAY past the end of life, and customer is using IE11. Update the setting to the below code. This allows the site to utilize IE11 rendering technologies
+**Workaround:** Looking at the site.master code and noticed the X-UA mode was dictated as IE8. As IE8 is WAY past the end of life, and customer is using IE11. Update the setting to the below code. This allows the site to utilize IE11 rendering technologies.
 
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+`<meta http-equiv="X-UA-Compatible" content="IE=Edge" />`
 
 Original setting is: 
 
-    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+`<meta http-equiv="X-UA-Compatible" content="IE=8" />`
 
 
 This is the reason why the issue was not seen with other browsers like Chrome, Firefox etc.
@@ -158,8 +158,8 @@ This is the reason why the issue was not seen with other browsers like Chrome, F
  
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
 
 
 

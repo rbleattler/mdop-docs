@@ -1,5 +1,5 @@
 ---
-title: How to Sequence a Package by Using PowerShell
+title: Sequence a Package by Using PowerShell
 description: How to Sequence a Package by Using PowerShell
 author: dansimp
 ms.assetid: 6134c6be-937d-4609-a516-92d49154b290
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Sequence a Package by Using PowerShell
+# Sequence a Package by Using PowerShell
 
 
 Use the following procedure to create a new App-V 5.1 package using PowerShell.
@@ -60,7 +60,7 @@ Before you use this procedure you must copy the associated installer files to th
 
     -   FullLoad - specifies that the package must be fully downloaded to the computer running the App-V 5.1 before it can be opened.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

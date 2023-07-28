@@ -59,10 +59,10 @@ You can also deploy the MED-V components together by using a batch file, but thi
 
 
 
-~~~
+
     **Tip**  
     Because problems can occur when you install MED-V from a network location, we recommend that you copy the MED-V workspace setup files locally and then run setup.exe.
-~~~
+
 
 
 

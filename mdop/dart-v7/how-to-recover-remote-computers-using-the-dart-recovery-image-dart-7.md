@@ -56,11 +56,11 @@ The two computers establishing a remote connection must be part of the same netw
 
 
 
-~~~
+
 If any of the registry hives are corrupted or missing, Registry Editor, and several other DaRT utilities, will have limited functionality. If no operating system is selected, some tools will not be available.
 
 The **System Recovery Options** window appears and lists various recovery tools.
-~~~
+
 
 5. On the **System Recovery Options** window, select **Microsoft Diagnostics and Recovery Toolset** to open the **Diagnostics and Recovery Toolset** window.
 
@@ -172,10 +172,10 @@ A file is provided that is named inv32.xml and contains remote connection inform
 
 
 
-~~~
+
 **Note**  
 The variables for these parameters are created on the end-user computer and must be provided by the end user.
-~~~
+
 
 
 

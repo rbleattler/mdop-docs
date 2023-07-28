@@ -1,5 +1,5 @@
 ---
-title: How to Delete an Application
+title: Delete an Application
 description: How to Delete an Application
 author: dansimp
 ms.assetid: 421e7df0-fea3-4cb2-a884-3d04f2223da7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Delete an Application
+# Delete an Application
 
 
 You can delete an application through the Application Virtualization Server Management Console. This does not delete its Open Software Descriptor (.osd) file for other files from the Application Virtualization Server. After it is deleted, however, the application no longer streams to end users.

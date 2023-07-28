@@ -27,7 +27,7 @@ A primary package can have more than one secondary package. However, only one le
 
 If you plan to make several primary applications dependent on a single middleware product, make sure that you test this configuration to determine the potential effect on system performance before you deploy it.
 
-**Important**  
+**Important**  
 Package dependencies can be specified as mandatory for a primary application. If a secondary package is flagged as mandatory and it cannot be accessed for some reason during loading, the load of the secondary package will fail. Also, the primary application will fail when the user tries to start it.
 
  
@@ -44,7 +44,7 @@ You can use the following procedures to create a secondary package, for either a
 
 4.  Install and configure the primary application locally on the sequencing computer.
 
-    **Important**  
+    **Important**  
     You must specify a new package root for the secondary package.
 
      
@@ -59,7 +59,7 @@ You can use the following procedures to create a secondary package, for either a
 
 9.  Save the package to the Content folder on the server.
 
-    **Note**  
+    **Note**  
     To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, **\[Plug In Name\] Secondary package**.
 
      
@@ -84,7 +84,7 @@ You can use the following procedures to create a secondary package, for either a
 
 9.  Save the package to the Content folder on the server.
 
-    **Note**  
+    **Note**  
     To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, **\[Middleware Name\] Secondary package**.
 
      
@@ -109,9 +109,9 @@ You can use the following procedures to create a secondary package, for either a
 
 8. Review the changes that you made to the OSD file, and then save and close the file. The following example shows how the added section should appear. The tag values shown here are for example only.
 
-   **&lt;VIRTUALENV&gt;**
+       **&lt;VIRTUALENV&gt;**
 
-        **&lt;ENVLIST&gt;**
+            **&lt;ENVLIST&gt;**
 
    **…**
 
@@ -125,7 +125,7 @@ You can use the following procedures to create a secondary package, for either a
 
         **&lt;/DEPENDENCIES&gt;**
 
-   **&lt;/VIRTUALENV&gt;**
+       **&lt;/VIRTUALENV&gt;**
 
 9. If the secondary package has any entries in the **&lt;ENVLIST&gt;** section of the OSD file, you must copy those entries to the same section in the primary package.
 
@@ -137,7 +137,6 @@ You can use the following procedures to create a secondary package, for either a
  
 
  
-
 
 
 

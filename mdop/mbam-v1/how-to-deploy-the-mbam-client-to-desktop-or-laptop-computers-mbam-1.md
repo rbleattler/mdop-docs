@@ -1,6 +1,6 @@
 ---
-title: How to Deploy the MBAM Client to Desktop or Laptop Computers
-description: How to Deploy the MBAM Client to Desktop or Laptop Computers
+title: Deploying the MBAM Client to Desktop or Laptop Computers
+description: Deploying the MBAM Client to Desktop or Laptop Computers
 author: dansimp
 ms.assetid: f32927a2-4c05-4da8-acca-1108d1dfdb7e
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Deploy the MBAM Client to Desktop or Laptop Computers
+# Deploying the MBAM Client to Desktop or Laptop Computers
 
 
 The Microsoft BitLocker Administration and Monitoring (MBAM) Client enables administrators to enforce and monitor BitLocker drive encryption on computers in the enterprise. The MBAM Client can be integrated into an organization by deploying the client through tools, such as Active Directory Domain Services or an enterprise software deployment tool such as Microsoft System Center 2012 Configuration Manager.

@@ -1,5 +1,5 @@
 ---
-title: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
+title: Install the Reporting Server on a Standalone Computer and Connect it to the Database
 description: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
 author: dansimp
 ms.assetid: d186bdb7-e522-4124-bc6d-7d5a41ba8266
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to install the Reporting Server on a Standalone Computer and Connect it to the Database
+# Install the Reporting Server on a Standalone Computer and Connect it to the Database
 
 
 Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
@@ -43,11 +43,11 @@ Before performing the following procedure you should read and understand [About 
 
 
 
-~~~
+
 For the SQL Server Instance, select **Use the default instance**. If you are using a custom Microsoft SQL Server instance, you must select **Use a custom instance** and then type the name of the instance.
 
 Specify the **SQL Server Database name** that this reporting server will use, for example **AppvReporting**.
-~~~
+
 
 7. On the **Configure Reporting Server Configuration** page.
 
@@ -57,7 +57,7 @@ Specify the **SQL Server Database name** that this reporting server will use, fo
 
 8. Click **Install**.
 
-   **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

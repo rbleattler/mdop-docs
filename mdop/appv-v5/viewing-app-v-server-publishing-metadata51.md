@@ -1,5 +1,5 @@
 ---
-title: Viewing App-V Server Publishing Metadata
+title: View App-V Server Publishing Metadata
 description: Viewing App-V Server Publishing Metadata
 author: dansimp
 ms.assetid: d5fa9eb5-647c-478d-8a4d-0ecda018bce6
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Viewing App-V Server Publishing Metadata
+# View App-V Server Publishing Metadata
 
 
 Use this procedure to view publishing metadata, which can help you resolve publishing-related issues. You must be using the App-V Management server to use this procedure.
@@ -116,7 +116,7 @@ The following table provides the syntax and query examples.
 </table>
 <p> </p>
 <p>To get the name of the Publishing server and the port number (http://&lt;PubServer&gt;:&lt;Publishing Port#&gt;) from the App-V Client, look at the URL configuration of the <strong>Get-AppvPublishingServer</strong> PowerShell cmdlet.</p></td>
-<td align="left"><p><code><a href="http://pubsvr01:2718/?clientversion=5.0.10066.0&amp;clientos=WindowsClient_6.2_x64" data-raw-source="http://pubsvr01:2718/?clientversion=5.0.10066.0&amp;amp;clientos=WindowsClient_6.2_x64">http://pubsvr01:2718/?clientversion=5.0.10066.0&amp;clientos=WindowsClient_6.2_x64</a></code></p>
+<td align="left"><p><code>http://pubsvr01:2718/?clientversion=5.0.10066.0&amp;clientos=WindowsClient_6.2_x64</code></p>
 <p>In the example:</p>
 <ul>
 <li><p>A Windows Server 2012 R2 named “pubsvr01” hosts the Publishing service.</p></li>
@@ -133,7 +133,7 @@ The following table provides the syntax and query examples.
 
 </div></td>
 <td align="left"><p>See the information for App-V 5.0 SP3 and App-V 5.1.</p></td>
-<td align="left"><p><code><a href="http://pubsvr01:2718" data-raw-source="http://pubsvr01:2718">http://pubsvr01:2718</a></code></p>
+<td align="left"><p><code>http://pubsvr01:2718</code></p>
 <p>In the example, A Windows Server 2012 R2 named “pubsvr01” hosts the Management and Publishing services.</p></td>
 </tr>
 </tbody>

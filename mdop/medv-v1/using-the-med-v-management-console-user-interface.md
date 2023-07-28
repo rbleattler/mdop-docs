@@ -31,7 +31,7 @@ The console user interface is divided into the following sections:
 
 -   The **display pane** displays a module corresponding to the button that is selected.
 
-![](images/medv-ui-console-general.gif)
+![Screenshot of the MED-V Management Console.](images/medv-ui-console-general.gif)
 
 ## How to Log In to the MED-V Management Console
 

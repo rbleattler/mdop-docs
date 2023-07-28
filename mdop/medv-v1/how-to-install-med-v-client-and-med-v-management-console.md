@@ -66,7 +66,7 @@ Do not install the MED-V client using the Windows **runas** command.
 
 
 
-~~~
+
 -   Select the **Load MED-V when Windows starts** check box to start MED-V automatically on startup.
 
 -   Select the **Add a MED-V shortcut to my desktop** check box to create a MED-V shortcut on your desktop.
@@ -78,7 +78,7 @@ Do not install the MED-V client using the Windows **runas** command.
 -   Select the **Server requires encrypted connections (https)** check box to work with https.
 
 -   The default virtual machine images folder is displayed. The default installation folder is *%systemdrive%\\MED-V Images\\*. To change the folder where MED-V should be installed, click **Change**, and browse to an existing folder.
-~~~
+
 
 7. Click **Next**.
 

@@ -1,5 +1,5 @@
 ---
-title: Restore the Archive from a Backup
+title: How to Restore the Archive from a Backup
 description: Restore the Archive from a Backup
 author: dansimp
 ms.assetid: b83f6173-a236-4da2-b16e-8df20920d4cc
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Restore the Archive from a Backup
+# How to Restore the Archive from a Backup
 
 
 If a disaster occurs and the archive for Advanced Group Policy Management (AGPM) is damaged or destroyed, an AGPM Administrator (Full Control) can restore the archive from a backup copy prepared in advance and then import from the production environment of the domain any Group Policy Objects (GPOs) that are not in the archive or for which the version in production is more current than that in the archive. For information about how to restore an archive backup to a different server, see [Move the AGPM Server and the Archive](move-the-agpm-server-and-the-archive-agpm40.md).

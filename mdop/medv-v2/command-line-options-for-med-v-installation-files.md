@@ -23,7 +23,7 @@ When you install or uninstall Microsoft Enterprise Desktop Virtualization (MED-V
 
 You can use the following command-line arguments together with their respective MED-V installation files.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

@@ -1,5 +1,5 @@
 ---
-title: Planning to Use Folder Redirection with App-V
+title: Planning for Folder Redirection with App-V
 description: Planning to Use Folder Redirection with App-V
 author: dansimp
 ms.assetid: 6bea9a8f-a915-4d7d-be67-ef1cca1398ed
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Planning to Use Folder Redirection with App-V
+# Planning for Folder Redirection with App-V
 
 
 Microsoft Application Virtualization (App-V) 5.1 supports the use of folder redirection, a feature that enables users and administrators to redirect the path of a folder to a new location.

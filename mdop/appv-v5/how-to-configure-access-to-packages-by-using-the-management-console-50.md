@@ -1,5 +1,5 @@
 ---
-title: How to Configure Access to Packages by Using the Management Console
+title: Configure Access to Packages by Using the Management Console
 description: How to Configure Access to Packages by Using the Management Console
 author: dansimp
 ms.assetid: 8f4c91e4-f4e6-48cf-aa94-6085a054e8f7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Configure Access to Packages by Using the Management Console
+# Configure Access to Packages by Using the Management Console
 
 
 Before you deploy an App-V 5.0 virtualized package, you must configure the Active Directory Domain Services (AD DS) security groups that will be allowed to access and run the applications. The security groups may contain computers or users. Entitling a package to a computer group publishes the package globally to all computers in the group.
@@ -60,7 +60,7 @@ Use the following procedure to configure access to virtualized packages.
 
 3.  To close the **AD ACCESS** page, click **Close**.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

@@ -18,7 +18,7 @@ This article provides step-by-step instructions for installing Microsoft BitLock
 
 ### Step 1: Installation and configuration of servers
 
-Before we start configuring MBAM 2.5, we have to make sure that both servers are configured as per MBAM system requirements. See the [MBAM minimum system requirements](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-supported-configurations#-mbam-server-system-requirements), and select a configuration that meets these requirements. 
+Before we start configuring MBAM 2.5, we have to make sure that both servers are configured as per MBAM system requirements. See the [MBAM minimum system requirements](/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-supported-configurations#-mbam-server-system-requirements), and select a configuration that meets these requirements. 
 
 #### Step 1.1: Deploying prerequisites for database and reporting server
 
@@ -34,21 +34,21 @@ Before we start configuring MBAM 2.5, we have to make sure that both servers are
     * Management Tools – Complete
 
     > [!Note]
-    > Optionally, you can also install the [Transparent Data Encryption (TDE) feature in SQL Server](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-security-considerations).
+    > Optionally, you can also install the [Transparent Data Encryption (TDE) feature in SQL Server](/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-security-considerations).
 
     SQL Server Reporting Services must be installed and configured in "native" mode and not in unconfigured or "SharePoint" mode.
 
-    ![The required SQL Server features](images/deploying-MBAM-1.png)
+    ![The required SQL Server features.](images/deploying-MBAM-1.png)
 
 4. If you plan to use SSL for the Administration and Monitoring website, make sure that you configure SQL Server Reporting Services (SSRS) to use the Secure Sockets Layer (SSL) protocol before you configure the Administration and Monitoring website. Otherwise, the Reports feature will use unencrypted (HTTP) data transport instead of encrypted (HTTPS).
 
-    You can follow [Configure SSL Connections](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017) on a Native Mode Report Server to configure SSL on Report Server.
+    You can follow [Configure SSL Connections](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server) on a Native Mode Report Server to configure SSL on Report Server.
     
     > [!Note]
     > You can follow the SQL Server Installation Guide for your respective version of SQL Server to install SQL Server. The links are as follows:
-        > * [SQL Server 2014](https://docs.microsoft.com/sql/sql-server/install/planning-a-sql-server-installation?view=sql-server-2014)
-        > * [SQL Server 2012](https://docs.microsoft.com/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
-        > * [SQL Server 2008 R2](https://docs.microsoft.com/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
+        > * [SQL Server 2014](/sql/sql-server/install/planning-a-sql-server-installation?)
+        > * [SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
+        > * [SQL Server 2008 R2](/previous-versions/sql/sql-server-2012/bb500442(v=sql.110))
 
 5. In the post-installation of SQL Server, make sure that you provision the user account in SQL Server, and assign the following permissions to the user who will configure the MBAM database and reporting roles on the database server.
 
@@ -66,7 +66,7 @@ Your database server is ready for configuration of MBAM 2.5 roles. Let’s move 
 
 #### Step 1.2: Deploying prerequisites for administration and monitoring server
 
-Choose a server that meets the hardware configuration as explained in the [MBAM system requirements document](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-supported-configurations#-mbam-server-system-requirements). It must be running Windows Server 2008 R2 or a later operating system together with latest service pack and updates. After the server is ready, install the following roles and features:
+Choose a server that meets the hardware configuration as explained in the [MBAM system requirements document](/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-supported-configurations#-mbam-server-system-requirements). It must be running Windows Server 2008 R2 or a later operating system together with latest service pack and updates. After the server is ready, install the following roles and features:
 
 ##### Roles
 
@@ -180,31 +180,31 @@ After the certificate is issued, you should add the certificate to the personal 
 
 1. Right-select Start, and then select Run.
 
-   ![Select ](images/deploying-MBAM-2.png)
+   ![Screenshot show where to select run.](images/deploying-MBAM-2.png)
 
 2. Type "MMC.EXE" (without the quotation marks), and then select **OK**.
 
-   ![Run box](images/deploying-MBAM-3.png) 
+   ![Run box.](images/deploying-MBAM-3.png) 
 
 3. Select **File** in the new MMC that you opened, and then select **Add/Remove Snap-in**.
    
-   ![Select](images/deploying-MBAM-4.png)
+   ![Select.](images/deploying-MBAM-4.png)
 
 4. Highlight the **Certificates** snap-in, and then select **Add**.
 
-   ![Add or Remove Snap-ins window](images/deploying-MBAM-5.png)
+   ![Screenshot show where to Add or Remove Snap-ins.](images/deploying-MBAM-5.png)
 
 5. Select the **Computer account** option, and then select **Next**.
    
-   ![Certificates snap-in window](images/deploying-MBAM-6.png)
+   ![Certificates snap-in window.](images/deploying-MBAM-6.png)
 
 6. Select **Local Computer** on the next screen, and then select **Finish**.
    
-   ![Select Computer window](images/deploying-MBAM-7.png)
+   ![Select Computer window.](images/deploying-MBAM-7.png)
 
 7. You have now added the Certificates snap-in. This will enable you to work with any certificates in your computer's certificate store.
 
-   ![Add or Remove Snap-ins window](images/deploying-MBAM-8.png)
+   ![Add or Remove Snap-ins window.](images/deploying-MBAM-8.png)
 
 8. Import the web server certificate into your computer's certificate store.
 
@@ -212,44 +212,44 @@ After the certificate is issued, you should add the certificate to the personal 
 
 9. Open the Certificates (Local Computer) snap-in, and browse to **Personal** and then **Certificates**.
    
-   ![Certificates (Local Computer) snap-in window](images/deploying-MBAM-9.png)
+   ![Screenshot show the Certificates (Local Computer) snap-in window.](images/deploying-MBAM-9.png)
 
    > [!Note]
    > The Certificates snap-in may not be listed. If it is not, no certificates are installed.
 
 10. Right-select **Certificates**, select **All Tasks**, and then select **Import**.
 
-    ![Certificates (Local Computer) snap-in window](images/deploying-MBAM-10.png)
+    ![Certificates (Local Computer) snap-in window.](images/deploying-MBAM-10.png)
 
 11. When the wizard starts, select **Next**. Browse to the file that you created that contains your server certificate and private key, and then select **Next**.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-11.png)
+    ![Certificate Import Wizard window.](images/deploying-MBAM-11.png)
 
 12. Enter the password if you specified one for the file when you created it.
 
-   ![Enter password window](images/deploying-MBAM-12.png)
+   ![Enter password window.](images/deploying-MBAM-12.png)
 
    > [!Note]
    > Make sure that the **Mark the key as exportable** option is selected if you want to be able to export the key pair again from this computer. As an added security measure, you may want to leave this option cleared to make sure that no one can make a backup of your private key.
  
 13. Select **Next**, and then select the **Certificate Store** to which you want to save the certificate.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-13.png)
+    ![Screenshot shows the Certificate Import Wizard window.](images/deploying-MBAM-13.png)
 
     > [!Note]
     > You should select **Personal**, because it is a web server certificate. If you included the certificate in the certification hierarchy, it will also be added to this store.
  
 14. Select **Next**, and then select **Finish**.
 
-    ![Certificate Import Wizard window](images/deploying-MBAM-14.png)
+    ![Screenshot show where to select Finish in the Certificate Import Wizard window.](images/deploying-MBAM-14.png)
 
 You will now see the server certificate for your web server in the Personal Certificates list. It will be denoted by the common name of the server. (You can find this in the subject section of the certificate.)
 
 For further reference:
 
-[MBAM 2.5 Security Considerations](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-security-considerations)
+[MBAM 2.5 Security Considerations](/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-security-considerations)
 
-[Planning How to Secure the MBAM Websites](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites)
+[Planning How to Secure the MBAM Websites](/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites)
 
 The next step is to register a service principle name for the application pool account.
 
@@ -278,7 +278,7 @@ The steps to configure SSL communication by using MBAM are described in the foll
 > [!Note]
 > Constrained delegation is required only for 2.5 and is not required for 2.5 Service Pack 1 and later.
 
-To enable the MBAM servers to authenticate communication from the Administration and Monitoring Website and the Self-Service Portal, you must register a Service Principal Name (SPN) for the host name under the domain account that you are using for the web application pool. The following article contains step-by-step instructions to register SPNs: [Planning How to Secure the MBAM Websites](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites)
+To enable the MBAM servers to authenticate communication from the Administration and Monitoring Website and the Self-Service Portal, you must register a Service Principal Name (SPN) for the host name under the domain account that you are using for the web application pool. The following article contains step-by-step instructions to register SPNs: [Planning How to Secure the MBAM Websites](/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites)
 
 After you have the SPN configured, you should set up constrained delegation on the SPN. To do this, follow these steps:
 
@@ -314,11 +314,14 @@ To install the MBAM Server software by using the Microsoft BitLocker Administrat
 
 6. To start the installation, select **Install**.
 
-7. To configure the server features after the MBAM Server software finishes installing, select the **Run MBAM Server Configuration after the wizard closes** check box. Or, you can configure MBAM later by using the **MBAM Server Configuration** shortcut that the server installation creates on your **Start** menu.
+7. Select **Finish**.
 
-8. Select **Finish**.
+8. Before proceeding with configuring MBAM, install the latest MDOP servicing release update as otherwise your database server will not be recognized/supported and the configuration wizard will report an error when trying to validate the database configuration:
+   [October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9)
 
-For more information, see [Installing the MBAM 2.5 Server Software](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/installing-the-mbam-25-server-software).
+9. You can configure MBAM by using the **MBAM Server Configuration** shortcut that the server installation creates on your **Start** menu.
+
+For more information, see [Installing the MBAM 2.5 Server Software](/microsoft-desktop-optimization-pack/mbam-v25/installing-the-mbam-25-server-software).
 
 ### Step 7: Configure MBAM 2.5 database and reports role
 
@@ -370,7 +373,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    
    When you finish your entries, select **Next**. The wizard checks that all prerequisites for the Reports feature are met. Select Next to continue. On the **Summary** page, review the features that will be added.
    
-   For more information, see the following article: [How to Configure the MBAM 2.5 Databases](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/how-to-configure-the-mbam-25-databases).
+   For more information, see the following article: [How to Configure the MBAM 2.5 Databases](/microsoft-desktop-optimization-pack/mbam-v25/how-to-configure-the-mbam-25-databases).
 
 ### Step 8: Configure the MBAM 2.5 Web applications role
 
@@ -395,6 +398,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    To check whether the account was added to the local security settings, open the **Local Security Policy editor**, expand the **Local Policies** node, select the **User Rights Assignment** node, and double-select **Impersonate a client after authentication** and **Log on as a batch job** policies in the right-side pane.
 
 6. Use the following field descriptions to configure the connection information in the wizard for the Compliance and Audit Database.
+
    |Field	|Description|
    |------|------|
    |SQL Server name	|Name of the server on which the Compliance and Audit Database is configured.|
@@ -402,6 +406,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    |Database name	|Name of the Compliance and Audit Database. By default, it’s "MBAM Compliance Status".|
 
 7. Use the following field descriptions to configure the connection information in the wizard for the Recovery Database.
+
    |Field	|Description|
    |----|----|
    |SQL Server name	|Name of the server on which the Recovery Database is configured.|
@@ -409,6 +414,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
    |Database name	|Name of the Recovery Database. By default, it’s "MBAM Recovery and Hardware".|
 
 8. Use the following descriptions to enter the field values in the wizard to configure the Administration and Monitoring Website.
+
    |Field	|Description|
    |----|----|
    |Advanced Helpdesk role domain group	|Specify the name of the MBAMAdvHelpDsk Group as configured in step 2.|
@@ -436,7 +442,7 @@ In this step, we will configure the MBAM 2.5 databases and reporting component b
 
 ### Step 9: Customizing the self-server portal for your organization
 
-To customize the Self-Service Portal by adding custom notice text, your company name, pointers to more information, and so on, see [Customizing the Self-Service Portal for Your Organization](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/customizing-the-self-service-portal-for-your-organization).
+To customize the Self-Service Portal by adding custom notice text, your company name, pointers to more information, and so on, see [Customizing the Self-Service Portal for Your Organization](/microsoft-desktop-optimization-pack/mbam-v25/customizing-the-self-service-portal-for-your-organization).
  
 ### Step 10: Configure the self-server portal if client computers cannot access the CDN 
 
@@ -446,7 +452,7 @@ Do one of the following:
 
 * If your client computers have access to the CDN, do nothing. Your Self-Service Portal configuration is complete.
 
-* If your client computers do not have access to the CDN, follow the steps in [How to Configure the Self-Service Portal When Client Computers Cannot Access the Microsoft Content Delivery Network](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/how-to-configure-the-self-service-portal-when-client-computers-cannot-access-the-microsoft-content-delivery-network).
+* If your client computers do not have access to the CDN, follow the steps in [How to Configure the Self-Service Portal When Client Computers Cannot Access the Microsoft Content Delivery Network](/microsoft-desktop-optimization-pack/mbam-v25/how-to-configure-the-self-service-portal-when-client-computers-cannot-access-the-microsoft-content-delivery-network).
 
 ### Step 11: Validate the MBAM 2.5 server feature configuration 
 
@@ -458,9 +464,9 @@ To validate your MBAM Server deployment to use the standalone topology, follow t
 
 2. On the server on which the Recovery Database is configured, open SQL Server Management Studio, and verify that the **MBAM Recovery and Hardware** database is configured.
 
-3. On the server om which the Compliance and Audit Database is configured, open SQL Server Management Studio, and verify that the MBAM Compliance Status Database is configured.
+3. On the server on which the Compliance and Audit Database is configured, open SQL Server Management Studio, and verify that the MBAM Compliance Status Database is configured.
 
-4. On the server onm which the Reports feature is configured, open a web browser by using administrative credentials, and browse to the homepage of the SQL Server Reporting Services site.
+4. On the server on which the Reports feature is configured, open a web browser by using administrative credentials, and browse to the homepage of the SQL Server Reporting Services site.
    
    The default homepage location of a SQL Server Reporting Services site instance is as follows:
    http(s)://*\<MBAM Reports Server Name\>*:*\<port\>*/Reports.aspx
@@ -513,13 +519,13 @@ To deploy MBAM, you have to set Group Policy settings that define MBAM implement
 
 Before you install the MBAM Client, you must copy MBAM-specific Group Policy Objects (GPOs) to the management workstation. These GPOs define MBAM implementation settings for BitLocker. You can copy the Group Policy templates to any server or workstation that is a supported Windows-based server or client computer and that can run the Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM).
 
-For more information, see [Copying the MBAM 2.5 Group Policy Templates](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/copying-the-mbam-25-group-policy-templates).
+For more information, see [Copying the MBAM 2.5 Group Policy Templates](/microsoft-desktop-optimization-pack/mbam-v25/copying-the-mbam-25-group-policy-templates).
  
 #### Editing MBAM 2.5 GPO settings
 
 After you create the necessary GPOs, you must deploy the MBAM Group Policy settings to your organization’s client computers. To view and create GPOs, you must have Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM) installed.
 
-For more information, see [Editing the MBAM 2.5 Group Policy Settings](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/editing-the-mbam-25-group-policy-settings) and [Planning for MBAM 2.5 Group Policy Requirements](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-group-policy-requirements).
+For more information, see [Editing the MBAM 2.5 Group Policy Settings](/microsoft-desktop-optimization-pack/mbam-v25/editing-the-mbam-25-group-policy-settings) and [Planning for MBAM 2.5 Group Policy Requirements](/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-group-policy-requirements).
  
 ### Step 13: Deploying the MBAM 2.5 Client
 
@@ -529,17 +535,17 @@ Depending on when you deploy the Microsoft BitLocker Administration and Monitori
 
 After you configure Group Policy settings, you can use an enterprise software deployment system product such as Microsoft System Center 2012 Configuration Manager or Active Directory Domain Services (AD DS) to deploy the MBAM client installation Windows Installer files to target computers. You can use either the 32-bit or 64-bit MbamClientSetup.exe files or the 32-bit or 64-bit MBAMClient.msi files. These are provided together with the MBAM Client software.
 
-For more information, see [How to Deploy the MBAM Client to Desktop or Laptop Computers](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-25).
+For more information, see [How to Deploy the MBAM Client to Desktop or Laptop Computers](/microsoft-desktop-optimization-pack/mbam-v25/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-25).
  
 #### Deploy the MBAM Client as part of a Windows deployment
 
 In organizations in which computers are received and configured centrally, you can install the MBAM Client to manage BitLocker Drive Encryption on each computer before any user data is written to it. The benefit of this process is that every computer is then BitLocker-compliant. This method does not rely on user action because the administrator has already encrypted the computer. A key assumption for this scenario is that the policy of the organization is to install a corporate Windows image before the computer is delivered to the user. If the Group Policy settings are configured to require a PIN, users are prompted to set a PIN after they receive the policy.
 
-For more information, see [How to Deploy the MBAM Client as Part of a Windows Deployment](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25).
+For more information, see [How to Deploy the MBAM Client as Part of a Windows Deployment](/microsoft-desktop-optimization-pack/mbam-v25/how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25).
  
 #### How to deploy the MBAM Client by using a command line
 
-For more information see [How to Deploy the MBAM Client by Using a Command Line](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/how-to-deploy-the-mbam-client-by-using-a-command-line).
+For more information see [How to Deploy the MBAM Client by Using a Command Line](/microsoft-desktop-optimization-pack/mbam-v25/how-to-deploy-the-mbam-client-by-using-a-command-line).
 
 #### Post-deployment of clients
 
@@ -553,7 +559,7 @@ Now that you have finished the deployment activity, you should review the follow
 
 * If a certificate is used, the certificate must have both FQDN and NetBIOS names entered into the **Subject Alternative Name** field for all IIS servers in the load balance group and also as the Friendly Name (for example: bitlocker.corp.net). Otherwise, the certificate will be reported as not trusted by the browser when you browse load-balanced addresses.
 
-For more information, see [IIS Network Load Balancing](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-high-availability#a-href-idbkmk-load-balanceaiis-network-load-balancing) and [Registering SPNs for the application pool account](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites#registering-spns-for-the-application-pool-account).
+For more information, see [IIS Network Load Balancing](/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-high-availability#a-href-idbkmk-load-balanceaiis-network-load-balancing) and [Registering SPNs for the application pool account](/microsoft-desktop-optimization-pack/mbam-v25/planning-how-to-secure-the-mbam-websites#registering-spns-for-the-application-pool-account).
 
 ### How to configure a certificate
 
@@ -582,13 +588,11 @@ An account that's used for IIS portal installation must have Write ServicePrinci
 > [!Note]
 > You will this receive this warning message twice. This does not mean that the SPN must have two objects registered to it.
 
-For more information, see [MBAM Setup fails with “Register SPN Deferred” error message](https://support.microsoft.com/help/2754138/).
-
 ### Did I have to update the ADMX templates to the latest version?
 
 You'll see multiple OS options in the MBAM root node for GPO after you update the ADMX templates to their latest versions. For example, Windows 7, Windows 8.1, and Windows 10, version 1511 and later versions.
 
 For more information about how to update the ADMX templates, see the following articles:
-* [How to Download and Deploy MDOP Group Policy (.admx) Templates](https://docs.microsoft.com/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates)
-* [Planning for MBAM 2.5 Group Policy Requirements](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-group-policy-requirements)
+* [How to Download and Deploy MDOP Group Policy (.admx) Templates](/microsoft-desktop-optimization-pack/solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates)
+* [Planning for MBAM 2.5 Group Policy Requirements](/microsoft-desktop-optimization-pack/mbam-v25/planning-for-mbam-25-group-policy-requirements)
 * [Microsoft Desktop Optimization Pack Group Policy Administrative Templates](https://www.microsoft.com/en-us/download/details.aspx?id=55531)

@@ -1,6 +1,6 @@
 ---
-title: Delegate Access to the Production Environment
-description: Delegate Access to the Production Environment
+title: Delegating Access to the Production Environment
+description: Delegating Access to the Production Environment
 author: dansimp
 ms.assetid: 4c670581-8c47-41ea-80eb-02846ff1ec1f
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delegate Access to the Production Environment
+# Delegating Access to the Production Environment
 
 
 In Advanced Group Policy Management (AGPM), you can change access to Group Policy Objects (GPOs) in the production environment of the domain, replacing any existing permissions on those GPOs. You can configure permissions at the domain level to either allow or prevent users from editing, deleting, or modifying the security of GPOs in the production environment when they are not using the **Change Control** folder in the Group Policy Management Console (GPMC).

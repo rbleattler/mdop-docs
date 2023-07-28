@@ -35,7 +35,7 @@ For a list of the supported versions of the software mentioned in this topic, se
 
 The following image and table explain the features in an MBAM Stand-alone topology.
 
-![mbab2\-5](images/mbam2-5-standalonecomponents.png)
+![mbab2\-5.](images/mbam2-5-standalonecomponents.png)
 
 |Feature type|Description|Database|
 |-|-|-|
@@ -62,7 +62,7 @@ The Monitoring Web Service is no longer available in Microsoft BitLocker Adminis
 
 The following image and table explain the features in the System Center Configuration Manager Integration topology.
 
-![mbam2\-5](images/mbam2-5-cmcomponents.png)
+![mbam2\-5.](images/mbam2-5-cmcomponents.png)
 
 **Important**  
 The Self-Service Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1, in which the MBAM Client, the Administration and Monitoring Website, and the Self-Service Portal communicate directly with the Recovery Database.
@@ -94,8 +94,8 @@ The Monitoring Web Service is no longer available in Microsoft BitLocker Adminis
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

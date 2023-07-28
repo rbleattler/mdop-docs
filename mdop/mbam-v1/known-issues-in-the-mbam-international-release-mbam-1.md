@@ -32,12 +32,6 @@ If you are using a certificate for authentication between MBAM servers, after up
 
 **Workaround**: None.
 
-### MBAM Svclog File Filling Disk Space
-
-If you have followed [Knowledge Base article 2668170](https://go.microsoft.com/fwlink/?LinkID=247277), you might have to repeat the KB steps after you install this update.
-
-**Workaround**: None.
-
 ## Related topics
 
 [Deploying the MBAM 1.0 Language Release Update](deploying-the-mbam-10-language-release-update.md)

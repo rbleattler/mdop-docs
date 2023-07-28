@@ -1,6 +1,6 @@
 ---
-title: Deploying Microsoft Office 2010 by Using App-V
-description: Deploying Microsoft Office 2010 by Using App-V
+title: Deploy Microsoft Office 2010 by Using App-V
+description: How to Deploy Microsoft Office 2010 by Using App-V
 author: dansimp
 ms.assetid: ae0b0459-c0d6-4946-b62d-ff153f52d1fb
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# Deploying Microsoft Office 2010 by Using App-V
+# Deploy Microsoft Office 2010 by Using App-V
 
 
 You can create Office 2010 packages for Microsoft Application Virtualization (App-V) 5.1 using one of the following methods:

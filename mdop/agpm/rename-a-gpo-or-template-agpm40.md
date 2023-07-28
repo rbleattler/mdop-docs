@@ -1,5 +1,5 @@
 ---
-title: Rename a GPO or Template
+title: How to Rename a GPO or Template
 description: Rename a GPO or Template
 author: dansimp
 ms.assetid: 84293f7a-4ff7-497e-bdbc-cabb70189a03
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Rename a GPO or Template
+# How to Rename a GPO or Template
 
 
 You can rename a controlled Group Policy Object (GPO) or a template.

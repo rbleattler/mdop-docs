@@ -1,5 +1,5 @@
 ---
-title: How to Modify an Existing Virtual Application Package
+title: Modify an Existing Virtual Application Package
 description: How to Modify an Existing Virtual Application Package
 author: dansimp
 ms.assetid: 6cdeec00-e4fe-4210-b4c7-6ca1ac643ddd
@@ -14,7 +14,7 @@ ms.date: 11/01/2016
 ---
 
 
-# How to Modify an Existing Virtual Application Package
+# Modify an Existing Virtual Application Package
 
 
 This topic explains how to:
@@ -152,7 +152,7 @@ This topic explains how to:
 
 13. On the **Completion** page, click **Close**. The package is now available in the sequencer.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

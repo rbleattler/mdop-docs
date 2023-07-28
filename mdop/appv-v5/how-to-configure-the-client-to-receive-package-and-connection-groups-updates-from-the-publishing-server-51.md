@@ -1,5 +1,5 @@
 ---
-title: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
+title: Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 description: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 author: dansimp
 ms.assetid: 23b2d03a-20ce-4973-99ee-748f3b682207
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
+# Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 
 
 Deploying packages and connection groups using the App-V 5.1 publishing server is helpful because it offers single-point management and high scalability.
@@ -70,7 +70,7 @@ For the following procedures the management server was installed on a computer n
 
     The command will query the publishing server for the packages and connection groups that need to be added or removed for this particular client based on the entitlements for the packages and connection groups as configured on the management server.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

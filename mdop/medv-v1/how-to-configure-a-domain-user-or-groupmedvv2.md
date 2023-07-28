@@ -45,10 +45,10 @@ To allow users to utilize the MED-V workspace, you must first add domain users o
 
 
 
-~~~
+
 **Warning**  
 Do not run the management application from a computer that is part of a domain that is not trusted by the domain the server is installed on.
-~~~
+
 
 
 

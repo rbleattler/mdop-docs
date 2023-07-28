@@ -792,7 +792,7 @@ The following list identifies the main factors to consider when setting up the A
 
 The following table displays sample values for each of the factors in the previous list:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

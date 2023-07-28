@@ -1,5 +1,5 @@
 ---
-title: How to Publish a Package by Using the Management Console
+title: Publish a Package by Using the Management Console
 description: How to Publish a Package by Using the Management Console
 author: dansimp
 ms.assetid: e34d2bcf-15ac-4a75-9dc8-79380b36a25f
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Publish a Package by Using the Management Console
+# Publish a Package by Using the Management Console
 
 
 Use the following procedure to publish an App-V 5.1 package. Once you publish a package, computers that are running the App-V 5.1 client can access and run the applications in that package.
@@ -42,7 +42,7 @@ The ability to enable only administrators to publish or unpublish packages (desc
 
     To alternatively use PowerShell to set this item, see [How to Manage App-V 5.1 Packages Running on a Stand-Alone Computer by Using PowerShell](how-to-manage-app-v-51-packages-running-on-a-stand-alone-computer-by-using-powershell.md#bkmk-admins-pub-pkgs).
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 
