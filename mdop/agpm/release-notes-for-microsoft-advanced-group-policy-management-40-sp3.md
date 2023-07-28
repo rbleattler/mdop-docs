@@ -26,6 +26,16 @@ Read these release notes thoroughly before you install Microsoft Advanced Group 
 
 This section describes the known issues for AGPM 4.0 SP3.
 
+### AGPM Client may fail to connect to the AGPM server
+
+The AGPM client may fail to connect to the AGPM server. The error retuned to the AGPM client is 
+
+"Text: CoCreateInstance of the client remoting object failed!
+
+HRESULT: 0x0000000080131700"
+
+**Workaround:** Install .NET 3.5 on the client hosting the AGPM client role.
+
 ### AGPM installation fails in Windows 10
 
 AGPM internally enables the Windows Communication Foundation (WCF)-NonHTTP-Activation feature during installation. In Windows 10, WCF now includes a requirement to restart Windows after enabling the WCF NonHTTP-Activation feature. However, the current AGPM installer code does not handle this restart requirement and stops responding while it waits for the service to be activated.
@@ -96,18 +106,15 @@ If a user who has the Editor role submits a request to deploy a GPO, and the use
 
 As of HF02, AGPM has added a registry key to enable overriding the default AGPM GPO permission behavior. For more information, please see [Changes to Group Policy object permissions through AGPM are ignored](https://support.microsoft.com/kb/3174540)
 
+### Take control of uncontrolled policy fails:  HRSULT: 0x80070005 (E_ACCESSDENIED)
+
+After updating to [Microsoft Desktop Optimization Pack March 2017 Servicing Release](https://support.microsoft.com/topic/march-2017-servicing-release-for-microsoft-desktop-optimization-pack-f1c4a8d5-4af5-37f6-cb23-24fb934f416b) you may get this error. Could not take ownership.
+
+**Workaround:** Check permissions of your service account on this folder: `C:\ProgramData\Microsoft\AGPM`. Make sure your service account has Full Control.
+
 ## Related topics
 
 
 [Advanced Group Policy Management](index.md)
 
 [What's New in AGPM 4.0 SP3](whats-new-in-agpm-40-sp3.md)
-
- 
-
- 
-
-
-
-
-

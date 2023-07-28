@@ -10,7 +10,6 @@ ms.prod: w10
 ms.date: 11/23/2017
 ---
 
-
 # Advanced Group Policy Management
 
 
@@ -54,8 +53,6 @@ In addition to the product documentation available online, supplemental product 
 </tbody>
 </table>
 
- 
-
 ## <a href="" id="bkmk-getmdop"></a>How to Get MDOP
 
 
@@ -73,6 +70,7 @@ Visit the enterprise [Purchase Windows Enterprise Licensing](https://www.microso
  
 
  
+
 
 
 
