@@ -1,33 +1,27 @@
 ---
-title: How to Deploy a MED-V Workspace Through an Electronic Software Distribution System
-description: How to Deploy a MED-V Workspace Through an Electronic Software Distribution System
-author: dansimp
-ms.assetid: b5134c35-e1de-470c-93f8-ead6218d9dce
+title: How to deploy a MED-V workspace through an electronic software distribution system
+description: How to deploy a MED-V workspace through an electronic software distribution system.
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 08/30/2016
 ---
 
 
-# How to Deploy a MED-V Workspace Through an Electronic Software Distribution System
+# How to deploy a MED-V workspace through an electronic software distribution system
 
 
 An electronic software distribution system is designed to efficiently move software to many different computers over slow or fast network connections. The following section provides information and instructions to help you deploy your MED-V workspace throughout your enterprise by using a software distribution system.
 
-**Note**  
-Whichever software distribution solution that you use, you must be familiar with the requirements of your particular solution. If you are using System Center Configuration Manager 2007 R2 or a later version, see the [Configuration Manager Documentation Library](https://go.microsoft.com/fwlink/?LinkId=66999) in the Microsoft Technical Library (https://go.microsoft.com/fwlink/?LinkId=66999).
+> [!NOTE]
+> Whichever ESD solution you use, you must be familiar with the requirements of your particular solution. For example, see [Microsoft Configuration Manager documentation](/mem/configmgr/).
 
+> [!IMPORTANT]
+> If you use System Center Configuration Manager 2007 SP2 and your MED-V workspaces are configured to operate in **NAT** mode, the virtual machines are classified as Internet-based clients and cannot find the closest distribution points from which to download content.
 
-
-**Important**  
-If you are using System Center Configuration Manager 2007 SP2 and your MED-V workspaces are configured to operate in **NAT** mode, the virtual machines are classified as Internet-based clients and cannot find the closest distribution points from which to download content.
-
-The [hotfix to improve the functionality for VMs that are managed by MED-V](https://go.microsoft.com/fwlink/?LinkId=201088) (https://go.microsoft.com/fwlink/?LinkId=201088) adds new functionality to virtual machines that are managed by MED-V and that are configured to operate in **NAT** mode. The new functionality lets virtual machines access the closest distribution points. Therefore, the administrator can manage the virtual machine and the host computer in the same manner. This hotfix must be installed first on the site server and then on the client.
+The [hotfix to improve the functionality for VMs that are managed by MED-V](https://support.microsoft.com/topic/a-hotfix-is-available-for-system-center-configuration-manager-2007-sp2-clients-to-improve-the-functionality-of-virtual-machines-that-are-managed-by-microsoft-enterprise-desktop-virtualization-version-2-e4249933-c3d4-9632-5f02-0d4483ebe632) adds new functionality to virtual machines that are managed by MED-V and that are configured to operate in **NAT** mode. The new functionality lets virtual machines access the closest distribution points. Therefore, the administrator can manage the virtual machine and the host computer in the same manner. This hotfix must be installed first on the site server and then on the client.
 
 The update is publicly available. However, you might be prompted to accept an agreement for Microsoft Services. Follow the prompts on the successive webpages to retrieve this hotfix.
 
@@ -41,27 +35,27 @@ You can also deploy the MED-V components together by using a batch file, but thi
 
 2.  Create packages for each Microsoft installation file that needs to be distributed. The following are the required files and the order in which they must be installed:
 
-    1.  **Windows Virtual PC** – if not already installed (a computer restart is required). For more information, see [Configure Installation Prerequisites](configure-installation-prerequisites.md).
+    1.  **Windows Virtual PC** - if not already installed (a computer restart is required). For more information, see [Configure Installation Prerequisites](configure-installation-prerequisites.md).
 
-    2.  **Windows Virtual PC Additions and Updates** – if not already installed. For more information, see [Configure Installation Prerequisites](configure-installation-prerequisites.md).
+    2.  **Windows Virtual PC Additions and Updates** - if not already installed. For more information, see [Configure Installation Prerequisites](configure-installation-prerequisites.md).
 
-    3.  **MED-V Host Agent Installation File** – installs the Host Agent (MED-V\_HostAgent\_Setup installation file). For more information, see [How to Manually Install the MED-V Host Agent](how-to-manually-install-the-med-v-host-agent.md).
+    3.  **MED-V Host Agent Installation File** - installs the Host Agent (MED-V\_HostAgent\_Setup installation file). For more information, see [How to Manually Install the MED-V Host Agent](how-to-manually-install-the-med-v-host-agent.md).
 
-        **Warning**  
-        Close Internet Explorer before you install the MED-V Host Agent, otherwise conflicts can occur later with URL redirection. You can also do this by specifying a computer restart during a distribution.
-
-
-
-    4.  **MED-V Workspace Installer, VHD, and Setup Executable** – created in the **MED-V Workspace Packager**. For more information, see [Create a MED-V Workspace Package](create-a-med-v-workspace-package.md).
-
-        **Important**  
-        The compressed virtual hard disk file (.medv) and the Setup executable program (setup.exe) must be in the same folder as the MED-V workspace installer. Then, install the MED-V workspace installer by running setup.exe.
+        > [!WARNING]
+        > Close Internet Explorer before you install the MED-V Host Agent, otherwise conflicts can occur later with URL redirection. You can also do this by specifying a computer restart during a distribution.
 
 
 
+    4.  **MED-V Workspace Installer, VHD, and Setup Executable** - created in the **MED-V Workspace Packager**. For more information, see [Create a MED-V Workspace Package](create-a-med-v-workspace-package.md).
 
-    **Tip**  
-    Because problems can occur when you install MED-V from a network location, we recommend that you copy the MED-V workspace setup files locally and then run setup.exe.
+        > [!IMPORTANT]
+        > The compressed virtual hard disk file (.medv) and the Setup executable program (setup.exe) must be in the same folder as the MED-V workspace installer. Then, install the MED-V workspace installer by running setup.exe.
+
+
+
+
+    > [!TIP]
+    > Because problems can occur when you install MED-V from a network location, we recommend that you copy the MED-V workspace setup files locally and then run setup.exe.
 
 
 
@@ -70,15 +64,15 @@ You can also deploy the MED-V components together by using a batch file, but thi
 
    Running in silent mode eliminates the prompt to close Internet Explorer if it is running and the prompt to start the MED-V Host Agent. Both actions are performed when the computer is restarted.
 
-   **Note**  
-   Installation of Windows Virtual PC requires you to restart the computer. You can create a single installation process and install all the components at the same time if you suppress the restart and ignore the prerequisites necessary for MED-V to install. You can also do this by using command-line arguments. For an example of these arguments, see [How to Deploy the MED-V Components Through an Electronic Software Distribution System](how-to-deploy-the-med-v-components-through-an-electronic-software-distribution-system.md#bkmk-batch). MED-V automatically starts when the computer is restarted.
+   > [!NOTE]
+   > Installation of Windows Virtual PC requires you to restart the computer. You can create a single installation process and install all the components at the same time if you suppress the restart and ignore the prerequisites necessary for MED-V to install. You can also do this by using command-line arguments. For an example of these arguments, see [How to Deploy the MED-V Components Through an Electronic Software Distribution System](how-to-deploy-the-med-v-components-through-an-electronic-software-distribution-system.md#bkmk-batch). MED-V automatically starts when the computer is restarted.
 
 
 
 4. Install MED-V and its components before installing Windows Virtual PC. See the example batch file later in this topic.
 
-   **Important**  
-   Select the **IGNORE\_PREREQUISITES** option as shown in the example batch file so that the MED-V components can be installed prior to the required VPC components. Install the MED-V components in this order to allow for the single restart.
+   > [!IMPORTANT]
+   > Select the **IGNORE\_PREREQUISITES** option as shown in the example batch file so that the MED-V components can be installed prior to the required VPC components. Install the MED-V components in this order to allow for the single restart.
 
 
 
@@ -108,46 +102,14 @@ After the restart, the user is prompted to run first time setup and complete the
 
 The following example, with the specified arguments, shows how to install 64-bit MED-V components in a single process:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Argument</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>/norestart</p></td>
-<td align="left"><p>Prevents the installation of Windows Virtual PC and the Windows Virtual PC update from restarting the host computer.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>/quiet</p></td>
-<td align="left"><p>Installs the MED-V components in quiet mode without user interaction.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>/qn</p></td>
-<td align="left"><p>Installs the MED-V components without a user interface.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>IGNORE_PREREQUISITES</p></td>
-<td align="left"><p>Installs without checking for Windows Virtual PC.</p>
-<div class="alert">
-<strong>Note</strong><br/><p>Only specify this argument if you are installing Windows Virtual PC as part of this installation.</p>
-</div>
-<div>
+| Argument | Description |
+|--|--|
+| `/norestart` | Prevents the installation of Windows Virtual PC and the Windows Virtual PC update from restarting the host computer. |
+| `/quiet` | Installs the MED-V components in quiet mode without user interaction. |
+| `/qn` | Installs the MED-V components without a user interface. |
+| `IGNORE_PREREQUISITES` | Installs without checking for Windows Virtual PC. <br> **Note**: Only specify this argument if you are installing Windows Virtual PC as part of this installation. |
+| `OVERWRITEVHD` | Forces the installation of the MED-V workspace and prevents any prompts that it might generate. |
 
-</div></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>OVERWRITEVHD</p></td>
-<td align="left"><p>Forces the installation of the MED-V workspace and prevents any prompts that it might generate.</p></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -172,18 +134,8 @@ wusa.exe Windows6.1-KB977206-x64.msu /norestart /quiet
 :: After successful installation of the above components, a reboot of the host computer is required to complete installation.
 ```
 
-## Related topics
-
+## Related information
 
 [MED-V 2.0 Deployment Overview](med-v-20-deployment-overview.md)
 
 [How to Deploy a MED-V Workspace in a Windows 7 Image](how-to-deploy-a-med-v-workspace-in-a-windows-7-image.md)
-
-
-
-
-
-
-
-
-
