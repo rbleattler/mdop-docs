@@ -50,78 +50,18 @@ For this scenario, you will use a separate user account for each role in AGPM to
 
 ![group policy object development process.](images/ab77a1f3-f430-4e7d-be58-ee8f9bd1140e.gif)
 
-## Requirements
-
-
-Computers on which you want to install AGPM must meet the following requirements, and you must create accounts for use in this scenario.
-
-**Note**  
-If you have AGPM 2.5 installed and are upgrading from Windows Server® 2003 to Windows Server 2008 R2 or Windows Server 2008, or are upgrading from Windows Vista with no service packs installed to Windows 7 or Windows Vista® with Service Pack 1 (SP1), you must upgrade the operating system before you can upgrade to AGPM 4.0.
-
-If you have AGPM 3.0 installed, you do not have to upgrade the operating system before you upgrade to AGPM 4.0
-
- 
-
-In a mixed environment that includes both newer and older operating systems, there are some limitations to functionality, as indicated in the following table.
-
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Operating system on which AGPM Server 4.0 runs</th>
-<th align="left">Operating system on which AGPM Client 4.0 runs</th>
-<th align="left">Status of AGPM 4.0 support</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Supported</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Supported, but cannot edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Unsupported</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Supported, but cannot report or edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</p></td>
-</tr>
-</tbody>
-</table>
-
- 
 
 ### AGPM Server requirements
 
-AGPM Server 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from Remote Server Administration Tools (RSAT), or Windows Vista with SP1 and the GPMC from RSAT installed. Both 32-bit and 64-bit versions are supported.
+AGPM Server 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from Remote Server Administration Tools (RSAT). Both 32-bit and 64-bit versions are supported. 
 
 Before you install AGPM Server, you must be a member of the Domain Admins group and the following Windows features must be present unless otherwise noted:
 
 -   GPMC
 
-    -   Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.
+    -   Windows Server 2012 or newer: If the GPMC is not present, it is automatically installed by AGPM.
 
-    -   Windows 7: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools for Windows 7](https://go.microsoft.com/fwlink/?LinkID=131280) (https://go.microsoft.com/fwlink/?LinkID=131280).
-
-    -   Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools for Windows Vista with Service Pack 1](https://go.microsoft.com/fwlink/?LinkID=116179) (https://go.microsoft.com/fwlink/?LinkID=116179).
-
--   The .NET Framework 3.5 or later versions
-
-    -   Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.5 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.
-
-    -   Windows Server 2008 or Windows Vista with SP1: You must install the .NET Framework 3.5 or a later version before you install AGPM.
+    -   Windows 10 or newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
 The following Windows features are required by AGPM Server and will be automatically installed if they are not present:
 
@@ -137,23 +77,15 @@ The following Windows features are required by AGPM Server and will be automatic
 
 ### AGPM Client requirements
 
-AGPM Client 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from RSAT, or Windows Vista with SP1 and the GPMC from RSAT installed. Both 32-bit and 64-bit versions are supported. AGPM Client can be installed on a computer that is running AGPM Server.
+AGPM Client 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from RSAT. Both 32-bit and 64-bit versions are supported. AGPM Client can be installed on a computer that is running AGPM Server.
 
 The following Windows features are required by AGPM Client and unless otherwise noted are automatically installed if they are not present:
 
 -   GPMC
 
-    -   Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.
+    -   Windows Server 2012 and newer: If the GPMC is not present, it is automatically installed by AGPM.
 
-    -   Windows 7: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools for Windows 7](https://go.microsoft.com/fwlink/?LinkID=131280) (https://go.microsoft.com/fwlink/?LinkID=131280).
-
-    -   Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools for Windows Vista with Service Pack 1](https://go.microsoft.com/fwlink/?LinkID=116179) (https://go.microsoft.com/fwlink/?LinkID=116179).
-
--   The .NET Framework 3.0 or later version
-
-    -   Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.
-
-    -   Windows Server 2008 or Windows Vista with SP1: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.0 is automatically installed by AGPM.
+    -   Windows 10 and newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
 ### Scenario requirements
 
@@ -204,6 +136,8 @@ In this step, you install AGPM Server on the member server or domain controller 
     -   Group Policy Creator Owners
 
     -   Backup Operators
+
+    This account must be member of the local Administrators Group on the AGPM Server Computer. This is required to successfully handle 
 
     Additionally, this account requires Full Control permission for the following folders:
 
@@ -588,14 +522,3 @@ After editing and deploying a GPO, you may discover that recent changes to the G
 
     **Note**  
     To verify that the version that was redeployed is the version intended, examine a difference report for the two versions. In the **History** window for the GPO, select the two versions, right-click them, point to **Difference**, and then click either **HTML Report** or **XML Report**.
-
-     
-
- 
-
- 
-
-
-
-
-
