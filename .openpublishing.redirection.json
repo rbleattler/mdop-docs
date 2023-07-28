@@ -9,6 +9,26 @@
       "source_path": "mdop/dart-v65.md",
       "redirect_url": "/previous-versions/jj713388(v=technet.10)",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/dart-10-cover-page.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/dart-10--c--page.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/how-to-perform-dart-tasks-by-using-powershell-commands-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/administering-dart-10-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/how-to-use-a-powershell-script-to-create-the-recovery-image-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/administering-dart-10-using-powershell",
+      "redirect_document_id": false
     }
   ]
 }
