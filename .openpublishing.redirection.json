@@ -1,0 +1,14 @@
+{
+  "redirections": [
+    {
+      "source_path": "mdop/softgrid-application-virtualization.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v65.md",
+      "redirect_url": "/previous-versions/jj713388(v=technet.10)",
+      "redirect_document_id": false
+    }
+  ]
+}
