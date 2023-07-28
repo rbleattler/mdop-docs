@@ -48,7 +48,7 @@ When you install MBAM with Configuration Manager, the following additional prere
 <tr class="even">
 <td align="left"><p>The Hardware Inventory Client Agent is on the Configuration Manager Server.</p></td>
 <td align="left"><p>For System Center 2012 Configuration Manager, see <a href="https://go.microsoft.com/fwlink/?LinkId=301685" data-raw-source="[How to Configure Hardware Inventory in Configuration Manager](https://go.microsoft.com/fwlink/?LinkId=301685)">How to Configure Hardware Inventory in Configuration Manager</a>.</p>
-<p>For Configuration Manager 2007, see <a href="https://go.microsoft.com/fwlink/?LinkId=301656" data-raw-source="[How to Configure Hardware Inventory for a Site](https://go.microsoft.com/fwlink/?LinkId=301656)">How to Configure Hardware Inventory for a Site</a>.</p></td>
+</td>
 </tr>
 <tr class="odd">
 <td align="left"><p>One of the following is enabled, depending on the version of Configuration Manager that you are using:</p>
@@ -57,12 +57,12 @@ When you install MBAM with Configuration Manager, the following additional prere
 <li><p>Desired Configuration Management (DCM) Client Agent – (Configuration Manager 2007)</p></li>
 </ul></td>
 <td align="left"><p>For System Center 2012 Configuration Manager, see <a href="https://go.microsoft.com/fwlink/?LinkId=301687" data-raw-source="[Configuring Compliance Settings in Configuration Manager](https://go.microsoft.com/fwlink/?LinkId=301687)">Configuring Compliance Settings in Configuration Manager</a>.</p>
-<p>For Configuration Manager 2007, see <a href="https://go.microsoft.com/fwlink/?LinkId=301686" data-raw-source="[Desired Configuration Management Client Agent Properties](https://go.microsoft.com/fwlink/?LinkId=301686)">Desired Configuration Management Client Agent Properties</a>.</p></td>
+</td>
 </tr>
 <tr class="even">
 <td align="left"><p>A reporting services point is defined in Configuration Manager. Required for SQL Server Reporting Services (SSRS).</p></td>
 <td align="left"><p>For System Center 2012 Configuration Manager, see <a href="https://go.microsoft.com/fwlink/?LinkId=301689" data-raw-source="[Prerequisites for Reporting in Configuration Manager](https://go.microsoft.com/fwlink/?LinkId=301689)">Prerequisites for Reporting in Configuration Manager</a>.</p>
-<p>For Configuration Manager 2007, see <a href="https://go.microsoft.com/fwlink/?LinkId=301688" data-raw-source="[How to Create a Reporting Services Point for SQL Reporting Services](https://go.microsoft.com/fwlink/?LinkId=301688)">How to Create a Reporting Services Point for SQL Reporting Services</a>.</p></td>
+</td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Configuration Manager 2007 requires Microsoft .NET Framework 2.0</p></td>

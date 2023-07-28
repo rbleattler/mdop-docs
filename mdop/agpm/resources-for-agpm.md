@@ -29,8 +29,6 @@ ms.date: 08/30/2016
 
 ### Group Policy resources
 
--   [Group Policy TechCenter](https://go.microsoft.com/fwlink/?LinkID=145531) (https://www.microsoft.com/grouppolicy): Links to Group Policy documentation, tools, and downloads.
-
 -   [Group Policy Team Blog](https://go.microsoft.com/fwlink/?LinkID=75192) (https://blogs.technet.com/GroupPolicy): Stay current on the latest news about Group Policy with articles by the Group Policy Team and other experts.
 
 -   [Group Policy Forum](https://go.microsoft.com/fwlink/?LinkID=145532): Do you have questions about Group Policy or AGPM? You can post your questions to the forum, and receive answers from the experts.

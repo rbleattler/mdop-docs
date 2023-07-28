@@ -1,5 +1,5 @@
 ---
-title: How to Install and Configure MBAM on a Single Server
+title: Install and Configure MBAM on a Single Server
 description: How to Install and Configure MBAM on a Single Server
 author: dansimp
 ms.assetid: 55841c63-bad9-44e7-b7fd-ea7037febbd7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install and Configure MBAM on a Single Server
+# Install and Configure MBAM on a Single Server
 
 
 The procedures in this topic describe the full installation of the Microsoft BitLocker Administration and Monitoring (MBAM) features on a single server.

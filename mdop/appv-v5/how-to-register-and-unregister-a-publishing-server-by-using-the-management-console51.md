@@ -1,5 +1,5 @@
 ---
-title: How to Register and Unregister a Publishing Server by Using the Management Console
+title: Register and Unregister a Publishing Server by Using the Management Console
 description: How to Register and Unregister a Publishing Server by Using the Management Console
 author: dansimp
 ms.assetid: 69cef0a8-8102-4697-b1ba-f16e0f25216b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Register and Unregister a Publishing Server by Using the Management Console
+# o Register and Unregister a Publishing Server by Using the Management Console
 
 
 You can register and unregister publishing servers that will synchronize with the App-V 5.1 management server. You can also see the last attempt that the publishing server made to synchronize the information with the management server.

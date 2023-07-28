@@ -1,5 +1,5 @@
 ---
-title: How to Access the Client Management Console
+title: Access the Client Management Console
 description: How to Access the Client Management Console
 author: dansimp
 ms.assetid: 3f6303c7-f953-4623-8211-c20d1faa846b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Access the Client Management Console
+# Access the Client Management Console
 
 
 Use the App-V 5.0 client management console to manage packages on the computer running the App-V 5.0 client.

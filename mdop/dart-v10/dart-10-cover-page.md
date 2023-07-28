@@ -32,7 +32,7 @@ For the most current documentation for *&lt;Product Name&gt;*, see the *insert l
 
 For the release notes for *&lt;Product Name&gt;*, see *insert link here*.
 
-### Feedback
+### Send feedback
 
 Send suggestions and comments about this document to <mdopdocs@microsoft.com>.
 

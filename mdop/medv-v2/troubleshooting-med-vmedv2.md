@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting MED-V
+title: Troubleshoot MED-V
 description: Troubleshooting MED-V
 author: dansimp
 ms.assetid: 4502d62b-a7db-4f83-81e2-23fd8b0820e1
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Troubleshooting MED-V
+# Troubleshoot MED-V
 
 
 You can use the information provided here to help you troubleshoot issues in Microsoft Enterprise Desktop Virtualization (MED-V) 2.0.

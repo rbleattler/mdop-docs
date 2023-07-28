@@ -1,5 +1,5 @@
 ---
-title: How to Recover a Corrupted Drive
+title: How to Recover a Corrupted Drive protected by BitLocker
 description: How to Recover a Corrupted Drive
 author: dansimp
 ms.assetid: 715491ae-69c0-4fae-ad3f-3bd19a0db2f2
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Recover a Corrupted Drive
+# How to Recover a Corrupted Drive protected by BitLocker
 
 
 To recover a corrupted drive that has been protected by BitLocker, a Microsoft BitLocker Administration and Monitoring (MBAM) help desk user must create a recovery key package file. This package file can be copied to the computer that contains the corrupted drive and then used to recover the drive. To accomplish this, use the following procedure.

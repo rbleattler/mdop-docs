@@ -1,5 +1,5 @@
 ---
-title: How to Sequence a Package by Using PowerShell
+title: Sequence a Package by Using PowerShell
 description: How to Sequence a Package by Using PowerShell
 author: dansimp
 ms.assetid: 6134c6be-937d-4609-a516-92d49154b290
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Sequence a Package by Using PowerShell
+# Sequence a Package by Using PowerShell
 
 
 Use the following procedure to create a new App-V 5.1 package using PowerShell.

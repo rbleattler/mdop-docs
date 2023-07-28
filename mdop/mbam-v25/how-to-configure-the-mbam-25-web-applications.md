@@ -294,11 +294,11 @@ The web applications comprise the following websites and their corresponding web
    <tbody>
    <tr class="odd">
    <td align="left"><p>Example with a fully qualified domain name</p></td>
-   <td align="left"><p><a href="https://MyReportServer.Contoso.com/ReportServer" data-raw-source="https://MyReportServer.Contoso.com/ReportServer">https://MyReportServer.Contoso.com/ReportServer</a></p></td>
+   <td align="left"><p>https://MyReportServer.Contoso.com/ReportServer</p></td>
    </tr>
    <tr class="even">
    <td align="left"><p>Example with a custom host name</p></td>
-   <td align="left"><p><a href="https://MyReportServer/ReportServer" data-raw-source="https://MyReportServer/ReportServer">https://MyReportServer/ReportServer</a></p></td>
+   <td align="left"><p>https://MyReportServer/ReportServer</p></td>
    </tr>
    </tbody>
    </table>

@@ -1,5 +1,5 @@
 ---
-title: How to Create a Connection Group with User-Published and Globally Published Packages
+title: Create a Connection Group with User-Published and Globally Published Packages
 description: How to Create a Connection Group with User-Published and Globally Published Packages
 author: dansimp
 ms.assetid: 851b8742-0283-4aa6-b3a3-f7f6289824c3
@@ -14,7 +14,7 @@ ms.date: 11/01/2016
 ---
 
 
-# How to Create a Connection Group with User-Published and Globally Published Packages
+# Create a Connection Group with User-Published and Globally Published Packages
 
 
 You can create user-entitled connection groups that contain both user-published and globally published packages, using either of the following methods:

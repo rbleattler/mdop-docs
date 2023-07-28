@@ -1,5 +1,5 @@
 ---
-title: About the Connection Group File
+title: The Connection Group File
 description: About the Connection Group File
 author: dansimp
 ms.assetid: 1f4df515-f5f6-4b58-91a8-c71598cb3ea4
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# About the Connection Group File
+# The Connection Group File
 
 
 **In this topic:**

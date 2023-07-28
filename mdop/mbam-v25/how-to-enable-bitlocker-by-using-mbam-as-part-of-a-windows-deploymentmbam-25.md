@@ -17,9 +17,15 @@ ms.date: 04/23/2017
 # How to Enable BitLocker by Using MBAM as Part of a Windows Deployment
 
 > [!IMPORTANT]
-> These instructions do not pertain to Configuration Manager BitLocker Management. The `Invoke-MbamClientDeployment.ps1` PowerShell script is not supported for use with BitLocker Management in Configuration Manager. This includes escrowing of BitLocker recovery keys during a Configuration Manager task sequence. Furthermore, starting with Configuration Manager Current Branch 2103, Configuration Manager BitLocker Management no longer uses the MBAM key recovery services site to escrow keys. Attempting to use the `Invoke-MbamClientDeployment.ps1` PowerShell script with Configuration Manager Current Branch 2103 or newer can result in serious problems with the Configuration Manager site. Known problems include creation of a large amount of policy targeted to all devices which can cause policy storms. This will lead to severe degradation of performance in Configuration Manager primarily in SQL and with Management Points.
+> These instructions do not pertain to Configuration Manager BitLocker Management. The `Invoke-MbamClientDeployment.ps1` PowerShell script is not supported for use with BitLocker Management in Configuration Manager. This includes escrowing of BitLocker recovery keys during a Configuration Manager task sequence. 
+>
+> Furthermore, starting with Configuration Manager, version 2103, Configuration Manager BitLocker Management no longer uses the MBAM key recovery services site to escrow keys. Attempting to use the `Invoke-MbamClientDeployment.ps1` PowerShell script with Configuration Manager, version 2103 or newer can result in serious problems with the Configuration Manager site. Known problems include creation of a large amount of policy targeted to all devices which can cause policy storms. This will lead to severe degradation of performance in Configuration Manager primarily in SQL and with Management Points. For more information, see [Using the MBAM Agent to escrow BitLocker recovery keys generates excessive policies in Configuration Manager, version 2103](/mem/configmgr/hotfix/2103/10372804).
+>
+> BitLocker Management starting with Configuration Manager, version 2203 natively supports escrowing the BitLocker key during a task sequence with the **Enable BitLocker** task sequence task via the option **Automatically store the recovery key in:** > **The Configuration Manager database**. For more information, see [Escrow BitLocker recovery password to the site during a task sequence](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2203#escrow-bitlocker-recovery-password-to-the-site-during-a-task-sequence).
+>
+> Also note that stand-alone MBAM integration with Configuration Manager was only supported through Configuration Manager, version 1902. Since Configuration Manager, version 1902 is out of support, using stand-alone MBAM and the `Invoke-MbamClientDeployment.ps1` PowerShell script with currently supported versions of Configuration Manager is no longer supported. For more information, see [Versions of Configuration Manager that MBAM supports](mbam-25-supported-configurations.md#versions-of-configuration-manager-that-mbam-supports). Customers using stand-alone MBAM with Configuration Manager should [migrate to Configuration Manager BitLocker Management](/mem/configmgr/protect/deploy-use/bitlocker/migration-considerations).
 
-This topic explains how to enable BitLocker on an end user's computer by using MBAM as part of your Windows imaging and deployment process. If you see a black screen at restart (after Install phase concludes) indicating that the drive cannot be unlocked, see [Earlier Windows versions don't start after "Setup Windows and Configuration Manager" step if Pre-Provision BitLocker is used with Windows 10, version 1511](https://support.microsoft.com/en-us/help/4494799/earlier-windows-versions-don-t-start-after-you-use-pre-provision-bitlo).
+This topic explains how to enable BitLocker on an end user's computer by using MBAM as part of your Windows imaging and deployment process. If you see a black screen at restart (after Install phase concludes) indicating that the drive cannot be unlocked, see [Earlier Windows versions don't start after "Setup Windows and Configuration Manager" step if Pre-Provision BitLocker is used with Windows 10, version 1511](https://support.microsoft.com/help/4494799/earlier-windows-versions-don-t-start-after-you-use-pre-provision-bitlo).
 
 **Prerequisites:**
 
@@ -52,7 +58,7 @@ This topic explains how to enable BitLocker on an end user's computer by using M
    -   Escrow TPM OwnerAuth
    For Windows 7, MBAM must own the TPM for escrow to occur.
    For Windows 8.1, Windows 10 RTM and Windows 10 version 1511, escrow of TPM OwnerAuth is supported.
-   For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+   For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addition, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
    -   Escrow recovery keys and recovery key packages
 
@@ -71,13 +77,13 @@ This topic explains how to enable BitLocker on an end user's computer by using M
    <a href="" id="mbam-machine-wmi-class"></a>**MBAM\_Machine WMI Class**
    **PrepareTpmAndEscrowOwnerAuth:** Reads the TPM OwnerAuth and sends it to the MBAM recovery database by using the MBAM recovery service. If the TPM is not owned and auto-provisioning is not on, it generates a TPM OwnerAuth and takes ownership. If it fails, an error code is returned for troubleshooting.
 
-   **Note** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+   **Note** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addition, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
 | Parameter | Description |
 | -------- | ----------- |
 | RecoveryServiceEndPoint | A string specifying the MBAM recovery service endpoint. |
 
-Here are a list of common error messages:
+Here is a list of common error messages:
 
 | Common return values | Error message |
 | -------------------- | ------------- |
@@ -101,7 +107,7 @@ Here are a list of common error messages:
    | --------- | ----------- |
    | ReportingServiceEndPoint | A string specifying the MBAM status reporting service endpoint. |
 
-   Here are a list of common error messages:
+   Here is a list of common error messages:
 
    | Common return values | Error message |
    | -------------------- | ------------- |
@@ -120,7 +126,7 @@ Here are a list of common error messages:
    | --------- | ----------- |
    | RecoveryServiceEndPoint | A string specifying the MBAM recovery service endpoint. |
 
-   Here are a list of common error messages:
+   Here is a list of common error messages:
 
    | Common return values | Error message |
    | -------------------- | ------------- |
@@ -184,7 +190,7 @@ Here are a list of common error messages:
            3.  Name the step **Persist TPM OwnerAuth**
 
            4.  Set the command line to `cscript.exe "%SCRIPTROOT%/SaveWinPETpmOwnerAuth.wsf"`
-           **Note:** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](https://docs.microsoft.com/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
+           **Note:** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addition, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](/windows/security/hardware-protection/tpm/change-the-tpm-owner-password) for further details.
 
        3.  In the **State Restore** folder, delete the **Enable BitLocker** task.
 

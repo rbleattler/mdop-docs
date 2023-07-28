@@ -1,5 +1,5 @@
 ---
-title: How to Apply the User Configuration File by Using PowerShell
+title: Apply the User Configuration File by Using PowerShell
 description: How to Apply the User Configuration File by Using PowerShell
 author: dansimp
 ms.assetid: f7d7c595-4fdd-4096-b53d-9eead111c339
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Apply the User Configuration File by Using PowerShell
+# Apply the User Configuration File by Using PowerShell
 
 
 The dynamic user configuration file is applied when a package is published to a specific user and determines how the package will run.

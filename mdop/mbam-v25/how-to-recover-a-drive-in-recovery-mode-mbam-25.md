@@ -1,5 +1,5 @@
 ---
-title: How to Recover a Drive in Recovery Mode
+title: Recover a Drive in Recovery Mode
 description: How to Recover a Drive in Recovery Mode
 author: dansimp
 ms.assetid: e126eaf8-9ae7-40fe-a28e-dbd78d26859e
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Recover a Drive in Recovery Mode
+# Recover a Drive in Recovery Mode
 
 
 This topic explains how to use the Administration and Monitoring Website (also referred to as the Help Desk) to get a recovery password to give to end users if their BitLocker-protected drive goes into recovery mode. Drives go into recovery mode if users lose or forget their PIN or password or if the Trusted Module Platform (TPM) chip detects changes to the BIOS or startup files of a computer.

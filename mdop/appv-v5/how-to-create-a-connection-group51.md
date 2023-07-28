@@ -1,5 +1,5 @@
 ---
-title: How to Create a Connection Group
+title: Create a Connection Group
 description: How to Create a Connection Group
 author: dansimp
 ms.assetid: 221e2eed-7ebb-42e3-b3d6-11c37c0578e6
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Connection Group
+# Create a Connection Group
 
 
 Use these steps to create a connection group by using the App-V Management Console. To use PowerShell to create connection groups, see [How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell](how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell51.md).

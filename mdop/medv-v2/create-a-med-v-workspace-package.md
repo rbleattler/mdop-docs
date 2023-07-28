@@ -78,13 +78,13 @@ Before you start to build your MED-V workspace deployment package, verify that y
 
 Enter each web address on a single line, for example:
 
-http://www.contoso.com/webapps/webapp1
+https://www.contoso.com/webapps/webapp1
 
-http://www.contoso.com/webapps/webapp2
+https://www.contoso.com/webapps/webapp2
 
 http://\*.contoso.com
 
-http://www.contoso.com/webapps/\*
+https://www.contoso.com/webapps/\*
 
 **Important**  
 If you import a text file that includes a URL that uses special characters (such as ~ ! @ \# and so on), make sure that you specify UTF-8 encoding when you save the text file. Special characters do not import correctly into the MED-V Workspace Packager if the text file was saved using the default ANSI encoding.
@@ -285,7 +285,7 @@ After you have finished, click **Next**.
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>If you select this check box, the following settings are set in the Sysprep.inf file:</p>
-<pre class="syntax" space="preserve"><code>[RegionalSettings]
+<pre class="syntax"><code>[RegionalSettings]
 Language
 SystemLocale
 UserLocale
@@ -301,7 +301,7 @@ InputLocale_DefaultUser
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><p>If you select this check box, the following settings are set in the Sysprep.inf file:</p>
-<pre class="syntax" space="preserve"><code>[UserData]
+<pre class="syntax"><code>[UserData]
 OrgName
 FullName</code></pre>
 <div class="alert">

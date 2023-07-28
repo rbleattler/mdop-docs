@@ -1,5 +1,5 @@
 ---
-title: How to Modify an Existing Virtual Application Package
+title: Modify an Existing Virtual Application Package
 description: How to Modify an Existing Virtual Application Package
 author: dansimp
 ms.assetid: 6cdeec00-e4fe-4210-b4c7-6ca1ac643ddd
@@ -14,7 +14,7 @@ ms.date: 11/01/2016
 ---
 
 
-# How to Modify an Existing Virtual Application Package
+# Modify an Existing Virtual Application Package
 
 
 This topic explains how to:

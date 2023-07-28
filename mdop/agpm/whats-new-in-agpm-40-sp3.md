@@ -13,7 +13,6 @@ ms.prod: w10
 ms.date: 09/27/2016
 ---
 
-
 # What's New in AGPM 4.0 SP3
 
 This content describes enhancements and supported configurations for Microsoft Advanced Group Policy Management (AGPM) 4.0 Service Pack 3 (SP3). If there's a difference between this content and other AGPM documentation, consider this content authoritative and assume that it supersedes the other documentation.
@@ -21,6 +20,10 @@ This content describes enhancements and supported configurations for Microsoft A
 ## <a href="" id="what-s-new"></a>What’s new
 
 AGPM 4.0 SP3 supports the following features and functionality.
+
+### Support for Windows Server 2022
+
+AGPM 4.0 SP3 adds support for Windows Server 2022
 
 ### Support for Windows 11
 
@@ -44,7 +47,7 @@ You can upgrade the AGPM Client or AGPM Server to AGPM 4.0 SP3 without being pr
 
 **AGPM 4.0 SP3 supported upgrades**
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -133,8 +136,8 @@ AGPM 4.0 SP3 supports the configurations in the following table. Although AGPM 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Windows Server 2019 or Windows 10</p></td>
-<td align="left"><p>Windows 10</p></td>
+<td align="left"><p>Windows Server 2019, Windows Server 2022, Windows 10, Windows 11 </p></td>
+<td align="left"><p>Windows 10, Windows 11 </p></td>
 <td align="left"><p>Supported</p></td>
 </tr>
 <tr class="odd">
@@ -179,7 +182,7 @@ AGPM 4.0 SP3 supports the configurations in the following table. Although AGPM 
 
 The following table describes the behavior of AGPM 4.0 SP3 Client and Server installers when the .NET Framework 4.5.1, PowerShell 3.0, or the GPMC in the Remote Server Administration Tools is missing.
 
-| AGPM Client            |                                                                                                 |                                                                            | AGPM Server                                                                     |                                                                                                 |                                                                                 |
+| AGPM Client            |  &nbsp;  |    &nbsp;  | AGPM Server                                                                     |               &nbsp;                                                                                  | &nbsp;   |     
 |------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | Operating system       | .NET Framework                                                                                  | PowerShell                                                                 | Remote Server Administration Tools                                              | .NET Framework                                                                                  | Remote Server Administration Tools                                              |
 | Windows 10             | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If PowerShell 3.0 isn't installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. |
@@ -197,5 +200,6 @@ AGPM 4.0 SP3 is a part of the Microsoft Desktop Optimization Pack (MDOP) since M
 [Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3](release-notes-for-microsoft-advanced-group-policy-management-40-sp3.md)
 
 [Choosing Which Version of AGPM to Install](choosing-which-version-of-agpm-to-install.md)
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: How to Enable Only Administrators to Publish Packages by Using an ESD
-description: How to Enable Only Administrators to Publish Packages by Using an ESD
+title: Enable Only Administrators to Publish Packages by Using an ESD
+description: Enable Only Administrators to Publish Packages by Using an ESD
 author: dansimp
 ms.assetid: 03367b26-83d5-4299-ad52-b9177b9cf9a8
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Enable Only Administrators to Publish Packages by Using an ESD
+# Enable Only Administrators to Publish Packages by Using an ESD
 
 
 Starting in App-V 5.0 SP3, you can configure the App-V client so that only administrators (not end users) can publish or unpublish packages. In earlier versions of App-V, you could not prevent end users from performing these tasks.

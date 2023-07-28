@@ -1,5 +1,5 @@
 ---
-title: How to Use the Self-Service Portal to Regain Access to a Computer
+title: Use the Self-Service Portal to Regain Access to a Computer
 description: How to Use the Self-Service Portal to Regain Access to a Computer
 author: dansimp
 ms.assetid: 3c24b13a-d1b1-4763-8ac0-0b2db46267e3
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Use the Self-Service Portal to Regain Access to a Computer
+# Use the Self-Service Portal to Regain Access to a Computer
 
 
 The Self-Service Portal is a website that IT administrators configure as part of their Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 deployment. The website enables end users to independently regain access to their computers if they get locked out of Windows. The Self-Service Portal requires no assistance from Help Desk staff.

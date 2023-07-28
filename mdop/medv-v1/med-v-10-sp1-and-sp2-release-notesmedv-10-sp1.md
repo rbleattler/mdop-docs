@@ -67,7 +67,7 @@ Microsoft may have patents, patent applications, trademarks, copyrights, or othe
 
 
 
-Microsoft, Microsoft Enterprise Desktop Virtualization, MS-DOS, Windows, Windows Server, Windows Vista, Active Directory, and ActiveSync are either registered trademarks or trademarks of Microsoft Corporation in the U.S.A. and/or other countries.
+Microsoft, Microsoft Enterprise Desktop Virtualization, MS-DOS, Windows, Windows Server, Windows Vista, Active Directory, and ActiveSync are either registered trademarks or trademarks of Microsoft Corporation in the U.S.A. and/or other countries/regions.
 
 The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
 

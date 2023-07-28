@@ -1,5 +1,5 @@
 ---
-title: How to Create and Use a Project Template
+title: Create and Use a Project Template
 description: How to Create and Use a Project Template
 author: dansimp
 ms.assetid: e5ac1dc8-a88f-4b16-8e3c-df07ef5e4c3b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create and Use a Project Template
+# Create and Use a Project Template
 
 
 You can use an App-V 5.1 project template to save commonly applied settings associated with an existing virtual application package. These settings can then be applied when you create new virtual application packages in your environment. Using a project template can streamline the process of creating virtual application packages.

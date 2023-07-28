@@ -16,6 +16,8 @@ ms.date: 06/16/2016
 
 # Troubleshooting AGPM
 
+> [!div class="nextstepaction"]
+> <a href="https://vsa.services.microsoft.com/v1.0/?partnerId=7d74cf73-5217-4008-833f-87a1a278f2cb&flowId=DMC&initialQuery=31806284" target='_blank'>Try our Virtual Agent</a> - It can help you quickly identify and fix common Group Policy Management issues.
 
 This section lists common issues that you may encounter when you use Advanced Group Policy Management (AGPM) to manage Group Policy Objects (GPOs). To diagnose issues not listed here, it may be helpful for an AGPM Administrator (Full Control) to use logging and tracing. For more information, see [Configure Logging and Tracing](configure-logging-and-tracing-agpm40.md).
 

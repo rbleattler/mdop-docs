@@ -1,5 +1,5 @@
 ---
-title: How to Move the App-V Server to Another Computer
+title: Move the App-V Server to Another Computer
 description: How to Move the App-V Server to Another Computer
 author: dansimp
 ms.assetid: 853af9eb-db5b-421d-a0fe-79ded8752cef
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Move the App-V Server to Another Computer
+# Move the App-V Server to Another Computer
 
 
 Use the following information to create a new management server console in your environment.

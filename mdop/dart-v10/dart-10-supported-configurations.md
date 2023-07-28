@@ -111,7 +111,7 @@ Microsoft provides support for the current service pack and, in some cases, the 
 
  
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />
@@ -160,7 +160,7 @@ DaRT 10 enables a help desk worker to connect to a DaRT 10 computer by using eit
 
 The following table lists the operating systems that are supported for the DaRT help desk computer installation.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />
@@ -251,7 +251,7 @@ BIOS support for starting the computer from a CD or DVD, a USB flash drive, or f
 
 The Diagnostics and Recovery Toolset window in DaRT 10 requires that the end-user computer use one of the following operating systems together with the specified amount of system memory available for DaRT:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

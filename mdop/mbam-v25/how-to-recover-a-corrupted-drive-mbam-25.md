@@ -1,5 +1,5 @@
 ---
-title: How to Recover a Corrupted Drive
+title: Recover a corrupted drive
 description: How to Recover a Corrupted Drive
 author: dansimp
 ms.assetid: fa5b846b-dda6-4ae4-bf6c-39e4f1d8aa00
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Recover a Corrupted Drive
+# Recover a corrupted drive
 
 
 You can use this procedure with the Administration and Monitoring Website (also referred to as the Help Desk) Website to recover a corrupted drive that is protected by BitLocker. To do this, you will complete the tasks outlined in the following table.

@@ -1,5 +1,5 @@
 ---
-title: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
+title: Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
 description: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
 author: dansimp
 ms.assetid: 02afd6d6-4c33-4c0b-bd88-ae167b786fdf
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
+# Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
 
 
 Use the following procedure to install the database server and management server on different computers. The computer you plan to install the database server on must be running a supported version of Microsoft SQL or the installation will fail.

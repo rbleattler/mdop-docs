@@ -1,5 +1,5 @@
 ---
-title: How to Run the Crash Analyzer on an End-user Computer
+title: Run Crash Analyzer on an End-user Computer
 description: How to Run the Crash Analyzer on an End-user Computer
 author: dansimp
 ms.assetid: 40af4ead-6588-4a81-8eaa-3dc00c397e1d
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Run the Crash Analyzer on an End-user Computer
+# Run Crash Analyzer on an End-user Computer
 
 
 Typically, you run Microsoft Diagnostics and Recovery Toolset (DaRT) 7 Crash Analyzer from the Diagnostics and Recovery Toolset window on an end-user computer that has problems. The Crash Analyzer tries to locate the Debugging Tools for Windows on the problem computer. If the directory path dialog box is empty, you must enter the location or browse to the location of the Debugging Tools for Windows (you can download the files from Microsoft). You must also provide a path to where the symbol files are located.
