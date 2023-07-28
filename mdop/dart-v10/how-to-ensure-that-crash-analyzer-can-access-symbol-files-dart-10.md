@@ -1,5 +1,5 @@
 ---
-title: How to Ensure that Crash Analyzer Can Access Symbol Files
+title: Ensure that Crash Analyzer Can Access Symbol Files
 description: How to Ensure that Crash Analyzer Can Access Symbol Files
 author: dansimp
 ms.assetid: 39e307bd-5d21-4e44-bed6-bf532f580775
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Ensure that Crash Analyzer Can Access Symbol Files
+# Ensure that Crash Analyzer Can Access Symbol Files
 
 
 Typically, debugging information is stored in a symbol file that is separate from the program. You must have access to the symbol information when you debug an application that has stopped responding.

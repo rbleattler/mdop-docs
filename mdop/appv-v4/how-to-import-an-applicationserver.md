@@ -1,5 +1,5 @@
 ---
-title: How to Import an Application
+title: Import an Application
 description: How to Import an Application
 author: dansimp
 ms.assetid: ab40acad-1025-478d-8e13-0e1ff1bd37e4
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Import an Application
+# Import an Application
 
 
 Typically, you import applications to make them available to stream from an Application Virtualization Management Server. You can also add an application manually, but you must provide precise, detailed information about the application to do so. For more information, see [How to Manually Add an Application](how-to-manually-add-an-application.md).

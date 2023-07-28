@@ -22,8 +22,6 @@ The following recommendations can be used as a baseline to help determine capaci
 **Important**  
 Use the information in this section only as a general guide for planning your App-V 5.1 deployment. Your system capacity requirements will depend on the specific details of your hardware and application environment. Additionally, the performance numbers displayed in this document are examples and your results may vary.
 
- 
-
 ## Determine the Project Scope
 
 
@@ -792,7 +790,7 @@ The following list identifies the main factors to consider when setting up the A
 
 The following table displays sample values for each of the factors in the previous list:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

@@ -30,6 +30,10 @@ This section includes technical information about features in Microsoft BitLocke
 
     This topic provides a list of Server events for MBAM.
 
+- [BitLocker deployment comparison](/windows/security/information-protection/bitlocker/bitlocker-deployment-comparison)
+
+    This topic provides information on the BitLocker deployment comparison chart.
+
 ## Other resources for MBAM operations
 
 
@@ -46,13 +50,12 @@ This section includes technical information about features in Microsoft BitLocke
 [Troubleshooting MBAM 2.5](troubleshooting-mbam-25.md)
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
  
 
  
-
 
 
 

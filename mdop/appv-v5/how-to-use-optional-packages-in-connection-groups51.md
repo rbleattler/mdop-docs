@@ -1,6 +1,6 @@
 ---
-title: How to Use Optional Packages in Connection Groups
-description: How to Use Optional Packages in Connection Groups
+title: Use Optional Packages in Connection Groups
+description: Use Optional Packages in Connection Groups
 author: dansimp
 ms.assetid: 67666f18-b704-4852-a1e4-d13633bd2baf
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Use Optional Packages in Connection Groups
+# Use Optional Packages in Connection Groups
 
 
 Starting in Microsoft Application Virtualization (App-V) 5.0 SP3, you can add optional packages to your connection groups to simplify connection group management. The following table summarizes the tasks that you can complete more easily by using optional packages, and provides links to instructions for each task.
@@ -116,7 +116,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </ul></li>
 </ol>
 <p><strong>Example connection group XML document with optional packages:</strong></p>
-<pre class="syntax" space="preserve"><code>&lt;?xml version=&quot;1.0&quot; ?&gt;
+<pre class="syntax"><code>&lt;?xml version=&quot;1.0&quot; ?&gt;
 &lt;AppConnectionGroup
    xmlns=&quot;<a href="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&amp;quot" data-raw-source="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&amp;quot">https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup&quot</a>;
    AppConnectionGroupId=&quot;8105CCD5-244B-4BA1-8888-E321E688D2CB&quot;

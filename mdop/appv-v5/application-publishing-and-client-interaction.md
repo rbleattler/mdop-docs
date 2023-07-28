@@ -807,7 +807,7 @@ This process will re-create both the local and network locations for AppData and
 
 In an App-V Full Infrastructure, after applications are sequenced they are managed and published to users or computers via the App-V Management and Publishing servers. This section details the operations that occur during the common App-V application lifecycle operations (Add, publishing, launch, upgrade, and removal) and the file and registry locations that are changed and modified from the App-V Client perspective. The App-V Client operations are performed as a series of PowerShell commands initiated on the computer running the App-V Client.
 
-This document focuses on App-V Full Infrastructure solutions. For specific information on App-V Integration with Configuration Manager 2012 visit: <https://go.microsoft.com/fwlink/?LinkId=392773>.
+This document focuses on App-V Full Infrastructure solutions. For specific information on App-V Integration with Configuration Manager 2012, see [App-V Supported Configurations](/windows/application-management/app-v/appv-supported-configurations).
 
 The App-V application lifecycle tasks are triggered at user login (default), machine startup, or as background timed operations. The settings for the App-V Client operations, including Publishing Servers, refresh intervals, package script enablement, and others, are configured during setup of the client or post-setup with PowerShell commands. See the How to Deploy the Client section on TechNet at: [How to Deploy the App-V Client](how-to-deploy-the-app-v-client-gb18030.md) or utilize the PowerShell:
 
@@ -901,7 +901,7 @@ Adding an App-V package to the client is the first step of the publishing refres
 
 This completes an App-V package add of the publishing refresh process. The next step is publishing the package to the specific target (machine or user).
 
-![package add file and registry data](images/packageaddfileandregistrydata.png)
+![package add file and registry data.](images/packageaddfileandregistrydata.png)
 
 ### Publishing an App-V package
 
@@ -932,7 +932,7 @@ During the Publishing Refresh operation, the specific publishing operation (Publ
 
 Publishing an App-V Package that is part of a Connection Group is very similar to the above process. For connection groups, the path that stores the specific catalog information includes PackageGroups as a child of the Catalog Directory. Review the machine and users catalog information above for details.
 
-![package add file and registry data - global](images/packageaddfileandregistrydata-global.png)
+![package add file and registry data - global.](images/packageaddfileandregistrydata-global.png)
 
 ### Application launch
 
@@ -958,7 +958,7 @@ After the Publishing Refresh process, the user launches and subsequently re-laun
 
 7.  The Application launches. For any missing files in the package store (sparse files), App-V will stream fault the files on an as needed basis.
 
-    ![package add file and registry data - stream](images/packageaddfileandregistrydata-stream.png)
+    ![package add file and registry data - stream.](images/packageaddfileandregistrydata-stream.png)
 
 ### Upgrading an App-V package
 

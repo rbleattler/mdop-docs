@@ -74,11 +74,11 @@ Use the following procedures to publish the default application and to stream it
 
 18. Locate the line that contains the **HREF** tag, and change it to the following code:
 
-         `CODEBASEHREF=”RTSP://<FQDN of your server>:554/DefaultApp.sft”`
+    `CODEBASEHREF=”RTSP://<FQDN of your server>:554/DefaultApp.sft”`
 
     Or, if you are using RTSPS:
 
-         `CODEBASEHREF=”RTSPS://<FQDN of your server>:322/DefaultApp.sft”`
+    `CODEBASEHREF=”RTSPS://<FQDN of your server>:322/DefaultApp.sft”`
 
 19. Close the DefaultApp.osd file, and save the changes.
 

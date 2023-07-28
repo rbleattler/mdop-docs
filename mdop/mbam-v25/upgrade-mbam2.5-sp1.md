@@ -7,7 +7,8 @@ audience: ITPro
 ms.topic: article  
 ms.prod: w10
 ms.localizationpriority: medium
---- 
+ms.date: 05/27/2020
+---
 
 # Upgrade from MBAM 2.5 to MBAM 2.5 SP1 Servicing Release Update
 
@@ -64,4 +65,4 @@ Watch this video to learn how to upgrade the MBAM Web Server:
 
 ## More information
 
-For more information about known issues in MBAM 2.5 SP1, see [Release Notes for MBAM 2.5 SP1](https://docs.microsoft.com/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1).
+For more information about known issues in MBAM 2.5 SP1, see [Release Notes for MBAM 2.5 SP1](/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1).

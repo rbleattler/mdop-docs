@@ -1,5 +1,5 @@
 ---
-title: How to Recover Local Computers by Using the DaRT Recovery Image
+title: Recover Local Computers by Using the DaRT Recovery Image
 description: How to Recover Local Computers by Using the DaRT Recovery Image
 author: dansimp
 ms.assetid: f679d522-49ab-429c-93d0-294c3f3e5639
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Recover Local Computers by Using the DaRT Recovery Image
+# Recover Local Computers by Using the DaRT Recovery Image
 
 
 Use these instructions to recover a computer when you are physically present at the end-user computer that is experiencing problems.
@@ -44,11 +44,11 @@ Use these instructions to recover a computer when you are physically present at 
 
 
 
-~~~
+
 If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.
 
 The **System Recovery Options** window appears and lists various recovery tools.
-~~~
+
 
 7. On the **System Recovery Options** window, click **Microsoft Diagnostics and Recovery Toolset**.
 

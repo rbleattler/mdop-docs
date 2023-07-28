@@ -48,9 +48,9 @@ Disclaimer: The Microsoft Application Virtualization Sequencer does not give you
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 4. On the **Installation Files** page, to specify the folder that contains the installation files that you used to create the original virtual application package, click **Browse**, and then select the directory that contains the installation files.
 
@@ -59,9 +59,9 @@ Click **Next**.
 
 
 
-~~~
+
 If the application is already installed on the computer running the Sequencer, to specify the installation file, select **Files installed on local system**. To use this option, the application must already be installed in the default installation location.
-~~~
+
 
 5. On the **Gathering Information** page, review the files that were not found in the location specified on the **Installation Files** page of this wizard. If the files displayed are not required, select **Remove these files**, and then click **Next**. If the files are required, click **Previous** and copy the required files to the directory specified on the **Installation Files** page.
 

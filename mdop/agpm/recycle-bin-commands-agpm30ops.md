@@ -1,5 +1,5 @@
 ---
-title: Recycle Bin Commands
+title: Commands on the Recycle Bin Tab
 description: Recycle Bin Commands
 author: dansimp
 ms.assetid: ffe8f020-7aa9-40ad-8019-cc99901a7840
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Recycle Bin Commands
+# Commands on the Recycle Bin Tab
 
 
 The **Recycle Bin** tab:

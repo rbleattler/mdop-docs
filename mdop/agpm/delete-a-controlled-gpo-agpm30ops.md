@@ -1,5 +1,5 @@
 ---
-title: Delete a Controlled GPO
+title: How to Delete a Controlled GPO
 description: Delete a Controlled GPO
 author: dansimp
 ms.assetid: f51c1737-c116-4faf-a6f6-c72303f60a3b
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delete a Controlled GPO
+# How to Delete a Controlled GPO
 
 
 Approvers can delete a controlled Group Policy Object (GPO), moving it to the Recycle Bin.

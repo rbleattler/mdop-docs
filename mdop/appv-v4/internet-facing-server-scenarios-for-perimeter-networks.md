@@ -19,7 +19,7 @@ ms.date: 08/30/2016
 
 App-V 4.5 supports Internet-facing server scenarios, in which users who are not connected to the corporate network or who disconnect from the network can still use App-V. As shown in the following illustration, only the use of secure protocols on the Internet (RTSPS and HTTPS) is supported.
 
-![app-v firewall positioning diagram](images/appvfirewalls.gif)
+![app-v firewall positioning diagram.](images/appvfirewalls.gif)
 
 You can set up an Internet-facing solution, using an ISA Server, where the App-V infrastructure is on the internal network in the following ways:
 
@@ -29,7 +29,7 @@ You can set up an Internet-facing solution, using an ISA Server, where the App-V
 
 As shown in the following illustration, if the infrastructure has implemented other firewalls between the client and the ISA Server or between the ISA Server and the internal network, both RTSPS (TCP 322) and HTTPS (TCP 443) firewall rules must be created to support the flow of traffic. Also, if firewalls have been implemented between the ISA Server and the internal network, the default traffic required for domain members must be permitted to tunnel through the firewall (DNS, LDAP, Kerberos, SMB/CIFS).
 
-![app-v perimeter network firewall diagram](images/appvperimeternetworkfirewall.gif)
+![app-v perimeter network firewall diagram.](images/appvperimeternetworkfirewall.gif)
 
 Because the firewall solutions vary from environment to environment, the guidance provided in this topic describes the traffic that would be required to configure an Internet-facing App-V environment in the perimeter network. This information also includes the recommended internal network servers.
 

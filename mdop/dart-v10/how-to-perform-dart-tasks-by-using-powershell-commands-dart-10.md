@@ -1,5 +1,5 @@
 ---
-title: How to Perform DaRT Tasks by Using PowerShell Commands
+title: How to Perform DaRT Tasks by Using PowerShell
 description: How to Perform DaRT Tasks by Using PowerShell Commands
 author: dansimp
 ms.assetid: f5a5c5f9-d667-4c85-9e82-7baf0b2aec6e
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Perform DaRT Tasks by Using PowerShell Commands
+# How to Perform DaRT Tasks by Using PowerShell
 
 
 Microsoft Diagnostics and Recovery Toolset (DaRT) 10 provides the following listed set of Windows PowerShell cmdlets. Administrators can use these PowerShell cmdlets to perform various DaRT 10 server tasks from the command prompt rather than from the DaRT Recovery Image wizard.

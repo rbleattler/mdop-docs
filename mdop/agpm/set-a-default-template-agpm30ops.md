@@ -1,5 +1,5 @@
 ---
-title: Set a Default Template
+title: Setting a Default Template
 description: Set a Default Template
 author: dansimp
 ms.assetid: 84edbd69-451b-4c10-a898-781d4b75d09c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Set a Default Template
+# Setting a Default Template
 
 
 As an Editor, you can specify which of the available templates will be the default template suggested for all Group Policy administrators creating new Group Policy Objects (GPOs).

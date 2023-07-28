@@ -41,7 +41,7 @@ Use the following procedure to create a virtual application by using the command
 
 
 
-~~~
+
 Use the value descriptions in the following table to help you determine the actual text you will use in the preceding command.
 
 <table>
@@ -70,7 +70,7 @@ Use the value descriptions in the following table to help you determine the actu
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 

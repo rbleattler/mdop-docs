@@ -1,5 +1,5 @@
 ---
-title: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
+title: Transfer Access and Configurations to Another Version of a Package by Using the Management Console
 description: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
 author: dansimp
 ms.assetid: d41d64a0-0333-4951-ab27-db595bf0f634
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
+# Transfer Access and Configurations to Another Version of a Package by Using the Management Console
 
 
 Use the following procedure to transfer the access and default package configurations to another version of a package by using the management console.
@@ -29,7 +29,7 @@ Use the following procedure to transfer the access and default package configura
 
     If you select **transfer access and configurations from**, then all access permissions, as well as the configuration settings, will be copied.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

@@ -46,7 +46,7 @@ For this scenario, you will use a separate user account for each role in AGPM to
 
 -   Using an account with the Approver role, delete and restore a GPO.
 
-![group policy object development process](images/ab77a1f3-f430-4e7d-be58-ee8f9bd1140e.gif)
+![group policy object development process.](images/ab77a1f3-f430-4e7d-be58-ee8f9bd1140e.gif)
 
 ## Requirements
 

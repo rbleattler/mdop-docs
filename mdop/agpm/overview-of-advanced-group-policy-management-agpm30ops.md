@@ -1,6 +1,6 @@
 ---
-title: Overview of Advanced Group Policy Management
-description: Overview of Advanced Group Policy Management
+title: Advanced Group Policy Management Overview
+description: Advanced Group Policy Management Overview
 author: dansimp
 ms.assetid: 3a8d1e58-12b9-42bd-898f-6d57514dfbb9
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Overview of Advanced Group Policy Management
+# Advanced Group Policy Management Overview
 
 
 You can use Advanced Group Policy Management (AGPM) to extend the capabilities of the Group Policy Management Console (GPMC) to provide comprehensive change control and improved management for Group Policy Objects (GPOs).

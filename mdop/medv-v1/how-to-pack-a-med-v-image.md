@@ -40,13 +40,13 @@ A MED-V image must be packed before it can be added to a deployment package or u
 
 
 
-~~~
+
     A new packed image will be created.
 
 -   From the drop-down list, select an existing name.
 
     A new version of the existing image will be created.
-~~~
+
 
 5. Click **OK**.
 

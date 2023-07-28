@@ -158,10 +158,10 @@ WMI and Windows PowerShell commands let you restore application and Windows sett
 
 
 
-~~~
+
 **Note**  
 UE-V does not provide a settings rollback for Windows apps.
-~~~
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Configure Logging and Tracing
+title: How to Configure Logging and Tracing
 description: Configure Logging and Tracing
 author: dansimp
 ms.assetid: 2418cb6a-7189-4080-8fe2-9c8d47dec62c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure Logging and Tracing
+# How to Configure Logging and Tracing
 
 
 You can centrally configure optional logging and tracing using Administrative templates. This may be helpful when diagnosing any problems related to Advanced Group Policy Management (AGPM).

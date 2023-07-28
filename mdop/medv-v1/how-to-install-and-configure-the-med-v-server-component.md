@@ -77,9 +77,9 @@ The following server settings can be configured:
 
 
 
-~~~
+
 The MED-V Server Configuration Manager appears.
-~~~
+
 
 2. On the **Connections** tab, configure the following client connections settings:
 

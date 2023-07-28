@@ -85,10 +85,10 @@ This topic describes how to change the Windows registry by using Registry Editor
 
 
 
-~~~
+
 **Note**  
 MBAM policy or registry values can be set here to override the previously set values.
-~~~
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Create a New Controlled GPO
-description: Create a New Controlled GPO
+title: How to Create a New Controlled GPO
+description: How to Create a New Controlled GPO
 author: dansimp
 ms.assetid: f89eaae8-7858-4222-ba3f-a93a9d7ea5a3
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Create a New Controlled GPO
+# How to Create a New Controlled GPO
 
 
 New Group Policy Objects (GPOs) created through the **Change Control** folder will automatically be controlled, enabling you to manage them.

@@ -1,5 +1,5 @@
 ---
-title: Uncontrolled GPO Commands
+title: Uncontrolled Tab GPO Commands
 description: Uncontrolled GPO Commands
 author: dansimp
 ms.assetid: 05a8050f-adc3-465b-8524-bbe95745165c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Uncontrolled GPO Commands
+# Uncontrolled Tab GPO Commands
 
 
 The **Uncontrolled** tab:

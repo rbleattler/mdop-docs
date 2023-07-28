@@ -65,9 +65,9 @@ Use the following procedure to create a virtual application package by using a P
 
 
 
-~~~
+
 If the Package Accelerator requires an application be installed prior to applying the Package Accelerator and you have installed the application, on the **Local Installation** page, select the check box **I have installed all applications**, and then click **Next**.
-~~~
+
 
 6. On the **Package Name** page, specify a name that will be associated with the package. The name specified identifies the package in the App-V Management Console. Click **Next**.
 

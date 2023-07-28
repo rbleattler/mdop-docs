@@ -40,9 +40,9 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
 
 
 
-~~~
+
 As the computer is booting into the DaRT recovery image, the **NetStart** dialog box appears.
-~~~
+
 
 2. When you are asked whether you want to initialize network services, select one of the following:
 
@@ -63,11 +63,11 @@ As the computer is booting into the DaRT recovery image, the **NetStart** dialog
 
 
 
-~~~
+
 If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.
 
 The **System Recovery Options** window appears and lists various recovery tools.
-~~~
+
 
 7. On the **System Recovery Options** window, click **Microsoft Diagnostics and Recovery Toolset** to open the **Diagnostics and Recovery Toolset**.
 
@@ -181,10 +181,10 @@ When DaRT starts, it creates the file inv32.xml in \\Windows\\System32\\ on the 
 
 
 
-~~~
+
 **Note**  
 The variables for these parameters are created on the end-user computer and must be provided by the end user.
-~~~
+
 
 
 
