@@ -1,5 +1,5 @@
 ---
-title: How to Create a Connection Group
+title: Create a Connection Group
 description: How to Create a Connection Group
 author: dansimp
 ms.assetid: 221e2eed-7ebb-42e3-b3d6-11c37c0578e6
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Connection Group
+# Create a Connection Group
 
 
 Use these steps to create a connection group by using the App-V Management Console. To use PowerShell to create connection groups, see [How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell](how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell51.md).
@@ -44,7 +44,7 @@ When you place packages in a connection group, their package root paths are merg
 
 6.  After adding all the applications and configuring Active Directory access, click **Apply**.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

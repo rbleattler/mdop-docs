@@ -1,19 +1,15 @@
 ---
-title: How to Recover Local Computers by Using the DaRT Recovery Image
-description: How to Recover Local Computers by Using the DaRT Recovery Image
-author: dansimp
-ms.assetid: a6adc717-827c-45e8-b9c3-06d0e919e0bd
+title: How to recover local computers by using the DaRT recovery image
+description: How to recover local computers by using the DaRT recovery image.
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 04/20/2021
 ---
 
-# How to Recover Local Computers by Using the DaRT Recovery Image
+# How to recover local computers by using the DaRT recovery image
 
 Use these instructions to recover a computer when you are physically present at the end-user computer that is experiencing problems.
 
@@ -53,33 +49,18 @@ You can click **Help** on the **Diagnostics and Recovery Toolset** window to ope
 
 For general information about any of the DaRT tools, see [Overview of the Tools in DaRT 10](overview-of-the-tools-in-dart-10.md).
 
-## How to run DaRT at the Command Prompt
+## How to run DaRT at the command prompt
 
 To run DaRT at the command prompt, specify the `netstart.exe` command then use any of the following parameters:
 
-<table>
-<tr class="header">
-<th>Parameter</th>
-<th>Description</th>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-network</td>
-<td>Initializes the network services.</td>
-</tr>
-<tr class="even">
-<td>-remount</td>
-<td>Remaps the drive letters.</td>
-</tr>
-<tr class="odd">
-<td>-prompt</td>
-<td>Displays messages that ask the end user to specify whether to initialize the network and remap the drives.
+| Parameter | Description |
+|--|--|
+| `-network` | Initializes the network services. |
+| `-remount` | Remaps the drive letters. |
+| `-prompt` | Displays messages that ask the end user to specify whether to initialize the network and remap the drives. |
 
 > [!WARNING]
-> The end user’s response to the prompt overrides the `–network` and `–remount` switches.
-</tr>
-</tbody>
-</table>
+> The end user's response to the prompt overrides the `-network` and `-remount` switches.
 
 ## Related topics
 

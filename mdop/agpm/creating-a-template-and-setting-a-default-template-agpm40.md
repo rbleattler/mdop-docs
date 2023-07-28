@@ -1,5 +1,5 @@
 ---
-title: Creating a Template and Setting a Default Template
+title: Create a Template and Set a Default Template
 description: Creating a Template and Setting a Default Template
 author: dansimp
 ms.assetid: ffa72c2a-64eb-4492-8072-c3a66179b546
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Creating a Template and Setting a Default Template
+# Create a Template and Set a Default Template
 
 
 Creating a template enables you to save all the settings of a particular version of a Group Policy Object (GPO) to use as a starting point for creating new GPOs. As an Editor, you can also specify which of the available templates will be the default template for all Group Policy administrators creating new GPOs.

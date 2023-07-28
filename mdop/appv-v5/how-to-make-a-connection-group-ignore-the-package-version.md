@@ -1,5 +1,5 @@
 ---
-title: How to Make a Connection Group Ignore the Package Version
+title: Make a Connection Group Ignore the Package Version
 description: How to Make a Connection Group Ignore the Package Version
 author: dansimp
 ms.assetid: 6ebc1bff-d190-4f4c-a6da-e09a4cca7874
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Make a Connection Group Ignore the Package Version
+# Make a Connection Group Ignore the Package Version
 
 
 Microsoft Application Virtualization (App-V) 5.0 SP3 enables you to configure a connection group to use any version of a package, which simplifies package upgrades and reduces the number of connection groups you need to create.

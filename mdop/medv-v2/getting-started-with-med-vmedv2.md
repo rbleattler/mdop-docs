@@ -1,5 +1,5 @@
 ---
-title: Getting Started with MED-V
+title: Get Started with MED-V
 description: Getting Started with MED-V
 author: dansimp
 ms.assetid: 283734d7-231c-45b6-92c9-c95a46ec3628
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Getting Started with MED-V
+# Get Started with MED-V
 
 
 This section provides general information for administrators who are evaluating and using Microsoft Enterprise Desktop Virtualization (MED-V) 2.0.

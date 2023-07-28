@@ -1,6 +1,6 @@
 ---
-title: How to Install the Sequencer
-description: How to Install the Sequencer
+title: Learn to Install the Sequencer
+description: Learn to Install the Sequencer
 author: dansimp
 ms.assetid: 5e8f1696-9bc0-4f44-8cb7-b809b2daae10
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install the Sequencer
+# Learn to Install the Sequencer
 
 
 Use the following procedure to install the Microsoft Application Virtualization (App-V) 5.1 sequencer. The computer that will run the sequencer must not be running any version of the App-V 5.1 client.
@@ -97,7 +97,7 @@ You can also use the command line to install the App-V 5.1 sequencer. The follow
 
 -   For more information regarding the sequencer installation, you can view the error log in the **%temp%** folder. To review the log files, click **Start**, type **%temp%**, and then look for the **appv\_ log**.
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

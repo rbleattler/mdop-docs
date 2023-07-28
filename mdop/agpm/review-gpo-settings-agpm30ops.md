@@ -1,5 +1,5 @@
 ---
-title: Review GPO Settings
+title: How to review GPO Settings
 description: Review GPO Settings
 author: dansimp
 ms.assetid: bed956d0-082e-4fa9-bf1e-572d0d3d02ec
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Review GPO Settings
+# How to Review GPO Settings
 
 
 You can generate HTML-based and XML-based reports for reviewing settings within any version of a Group Policy Object (GPO).

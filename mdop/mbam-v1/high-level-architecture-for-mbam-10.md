@@ -31,7 +31,7 @@ At least a three-computer MBAM deployment topology is recommended for a producti
 
  
 
-![mbam single server deployment topology](images/mbam-1-server.jpg)
+![mbam single server deployment topology.](images/mbam-1-server.jpg)
 
 1.  **Administration and Monitoring Server**. The MBAM Administration and Monitoring Server is installed on a Windows server and hosts the MBAM Administration and Management website and the monitoring web services. The MBAM Administration and Management website is used to determine enterprise compliance status, to audit activity, to manage hardware capability, and to access recovery data, such as the BitLocker recovery keys. The Administration and Monitoring Server connects to the following databases and services:
 

@@ -1,6 +1,6 @@
 ---
-title: Application Virtualization Deployment and Upgrade Considerations
-description: Application Virtualization Deployment and Upgrade Considerations
+title: Considerations for Application Virtualization Deployment and Upgrade
+description: Considerations for Application Virtualization Deployment and Upgrade
 author: dansimp
 ms.assetid: adc562ee-7276-4b14-b10a-da17f05e1682
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Application Virtualization Deployment and Upgrade Considerations
+# Considerations for Application Virtualization Deployment and Upgrade
 
 
 Before you begin the deployment of Microsoft Application Virtualization, you might need to review your environment requirements, including the hardware and software requirements for installing the various Application Virtualization components. Also, if you are upgrading from a previous version, the topics in this section provide information about upgrading your current Sequencer, server, and client versions.

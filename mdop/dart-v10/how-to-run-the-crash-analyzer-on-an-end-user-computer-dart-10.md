@@ -1,39 +1,35 @@
 ---
-title: How to Run the Crash Analyzer on an End-user Computer
-description: How to Run the Crash Analyzer on an End-user Computer
-author: dansimp
-ms.assetid: 10334800-ff8e-43ac-a9c2-d28807473ec2
+title: Run the crash analyzer on an end-user computer
+description: How to run the crash analyzer on an end-user computer.
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 08/30/2016
 ---
 
-# How to Run the Crash Analyzer on an End-user Computer
+# How to run the crash analyzer on an end-user computer
 
-To run **Crash Analyzer** from the **Diagnostics and Recovery Toolset** window on an end-user computer that is experiencing problems, you must have the Microsoft Debugging Tools for Windows and the symbol files installed. To download the Windows Debugging Tools, see the "[Download Debugging Tools for Windows](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools)" page.
+To run **Crash Analyzer** from the **Diagnostics and Recovery Toolset** window on an end-user computer that is experiencing problems, you must have the Microsoft Debugging Tools for Windows and the symbol files installed. To download the Windows Debugging Tools, see [Download debugging tools for Windows](/windows-hardware/drivers/debugger/debugger-download-tools).
 
 To run the Crash Analyzer on an end-user computer:
 
-1. On the **Diagnostics and Recovery Toolset** window on an end-user computer, click **Crash Analyzer**.
+1. On the **Diagnostics and Recovery Toolset** window on an end-user computer, select **Crash Analyzer**.
 
 2. Provide the required information for the Microsoft Debugging Tools for Windows.
 
-3. Provide the required information for the symbol files. For more information about symbol files, see [How to Ensure that Crash Analyzer Can Access Symbol Files](how-to-ensure-that-crash-analyzer-can-access-symbol-files-dart-10.md).
+3. Provide the required information for the symbol files. For more information about symbol files, see [How to ensure that crash analyzer can access symbol files](how-to-ensure-that-crash-analyzer-can-access-symbol-files-dart-10.md).
 
 4. Provide the required information for a memory dump file. To determine the location of the memory dump file:
 
     1. Open the **System Properties** window.
 
-    2. Click **Start**, type **sysdm.cpl**, and then press **Enter**.
+    2. Select **Start**, type **sysdm.cpl**, and then press **Enter**.
 
-    3. Click the **Advanced** tab.
+    3. Select the **Advanced** tab.
 
-    4. In the **Startup and Recovery** area, click **Settings**.
+    4. In the **Startup and Recovery** area, select **Settings**.
 
         If you do not have access to the **System Properties** window, you can search for dump files on the end-user computer by using the **Search** tool in Microsoft Diagnostics and Recovery Toolset (DaRT) 10.
 

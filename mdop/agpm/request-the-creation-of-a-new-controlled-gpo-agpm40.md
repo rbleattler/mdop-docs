@@ -1,5 +1,5 @@
 ---
-title: Request the Creation of a New Controlled GPO
+title: Request Creation of a New Controlled GPO
 description: Request the Creation of a New Controlled GPO
 author: dansimp
 ms.assetid: cb265238-386f-4780-a59a-0c9a4a87d736
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Request the Creation of a New Controlled GPO
+# Request Creation of a New Controlled GPO
 
 
 Unless you are an Approver or an AGPM Administrator (Full Control), you must request the creation of a new Group Policy Object (GPO).

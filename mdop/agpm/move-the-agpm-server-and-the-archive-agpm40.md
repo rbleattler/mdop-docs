@@ -1,6 +1,6 @@
 ---
-title: Move the AGPM Server and the Archive
-description: Move the AGPM Server and the Archive
+title: How to Move the AGPM Server and the Archive
+description: How to Move the AGPM Server and the Archive
 author: dansimp
 ms.assetid: 9ec48d3a-c293-45f0-8939-32ccdc062303
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# Move the AGPM Server and the Archive
+# How to Move the AGPM Server and the Archive
 
 
 If you are replacing the AGPM Server and the server on which the archive is hosted, you must move the AGPM Service and the archive. If you prefer, you can move the AGPM Service and the archive separately.

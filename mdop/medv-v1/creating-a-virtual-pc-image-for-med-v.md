@@ -62,10 +62,10 @@ After the Virtual PC image is created, install the MED-V workspace .msi package 
 
 
 
-~~~
+
 **Note**  
 After the MED-V workspace .msi package is installed, other products that replace GINA cannot be installed.
-~~~
+
 
 
 
@@ -88,9 +88,9 @@ Although many parameters are configurable in the wizard, the properties required
 
 
 
-~~~
+
 The **MED-V VM Prerequisite Wizard Welcome** page appears.
-~~~
+
 
 2. Click **Next**.
 

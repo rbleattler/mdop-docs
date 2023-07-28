@@ -110,10 +110,10 @@ When you deploy MED-V throughout your enterprise, there are two main considerati
 
 
 
-~~~
+
 **Note**  
 After you install Windows Virtual PC, the computer must be restarted.
-~~~
+
 
 
 
@@ -126,10 +126,10 @@ After you install Windows Virtual PC, the computer must be restarted.
 
 
 
-~~~
+
 **Tip**  
 Because of problems that can occur when you install MED-V from a network location, we recommend that you copy the MED-V workspace setup files locally and then run setup.exe.
-~~~
+
 
 
 

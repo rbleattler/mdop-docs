@@ -267,13 +267,13 @@ You can use WMI and PowerShell to manage Microsoft User Experience Virtualizatio
 
 
 
-~~~
+
 Upon configuration of the UE-V Agent with WMI and PowerShell, the defined configuration is stored in the registry in the following locations:
 
 `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\UEV\Agent\Configuration`
 
 `\HKEY_CURRENT_USER\SOFTWARE\Microsoft\UEV\Agent\Configuration`
-~~~
+
 
 ## Related topics
 

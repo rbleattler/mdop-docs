@@ -1,6 +1,6 @@
 ---
-title: Checklist Create, Edit, and Deploy a GPO
-description: Checklist Create, Edit, and Deploy a GPO
+title: Create, Edit, and Deploy GPO Tasks
+description: Create, Edit, and Deploy a GPO Checklist
 author: dansimp
 ms.assetid: a7a17706-304a-4455-9ada-52508ec620f1
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Checklist: Create, Edit, and Deploy a GPO
+# Create, Edit, and Deploy GPO Tasks
 
 
 In an environment where multiple people make changes to Group Policy Objects (GPOs) using Advanced Group Policy Management (AGPM), an AGPM Administrator (Full Control) delegates permission to Editors, Approvers, and Reviewers, either as groups or as individuals. The following is a typical GPO development process for an Editor and an Approver.

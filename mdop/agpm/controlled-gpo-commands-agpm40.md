@@ -1,6 +1,6 @@
 ---
-title: Controlled GPO Commands
-description: Controlled GPO Commands
+title: GPO Commands on the Controlled Tab
+description: List of GPO Commands on the Controlled Tab
 author: dansimp
 ms.assetid: 370d3db9-4efc-4799-983d-e29ba5f32b07
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Controlled GPO Commands
+# GPO Commands on the Controlled Tab
 
 
 The **Controlled** tab:

@@ -1,5 +1,5 @@
 ---
-title: How to Recover Remote Computers by Using the DaRT Recovery Image
+title: Recover Remote Computers by Using the DaRT Recovery Image
 description: How to Recover Remote Computers by Using the DaRT Recovery Image
 author: dansimp
 ms.assetid: 363ccd48-6820-4b5b-a43a-323c0b208a9d
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Recover Remote Computers by Using the DaRT Recovery Image
+# Recover Remote Computers by Using the DaRT Recovery Image
 
 
 Use the Remote Connection feature in Microsoft Diagnostics and Recovery Toolset (DaRT) 8.0 to run the DaRT tools remotely on an end-user computer. After the end user provides the administrator or help desk worker with certain information, the IT administrator or help desk worker can take control of the end user's computer and run the necessary DaRT tools remotely.
@@ -40,9 +40,9 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
 
 
 
-~~~
+
 As the computer is booting into the DaRT recovery image, the **NetStart** dialog box appears.
-~~~
+
 
 2. When you are asked whether you want to initialize network services, select one of the following:
 
@@ -63,11 +63,11 @@ As the computer is booting into the DaRT recovery image, the **NetStart** dialog
 
 
 
-~~~
+
 If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.
 
 The **System Recovery Options** window appears and lists various recovery tools.
-~~~
+
 
 7. On the **System Recovery Options** window, click **Microsoft Diagnostics and Recovery Toolset** to open the **Diagnostics and Recovery Toolset**.
 
@@ -181,10 +181,10 @@ When DaRT starts, it creates the file inv32.xml in \\Windows\\System32\\ on the 
 
 
 
-~~~
+
 **Note**  
 The variables for these parameters are created on the end-user computer and must be provided by the end user.
-~~~
+
 
 
 

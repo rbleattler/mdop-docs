@@ -43,7 +43,7 @@ That’s it! Once you follow the steps, you’ll be able to evaluate how UE-V ca
 
 Before you proceed, make sure your environment includes these requirements for running UE-V.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

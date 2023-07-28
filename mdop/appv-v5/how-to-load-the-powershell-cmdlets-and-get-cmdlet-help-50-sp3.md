@@ -1,5 +1,5 @@
 ---
-title: How to Load the PowerShell Cmdlets and Get Cmdlet Help
+title: Load the PowerShell Cmdlets and Get Cmdlet Help
 description: How to Load the PowerShell Cmdlets and Get Cmdlet Help
 author: dansimp
 ms.assetid: 0624495b-943e-485b-9e54-b50e4ee6591c
@@ -14,7 +14,7 @@ ms.date: 11/02/2016
 ---
 
 
-# How to Load the PowerShell Cmdlets and Get Cmdlet Help
+# Load the PowerShell Cmdlets and Get Cmdlet Help
 
 
 What this topic covers:
@@ -210,7 +210,7 @@ To display help for a specific PowerShell cmdlet:
 
 2.  Type **Get-Help** &lt;*cmdlet*&gt;, for example, **Get-Help Publish-AppvClientPackage**.
 
-**Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue**? Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+**Got an App-V issue**? Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
  
 

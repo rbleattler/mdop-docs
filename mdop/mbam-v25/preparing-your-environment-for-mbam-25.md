@@ -50,8 +50,8 @@ As part of the prerequisites, you must define certain roles and accounts, which 
 [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md)
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
  
 

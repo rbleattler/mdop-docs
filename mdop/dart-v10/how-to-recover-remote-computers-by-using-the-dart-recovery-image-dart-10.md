@@ -1,19 +1,15 @@
 ---
-title: How to Recover Remote Computers by Using the DaRT Recovery Image
-description: How to Recover Remote Computers by Using the DaRT Recovery Image
-author: dansimp
-ms.assetid: c0062208-39cd-4e01-adf8-36a11386e2ea
+title: How to recover remote computers by using the DaRT recovery image
+description: How to recover remote computers by using the DaRT recovery image.
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 04/20/2021
 ---
 
-# How to Recover Remote Computers by Using the DaRT Recovery Image
+# How to recover remote computers by using the DaRT recovery image
 
 Use the Remote Connection feature in Microsoft Diagnostics and Recovery Toolset (DaRT) 10 to run the DaRT tools remotely on an end-user computer. After the end user provides the administrator or help desk worker with certain information, the IT administrator or help desk worker can take control of the end user's computer and run the necessary DaRT tools remotely.
 
@@ -47,9 +43,9 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
 
 4. On the **System Recovery Options** dialog box, select a keyboard layout.
 
-5. Check the displayed system root directory, the kind of operating system installed, and the partition size. If you do not see your operating system listed, and suspect that the lack of drivers is a possible cause of the failure, click **Load Drivers** to load the suspect drivers, and then insert the installation media for the device and select the driver.
+5. Check the displayed system root directory, the kind of operating system installed, and the partition size. If you do not see your operating system listed, and suspect that the lack of drivers is a possible cause of the failure, select **Load Drivers** to load the suspect drivers, and then insert the installation media for the device and select the driver.
 
-6. Select the installation that you want to repair or diagnose, and then click **Next**.
+6. Select the installation that you want to repair or diagnose, and then select **Next**.
 
     The **System Recovery Options** window appears and lists various recovery tools.
 
@@ -59,22 +55,22 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
     > [!IMPORTANT]
     > If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.
 
-7. On the **System Recovery Options** window, click **Microsoft Diagnostics and Recovery Toolset** to open the **Diagnostics and Recovery Toolset**.
+7. On the **System Recovery Options** window, select **Microsoft Diagnostics and Recovery Toolset** to open the **Diagnostics and Recovery Toolset**.
 
-8. On the **Diagnostics and Recovery Toolset** window, click **Remote Connection** to open the **DaRT Remote Connection** window. If you are prompted to give the help desk remote access, click **OK**.
+8. On the **Diagnostics and Recovery Toolset** window, select **Remote Connection** to open the **DaRT Remote Connection** window. If you are prompted to give the help desk remote access, select **OK**.
 
    The DaRT Remote Connection window opens and displays a ticket number, IP address, and port information.
 
 9. On the help desk computer, open the **DaRT Remote Connection Viewer**.
 
-10. Click **Start**, click **All Programs**, click **Microsoft DaRT 10**, and then click **DaRT Remote Connection Viewer**.
+10. Select **Start**, select **All Programs**, select **Microsoft DaRT 10**, and then select **DaRT Remote Connection Viewer**.
 
 11. In the **DaRT Remote Connection** window, enter the required ticket, IP address, and port information.
 
     > [!NOTE]
     > This information is created on the end-user computer and must be provided by the end user. There might be multiple IP addresses to choose from, depending on how many are available on the end-user computer.
 
-12. Click **Connect**.
+12. Select **Connect**.
 
 The IT administrator now assumes control of the end-user computer and can run the DaRT tools remotely.
 
@@ -83,36 +79,17 @@ The IT administrator now assumes control of the end-user computer and can run th
 
 ## To customize the Remote Connection process
 
-You can customize the Remote Connection process by editing the `winpeshl.ini` file. For more information about how to edit the `winpeshl.ini` file, see [Winpeshl.ini Files](https://go.microsoft.com/fwlink/?LinkId=219413).
+You can customize the Remote Connection process by editing the `winpeshl.ini` file. For more information about how to edit the `winpeshl.ini` file, see [Winpeshl.ini Files](/previous-versions/windows/it-pro/windows-vista/cc766156(v=ws.10)).
 
 Specify the following commands and parameters to customize how a remote connection is established with an end-user computer:
 
-<table>
-<thead>
-<tr class="header">
-<th>Command</th>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>RemoteRecovery.exe</td>
-<td style="white-space:pre">-nomessage</td>
-<td>Specifies that the confirmation prompt is not displayed. <strong>Remote Connection</strong> continues just as if the end user had responded &quot;Yes&quot; to the confirmation prompt.</td>
-</tr>
-<tr class="even">
-<td>WaitForConnection.exe</td>
-<td>none</td>
-<td>Prevents a custom script from continuing until either <strong>Remote Connection</strong> is not running or a valid connection is established with the end-user computer.
+| Command | Parameter | Description |
+|--|--|--|
+| RemoteRecovery.exe | `-nomessage` | Specifies that the confirmation prompt is not displayed. **Remote Connection** continues just as if the end user had responded "Yes" to the confirmation prompt. |
+| WaitForConnection.exe | none | Prevents a custom script from continuing until either **Remote Connection** is not running or a valid connection is established with the end-user computer. |
 
 > [!IMPORTANT]
-> This command serves no function if it is specified independently. It must be specified in a script to function correctly.
-
-</td>
-</tr>
-</tbody>
-</table>
+> The WaitForConnection.exe command serves no function if you specify it independently. It must be specified in a script to function correctly.
 
 The following is an example of a winpeshl.ini file that is customized to open the **Remote Connection** tool as soon as an attempt is made to boot into DaRT:
 
@@ -130,28 +107,11 @@ When DaRT starts, it creates the file `inv32.xml` in `\Windows\System32\` on the
 
 To run the **DaRT Remote Connection Viewer** at the command prompt, specify the **DartRemoteViewer.exe** command and use the following parameters:
 
-<table>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-ticket=&lt;<em>ticketnumber</em>&gt;</td>
-<td>Where &lt;<em>ticketnumber</em>&gt; is the ticket number, including the dashes, that is generated by Remote Connection.</td>
-</tr>
-<tr class="even">
-<td>-ipaddress=&lt;<em>ipaddress</em>&gt;</td>
-<td>Where &lt;<em>ipaddress</em>&gt; is the IP address that is generated by Remote Connection.</td>
-</tr>
-<tr class="odd">
-<td>-port=&lt;<em>port</em>&gt;</td>
-<td>Where &lt;<em>port</em>&gt; is the port that corresponds to the specified IP address.</td>
-</tr>
-</tbody>
-</table>
+| Parameter | Description |
+|--|--|
+| `-ticket=<ticketnumber>` | Where `<ticketnumber>` is the ticket number, including the dashes, that Remote Connection generates. |
+| `-ipaddress=<ipaddress>` | Where `<ipaddress>` is the IP address that Remote Connection generates. |
+| `-port=<port>` | Where `<port>` is the port that corresponds to the specified IP address. |
 
 > [!NOTE]
 > The variables for these parameters are created on the end-user computer and must be provided by the end user.

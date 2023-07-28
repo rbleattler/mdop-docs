@@ -35,7 +35,7 @@ After the cache size has been set, it cannot be made smaller.
 
 
 
-~~~
+
 -   **Use maximum cache size**
 
     Enter a numeric value from 100 to 1,048,576 (1 TB) in the **Maximum size (MB)** field to specify the maximum size of the cache. The value shown in **Reserved Cache Size** indicates the amount of cache in use.
@@ -43,7 +43,7 @@ After the cache size has been set, it cannot be made smaller.
 -   **Use free disk space threshold**
 
     Enter a numeric value to specify the amount of free disk space, in MB, that the cache must leave available on the disk. This allows the cache to grow until the amount of free disk space reaches this limit. The value shown in **Free disk space remaining** indicates how much disk space is unused.
-~~~
+
 
 3. Click **OK** or **Apply** to change the setting.
 

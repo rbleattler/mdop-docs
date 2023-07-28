@@ -1,5 +1,5 @@
 ---
-title: How to Install MED-V Client
+title: Install the MED-V Client
 description: How to Install MED-V Client
 author: dansimp
 ms.assetid: bfac6de7-d96d-4b3e-bd8b-183e051e53c8
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install MED-V Client
+# Install the MED-V Client
 
 
 In a deployment package-based scenario, the MED-V client installation is included in the deployment package and installed directly from the package.
@@ -41,14 +41,14 @@ When using a deployment package that does not include an image, ensure that the 
 
 
 
-~~~
+
 **Note**  
 If an older version of the MED-V client exists, it will prompt you asking whether you want to upgrade.
 
 
 
 Depending on the components that have been installed, you might need to reboot. If rebooting is necessary, a message appears notifying you that you must reboot.
-~~~
+
 
 3. If necessary, reboot the computer.
 

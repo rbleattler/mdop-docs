@@ -69,10 +69,10 @@ The following steps describe how to configure the basic, recommended Group Polic
 
 
 
-~~~
+
 **Important**  
 Depending on the policies that your organization decides to deploy, you may have to configure additional policies. See [Planning for MBAM 1.0 Group Policy Requirements](planning-for-mbam-10-group-policy-requirements.md) for Group Policy configuration details for all of the available MBAM GPO policy options.
-~~~
+
 
 
 

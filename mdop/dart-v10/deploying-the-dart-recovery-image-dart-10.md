@@ -1,19 +1,16 @@
 ---
-title: Deploying the DaRT Recovery Image
+title: How to Deploy the DaRT Recovery Image
 description: Deploying the DaRT Recovery Image
-author: dansimp
-ms.assetid: 2b859da6-e31a-4240-8868-93a754328cf2
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 04/20/2021
 ---
 
-# Deploying the DaRT Recovery Image
+
+# How to Deploy the DaRT Recovery Image
 
 ## Deployment information
 

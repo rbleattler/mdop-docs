@@ -52,9 +52,9 @@ During sequencing, if the computer running the App-V Sequencer is running Window
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 7. On the **Installation** page, when the Sequencer and middleware application installer are ready, install the application so that the Sequencer can monitor the installation process. Perform the installation by using the application’s installation process. If additional installation files must be run as part of the installation, click **Run**, to locate and run the additional installation files. When you are finished with the installation, select the **I am finished installing** check box, and then click **Next**.
 

@@ -44,7 +44,7 @@ The procedures in this section describe the full installation of the MBAM featur
 
 The following diagram displays the three-computer deployment topology for MBAM. We recommend this topology for production environments that support up to 55,000 MBAM Clients.
 
-![mbam three computer deployment topology](images/mbam-3-server.jpg)
+![mbam three computer deployment topology.](images/mbam-3-server.jpg)
 
 In this configuration, MBAM features are installed in the following configuration:
 

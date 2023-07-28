@@ -62,7 +62,7 @@ The recommended number of servers and supported number of clients in a productio
 
 The following diagram and table describe the recommended high-level, two-server architecture for MBAM with the Stand-alone topology. MBAM multi-forest deployments require a one-way or two-way trust. One-way trusts require that the server domain trusts the client domain.
 
-![mbam2](images/mbam2-5-2servers.png)
+![mbam2.](images/mbam2-5-2servers.png)
 
 Server
 Features to configure on this server
@@ -122,7 +122,7 @@ MBAM Group Policy Templates
 
 -   The MBAM Group Policy Templates are Group Policy settings that define implementation settings for MBAM, which enable you to manage BitLocker Drive Encryption.
 
--   Before you run MBAM, you must download the Group Policy Templates from [How to Get MDOP Group Policy (.admx) Templates](https://go.microsoft.com/fwlink/p/?LinkId=393941) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
+-   Before you run MBAM, you must download the Group Policy Templates from [How to Download and Deploy MDOP Group Policy (.admx) Templates](../solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
 
 -   The workstation does not have to be a dedicated computer.
 
@@ -152,8 +152,8 @@ The MBAM Client:
  
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
 
 
 
