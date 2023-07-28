@@ -21,22 +21,22 @@ This step-by-step guide demonstrates advanced techniques for Group Policy manage
 
 -   The ability to roll back to any earlier version of a GPO in the archive and to limit the number of versions stored in the archive.
 
--   Check-in and check-out capability for GPOs to make sure that Group Policy administrators do not unintentionally overwrite each other's work.
+-   Check-in and check-out capability for GPOs to make sure that Group Policy administrators don't unintentionally overwrite each other's work.
 
 -   The ability to search for GPOs with specific attributes and to filter the list of GPOs displayed.
 
 ## AGPM scenario overview
 
 
-For this scenario, you will use a separate user account for each role in AGPM to demonstrate how Group Policy can be managed in an environment that has multiple Group Policy administrators who have different levels of permissions. Specifically, you will perform the following tasks:
+For this scenario, you'll use a separate user account for each role in AGPM to demonstrate how Group Policy can be managed in an environment that has multiple Group Policy administrators who have different levels of permissions. Specifically, you'll perform the following tasks:
 
 -   Using an account that is a member of the Domain Admins group, install AGPM Server and assign the AGPM Administrator role to an account or group.
 
--   Using accounts to which you will assign AGPM roles, install AGPM Client.
+-   Using accounts to which you'll assign AGPM roles, install AGPM Client.
 
 -   Using an account that has the AGPM Administrator role, configure AGPM and delegate access to GPOs by assigning roles to other accounts.
 
--   From an account that has the Editor role, request that a new GPO be created that you then approve by using an account that has the Approver role. Use the Editor account to check the GPO out of the archive, edit the GPO, check the GPO into the archive, and then request deployment.
+-   From an account that has the Editor role, request that a new GPO is created that you then approve by using an account that has the Approver role. Use the Editor account to check the GPO out of the archive, edit the GPO, check the GPO into the archive, and then request deployment.
 
 -   Using an account that has the Approver role, review the GPO and deploy it to your production environment.
 
@@ -46,76 +46,20 @@ For this scenario, you will use a separate user account for each role in AGPM to
 
 ![group policy object development process.](images/ab77a1f3-f430-4e7d-be58-ee8f9bd1140e.gif)
 
-## Requirements
-
-
-Computers on which you want to install AGPM must meet the following requirements, and you must create accounts for use in this scenario.
-
-> [!NOTE]
-> If you have AGPM 2.5 installed and are upgrading from Windows Server® 2003 to Windows Server 2008 R2 or Windows Server 2008, or are upgrading from Windows Vista with no service packs installed to Windows 7 or Windows Vista® with Service Pack 1 (SP1), you must upgrade the operating system before you can upgrade to AGPM 4.0.
-
-If you have AGPM 3.0 installed, you do not have to upgrade the operating system before you upgrade to AGPM 4.0
-
- 
-
-In a mixed environment that includes both newer and older operating systems, there are some limitations to functionality, as indicated in the following table.
-
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Operating system on which AGPM Server 4.0 runs</th>
-<th align="left">Operating system on which AGPM Client 4.0 runs</th>
-<th align="left">Status of AGPM 4.0 support</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Supported</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Supported, but cannot edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Windows Server 2008 R2 or Windows 7</p></td>
-<td align="left"><p>Unsupported</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Windows Server 2008 or Windows Vista with SP1</p></td>
-<td align="left"><p>Supported, but cannot report or edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</p></td>
-</tr>
-</tbody>
-</table>
-
- 
 
 ### AGPM Server requirements
 
-AGPM Server 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from Remote Server Administration Tools (RSAT), or Windows Vista with SP1 and the GPMC from RSAT installed. Both 32-bit and 64-bit versions are supported.
+AGPM Server 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from Remote Server Administration Tools (RSAT). Both 32-bit and 64-bit versions are supported. 
 
 Before you install AGPM Server, you must be a member of the Domain Admins group and the following Windows features must be present unless otherwise noted:
 
 -   GPMC
 
-    -   Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.
+    -   Windows Server 2012 or newer: If the GPMC isn't present, it's automatically installed by AGPM.
 
--   The .NET Framework 3.5 or later versions
+    -   Windows 10 or newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
-    -   Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.5 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.
-
-    -   Windows Server 2008 or Windows Vista with SP1: You must install the .NET Framework 3.5 or a later version before you install AGPM.
-
-The following Windows features are required by AGPM Server and will be automatically installed if they are not present:
+The following Windows features are required by AGPM Server and will be automatically installed if they aren't present:
 
 -   WCF Activation; Non-HTTP Activation
 
@@ -129,23 +73,19 @@ The following Windows features are required by AGPM Server and will be automatic
 
 ### AGPM Client requirements
 
-AGPM Client 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from RSAT, or Windows Vista with SP1 and the GPMC from RSAT installed. Both 32-bit and 64-bit versions are supported. AGPM Client can be installed on a computer that is running AGPM Server.
+AGPM Client 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from RSAT. Both 32-bit and 64-bit versions are supported. AGPM Client can be installed on a computer that is running AGPM Server.
 
-The following Windows features are required by AGPM Client and unless otherwise noted are automatically installed if they are not present:
+The following Windows features are required by AGPM Client and unless otherwise noted are automatically installed if they aren't present:
 
 -   GPMC
 
-    -   Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.
+    -   Windows Server 2012 and newer: If the GPMC isn't present, it's automatically installed by AGPM.
 
--   The .NET Framework 3.0 or later version
-
-    -   Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.
-
-    -   Windows Server 2008 or Windows Vista with SP1: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.0 is automatically installed by AGPM.
+    -   Windows 10 and newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
 ### Scenario requirements
 
-Before you begin this scenario, create four user accounts. During the scenario, you will assign one of the following AGPM roles to each of these accounts: AGPM Administrator (Full Control), Approver, Editor, and Reviewer. These accounts must be able to send and receive e-mail messages. Assign **Link GPOs** permission to the accounts that have the AGPM Administrator, Approver, and (optionally) Editor roles.
+Before you begin this scenario, create four user accounts. During the scenario, you'll assign one of the following AGPM roles to each of these accounts: AGPM Administrator (Full Control), Approver, Editor, and Reviewer. These accounts must be able to send and receive e-mail messages. Assign **Link GPOs** permission to the accounts that have the AGPM Administrator, Approver, and (optionally) Editor roles.
 
 > [!NOTE]
 > **Link GPOs** permission is assigned to members of Domain Administrators and Enterprise Administrators by default. To assign **Link GPOs** permission to additional users or groups (such as accounts that have the roles of AGPM Administrator or Approver), select the node for the domain and then select the **Delegation** tab, select **Link GPOs**, select **Add**, and select users or groups to which you want to assign the permission.
@@ -173,7 +113,7 @@ In this step, you install AGPM Server on the member server or domain controller 
 
 **To install AGPM Server on the computer that will host the AGPM Service**
 
-1.  Log on with an account that is a member of the Domain Admins group.
+1.  Sign in with an account that is a member of the Domain Admins group.
 
 2.  Start the Microsoft Desktop Optimization Pack CD and follow the instructions on screen to select **Advanced Group Policy Management - Server**.
 
@@ -185,36 +125,38 @@ In this step, you install AGPM Server on the member server or domain controller 
 
 6.  In the **Archive Path** dialog box, select a location for the archive in relation to the AGPM Server. The archive path can point to a folder on the AGPM Server or elsewhere. However, you should select a location with sufficient space to store all GPOs and history data managed by this AGPM Server. Select **Next**.
 
-7.  In the **AGPM Service Account** dialog box, select a service account under which the AGPM Service will run and then select **Next**.
+7.  In the **AGPM Service Account** dialog box, select a service account under which the AGPM Service runs and then select **Next**.
 
-    This account must be a member of the either the Domain Admins group or, for a least-privilege configuration, the following groups in each domain managed by the AGPM Server:
+    This account must be a member of either the Domain Admins group or, for a least-privilege configuration, the following groups in each domain managed by the AGPM Server:
 
     -   Group Policy Creator Owners
 
     -   Backup Operators
 
+    This account must be member of the local Administrators Group on the AGPM Server Computer. This is required to successfully handle 
+
     Additionally, this account requires Full Control permission for the following folders:
 
-    -   The AGPM archive folder, for which this permission is automatically granted during the installation of AGPM Server if it is installed on a local drive.
+    -   The AGPM archive folder, for which this permission is automatically granted during the installation of AGPM Server if it's installed on a local drive.
 
     -   The local system temp folder, typically %windir%\\temp.
 
 8.  In the **Archive Owner** dialog box, select an account or group to which you assign the AGPM Administrator (Full Control) role. AGPM Administrators can assign AGPM roles and permissions to other Group Policy administrators, so that later you can assign the role of AGPM Administrator to additional Group Policy administrators. For this scenario, select the account to serve in the AGPM Administrator role. Select **Next**.
 
-9.  In the **Port Configuration** dialog box, type a port on which the AGPM Service should listen. Do not clear the **Add port exception to firewall** check box unless you manually configure port exceptions or use rules to configure port exceptions. Select **Next**.
+9.  In the **Port Configuration** dialog box, type a port on which the AGPM Service should listen. Don't clear the **Add port exception to firewall** check box unless you manually configure port exceptions or use rules to configure port exceptions. Select **Next**.
 
 10. In the **Languages** dialog box, select one or more display languages to install for AGPM Server.
 
 11. Select **Install**, and then select **Finish** to exit the Setup Wizard.
 
     **Caution**  
-    Do not change settings for the AGPM Service through **Administrative Tools** and **Services** in the operating system. Doing this can prevent the AGPM Service from starting. For information about how to change settings for the service, see Help for Advanced Group Policy Management.
+    Don't change settings for the AGPM Service through **Administrative Tools** and **Services** in the operating system. Doing this can prevent the AGPM Service from starting. For information about how to change settings for the service, see Help for Advanced Group Policy Management.
 
      
 
 ### <a name="bkmk-config2"></a>Step 2: Install AGPM Client
 
-Each Group Policy administrator—anyone who creates, edits, deploys, reviews, or deletes GPOs—must have AGPM Client installed on computers that they use to manage GPOs. The Change Control node, which you use to perform many of the GPO management tasks, appears in the Group Policy Management Console only if you install the AGPM Client. For this scenario, you install AGPM Client on at least one computer. You do not need to install AGPM Client on the computers of end users who do not perform Group Policy administration.
+Each Group Policy administrator—anyone who creates, edits, deploys, reviews, or deletes GPOs—must have AGPM Client installed on computers that they use to manage GPOs. The Change Control node, which you use to perform many of the GPO management tasks, appears in the Group Policy Management Console only if you install the AGPM Client. For this scenario, you install AGPM Client on at least one computer. You don't need to install AGPM Client on the computers of end users who don't perform Group Policy administration.
 
 **To install AGPM Client on the computer of a Group Policy administrator**
 
@@ -226,7 +168,7 @@ Each Group Policy administrator—anyone who creates, edits, deploys, reviews, o
 
 4.  In the **Application Path** dialog box, select a location in which to install AGPM Client. Select **Next**.
 
-5.  In the **AGPM Server** dialog box, type the DNS name or IP address for the AGPM Server and the port to which you want to connect. The default port for the AGPM Service is 4600. Do not clear the **Allow Microsoft Management Console through the firewall** check box unless you manually configure port exceptions or use rules to configure port exceptions. Select **Next**.
+5.  In the **AGPM Server** dialog box, type the DNS name or IP address for the AGPM Server and the port to which you want to connect. The default port for the AGPM Service is 4600. Don't clear the **Allow Microsoft Management Console through the firewall** check box unless you manually configure port exceptions or use rules to configure port exceptions. Select **Next**.
 
 6.  In the **Languages** dialog box, select one or more display languages to install for AGPM Client.
 
@@ -240,7 +182,7 @@ In this step, you configure an AGPM Server connection and ensure that all Group 
 
 **To configure an AGPM Server connection for all Group Policy administrators**
 
-1.  On a computer on which you have installed AGPM Client, log on with the user account that you selected as the Archive Owner. This user has the role of AGPM Administrator (Full Control).
+1.  On a computer on which you have installed AGPM Client, sign in with the user account that you selected as the Archive Owner. This user has the role of AGPM Administrator (Full Control).
 
 2.  Select **Start**, point to **Administrative Tools**, and then select **Group Policy Management** to open the GPMC.
 
@@ -303,7 +245,7 @@ As an AGPM Administrator (Full Control), you delegate domain-level access to GPO
 ## Steps for managing GPOs
 
 
-You must complete the following steps to create, edit, review, and deploy GPOs by using AGPM. Additionally, you will create a template, delete a GPO, and restore a deleted GPO.
+You must complete the following steps to create, edit, review, and deploy GPOs by using AGPM. Additionally, you'll create a template, delete a GPO, and restore a deleted GPO.
 
 [Step 1: Create a GPO](#bkmk-manage1)
 
@@ -323,7 +265,7 @@ In this step, you use an account that has the Editor role to request that a new 
 
 **To request that a new GPO be created and managed through AGPM**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that is assigned the Editor role in AGPM.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that is assigned the Editor role in AGPM.
 
 2.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
@@ -343,7 +285,7 @@ In this step, you use an account that has the Editor role to request that a new 
 
 **To approve the pending request to create a GPO**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that has the role of Approver in AGPM.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that has the role of Approver in AGPM.
 
 2.  Open the e-mail inbox for the account, and notice that you have received an e-mail message from the AGPM alias with the Editor's request to create a GPO.
 
@@ -361,7 +303,7 @@ You can use GPOs to configure computer or user settings and deploy them to many 
 
 **To check the GPO out from the archive for editing**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that has the role of Editor in AGPM.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that has the role of Editor in AGPM.
 
 2.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
@@ -369,7 +311,7 @@ You can use GPOs to configure computer or user settings and deploy them to many 
 
 4.  Right-select **MyGPO**, and then select **Check Out**.
 
-5.  Type a comment to be displayed in the history of the GPO while it is checked out, and then select **OK**.
+5.  Type a comment to be displayed in the history of the GPO while it's checked out, and then select **OK**.
 
 6.  When the **AGPM Progress** window indicates that overall progress is complete, select **Close**. On the **Controlled** tab, the state of the GPO is identified as **Checked Out**.
 
@@ -397,7 +339,7 @@ You can use GPOs to configure computer or user settings and deploy them to many 
 
 1.  On the **Controlled** tab, right-select **MyGPO** and then select **Deploy**.
 
-2.  Because this account is not an Approver or AGPM Administrator, you must submit a request for deployment. To receive a copy of the request, type your e-mail address in the **Cc** field. Type a comment to be displayed in the history of the GPO, and then select **Submit**.
+2.  Because this account isn't an Approver or AGPM Administrator, you must submit a request for deployment. To receive a copy of the request, type your e-mail address in the **Cc** field. Type a comment to be displayed in the history of the GPO, and then select **Submit**.
 
 3.  When the **AGPM Progress** window indicates that overall progress is complete, select **Close**. **MyGPO** is displayed on the list of GPOs on the **Pending** tab.
 
@@ -407,7 +349,7 @@ In this step, you act as an Approver, creating reports and analyzing the setting
 
 **To review settings in the GPO**
 
-1. On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver in AGPM. Any Group Policy administrator with the Reviewer role, which is included in all of the other roles, can review the settings in a GPO.
+1. On a computer on which you have installed AGPM Client, sign in with a user account that is assigned the role of Approver in AGPM. Any Group Policy administrator with the Reviewer role, which is included in all of the other roles, can review the settings in a GPO.
 
 2. Open the e-mail inbox for the account and notice that you have received an e-mail message from the AGPM alias with an Editor's request to deploy a GPO.
 
@@ -425,11 +367,11 @@ In this step, you act as an Approver, creating reports and analyzing the setting
 
 7. Compare the most recent version of MyGPO to the first version checked in to the archive:
 
-   1. In the **History** window, select the GPO version with the most recent time stamp. Press CTRL and then select the oldest GPO version for which the **Computer Version** is not **\\***.
+   1. In the **History** window, select the GPO version with the most recent time stamp. Press CTRL and then select the oldest GPO version for which the **Computer Version** isn't **\\***.
 
    2. Select the **Differences** button. The **Account Policies/Password Policy** section is highlighted in green and preceded by **\[+\]**. This indicates that the setting is configured only in the latter version of the GPO.
 
-   3. Select **Account Policies/Password Policy**. The **Minimum password length** setting is also highlighted in green and preceded by **\[+\]**, indicating that it is configured only in the latter version of the GPO.
+   3. Select **Account Policies/Password Policy**. The **Minimum password length** setting is also highlighted in green and preceded by **\[+\]**, indicating that it's configured only in the latter version of the GPO.
 
    4. Close the Web browser.
 
@@ -449,11 +391,11 @@ In this step, you act as an Approver, creating reports and analyzing the setting
 
 ### <a name="bkmk-manage4"></a>Step 4: Use a template to create a GPO
 
-In this step, you use an account that has the Editor role to create and use a template. That template is a static version of a GPO for use as a starting point for creating new GPOs. Although you cannot edit a template, you can create a new GPO based on a template. Templates are useful for quickly creating multiple GPOs that include many of the same policy settings.
+In this step, you use an account that has the Editor role to create and use a template. That template is a static version of a GPO for use as a starting point for creating new GPOs. Although you can't edit a template, you can create a new GPO based on a template. Templates are useful for quickly creating multiple GPOs that include many of the same policy settings.
 
 **To create a template based on an existing GPO**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that is assigned the role of Editor in AGPM.
 
 2.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
@@ -489,11 +431,11 @@ Use an account that is assigned the role of Approver to approve the pending requ
 
 **To check the GPO out from the archive for editing**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that is assigned the role of Editor in AGPM.
 
 2.  Right-select **MyOtherGPO**, and then select **Check Out**.
 
-3.  Type a comment to be displayed in the history of the GPO while it is checked out, and then select **OK**.
+3.  Type a comment to be displayed in the history of the GPO while it's checked out, and then select **OK**.
 
 4.  When the **AGPM Progress** window indicates that overall progress is complete, select **Close**. On the **Controlled** tab, the state of the GPO is identified as **Checked Out**.
 
@@ -533,7 +475,7 @@ In this step, you act as an Approver to delete a GPO.
 
 **To delete a GPO**
 
-1.  On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver.
+1.  On a computer on which you have installed AGPM Client, sign in with a user account that is assigned the role of Approver.
 
 2.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
@@ -545,7 +487,7 @@ In this step, you act as an Approver to delete a GPO.
 
 6.  When the **AGPM Progress** window indicates that overall progress is complete, select **Close**. The GPO is removed from the **Controlled** tab and is displayed on the **Recycle Bin** tab, where it can be restored or destroyed.
 
-Occasionally you may discover after you delete a GPO that it is still needed. In this step, you act as an Approver to restore a GPO that was deleted.
+Occasionally you may discover after you delete a GPO that it's still needed. In this step, you act as an Approver to restore a GPO that was deleted.
 
 **To restore a deleted GPO**
 
@@ -560,8 +502,6 @@ Occasionally you may discover after you delete a GPO that it is still needed. In
     > [!NOTE]
     > Restoring a GPO to the archive does not automatically redeploy it to the production environment. To return the GPO to the production environment, deploy the GPO as in [Step 3: Review and deploy a GPO](#bkmk-manage3).
 
-     
-
 After editing and deploying a GPO, you may discover that recent changes to the GPO are causing a problem. In this step, you act as an Approver to roll back to an earlier version of the GPO. You can roll back to any version in the history of the GPO. You can use comments and labels to identify known good versions and when specific changes were made.
 
 **To roll back to an earlier version of a GPO**
@@ -575,15 +515,4 @@ After editing and deploying a GPO, you may discover that recent changes to the G
 4.  When the **Progress** window indicates that overall progress is complete, select **Close**. In the **History** window, select **Close**.
 
     > [!NOTE]
-    > To verify that the version that was redeployed is the version intended, examine a difference report for the two versions. In the **History** window for the GPO, select the two versions, right-select them, point to **Difference**, and then select either **HTML Report** or **XML Report**.
-
-     
-
- 
-
- 
-
-
-
-
-
+    > To verify that the version that was redeployed is the version intended, examine a difference report for the two versions. In the **History** window for the GPO, select the two versions, right-click them, point to **Difference**, and then select either **HTML Report** or **XML Report**.

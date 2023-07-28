@@ -22,7 +22,8 @@ Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 provides a simplifi
 >
 > Going forward, the functionality of MBAM has been incorporated into Microsoft Configuration Manager as **Microsoft Configuration Manager BitLocker Management**. For more information, see [Plan for BitLocker management](/mem/configmgr/protect/plan-design/bitlocker-management).
 >
-> Customers not using Microsoft Configuration Manager can utilize the built-in features of Azure AD and Microsoft Intune for administration and monitoring of BitLocker. For more information, see [Monitor device encryption with Intune](/mem/intune/protect/encryption-monitor).
+> Customers not using Microsoft Configuration Manager can utilize the built-in features of Azure AD and Microsoft Intune for administration and monitoring of BitLocker. For more information, see [Manage BitLocker policy for Windows devices with Intune](/mem/intune/protect/encrypt-devices).
+
 
 ## Outline
 
