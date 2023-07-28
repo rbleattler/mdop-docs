@@ -1,6 +1,6 @@
 ---
-title: How to Deploy the DaRT Recovery Image
-description: Deploying the DaRT Recovery Image
+title: How to deploy the DaRT recovery image
+description: Learn how to deploy the DaRT recovery image.
 author: aczechowski
 ms.reviewer: 
 manager: dansimp
@@ -10,7 +10,7 @@ ms.date: 04/20/2021
 ---
 
 
-# How to Deploy the DaRT Recovery Image
+# How to deploy the DaRT recovery image
 
 ## Deployment information
 

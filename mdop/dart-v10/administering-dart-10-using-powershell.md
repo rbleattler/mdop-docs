@@ -1,14 +1,10 @@
 ---
 title: Administering DaRT 10 Using PowerShell
 description: Administering DaRT 10 Using PowerShell
-author: dansimp
-ms.assetid: eefe992f-077b-4e4b-8a5d-45b451614d7b
+author: aczechowski
 ms.reviewer:
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 04/20/2021
 ---
@@ -34,7 +30,7 @@ You can create the DaRT 10 recovery image by using a PowerShell script instead o
 
 The following is an example of a PowerShell script that the DaRT 10 Recovery Image wizard has created.
 
-```PowerShell
+```powershell
 ###
 ### DaRT Image Creation Script
 ###
@@ -46,7 +42,8 @@ The following is an example of a PowerShell script that the DaRT 10 Recovery Ima
 ### Examples of how to burn/copy the DaRT ISO to DVD/USB are available at the end of this script.
 ###
 
-$ErrorActionPreference = "Stop";                                                ### This variable tells PowerShell to stop if an error occurs.
+### This variable tells PowerShell to stop if an error occurs.
+$ErrorActionPreference = "Stop";
 
 ###
 ### Import the modules necessary for DaRT Image creation.
@@ -76,7 +73,6 @@ $TempMountPath = "$([System.IO.Path]::GetTempPath())\DaRT8Mount_$(Get-Random)"; 
 ### Prepare the Windows image.
 ###
 
-
 ### Verify that the output directories exist.
 New-Item -Path $WimParentPath -Type Directory -Force
 New-Item -Path $IsoParentPath -Type Directory -Force
@@ -90,69 +86,47 @@ Set-ItemProperty $DestinationWimPath -Name IsReadOnly -Value $false
 ### Mount the bootable image within the WIM file (normally index 2).
 Mount-WindowsImage -ImagePath $DestinationWimPath -Path $TempMountPath -Index 2
 
-
-
 ###
 ### Add additional drivers to the image.
 ###
-
 
 ### The following is an example of how to add additional drivers to the image. 
 ### Specify the actual path to a driver's INF file and uncomment the following statement.
 # Add-WindowsDriver -Path $TempMountPath -Driver "c:\example\path\to\drivers.inf" -ForceUnsigned
 
-
-
 ###
 ### Installs the specified WinPE package(s) into the image.
 ###
 
-
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-EnhancedStorage.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WMI.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WinReCfg.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-FMAPI.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-FontSupport-WinRE.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Scripting.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-EnhancedStorage_en-us.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-Scripting_en-us.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-WMI_en-us.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-WinReCfg_en-us.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-NetFx.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-NetFx_en-us.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-PowerShell.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-PowerShell_en-us.cab"
 
-
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-DismCmdlets.cab"
-
 
 Add-WindowsPackage -Path $TempMountPath -PackagePath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-DismCmdlets_en-us.cab"
 
@@ -187,3 +161,4 @@ Export-DartImage -IsoPath $DestinationIsoPath -WimPath $DestinationWimPath
 
 ### Removes all temporary files.
 Remove-Item $TempMountPath -Force -Recurse
+```

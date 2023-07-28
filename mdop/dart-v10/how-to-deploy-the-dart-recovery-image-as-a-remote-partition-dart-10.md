@@ -1,20 +1,15 @@
 ---
-title: Learn to Deploy the DaRT Recovery Image as a Remote Partition
-description: How to Deploy the DaRT Recovery Image as a Remote Partition
-author: dansimp
-ms.assetid: 06a5e250-b992-4f6a-ad74-e7715f9e96e7
+title: Deploy the DaRT recovery image as a remote partition
+description: Learn how to deploy the DaRT recovery image as a remote partition.
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 04/20/2021
 ---
 
-
-# Learn to Deploy the DaRT Recovery Image as a Remote Partition
+# Learn to deploy the DaRT recovery image as a remote partition
 
 After you have finished running the Microsoft Diagnostics and Recovery Toolset (DaRT) 10 Recovery Image wizard and created the recovery image, you can extract the `boot.wim` file from the ISO image file and deploy it as a remote partition on the network.
 
@@ -33,7 +28,7 @@ To deploy DaRT 10 as a remote partition:
 
 3. Configure the WDS server to use the `boot.wim` file for DaRT by following your standard WDS deployment procedures.
 
-For more information about how to deploy DaRT as a remote partition, see [Walkthrough: Deploy an Image by Using PXE](https://go.microsoft.com/fwlink/?LinkId=212108) and [Windows Deployment Services Getting Started Guide](https://go.microsoft.com/fwlink/?LinkId=212106).
+For more information about how to deploy DaRT as a remote partition, see [Walkthrough: Deploy an Image by Using PXE](/previous-versions/windows/it-pro/windows-7/dd744541(v=ws.10)) and [Windows Deployment Services Getting Started Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771670(v=ws.10)).
 
 ## Related topics
 
