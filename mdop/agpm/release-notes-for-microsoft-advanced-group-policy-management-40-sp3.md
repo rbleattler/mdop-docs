@@ -98,9 +98,9 @@ As of HF02, AGPM has added a registry key to enable overriding the default AGPM 
 
 ### Take control of uncontrolled policy fails:  HRSULT: 0x80070005 (E_ACCESSDENIED)
 
-After updating to [Microsoft Desktop Optimization Pack March 2017 Servicing Release](https://support.microsoft.com/en-us/topic/march-2017-servicing-release-for-microsoft-desktop-optimization-pack-f1c4a8d5-4af5-37f6-cb23-24fb934f416b) you may get this error. Could not take ownership.
+After updating to [Microsoft Desktop Optimization Pack March 2017 Servicing Release](https://support.microsoft.com/topic/march-2017-servicing-release-for-microsoft-desktop-optimization-pack-f1c4a8d5-4af5-37f6-cb23-24fb934f416b) you may get this error. Could not take ownership.
 
-**Workaround:** Check permissions of your service account on this folder: "C:\ProgramData\Microsoft\AGPM" Make sure your service account has Full Control.
+**Workaround:** Check permissions of your service account on this folder: `C:\ProgramData\Microsoft\AGPM`. Make sure your service account has Full Control.
 
 ## Related topics
 
@@ -108,12 +108,3 @@ After updating to [Microsoft Desktop Optimization Pack March 2017 Servicing Rele
 [Advanced Group Policy Management](index.md)
 
 [What's New in AGPM 4.0 SP3](whats-new-in-agpm-40-sp3.md)
-
- 
-
- 
-
-
-
-
-
