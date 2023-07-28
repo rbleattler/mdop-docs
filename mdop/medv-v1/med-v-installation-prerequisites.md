@@ -30,7 +30,7 @@ The following are prerequisites for installing MED-V:
 ## <a href="" id="bkmk-activedirectoryrequirements"></a>Active Directory Requirements
 
 
-When configuring the MED-V server, if users are not part of the same domain the server belongs to, a trust must be set between the domains.
+When configuring the MED-V server, if users aren't part of the same domain the server belongs to, a trust must be set between the domains.
 
 ## <a href="" id="bkmk-howtoinstallthereportdatabase"></a>How to Install the Report Database
 
@@ -59,13 +59,13 @@ SQL Server can be installed on the same server as the MED-V server or on a remot
 
 2.  Install the following files on the MED-V server:
 
-    -   To install the prerequisites for the management pack objects collection for Microsoft SQL Server 2008, download [Microsoft SQL Server 2008 Native Client](https://go.microsoft.com/fwlink/?LinkId=164039) from the Microsoft Download Center.
+    -   To install the prerequisites for the management pack objects collection for Microsoft SQL Server 2008, download [Microsoft SQL Server 2008 Native Client](https://www.microsoft.com/download) from the Microsoft Download Center.
 
-    -   To install the prerequisites for the management pack objects collection for Microsoft SQL Server 2005, download [Microsoft SQL Server 2005 Native Client](https://go.microsoft.com/fwlink/?LinkId=164038) from the Microsoft Download Center.
+    -   To install the prerequisites for the management pack objects collection for Microsoft SQL Server 2005, download [Microsoft SQL Server 2005 Native Client](https://www.microsoft.com/download) from the Microsoft Download Center.
 
-    -   To install the required dll files for Microsoft SQL Server 2008, download [Microsoft SQL Server 2008 Management Objects Collection](https://go.microsoft.com/fwlink/?LinkId=164041) from the Microsoft Download Center.
+    -   To install the required dll files for Microsoft SQL Server 2008, download [Microsoft SQL Server 2008 Management Objects Collection](https://www.microsoft.com/download) from the Microsoft Download Center.
 
-    -   To install the required dll files for Microsoft SQL Server 2005, download [Microsoft SQL Server 2005 Management Objects](https://go.microsoft.com/fwlink/?LinkId=164040) from the Microsoft Download Center.
+    -   To install the required dll files for Microsoft SQL Server 2005, download [Microsoft SQL Server 2005 Management Objects](https://www.microsoft.com/download) from the Microsoft Download Center.
 
     -   To install the stand-alone install packages that provide additional value for SQL Server 2008, download the [Microsoft SQL Server 2008 Feature Pack](https://go.microsoft.com/fwlink/?LinkId=163960) from the Microsoft Download Center.
 
@@ -76,7 +76,7 @@ SQL Server can be installed on the same server as the MED-V server or on a remot
 ## <a href="" id="bkmk-antivirusbackupsoftwareconfiguration"></a>Antivirus/Backup Software Configuration
 
 
-To prevent antivirus activity from affecting the performance of the virtual desktop, it is recommended where possible to exclude the following virtual machine file types from any antivirus or backup processing running on the host:
+To prevent antivirus activity from affecting the performance of the virtual desktop, it's recommended where possible to exclude the following virtual machine file types from any antivirus or backup processing running on the host:
 
 -   \*.VMC
 
@@ -103,8 +103,6 @@ If Virtual PC for Windows exists on the host computer, uninstall it before insta
 2.  Run the installation file on the host computer, and follow the wizard.
 
 3.  Install Virtual PC 2007 SP1 update on the host computer in elevated mode.
-
-    For more information, see [the description of the hotfix package for Virtual PC 2007 SP1](https://go.microsoft.com/fwlink/?LinkId=150575).
 
     **Note**  
     The Virtual PC 2007 SP1 update is required for running Virtual PC 2007 SP1.

@@ -1,5 +1,5 @@
 ---
-title: Create or Edit the Sms\_def.mof File
+title: How to Create and Edit the Sms\_def.mof File
 description: Create or Edit the Sms\_def.mof File
 author: dansimp
 ms.assetid: d1747e43-484e-4031-a63b-6342fe588aa2
@@ -14,7 +14,7 @@ ms.date: 08/04/2017
 ---
 
 
-# Create or Edit the Sms\_def.mof File
+# How to Create and Edit the Sms\_def.mof File
 
 
 To enable the client computers to report BitLocker compliance details through the MBAM Configuration Manager reports, you have to create or edit the Sms\_def.mof file.

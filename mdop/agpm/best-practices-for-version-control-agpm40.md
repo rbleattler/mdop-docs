@@ -1,6 +1,6 @@
 ---
-title: Best Practices for Version Control
-description: Best Practices for Version Control
+title: Version Control Best Practices
+description:  Version Control Best Practices
 author: dansimp
 ms.assetid: 4a2a1ac7-67f3-4ba3-ab07-860d33da0efe
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Best Practices for Version Control
+# Version Control Best Practices
 
 
 Microsoft Advanced Group Policy Management (AGPM) provides version control for Group Policy Objects (GPOs) much like Microsoft Visual SourceSafe® provides version control for source code. Developers can use Visual SourceSafe to manage multiple versions of each source file. Group Policy administrators can use AGPM to do the same for GPOs. When you use AGPM, Group Policy administrators should be aware of best practices that apply to any version control system:

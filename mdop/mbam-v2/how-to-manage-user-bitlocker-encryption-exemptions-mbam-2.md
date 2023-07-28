@@ -1,6 +1,6 @@
 ---
-title: How to Manage User BitLocker Encryption Exemptions
-description: How to Manage User BitLocker Encryption Exemptions
+title: Manage User BitLocker Encryption Exemptions
+description: Manage User BitLocker Encryption Exemptions
 author: dansimp
 ms.assetid: 1bfd9d66-6a9a-4d0e-b54a-e5a6627f5ada
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Manage User BitLocker Encryption Exemptions
+# Manage User BitLocker Encryption Exemptions
 
 
 Microsoft BitLocker Administration and Monitoring (MBAM) can be used to manage BitLocker protection by exempting users if there are users who do not need or want their drives encrypted.

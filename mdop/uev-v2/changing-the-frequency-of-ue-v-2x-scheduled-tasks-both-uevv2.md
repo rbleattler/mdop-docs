@@ -214,7 +214,7 @@ The **Upload CEIP Data** task runs during the installation if the user or the ad
 
 The following chart provides additional information about scheduled tasks for UE-V 2:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="16%" />
 <col width="16%" />

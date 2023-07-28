@@ -1,5 +1,5 @@
 ---
-title: Managing Connection Groups
+title: Manage Connection Groups
 description: Managing Connection Groups
 author: dansimp
 ms.assetid: 22c9d3cb-7246-4173-9742-4ba1c24b0a6a
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Managing Connection Groups
+# Manage Connection Groups
 
 
 Connection groups enable the applications within a package to interact with each other in the virtual environment, while remaining isolated from the rest of the system. By using connection groups, administrators can manage packages independently and can avoid having to add the same application multiple times to a client computer.

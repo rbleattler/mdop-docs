@@ -45,7 +45,7 @@ You can also configure the OSDSourceRoot and IconSourceRoot registry key values 
 
 
 
-~~~
+
 The following table lists examples of acceptable URL and UNC path formats.
 
 <table>
@@ -126,7 +126,7 @@ The following table lists examples of acceptable URL and UNC path formats.
 </tr>
 </tbody>
 </table>
-~~~
+
 
 
 

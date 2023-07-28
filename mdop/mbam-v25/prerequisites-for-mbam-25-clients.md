@@ -52,7 +52,7 @@ Before you install the MBAM Client software on end users' computers, ensure that
 <td align="left"><p>For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM.</p>
 <p>In MBAM 2.5 SP1, you must turn on auto-provisioning.</p>
 </p></td>
-<td align="left"><p>See <a href="https://technet.microsoft.com/itpro/windows/keep-secure/change-the-tpm-owner-password" data-raw-source="[TPM owner password](https://technet.microsoft.com/itpro/windows/keep-secure/change-the-tpm-owner-password)">TPM owner password</a> for further details.
+<td align="left"><p>See <a href="/windows/security/information-protection/tpm/change-the-tpm-owner-password">TPM owner password</a> for further details.
 </p></td>
 </tr>
 <tr class="even">
@@ -96,8 +96,8 @@ If BitLocker was used without MBAM, MBAM can be installed and utilize the existi
 
 
 ## Got a suggestion for MBAM?
-- Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring).
-- For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

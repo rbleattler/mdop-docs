@@ -63,10 +63,8 @@ The following best practices should be considered when configuring the computer 
 
 The following best practices should be considered when sequencing a new application:
 
--   
-
-    **Note**  
-    If you are running App-V 4.6 SP1 you do not need to sequence to a directory that follows the 8.3 naming convention.
+>[!NOTE]
+>If you are running App-V 4.6 SP1 you do not need to sequence to a directory that follows the 8.3 naming convention.
 
      
 

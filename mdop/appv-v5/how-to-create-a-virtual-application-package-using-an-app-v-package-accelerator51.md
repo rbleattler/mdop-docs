@@ -1,6 +1,6 @@
 ---
-title: How to Create a Virtual Application Package Using an App-V Package Accelerator
-description: How to Create a Virtual Application Package Using an App-V Package Accelerator
+title: Create a Virtual Application Package Using an App-V Package Accelerator
+description: Create a Virtual Application Package Using an App-V Package Accelerator
 author: dansimp
 ms.assetid: eae1e4f8-f14f-4bc8-9867-052561c37297
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Virtual Application Package Using an App-V Package Accelerator
+# Create a Virtual Application Package Using an App-V Package Accelerator
 
 
 **Important**  
@@ -63,9 +63,9 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
 
 
-~~~
+
 If the package accelerator requires an application to be installed before you apply the Package Accelerator, and if you have already installed the required application, select **I have installed all applications**, and then click **Next** on the **Local Installation** page.
-~~~
+
 
 6. On the **Package Name** page, specify a name that will be associated with the package. The name that you specify identifies the package in the App-V Management Console. Click **Next**.
 
@@ -91,7 +91,7 @@ If the package accelerator requires an application to be installed before you ap
 
    The package is now available in the Sequencer. To edit the package properties, click **Edit \[Package Name\]**. For more information about how to modify a package, see [How to Modify an Existing Virtual Application Package](how-to-modify-an-existing-virtual-application-package-beta.md).
 
-   **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

@@ -46,9 +46,9 @@ During sequencing, if the computer running the sequencer is running Windows Vist
 
 
 
-~~~
+
 After the computer has been configured for sequencing, install the application so that the App-V Sequencer can monitor the installation; when you are finished, click **Stop Monitoring**, and then click **Next**.
-~~~
+
 
 6. On the **Configure Applications** page, if necessary, configure the shortcuts and file type associations that will be associated with the virtual application. To add a new file type association or shortcut, click **Add**, and in the **Add Application** dialog box, specify the new element. To remove an existing shortcut or file type association, click **Remove**. To edit an existing element, select the element you want to modify, and then click **Edit**. Specify the configurations in the **Edit Application** dialog box. Click **Save**, and then click **Next**.
 

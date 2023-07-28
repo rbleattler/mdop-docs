@@ -1,5 +1,5 @@
 ---
-title: How to Deploy the DaRT Recovery Image as a Remote Partition
+title: Learn to Deploy the DaRT Recovery Image as a Remote Partition
 description: How to Deploy the DaRT Recovery Image as a Remote Partition
 author: dansimp
 ms.assetid: 06a5e250-b992-4f6a-ad74-e7715f9e96e7
@@ -14,7 +14,7 @@ ms.date: 08/30/2016
 ---
 
 
-# How to Deploy the DaRT Recovery Image as a Remote Partition
+# Learn to Deploy the DaRT Recovery Image as a Remote Partition
 
 
 After you have finished running the Microsoft Diagnostics and Recovery Toolset (DaRT) 10 Recovery Image wizard and created the recovery image, you can extract the boot.wim file from the ISO image file and deploy it as a remote partition on the network.

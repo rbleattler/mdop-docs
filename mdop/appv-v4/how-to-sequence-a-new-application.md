@@ -45,9 +45,9 @@ After you successfully sequence the application, it is available in the App-V Se
 
 
 
-~~~
+
 Wait for the virtual environment to load, and then install the application so that the App-V Sequencer can monitor the process. When you have completed the installation, click **Stop Monitoring** and then click **Next**.
-~~~
+
 
 6. On the **Additional Files to Map to Virtual File System (VFS)** page, to specify additional files to be added to the Virtual File System (VFS), click **Add**. Browse to the file you want to add, and click **Open**. To clear existing files that have been added, click **Reset** and then click **Next**.
 

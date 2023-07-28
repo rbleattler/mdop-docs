@@ -1,5 +1,5 @@
 ---
-title: How to Install the Publishing Server on a Remote Computer
+title: Install the Publishing Server on a Remote Computer
 description: How to Install the Publishing Server on a Remote Computer
 author: dansimp
 ms.assetid: 37970706-54ff-4799-9485-b9b49fd50f37
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Install the Publishing Server on a Remote Computer
+# Install the Publishing Server on a Remote Computer
 
 
 Use the following procedure to install the publishing server on a separate computer. Before you perform the following procedure, ensure the database and management server are available.
@@ -62,7 +62,7 @@ Use the following procedure to install the publishing server on a separate compu
    </Publishing>
    ```
 
-   **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

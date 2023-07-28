@@ -54,7 +54,7 @@ Running the App-V sequencer in Safe Mode is not supported.
 
 
 
-~~~
+
 When you uninstall the Sequencer, the following registry keys are not removed from the computer that the Sequencer was installed on. Additionally, you must restart the computer after you have uninstalled the Sequencer so that all associated drivers can be stopped and the operation can be completed.
 
 -   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\SoftGrid**
@@ -64,7 +64,7 @@ When you uninstall the Sequencer, the following registry keys are not removed fr
 -   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\SoftGrid\\4.5\\SystemGuard**
 
 -   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\SoftGrid\\4.5\\SystemGuard\\SecKey**
-~~~
+
 
 ## Related topics
 

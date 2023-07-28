@@ -1,6 +1,6 @@
 ---
-title: Destroy a GPO
-description: Destroy a GPO
+title: How to Destroy a GPO
+description: How to Destroy a GPO
 author: dansimp
 ms.assetid: bfabd71a-47f3-462e-b86f-5f15762b9e28
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Destroy a GPO
+# How to Destroy a GPO
 
 
 Approvers can destroy a Group Policy Object (GPO), removing it from the Recycle Bin and permanently deleting it so that it can no longer be restored.

@@ -36,12 +36,12 @@ This section provides instruction about how to manually deploy a MED-V workspace
 
 
 
-~~~
+
 -   **MED-V Workspace Installer, VHD, and Setup Executable** – created with the **MED-V Workspace Packager**. For more information, see [Create a MED-V Workspace Package](create-a-med-v-workspace-package.md).
 
     **Important**  
     The compressed VHD file (.medv) and the Setup executable program (setup.exe) must be in the same folder as the MED-V workspace installer.
-~~~
+
 
 
 
@@ -56,11 +56,11 @@ This section provides instruction about how to manually deploy a MED-V workspace
 
 
 
-~~~
+
 -   The MED-V workspace package.
 
     Install the MED-V workspace by running the setup.exe program that is included in the MED-V workspace package files.
-~~~
+
 
 3. Complete first time setup.
 

@@ -1,5 +1,5 @@
 ---
-title: User Interface Advanced Group Policy Management
+title: The Advanced Group Policy Management User Interface
 description: User Interface Advanced Group Policy Management
 author: dansimp
 ms.assetid: 1bf67f6a-4f24-4020-a8c1-fe440de9caa3
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# User Interface: Advanced Group Policy Management
+# The Advanced Group Policy Management User Interface
 
 
 Advanced Group Policy Management (AGPM) adds a **Change Control** folder to each domain displayed in the **Group Policy Management Console** (GPMC). In an environment where multiple domains are managed with the GPMC, each domain is listed under the **Domains** folder in the console tree. Each domain has a **Change Control** folder under it, and there is one archive of Group Policy Objects (GPOs) per domain.

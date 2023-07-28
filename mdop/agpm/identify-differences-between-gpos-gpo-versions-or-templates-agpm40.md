@@ -1,6 +1,6 @@
 ---
-title: Identify Differences Between GPOs, GPO Versions, or Templates
-description: Identify Differences Between GPOs, GPO Versions, or Templates
+title: Differences Between GPOs, GPO Versions, or Templates
+description: Differences Between GPOs, GPO Versions, or Templates
 author: dansimp
 ms.assetid: 3f03c368-162b-450f-be6c-2807c3e8d741
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Identify Differences Between GPOs, GPO Versions, or Templates
+# Differences Between GPOs, GPO Versions, or Templates
 
 
 You can generate HTML-based or XML-based difference reports to analyze the differences between Group Policy Objects (GPOs), templates, or different versions of a GPO.

@@ -1,5 +1,5 @@
 ---
-title: File Type Associations Node
+title: About the File Type Associations Node
 description: File Type Associations Node
 author: dansimp
 ms.assetid: a3f35562-32d0-4a43-8604-3a54189ade92
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# File Type Associations Node
+# About the File Type Associations Node
 
 
 The **File Type Associations** node is one level below the Application Virtualization System node in the **Scope** pane in the Application Virtualization Server Management Console. When you select this node, the **Results** pane displays a list of file type associations. Right-click the **File Type Association** node to display a pop-up menu that contains the following elements.

@@ -1,6 +1,6 @@
 ---
-title: Configure an AGPM Server Connection
-description: Configure an AGPM Server Connection
+title: Configuring an AGPM Server Connection
+description: Configuring an AGPM Server Connection
 author: dansimp
 ms.assetid: 409cbbcf-3b0e-459d-9bd2-75cb7b9430b0
 ms.reviewer: 
@@ -14,10 +14,10 @@ ms.date: 06/16/2016
 ---
 
 
-# Configure an AGPM Server Connection
+# Configuring an AGPM Server Connection
 
 
-To ensure that you are connected to the correct central archive, review the configuration of the AGPM Server connection. If an AGPM Administrator (Full Control) has not configured an AGPM Server connection for you, then you must manually configure it.
+To ensure that you're connected to the correct central archive, review the configuration of the AGPM Server connection. If an AGPM Administrator (Full Control) hasn't configured an AGPM Server connection for you, then you must manually configure it.
 
 **To select an AGPM Server**
 
@@ -25,7 +25,7 @@ To ensure that you are connected to the correct central archive, review the conf
 
 2.  In the details pane, click the **AGPM Server** tab:
 
-    -   If the options on the **AGPM Server** tab are unavailable, they have been centrally configured by an AGPM Administrator.
+    -   If the options on the **AGPM Server** tab are unavailable, they've been centrally configured by an AGPM Administrator.
 
     -   If the options on the **AGPM Server** tab are available, type the fully-qualified computer name for the AGPM Server (for example, server.contoso.com) and the port on which the AGPM Service listens (by default, port 4600). Click **Apply**, then click **Yes** to confirm.
 

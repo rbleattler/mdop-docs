@@ -26,6 +26,16 @@ Read these release notes thoroughly before you install Microsoft Advanced Group 
 
 This section describes the known issues for AGPM 4.0 SP3.
 
+### AGPM Client may fail to connect to the AGPM server
+
+The AGPM client may fail to connect to the AGPM server. The error retuned to the AGPM client is 
+
+"Text: CoCreateInstance of the client remoting object failed!
+
+HRESULT: 0x0000000080131700"
+
+**Workaround:** Install .NET 3.5 on the client hosting the AGPM client role.
+
 ### AGPM installation fails in Windows 10
 
 AGPM internally enables the Windows Communication Foundation (WCF)-NonHTTP-Activation feature during installation. In Windows 10, WCF now includes a requirement to restart Windows after enabling the WCF NonHTTP-Activation feature. However, the current AGPM installer code does not handle this restart requirement and stops responding while it waits for the service to be activated.

@@ -66,7 +66,7 @@ After you have completed customization of your MED-V image, you are ready to sea
 
 
 
-~~~
+
 **Caution**  
 When you use non-ASCII characters in the Sysprep.inf file, you must save the file by using the encoding appropriate for the characters entered. Windows XP expects the Sysprep.inf file to be encoded by using the code page for the language that you are targeting.
 
@@ -144,7 +144,7 @@ You must also make sure that the System Locale of the computers to which the MED
 6.  Click **OK** to complete the system preparation process.
 
 After you have run Sysprep on your MED-V image, the virtual machine shuts down and is ready for use in creating a MED-V workspace.
-~~~
+
 
 ## Example
 

@@ -1,5 +1,5 @@
 ---
-title: Performing Editor Tasks
+title: Perform Editor Tasks
 description: Performing Editor Tasks
 author: dansimp
 ms.assetid: d4ac3277-2557-41cf-ac90-5adb6c30687c
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Performing Editor Tasks
+# Perform Editor Tasks
 
 
 An Editor is a person authorized by an AGPM Administrator (Full Control) to make changes to Group Policy Objects (GPOs) and create GPO templates. Additionally, an Editor can initiate the process of creating, deleting, or restoring a GPO, but by default must request approval from an Approver.

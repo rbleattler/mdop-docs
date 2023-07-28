@@ -1,5 +1,5 @@
 ---
-title: How to Create a Package Accelerator
+title: Create a Package Accelerator
 description: How to Create a Package Accelerator
 author: dansimp
 ms.assetid: b61f3581-7933-443e-b872-a96bed9ff8d7
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Create a Package Accelerator
+# Create a Package Accelerator
 
 
 App-V 5.1 package accelerators automatically generate new virtual application packages.
@@ -47,9 +47,9 @@ Before you begin the following procedure, you should perform the following:
 
 
 
-~~~
+
 To start the App-V 5.1 sequencer, on the computer that is running the sequencer, click **Start** / **All Programs** / **Microsoft Application Virtualization** / **Microsoft Application Virtualization Sequencer**.
-~~~
+
 
 2. To start the App-V 5.1 **Create Package Accelerator** wizard, in the App-V 5.1 sequencer console, click **Tools** / **Create Accelerator**.
 
@@ -60,9 +60,9 @@ To start the App-V 5.1 sequencer, on the computer that is running the sequencer,
 
 
 
-~~~
+
 Click **Next**.
-~~~
+
 
 4. On the **Installation Files** page, to specify the folder that contains the installation files that you used to create the original virtual application package, click **Browse**, and then select the directory that contains the installation files.
 
@@ -97,9 +97,7 @@ Click **Next**.
 
 
 
-~~~
-**Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-~~~
+**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

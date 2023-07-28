@@ -44,8 +44,8 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/microsoft-desktop-optimization-pack/breadcrumb/toc.json",
+      "uhfHeaderId": "MSDocsHeader-Windows",
       "ROBOTS": "INDEX, FOLLOW",
-      "ms.technology": "windows",
       "audience": "ITPro",
       "manager": "dansimp",
       "ms.prod": "w10",
@@ -70,7 +70,11 @@
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "dstrome",
+        "AngelaMotherofDragons",
+        "v-dihans",
+        "beccarobins"
       ],
       "titleSuffix": "Microsoft Desktop Optimization Pack"
     },

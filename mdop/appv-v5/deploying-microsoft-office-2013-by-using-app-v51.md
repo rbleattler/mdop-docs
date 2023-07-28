@@ -1,6 +1,6 @@
 ---
-title: Deploying Microsoft Office 2013 by Using App-V
-description: Deploying Microsoft Office 2013 by Using App-V
+title: Deploy Microsoft Office 2013 by Using App-V
+description: Deploy Microsoft Office 2013 by Using App-V
 author: dansimp
 ms.assetid: 9a7be05e-2a7a-4874-af25-09c0f5037876
 ms.reviewer: 
@@ -14,7 +14,7 @@ ms.date: 11/02/2016
 ---
 
 
-# Deploying Microsoft Office 2013 by Using App-V
+# Deploy Microsoft Office 2013 by Using App-V
 
 
 Use the information in this article to use Microsoft Application Virtualization (App-V) 5.1, or later versions, to deliver Microsoft Office 2013 as a virtualized application to computers in your organization. For information about using App-V to deliver Office 2010, see [Deploying Microsoft Office 2010 by Using App-V](deploying-microsoft-office-2010-by-using-app-v51.md). To successfully deploy Office 2013 with App-V, you need to be familiar with Office 2013 and App-V.
@@ -247,7 +247,7 @@ The XML file that is included in the Office Deployment Tool specifies the produc
 
 
 
-~~~
+
     The above XML configuration file specifies that Office 2013 ProPlus 32-bit edition, including Visio ProPlus, will be downloaded in English to the \\\\server\\Office 2013, which is the location where Office applications will be saved to. Note that the Product ID of the applications will not affect the final licensing of Office. Office 2013 App-V packages with various licensing can be created from the same applications through specifying licensing in a later stage. The table below summarizes the customizable attributes and elements of XML file:
 
     <table>
@@ -307,7 +307,7 @@ The XML file that is included in the Office Deployment Tool specifies the produc
 
 
     After editing the configuration.xml file to specify the desired product, languages, and also the location which the Office 2013 applications will be saved onto, you can save the configuration file, for example, as Customconfig.xml.
-~~~
+
 
 2. **Download the applications into the specified location:** Use an elevated command prompt and a 64 bit operating system to download the Office 2013 applications that will later be converted into an App-V package. Below is an example command with description of details:
 
@@ -421,7 +421,7 @@ After you download the Office 2013 applications through the Office Deployment To
    <td align="left"><p>Specify the type of licensing, as shown in the following examples:</p>
    <ul>
    <li><p>Subscription Licensing</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
+   <pre class="syntax"><code>&lt;Configuration&gt;
       &lt;Add SourcePath= &quot;\server\Office 2013&quot; OfficeClientEdition=&quot;32&quot; &gt;
        &lt;Product ID=&quot;O365ProPlusRetail&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
@@ -455,8 +455,8 @@ After you download the Office 2013 applications through the Office Deployment To
    <p> </p>
    <p></p></li>
    <li><p>Volume Licensing</p>
-   <pre class="syntax" space="preserve"><code>&lt;Configuration&gt;
-      &lt;Add SourcePath= &quot;\Server\Office2013&quot; OfficeClientEdition=&quot;32&quot; &gt;
+   <pre class="syntax"><code> &quot;\Server\Office2013&quot; OfficeClientEdition&lt;Configuration&gt;
+      &lt;Add SourcePath==&quot;32&quot; &gt;
        &lt;Product ID=&quot;ProPlusVolume&quot;&gt;
          &lt;Language ID=&quot;en-us&quot; /&gt;
        &lt;/Product&gt;
@@ -551,7 +551,7 @@ After you download the Office 2013 applications through the Office Deployment To
 
 
 
-~~~
+
 After you run the **/packager** command, the following folders appear up in the directory where you specified the package should be saved:
 
 -   **App-V Packages** – contains an Office 2013 App-V package and two deployment configuration files.
@@ -560,7 +560,7 @@ After you run the **/packager** command, the following folders appear up in the 
 
 **Note**  
 To troubleshoot any issues, see the log files in the %temp% directory (default).
-~~~
+
 
 
 
@@ -603,7 +603,7 @@ Deploy the App-V package for Office 2013 by using the same methods you use for a
 <td align="left"><p>Enable PowerShell scripting on the App-V clients</p></td>
 <td align="left"><p>To publish Office 2013 packages, you must run a script.</p>
 <p>Package scripts are disabled by default on App-V clients. To enable scripting, run the following PowerShell command:</p>
-<pre class="syntax" space="preserve"><code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
+<code>Set-AppvClientConfiguration –EnablePackageScripts 1</code></pre></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Publish the Office 2013 package globally</p></td>

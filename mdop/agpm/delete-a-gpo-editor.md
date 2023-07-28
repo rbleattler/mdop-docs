@@ -1,5 +1,5 @@
 ---
-title: Delete a GPO
+title: 'Editor: Delete a GPO'
 description: Delete a GPO
 author: dansimp
 ms.assetid: 66be3dde-653e-4c25-8cb7-00e7090c8d31
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Delete a GPO
+# 'Editor: Delete a GPO'
 
 
 As an Editor, you may not have permission to complete the deletion of a Group Policy object (GPO), but you do have the permission necessary to begin the process and submit your request to an Approver.
