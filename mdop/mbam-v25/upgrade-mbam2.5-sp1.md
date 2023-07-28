@@ -6,7 +6,7 @@ manager: miaposto
 audience: ITPro  
 ms.topic: article  
 ms.prod: w10
-ms.localizationpriority: Normal
+ms.localizationpriority: medium
 ms.date: 05/27/2020
 ---
 
