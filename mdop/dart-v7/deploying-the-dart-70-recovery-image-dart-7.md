@@ -1,14 +1,10 @@
 ---
 title: Deploying the DaRT 7.0 Recovery Image
 description: Deploying the DaRT 7.0 Recovery Image
-author: dansimp
-ms.assetid: 6bba7bff-800f-44e4-bcfc-e143115607ca
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 08/30/2016
 ---
@@ -17,7 +13,7 @@ ms.date: 08/30/2016
 # Deploying the DaRT 7.0 Recovery Image
 
 
-After you have created the International Organization for Standardization (ISO) file that contains the Microsoft Diagnostics and Recovery Toolset (DaRT) 7 recovery image, you can deploy the DaRT recovery image throughout your enterprise so that it is available to end users and helpdesk agents. There are four supported methods that you can use to deploy the DaRT recovery image.
+After you have created the International Organization for Standardization (ISO) file that contains the Microsoft Diagnostics and Recovery Toolset (DaRT) v7 recovery image, you can deploy the DaRT recovery image throughout your enterprise so that it's available to end users and helpdesk agents. There are four supported methods that you can use to deploy the DaRT recovery image.
 
 -   Burn the ISO image file to a CD or DVD
 
@@ -27,15 +23,14 @@ After you have created the International Organization for Standardization (ISO) 
 
 -   Extract the boot.wim file from the ISO image and deploy in the recovery partition of a new Windows 7 installation
 
-**Important**  
-The **DaRT Recovery Image Wizard** only provides the option to burn a CD or DVD. All other methods of saving and deploying the recovery image require additional steps that involve tools that are not included in DaRT. Some guidance and links for these other methods are provided in this section.
+> [!IMPORTANT]
+> The **DaRT Recovery Image Wizard** only provides the option to burn a CD or DVD. All other methods of saving and deploying the recovery image require additional steps that involve tools that are not included in DaRT. Some guidance and links for these other methods are provided in this section.
 
  
 
 ## Deploy the DaRT Recovery Image Using a USB Flash Drive
 
-
-After you have finished running the DaRT Recovery Image Wizard, you can use the tool at <https://go.microsoft.com/fwlink/?LinkId=218888> to copy the ISO image file to a USB flash drive (UFD).
+After you have finished running the DaRT Recovery Image Wizard, copy the ISO image file to a USB flash drive (UFD).
 
 [How to Deploy the DaRT Recovery Image Using a USB Flash Drive](how-to-deploy-the-dart-recovery-image-using-a-usb-flash-drive-dart-7.md)
 
@@ -55,14 +50,4 @@ After you have finished running the DaRT Recovery Image Wizard and created the r
 
 ## Other resources for maintaining Deploying the DaRT Recovery Image
 
-
--   [Deploying DaRT 7.0](deploying-dart-70-new-ia.md)
-
- 
-
- 
-
-
-
-
-
+[Deploying DaRT 7.0](deploying-dart-70-new-ia.md)
