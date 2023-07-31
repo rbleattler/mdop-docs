@@ -1,14 +1,10 @@
 ---
 title: How to Deploy the App-V Databases by Using SQL Scripts
 description: How to Deploy the App-V Databases by Using SQL Scripts
-author: dansimp
-ms.assetid: 1183b1bc-d4d7-4914-a049-06e82bf2d96d
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 06/16/2016
 ---
@@ -25,26 +21,23 @@ Use the following instructions to use SQL scripts, rather than the Windows Insta
 
 ## How to install the App-V databases by using SQL scripts
 
-1. Before you install the database scripts, review and keep a copy of the App-V license terms. By running the database scripts, you are agreeing to the license terms. If you do not accept them, you should not use this software.
-1. Copy the **appv\_server\_setup.exe** from the App-V release media to a temporary location.
-1. From a command prompt, run **appv\_server\_setup.exe** and specify a temporary location for extracting the database scripts.
+1. Before you install the database scripts, review and keep a copy of the App-V license terms. By running the database scripts, you're agreeing to the license terms. If you don't accept them, you shouldn't use this software.
+1. Copy the `appv_server_setup.exe` from the App-V release media to a temporary location.
+1. From a command prompt, run `appv_server_setup.exe` and specify a temporary location for extracting the database scripts.
 
-    Example: appv\_server\_setup.exe /layout c:\\&lt;_temporary location path_&gt;
+    Example: `appv_server_setup.exe /layout c:\<temporary location path>`
 
-1. Browse to the temporary location that you created, open the extracted **DatabaseScripts** folder, and review the appropriate Readme.txt file for instructions:
+1. Browse to the temporary location that you created, open the extracted `DatabaseScripts` folder, and review the appropriate Readme.txt file for instructions:
 
-    | Database | Location of Readme.txt file to use |
-    |--|--|
-    | Management database | ManagementDatabase subfolder |
-    | Reporting database | ReportingDatabase subfolder |
+    - Management database: `ManagementDatabase` subfolder
+
+    - Reporting database: `ReportingDatabase` subfolder
 
 > [!CAUTION]
-> The readme.txt file in the ManagementDatabase subfolder is out of date. The information in the updated readme files below is the most current and should supersede the readme information provided in the **DatabaseScripts** folders.
+> The readme.txt file in the `ManagementDatabase` subfolder is out of date. The information in the updated readme files below is the most current and should supersede the readme information provided in the `DatabaseScripts` folders.
 
 > [!IMPORTANT]
 > The InsertVersionInfo.sql script is not required for versions of the App-V management database later than App-V 5.0 SP3.
-
-The Permissions.sql script should be updated according to **Step 2** in [KB article 3031340](https://support.microsoft.com/kb/3031340). **Step 1** is not required for versions of App-V later than App-V 5.0 SP3.
 
 ## Updated management database README file content
 
@@ -189,9 +182,7 @@ Steps to install "AppVReporting" schema in SQL SERVER.
 
 ```
 
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
-## Related topics
+## Related information
 
 [Deploying the App-V 5.1 Server](deploying-the-app-v-51-server.md)
 
