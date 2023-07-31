@@ -1,6 +1,6 @@
 ---
-title: Add or upgrade packages by using the management console
-description: How to add or upgrade packages by using the management console.
+title: Add or upgrade packages by using the App-V 5.0 management console
+description: How to add or upgrade packages by using the App-V 5.0 management console.
 author: aczechowski
 ms.reviewer: 
 manager: dansimp
@@ -9,7 +9,7 @@ ms.prod: w10
 ms.date: 06/16/2016
 ---
 
-# Add or upgrade packages by using the management console
+# Add or upgrade packages by using the App-V 5.0 management console
 
 Use the following procedure to add or upgrade a package to the App-V 5.0 Management Console. To upgrade a package that already exists in the Management Console, use the following steps and import the upgraded package using the same package **Name**.
 

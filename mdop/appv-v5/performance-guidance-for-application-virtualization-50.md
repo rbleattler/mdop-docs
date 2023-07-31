@@ -102,11 +102,34 @@ The following table displays the required steps to prepare the base image and th
 
 For critical App-V Client configurations and for a little more context and how-to, review the following information:
 
-| Configuration Setting | What does this do? | How should I use it? |
-|--|--|--|
-| Shared Content Store (SCS) Mode | - Configurable in PowerShell using `Set-AppvClientConfiguration -SharedContentStoreMode`, or<br>- During installation of the App-V 5.0 client. | - When running the shared content store only publishing data is maintained on the hard disk; other virtual application assets are maintained in memory (RAM).<br>- This helps to conserve local storage and minimize disk I/O per second (IOPS). | - This is recommended when low-latency connections are available between the App-V Client endpoint and the SCS content server, SAN. |
-| PreserveUserIntegrationsOnLogin | - Configure in the Registry under `HKEY_LOCAL_MACHINE\Software\Microsoft\AppV\Client\Integration`.<br>- Create the DWORD value `PreserveUserIntegrationsOnLogin` with a value of `1`.<br>- Restart the App-V client service or restart the computer running the App-V Client. | - If you haven't preconfigured (`Add-AppvClientPackage`) a specific package and this setting isn't configured, the App-V Client deintegrates *the persisted user integrations, then reintegrate*.<br>- For every package that meets the above conditions, effectively twice the work is done during publishing/refresh. | - If you don't plan to preconfigure every available user package in the base image, use this setting. |
-| MaxConcurrentPublishingRefresh | - Configure in the Registry under `HKEY_LOCAL_MACHINE\Software\Microsoft\AppV\Client\Publishing`.<br>- Create the DWORD value `MaxConcurrentPublishingRefresh` with the desired maximum number of concurrent publishing refreshes.<br>- The App-V client service and computer don't need to be restarted. | - This setting determines the number of users that can perform a publishing refresh/sync at the same time. The default setting is no limit.<br>- Limiting the number of concurrent publishing refreshes prevents excessive CPU usage that could impact computer performance. This limit is recommended in an RDS environment, where multiple users can sign in to the same computer at the same time and perform a publishing refresh sync.<br>- If the concurrent publishing refresh threshold is reached, the time required to publish new applications and make them available to end users after they sign in could take an indeterminate amount of time. |
+##### Shared Content Store (SCS) Mode
+
+- Configurable in PowerShell using `Set-AppvClientConfiguration -SharedContentStoreMode`, or
+- During installation of the App-V 5.0 client.
+
+When running the shared content store only publishing data is maintained on the hard disk; other virtual application assets are maintained in memory (RAM). This helps to conserve local storage and minimize disk I/O per second (IOPS).
+
+This is recommended when low-latency connections are available between the App-V Client endpoint and the SCS content server, SAN.
+
+##### PreserveUserIntegrationsOnLogin
+
+- Configure in the Registry under `HKEY_LOCAL_MACHINE\Software\Microsoft\AppV\Client\Integration`.
+- Create the DWORD value `PreserveUserIntegrationsOnLogin` with a value of `1`.
+- Restart the App-V client service or restart the computer running the App-V Client.
+
+If you haven't preconfigured (`Add-AppvClientPackage`) a specific package and this setting isn't configured, the App-V Client deintegrates *the persisted user integrations, then reintegrate*. For every package that meets the above conditions, effectively twice the work is done during publishing/refresh.
+
+If you don't plan to preconfigure every available user package in the base image, use this setting.
+
+##### MaxConcurrentPublishingRefresh
+
+- Configure in the Registry under `HKEY_LOCAL_MACHINE\Software\Microsoft\AppV\Client\Publishing`.
+- Create the DWORD value `MaxConcurrentPublishingRefresh` with the desired maximum number of concurrent publishing refreshes.
+- The App-V client service and computer don't need to be restarted.
+
+This setting determines the number of users that can perform a publishing refresh/sync at the same time. The default setting is no limit.
+
+Limiting the number of concurrent publishing refreshes prevents excessive CPU usage that could impact computer performance. This limit is recommended in an RDS environment, where multiple users can sign in to the same computer at the same time and perform a publishing refresh sync. If the concurrent publishing refresh threshold is reached, the time required to publish new applications and make them available to end users after they sign in could take an indeterminate amount of time.
 
 ### Configure UE-V solution for App-V Approach
 

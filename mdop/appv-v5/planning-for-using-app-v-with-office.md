@@ -1,6 +1,6 @@
 ---
-title: Planning for Using App-V with Office
-description: Planning for Using App-V with Office
+title: Planning for Using App-V 5.0 with Office
+description: Planning for Using App-V 5.0 with Office.
 author: aczechowski
 ms.reviewer: 
 manager: dansimp
@@ -10,7 +10,7 @@ ms.date: 08/30/2016
 ---
 
 
-# Planning for Using App-V with Office
+# Planning for Using App-V 5.0 with Office
 
 Use the following information to plan how to deploy Office by using App-V. This article includes:
 

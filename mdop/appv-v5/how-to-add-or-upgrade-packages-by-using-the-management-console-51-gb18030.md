@@ -32,8 +32,6 @@ Use the following procedure to add or upgrade a package to the App-V 5.1 Managem
 
 5. Select **Close** to close the **Add or Upgrade Packages** page.
 
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related information
 
 [Operations for App-V 5.1](operations-for-app-v-51.md)
