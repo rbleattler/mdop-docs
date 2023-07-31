@@ -57,7 +57,7 @@ Before you install AGPM Server, you must be a member of the Domain Admins group 
 
     -   Windows Server 2012 or newer: If the GPMC isn't present, it's automatically installed by AGPM.
 
-    -   Windows 10 or newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
+    -   Windows 10 or newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
 The following Windows features are required by AGPM Server and will be automatically installed if they aren't present:
 
@@ -81,7 +81,7 @@ The following Windows features are required by AGPM Client and unless otherwise 
 
     -   Windows Server 2012 and newer: If the GPMC isn't present, it's automatically installed by AGPM.
 
-    -   Windows 10 and newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
+    -   Windows 10 and newer: You must install the GPMC from RSAT before you install AGPM. For more information, see [Remote Server Administration Tools (RSAT) for Windows](/troubleshoot/windows-server/system-management-components/remote-server-administration-tools#rsat-for-windows-10-version-1809-or-later-versions).
 
 ### Scenario requirements
 
