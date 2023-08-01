@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: w10
 ms.localizationpriority: medium
 ms.date: 05/27/2020
+description: Upgrade Microsoft BitLocker Administration & Monitoring (MBAM) 2.5 to MBAM 2.5 SP1 with Microsoft Desktop Optimization Pack (MDOP) May 2019 update.
 ---
 
 # Upgrade MBAM to the latest servicing release update
