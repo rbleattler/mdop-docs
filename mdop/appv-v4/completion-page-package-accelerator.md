@@ -1,6 +1,6 @@
 ---
 title: Use the Completion Page
-description: Completion Page
+description: Use the Completion Page.
 author: aczechowski
 ms.assetid: b2c7776c-2c35-4d25-92b4-6cd8c2bdff42
 ms.reviewer: 

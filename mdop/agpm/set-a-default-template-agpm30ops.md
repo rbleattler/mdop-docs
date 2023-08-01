@@ -1,6 +1,6 @@
 ---
 title: Setting a Default Template
-description: Set a Default Template
+description: Set a Default Template in AGPM 3.
 author: aczechowski
 ms.assetid: 84edbd69-451b-4c10-a898-781d4b75d09c
 ms.reviewer: 

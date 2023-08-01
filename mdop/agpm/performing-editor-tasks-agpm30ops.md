@@ -1,6 +1,6 @@
 ---
 title: Perform Editor Tasks
-description: Performing Editor Tasks
+description: Performing Editor Tasks in AGPM 3.
 author: aczechowski
 ms.assetid: d4ac3277-2557-41cf-ac90-5adb6c30687c
 ms.reviewer: 

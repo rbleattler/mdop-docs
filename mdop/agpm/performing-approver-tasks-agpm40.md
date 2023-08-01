@@ -1,6 +1,6 @@
 ---
 title: Perform Approver Tasks
-description: Performing Approver Tasks
+description: Performing Approver Tasks in AGPM 4.
 author: aczechowski
 ms.assetid: e0a4b7fe-ce69-4755-9104-c7f523ea6b62
 ms.reviewer: 

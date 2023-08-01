@@ -1,6 +1,6 @@
 ---
 title: How to Review GPO Links
-description: How to Review GPO Links
+description: How to Review GPO Links in AGPM 4.
 author: aczechowski
 ms.assetid: 3aaba9da-f0aa-466f-bd1c-49f11d00ea54
 ms.reviewer: 

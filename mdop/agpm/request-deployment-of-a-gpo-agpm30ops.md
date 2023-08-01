@@ -1,6 +1,6 @@
 ---
 title: Request GPO Deployment of a GPO
-description: Request Deployment of a GPO
+description: Request Deployment of a GPO in AGPM 3.
 author: aczechowski
 ms.assetid: f44ae0fb-bcf7-477b-b99e-9dd6a55ee597
 ms.reviewer: 

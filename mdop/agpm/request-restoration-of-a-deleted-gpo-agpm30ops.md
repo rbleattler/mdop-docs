@@ -1,6 +1,6 @@
 ---
 title: Request Restoration of a Deleted GPO
-description: Request Restoration of a Deleted GPO
+description: Request Restoration of a Deleted GPO in AGPM 3.
 author: aczechowski
 ms.assetid: dcc3baea-8af7-4886-a301-98b6ac5819cd
 ms.reviewer: 

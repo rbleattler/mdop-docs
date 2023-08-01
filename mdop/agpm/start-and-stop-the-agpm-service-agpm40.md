@@ -1,6 +1,6 @@
 ---
 title: How to Start and Stop the AGPM Service
-description: Start and Stop the AGPM Service
+description: Start and Stop the AGPM Service in AGPM 4.
 author: aczechowski
 ms.assetid: dcc9566c-c515-4fbe-b7f5-8ac030141307
 ms.reviewer: 
