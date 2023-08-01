@@ -35,7 +35,7 @@ You can configure MBAM for **Encrypted network communication** after you install
 
 MBAM Setup fails when you use a local Administrator account. The log file contains the following information:
 
-``` syntax
+```output
 Locating group 'MBAM Report Users'
 Adding <GUID>' to group 'MBAM Report Users'
 Locating group 'MBAM Recovery and Hardware DB Access'

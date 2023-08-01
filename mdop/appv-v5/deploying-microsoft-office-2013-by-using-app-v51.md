@@ -157,7 +157,7 @@ The XML file that is included in the Office Deployment Tool specifies the produc
 
 2. **Download the applications into the specified location:** Use an elevated command prompt and a 64-bit operating system to download the Office 2013 applications that will later be converted into an App-V package. Below is an example command with description of details:
 
-   ``` syntax
+   ```cmd
    \\server\Office2013\setup.exe /download \\server\Office2013\Customconfig.xml
    ```
 
@@ -251,7 +251,7 @@ After you download the Office 2013 applications through the Office Deployment To
 
    For example:
 
-   ``` syntax
+   ```cmd
    \\server\Office2013\setup.exe /packager \\server\Office2013\Customconfig.xml  \\server\share\Office2013AppV
    ```
 
@@ -411,12 +411,9 @@ You may want to disable shortcuts for certain Office applications instead of unp
 
 1. Open a Deployment Configuration File in Notepad and search for "Shortcuts".
 
-2. To disable certain shortcuts, delete or comment out the specific shortcuts you don't want. You must keep the subsystem present and enabled. For example, in the example below, delete the Microsoft Access shortcuts, while keeping the subsystems &lt;shortcut&gt; &lt;/shortcut&gt; intact to disable the Microsoft Access shortcut.
+2. To disable certain shortcuts, delete or comment out the specific shortcuts you don't want. You must keep the subsystem present and enabled. For example, in the example below, delete the Microsoft Access shortcuts, while keeping the subsystems `<shortcut> </shortcut>` intact to disable the Microsoft Access shortcut.
 
-    ``` syntax
-    Shortcuts
-
-    -->
+    ```xml
      <Shortcuts Enabled="true">
       <Extensions>
         <Extension Category="AppV.Shortcut">

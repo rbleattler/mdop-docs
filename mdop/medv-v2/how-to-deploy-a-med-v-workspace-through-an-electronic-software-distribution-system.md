@@ -116,7 +116,7 @@ The following example, with the specified arguments, shows how to install 64-bit
 ## Example
 
 
-``` syntax
+```cmd
 :: Install MED-V and the Pre-requisites
 
 :: Install the MED-V Host Agent: install in quiet mode, ignore that Windows Virtual PC is not installed completely, and log results

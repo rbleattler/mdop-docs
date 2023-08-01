@@ -501,7 +501,7 @@ In addition to Extensions, other subsystems can be edited:
 
 - **Machine Wide Virtual Registry**: Used when you want to set a registry key in the virtual registry within `HKEY_Local_Machine`
 
-```xml
+  ```xml
     <Registry>
     <Include>
       <Key Path="\\REGISTRY\\Machine\\Software\\ABC">
@@ -511,17 +511,17 @@ In addition to Extensions, other subsystems can be edited:
      </Include>
     <Delete>
     </Registry>
-```
+  ```
 
 - **Machine Wide Virtual Kernel Objects**
 
-```xml
+  ```xml
     <Objects>
     <NotIsolate>
        <Object Name="testObject" />
      </NotIsolate>
     </Objects>
-```
+  ```
 
 #### ProductSourceURLOptOut
 

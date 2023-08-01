@@ -92,7 +92,7 @@ You must also make sure that the System Locale of the computers to which the MED
 5.  Follow the **Setup Manager** wizard.
 
     > [!IMPORTANT]
-    You must configure the MED-V guest to join a domain that lets users log on by using the credentials that they use to log on to the MED-V host.
+    > You must configure the MED-V guest to join a domain that lets users log on by using the credentials that they use to log on to the MED-V host.
 
     > [!CAUTION]
     > When you configure a proxy account for joining virtual machines to the domain, know that it is possible for an end user to obtain the proxy account credentials. Take all the necessary security precautions to minimize risk, such as limiting account user rights. For more information about security concerns when you configure a Windows Virtual PC image for MED-V, see [Security Best Practices for MED-V Operations](security-best-practices-for-med-v-operations.md).
@@ -144,7 +144,7 @@ After you have run Sysprep on your MED-V image, the virtual machine shuts down a
 
 Here's an example of a Sysprep.inf file.
 
-``` syntax
+```ini
 ;SetupMgrTag
 [GuiUnattended]
     EncryptedAdminPassword=NO

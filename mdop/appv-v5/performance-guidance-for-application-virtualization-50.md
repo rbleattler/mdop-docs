@@ -64,21 +64,21 @@ Use the information in the following section for more information:
 
 |Checklist|Deployment environment|
 |-----|---------------------------|
-| ![Checklist box](images/checklistbox.gif) | Non-persistent VDI or RDSH. |
-| ![Checklist box](images/checklistbox.gif) | User Experience Virtualization (UE-V), other UPM solutions or User Profile Disks (UPD). |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Non-persistent VDI or RDSH. |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | User Experience Virtualization (UE-V), other UPM solutions or User Profile Disks (UPD). |
 
 #### Expected configuration
 
 | Checklist | Expected configuration |
 |--|--|
-| ![Checklist box](images/checklistbox.gif) | User Experience Virtualization (UE-V) with the App-V user state template enabled or User Profile Management (UPM) software. Non-UE-V UPM software must be capable of triggering on sign-in or Process/Application Start and sign out. |
-| ![Checklist box](images/checklistbox.gif) | App-V Shared Content Store (SCS) is configured or can be configured. |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | User Experience Virtualization (UE-V) with the App-V user state template enabled or User Profile Management (UPM) software. Non-UE-V UPM software must be capable of triggering on sign-in or Process/Application Start and sign out. |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | App-V Shared Content Store (SCS) is configured or can be configured. |
 
 #### IT administration
 
 | Checklist | IT administratio |
 |--|--|
-| ![Checklist box](images/checklistbox.gif) | You may need to update the VM base image regularly to ensure optimal performance or you may need to manage multiple images for different user groups. |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | You may need to update the VM base image regularly to ensure optimal performance or you may need to manage multiple images for different user groups. |
 
 ### <a name="bkmk-us"></a>Usage scenario
 

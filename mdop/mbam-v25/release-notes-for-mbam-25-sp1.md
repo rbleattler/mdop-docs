@@ -31,7 +31,7 @@ MBAM Active Directory (AD) Migration cmdlets fail to retrieve volume recovery in
 
 **Technical Details:** You'll see this error when running the command:
 
-``` syntax
+```output
 Read-ADRecoveryInformation : Unknown error (0x80005000)
 At line:1 char:1
 + Read-ADRecoveryInformation -Server "…" -SearchBase " ...
@@ -42,7 +42,7 @@ At line:1 char:1
 
 In addition, the Exception stack trace `Error[0].Exception.StackTrace` looks like this:
 
-``` syntax
+```output
    at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
    at System.DirectoryServices.DirectoryEntry.Bind()
    at System.DirectoryServices.DirectoryEntry.get_AdsObject()

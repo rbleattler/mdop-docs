@@ -29,13 +29,13 @@ The underlying physical drive associated with the primary virtual application di
 
 **Workaround:** Enable short file name (8.3) support on nonsystem physical drives. You can use the following command to enable short file name support on Windows 8 or Windows Server 2012.
 
-``` syntax
+```cmd
 fsutil 8dot3name set <virtual drive letter>:
 ```
 
 For example, use the following command if the drive letter is "Q:":
 
-``` syntax
+```cmd
 fsutil 8dot3name set Q: 0
 ```
 

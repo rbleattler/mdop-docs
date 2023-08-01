@@ -28,7 +28,7 @@ With UE-V you can:
 
 This diagram shows how deployed UE-V components work together to synchronize settings.
 
-![uev2 architectural diagram.](images/uev2archdiagram.gif)
+:::image type="content" source="images/uev2archdiagram.gif" alt-text="An architectural diagram showing the components of UE-V 2, how the agent on the device interacts with the server.":::
 
 | Component | Function |
 |--|--|
@@ -47,7 +47,7 @@ Use these UE-V components to create and manage custom templates for your third-p
 | UE-V Generator | Use the **UE-V Generator** to create custom settings location templates that you can then distribute to user computers. The UE-V Generator also lets you edit an existing template or validate a template that was created by using another XML editor. |
 | Settings template catalog | The **settings template catalog** is a folder path on UE-V computers or a Server Message Block (SMB) network share that stores the custom settings location templates. The UE-V Agent checks this location once a day, retrieves new or updated templates, and updates its synchronization behavior. <br> If you use only the UE-V default settings location templates, then a settings template catalog is unnecessary. For more information about settings deployment catalogs, see [Configure a UE-V settings template catalog](deploy-ue-v-2x-for-custom-applications-new-uevv2.md#deploycatalogue). |
 
-![ue-v generator process.](images/ue-vgeneratorprocess.gif)
+:::image type="content" source="images/ue-vgeneratorprocess.gif" alt-text="A process diagram showing how the generator creates templates, stored in the catalog, and then used by the UE-V agent.":::
 
 ## Settings synchronized by default
 

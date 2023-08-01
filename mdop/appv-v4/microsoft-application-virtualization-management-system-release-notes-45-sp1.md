@@ -118,15 +118,17 @@ WORKAROUND   Delete all of the preceding files from the package. Delete the mapp
 
 When installing the client, to ensure that any install errors are captured for troubleshooting purposes, you should enable logging by using the command line.
 
-WORKAROUND   Add the parameter */l\*vx! log.txt* to the command line, as shown in the following example:
+WORKAROUND   Add the parameter `/l*vx! log.txt` to the command line, as shown in the following example:
 
-setup.exe /s /v"/qn /l\*vx! log.txt"
+```cmd
+setup.exe /s /v"/qn /l*vx! log.txt"
 
-msiexec.exe /i setup.msi /qn /l\*vx! log.txt
+msiexec.exe /i setup.msi /qn /l*vx! log.txt
+```
 
 Alternatively, you can set the registry key to the following value:
 
-\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer\] "Logging"="voicewarmupx!"
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer] "Logging"="voicewarmupx!"`
 
 ### For Kerberos authentication to work, Service Principal Names (SPNs) must be registered for IIS
 
@@ -134,9 +136,9 @@ When using IIS 6.0 or 7.0 for icon or OSD file retrieval and streaming of packag
 
 -   On the IIS server, run the following commands by using the SETSPN.EXE Resource Kit tool. The server fully qualified domain name (FQDN) must be used.
 
-    Setspn -r SOFTGRID/&lt;Server FQDN&gt;
+    `Setspn -r SOFTGRID/<Server FQDN>`
 
-    Setspn -r HTTP/&lt;Server FQDN&gt;
+    `Setspn -r HTTP/<Server FQDN>`
 
 ### .NET compatibility changes
 
