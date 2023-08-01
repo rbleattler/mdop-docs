@@ -1,125 +1,77 @@
 ---
-title: How to Configure Image Pre-staging
-description: How to Configure Image Pre-staging
+title: How to Configure Image Prestaging
+description: How to Configure Image Prestaging
 author: aczechowski
-ms.assetid: 92781b5a-208f-45a4-a078-ee90cf9efd9d
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
-ms.pagetype: mdop, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.prod: w10
 ms.date: 06/16/2016
 ---
 
 
-# How to Configure Image Pre-staging
+# How to Configure Image Prestaging
 
+> [!NOTE]
+> Image pre-staging is useful only for the initial image download. It is not supported for image update.
 
-**Note**  
-Image pre-staging is useful only for the initial image download. It is not supported for image update.
+## To configure image prestaging
 
- 
+1. On the client computer, under the image store directory, create a folder for the prestaging image, and name it *MED-V Images*.
 
-## How to Configure Image Pre-staging
+    > [!NOTE]
+    > This folder must be called *MED-V Images*.
 
+2. Inside the MED-V Images folder, create a subfolder and name it *PrestagedImages*.
 
-**To configure image pre-staging**
+    > [!NOTE]
+    > This folder must be called *PrestagedImages*.
 
-1.  On the client computer, under the image store directory, create a folder for the pre-staging image, and name it *MED-V Images*.
+3. To apply Access Control Lists (ACL) security to the *MED-V Images* folder, set the following ACL:
 
-    **Note**  
-    This folder must be called *MED-V Images*.
+    - `NT AUTHORITY\\Authenticated Users:(OI)(CI)(special access:)`
+    - `READ_CONTROL`
+    - `SYNCHRONIZE`
+    - `FILE_GENERIC_READ`
+    - `FILE_READ_DATA`
+    - `FILE_APPEND_DATA`
+    - `FILE_READ_EA`
+    - `FILE_READ_ATTRIBUTES`
+    - `NT AUTHORITY\SYSTEM:(OI)(CI)F`
+    - `BUILTIN\Administrators:(OI)(CI)F`
 
-     
+    > [!NOTE]
+    > It's recommended to apply ACL security to the *MED-V Images* folder.
 
-2.  Inside the MED-V Images folder, create a subfolder and name it *PrestagedImages*.
+4. To apply ACL security to the *PrestagedImages* folder, set the following ACL:
 
-    **Note**  
-    This folder must be called *PrestagedImages*.
+    - `NT AUTHORITY\\Authenticated Users:(OI)(CI)(special access:)`
+    - `READ_CONTROL`
+    - `SYNCHRONIZE`
+    - `FILE_GENERIC_READ`
+    - `FILE_READ_DATA`
+    - `FILE_APPEND_DATA`
+    - `FILE_READ_EA`
+    - `FILE_READ_ATTRIBUTES`
+    - `NT AUTHORITY\SYSTEM:(OI)(CI)F`
+    - `BUILTIN\Administrators:(OI)(CI)F`
 
-     
+    > [!NOTE]
+    > It's recommended to apply ACL security to the *PrestagedImages* folder.
 
-3.  To apply Access Control Lists (ACL) security to the *MED-V Images* folder, set the following ACL:
+5. Push the image files (CKM and INDEX files) to the *PrestagedImages* folder.
 
-    **NT AUTHORITY\\Authenticated Users:(OI)(CI)(special access:)**
+    > [!NOTE]
+    > After the image files have been pushed to the pre-stage folder, it is recommended to run a data integrity check and to mark the files as read-only.
 
-                                             **READ\_CONTROL**
+6. Include the following parameter in the MED-V client installation: `Client.MSI VMSFOLDER="C:\MED-V Images"`.
 
-                                    **SYNCHRONIZE**
+## How to update the prestage location
 
-                                    **FILE\_GENERIC\_READ**
+1. The registry key, *PrestagedImagesPath*, points to the default image location. It's located in the following directory:
 
-                                    **FILE\_READ\_DATA**
+    - On an x86 - `HKEY_LOCAL_MACHINE\SOFTWARE\Kidaro`
 
-    **                                 FILE\_APPEND\_DATA**
+    - On an x64 - `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432node`
 
-                                    **FILE\_READ\_EA**
-
-                                    **FILE\_READ\_ATTRIBUTES**
-
-    **NT AUTHORITY\\SYSTEM:(OI)(CI)F**
-
-    **BUILTIN\\Administrators:(OI)(CI)F**
-
-    **Note**  
-    It is recommended to apply ACL security to the *MED-V Images* folder.
-
-     
-
-4.  To apply ACL security to the *PrestagedImages* folder, set the following ACL:
-
-    **NT AUTHORITY\\Authenticated Users:(OI)(CI)(special access:)**
-
-    **READ\_CONTROL**
-
-    **SYNCHRONIZE**
-
-    **FILE\_GENERIC\_READ**
-
-    **FILE\_READ\_DATA**
-
-    **FILE\_READ\_EA**
-
-    **FILE\_READ\_ATTRIBUTES**
-
-    **NT AUTHORITY\\SYSTEM:(OI)(CI)F**
-
-    **BUILTIN\\Administrators:(OI)(CI)F**
-
-    **Note**  
-    It is recommended to apply ACL security to the *PrestagedImages* folder.
-
-     
-
-5.  Push the image files (CKM and INDEX files) to the *PrestagedImages* folder.
-
-    **Note**  
-    After the image files have been pushed to the pre-stage folder, it is recommended to run a data integrity check and to mark the files as read-only.
-
-     
-
-6.  Include the following parameter in the MED-V client installation: *Client.MSI VMSFOLDER=”C:\\MED-V Images”*.
-
-## How to Update the Pre-stage Location
-
-
-**To update the pre-stage location**
-
-1.  The registry key, *PrestagedImagesPath*, points to the default image location. It is located in the following directory:
-
-    -   On an x86 - `KEY_LOCAL_MACHINE\SOFTWARE\Kidaro`
-
-    -   On an x64 - `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432node`
-
-2.  If the image is in a different location, change the path.
-
- 
-
- 
-
-
-
-
-
+2. If the image is in a different location, change the path.
