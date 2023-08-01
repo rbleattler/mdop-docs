@@ -16,4 +16,4 @@
 ## User Experience Virtualization
 ### [User Experience Virtualization 2](uev-v2/index.md)
 ### [User Experience Virtualization 1](uev-v1/index.md)
-## [MDOP Solutions and Scenarios](solutions/index.md)
+## [MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md)

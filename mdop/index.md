@@ -80,6 +80,8 @@ MDOP is a suite of products that can help streamline desktop deployment, managem
 
 MDOP subscribers can download the software at the [Microsoft Volume Licensing website (MVLS)](https://go.microsoft.com/fwlink/p/?LinkId=166331).
 
+You can manage the feature settings of certain Microsoft Desktop Optimization Pack (MDOP) technologies (for example, App-V, UE-V, or MBAM) by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
+
 ### Purchase MDOP
 
 Visit the enterprise [Purchase Windows Enterprise Licensing](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) website to find out how to purchase MDOP for your business.

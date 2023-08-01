@@ -619,6 +619,7 @@
 ###### [Command-Line Errors](command-line-errors.md)
 ## [Glossary](application-virtualization-glossary.md)
 ## [Application Virtualization Technical Publications](application-virtualization-technical-publications-white-papers.md)
+### [Create App-V 4.5 databases using SQL scripting](creating-app-v-45-databases-using-sql-scripting.md)
 ### [Microsoft Application Virtualization Security Guide](microsoft-application-virtualization-security-guide.md)
 #### [Introduction](introduction-to-the-application-virtualization-security-guide.md)
 #### [Installing App-V Management Server or Streaming Server Securely](installing-app-v-management-server-or-streaming-server-securely.md)

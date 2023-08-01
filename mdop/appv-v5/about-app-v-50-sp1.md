@@ -1,14 +1,10 @@
 ---
 title: About App-V 5.0 SP1
 description: About App-V 5.0 SP1
-author: dansimp
-ms.assetid: 2848a51b-452e-4c70-b465-f6717cfa667f
+author: aczechowski
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
+ms.author: aaroncz
 ms.prod: w10
 ms.date: 08/30/2016
 ---
@@ -19,14 +15,14 @@ ms.date: 08/30/2016
 
 This service pack contains the following changes:
 
--   The App-V 5.0 sequencer and App-V 5.0 client now support twenty-four languages. You can download the additional language packs using the **Volume Licensing Service Center**.
+-   The App-V 5.0 sequencer and App-V 5.0 client now support 24 languages. You can download the language packs using the **Volume Licensing Service Center**.
 
--   The App-V 5.0 server now supports eleven languages. You can download the additional language packs using the **Volume Licensing Service Center**.
+-   The App-V 5.0 server now supports 11 languages. You can download the language packs using the **Volume Licensing Service Center**.
 
 -   Support has been added for the App-V 5.0 Volume Shadow Copy Service (VSS) Writer feature.
 
-    **Important**  
-    To use VSS and App-V 5.0 you must modify the values for the following server registry keys with the updated database names:
+    > [!IMPORTANT]
+    > To use VSS and App-V 5.0 you must modify the values for the following server registry keys with the updated database names:
 
     -   Management - **HKEY\_LOCAL\_MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **AppV** \\ **Server** \\ **ManagementService** \\ **MANAGEMENT\_DB\_NAME**
 
@@ -34,28 +30,11 @@ This service pack contains the following changes:
 
      
 
-## How to Get MDOP Technologies
-
+## How to get MDOP
 
 App-V 5.0 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049) (https://go.microsoft.com/fwlink/?LinkId=322049).
 
 
-
-
-
-
-## Related topics
-
+## Related information
 
 [What's new in App-V 5.0 SP1](whats-new-in-app-v-50-sp1.md)
-
-[Release Notes for App-V 5.0 SP1](release-notes-for-app-v-50-sp1.md)
-
- 
-
- 
-
-
-
-
-
