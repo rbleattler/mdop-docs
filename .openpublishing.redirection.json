@@ -39,6 +39,31 @@
       "source_path": "mdop/agpm/resources-for-agpm.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/agpm/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/solutions/application-publishing-and-client-interaction-for-app-v-5-solutions.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/application-publishing-and-client-interaction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/solutions/virtualizing-microsoft-office-2010-for-application-virtualization--app-v--50-solutions.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2010-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/solutions/virtualizing-microsoft-office-2013-for-application-virtualization--app-v--50-solutions.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2013-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/solutions/creating-app-v-45-databases-using-sql-scripting.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v4/creating-app-v-45-databases-using-sql-scripting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/solutions/index.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/",
+      "redirect_document_id": false
     }
   ]
 }
