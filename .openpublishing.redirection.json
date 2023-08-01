@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50-sp1.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp1",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "mdop/softgrid-application-virtualization.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/",
       "redirect_document_id": false
@@ -28,6 +33,11 @@
     {
       "source_path": "mdop/dart-v10/how-to-use-a-powershell-script-to-create-the-recovery-image-dart-10.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/administering-dart-10-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/resources-for-agpm.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/",
       "redirect_document_id": false
     },
     {

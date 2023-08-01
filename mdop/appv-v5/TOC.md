@@ -113,7 +113,6 @@
 ##### [Release Notes for App-V 5.0](release-notes-for-app-v-50.md)
 #### [About App-V 5.0 SP1](about-app-v-50-sp1.md)
 ##### [What's new in App-V 5.0 SP1](whats-new-in-app-v-50-sp1.md)
-##### [Release Notes for App-V 5.0 SP1](release-notes-for-app-v-50-sp1.md)
 #### [About App-V 5.0 SP2](about-app-v-50-sp2.md)
 ##### [Release Notes for App-V 5.0 SP2](release-notes-for-app-v-50-sp2.md)
 #### [About App-V 5.0 SP3](about-app-v-50-sp3.md)
