@@ -1,11 +1,11 @@
 ---
 title: Prerequisites for the Configuration Manager Integration Feature
 description: Prerequisites for the Configuration Manager Integration Feature
-author: dansimp
+author: aczechowski
 ms.assetid: b318cbd3-b009-44b8-991b-f7364c1cae88
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

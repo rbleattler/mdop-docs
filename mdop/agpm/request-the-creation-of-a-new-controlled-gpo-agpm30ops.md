@@ -1,11 +1,11 @@
 ---
 title: How to Request Creation of a New Controlled GPO
 description: Request the Creation of a New Controlled GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 4194c2f3-8116-4a35-be1a-81c84072daec
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

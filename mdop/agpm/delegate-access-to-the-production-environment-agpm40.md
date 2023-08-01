@@ -1,11 +1,11 @@
 ---
 title: Delegating Access to the Production Environment
 description: Delegating Access to the Production Environment
-author: dansimp
+author: aczechowski
 ms.assetid: 4c670581-8c47-41ea-80eb-02846ff1ec1f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

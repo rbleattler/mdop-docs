@@ -1,11 +1,11 @@
 ---
 title: Monitor MED-V Workspaces
 description: Monitor MED-V Workspaces
-author: dansimp
+author: aczechowski
 ms.assetid: f514afe2-8add-4105-9520-1a491733fa79
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

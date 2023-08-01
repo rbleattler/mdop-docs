@@ -1,11 +1,11 @@
 ---
 title: Client Management Console Publishing Servers Node
 description: Client Management Console Publishing Servers Node
-author: dansimp
+author: aczechowski
 ms.assetid: 03f2038f-b5f7-4e5b-a8f0-98f5e9d5f644
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

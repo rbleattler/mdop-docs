@@ -1,11 +1,11 @@
 ---
 title: Configuring App-V for Secure Administration
 description: Configuring App-V for Secure Administration
-author: dansimp
+author: aczechowski
 ms.assetid: 4543fa81-c8cc-4b10-83b7-060778eb1349
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

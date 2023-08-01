@@ -1,11 +1,11 @@
 ---
 title: How to Edit an Existing Virtual Application
 description: How to Edit an Existing Virtual Application
-author: dansimp
+author: aczechowski
 ms.assetid: 358b9a69-5695-4c6f-92e1-7ed2b69a2def
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

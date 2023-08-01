@@ -1,11 +1,11 @@
 ---
 title: Sharing Settings Location Templates with the UE-V Template Gallery
 description: Sharing Settings Location Templates with the UE-V Template Gallery
-author: dansimp
+author: aczechowski
 ms.assetid: 3830ae0c-96dd-4a8d-96a2-df87aea81b27
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

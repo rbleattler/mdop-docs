@@ -1,11 +1,11 @@
 ---
 title: Manage the Archive
 description: Manage the Archive
-author: dansimp
+author: aczechowski
 ms.assetid: b11a3d71-74ea-4dd7-b243-6f2880b7af2d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

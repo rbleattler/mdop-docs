@@ -1,11 +1,11 @@
 ---
 title: Best Practices for Version Control
 description: 'Best Practices for Version Control: When using AGPM, Group Policy administrators should be aware of best practices that apply to any version control system.'
-author: dansimp
+author: aczechowski
 ms.assetid: 89067f6a-f7ea-4dad-999d-118284cf6c5a
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: About the AGPM Server Tab
 description: Use **AGPM Server** tab on the **Change Control** pane to select an AGPM Server by entering a fully-qualified computer name and port and to delete older versions of GPOs from the archive.
-author: dansimp
+author: aczechowski
 ms.assetid: a6689437-233e-4f33-a0d6-f7d432c96c00
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

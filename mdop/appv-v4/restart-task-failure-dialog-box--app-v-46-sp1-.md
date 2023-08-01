@@ -1,11 +1,11 @@
 ---
 title: Restart Task Failure Dialog Box (App-V 4.6 SP1)
 description: Restart Task Failure Dialog Box (App-V 4.6 SP1)
-author: dansimp
+author: aczechowski
 ms.assetid: 1933fe71-8aa0-4e43-b6f7-060050001edd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

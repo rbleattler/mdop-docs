@@ -1,11 +1,11 @@
 ---
 title: CLEAR OBJ
 description: CLEAR OBJ
-author: dansimp
+author: aczechowski
 ms.assetid: 1e50b33f-6324-4eae-8573-75c153f786cd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Application Virtualization Client Installer Command-Line Parameters
 description: Application Virtualization Client Installer Command-Line Parameters
-author: dansimp
+author: aczechowski
 ms.assetid: 508fa404-52a5-4919-8788-2a3dfb00639b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

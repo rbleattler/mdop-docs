@@ -1,11 +1,11 @@
 ---
 title: How to Manage Hardware Compatibility
 description: How to Manage Hardware Compatibility
-author: dansimp
+author: aczechowski
 ms.assetid: c74b96b9-8161-49bc-b5bb-4838734e7df5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

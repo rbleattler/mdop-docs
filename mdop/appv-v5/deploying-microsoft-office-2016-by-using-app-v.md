@@ -1,11 +1,11 @@
 ---
 title: Deploy Microsoft Office 2016 by Using App-V
 description: How to eploy Microsoft Office 2016 by Using App-V
-author: dansimp
+author: aczechowski
 ms.assetid: cc675cde-cb8d-4b7c-a700-6104b78f1d89
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

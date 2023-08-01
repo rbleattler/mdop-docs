@@ -1,11 +1,11 @@
 ---
 title: Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
 description: How to Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
-author: dansimp
+author: aczechowski
 ms.assetid: 881d573f-2f18-4c5f-838e-2f5320179f94
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

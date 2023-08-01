@@ -1,11 +1,11 @@
 ---
 title: Streaming Page
 description: Streaming Page
-author: dansimp
+author: aczechowski
 ms.assetid: a69a57a0-1bbe-4604-840d-bfa87ec463e1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

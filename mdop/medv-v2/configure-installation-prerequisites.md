@@ -1,11 +1,11 @@
 ---
 title: Configure Installation Prerequisites
 description: Configure Installation Prerequisites
-author: dansimp
+author: aczechowski
 ms.assetid: ff9cf28a-3eac-4b6c-8ce9-bfc202f57947
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

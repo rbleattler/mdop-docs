@@ -1,11 +1,11 @@
 ---
 title: Internet-Facing Server Scenarios for Perimeter Networks
 description: Internet-Facing Server Scenarios for Perimeter Networks
-author: dansimp
+author: aczechowski
 ms.assetid: 8a4da6e6-82c7-49e5-b9b1-1666cba02f65
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

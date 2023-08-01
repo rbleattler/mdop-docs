@@ -1,11 +1,11 @@
 ---
 title: Deploying the App-V 5.1 Sequencer and Client
 description: Deploying the App-V 5.1 Sequencer and Client
-author: dansimp
+author: aczechowski
 ms.assetid: 74f32794-4c76-436f-a542-f9e95d89063d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Electronic Software Distribution-Based Scenario
 description: Electronic Software Distribution-Based Scenario
-author: dansimp
+author: aczechowski
 ms.assetid: 18be0f8d-60ee-449b-aa83-93c86d1a908e
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

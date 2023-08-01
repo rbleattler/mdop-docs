@@ -1,11 +1,11 @@
 ---
 title: Use the Self-Service Portal to Regain Access to a Computer
 description: How to Use the Self-Service Portal to Regain Access to a Computer
-author: dansimp
+author: aczechowski
 ms.assetid: 3c24b13a-d1b1-4763-8ac0-0b2db46267e3
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

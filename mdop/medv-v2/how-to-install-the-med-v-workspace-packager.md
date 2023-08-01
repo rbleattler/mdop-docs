@@ -1,11 +1,11 @@
 ---
 title: How to Install the MED-V Workspace Packager
 description: How to Install the MED-V Workspace Packager
-author: dansimp
+author: aczechowski
 ms.assetid: 627478e9-6798-4b32-9a50-7a1b72bea295
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

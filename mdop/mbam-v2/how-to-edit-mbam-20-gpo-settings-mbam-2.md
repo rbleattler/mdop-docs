@@ -1,11 +1,11 @@
 ---
 title: How to Edit MBAM 2.0 GPO Settings
 description: How to Edit MBAM 2.0 GPO Settings
-author: dansimp
+author: aczechowski
 ms.assetid: f5ffa93d-b4d2-4317-8a1c-7d2be0264fe3
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

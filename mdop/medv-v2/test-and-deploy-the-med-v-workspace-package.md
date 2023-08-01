@@ -1,11 +1,11 @@
 ---
 title: Test And Deploy the MED-V Workspace Package
 description: Test And Deploy the MED-V Workspace Package
-author: dansimp
+author: aczechowski
 ms.assetid: 0238dea7-a08c-4859-b8b1-2b52bc63fda6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

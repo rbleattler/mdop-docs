@@ -1,11 +1,11 @@
 ---
 title: Provider Policies Results Pane
 description: Provider Policies Results Pane
-author: dansimp
+author: aczechowski
 ms.assetid: 17ea0836-bfb5-4966-8778-155444d81e64
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

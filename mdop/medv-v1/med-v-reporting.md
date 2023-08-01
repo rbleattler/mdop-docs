@@ -1,11 +1,11 @@
 ---
 title: MED-V Reporting
 description: MED-V Reporting
-author: dansimp
+author: aczechowski
 ms.assetid: b379153b-be89-4a76-a284-2bb4591c3490
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

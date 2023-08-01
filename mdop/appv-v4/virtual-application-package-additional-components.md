@@ -1,11 +1,11 @@
 ---
 title: Virtual Application Package Additional Components
 description: Virtual Application Package Additional Components
-author: dansimp
+author: aczechowski
 ms.assetid: 476b0f40-ebd6-4296-92fa-61fa9495c03c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

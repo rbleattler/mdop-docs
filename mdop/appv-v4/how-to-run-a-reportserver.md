@@ -1,11 +1,11 @@
 ---
 title: How to Run a Report
 description: How to Run a Report
-author: dansimp
+author: aczechowski
 ms.assetid: 72a5419b-aa65-4e60-b23e-3751186b7aed
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

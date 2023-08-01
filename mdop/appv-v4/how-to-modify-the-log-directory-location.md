@@ -1,11 +1,11 @@
 ---
 title: How to Modify the Log Directory Location
 description: How to Modify the Log Directory Location
-author: dansimp
+author: aczechowski
 ms.assetid: 203c674f-8d46-4d42-9af0-245a2681fc0f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Security and Privacy for UE-V 1.0
 description: Security and Privacy for UE-V 1.0
-author: dansimp
+author: aczechowski
 ms.assetid: c23d867d-7991-4c78-a123-a8a92758e5ba
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

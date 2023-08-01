@@ -1,11 +1,11 @@
 ---
 title: Checking In a GPO
 description: How to Check In a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 437397db-c94b-4940-b1a4-05442619ebee
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

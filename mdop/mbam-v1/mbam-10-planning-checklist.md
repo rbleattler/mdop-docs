@@ -1,11 +1,11 @@
 ---
 title: MBAM 1.0 Planning Checklist
 description: MBAM 1.0 Planning Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: e9439f16-d68b-48ed-99ce-5949356b180b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

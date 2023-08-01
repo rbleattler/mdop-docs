@@ -1,11 +1,11 @@
 ---
 title: Commands on the Templates Tab
 description: Commands on the Templates Tab
-author: dansimp
+author: aczechowski
 ms.assetid: 243a9b18-bf3f-44fa-94d7-5c793f7322da
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Technical Reference
 description: Technical Reference
-author: dansimp
+author: aczechowski
 ms.assetid: 387462c7-bb46-40b8-b4cf-ee9453972582
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

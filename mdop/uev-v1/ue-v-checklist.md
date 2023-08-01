@@ -1,11 +1,11 @@
 ---
 title: UE-V Checklist
 description: UE-V Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: 0e4b9bd5-4e60-4673-b698-90612008fc2b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

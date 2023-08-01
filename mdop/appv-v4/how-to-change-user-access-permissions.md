@@ -1,11 +1,11 @@
 ---
 title: How to Change User Access Permissions
 description: How to Change User Access Permissions
-author: dansimp
+author: aczechowski
 ms.assetid: 21b60cc7-5395-401e-a374-6ef0d58872b7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

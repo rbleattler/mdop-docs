@@ -1,11 +1,11 @@
 ---
 title: Package Name Page (Learn More)
 description: Package Name Page (Learn More)
-author: dansimp
+author: aczechowski
 ms.assetid: ee75b8f0-bd9d-4460-a256-016ff97c2386
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

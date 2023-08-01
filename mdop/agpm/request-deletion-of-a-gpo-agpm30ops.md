@@ -1,11 +1,11 @@
 ---
 title: Request Deletion of a GPO
 description: Request Deletion of a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 576ece5c-dc6d-4b5e-8628-01c15ae2c9a8
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

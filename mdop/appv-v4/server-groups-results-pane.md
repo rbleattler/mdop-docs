@@ -1,11 +1,11 @@
 ---
 title: Server Groups Results Pane
 description: Server Groups Results Pane
-author: dansimp
+author: aczechowski
 ms.assetid: ac7b0525-5946-4728-9cf1-c65007852ebe
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

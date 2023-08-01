@@ -1,11 +1,11 @@
 ---
 title: Creating a Template and Setting a Default Template
 description: How to Create a Template and Set a Default Template
-author: dansimp
+author: aczechowski
 ms.assetid: 8771b4b5-4dea-4be1-a675-f60cfd3ec5dc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Prepare a UE-V 2.x Deployment
 description: Prepare a UE-V 2.x Deployment
-author: dansimp
+author: aczechowski
 ms.assetid: c429fd06-13ff-48c5-b9c9-fa1ec01ab800
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

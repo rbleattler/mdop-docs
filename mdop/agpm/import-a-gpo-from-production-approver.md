@@ -1,11 +1,11 @@
 ---
 title: Importing a GPO from Production
 description: Importing a GPO from Production
-author: dansimp
+author: aczechowski
 ms.assetid: 071270fa-1890-40ce-ab89-ce070a54aa59
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting DaRT 7.0
 description: Troubleshooting DaRT 7.0
-author: dansimp
+author: aczechowski
 ms.assetid: 24c50efa-e9ac-45c4-aca2-b1dcfe834fdd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: About Using the Sequencer Command Line
 description: About Using the Sequencer Command Line
-author: dansimp
+author: aczechowski
 ms.assetid: 0fd5f81b-17f9-4065-bce2-8785e8aac7c7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Create, Edit, and Deploy a GPO Checklist
 description: Checklist Create, Edit, and Deploy a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 44631bed-16d2-4b5a-af70-17a73fb5f6af
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

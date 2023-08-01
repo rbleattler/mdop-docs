@@ -1,11 +1,11 @@
 ---
 title: Perform Reviewer Tasks
 description: Performing Reviewer Tasks
-author: dansimp
+author: aczechowski
 ms.assetid: b5f0805c-da55-45a5-a94c-2473af92b54a
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

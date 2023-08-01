@@ -4,8 +4,8 @@ description: How to Revert Extension Points from an App-V 5.0 Package to an App-
 ms.assetid: 2a43ca1b-6847-4dd1-ade2-336ac4ac6af0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-author: dansimp
+ms.author: aaroncz
+author: aczechowski
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

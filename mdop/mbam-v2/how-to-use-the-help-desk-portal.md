@@ -1,11 +1,11 @@
 ---
 title: How to Use the Help Desk Portal
 description: How to Use the Help Desk Portal
-author: dansimp
+author: aczechowski
 ms.assetid: c27f7737-10c8-4164-9de8-57987292c89c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

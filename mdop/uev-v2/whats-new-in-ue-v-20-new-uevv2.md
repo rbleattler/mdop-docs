@@ -1,11 +1,11 @@
 ---
 title: What's New in UE-V 2.0
 description: What's New in UE-V 2.0
-author: dansimp
+author: aczechowski
 ms.assetid: 5d852beb-f293-4e3a-a33b-c40df59a7515
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

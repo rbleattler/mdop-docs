@@ -1,11 +1,11 @@
 ---
 title: Create a Connection Group
 description: How to Create a Connection Group
-author: dansimp
+author: aczechowski
 ms.assetid: 221e2eed-7ebb-42e3-b3d6-11c37c0578e6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

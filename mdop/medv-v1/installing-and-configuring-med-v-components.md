@@ -1,11 +1,11 @@
 ---
 title: Installing and Configuring MED-V Components
 description: Installing and Configuring MED-V Components
-author: dansimp
+author: aczechowski
 ms.assetid: 4af90e9f-3c6b-4f7c-8274-56ad24173662
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

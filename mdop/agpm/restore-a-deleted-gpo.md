@@ -1,11 +1,11 @@
 ---
 title: Restore a Deleted GPO
 description: Restore a Deleted GPO
-author: dansimp
+author: aczechowski
 ms.assetid: e6953296-7b7d-4d1e-ad82-d4a23044cdd7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

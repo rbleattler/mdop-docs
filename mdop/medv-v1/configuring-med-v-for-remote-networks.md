@@ -1,11 +1,11 @@
 ---
 title: Configuring MED-V for Remote Networks
 description: Configuring MED-V for Remote Networks
-author: dansimp
+author: aczechowski
 ms.assetid: 4d2f0081-622f-4a6f-8d73-f8c2108036e0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

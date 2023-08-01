@@ -1,11 +1,11 @@
 ---
 title: Examples of Virtual Machine Configurations
 description: Examples of Virtual Machine Configurations
-author: dansimp
+author: aczechowski
 ms.assetid: 5937601e-41ab-4ca2-8fa1-3c9154710cd6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Step-by-Step Guide for Microsoft Advanced Group Policy Management 2.5
 description: Step-by-Step Guide for Microsoft Advanced Group Policy Management 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: 454298c9-0fab-497a-9808-c0246a4c8db5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

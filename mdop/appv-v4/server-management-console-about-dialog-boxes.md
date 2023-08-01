@@ -1,11 +1,11 @@
 ---
 title: Server Management Console About Dialog Boxes
 description: Server Management Console About Dialog Boxes
-author: dansimp
+author: aczechowski
 ms.assetid: b5fdee0b-4269-4a48-98a0-ed3f06cff041
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

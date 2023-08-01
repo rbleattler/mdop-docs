@@ -1,11 +1,11 @@
 ---
 title: How to Configure Management Server Security Post-Installation
 description: How to Configure Management Server Security Post-Installation
-author: dansimp
+author: aczechowski
 ms.assetid: 71979fa6-3d0b-4a8b-994e-cb728d013090
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

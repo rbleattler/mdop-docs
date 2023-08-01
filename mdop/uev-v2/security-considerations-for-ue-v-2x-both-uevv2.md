@@ -1,11 +1,11 @@
 ---
 title: Security Considerations for UE-V 2.x
 description: Security Considerations for UE-V 2.x
-author: dansimp
+author: aczechowski
 ms.assetid: 9d5c3cae-9fcb-4dea-bd67-741b3dea63be
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Advanced Group Policy Management 4.0
 description: Advanced Group Policy Management 4.0
-author: dansimp
+author: aczechowski
 ms.assetid: 9873a1f7-97fc-4546-9538-b4c0308529c0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

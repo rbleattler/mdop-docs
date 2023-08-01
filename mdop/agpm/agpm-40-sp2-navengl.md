@@ -1,11 +1,11 @@
 ---
 title: AGPM 4.0 SP2
 description: AGPM 4.0 SP2
-author: dansimp
+author: aczechowski
 ms.assetid: 915c9791-ac07-43db-bd53-957b641c700f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

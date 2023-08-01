@@ -1,11 +1,11 @@
 ---
 title: How to Modify the AGPM Service
 description: How to Modify the AGPM Service
-author: dansimp
+author: aczechowski
 ms.assetid: 3485f85f-59d1-48dc-8748-36826214dcb1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

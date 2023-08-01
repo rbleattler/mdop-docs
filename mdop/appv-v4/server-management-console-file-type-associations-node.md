@@ -1,11 +1,11 @@
 ---
 title: Server Management Console File Type Associations Node
 description: Server Management Console File Type Associations Node
-author: dansimp
+author: aczechowski
 ms.assetid: c22168be-6601-4154-b36b-9ca0fa87e5e0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

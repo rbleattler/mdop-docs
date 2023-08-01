@@ -1,11 +1,11 @@
 ---
 title: How to Load Files and Packages
 description: How to Load Files and Packages
-author: dansimp
+author: aczechowski
 ms.assetid: f86f5bf1-99a4-44d7-ae2f-e6049c482f68
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

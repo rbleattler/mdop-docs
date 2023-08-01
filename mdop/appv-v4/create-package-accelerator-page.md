@@ -1,11 +1,11 @@
 ---
 title: Create Package Accelerator Page
 description: Create Package Accelerator Page
-author: dansimp
+author: aczechowski
 ms.assetid: 51cdc262-beda-4a4f-bb3e-66458062a7bd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

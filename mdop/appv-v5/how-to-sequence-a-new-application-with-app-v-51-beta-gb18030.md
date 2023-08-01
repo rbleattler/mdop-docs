@@ -1,11 +1,11 @@
 ---
 title: How to Sequence a New Application with App-V 5.1
 description: How to Sequence a New Application with App-V 5.1
-author: dansimp
+author: aczechowski
 ms.assetid: 7d7699b1-0cb8-450d-94e7-5af937e16c21
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

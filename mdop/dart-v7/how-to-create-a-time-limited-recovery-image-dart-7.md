@@ -1,11 +1,11 @@
 ---
 title: How to Create a Time Limited Recovery Image
 description: How to Create a Time Limited Recovery Image
-author: dansimp
+author: aczechowski
 ms.assetid: d2e29cac-c24c-4239-997f-0320b8a830ae
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

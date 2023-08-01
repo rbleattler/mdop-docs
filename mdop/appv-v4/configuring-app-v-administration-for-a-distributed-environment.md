@@ -1,11 +1,11 @@
 ---
 title: Configuring App-V Administration for a Distributed Environment
 description: Configuring App-V Administration for a Distributed Environment
-author: dansimp
+author: aczechowski
 ms.assetid: 53971fa9-8319-435c-be74-c37feb9af1da
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

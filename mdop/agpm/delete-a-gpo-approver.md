@@ -1,11 +1,11 @@
 ---
 title: 'Approver: Delete a GPO'
 description: How to Delete a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 85fca371-5707-49c1-aa51-813fc3a58dfc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

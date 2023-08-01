@@ -1,11 +1,11 @@
 ---
 title: Request Control of a Previously Uncontrolled GPO
 description: Request Control of a Previously Uncontrolled GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 00e8725d-5d7f-4eed-a5e6-c3631632cfbd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

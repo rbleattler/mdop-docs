@@ -1,11 +1,11 @@
 ---
 title: Select Installation Files Page
 description: Select Installation Files Page
-author: dansimp
+author: aczechowski
 ms.assetid: 4c8cd49e-ba39-4918-9863-5b3c315d14a5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

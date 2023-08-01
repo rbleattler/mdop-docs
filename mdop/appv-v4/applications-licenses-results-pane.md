@@ -1,11 +1,11 @@
 ---
 title: Applications Licenses Results Pane
 description: Applications Licenses Results Pane
-author: dansimp
+author: aczechowski
 ms.assetid: 8b519715-b2fe-451e-ad9b-e9b73f454961
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

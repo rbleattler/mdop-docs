@@ -1,11 +1,11 @@
 ---
 title: Configuring Advanced Settings by Using Windows PowerShell
 description: Configuring Advanced Settings by Using Windows PowerShell
-author: dansimp
+author: aczechowski
 ms.assetid: 437a31cc-2a11-456f-b448-b0b869fb53f7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

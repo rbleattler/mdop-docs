@@ -1,11 +1,11 @@
 ---
 title: How to Install Application Virtualization Management Server
 description: How to Install Application Virtualization Management Server
-author: dansimp
+author: aczechowski
 ms.assetid: 8184be79-8c27-4328-a3c1-183791b5556c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Configuring UE-V with Group Policy Objects
 description: Configuring UE-V with Group Policy Objects
-author: dansimp
+author: aczechowski
 ms.assetid: 5c9be706-a05f-4397-9a38-e6b73ebff1e5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

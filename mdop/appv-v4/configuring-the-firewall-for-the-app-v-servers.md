@@ -1,11 +1,11 @@
 ---
 title: Configuring the Firewall for the App-V Servers
 description: Configuring the Firewall for the App-V Servers
-author: dansimp
+author: aczechowski
 ms.assetid: f779c450-6c6f-46a8-ac66-5e82e0689d55
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

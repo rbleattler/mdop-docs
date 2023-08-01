@@ -1,11 +1,11 @@
 ---
 title: Determine Your Streaming Method
 description: Determine Your Streaming Method
-author: dansimp
+author: aczechowski
 ms.assetid: 50d5e0ec-7f48-4cea-8711-5882bd89153b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

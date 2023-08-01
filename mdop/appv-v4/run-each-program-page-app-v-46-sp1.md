@@ -1,11 +1,11 @@
 ---
 title: Run Each Program Page
 description: Run Each Program Page
-author: dansimp
+author: aczechowski
 ms.assetid: 4f09a64e-9545-47aa-bc43-fda0089f7adb
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

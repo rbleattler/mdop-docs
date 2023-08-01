@@ -1,11 +1,11 @@
 ---
 title: How to Publish a Virtual Application on the Client
 description: How to Publish a Virtual Application on the Client
-author: dansimp
+author: aczechowski
 ms.assetid: 90af843e-b5b3-4a71-a3a1-fa5f4c087f28
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

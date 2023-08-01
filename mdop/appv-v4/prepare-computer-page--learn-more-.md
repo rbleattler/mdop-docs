@@ -1,11 +1,11 @@
 ---
 title: Prepare Computer Page (Learn More)
 description: Prepare Computer Page (Learn More)
-author: dansimp
+author: aczechowski
 ms.assetid: a401ce3d-b8f7-4b3f-9be9-ecf6d8b544fd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

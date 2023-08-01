@@ -1,11 +1,11 @@
 ---
 title: Import a GPO from a Production Environment
 description: Import a GPO from a Production Environment
-author: dansimp
+author: aczechowski
 ms.assetid: c5b2f40d-1dc7-4dbf-b8b3-4d97ad73e1e5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

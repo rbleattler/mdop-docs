@@ -1,11 +1,11 @@
 ---
 title: Configure Feature Visibility Settings
 description: How to Configure Feature Visibility Settings
-author: dansimp
+author: aczechowski
 ms.assetid: 6a844478-a6b0-490d-923f-5a6f82467831
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

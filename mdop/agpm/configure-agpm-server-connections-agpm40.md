@@ -1,11 +1,11 @@
 ---
 title: Configure AGPM Server Connections
 description: Configuring AGPM Server Connections
-author: dansimp
+author: aczechowski
 ms.assetid: bbbb15e8-35e7-403c-b695-7a6ebeb87839
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

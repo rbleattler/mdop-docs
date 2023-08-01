@@ -1,11 +1,11 @@
 ---
 title: How to Install the Management Console
 description: How to Install the Management Console
-author: dansimp
+author: aczechowski
 ms.assetid: 586d99c8-bca6-42e2-a39c-a696053142f1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
