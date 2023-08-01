@@ -1,11 +1,11 @@
 ---
 title: Server Groups Node
 description: Server Groups Node
-author: dansimp
+author: aczechowski
 ms.assetid: 6b2ed086-9100-47d0-be7f-0c5fb4fa55c6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

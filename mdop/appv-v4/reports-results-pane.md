@@ -1,11 +1,11 @@
 ---
 title: Reports Results Pane
 description: Reports Results Pane
-author: dansimp
+author: aczechowski
 ms.assetid: 66beac62-fa55-4ab9-ac19-b9e1772e2d20
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

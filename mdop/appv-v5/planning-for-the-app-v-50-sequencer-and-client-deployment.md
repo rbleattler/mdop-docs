@@ -1,11 +1,11 @@
 ---
 title: Planning for the App-V 5.0 Sequencer and Client Deployment
 description: Planning for the App-V 5.0 Sequencer and Client Deployment
-author: dansimp
+author: aczechowski
 ms.assetid: 57a604ad-90e1-4d32-86bb-eafff59aa43a
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

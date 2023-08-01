@@ -1,11 +1,11 @@
 ---
 title: App-V Interoperability with Windows AppLocker
 description: App-V Interoperability with Windows AppLocker
-author: dansimp
+author: aczechowski
 ms.assetid: 9a488034-607d-411c-b495-ff184c726f49
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

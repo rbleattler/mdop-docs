@@ -1,11 +1,11 @@
 ---
 title: Internet-Facing Considerations for App-V Clients
 description: Internet-Facing Considerations for App-V Clients
-author: dansimp
+author: aczechowski
 ms.assetid: 261acde3-7112-492e-8b11-934ae45adc5f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

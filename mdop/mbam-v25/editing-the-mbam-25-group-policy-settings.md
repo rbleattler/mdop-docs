@@ -1,11 +1,11 @@
 ---
 title: Editing the MBAM 2.5 Group Policy Settings
 description: Editing the MBAM 2.5 Group Policy Settings
-author: dansimp
+author: aczechowski
 ms.assetid: a50b6b0c-6818-4419-8447-d0520a533dba
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

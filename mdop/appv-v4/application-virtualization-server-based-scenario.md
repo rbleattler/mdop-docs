@@ -1,11 +1,11 @@
 ---
 title: Application Virtualization Server-Based Scenario
 description: Application Virtualization Server-Based Scenario
-author: dansimp
+author: aczechowski
 ms.assetid: 10ed0b18-087d-470f-951b-5083f4cb076f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

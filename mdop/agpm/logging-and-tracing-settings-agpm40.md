@@ -1,11 +1,11 @@
 ---
 title: Settings for Logging and Tracing
 description: Settings for Logging and Tracing
-author: dansimp
+author: aczechowski
 ms.assetid: 66d03306-80d8-4132-bf71-2827157b1fc9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

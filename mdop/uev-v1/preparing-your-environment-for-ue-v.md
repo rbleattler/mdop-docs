@@ -1,11 +1,11 @@
 ---
 title: Preparing Your Environment for UE-V
 description: Preparing Your Environment for UE-V
-author: dansimp
+author: aczechowski
 ms.assetid: c93d3b33-e032-451a-9e1b-8534e1625396
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

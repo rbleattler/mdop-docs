@@ -1,11 +1,11 @@
 ---
 title: Creating and Managing App-V 5.1 Virtualized Applications
 description: Creating and Managing App-V 5.1 Virtualized Applications
-author: dansimp
+author: aczechowski
 ms.assetid: 26be4331-88eb-4cfb-9d82-e63d7ee54576
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

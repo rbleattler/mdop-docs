@@ -1,11 +1,11 @@
 ---
 title: Planning for the App-V 5.1 Server Deployment
 description: Planning for the App-V 5.1 Server Deployment
-author: dansimp
+author: aczechowski
 ms.assetid: eedd97c9-bee0-4749-9d1e-ab9528fba398
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Evaluating App-V 5.1
 description: Evaluating App-V 5.1
-author: dansimp
+author: aczechowski
 ms.assetid: 92d80b23-3eca-4be3-a771-e700ad1470db
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

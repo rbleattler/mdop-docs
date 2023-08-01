@@ -1,11 +1,11 @@
 ---
 title: How to Customize an Application Virtualization System in the Server Management Console
 description: How to Customize an Application Virtualization System in the Server Management Console
-author: dansimp
+author: aczechowski
 ms.assetid: e3a51d1d-451d-46a5-8ae5-f5792d49495b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

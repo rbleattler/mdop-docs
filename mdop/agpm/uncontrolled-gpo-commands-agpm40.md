@@ -1,11 +1,11 @@
 ---
 title: Uncontrolled Tab GPO Commands
-description: Uncontrolled GPO Commands
-author: dansimp
+description: Uncontrolled GPO Commands in AGPM 4.
+author: aczechowski
 ms.assetid: 05a8050f-adc3-465b-8524-bbe95745165c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

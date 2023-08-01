@@ -1,11 +1,11 @@
 ---
 title: Request Creation of a New Controlled GPO
-description: Request the Creation of a New Controlled GPO
-author: dansimp
+description: Request the Creation of a New Controlled GPO in AGPM 4.
+author: aczechowski
 ms.assetid: cb265238-386f-4780-a59a-0c9a4a87d736
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

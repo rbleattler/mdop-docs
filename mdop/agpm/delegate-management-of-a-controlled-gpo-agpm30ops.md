@@ -1,11 +1,11 @@
 ---
 title: Delegate Management of a Controlled GPO
 description: Delegate Management of a Controlled GPO
-author: dansimp
+author: aczechowski
 ms.assetid: 509b02e7-ce0b-4919-b58a-c3a33051152e
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

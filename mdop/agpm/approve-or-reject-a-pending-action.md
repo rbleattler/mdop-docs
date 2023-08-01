@@ -1,11 +1,11 @@
 ---
 title: Approve or Reject a Pending Action
 description: Approve or Reject a Pending Action
-author: dansimp
+author: aczechowski
 ms.assetid: 22921a51-50fb-4a47-bec1-4f563f523675
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

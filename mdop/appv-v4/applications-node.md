@@ -1,11 +1,11 @@
 ---
 title: Applications Node
 description: Applications Node
-author: dansimp
+author: aczechowski
 ms.assetid: ded79569-8a3f-47ab-b135-0836bbb039f3
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

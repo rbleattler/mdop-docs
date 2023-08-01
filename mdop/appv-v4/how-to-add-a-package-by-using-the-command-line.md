@@ -1,11 +1,11 @@
 ---
 title: How to Add a Package by Using the Command Line
 description: How to Add a Package by Using the Command Line
-author: dansimp
+author: aczechowski
 ms.assetid: e75af49e-811a-407a-a7f0-6de8562b9188
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: How to Destroy a GPO
 description: How to Destroy a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: bfabd71a-47f3-462e-b86f-5f15762b9e28
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

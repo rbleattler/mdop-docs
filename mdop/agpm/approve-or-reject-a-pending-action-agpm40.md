@@ -1,11 +1,11 @@
 ---
 title: How to Approve or Reject a Pending Action
 description: Approving or Rejecting a Pending Action
-author: dansimp
+author: aczechowski
 ms.assetid: 078ea8b5-9ac5-45fc-9ac1-a1aa629c10b4
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

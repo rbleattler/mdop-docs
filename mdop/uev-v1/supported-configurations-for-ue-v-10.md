@@ -1,11 +1,11 @@
 ---
 title: Supported Configurations for UE-V 1.0
 description: Supported Configurations for UE-V 1.0
-author: dansimp
+author: aczechowski
 ms.assetid: d90ab83e-741f-48eb-b1d8-a64cb9259f7a
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

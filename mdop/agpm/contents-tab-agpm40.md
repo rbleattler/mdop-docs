@@ -1,11 +1,11 @@
 ---
 title: Contents Tab Information
 description: Information on the Contents Tab
-author: dansimp
+author: aczechowski
 ms.assetid: cf9d1f17-3c3d-422f-bd6b-3db87be45554
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: QUERY OBJ
 description: QUERY OBJ
-author: dansimp
+author: aczechowski
 ms.assetid: 55abf0d1-c779-4172-8357-552ab010933b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

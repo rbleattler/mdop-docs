@@ -1,11 +1,11 @@
 ---
 title: How to Add a Server
 description: How to Add a Server
-author: dansimp
+author: aczechowski
 ms.assetid: 1f31678a-8edf-4d35-a812-e4a2abfd979b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

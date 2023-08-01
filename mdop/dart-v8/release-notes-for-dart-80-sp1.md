@@ -1,11 +1,11 @@
 ---
 title: Release Notes for DaRT 8.0 SP1
 description: Release Notes for DaRT 8.0 SP1
-author: dansimp
+author: aczechowski
 ms.assetid: fa7512d8-fb00-4c27-8f65-c15f3a8ff1cc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

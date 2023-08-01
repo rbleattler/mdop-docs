@@ -1,11 +1,11 @@
 ---
 title: Known Issues in the MBAM International Release
 description: Known Issues in the MBAM International Release
-author: dansimp
+author: aczechowski
 ms.assetid: bbf888dc-93c1-4323-b43c-0ded098e9b93
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

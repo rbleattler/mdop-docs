@@ -1,11 +1,11 @@
 ---
 title: File Type Association Results Pane Columns
 description: File Type Association Results Pane Columns
-author: dansimp
+author: aczechowski
 ms.assetid: eab48e20-9c92-459d-a06b-8e20202d73f6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

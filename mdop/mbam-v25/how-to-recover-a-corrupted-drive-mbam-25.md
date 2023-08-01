@@ -1,11 +1,11 @@
 ---
 title: Recover a corrupted drive
 description: How to Recover a Corrupted Drive
-author: dansimp
+author: aczechowski
 ms.assetid: fa5b846b-dda6-4ae4-bf6c-39e4f1d8aa00
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: App-V Installation Checklist
 description: App-V Installation Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: b17efaab-cd6d-4c30-beb7-c6e7c9c87657
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

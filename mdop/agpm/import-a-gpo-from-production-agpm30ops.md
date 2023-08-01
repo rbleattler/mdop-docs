@@ -1,11 +1,11 @@
 ---
 title: How to Import a GPO from a Production Environment
 description: How to Import a GPO from a Production Environment
-author: dansimp
+author: aczechowski
 ms.assetid: 35c2a682-ece8-4577-a083-7e3e9facfd13
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

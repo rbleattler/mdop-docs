@@ -1,11 +1,11 @@
 ---
 title: How to Reset the FileSystem Cache
 description: How to Reset the FileSystem Cache
-author: dansimp
+author: aczechowski
 ms.assetid: 7777259d-8c21-4c06-9384-9599b69f9828
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

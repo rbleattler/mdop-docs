@@ -1,11 +1,11 @@
 ---
 title: About the Sequencer Console
 description: About the Sequencer Console
-author: dansimp
+author: aczechowski
 ms.assetid: 36ecba89-a0f5-4d4d-981c-7f581aa43695
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Setting a Default Template
-description: Set a Default Template
-author: dansimp
+description: Set a Default Template in AGPM 3.
+author: aczechowski
 ms.assetid: 84edbd69-451b-4c10-a898-781d4b75d09c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

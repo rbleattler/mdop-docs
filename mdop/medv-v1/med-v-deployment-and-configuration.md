@@ -1,11 +1,11 @@
 ---
 title: MED-V Deployment and Configuration
 description: MED-V Deployment and Configuration
-author: dansimp
+author: aczechowski
 ms.assetid: 3a224c78-58b0-454c-ad6d-5ce87fbb2526
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

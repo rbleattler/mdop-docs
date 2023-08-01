@@ -1,11 +1,11 @@
 ---
 title: Release Notes for DaRT 10
 description: Release Notes for DaRT 10
-author: dansimp
+author: aczechowski
 ms.assetid: eb996980-f9c4-42cb-bde9-6b3d4b82b58c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

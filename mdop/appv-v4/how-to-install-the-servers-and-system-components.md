@@ -1,11 +1,11 @@
 ---
 title: How to Install the Servers and System Components
 description: How to Install the Servers and System Components
-author: dansimp
+author: aczechowski
 ms.assetid: c6f5fef0-522a-4ef1-8585-05b292d0289b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

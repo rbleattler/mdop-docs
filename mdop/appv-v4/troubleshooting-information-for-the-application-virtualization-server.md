@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting Information for the Application Virtualization Server
 description: Troubleshooting Information for the Application Virtualization Server
-author: dansimp
+author: aczechowski
 ms.assetid: e9d43d9b-84f2-4d1b-bb90-a13740151e0c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

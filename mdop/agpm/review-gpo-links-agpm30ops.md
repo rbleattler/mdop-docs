@@ -1,11 +1,11 @@
 ---
-title: How to Review GPO Links
-description: How to Review GPO Links
-author: dansimp
+title: How to Review GPO Links in AGPM 3
+description: How to Review GPO Links in AGPM 3.
+author: aczechowski
 ms.assetid: 5ae95afc-2b89-45cf-916c-efe2d43b2211
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -14,7 +14,7 @@ ms.date: 06/16/2016
 ---
 
 
-# How to Review GPO Links
+# How to Review GPO Links in AGPM 3
 
 
 You can display a diagram showing where a Group Policy Object (GPO) or GPOs that you select are linked to organizational units. GPO link diagrams are updated each time the GPO is controlled, imported, or checked in.

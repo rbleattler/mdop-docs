@@ -1,11 +1,11 @@
 ---
 title: End-to-End Operations Scenario for MED-V 2.0
 description: End-to-End Operations Scenario for MED-V 2.0
-author: dansimp
+author: aczechowski
 ms.assetid: 1d87f5f3-9fc5-4731-8bd1-c155714f34ee
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

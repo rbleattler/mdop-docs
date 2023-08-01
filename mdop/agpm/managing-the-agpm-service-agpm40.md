@@ -1,11 +1,11 @@
 ---
 title: How to Manage the AGPM Service
 description: How to Manage the AGPM Service
-author: dansimp
+author: aczechowski
 ms.assetid: 48ca02aa-6acf-403b-afd4-66ae8a953246
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

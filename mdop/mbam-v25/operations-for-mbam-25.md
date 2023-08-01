@@ -1,11 +1,11 @@
 ---
 title: Operations for MBAM 2.5
 description: Operations for MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: da0e35be-2dc4-4a24-b69a-530436eb48fc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

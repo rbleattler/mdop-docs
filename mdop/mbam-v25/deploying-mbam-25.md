@@ -1,11 +1,11 @@
 ---
 title: Deploying MBAM 2.5
 description: Deploying MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: 45403607-1f4d-42fe-8413-0d4da01808a6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

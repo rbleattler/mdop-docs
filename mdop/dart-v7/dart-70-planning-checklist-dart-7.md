@@ -1,11 +1,11 @@
 ---
 title: DaRT 7.0 Planning Checklist
 description: DaRT 7.0 Planning Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: f97a2318-6597-4774-a854-bb546279a8fd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

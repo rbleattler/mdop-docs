@@ -1,11 +1,11 @@
 ---
 title: Administrative Templates Folder
 description: Administrative Templates Folder
-author: dansimp
+author: aczechowski
 ms.assetid: 0cc5b570-b6d3-4841-9646-02521c13519c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

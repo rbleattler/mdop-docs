@@ -1,11 +1,11 @@
 ---
 title: How to Restore the Archive from a Backup
-description: Restore the Archive from a Backup
-author: dansimp
+description: Restore the Archive from a Backup in AGPM 4.
+author: aczechowski
 ms.assetid: b83f6173-a236-4da2-b16e-8df20920d4cc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

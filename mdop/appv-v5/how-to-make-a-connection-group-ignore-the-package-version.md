@@ -1,11 +1,11 @@
 ---
 title: Make a Connection Group Ignore the Package Version
 description: How to Make a Connection Group Ignore the Package Version
-author: dansimp
+author: aczechowski
 ms.assetid: 6ebc1bff-d190-4f4c-a6da-e09a4cca7874
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

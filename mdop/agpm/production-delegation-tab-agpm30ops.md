@@ -1,11 +1,11 @@
 ---
 title: Production Delegation Tab
 description: Production Delegation Tab
-author: dansimp
+author: aczechowski
 ms.assetid: 9851637d-d5c1-4d29-8582-e8779500a14e
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

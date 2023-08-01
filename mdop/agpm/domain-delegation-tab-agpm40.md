@@ -1,11 +1,11 @@
 ---
 title: About the Domain Delegation Tab
 description: Domain Delegation Tab Details
-author: dansimp
+author: aczechowski
 ms.assetid: 5be5841e-92fb-4af6-aa68-0ae50f8d5141
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

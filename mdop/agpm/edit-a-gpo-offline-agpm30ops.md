@@ -1,11 +1,11 @@
 ---
 title: How to Edit a GPO Offline
 description: Editing a GPO Offline
-author: dansimp
+author: aczechowski
 ms.assetid: 51677d8a-6209-41b5-82ed-4f3be817abc0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

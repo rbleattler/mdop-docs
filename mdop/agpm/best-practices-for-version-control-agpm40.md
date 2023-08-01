@@ -1,11 +1,11 @@
 ---
 title: Version Control Best Practices
 description:  Version Control Best Practices
-author: dansimp
+author: aczechowski
 ms.assetid: 4a2a1ac7-67f3-4ba3-ab07-860d33da0efe
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

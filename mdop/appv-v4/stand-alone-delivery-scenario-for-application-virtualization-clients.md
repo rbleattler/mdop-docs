@@ -1,11 +1,11 @@
 ---
 title: Stand-Alone Delivery Scenario for Application Virtualization Clients
 description: Stand-Alone Delivery Scenario for Application Virtualization Clients
-author: dansimp
+author: aczechowski
 ms.assetid: 7545b468-f58a-4504-a6d5-3c2d303731c4
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

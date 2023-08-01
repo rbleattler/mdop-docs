@@ -1,11 +1,11 @@
 ---
 title: MED-V Client Tools
 description: MED-V Client Tools
-author: dansimp
+author: aczechowski
 ms.assetid: ea18d82e-2433-4754-85ac-6eac84bcbb01
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

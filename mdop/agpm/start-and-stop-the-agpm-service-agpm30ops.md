@@ -1,11 +1,11 @@
 ---
 title: Starting and Stopping the AGPM Service
-description: Start and Stop the AGPM Service
-author: dansimp
+description: Start and Stop the AGPM Service in AGPM 3.
+author: aczechowski
 ms.assetid: b9d26920-c439-4992-9a78-73e4fba8309d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

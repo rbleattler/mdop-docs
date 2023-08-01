@@ -1,11 +1,11 @@
 ---
 title: Advanced Group Policy Management Overview
 description: Advanced Group Policy Management Overview
-author: dansimp
+author: aczechowski
 ms.assetid: 3a8d1e58-12b9-42bd-898f-6d57514dfbb9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

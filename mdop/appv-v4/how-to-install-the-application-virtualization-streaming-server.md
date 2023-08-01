@@ -1,11 +1,11 @@
 ---
 title: How to Install the Application Virtualization Streaming Server
 description: How to Install the Application Virtualization Streaming Server
-author: dansimp
+author: aczechowski
 ms.assetid: a3065257-fb5a-4d92-98f8-7ef996c61db9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

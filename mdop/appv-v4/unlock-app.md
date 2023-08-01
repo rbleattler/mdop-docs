@@ -1,11 +1,11 @@
 ---
 title: UNLOCK APP
 description: UNLOCK APP
-author: dansimp
+author: aczechowski
 ms.assetid: 91fc8ceb-b4f5-4a06-8193-05189f830943
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

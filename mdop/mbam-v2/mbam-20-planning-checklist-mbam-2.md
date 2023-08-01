@@ -1,11 +1,11 @@
 ---
 title: MBAM 2.0 Planning Checklist
 description: MBAM 2.0 Planning Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: 16b27c27-5f5e-41e2-b526-89a036672fb8
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Generating MBAM 2.5 Stand-alone Reports
 description: Generating MBAM 2.5 Stand-alone Reports
-author: dansimp
+author: aczechowski
 ms.assetid: 0ec623ff-5155-4906-aef2-20cdc0f84667
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

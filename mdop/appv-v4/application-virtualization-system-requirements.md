@@ -1,11 +1,11 @@
 ---
 title: Application Virtualization System Requirements
 description: Application Virtualization System Requirements
-author: dansimp
+author: aczechowski
 ms.assetid: a2798dd9-168e-45eb-8103-e12e128fae7c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

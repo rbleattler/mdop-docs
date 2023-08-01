@@ -1,11 +1,11 @@
 ---
 title: Moving MBAM 2.5 Features to Another Server
 description: Moving MBAM 2.5 Features to Another Server
-author: dansimp
+author: aczechowski
 ms.assetid: 9767a0e4-e8ab-49f0-98c5-5cd671975501
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

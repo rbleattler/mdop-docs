@@ -1,11 +1,11 @@
 ---
 title: Exclusion Item Dialog Box
 description: Exclusion Item Dialog Box
-author: dansimp
+author: aczechowski
 ms.assetid: 5523c6d4-95f2-47af-8c06-3ab18004a207
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

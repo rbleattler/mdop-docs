@@ -1,11 +1,11 @@
 ---
 title: Reviewer Tasks
-description: Performing Reviewer Tasks
-author: dansimp
+description: Performing Reviewer Tasks in AGPM 3.
+author: aczechowski
 ms.assetid: 1faf396d-be0d-49ac-b063-0722fda2e43d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

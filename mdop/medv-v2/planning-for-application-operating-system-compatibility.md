@@ -1,11 +1,11 @@
 ---
 title: Planning for Application Operating System Compatibility
 description: Planning for Application Operating System Compatibility
-author: dansimp
+author: aczechowski
 ms.assetid: cdb0a7f0-9da4-4562-8277-12972eb0fea8
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

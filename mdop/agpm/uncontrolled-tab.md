@@ -1,11 +1,11 @@
 ---
 title: Uncontrolled Tab
 description: Uncontrolled Tab
-author: dansimp
+author: aczechowski
 ms.assetid: d7e658bf-a72b-4813-bdc8-2fdb7251e742
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

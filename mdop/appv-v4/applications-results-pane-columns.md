@@ -1,11 +1,11 @@
 ---
 title: Applications Results Pane Columns
 description: Applications Results Pane Columns
-author: dansimp
+author: aczechowski
 ms.assetid: abae5ce2-40df-4f47-8062-f5eb6295c88c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

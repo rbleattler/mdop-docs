@@ -1,11 +1,11 @@
 ---
 title: Edit the Configuration.mof File
 description: Edit the Configuration.mof File
-author: dansimp
+author: aczechowski
 ms.assetid: 23e50ec9-4083-4b12-ad96-626cf30960bb
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

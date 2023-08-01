@@ -1,11 +1,11 @@
 ---
 title: Create Package Accelerator (Review Errors) Page
 description: Create Package Accelerator (Review Errors) Page
-author: dansimp
+author: aczechowski
 ms.assetid: ea3f531d-1887-4b42-a30f-b875d0ccb916
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

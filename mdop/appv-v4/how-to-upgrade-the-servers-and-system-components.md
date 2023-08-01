@@ -1,11 +1,11 @@
 ---
 title: How to Upgrade the Servers and System Components
 description: How to Upgrade the Servers and System Components
-author: dansimp
+author: aczechowski
 ms.assetid: 7d8374fe-5897-452e-923e-556a854b2024
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

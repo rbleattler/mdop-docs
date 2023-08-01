@@ -1,11 +1,11 @@
 ---
 title: How to Manage Packages in the Server Management Console
 description: How to Manage Packages in the Server Management Console
-author: dansimp
+author: aczechowski
 ms.assetid: d13d3896-8575-4d2a-8bb4-1fe15d79c390
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: How to Pack a MED-V Image
 description: How to Pack a MED-V Image
-author: dansimp
+author: aczechowski
 ms.assetid: e1ce2307-0f1b-4bf8-b146-e4012dc138d2
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

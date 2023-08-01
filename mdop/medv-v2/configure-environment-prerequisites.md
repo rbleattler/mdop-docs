@@ -1,11 +1,11 @@
 ---
 title: Configure Environment Prerequisites
 description: Configure Environment Prerequisites
-author: dansimp
+author: aczechowski
 ms.assetid: 7379e8e5-1cb2-4b8e-8acc-5c04e26f8c91
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

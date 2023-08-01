@@ -1,11 +1,11 @@
 ---
 title: Install the Publishing Server on a Remote Computer
 description: How to Install the Publishing Server on a Remote Computer
-author: dansimp
+author: aczechowski
 ms.assetid: 37970706-54ff-4799-9485-b9b49fd50f37
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

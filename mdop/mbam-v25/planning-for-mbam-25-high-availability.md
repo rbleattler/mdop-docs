@@ -1,11 +1,11 @@
 ---
 title: Planning for MBAM 2.5 High Availability
 description: Planning for MBAM 2.5 High Availability
-author: dansimp
+author: aczechowski
 ms.assetid: 1e29b30c-33f1-4a52-9442-8c1391f0049c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

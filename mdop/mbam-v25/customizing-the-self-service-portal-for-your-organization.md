@@ -1,11 +1,11 @@
 ---
 title: Customizing the Self-Service Portal for Your Organization
 description: Customizing the Self-Service Portal for Your Organization
-author: dansimp
+author: aczechowski
 ms.assetid: f007e02b-e2df-47a9-9762-5909e230aa3f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Maintaining App-V 5.1
 description: Maintaining App-V 5.1
-author: dansimp
+author: aczechowski
 ms.assetid: 5abd17d3-e8af-4261-b914-741ae116b0e7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

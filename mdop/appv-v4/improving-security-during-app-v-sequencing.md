@@ -1,11 +1,11 @@
 ---
 title: Improving Security During App-V Sequencing
 description: Improving Security During App-V Sequencing
-author: dansimp
+author: aczechowski
 ms.assetid: f30206dd-5749-4a27-bbaf-61fc21b9c663
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

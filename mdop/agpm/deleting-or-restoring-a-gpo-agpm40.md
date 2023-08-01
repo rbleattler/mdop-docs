@@ -1,11 +1,11 @@
 ---
 title: Delete or Restore a GPO
 description: Delete or Restore a GPO
-author: dansimp
+author: aczechowski
 ms.assetid: d4f92f4d-eba7-4e6e-b166-13670864d298
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

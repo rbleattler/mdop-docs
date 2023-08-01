@@ -1,11 +1,11 @@
 ---
 title: Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
 description: How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
-author: dansimp
+author: aczechowski
 ms.assetid: 9399342b-1ea7-41df-b988-33e302f9debe
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

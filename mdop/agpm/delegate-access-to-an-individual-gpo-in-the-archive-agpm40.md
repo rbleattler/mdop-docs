@@ -1,11 +1,11 @@
 ---
 title: How to Delegate Access to an Individual GPO in the Archive
 description: How to Delegate Access to an Individual GPO in the Archive
-author: dansimp
+author: aczechowski
 ms.assetid: 284d2aa2-7c10-4ffa-8978-bbe30867c1c1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

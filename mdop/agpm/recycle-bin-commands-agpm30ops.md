@@ -1,11 +1,11 @@
 ---
 title: Commands on the Recycle Bin Tab
-description: Recycle Bin Commands
-author: dansimp
+description: Recycle Bin Commands in AGPM 3.
+author: aczechowski
 ms.assetid: ffe8f020-7aa9-40ad-8019-cc99901a7840
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

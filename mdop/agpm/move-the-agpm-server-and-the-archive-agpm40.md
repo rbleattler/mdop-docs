@@ -1,11 +1,11 @@
 ---
 title: How to Move the AGPM Server and the Archive
 description: How to Move the AGPM Server and the Archive
-author: dansimp
+author: aczechowski
 ms.assetid: 9ec48d3a-c293-45f0-8939-32ccdc062303
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: How to Request Control of an Uncontrolled GPO
-description: Request Control of an Uncontrolled GPO
-author: dansimp
+description: Request Control of an Uncontrolled GPO in AGPM 4.
+author: aczechowski
 ms.assetid: a34e0aeb-33a1-4c9f-b187-1d08493a785c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

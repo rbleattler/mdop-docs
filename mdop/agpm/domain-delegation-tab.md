@@ -1,11 +1,11 @@
 ---
 title: Domain Delegation Tab
 description: The Domain Delegation tab on the Change Control pane provides a list of Group Policy administrators who have domain-level access to the archive and indicates the roles of each.
-author: dansimp
+author: aczechowski
 ms.assetid: 15a9bfff-e25b-4b62-9ebc-521a5f4eae96
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Upgrading to MBAM 2.5 SP1 from MBAM 2.5
 description: Upgrading to MBAM 2.5 SP1 from MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: 
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

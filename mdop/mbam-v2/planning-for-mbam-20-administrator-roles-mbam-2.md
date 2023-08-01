@@ -1,11 +1,11 @@
 ---
 title: Planning for MBAM 2.0 Administrator Roles
 description: Planning for MBAM 2.0 Administrator Roles
-author: dansimp
+author: aczechowski
 ms.assetid: 6f813297-6479-42d3-a21b-896d54466b5b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

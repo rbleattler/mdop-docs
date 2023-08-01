@@ -1,11 +1,11 @@
 ---
 title: Customize Page (Learn More)
 description: Customize Page (Learn More)
-author: dansimp
+author: aczechowski
 ms.assetid: 893df614-7058-4fcf-ba34-d0f16c856374
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

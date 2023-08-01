@@ -1,11 +1,11 @@
 ---
 title: MBAM 2.5 Deployment Checklist
 description: MBAM 2.5 Deployment Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: 2ba7de17-e3a4-4798-99e0-cd1dc28c5b76
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

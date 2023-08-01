@@ -1,11 +1,11 @@
 ---
 title: MBAM 1.0 Deployment Checklist
 description: MBAM 1.0 Deployment Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: 7e00be23-36a0-4b0f-8663-3c4f2c71546d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
