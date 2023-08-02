@@ -1,11 +1,11 @@
 ---
 title: Sequencer Dialog Boxes
 description: Sequencer Dialog Boxes
-author: dansimp
+author: aczechowski
 ms.assetid: f660d56b-0244-4167-b077-96ad482e6b36
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

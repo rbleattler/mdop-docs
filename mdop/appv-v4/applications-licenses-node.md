@@ -1,11 +1,11 @@
 ---
 title: Applications Licenses Node
 description: Applications Licenses Node
-author: dansimp
+author: aczechowski
 ms.assetid: 2b8752ff-aa56-483e-b844-966941af2d94
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

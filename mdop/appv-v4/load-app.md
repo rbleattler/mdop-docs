@@ -1,11 +1,11 @@
 ---
 title: LOAD APP
 description: LOAD APP
-author: dansimp
+author: aczechowski
 ms.assetid: 7b727d0c-5423-419d-92ef-7ebbc6343e79
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Restoring a Deleted GPO
-description: Restore a Deleted GPO
-author: dansimp
+description: Restore a Deleted GPO in AGPM 3.
+author: aczechowski
 ms.assetid: 853feb0a-d2d9-4be9-a07e-e113a56a9968
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

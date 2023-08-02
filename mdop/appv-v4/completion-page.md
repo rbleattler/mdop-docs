@@ -1,11 +1,11 @@
 ---
 title: Completion Page
 description: Completion Page
-author: dansimp
+author: aczechowski
 ms.assetid: b284d362-b9e1-4d04-88cd-fe9980652188
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

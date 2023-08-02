@@ -1,11 +1,11 @@
 ---
 title: DELETE PACKAGE
 description: DELETE PACKAGE
-author: dansimp
+author: aczechowski
 ms.assetid: 8f7a4598-610d-490e-a224-426acce01a9f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

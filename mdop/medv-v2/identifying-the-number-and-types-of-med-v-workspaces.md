@@ -1,11 +1,11 @@
 ---
 title: Identifying the Number and Types of MED-V Workspaces
 description: Identifying the Number and Types of MED-V Workspaces
-author: dansimp
+author: aczechowski
 ms.assetid: 11642253-6b1f-4c4a-a11e-48d8a360e1ea
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

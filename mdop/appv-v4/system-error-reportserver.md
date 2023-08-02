@@ -1,11 +1,11 @@
 ---
 title: System Error Report
 description: System Error Report
-author: dansimp
+author: aczechowski
 ms.assetid: 4081db2f-92a6-4928-a26b-757048159094
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

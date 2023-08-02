@@ -1,11 +1,11 @@
 ---
 title: Planning to Create the DaRT 7.0 Recovery Image
 description: Planning to Create the DaRT 7.0 Recovery Image
-author: dansimp
+author: aczechowski
 ms.assetid: e5d49bee-ae4e-467b-9976-c1203f6355f9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

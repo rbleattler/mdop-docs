@@ -1,11 +1,11 @@
 ---
 title: Features on the Contents Tab 
 description: Contents Tab Features
-author: dansimp
+author: aczechowski
 ms.assetid: f1f4849d-bf94-47d5-ad81-0eee33abcaca
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

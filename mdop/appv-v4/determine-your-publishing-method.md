@@ -1,11 +1,11 @@
 ---
 title: Determine Your Publishing Method
 description: Determine Your Publishing Method
-author: dansimp
+author: aczechowski
 ms.assetid: 1f2d0d39-5d65-457a-b826-4f45b00c8c85
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Contents Tab Functionality
 description: Contents Tab
-author: dansimp
+author: aczechowski
 ms.assetid: 6ada6430-cd93-47aa-af6e-d7f5b5620132
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Planning for App-V 5.0
 description: Planning for App-V 5.0
-author: dansimp
+author: aczechowski
 ms.assetid: 69df85b3-06c7-4123-af05-29d537a687ec
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

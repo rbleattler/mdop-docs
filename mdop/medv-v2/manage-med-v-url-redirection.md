@@ -1,11 +1,11 @@
 ---
 title: Manage MED-V URL Redirection
 description: Manage MED-V URL Redirection
-author: dansimp
+author: aczechowski
 ms.assetid: 274161c0-b54a-4364-bb63-89996afccd04
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

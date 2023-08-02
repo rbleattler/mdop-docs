@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting UE-V 2.x
 description: Troubleshooting UE-V 2.x
-author: dansimp
+author: aczechowski
 ms.assetid: a02847f8-6986-4612-8307-ba1b72d7919b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

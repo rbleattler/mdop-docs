@@ -1,11 +1,11 @@
 ---
 title: How to Create and Test a MED-V Image
 description: How to Create and Test a MED-V Image
-author: dansimp
+author: aczechowski
 ms.assetid: 40e4aba6-12cb-4794-967d-2c09dc20d808
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

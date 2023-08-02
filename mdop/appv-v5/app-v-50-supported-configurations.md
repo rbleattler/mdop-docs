@@ -1,11 +1,11 @@
 ---
 title: App-V 5.0 Supported Configurations
 description: App-V 5.0 Supported Configurations
-author: dansimp
+author: aczechowski
 ms.assetid: 3787ff63-7ce7-45a8-8f01-81b4b6dced34
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

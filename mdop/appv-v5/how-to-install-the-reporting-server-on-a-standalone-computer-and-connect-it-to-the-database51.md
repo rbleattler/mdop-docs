@@ -1,11 +1,11 @@
 ---
 title: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
 description: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
-author: dansimp
+author: aczechowski
 ms.assetid: 11f07750-4045-4c8d-a583-7d70c9e9aa7b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

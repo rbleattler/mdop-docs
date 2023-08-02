@@ -1,11 +1,11 @@
 ---
 title: Manage MED-V Workspace Settings
 description: Manage MED-V Workspace Settings
-author: dansimp
+author: aczechowski
 ms.assetid: 35ebd16e-31c7-4996-81be-af1d56346803
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

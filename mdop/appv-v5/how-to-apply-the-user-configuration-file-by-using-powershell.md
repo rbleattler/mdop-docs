@@ -1,11 +1,11 @@
 ---
 title: Apply the User Configuration File by Using PowerShell
 description: How to Apply the User Configuration File by Using PowerShell
-author: dansimp
+author: aczechowski
 ms.assetid: f7d7c595-4fdd-4096-b53d-9eead111c339
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

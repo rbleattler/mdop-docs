@@ -1,11 +1,11 @@
 ---
 title: Learn to Install the Sequencer
 description: Learn to Install the Sequencer
-author: dansimp
+author: aczechowski
 ms.assetid: 5e8f1696-9bc0-4f44-8cb7-b809b2daae10
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

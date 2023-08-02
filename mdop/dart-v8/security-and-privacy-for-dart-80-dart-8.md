@@ -1,11 +1,11 @@
 ---
 title: Security and Privacy for DaRT 8.0
 description: Security and Privacy for DaRT 8.0
-author: dansimp
+author: aczechowski
 ms.assetid: 668188fc-d9e9-4607-b90a-9e50bf53bc88
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

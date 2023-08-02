@@ -1,11 +1,11 @@
 ---
 title: Planning for Server Security
 description: Planning for Server Security
-author: dansimp
+author: aczechowski
 ms.assetid: c7cd8227-b359-41e7-a8ae-d0d5718a76a2
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

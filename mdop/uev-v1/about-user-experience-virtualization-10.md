@@ -1,11 +1,11 @@
 ---
 title: About User Experience Virtualization 1.0
 description: About User Experience Virtualization 1.0
-author: dansimp
+author: aczechowski
 ms.assetid: 3758b100-35a8-4e10-ac08-f583fb8ddbd9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

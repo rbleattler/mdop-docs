@@ -1,11 +1,11 @@
 ---
 title: How to Change Deployment Properties
 description: How to Change Deployment Properties
-author: dansimp
+author: aczechowski
 ms.assetid: 0a214a7a-cc83-4d04-89f9-5727153be918
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

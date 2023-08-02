@@ -1,11 +1,11 @@
 ---
 title: MED-V 2.0 Release Notes
 description: MED-V 2.0 Release Notes
-author: dansimp
+author: aczechowski
 ms.assetid: b8f7d938-566e-434c-b4b8-28b67cdfd0b1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

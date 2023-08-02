@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting AGPM
 description: Troubleshooting AGPM
-author: dansimp
+author: aczechowski
 ms.assetid: bedcd817-beb2-47bf-aebd-e3923c4fd06f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

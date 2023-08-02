@@ -1,11 +1,11 @@
 ---
 title: How to Deploy DaRT 10
 description: How to Deploy DaRT 10
-author: dansimp
+author: aczechowski
 ms.assetid: 13e8ba20-21c3-4870-94ed-6d3106d69f21
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

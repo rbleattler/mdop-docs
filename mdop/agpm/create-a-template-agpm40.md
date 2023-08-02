@@ -1,11 +1,11 @@
 ---
 title: How to Create a Template
 description: Create a Template
-author: dansimp
+author: aczechowski
 ms.assetid: b38423af-7d24-437a-98bc-01f1ae891127
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

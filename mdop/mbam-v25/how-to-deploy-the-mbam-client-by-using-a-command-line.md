@@ -1,11 +1,11 @@
 ---
 title: How to Deploy the MBAM Client by Using a Command Line
 description: How to Deploy the MBAM Client by Using a Command Line
-author: dansimp
+author: aczechowski
 ms.assetid: ac1d4ffe-c26d-41c9-9737-a4f2b37fde24
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

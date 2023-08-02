@@ -1,11 +1,11 @@
 ---
 title: How to Use a Test Environment
 description: Use a Test Environment
-author: dansimp
+author: aczechowski
 ms.assetid: b8d7b3ee-030a-4b5b-8223-4a3276fd47a7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

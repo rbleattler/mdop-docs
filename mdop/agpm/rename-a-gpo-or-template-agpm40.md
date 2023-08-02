@@ -1,11 +1,11 @@
 ---
 title: How to Rename a GPO or Template
-description: Rename a GPO or Template
-author: dansimp
+description: Rename a GPO or Template in AGPM 4.
+author: aczechowski
 ms.assetid: 84293f7a-4ff7-497e-bdbc-cabb70189a03
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

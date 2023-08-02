@@ -1,11 +1,11 @@
 ---
 title: Managing UE-V 1.0 Settings Location Templates Using PowerShell and WMI
 description: Managing UE-V 1.0 Settings Location Templates Using PowerShell and WMI
-author: dansimp
+author: aczechowski
 ms.assetid: 4b911c78-a5e9-4199-bfeb-72ab764d47c1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Group Policy Object GPO History Window
 description: GPO History Window
-author: dansimp
+author: aczechowski
 ms.assetid: 114f50a4-508d-4589-b006-6cd05cffe6b7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

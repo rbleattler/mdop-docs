@@ -1,11 +1,11 @@
 ---
 title: Reviewing GPO Links
 description: Reviewing GPO Links
-author: dansimp
+author: aczechowski
 ms.assetid: 3c472448-f16a-493c-a229-5ca60a470965
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

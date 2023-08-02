@@ -1,11 +1,11 @@
 ---
 title: Use the Completion Page
-description: Completion Page
-author: dansimp
+description: Use the Completion Page.
+author: aczechowski
 ms.assetid: b2c7776c-2c35-4d25-92b4-6cd8c2bdff42
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

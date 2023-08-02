@@ -1,11 +1,11 @@
 ---
 title: How to Set Up and Enable or Disable Authentication
 description: How to Set Up and Enable or Disable Authentication
-author: dansimp
+author: aczechowski
 ms.assetid: 1e43d0c5-a467-4a8b-b656-93f75d7deb82
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

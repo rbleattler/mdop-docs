@@ -1,11 +1,11 @@
 ---
 title: Accessibility for MBAM 2.5
 description: Accessibility for MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: 03b343a6-9e8e-4868-a52b-cedf0b696d56
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

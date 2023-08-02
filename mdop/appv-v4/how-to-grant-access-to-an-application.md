@@ -1,11 +1,11 @@
 ---
 title: How to Grant Access to an Application
 description: How to Grant Access to an Application
-author: dansimp
+author: aczechowski
 ms.assetid: e54d9e84-21f5-488f-b040-25f374d9289f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

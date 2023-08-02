@@ -1,11 +1,11 @@
 ---
 title: How to Create a Connection Group with User-Published and Globally Published Packages
 description: How to Create a Connection Group with User-Published and Globally Published Packages
-author: dansimp
+author: aczechowski
 ms.assetid: 82f7ea7f-7b14-4506-8940-fdcd6c3e117f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: LOCK APP
 description: LOCK APP
-author: dansimp
+author: aczechowski
 ms.assetid: 30673433-4364-499f-8116-cb135fe2716f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

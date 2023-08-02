@@ -1,11 +1,11 @@
 ---
 title: How to Request Deployment of a GPO
-description: Request Deployment of a GPO
-author: dansimp
+description: Request Deployment of a GPO in AGPM 4.
+author: aczechowski
 ms.assetid: 5783cfd0-bd93-46b4-8fa0-684bd39aa8fc
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

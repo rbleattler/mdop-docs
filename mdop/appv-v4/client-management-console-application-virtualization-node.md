@@ -1,11 +1,11 @@
 ---
 title: Client Management Console Application Virtualization Node
 description: Client Management Console Application Virtualization Node
-author: dansimp
+author: aczechowski
 ms.assetid: cf74e112-ddff-4e30-a3cc-7f4c643366c6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

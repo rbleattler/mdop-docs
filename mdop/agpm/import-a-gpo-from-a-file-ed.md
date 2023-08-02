@@ -1,11 +1,11 @@
 ---
 title: How to Import a GPO from a File
 description: How to Import a GPO from a File
-author: dansimp
+author: aczechowski
 ms.assetid: 6e901a52-1101-4fed-9f90-3819b573b378
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

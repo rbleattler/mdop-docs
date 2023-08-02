@@ -1,11 +1,11 @@
 ---
 title: Installation and Upgrade Checklists
 description: Installation and Upgrade Checklists
-author: dansimp
+author: aczechowski
 ms.assetid: ccfdde26-4a28-4c14-888d-71b96fe7626e
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

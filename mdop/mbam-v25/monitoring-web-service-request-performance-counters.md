@@ -1,11 +1,11 @@
 ---
 title: Monitoring Web Service Request Performance Counters
 description: Monitoring Web Service Request Performance Counters
-author: dansimp
+author: aczechowski
 ms.assetid: bdb812a1-465a-4098-b4c0-cb99890d1b0d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -4,8 +4,8 @@ description: How to Deploy the App-V 4.6 and the App-V 5.0 Client on the Same Co
 ms.assetid: 5b7e27e4-4360-464c-b832-f1c7939e5485
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
-author: dansimp
+ms.author: aaroncz
+author: aczechowski
 ms.date: 06/21/2016
 ms.prod: w10
 ---

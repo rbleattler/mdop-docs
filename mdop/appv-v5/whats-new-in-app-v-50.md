@@ -1,11 +1,11 @@
 ---
 title: What's New in App-V 5.0
 description: What's New in App-V 5.0
-author: dansimp
+author: aczechowski
 ms.assetid: 79ff6e02-e926-4803-87d8-248a6b28099d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

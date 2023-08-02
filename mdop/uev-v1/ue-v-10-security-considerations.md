@@ -1,11 +1,11 @@
 ---
 title: UE-V 1.0 Security Considerations
 description: UE-V 1.0 Security Considerations
-author: dansimp
+author: aczechowski
 ms.assetid: c5cdf9ff-dc96-4491-98e9-0eada898ffe0
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

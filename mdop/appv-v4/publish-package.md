@@ -1,11 +1,11 @@
 ---
 title: PUBLISH PACKAGE
 description: PUBLISH PACKAGE
-author: dansimp
+author: aczechowski
 ms.assetid: a33e72dd-194f-4283-8e99-4584ab13de53
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

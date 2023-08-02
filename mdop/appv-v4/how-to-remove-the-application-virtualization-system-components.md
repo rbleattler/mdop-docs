@@ -1,11 +1,11 @@
 ---
 title: How to Remove the Application Virtualization System Components
 description: How to Remove the Application Virtualization System Components
-author: dansimp
+author: aczechowski
 ms.assetid: 45bb1e43-8708-48b7-9169-e3659f32686f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

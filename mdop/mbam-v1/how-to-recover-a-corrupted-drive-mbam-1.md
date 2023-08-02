@@ -1,11 +1,11 @@
 ---
 title: How to Recover a Corrupted Drive protected by BitLocker
 description: How to Recover a Corrupted Drive
-author: dansimp
+author: aczechowski
 ms.assetid: 715491ae-69c0-4fae-ad3f-3bd19a0db2f2
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

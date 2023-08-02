@@ -1,11 +1,11 @@
 ---
 title: Select Task Page (Learn More)
 description: Select Task Page (Learn More)
-author: dansimp
+author: aczechowski
 ms.assetid: 09534c40-bf6c-4b3f-be9a-8624965c9c18
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

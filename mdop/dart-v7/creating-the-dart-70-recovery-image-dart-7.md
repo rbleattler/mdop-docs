@@ -1,11 +1,11 @@
 ---
 title: Creating the DaRT 7.0 Recovery Image
 description: Creating the DaRT 7.0 Recovery Image
-author: dansimp
+author: aczechowski
 ms.assetid: ebb2ec58-0349-469d-a23f-3f944fe4c1fa
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

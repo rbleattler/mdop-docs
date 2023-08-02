@@ -1,11 +1,11 @@
 ---
 title: Planning the Application Virtualization Sequencer Implementation
 description: Planning the Application Virtualization Sequencer Implementation
-author: dansimp
+author: aczechowski
 ms.assetid: 052f32fe-ad13-4921-a8ce-4a657eb2b2bf
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

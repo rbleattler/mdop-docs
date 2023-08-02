@@ -1,11 +1,11 @@
 ---
 title: Template Commands
 description: Template Commands
-author: dansimp
+author: aczechowski
 ms.assetid: 2ec11b3f-0c5c-4788-97bd-bd4bf64ba51a
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

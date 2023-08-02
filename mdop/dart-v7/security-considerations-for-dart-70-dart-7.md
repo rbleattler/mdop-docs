@@ -1,11 +1,11 @@
 ---
 title: Security Considerations for DaRT 7.0
 description: Security Considerations for DaRT 7.0
-author: dansimp
+author: aczechowski
 ms.assetid: 52ad7e6c-c169-4ba4-aa76-56335a585eb8
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

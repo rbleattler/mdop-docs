@@ -1,11 +1,11 @@
 ---
 title: Configure E-Mail Notification
 description: Configure E-Mail Notification
-author: dansimp
+author: aczechowski
 ms.assetid: b32ce395-d1b9-4c5b-b765-97cdbf455f9e
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

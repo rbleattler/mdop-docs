@@ -1,11 +1,11 @@
 ---
 title: Add or Remove an Administrator by Using the Management Console
 description: How to Add or Remove an Administrator by Using the Management Console
-author: dansimp
+author: aczechowski
 ms.assetid: 7ff8c436-9d2e-446a-9ea2-bbab7e25bf21
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

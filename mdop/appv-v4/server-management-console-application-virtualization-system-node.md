@@ -1,11 +1,11 @@
 ---
 title: Server Management Console Application Virtualization System Node
 description: Server Management Console Application Virtualization System Node
-author: dansimp
+author: aczechowski
 ms.assetid: 9450832e-335c-41e7-af24-fddb8ffc327c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

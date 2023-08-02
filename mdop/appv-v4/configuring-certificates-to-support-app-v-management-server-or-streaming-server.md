@@ -1,11 +1,11 @@
 ---
 title: Configuring Certificates to Support App-V Management Server or Streaming Server
 description: Configuring Certificates to Support App-V Management Server or Streaming Server
-author: dansimp
+author: aczechowski
 ms.assetid: 2f24e550-585e-4b7e-b486-22a3f181f543
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

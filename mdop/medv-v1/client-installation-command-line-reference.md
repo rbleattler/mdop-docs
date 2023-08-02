@@ -1,11 +1,11 @@
 ---
 title: Client Installation Command Line Reference
 description: Client Installation Command Line Reference
-author: dansimp
+author: aczechowski
 ms.assetid: 122a593d-3314-4e9b-858a-08a25ed00c32
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

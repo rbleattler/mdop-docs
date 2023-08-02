@@ -1,11 +1,11 @@
 ---
 title: Application Virtualization Sequencing Wizard-Shortcut Locations Dialog Box
 description: Application Virtualization Sequencing Wizard-Shortcut Locations Dialog Box
-author: dansimp
+author: aczechowski
 ms.assetid: d79d7085-228e-4be2-abe6-2760b9b983d5
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

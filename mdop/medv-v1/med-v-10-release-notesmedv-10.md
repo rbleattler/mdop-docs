@@ -1,11 +1,11 @@
 ---
 title: MED-V 1.0 Release Notes
 description: MED-V 1.0 Release Notes
-author: dansimp
+author: aczechowski
 ms.assetid: 006a3537-5c5b-43b5-8df8-4bf6ddd3cd2f
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

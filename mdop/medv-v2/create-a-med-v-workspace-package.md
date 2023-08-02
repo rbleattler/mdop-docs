@@ -1,11 +1,11 @@
 ---
 title: Create a MED-V Workspace Package
 description: Create a MED-V Workspace Package
-author: dansimp
+author: aczechowski
 ms.assetid: 3f75fe73-41ac-4389-ae21-5efb2d437f4d
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

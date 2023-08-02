@@ -1,11 +1,11 @@
 ---
 title: How to Modify the Files Included in a Package
 description: How to Modify the Files Included in a Package
-author: dansimp
+author: aczechowski
 ms.assetid: e331ac85-1c9c-49be-9d96-5444de38fd56
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

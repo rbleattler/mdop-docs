@@ -1,11 +1,11 @@
 ---
 title: Application Virtualization Deployment and Upgrade Checklists
 description: Application Virtualization Deployment and Upgrade Checklists
-author: dansimp
+author: aczechowski
 ms.assetid: 462e5119-cb83-4548-98f2-df668aa0958b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Request GPO Deployment of a GPO
-description: Request Deployment of a GPO
-author: dansimp
+description: Request Deployment of a GPO in AGPM 3.
+author: aczechowski
 ms.assetid: f44ae0fb-bcf7-477b-b99e-9dd6a55ee597
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: How to Add a File Type Association
 description: How to Add a File Type Association
-author: dansimp
+author: aczechowski
 ms.assetid: cccfbd00-51ba-4a60-a598-ee97f5ea1215
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

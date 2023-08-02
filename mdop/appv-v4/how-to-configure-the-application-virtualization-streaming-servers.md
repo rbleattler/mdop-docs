@@ -1,11 +1,11 @@
 ---
 title: How to Configure the Application Virtualization Streaming Servers
 description: How to Configure the Application Virtualization Streaming Servers
-author: dansimp
+author: aczechowski
 ms.assetid: 3e2dde35-9d72-40ba-9fdf-d0338bd4d561
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

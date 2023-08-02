@@ -1,11 +1,11 @@
 ---
 title: Evaluating MBAM 2.5 in a Test Environment
 description: Evaluating MBAM 2.5 in a Test Environment
-author: dansimp
+author: aczechowski
 ms.assetid: 72959b7a-e55f-4797-91b3-5be23c8c2844
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

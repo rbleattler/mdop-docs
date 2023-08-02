@@ -1,11 +1,11 @@
 ---
 title: Delegate Access to an Individual GPO in the Archive
 description: Delegate Access to an Individual GPO in the Archive
-author: dansimp
+author: aczechowski
 ms.assetid: 7b37b188-2b6b-4e52-be97-8ef899e9893b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

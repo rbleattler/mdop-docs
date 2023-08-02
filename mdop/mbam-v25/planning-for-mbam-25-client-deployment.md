@@ -1,11 +1,11 @@
 ---
 title: Planning for MBAM 2.5 Client Deployment
 description: Planning for MBAM 2.5 Client Deployment
-author: dansimp
+author: aczechowski
 ms.assetid: 23c89976-af24-4753-9412-ce0ea42d1964
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

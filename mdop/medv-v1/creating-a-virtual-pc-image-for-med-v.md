@@ -1,11 +1,11 @@
 ---
 title: Creating a Virtual PC Image for MED-V
 description: Creating a Virtual PC Image for MED-V
-author: dansimp
+author: aczechowski
 ms.assetid: 5e02ea07-25b9-41a5-a803-d70c55eef586
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

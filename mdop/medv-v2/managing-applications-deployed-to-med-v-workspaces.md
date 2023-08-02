@@ -1,11 +1,11 @@
 ---
 title: Managing Applications Deployed to MED-V Workspaces
 description: Managing Applications Deployed to MED-V Workspaces
-author: dansimp
+author: aczechowski
 ms.assetid: 9a9bcdf5-0aa7-42a3-b6f0-6065adb01bcb
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

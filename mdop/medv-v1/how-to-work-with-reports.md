@@ -1,11 +1,11 @@
 ---
 title: How to Work with Reports
 description: How to Work with Reports
-author: dansimp
+author: aczechowski
 ms.assetid: b7a660c6-74c3-4ced-a395-9e76a4362a46
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

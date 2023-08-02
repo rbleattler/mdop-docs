@@ -1,11 +1,11 @@
 ---
 title: How to Limit the GPO Versions Stored
 description: How to Limit the GPO Versions Stored
-author: dansimp
+author: aczechowski
 ms.assetid: d802c7b6-f303-4b23-aefd-f19f1300b0ff
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

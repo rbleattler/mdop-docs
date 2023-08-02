@@ -1,11 +1,11 @@
 ---
 title: User Access Permissions in Application Virtualization Client
 description: User Access Permissions in Application Virtualization Client
-author: dansimp
+author: aczechowski
 ms.assetid: 7459374c-810c-45e3-b205-fdd1f8514f80
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

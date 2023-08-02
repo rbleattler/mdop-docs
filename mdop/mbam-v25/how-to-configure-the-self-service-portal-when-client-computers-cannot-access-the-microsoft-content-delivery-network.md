@@ -1,11 +1,11 @@
 ---
 title: How to Configure the Self-Service Portal When Client Computers Cannot Access the Microsoft Content Delivery Network
 description: How to Configure the Self-Service Portal When Client Computers Cannot Access the Microsoft Content Delivery Network
-author: dansimp
+author: aczechowski
 ms.assetid: 90ee76db-9876-41b5-994a-118556d5ed3b
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

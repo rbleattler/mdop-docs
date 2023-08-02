@@ -1,11 +1,11 @@
 ---
 title: About DaRT 7.0
 description: About DaRT 7.0
-author: dansimp
+author: aczechowski
 ms.assetid: 217ffafc-6d73-4b80-88d9-71870460d4ab
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

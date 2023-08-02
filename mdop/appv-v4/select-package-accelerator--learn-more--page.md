@@ -1,11 +1,11 @@
 ---
 title: Select Package Accelerator (Learn More) Page
 description: Select Package Accelerator (Learn More) Page
-author: dansimp
+author: aczechowski
 ms.assetid: 2db51514-8695-4b5e-b3e5-1e96e3ee4cc7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

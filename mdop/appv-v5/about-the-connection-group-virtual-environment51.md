@@ -1,11 +1,11 @@
 ---
 title: About the Connection Group Virtual Environment
 description: About the Connection Group Virtual Environment
-author: dansimp
+author: aczechowski
 ms.assetid: b7bb0e3d-8cd5-45a9-b84e-c9ab4196a18c
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

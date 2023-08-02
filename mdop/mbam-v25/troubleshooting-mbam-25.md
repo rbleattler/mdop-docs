@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting MBAM 2.5
 description: Troubleshooting MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: f35e7aef-2c3c-4d43-b170-6830d2756063
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: Delete a Package in the Management Console
 description: How to Delete a Package in the Management Console
-author: dansimp
+author: aczechowski
 ms.assetid: 4a2be40b-bbb8-4fab-992d-7466df432858
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

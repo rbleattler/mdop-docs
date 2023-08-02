@@ -1,11 +1,11 @@
 ---
 title: Getting Started with DaRT 10
 description: Getting Started with DaRT 10
-author: dansimp
+author: aczechowski
 ms.assetid: 593dd317-4fba-4d51-8a80-951590acede6
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: How to Update a MED-V Image
 description: How to Update a MED-V Image
-author: dansimp
+author: aczechowski
 ms.assetid: 61eacf50-3a00-4bb8-b2f3-7350a6467fa1
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

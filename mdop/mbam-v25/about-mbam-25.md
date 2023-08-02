@@ -1,11 +1,11 @@
 ---
 title: About MBAM 2.5
 description: About MBAM 2.5
-author: dansimp
+author: aczechowski
 ms.assetid: 1ce218ec-4d2e-4a75-8d1a-68d737a8f3c9
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

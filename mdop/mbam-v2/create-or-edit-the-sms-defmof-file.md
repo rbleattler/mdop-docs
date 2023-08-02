@@ -1,11 +1,11 @@
 ---
 title: How to Create and Edit the Sms\_def.mof File
 description: Create or Edit the Sms\_def.mof File
-author: dansimp
+author: aczechowski
 ms.assetid: d1747e43-484e-4031-a63b-6342fe588aa2
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

@@ -1,11 +1,11 @@
 ---
 title: DaRT 8.0 Planning Checklist
 description: DaRT 8.0 Planning Checklist
-author: dansimp
+author: aczechowski
 ms.assetid: 0a0f5a71-b1d6-424c-8174-fc5aad506928
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library

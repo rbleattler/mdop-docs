@@ -1,11 +1,11 @@
 ---
 title: Configuring Management or Streaming Server for Secure Communications Post-Installation
 description: Configuring Management or Streaming Server for Secure Communications Post-Installation
-author: dansimp
+author: aczechowski
 ms.assetid: 1062a213-470b-4ae2-b12f-b3e28a6ab745
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

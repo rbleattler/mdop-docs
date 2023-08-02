@@ -1,11 +1,11 @@
 ---
 title: Deploying MBAM 1.0 Group Policy Objects
 description: Deploying MBAM 1.0 Group Policy Objects
-author: dansimp
+author: aczechowski
 ms.assetid: 2129291e-d2b2-41ed-b643-1e311c49fee7
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

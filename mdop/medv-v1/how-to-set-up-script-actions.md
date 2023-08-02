@@ -1,11 +1,11 @@
 ---
 title: How to Set Up Script Actions
 description: How to Set Up Script Actions
-author: dansimp
+author: aczechowski
 ms.assetid: 367e28f1-d8c2-4845-a01b-2fff9128ccfd
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

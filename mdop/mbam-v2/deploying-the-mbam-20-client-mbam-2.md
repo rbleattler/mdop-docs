@@ -1,11 +1,11 @@
 ---
 title: Deploying the MBAM 2.0 Client
 description: Deploying the MBAM 2.0 Client
-author: dansimp
+author: aczechowski
 ms.assetid: 3dd584fe-2a54-40f0-9bab-13ea74040b01
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

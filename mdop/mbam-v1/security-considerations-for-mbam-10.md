@@ -1,11 +1,11 @@
 ---
 title: Security Considerations for MBAM 1.0
 description: Security Considerations for MBAM 1.0
-author: dansimp
+author: aczechowski
 ms.assetid: 5e1c8b8c-235b-4a92-8b0b-da50dca17353
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library

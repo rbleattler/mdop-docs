@@ -1,11 +1,11 @@
 ---
 title: SFTTRAY Command Reference
 description: SFTTRAY Command Reference
-author: dansimp
+author: aczechowski
 ms.assetid: 6fa3a939-b047-4d6c-bd1d-dfb93e065eb2
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

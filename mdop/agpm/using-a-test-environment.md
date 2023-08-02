@@ -1,11 +1,11 @@
 ---
 title: Using a Test Environment
 description: Using a Test Environment
-author: dansimp
+author: aczechowski
 ms.assetid: fc5fcc7c-1ac8-483a-a6bd-2279ae2ee3fb
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

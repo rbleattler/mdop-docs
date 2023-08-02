@@ -1,11 +1,11 @@
 ---
 title: Prepare a MED-V Image
 description: Prepare a MED-V Image
-author: dansimp
+author: aczechowski
 ms.assetid: 1bc757e5-8aef-4163-8542-1bdccc028961
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

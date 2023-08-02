@@ -1,11 +1,11 @@
 ---
 title: App-V 4.6 SP3 Release Notes
 description: App-V 4.6 SP3 Release Notes
-author: dansimp
+author: aczechowski
 ms.assetid: 206fadeb-59cc-47b4-836f-191ab1c27ff8
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library

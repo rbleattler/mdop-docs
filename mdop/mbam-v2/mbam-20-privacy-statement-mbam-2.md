@@ -1,11 +1,11 @@
 ---
 title: MBAM 2.0 Privacy Statement
 description: MBAM 2.0 Privacy Statement
-author: dansimp
+author: aczechowski
 ms.assetid: fce72ad4-a837-4d17-8d3b-4d93f1a399be
 ms.reviewer: 
 manager: dansimp
-ms.author: dansimp
+ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
