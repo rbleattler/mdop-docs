@@ -11,6 +11,7 @@ ms.sitesec: library
 ms.prod: w10
 ms.date: 08/23/2018
 ms.author: aaroncz
+ms.collection: must-keep
 ---
 
 # High-level architecture of MBAM 2.5 with Configuration Manager Integration topology

@@ -2,6 +2,7 @@
 title: Applying hotfixes on MBAM 2.5 SP1
 description: Applying hotfixes on MBAM 2.5 SP1
 ms.author: aaroncz
+ms.collection: must-keep
 author: aczechowski
 ms.assetid: 
 ms.reviewer: 

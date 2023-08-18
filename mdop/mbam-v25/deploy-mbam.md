@@ -1,11 +1,11 @@
 ---
 title: Deploying MBAM 2.5 in a stand-alone configuration
 description: Introducing how to deploy MBAM 2.5 in a stand-alone configuration.
-author: Deland-Han
+author: aczechowski
 ms.reviewer: dcscontentpm
-manager: dansimp
-ms.author: delhan
-ms.sitesec: library
+manager: aaroncz
+ms.author: aaroncz
+ms.collection: must-keep
 ms.prod: w10
 ms.date: 09/16/2019
 --- 

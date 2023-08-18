@@ -6,6 +6,7 @@ ms.assetid: 031eedfc-fade-4d2f-8771-b329e1d38c0d
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
