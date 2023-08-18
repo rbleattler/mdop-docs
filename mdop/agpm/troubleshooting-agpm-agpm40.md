@@ -6,6 +6,7 @@ ms.assetid: bedcd817-beb2-47bf-aebd-e3923c4fd06f
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
