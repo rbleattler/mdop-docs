@@ -5,6 +5,7 @@ ms.assetid: dad25992-3c75-4b7d-b4c6-c2edf43baaea
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 author: aczechowski
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

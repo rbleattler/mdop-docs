@@ -1,7 +1,10 @@
 ---
 title: Application Virtualization 5
 description: Application Virtualization 5
-author: aaroncz
+author: aczechowski
+ms.author: aaroncz
+ms.collection: must-keep
+manager: aaroncz
 ms.prod: w10
 ms.date: 04/19/2017
 ---

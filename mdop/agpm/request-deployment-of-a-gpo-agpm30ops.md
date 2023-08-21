@@ -6,6 +6,7 @@ ms.assetid: f44ae0fb-bcf7-477b-b99e-9dd6a55ee597
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library

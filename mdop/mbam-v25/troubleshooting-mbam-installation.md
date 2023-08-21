@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting MBAM 2.5 installation problems
 description: Introducing how to troubleshoot MBAM 2.5 installation problems.
-author: Deland-Han
+author: aczechowski
 ms.reviewer: dcscontentpm
-manager: dansimp
-ms.author: delhan
-ms.sitesec: library
+manager: aaroncz
+ms.author: aaroncz
+ms.collection: must-keep
 ms.prod: w10
 ms.date: 09/16/2019
 --- 

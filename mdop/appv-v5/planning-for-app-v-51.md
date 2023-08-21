@@ -6,6 +6,7 @@ ms.assetid: 8d84e679-0bd3-4864-976b-a3cbe6eafba6
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
