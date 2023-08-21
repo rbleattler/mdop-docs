@@ -5,6 +5,7 @@ ms.assetid: 5b7e27e4-4360-464c-b832-f1c7939e5485
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 author: aczechowski
 ms.date: 06/21/2016
 ms.prod: w10

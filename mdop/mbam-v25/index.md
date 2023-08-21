@@ -2,10 +2,10 @@
 title: Microsoft BitLocker Administration and Monitoring 2.5
 description: Microsoft BitLocker Administration and Monitoring 2.5
 author: aczechowski
-ms.assetid: fd81d7de-b166-47e8-b6c7-d984830762b6
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
+ms.author: aaroncz
+ms.collection: must-keep
+manager: aaroncz
+ms.topic: article
 ms.prod: w10
 ms.date: 04/19/2017
 ---

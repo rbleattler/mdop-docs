@@ -2,6 +2,9 @@
 title: Microsoft User Experience Virtualization (UE-V) 2.x
 description: Microsoft User Experience Virtualization (UE-V) 2.x
 author: aczechowski
+manager: aaroncz
+ms.author: aaroncz
+ms.collection: must-keep
 ms.prod: w10
 ms.date: 04/19/2017
 ---

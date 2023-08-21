@@ -5,6 +5,7 @@ author: aczechowski
 ms.reviewer: 
 manager: dansimp
 ms.author: aaroncz
+ms.collection: must-keep
 ms.prod: w10
 ms.date: 03/16/2017
 ---

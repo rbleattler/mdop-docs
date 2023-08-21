@@ -3,7 +3,8 @@ title: Advanced Group Policy Management
 description: Advanced Group Policy Management
 author: aczechowski
 ms.assetid: 493ca3c3-c3d6-4bb1-9430-dc1e43c86bb0
-ms.pagetype: mdop
+ms.author: aaroncz
+ms.collection: must-keep
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
