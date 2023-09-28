@@ -104,7 +104,7 @@ UE-V 1.0 Service Pack 1 provides updates for both the UE-V Agent and the UE-V Ge
 <li><p>Swedish (Sweden) sv-SE</p></li>
 </ul>
 <ul>
-<li><p>Turkish (Turkey) tr-TR</p></li>
+<li><p>Turkish (Türkiye) tr-TR</p></li>
 </ul>
 <p></p></td>
 <td align="left"><ul>
