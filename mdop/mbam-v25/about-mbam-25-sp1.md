@@ -81,7 +81,7 @@ Slovenian (Slovenia) sl-SI
 
 Swedish (Sweden) sv-SE
 
-Turkish (Turkey) tr-TR
+Turkish (Türkiye) tr-TR
 
 For a list of all languages supported for client and server in MBAM 2.5 and MBAM 2.5 SP1, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 

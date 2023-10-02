@@ -62,7 +62,7 @@ The following tables show the languages that are supported for the MBAM Client (
 <p>Slovak (Slovakia) sk-SK</p>
 <p>Spanish (Spain) es-ES</p>
 <p>Swedish (Sweden) sv-SE</p>
-<p>Turkish (Turkey) tr-TR</p>
+<p>Turkish (Türkiye) tr-TR</p>
 <p>Slovenian (Slovenia) sl-SI</p>
 <p>Simplified Chinese (PRC) zh-CN</p>
 <p>Traditional Chinese (Taiwan) zh-TW</p></td>
