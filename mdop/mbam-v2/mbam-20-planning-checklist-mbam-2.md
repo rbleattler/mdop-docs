@@ -20,7 +20,7 @@ ms.date: 06/16/2016
 This checklist can be used to help you plan for preparing your computing environment for Microsoft BitLocker Administration and Monitoring (MBAM) deployment.
 
 **Note**  
-This checklist outlines the recommended steps and a high-level list of items to consider when planning for an Microsoft BitLocker Administration and Monitoring deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
+This checklist outlines the recommended steps and a high-level list of items to consider when planning for a Microsoft BitLocker Administration and Monitoring deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
  
 
