@@ -300,7 +300,7 @@ When deploying MBAM on the Configuration Manager Server, you must complete the d
 ## Planning Checklist for Installing MBAM with Configuration Manager
 
 
-This checklist outlines the recommended steps and a high-level list of items to consider when planning for an Microsoft BitLocker Administration and Monitoring deployment with Configuration Manager. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
+This checklist outlines the recommended steps and a high-level list of items to consider when planning for a Microsoft BitLocker Administration and Monitoring deployment with Configuration Manager. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
 <table>
 <colgroup>
