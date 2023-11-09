@@ -1,39 +1,39 @@
 - name: Microsoft Desktop Optimization Pack
-  url: index.md
+  href: index.md
   sections:
     - name: Advanced Group Policy Management
-      url: agpm/index.md
+      href: agpm/index.md
     - name: Application Virtualization
       sections:
         - name: Application Virtualization 5
-          url: appv-v5/index.md
+          href: appv-v5/index.md
         - name: Application Virtualization 4
-          url: appv-v4/index.md
+          href: appv-v4/index.md
     - name: Diagnostics and Recovery Toolset
       sections:
         - name: Diagnostics and Recovery Toolset 10
-          url: dart-v10/index.md
+          href: dart-v10/index.md
         - name: Diagnostics and Recovery Toolset 8
-          url: dart-v8/index.md
+          href: dart-v8/index.md
         - name: Diagnostics and Recovery Toolset 7
-          url: dart-v7/index.md
+          href: dart-v7/index.md
     - name: Microsoft Bitlocker Administration and Monitoring
       sections:
         - name: Microsoft Bitlocker Administration and Monitoring 2.5
-          url: mbam-v25/index.md
+          href: mbam-v25/index.md
         - name: Microsoft Bitlocker Administration and Monitoring 2
-          url: mbam-v2/index.md
+          href: mbam-v2/index.md
         - name: Microsoft Bitlocker Administration and Monitoring 1
-          url: mbam-v1/index.md
+          href: mbam-v1/index.md
     - name: Microsoft Enterprise Desktop Virtualization
       sections:
         - name: Microsoft Enterprise Desktop Virtualization 2
-          url: medv-v2/index.md
+          href: medv-v2/index.md
     - name: User Experience Virtualization
       sections:
         - name: User Experience Virtualization 2
-          url: uev-v2/index.md
+          href: uev-v2/index.md
         - name: User Experience Virtualization 1
-          url: uev-v1/index.md
+          href: uev-v1/index.md
     - name: MDOP group policy (.admx) templates
-      url: solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md
+      href: solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md
