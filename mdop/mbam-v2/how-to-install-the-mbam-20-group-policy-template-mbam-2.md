@@ -17,7 +17,7 @@ ms.date: 06/16/2016
 # How to Install the MBAM 2.0 Group Policy Template
 
 
-In addition to the server-related Microsoft BitLocker Administration and Monitoring (MBAM) features, the server setup application includes an Microsoft BitLocker Administration and Monitoring Group Policy template. This template can be installed on any computer capable of running the Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM).
+In addition to the server-related Microsoft BitLocker Administration and Monitoring (MBAM) features, the server setup application includes a Microsoft BitLocker Administration and Monitoring Group Policy template. This template can be installed on any computer capable of running the Group Policy Management Console (GPMC) or Advanced Group Policy Management (AGPM).
 
 The following steps describe how to install the MBAM Group Policy template.
 
