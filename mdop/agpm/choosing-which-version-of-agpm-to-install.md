@@ -14,7 +14,6 @@ ms.prod: w10
 ms.date: 04/05/2017
 ---
 
-
 # Choosing Which Version of AGPM to Install
 
 
@@ -42,13 +41,15 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and 
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>Supported configurations for the AGPM Server</strong></th>
-<th align="left"><strong>Supported configurations for the AGPM Client</strong></th>
-<th align="left"><strong>AGPM Support</strong></th>
+<th><strong>Supported configurations for the AGPM Server</strong></th>
+<th><strong>Supported configurations for the AGPM Client</strong></th>
+<th><strong>AGPM Support</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+
+<td align="left"><p>Windows Server 2022 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Supported</p></td>
@@ -61,7 +62,7 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and 
 <tr class="edd">
 <td align="left"><p>Windows Server 2012 R2</p></td>
 <td align="left"><p>Windows 10 or Windows 11</p></td>
-<td align="left"><p>Supported with the caveats outlined in <a href="https://support.microsoft.com/help/4015786/known-issues-managing-a-windows-10-group-policy-client-in-windows-serv" data-raw-source="[KB 4015786](https://support.microsoft.com/help/4015786/known-issues-managing-a-windows-10-group-policy-client-in-windows-serv)">KB 4015786</a>
+<td align="left"><p>Supported with the caveats outlined in <a href="https://support.microsoft.com/help/4015786/known-issues-managing-a-windows-10-group-policy-client-in-windows-serv">KB 4015786</a>
 </p></td>
 </tr>
 <tr class="even">
@@ -97,7 +98,8 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and 
 </tbody>
 </table>
 
- 
+
+
 
 ## AGPM 4.0 SP2
 
@@ -116,9 +118,9 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP2, and 
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>Supported configurations for the AGPM Server</strong></th>
-<th align="left"><strong>Supported configurations for the AGPM Client</strong></th>
-<th align="left"><strong>AGPM Support</strong></th>
+<th><strong>Supported configurations for the AGPM Server</strong></th>
+<th><strong>Supported configurations for the AGPM Client</strong></th>
+<th><strong>AGPM Support</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -155,7 +157,8 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP2, and 
 </tbody>
 </table>
 
- 
+
+
 
 ## AGPM 4.0 SP1
 
@@ -172,9 +175,9 @@ Table 2 lists the operating systems on which you can install AGPM 4.0 SP1, and t
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>Supported configurations for the AGPM Server</strong></th>
-<th align="left"><strong>Supported configurations for the AGPM Client</strong></th>
-<th align="left"><strong>AGPM Support</strong></th>
+<th><strong>Supported configurations for the AGPM Server</strong></th>
+<th><strong>Supported configurations for the AGPM Client</strong></th>
+<th><strong>AGPM Support</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +209,8 @@ Table 2 lists the operating systems on which you can install AGPM 4.0 SP1, and t
 </tbody>
 </table>
 
- 
+
+
 
 ## AGPM 4.0
 
@@ -223,9 +227,9 @@ Table 3 lists the operating systems on which you can install AGPM 4.0, and the p
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Supported operating systems for the AGPM Server</th>
-<th align="left">Supported operating systems for the AGPM Client</th>
-<th align="left">AGPM Support</th>
+<th>Supported operating systems for the AGPM Server</th>
+<th>Supported operating systems for the AGPM Client</th>
+<th>AGPM Support</th>
 </tr>
 </thead>
 <tbody>
@@ -252,7 +256,8 @@ Table 3 lists the operating systems on which you can install AGPM 4.0, and the p
 </tbody>
 </table>
 
- 
+
+
 
 ## Versions of AGPM that precede AGPM 4.0
 
@@ -268,8 +273,8 @@ Table 4 lists the operating systems on which you can install the versions of AGP
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Operating system</th>
-<th align="left">Version of AGPM that can be installed</th>
+<th>Operating system</th>
+<th>Version of AGPM that can be installed</th>
 </tr>
 </thead>
 <tbody>
@@ -292,7 +297,8 @@ Table 4 lists the operating systems on which you can install the versions of AGP
 </tbody>
 </table>
 
- 
+
+
 
 ## How to Get MDOP Technologies
 
