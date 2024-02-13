@@ -9,7 +9,6 @@ ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library
-ms.prod: w10
 ms.date: 08/30/2016
 ---
 

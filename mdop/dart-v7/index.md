@@ -2,7 +2,6 @@
 title: Diagnostics and Recovery Toolset 7 Administrator's Guide
 description: Diagnostics and Recovery Toolset 7 Administrator's Guide.
 author: aczechowski
-ms.prod: w10
 ms.date: 04/19/2017
 ---
 

@@ -6,7 +6,6 @@ ms.reviewer: dcscontentpm
 manager: aaroncz
 ms.author: aaroncz
 ms.collection: must-keep
-ms.prod: w10
 ms.date: 09/16/2019
 --- 
 

@@ -6,7 +6,6 @@ ms.reviewer:
 manager: dansimp
 ms.author: aaroncz
 ms.topic: reference
-ms.prod: w10
 ms.date: 08/30/2016
 ---
 

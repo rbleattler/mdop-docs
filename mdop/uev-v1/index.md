@@ -2,7 +2,6 @@
 title: Microsoft User Experience Virtualization (UE-V) 1.0
 description: Microsoft User Experience Virtualization (UE-V) 1.0
 author: aczechowski
-ms.prod: w10
 ms.date: 04/19/2017
 ---
 
