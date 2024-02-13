@@ -10,7 +10,6 @@ ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
-ms.prod: w10
 ms.date: 11/02/2016
 ---
 

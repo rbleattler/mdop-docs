@@ -5,7 +5,6 @@ author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep
 manager: aaroncz
-ms.prod: w10
 ms.date: 04/19/2017
 ---
 

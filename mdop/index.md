@@ -2,7 +2,6 @@
 title: MDOP information experience
 description: MDOP information experience.
 author: aczechowski
-ms.prod: w10
 ms.date: 07/28/2023
 ---
 

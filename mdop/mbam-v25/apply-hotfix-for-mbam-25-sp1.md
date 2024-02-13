@@ -10,7 +10,6 @@ manager: dansimp
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.prod: w10
 ms.date: 8/30/2018
 ---
 
