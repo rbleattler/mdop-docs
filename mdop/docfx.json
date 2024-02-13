@@ -43,11 +43,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "windows-10",
       "breadcrumb_path": "/microsoft-desktop-optimization-pack/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-Windows",
       "ROBOTS": "INDEX, FOLLOW",
       "manager": "dansimp",
-      "ms.prod": "w10",
       "ms.author": "aaroncz",
       "author": "aaroncz",
       "ms.topic": "article",

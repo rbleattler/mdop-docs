@@ -10,7 +10,6 @@ ms.collection: must-keep
 ms.pagetype: mdop
 ms.mktglfcycl: support
 ms.sitesec: library
-ms.prod: w10
 ms.date: 08/30/2016
 ---
 

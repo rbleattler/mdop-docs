@@ -5,7 +5,6 @@ author: aczechowski
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
-ms.prod: w10
 ms.date: 06/16/2016
 ms.reviewer: 
 manager: dansimp

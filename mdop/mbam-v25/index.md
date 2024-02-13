@@ -6,7 +6,6 @@ ms.author: aaroncz
 ms.collection: must-keep
 manager: aaroncz
 ms.topic: article
-ms.prod: w10
 ms.date: 04/19/2017
 ---
 

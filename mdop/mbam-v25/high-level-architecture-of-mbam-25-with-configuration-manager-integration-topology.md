@@ -8,7 +8,6 @@ manager: dansimp
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.prod: w10
 ms.date: 08/23/2018
 ms.author: aaroncz
 ms.collection: must-keep

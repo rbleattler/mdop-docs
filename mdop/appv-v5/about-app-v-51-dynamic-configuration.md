@@ -8,7 +8,6 @@ manager: dansimp
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
-ms.prod: w10
 ms.date: 08/28/2018
 ms.author: aaroncz
 ms.collection: must-keep
