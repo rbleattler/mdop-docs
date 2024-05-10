@@ -12,7 +12,7 @@ ms.topic: article
 ms.subservice: itpro-apps
 ---
 
-# Deploying Microsoft Office 2013 by Using App-V
+# Deploying Microsoft Office 2013 by Using App-V (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

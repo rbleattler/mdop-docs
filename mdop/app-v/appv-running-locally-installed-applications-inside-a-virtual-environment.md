@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
+# Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications (Windows 10/11)
 
 **Applies to**
 -   Windows 7 SP1

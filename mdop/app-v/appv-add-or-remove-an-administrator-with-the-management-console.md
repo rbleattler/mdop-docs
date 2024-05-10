@@ -11,7 +11,7 @@ ms.collection: must-keep
 ms.topic: article
 ms.subservice: itpro-apps
 ---
-# How to add or remove an administrator by using the Management Console
+# How to add or remove an administrator by using the Management Console (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

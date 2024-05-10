@@ -12,7 +12,7 @@ ms.topic: article
 ms.subservice: itpro-apps
 ---
 
-# Planning to Use Folder Redirection with App-V
+# Planning to Use Folder Redirection with App-V (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

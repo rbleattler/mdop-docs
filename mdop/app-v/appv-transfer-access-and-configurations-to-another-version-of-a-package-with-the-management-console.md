@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
+# How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

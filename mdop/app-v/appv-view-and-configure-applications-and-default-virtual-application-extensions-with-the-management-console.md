@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console
+# How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

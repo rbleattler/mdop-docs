@@ -12,7 +12,7 @@ ms.topic: article
 ms.subservice: itpro-apps
 ---
 
-# How to install the Management Server on a Standalone Computer and Connect it to the Database
+# How to install the Management Server on a Standalone Computer and Connect it to the Database (Windows 10/11)
 
 >Applies to: Windows Server 2016
 

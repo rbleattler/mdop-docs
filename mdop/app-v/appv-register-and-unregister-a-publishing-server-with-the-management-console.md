@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# How to Register and Unregister a Publishing Server by Using the Management Console
+# How to Register and Unregister a Publishing Server by Using the Management Console (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

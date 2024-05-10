@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# How to Modify an Existing Virtual Application Package
+# How to Modify an Existing Virtual Application Package (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 

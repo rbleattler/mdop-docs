@@ -12,7 +12,7 @@ ms.subservice: itpro-apps
 ms.topic: article
 ---
 
-# Viewing App-V Server Publishing Metadata
+# Viewing App-V Server Publishing Metadata (Windows 10/11)
 
 **Applies to**
 -   Windows Server 2016

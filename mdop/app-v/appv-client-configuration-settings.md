@@ -11,7 +11,7 @@ ms.collection: must-keep
 ms.topic: article
 ms.subservice: itpro-apps
 ---
-# About Client Configuration Settings
+# About Client Configuration Settings (Windows 10/11)
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
