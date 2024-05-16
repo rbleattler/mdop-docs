@@ -37,3 +37,5 @@ landingContent:
             url: ./appv-troubleshooting.md
           - text: Technical Reference for App-V
             url: ./appv-technical-reference.md
+          - text: App-V 4 and App-V 5
+            url: ../index.md
