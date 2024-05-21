@@ -9,6 +9,8 @@
           href: appv-v5/index.md
         - name: Application Virtualization 4
           href: appv-v4/index.md
+        - name: Application Virtualization
+          href: app-v/index.yml
     - name: Diagnostics and Recovery Toolset
       items:
         - name: Diagnostics and Recovery Toolset 10

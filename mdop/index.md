@@ -47,7 +47,7 @@ For more information, see the [Microsoft Application Virtualization 5.1 administ
 
 - Application Virtualization Hosting 5.1 for Windows Desktops
 
-For information about App-V in Windows 10, see [Application Virtualization (App-V) for Windows client overview](/windows/application-management/app-v/appv-for-windows).
+For information about App-V in Windows 10, see [Application Virtualization (App-V) for Windows client overview](./app-v/appv-for-windows.md).
 
 ### Microsoft BitLocker Administration and Monitoring (MBAM)
 
