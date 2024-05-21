@@ -1,11 +1,11 @@
 ---
-title: Prepare a UE-V Deployment
+title: Prepare a UE-V Deployment (Windows 10)
 description: Learn about the types of User Experience Virtualization (UE-V) deployment you can execute and what preparations you can make beforehand to be successful.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Prepare a UE-V Deployment
+# Prepare a UE-V Deployment (Windows 10)
 
 Before you deploy User Experience Virtualization (UE-V), review this article for important information about the type of deployment you're planning and for preparations you can make beforehand so that your deployment is successful. If you leave this page, be sure to come back and read through the planning information in this article.
 

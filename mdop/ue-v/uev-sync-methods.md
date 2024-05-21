@@ -1,11 +1,11 @@
 ---
-title: Sync Methods for UE-V
+title: Sync Methods for UE-V (Windows 10)
 description: Learn how User Experience Virtualization (UE-V) service sync methods let you synchronize users' application and Windows settings with the settings storage location.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Sync Methods for UE-V
+# Sync Methods for UE-V (Windows 10)
 
 The User Experience Virtualization (UE-V) service lets you synchronize users' application and Windows settings with the settings storage location. The *Sync Method* configuration defines how the UE-V service uploads and downloads those settings to the settings storage location. UE-V includes a SyncMethod called the *SyncProvider*. For more information about trigger events that start the synchronization of application and Windows settings, see [Sync Trigger Events for UE-V](uev-sync-trigger-events.md).
 

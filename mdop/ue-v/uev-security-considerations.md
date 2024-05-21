@@ -1,11 +1,11 @@
 ---
-title: Security Considerations for UE-V
+title: Security Considerations for UE-V (Windows 10)
 description: Learn about accounts and groups, log files, and other security-related considerations for User Experience Virtualization (UE-V).
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Security Considerations for UE-V
+# Security Considerations for UE-V (Windows 10)
 
 This topic contains a brief overview of accounts and groups, log files, and other security-related considerations for User Experience Virtualization (UE-V). For more information, follow the links that are provided here.
 

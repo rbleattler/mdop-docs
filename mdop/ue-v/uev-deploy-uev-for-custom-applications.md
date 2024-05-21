@@ -1,11 +1,11 @@
 ---
-title: Use UE-V with custom applications
+title: Use UE-V with custom applications (Windows 10)
 description: Use User Experience Virtualization (UE-V) to create your own custom settings location templates with the UE-V template generator.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Use UE-V with custom applications
+# Use UE-V with custom applications (Windows 10)
 
 User Experience Virtualization (UE-V) uses XML files called ***settings location templates*** to monitor and synchronize application settings and Windows settings between user devices. By default, some settings location templates are included in UE-V. However, if you want to synchronize settings for desktop applications other than those settings included in the default templates, you can create your own custom settings location templates with the UE-V template generator.
 

@@ -1,11 +1,11 @@
 ---
-title: Manage Configurations for UE-V
+title: Manage Configurations for UE-V (Windows 10)
 description: Learn to manage the configuration of the User Experience Virtualization (UE-V) service and also learn to manage storage locations for UE-V resources.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Manage Configurations for UE-V
+# Manage Configurations for UE-V (Windows 10)
 
 In the course of the User Experience Virtualization (UE-V) lifecycle, you have to manage the configuration of the UE-V service and also manage storage locations for resources such as settings package files. The following topics provide guidance for managing these UE-V resources.
 

@@ -1,11 +1,11 @@
 ---
-title: Working with Custom UE-V Templates and the UE-V Template Generator
+title: Working with Custom UE-V Templates and the UE-V Template Generator (Windows 10)
 description: Create your own custom settings location templates by working with Custom User Experience Virtualization (UE-V) Templates and the UE-V Template Generator.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Working with custom UE-V templates and the UE-V template generator
+# Working with custom UE-V templates and the UE-V template generator (Windows 10)
 
 User Experience Virtualization (UE-V) uses XML files called ***settings location templates*** to monitor and synchronize application settings and Windows settings between user devices. By default, some settings location templates are included in UE-V. However, if you want to synchronize settings for desktop applications other than those settings included in the default templates, you can create your own custom settings location templates with the UE-V template generator. You can also edit or validate custom settings location templates with the UE-V template generator.
 

@@ -1,11 +1,11 @@
 ---
-title: Technical Reference for UE-V
+title: Technical Reference for UE-V (Windows 10)
 description: Use this technical reference to learn about the various features of User Experience Virtualization (UE-V).
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Technical Reference for UE-V
+# Technical Reference for UE-V (Windows 10)
 
 This technical reference section includes additional technical documentation about the various features of User Experience Virtualization (UE-V). This information is provided to help the administrator better understand UE-V.
 

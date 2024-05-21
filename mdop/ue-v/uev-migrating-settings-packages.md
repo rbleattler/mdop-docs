@@ -1,11 +1,11 @@
 ---
-title: Migrating UE-V settings packages
+title: Migrating UE-V settings packages (Windows 10)
 description: Learn to relocate User Experience Virtualization (UE-V) user settings packages either when you migrate to a new server or when you perform backups.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Migrating UE-V settings packages
+# Migrating UE-V settings packages (Windows 10)
 
 In the lifecycle of a User Experience Virtualization (UE-V) deployment, you might have to relocate the user settings packages either when you migrate to a new server or when you perform backups. Settings packages might have to be migrated in the following scenarios:
 

@@ -1,11 +1,11 @@
 ---
-title: Deploy required UE-V features
+title: Deploy required UE-V features (Windows 10)
 description: Learn how to install and configure User Experience Virtualization (UE-V) features, for example, a network share that stores and retrieves user settings.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Deploy required UE-V features
+# Deploy required UE-V features (Windows 10)
 
 To get up and running with User Experience Virtualization (UE-V), install and configure the following features.
 

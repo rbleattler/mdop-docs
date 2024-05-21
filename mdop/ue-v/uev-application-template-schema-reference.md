@@ -1,11 +1,11 @@
 ---
-title: Application Template Schema Reference for UE-V
+title: Application Template Schema Reference for UE-V (Windows 10)
 description: Learn details about the XML structure of the UE-V settings location templates and learn how to edit these files.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Application Template Schema Reference for UE-V
+# Application Template Schema Reference for UE-V (Windows 10)
 
 User Experience Virtualization (UE-V) uses XML settings location templates to define the desktop application settings and Windows settings that are captured and applied by UE-V. UE-V includes a set of default settings location templates. You can also create custom settings location templates with the UE-V template generator.
 

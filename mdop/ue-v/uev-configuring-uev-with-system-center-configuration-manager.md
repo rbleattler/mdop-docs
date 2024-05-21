@@ -1,11 +1,11 @@
 ---
-title: Configuring UE-V with Microsoft Configuration Manager
+title: Configuring UE-V with Microsoft Configuration Manager (Windows 10)
 description: Learn how to configure User Experience Virtualization (UE-V) with Microsoft Configuration Manager.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Configuring UE-V with Microsoft Configuration Manager
+# Configuring UE-V with Microsoft Configuration Manager (Windows 10)
 
 After you deploy User Experience Virtualization (UE-V) and its required features, you can start to configure it to meet your organization's need. The UE-V Configuration Pack provides a way for administrators to use the Compliance Settings feature of Microsoft Configuration Manager to apply consistent configurations across sites where UE-V and Configuration Manager are installed.
 

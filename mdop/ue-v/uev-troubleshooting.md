@@ -1,11 +1,11 @@
 ---
-title: Troubleshooting UE-V
+title: Troubleshooting UE-V (Windows 10)
 description: Use this technical reference to find resources for troubleshooting User Experience Virtualization (UE-V) for Windows 10.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Troubleshooting UE-V
+# Troubleshooting UE-V (Windows 10)
 
 For information that can help with troubleshooting UE-V for Windows 10, see:
 

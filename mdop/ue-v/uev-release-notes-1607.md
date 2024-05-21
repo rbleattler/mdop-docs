@@ -1,11 +1,11 @@
 ---
-title: User Experience Virtualization (UE-V) Release Notes
+title: User Experience Virtualization (UE-V) Release Notes (Windows 10)
 description: Read the latest information required to successfully install and use User Experience Virtualization (UE-V) that isn't included in the UE-V documentation.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# User Experience Virtualization (UE-V) Release Notes
+# User Experience Virtualization (UE-V) Release Notes (Windows 10)
 
 This topic includes information required to successfully install and use UE-V that isn't included in the User Experience Virtualization (UE-V) documentation. If there are differences between the information in this topic and other UE-V topics, the latest change should be considered authoritative.
 

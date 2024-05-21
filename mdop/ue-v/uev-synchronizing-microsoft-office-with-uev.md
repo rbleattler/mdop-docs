@@ -1,11 +1,11 @@
 ---
-title: Synchronizing Microsoft Office with UE-V
+title: Synchronizing Microsoft Office with UE-V (Windows 10)
 description: Learn how User Experience Virtualization (UE-V) supports the synchronization of Microsoft Office application settings.
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Synchronizing Office with UE-V
+# Synchronizing Office with UE-V (Windows 10)
 
 Microsoft User Experience Virtualization (UE-V) supports the synchronization of Microsoft Office application settings. The combination of UE-V and App-V  support for Office enables the same experience on virtualized instances of Office from any UE-V-enabled device or virtualized desktop.
 

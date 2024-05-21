@@ -1,11 +1,11 @@
 ---
-title: Managing UE-V Settings Location Templates Using Windows PowerShell and WMI
+title: Managing UE-V Settings Location Templates Using Windows PowerShell and WMI (Windows 10)
 description: Managing UE-V Settings Location Templates Using Windows PowerShell and WMI
 ms.date: 1/25/2024
 ms.topic: article
 ---
 
-# Managing UE-V Settings Location Templates Using Windows PowerShell and WMI
+# Managing UE-V Settings Location Templates Using Windows PowerShell and WMI (Windows 10)
 
 User Experience Virtualization (UE-V) uses XML settings location templates to define the settings that User Experience Virtualization captures and applies. UE-V includes a set of standard settings location templates. It also includes the UE-V template generator tool that enables you to create custom settings location templates. After you create and deploy settings location templates, you can manage those templates by using Windows PowerShell and the Windows Management Instrumentation (WMI).
 
