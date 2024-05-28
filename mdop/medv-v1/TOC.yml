@@ -1,0 +1,191 @@
+Items:
+- name: Microsoft Enterprise Desktop Virtualization 1
+  href: index.md
+  items:
+  - name: About This Guide
+    href: about-this-guidemedv.md
+  - name: Getting Started with MED-V
+    href: getting-started-with-med-v.md
+    items:
+    - name: Overview of MED-V
+      href: overview-of-med-v.md
+    - name: High-Level Architecture
+      href: high-level-architecturemedv.md
+    - name: Key Scenarios for Using MED-V
+      href: key-scenarios-for-using-med-v.md
+    - name: About MED-V 1.0
+      href: about-med-v-10.md
+      items:
+      - name: MED-V 1.0 Supported Configurations
+        href: med-v-10-supported-configurationsmedv-10.md
+      - name: MED-V 1.0 Installation Checklist
+        href: med-v-10-installation-checklist.md
+      - name: MED-V 1.0 Release Notes
+        href: med-v-10-release-notesmedv-10.md
+    - name: About MED-V 1.0 SP1
+      href: about-med-v-10-sp1.md
+      items:
+      - name: MED-V 1.0 SP1 Supported Configurations
+        href: med-v-10-sp1-supported-configurationsmedv-10-sp1.md
+      - name: MED-V 1.0 SP1 Upgrade Checklist
+        href: med-v-10-sp1-upgrade-checklistmedv-10-sp1.md
+      - name: MED-V 1.0 SP1 and SP2 Release Notes
+        href: med-v-10-sp1-and-sp2-release-notesmedv-10-sp1.md
+  - name: MED-V Infrastructure Planning and Design
+    href: med-v-infrastructure-planning-and-design.md
+    items:
+    - name: Define the Project Scope
+      href: define-the-project-scope.md
+    - name: Identify the Number of MED-V Instances
+      href: identify-the-number-of-med-v-instances.md
+    - name: Design the MED-V Server Infrastructure
+      href: design-the-med-v-server-infrastructure.md
+    - name: Design the MED-V Image Repositories
+      href: design-the-med-v-image-repositories.md
+  - name: MED-V Deployment and Configuration
+    href: med-v-deployment-and-configuration.md
+    items:
+    - name: MED-V Installation Prerequisites
+      href: med-v-installation-prerequisites.md
+    - name: Supported Configurations
+      href: supported-configurationsmedv-orientation.md
+      items:
+      - name: MED-V 1.0 Supported Configurations
+        href: med-v-10-supported-configurationsmedv-10.md
+      - name: MED-V 1.0 SP1 Supported Configurations
+        href: med-v-10-sp1-supported-configurationsmedv-10-sp1.md
+    - name: Installation and Upgrade Checklists
+      href: installation-and-upgrade-checklists.md
+      items:
+      - name: MED-V 1.0 Installation Checklist
+        href: med-v-10-installation-checklist.md
+      - name: MED-V 1.0 SP1 Upgrade Checklist
+        href: med-v-10-sp1-upgrade-checklistmedv-10-sp1.md
+    - name: Installing and Configuring MED-V Components
+      href: installing-and-configuring-med-v-components.md
+      items:
+      - name: How to Install and Configure the MED-V Server Component
+        href: how-to-install-and-configure-the-med-v-server-component.md
+      - name: How to Configure the Image Web Distribution Server
+        href: how-to-configure-the-image-web-distribution-server.md
+      - name: How to Install MED-V Client and MED-V Management Console
+        href: how-to-install-med-v-client-and-med-v-management-console.md
+      - name: How to Uninstall MED-V Components
+        href: how-to-uninstall-med-v-componentsmedvv2.md
+    - name: Creating a Virtual PC Image for MED-V
+      href: creating-a-virtual-pc-image-for-med-v.md
+    - name: Creating a MED-V Workspace
+      href: creating-a-med-v-workspacemedv-10-sp1.md
+    - name: Configuring MED-V Workspace Policies
+      href: configuring-med-v-workspace-policies.md
+      items:
+      - name: How to Apply General Settings to a MED-V Workspace
+        href: how-to-apply-general-settings-to-a-med-v-workspace.md
+      - name: How to Apply Virtual Machine Settings to a MED-V Workspace
+        href: how-to-apply-virtual-machine-settings-to-a-med-v-workspace.md
+      - name: How to Configure a Domain User or Group
+        href: how-to-configure-a-domain-user-or-groupmedvv2.md
+      - name: How to Configure Published Applications
+        href: how-to-configure-published-applicationsmedvv2.md
+      - name: How to Configure Web Settings for a MED-V Workspace
+        href: how-to-configure-web-settings-for-a-med-v-workspace.md
+      - name: How to Configure the Virtual Machine Setup for a MED-V Workspace
+        href: how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace.md
+        items:
+        - name: How to Configure the Virtual Machine Setup for a MED-V Workspace
+          href: how-to-configure-the-virtual-machine-setup-for-a-med-v-workspacemedvv2.md
+        - name: How to Configure VM Computer Name Pattern Properties
+          href: how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md
+        - name: Examples of Virtual Machine Configurations
+          href: examples-of-virtual-machine-configurationsv2.md
+      - name: How to Apply Network Settings to a MED-V Workspace
+        href: how-to-apply-network-settings-to-a-med-v-workspace.md
+      - name: How to Apply Performance Settings to a MED-V Workspace
+        href: how-to-apply-performance-settings-to-a-med-v-workspace.md
+      - name: How to Import and Export a Policy
+        href: how-to-import-and-export-a-policy.md
+    - name: Configuring MED-V for Remote Networks
+      href: configuring-med-v-for-remote-networks.md
+    - name: Configuring MED-V Server for Cluster Mode
+      href: configuring-med-v-server-for-cluster-mode.md
+  - name: MED-V Operations
+    href: med-v-operations.md
+    items:
+    - name: Using the MED-V Management Console User Interface
+      href: using-the-med-v-management-console-user-interface.md
+    - name: Creating a MED-V Image
+      href: creating-a-med-v-image.md
+      items:
+      - name: How to Create and Test a MED-V Image
+        href: how-to-create-and-test-a-med-v-image.md
+      - name: How to Pack a MED-V Image
+        href: how-to-pack-a-med-v-image.md
+      - name: How to Upload a MED-V Image to the Server
+        href: how-to-upload-a-med-v-image-to-the-server.md
+      - name: How to Localize a MED-V Image
+        href: how-to-localize-a-med-v-image.md
+      - name: How to Update a MED-V Image
+        href: how-to-update-a-med-v-image.md
+      - name: How to Delete a MED-V Image
+        href: how-to-delete-a-med-v-image.md
+    - name: Deploying a MED-V Workspace Using an Enterprise Software Distribution System
+      href: deploying-a-med-v-workspace-using-an-enterprise-software-distribution-system.md
+      items:
+      - name: How to Install MED-V Client
+        href: how-to-install-med-v-clientesds.md
+      - name: How to Deploy a Workspace Image
+        href: how-to-deploy-a-workspace-imageesds.md
+    - name: Deploying a MED-V Workspace Using a Deployment Package
+      href: deploying-a-med-v-workspace-using-a-deployment-package.md
+      items:
+      - name: How to Configure a Deployment Package
+        href: how-to-configure-a-deployment-package.md
+      - name: How to Install MED-V Client
+        href: how-to-install-med-v-clientdeployment-package.md
+      - name: How to Deploy a Workspace Image
+        href: how-to-deploy-a-workspace-imagedeployment-package.md
+    - name: Updating a MED-V Workspace Image
+      href: updating-a-med-v-workspace-image.md
+    - name: MED-V Client Operations
+      href: med-v-client-operations.md
+      items:
+      - name: How to Start and Exit the MED-V Client
+        href: how-to-start-and-exit-the-med-v-client.md
+      - name: How to Start, Stop, and Restart a MED-V Workspace
+        href: how-to-start-stop-and-restart-a-med-v-workspace.md
+      - name: How to View MED-V Settings and General Information
+        href: how-to-view-med-v-settings-and-general-information.md
+      - name: How to Lock and Unlock a Workspace
+        href: how-to-lock-and-unlock-a-workspace.md
+      - name: MED-V Client Tools
+        href: med-v-client-toolsv2.md
+  - name: Troubleshooting MED-V
+    href: troubleshooting-med-v.md
+  - name: Technical Reference
+    href: technical-referencemedv-10-sp1.md
+    items:
+    - name: MED-V Reporting
+      href: med-v-reporting.md
+      items:
+      - name: How to Generate Reports
+        href: how-to-generate-reports-medvv2.md
+      - name: How to Work with Reports
+        href: how-to-work-with-reports.md
+    - name: MED-V Trim Transfer Technology
+      href: med-v-trim-transfer-technology-medvv2.md
+    - name: How to Back Up and Restore a MED-V Server
+      href: how-to-back-up-and-restore-a-med-v-server.md
+    - name: How to Share Folders Between the Host and the MED-V Workspace
+      href: how-to-share-folders-between-the-host-and-the-med-v-workspace.md
+    - name: How to Set MED-V Workspace Deletion Options
+      href: how-to-set-med-v-workspace-deletion-options.md
+    - name: How to Set Advanced File Transfer Options
+      href: how-to-set-advanced-file-transfer-options.md
+    - name: How to Edit a Published Application with Advanced Settings
+      href: how-to-edit-a-published-application-with-advanced-settings.md
+    - name: How to Set Up Script Actions
+      href: how-to-set-up-script-actions.md
+    - name: Client Installation Command Line Reference
+      href: client-installation-command-line-reference.md
+    - name: How to Configure Image Pre-staging
+      href: how-to-configure-image-pre-staging.md

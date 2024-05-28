@@ -1,0 +1,166 @@
+Items:
+- name: Microsoft BitLocker Administration and Monitoring 2
+  href: index.md
+  items:
+  - name: Getting Started with MBAM 2.0
+    href: getting-started-with-mbam-20-mbam-2.md
+    items:
+    - name: About MBAM 2.0
+      href: about-mbam-20-mbam-2.md
+      items:
+      - name: Release Notes for MBAM 2.0
+        href: release-notes-for-mbam-20-mbam-2.md
+    - name: About MBAM 2.0 SP1
+      href: about-mbam-20-sp1.md
+      items:
+      - name: Release Notes for MBAM 2.0 SP1
+        href: release-notes-for-mbam-20-sp1.md
+    - name: Evaluating MBAM 2.0
+      href: evaluating-mbam-20-mbam-2.md
+    - name: High-Level Architecture for MBAM 2.0
+      href: high-level-architecture-for-mbam-20-mbam-2.md
+    - name: Accessibility for MBAM 2.0
+      href: accessibility-for-mbam-20-mbam-2.md
+  - name: Planning for MBAM 2.0
+    href: planning-for-mbam-20-mbam-2.md
+    items:
+    - name: Preparing your Environment for MBAM 2.0
+      href: preparing-your-environment-for-mbam-20-mbam-2.md
+      items:
+      - name: MBAM 2.0 Deployment Prerequisites
+        href: mbam-20-deployment-prerequisites-mbam-2.md
+      - name: Planning for MBAM 2.0 Group Policy Requirements
+        href: planning-for-mbam-20-group-policy-requirements-mbam-2.md
+      - name: Planning for MBAM 2.0 Administrator Roles
+        href: planning-for-mbam-20-administrator-roles-mbam-2.md
+    - name: Planning to Deploy MBAM 2.0
+      href: planning-to-deploy-mbam-20-mbam-2.md
+      items:
+      - name: MBAM 2.0 Supported Configurations
+        href: mbam-20-supported-configurations-mbam-2.md
+      - name: Planning for MBAM 2.0 Server Deployment
+        href: planning-for-mbam-20-server-deployment-mbam-2.md
+      - name: Planning for MBAM 2.0 Client Deployment
+        href: planning-for-mbam-20-client-deployment-mbam-2.md
+    - name: MBAM 2.0 Planning Checklist
+      href: mbam-20-planning-checklist-mbam-2.md
+  - name: Deploying MBAM 2.0
+    href: deploying-mbam-20-mbam-2.md
+    items:
+    - name: Deploying the MBAM 2.0 Server Infrastructure
+      href: deploying-the-mbam-20-server-infrastructure-mbam-2.md
+      items:
+      - name: How to Install and Configure MBAM on a Single Server
+        href: how-to-install-and-configure-mbam-on-a-single-server-mbam-2.md
+      - name: How to Install and Configure MBAM on Distributed Servers
+        href: how-to-install-and-configure-mbam-on-distributed-servers-mbam-2.md
+      - name: How to Use a Command Line to Install the MBAM Server
+        href: how-to-use-a-command-line-to-install-the-mbam-server.md
+      - name: How to Brand the Self-Service Portal
+        href: how-to-brand-the-self-service-portal.md
+    - name: Deploying MBAM 2.0 Group Policy Objects
+      href: deploying-mbam-20-group-policy-objects-mbam-2.md
+      items:
+      - name: How to Install the MBAM 2.0 Group Policy Template
+        href: how-to-install-the-mbam-20-group-policy-template-mbam-2.md
+      - name: How to Edit MBAM 2.0 GPO Settings
+        href: how-to-edit-mbam-20-gpo-settings-mbam-2.md
+      - name: How to Hide Default BitLocker Encryption in the Windows Control Panel
+        href: how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel-mbam-2.md
+    - name: Deploying the MBAM 2.0 Client
+      href: deploying-the-mbam-20-client-mbam-2.md
+      items:
+      - name: How to Deploy the MBAM Client to Desktop or Laptop Computers
+        href: how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-2.md
+      - name: How to Deploy the MBAM Client as Part of a Windows Deployment
+        href: how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-2.md
+      - name: How to Use a Command Line to Install the MBAM Client
+        href: how-to-use-a-command-line-to-install-the-mbam-client.md
+    - name: MBAM 2.0 Deployment Checklist
+      href: mbam-20-deployment-checklist-mbam-2.md
+    - name: Upgrading from Previous Versions of MBAM
+      href: upgrading-from-previous-versions-of-mbam.md
+  - name: Operations for MBAM 2.0
+    href: operations-for-mbam-20-mbam-2.md
+    items:
+    - name: Using MBAM with Configuration Manager
+      href: using-mbam-with-configuration-manager.md
+      items:
+      - name: Getting Started - Using MBAM with Configuration Manager
+        href: getting-started---using-mbam-with-configuration-manager.md
+      - name: Planning to Deploy MBAM with Configuration Manager
+        href: planning-to-deploy-mbam-with-configuration-manager-2.md
+      - name: Deploying MBAM with Configuration Manager
+        href: deploying-mbam-with-configuration-manager-mbam2.md
+        items:
+        - name: How to Create or Edit the mof Files
+          href: how-to-create-or-edit-the-mof-files.md
+          items:
+          - name: Edit the Configuration.mof File
+            href: edit-the-configurationmof-file.md
+          - name: Create or Edit the Sms_def.mof File
+            href: create-or-edit-the-sms-defmof-file.md
+        - name: How to Install MBAM with Configuration Manager
+          href: how-to-install-mbam-with-configuration-manager.md
+        - name: How to Validate the MBAM Installation with Configuration Manager
+          href: how-to-validate-the-mbam-installation-with-configuration-manager.md
+      - name: Understanding MBAM Reports in Configuration Manager
+        href: understanding-mbam-reports-in-configuration-manager.md
+    - name: Administering MBAM 2.0 Features
+      href: administering-mbam-20-features-mbam-2.md
+      items:
+      - name: How to Manage MBAM Administrator Roles
+        href: how-to-manage-mbam-administrator-roles-mbam-2.md
+      - name: How to Manage User BitLocker Encryption Exemptions
+        href: how-to-manage-user-bitlocker-encryption-exemptions-mbam-2.md
+      - name: How to Manage MBAM Client BitLocker Encryption Options by Using the Control Panel
+        href: how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-2.md
+    - name: Monitoring and Reporting BitLocker Compliance with MBAM 2.0
+      href: monitoring-and-reporting-bitlocker-compliance-with-mbam-20-mbam-2.md
+      items:
+      - name: Understanding MBAM Reports
+        href: understanding-mbam-reports-mbam-2.md
+      - name: How to Generate MBAM Reports
+        href: how-to-generate-mbam-reports-mbam-2.md
+    - name: Performing BitLocker Management with MBAM
+      href: performing-bitlocker-management-with-mbam-mbam-2.md
+      items:
+      - name: How to Use the Help Desk Portal
+        href: how-to-use-the-help-desk-portal.md
+      - name: How to Reset a TPM Lockout
+        href: how-to-reset-a-tpm-lockout-mbam-2.md
+      - name: How to Recover a Drive in Recovery Mode
+        href: how-to-recover-a-drive-in-recovery-mode-mbam-2.md
+      - name: How to Recover a Moved Drive
+        href: how-to-recover-a-moved-drive-mbam-2.md
+      - name: How to Recover a Corrupted Drive
+        href: how-to-recover-a-corrupted-drive-mbam-2.md
+      - name: How to Determine BitLocker Encryption State of Lost Computers
+        href: how-to-determine-bitlocker-encryption-state-of-lost-computers-mbam-2.md
+      - name: How to Use the Self-Service Portal to Regain Access to a Computer
+        href: how-to-use-the-self-service-portal-to-regain-access-to-a-computer.md
+      - name: Helping End Users Manage BitLocker
+        href: helping-end-users-manage-bitlocker.md
+        items:
+        - name: Using Your PIN or Password
+          href: using-your-pin-or-password.md
+        - name: About the Computer TPM Chip
+          href: about-the-computer-tpm-chip.md
+    - name: Maintaining MBAM 2.0
+      href: maintaining-mbam-20-mbam-2.md
+      items:
+      - name: High Availability for MBAM 2.0
+        href: high-availability-for-mbam-20-mbam-2.md
+      - name: How to Move MBAM 2.0 Features to Another Computer
+        href: how-to-move-mbam-20-features-to-another-computer-mbam-2.md
+    - name: Security and Privacy for MBAM 2.0
+      href: security-and-privacy-for-mbam-20-mbam-2.md
+      items:
+      - name: MBAM 2.0 Security Considerations
+        href: mbam-20-security-considerations-mbam-2.md
+      - name: MBAM 2.0 Privacy Statement
+        href: mbam-20-privacy-statement-mbam-2.md
+    - name: Administering MBAM 2.0 Using PowerShell
+      href: administering-mbam-20-using-powershell-mbam-2.md
+  - name: Troubleshooting MBAM 2.0
+    href: troubleshooting-mbam-20-mbam-2.md
