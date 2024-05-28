@@ -938,11 +938,11 @@ Items:
       - name: Application Virtualization Client Management Console Reference
         href: application-virtualization-client-management-console-reference.md
         items:
-        - name: Client Management Console: Application Virtualization Node
+        - name: Client Management Console—Application Virtualization Node
           href: client-management-console-application-virtualization-node.md
-        - name: Client Management Console: About Dialog Boxes
+        - name: Client Management Console—About Dialog Boxes
           href: client-management-console-about-dialog-boxes.md
-        - name: Client Management Console: Applications Node
+        - name: Client Management Console—Applications Node
           href: client-management-console-applications-node.md
           items:
           - name: Applications Node
@@ -951,7 +951,7 @@ Items:
             href: applications-results-pane.md
           - name: Applications Results Pane Columns
             href: applications-results-pane-columns.md
-        - name: Client Management Console: File Type Associations Node
+        - name: Client Management Console—File Type Associations Node
           href: client-management-console-file-type-associations-node.md
           items:
           - name: File Type Associations Node
@@ -960,7 +960,7 @@ Items:
             href: file-type-association-results-pane.md
           - name: File Type Association Results Pane Columns
             href: file-type-association-results-pane-columns.md
-        - name: Client Management Console: Publishing Servers Node
+        - name: Client Management Console—Publishing Servers Node
           href: client-management-console-publishing-servers-node.md
           items:
           - name: Publishing Servers Node
@@ -969,20 +969,20 @@ Items:
             href: publishing-servers-results-pane.md
           - name: Publishing Servers Results Pane Columns
             href: publishing-servers-results-pane-columns.md
-        - name: Client Management Console: Application Virtualization Properties
+        - name: Client Management Console—Application Virtualization Properties
           href: client-management-console-application-virtualization-properties.md
           items:
-          - name: Application Virtualization Properties: General Tab
+          - name: Application Virtualization Properties—General Tab
             href: application-virtualization-properties-general-tab.md
-          - name: Application Virtualization Properties: Interface Tab
+          - name: Application Virtualization Properties—Interface Tab
             href: application-virtualization-properties-interface-tab.md
-          - name: Application Virtualization Properties: File System Tab
+          - name: Application Virtualization Properties—File System Tab
             href: application-virtualization-properties-file-system-tab.md
-          - name: Application Virtualization Properties: Import Search Path Tab
+          - name: Application Virtualization Properties—Import Search Path Tab
             href: application-virtualization-properties-import-search-path-tab.md
-          - name: Application Virtualization Properties: Connectivity Tab
+          - name: Application Virtualization Properties—Connectivity Tab
             href: application-virtualization-properties-connectivity-tab.md
-          - name: Application Virtualization Properties: Permissions Tab
+          - name: Application Virtualization Properties—Permissions Tab
             href: application-virtualization-properties-permissions-tab.md
     - name: Application Virtualization Server Help
       href: application-virtualization-server-management-help.md
@@ -1124,11 +1124,11 @@ Items:
       - name: Application Virtualization Server Management Console Reference
         href: application-virtualization-server-management-console-reference.md
         items:
-        - name: Server Management Console: Application Virtualization System Node
+        - name: Server Management Console—Application Virtualization System Node
           href: server-management-console-application-virtualization-system-node.md
-        - name: Server Management Console: About Dialog Boxes
+        - name: Server Management Console—About Dialog Boxes
           href: server-management-console-about-dialog-boxes.md
-        - name: Server Management Console: Applications Node
+        - name: Server Management Console—Applications Node
           href: server-management-console-applications-node.md
           items:
           - name: Applications Node
@@ -1137,7 +1137,7 @@ Items:
             href: applications-results-pane-in-server-management-console.md
           - name: Applications Results Pane Columns
             href: applications-results-pane-columns-in-server-management-console.md
-        - name: Server Management Console: File Type Associations Node
+        - name: Server Management Console—File Type Associations Node
           href: server-management-console-file-type-associations-node.md
           items:
           - name: File Type Associations Node
@@ -1146,7 +1146,7 @@ Items:
             href: file-type-associations-results-pane.md
           - name: File Type Associations Results Pane Columns
             href: file-type-associations-results-pane-columns.md
-        - name: Server Management Console: Packages Node
+        - name: Server Management Console—Packages Node
           href: server-management-console-packages-node.md
           items:
           - name: Packages Node
@@ -1155,7 +1155,7 @@ Items:
             href: package-results-pane.md
           - name: Package Results Pane Columns
             href: package-results-pane-columns.md
-        - name: Server Management Console: Application Licenses Node
+        - name: Server Management Console—Application Licenses Node
           href: server-management-console-application-licenses-node.md
           items:
           - name: Applications Licenses Node
@@ -1164,7 +1164,7 @@ Items:
             href: applications-licenses-results-pane.md
           - name: Applications Licenses Results Pane Columns
             href: applications-licenses-results-pane-columns.md
-        - name: Server Management Console: Server Groups Node
+        - name: Server Management Console—Server Groups Node
           href: server-management-console-server-groups-node.md
           items:
           - name: Server Groups Node
@@ -1173,7 +1173,7 @@ Items:
             href: server-groups-results-pane.md
           - name: Server Groups Results Pane Columns
             href: server-groups-results-pane-columns.md
-        - name: Server Management Console: Provider Policies Node
+        - name: Server Management Console—Provider Policies Node
           href: server-management-console-provider-policies-node.md
           items:
           - name: Provider Policies Node
@@ -1182,7 +1182,7 @@ Items:
             href: provider-policies-results-pane.md
           - name: Provider Policies Results Pane Columns
             href: provider-policies-results-pane-columns.md
-        - name: Server Management Console: Administrators Node
+        - name: Server Management Console—Administrators Node
           href: server-management-console-administrators-node.md
           items:
           - name: Administrators Node
@@ -1191,7 +1191,7 @@ Items:
             href: administrators-results-pane.md
           - name: Administrators Results Pane Columns
             href: administrators-results-pane-columns.md
-        - name: Server Management Console: Reports Node
+        - name: Server Management Console—Reports Node
           href: server-management-console-reports-node.md
           items:
           - name: Reports Node

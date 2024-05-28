@@ -45,9 +45,9 @@ Items:
         href: overview-of-advanced-group-policy-management-agpm40.md
       - name: Best Practices for Version Control
         href: best-practices-for-version-control-agpm40.md
-      - name: Checklist: Administer the AGPM Server and Archive
+      - name: Checklist—Administer the AGPM Server and Archive
         href: checklist-administer-the-agpm-server-and-archive-agpm40.md
-      - name: Checklist: Create, Edit, and Deploy a GPO
+      - name: Checklist—Create, Edit, and Deploy a GPO
         href: checklist-create-edit-and-deploy-a-gpo-agpm40.md
       - name: Search and Filter the List of GPOs
         href: search-and-filter-the-list-of-gpos.md
@@ -181,7 +181,7 @@ Items:
           href: identify-differences-between-gpos-gpo-versions-or-templates-agpm40.md
       - name: Troubleshooting AGPM
         href: troubleshooting-agpm-agpm40.md
-      - name: User Interface: Advanced Group Policy Management
+      - name: User Interface—Advanced Group Policy Management
         href: user-interface-advanced-group-policy-management-agpm40.md
         items:
         - name: Contents Tab
@@ -232,9 +232,9 @@ Items:
         href: overview-of-advanced-group-policy-management-agpm30ops.md
       - name: Best Practices for Version Control
         href: best-practices-for-version-control.md
-      - name: Checklist: Administer the AGPM Server and Archive
+      - name: Checklist—Administer the AGPM Server and Archive
         href: checklist-administer-the-agpm-server-and-archive.md
-      - name: Checklist: Create, Edit, and Deploy a GPO
+      - name: Checklist—Create, Edit, and Deploy a GPO
         href: checklist-create-edit-and-deploy-a-gpo-agpm30ops.md
       - name: Performing AGPM Administrator Tasks
         href: performing-agpm-administrator-tasks-agpm30ops.md
@@ -357,7 +357,7 @@ Items:
           href: identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops.md
       - name: Troubleshooting AGPM
         href: troubleshooting-advanced-group-policy-management-agpm30ops.md
-      - name: User Interface: Advanced Group Policy Management
+      - name: User Interface—Advanced Group Policy Management
         href: user-interface-advanced-group-policy-management-agpm30ops.md
         items:
         - name: Contents Tab
@@ -402,7 +402,7 @@ Items:
       items:
       - name: Overview of Advanced Group Policy Management
         href: overview-of-advanced-group-policy-management.md
-      - name: Checklist: Create, Edit, and Deploy a GPO
+      - name: Checklist—Create, Edit, and Deploy a GPO
         href: checklist-create-edit-and-deploy-a-gpo.md
       - name: Performing AGPM Administrator Tasks
         href: performing-agpm-administrator-tasks.md
@@ -506,7 +506,7 @@ Items:
           href: identify-differences-between-gpos-gpo-versions-or-templates.md
       - name: Troubleshooting Advanced Group Policy Management
         href: troubleshooting-advanced-group-policy-management.md
-      - name: User Interface: Advanced Group Policy Management
+      - name: User Interface—Advanced Group Policy Management
         href: user-interface-advanced-group-policy-management.md
         items:
         - name: Contents Tab
