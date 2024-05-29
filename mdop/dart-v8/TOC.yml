@@ -1,0 +1,101 @@
+Items:
+- name: Diagnostics and Recovery Toolset 8
+  href: index.md
+  items:
+  - name: Getting Started with DaRT 8.0
+    href: getting-started-with-dart-80-dart-8.md
+    items:
+    - name: About DaRT 8.0
+      href: about-dart-80-dart-8.md
+      items:
+      - name: Release Notes for DaRT 8.0
+        href: release-notes-for-dart-80--dart-8.md
+    - name: About DaRT 8.0 SP1
+      href: about-dart-80-sp1.md
+      items:
+      - name: Release Notes for DaRT 8.0 SP1
+        href: release-notes-for-dart-80-sp1.md
+    - name: About DaRT 8.1
+      href: about-dart-81.md
+      items:
+      - name: Release Notes for DaRT 8.1
+        href: release-notes-for-dart-81.md
+    - name: Overview of the Tools in DaRT 8.0
+      href: overview-of-the-tools-in-dart-80-dart-8.md
+    - name: Accessibility for DaRT 8.0
+      href: accessibility-for-dart-80-dart-8.md
+  - name: Planning for DaRT 8.0
+    href: planning-for-dart-80-dart-8.md
+    items:
+    - name: Planning to Deploy DaRT 8.0
+      href: planning-to-deploy-dart-80-dart-8.md
+      items:
+      - name: DaRT 8.0 Supported Configurations
+        href: dart-80-supported-configurations-dart-8.md
+      - name: Planning to Create the DaRT 8.0 Recovery Image
+        href: planning-to-create-the-dart-80-recovery-image-dart-8.md
+      - name: Planning How to Save and Deploy the DaRT 8.0 Recovery Image
+        href: planning-how-to-save-and-deploy-the-dart-80-recovery-image-dart-8.md
+    - name: DaRT 8.0 Planning Checklist
+      href: dart-80-planning-checklist-dart-8.md
+  - name: Deploying DaRT 8.0
+    href: deploying-dart-80-dart-8.md
+    items:
+    - name: Deploying DaRT 8.0 to Administrator Computers
+      href: deploying-dart-80-to-administrator-computers-dart-8.md
+      items:
+      - name: How to Deploy DaRT 8.0
+        href: how-to-deploy-dart-80-dart-8.md
+      - name: How to Change, Repair, or Remove DaRT 8.0
+        href: how-to-change-repair-or-remove-dart-80-dart-8.md
+    - name: Creating the DaRT 8.0 Recovery Image
+      href: creating-the-dart-80-recovery-image-dart-8.md
+    - name: Deploying the DaRT Recovery Image
+      href: deploying-the-dart-recovery-image-dart-8.md
+      items:
+      - name: How to Deploy the DaRT Recovery Image as Part of a Recovery Partition
+        href: how-to-deploy-the-dart-recovery-image-as-part-of-a-recovery-partition-dart-8.md
+      - name: How to Deploy the DaRT Recovery Image as a Remote Partition
+        href: how-to-deploy-the-dart-recovery-image-as-a-remote-partition-dart-8.md
+    - name: DaRT 8.0 Deployment Checklist
+      href: dart-80-deployment-checklist-dart-8.md
+  - name: Operations for DaRT 8.0
+    href: operations-for-dart-80-dart-8.md
+    items:
+    - name: Recovering Computers Using DaRT 8.0
+      href: recovering-computers-using-dart-80-dart-8.md
+      items:
+      - name: How to Recover Local Computers by Using the DaRT Recovery Image
+        href: how-to-recover-local-computers-by-using-the-dart-recovery-image-dart-8.md
+      - name: How to Recover Remote Computers by Using the DaRT Recovery Image
+        href: how-to-recover-remote-computers-by-using-the-dart-recovery-image-dart-8.md
+    - name: Diagnosing System Failures with Crash Analyzer
+      href: diagnosing-system-failures-with-crash-analyzer--dart-8.md
+      items:
+      - name: How to Run the Crash Analyzer on an End-user Computer
+        href: how-to-run-the-crash-analyzer-on-an-end-user-computer-dart-8.md
+      - name: How to Run the Crash Analyzer in Stand-alone Mode on a Computer Other than an End-user Computer
+        href: how-to-run-the-crash-analyzer-in-stand-alone-mode-on-a-computer-other-than-an-end-user-computer-dart-8.md
+      - name: How to Ensure that Crash Analyzer Can Access Symbol Files
+        href: how-to-ensure-that-crash-analyzer-can-access-symbol-files.md
+    - name: Security and Privacy for DaRT 8.0
+      href: security-and-privacy-for-dart-80-dart-8.md
+      items:
+      - name: Security Considerations for DaRT 8.0
+        href: security-considerations-for-dart-80--dart-8.md
+      - name: DaRT 8.0 Privacy Statement
+        href: dart-80-privacy-statement-dart-8.md
+    - name: Administering DaRT 8.0 Using PowerShell
+      href: administering-dart-80-using-powershell-dart-8.md
+      items:
+      - name: How to Perform DaRT Tasks by Using PowerShell Commands
+        href: how-to-perform-dart-tasks-by-using-powershell-commands-dart-8.md
+      - name: How to Use a PowerShell Script to Create the Recovery Image
+        href: how-to-use-a-powershell-script-to-create-the-recovery-image-dart-8.md
+  - name: Troubleshooting DaRT 8.0
+    href: troubleshooting-dart-80-dart-8.md
+  - name: Technical Reference for DaRT 8.0
+    href: technical-reference-for-dart-80-new-ia.md
+    items:
+    - name: Use Microsoft Defender Offline (WDO) for malware protection, not DaRT 
+      href: use-windows-defender-offline-wdo-for-malware-protection-not-dart.md

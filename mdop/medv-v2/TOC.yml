@@ -1,0 +1,193 @@
+Items:
+- name: Microsoft Enterprise Desktop Virtualization 2
+  href: index.md
+  items:
+  - name: Getting Started with MED-V
+    href: getting-started-with-med-vmedv2.md
+    items:
+    - name: Overview of MED-V
+      href: overview-of-med-vmedv2.md
+    - name: Planning for Application Operating System Compatibility
+      href: planning-for-application-operating-system-compatibility.md
+    - name: High-Level Architecture
+      href: high-level-architecturemedv2.md
+    - name: About MED-V 2.0
+      href: about-med-v-20.md
+      items:
+      - name: What's New in MED-V 2.0
+        href: whats-new-in-med-v-20.md
+      - name: MED-V 2.0 Supported Configurations
+        href: med-v-20-supported-configurations.md
+      - name: MED-V 2.0 Release Notes
+        href: med-v-20-release-notes.md
+  - name: Planning for MED-V
+    href: planning-for-med-v.md
+    items:
+    - name: End-to-End Planning Scenario for MED-V 2.0
+      href: end-to-end-planning-scenario-for-med-v-20.md
+    - name: Define and Plan your MED-V Deployment
+      href: define-and-plan-your-med-v-deployment.md
+      items:
+      - name: Determining How MED-V Will Be Deployed
+        href: determining-how-med-v-will-be-deployed.md
+      - name: Identifying the Number and Types of MED-V Workspaces
+        href: identifying-the-number-and-types-of-med-v-workspaces.md
+    - name: MED-V 2.0 Best Practices
+      href: med-v-20-best-practices.md
+  - name: Deployment of MED-V
+    href: deployment-of-med-v.md
+    items:
+    - name: End-to-End Deployment Scenario for MED-V 2.0
+      href: end-to-end-deployment-scenario-for-med-v-20.md
+    - name: MED-V 2.0 Supported Configurations
+      href: med-v-20-supported-configurations.md
+    - name: MED-V 2.0 Deployment Overview
+      href: med-v-20-deployment-overview.md
+    - name: Prepare the Deployment Environment for MED-V
+      href: prepare-the-deployment-environment-for-med-v.md
+      items:
+      - name: Configure Environment Prerequisites
+        href: configure-environment-prerequisites.md
+      - name: Configure Installation Prerequisites
+        href: configure-installation-prerequisites.md
+    - name: Deploy the MED-V Components
+      href: deploy-the-med-v-components.md
+      items:
+      - name: How to Install the MED-V Workspace Packager
+        href: how-to-install-the-med-v-workspace-packager.md
+      - name: How to Deploy the MED-V Components Through an Electronic Software Distribution System
+        href: how-to-deploy-the-med-v-components-through-an-electronic-software-distribution-system.md
+      - name: How to Manually Install the MED-V Host Agent
+        href: how-to-manually-install-the-med-v-host-agent.md
+      - name: How to Uninstall the MED-V Components
+        href: how-to-uninstall-the-med-v-components.md
+  - name: Operations for MED-V
+    href: operations-for-med-v.md
+    items:
+    - name: End-to-End Operations Scenario for MED-V 2.0
+      href: end-to-end-operations-scenario-for-med-v-20.md
+    - name: Prepare a MED-V Image
+      href: prepare-a-med-v-image.md
+      items:
+      - name: Creating a Windows Virtual PC Image for MED-V
+        href: creating-a-windows-virtual-pc-image-for-med-v.md
+      - name: Installing Applications on a Windows Virtual PC Image
+        href: installing-applications-on-a-windows-virtual-pc-image.md
+      - name: Configuring a Windows Virtual PC Image for MED-V
+        href: configuring-a-windows-virtual-pc-image-for-med-v.md
+    - name: Create a MED-V Workspace Package
+      href: create-a-med-v-workspace-package.md
+      items:
+      - name: Configuring Advanced Settings by Using Windows PowerShell
+        href: configuring-advanced-settings-by-using-windows-powershell.md
+    - name: Test And Deploy the MED-V Workspace Package
+      href: test-and-deploy-the-med-v-workspace-package.md
+      items:
+      - name: Testing the MED-V Workspace Package
+        href: testing-the-med-v-workspace-package.md
+        items:
+        - name: How to Create a Test Environment
+          href: how-to-create-a-test-environment.md
+        - name: How to Verify First Time Setup Settings
+          href: how-to-verify-first-time-setup-settings.md
+        - name: How to Test URL Redirection
+          href: how-to-test-url-redirection.md
+        - name: How to Test Application Publishing
+          href: how-to-test-application-publishing.md
+      - name: Deploying the MED-V Workspace Package
+        href: deploying-the-med-v-workspace-package.md
+        items:
+        - name: How to Deploy a MED-V Workspace Through an Electronic Software Distribution System
+          href: how-to-deploy-a-med-v-workspace-through-an-electronic-software-distribution-system.md
+        - name: How to Deploy a MED-V Workspace in a Windows 7 Image
+          href: how-to-deploy-a-med-v-workspace-in-a-windows-7-image.md
+        - name: How to Deploy a MED-V Workspace Manually
+          href: how-to-deploy-a-med-v-workspace-manually.md
+    - name: Monitor MED-V Workspaces
+      href: monitor-med-v-workspaces.md
+      items:
+      - name: Monitoring MED-V Workspace Deployments
+        href: monitoring-med-v-workspace-deployments.md
+      - name: Detecting Network Changes that Affect MED-V
+        href: detecting-network-changes-that-affect-med-v.md
+    - name: Manage MED-V Workspace Applications
+      href: manage-med-v-workspace-applications.md
+      items:
+      - name: Managing Applications Deployed to MED-V Workspaces
+        href: managing-applications-deployed-to-med-v-workspaces.md
+        items:
+        - name: Installing and Removing an Application on the MED-V Workspace
+          href: installing-and-removing-an-application-on-the-med-v-workspace.md
+        - name: How to Publish and Unpublish an Application on the MED-V Workspace
+          href: how-to-publish-and-unpublish-an-application-on-the-med-v-workspace.md
+      - name: Managing Software Updates for MED-V Workspaces
+        href: managing-software-updates-for-med-v-workspaces.md
+      - name: Managing Automatic Updates for MED-V Workspaces
+        href: managing-automatic-updates-for-med-v-workspaces.md
+    - name: Manage MED-V URL Redirection
+      href: manage-med-v-url-redirection.md
+      items:
+      - name: How to Add or Remove URL Redirection Information in a Deployed MED-V Workspace
+        href: how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace.md
+      - name: How to Manage URL Redirection by Using the MED-V Workspace Packager
+        href: how-to-manage-url-redirection-by-using-the-med-v-workspace-packager.md
+    - name: Manage MED-V Workspace Settings
+      href: manage-med-v-workspace-settings.md
+      items:
+      - name: Managing MED-V Workspace Settings by Using the MED-V Workspace Packager
+        href: managing-med-v-workspace-settings-by-using-the-med-v-workspace-packager.md
+      - name: Managing MED-V Workspace Settings by Using a WMI
+        href: managing-med-v-workspace-settings-by-using-a-wmi.md
+      - name: Managing MED-V Workspace Configuration Settings
+        href: managing-med-v-workspace-configuration-settings.md
+      - name: Managing Printers on a MED-V Workspace
+        href: managing-printers-on-a-med-v-workspace.md
+  - name: Troubleshooting MED-V
+    href: troubleshooting-med-vmedv2.md
+    items:
+    - name: Deployment Troubleshooting
+      href: deployment-troubleshooting.md
+    - name: Operations Troubleshooting
+      href: operations-troubleshooting-medv2.md
+    - name: Troubleshooting MED-V by Using the Administration Toolkit
+      href: troubleshooting-med-v-by-using-the-administration-toolkit.md
+      items:
+      - name: Viewing and Configuring MED-V Logs
+        href: viewing-and-configuring-med-v-logs.md
+      - name: Restarting and Resetting a MED-V Workspace
+        href: restarting-and-resetting-a-med-v-workspace.md
+      - name: Viewing MED-V Workspace Configurations
+        href: viewing-med-v-workspace-configurations.md
+  - name: Security and Protection for MED-V
+    href: security-and-protection-for-med-v.md
+    items:
+    - name: Security Best Practices for MED-V Operations
+      href: security-best-practices-for-med-v-operations.md
+    - name: Authentication of MED-V End Users
+      href: authentication-of-med-v-end-users.md
+  - name: Technical Reference for MED-V
+    href: technical-reference-for-med-v.md
+    items:
+    - name: Command-Line Options for MED-V Installation Files
+      href: command-line-options-for-med-v-installation-files.md
+    - name: Compacting the MED-V Virtual Hard Disk
+      href: compacting-the-med-v-virtual-hard-disk.md
+    - name: MED-V Event Log Messages
+      href: med-v-event-log-messages.md
+    - name: Updating MED-V 2.0
+      href: updating-med-v-20.md
+    - name: Windows Virtual PC Application Exclude List
+      href: windows-virtual-pc-application-exclude-list.md
+    - name: Example MED-V Checklists
+      href: example-med-v-checklists.md
+      items:
+      - name: Example MED-V Environment Planning Checklist
+        href: example-med-v-environment-planning-checklist.md
+      - name: Example MED-V Project Planning Checklist
+        href: example-med-v-project-planning-checklist.md
+      - name: Example MED-V System Installation Checklist
+        href: example-med-v-system-installation-checklist.md
+      - name: Example MED-V Image Preparation Checklist
+        href: example-med-v-image-preparation-checklist.md
+      - name: Example MED-V Workspace Deployment Checklist
+        href: example-med-v-workspace-deployment-checklist.md

@@ -1,0 +1,545 @@
+Items:
+- name: Advanced Group Policy Management
+  href: index.md
+  items:
+  - name: Technical Overview of AGPM
+    href: technical-overview-of-agpm.md
+  - name: Choosing Which Version of AGPM to Install
+    href: choosing-which-version-of-agpm-to-install.md
+  - name: AGPM 4.0 SP3
+    href: agpm-40-sp3-navengl.md
+    items:
+    - name: What's New in AGPM 4.0 SP3
+      href: whats-new-in-agpm-40-sp3.md
+      items:
+      - name: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3
+        href: release-notes-for-microsoft-advanced-group-policy-management-40-sp3.md
+  - name: AGPM 4.0 SP2
+    href: agpm-40-sp2-navengl.md
+    items:
+    - name: What's New in AGPM 4.0 SP2
+      href: whats-new-in-agpm-40-sp2.md
+      items:
+      - name: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP2
+        href: release-notes-for-microsoft-advanced-group-policy-management-40-sp2.md
+  - name: AGPM 4.0 SP1
+    href: agpm-40-sp1-navengl.md
+    items:
+    - name: What's New in AGPM 4.0 SP1
+      href: whats-new-in-agpm-40-sp1.md
+    - name: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP1
+      href: release-notes-for-microsoft-advanced-group-policy-management-40-sp1.md
+  - name: AGPM 4
+    href: agpm-4-navengl.md
+    items:
+    - name: Advanced Group Policy Management 4.0
+      href: advanced-group-policy-management-40.md
+    - name: What's New in AGPM 4.0
+      href: whats-new-in-agpm-40.md
+    - name: Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0
+      href: step-by-step-guide-for-microsoft-advanced-group-policy-management-40.md
+    - name: Operations Guide for Microsoft Advanced Group Policy Management 4.0
+      href: operations-guide-for-microsoft-advanced-group-policy-management-40.md
+      items:
+      - name: Overview of Advanced Group Policy Management
+        href: overview-of-advanced-group-policy-management-agpm40.md
+      - name: Best Practices for Version Control
+        href: best-practices-for-version-control-agpm40.md
+      - name: Checklist—Administer the AGPM Server and Archive
+        href: checklist-administer-the-agpm-server-and-archive-agpm40.md
+      - name: Checklist—Create, Edit, and Deploy a GPO
+        href: checklist-create-edit-and-deploy-a-gpo-agpm40.md
+      - name: Search and Filter the List of GPOs
+        href: search-and-filter-the-list-of-gpos.md
+      - name: Performing AGPM Administrator Tasks
+        href: performing-agpm-administrator-tasks-agpm40.md
+        items:
+        - name: Configuring Advanced Group Policy Management
+          href: configuring-advanced-group-policy-management-agpm40.md
+          items:
+          - name: Configure AGPM Server Connections
+            href: configure-agpm-server-connections-agpm40.md
+          - name: Configure E-Mail Notification
+            href: configure-e-mail-notification-agpm40.md
+          - name: Configure E-Mail Security for AGPM
+            href: configure-e-mail-security-for-agpm-agpm40.md
+          - name: Delegate Access to the Production Environment
+            href: delegate-access-to-the-production-environment-agpm40.md
+          - name: Configure Logging and Tracing
+            href: configure-logging-and-tracing-agpm40.md
+        - name: Managing the Archive
+          href: managing-the-archive-agpm40.md
+          items:
+          - name: Delegate Domain-Level Access to the Archive
+            href: delegate-domain-level-access-to-the-archive-agpm40.md
+          - name: Delegate Access to an Individual GPO in the Archive
+            href: delegate-access-to-an-individual-gpo-in-the-archive-agpm40.md
+          - name: Limit the GPO Versions Stored
+            href: limit-the-gpo-versions-stored-agpm40.md
+          - name: Import a GPO from a File
+            href: import-a-gpo-from-a-file-agpmadmin.md
+          - name: Back Up the Archive
+            href: back-up-the-archive-agpm40.md
+          - name: Restore the Archive from a Backup
+            href: restore-the-archive-from-a-backup-agpm40.md
+        - name: Managing the AGPM Service
+          href: managing-the-agpm-service-agpm40.md
+          items:
+          - name: Start and Stop the AGPM Service
+            href: start-and-stop-the-agpm-service-agpm40.md
+          - name: Modify the AGPM Service
+            href: modify-the-agpm-service-agpm40.md
+        - name: Move the AGPM Server and the Archive
+          href: move-the-agpm-server-and-the-archive-agpm40.md
+      - name: Performing Editor Tasks
+        href: performing-editor-tasks-agpm40.md
+        items:
+        - name: Creating or Controlling a GPO
+          href: creating-or-controlling-a-gpo-agpm40-ed.md
+          items:
+          - name: Request Control of an Uncontrolled GPO
+            href: request-control-of-an-uncontrolled-gpo-agpm40.md
+          - name: Request the Creation of a New Controlled GPO
+            href: request-the-creation-of-a-new-controlled-gpo-agpm40.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-agpm40-ed.md
+        - name: Editing a GPO
+          href: editing-a-gpo-agpm40.md
+          items:
+          - name: Edit a GPO Offline
+            href: edit-a-gpo-offline-agpm40.md
+          - name: Label the Current Version of a GPO
+            href: label-the-current-version-of-a-gpo-agpm40.md
+          - name: Rename a GPO or Template
+            href: rename-a-gpo-or-template-agpm40.md
+        - name: Using a Test Environment
+          href: using-a-test-environment.md
+          items:
+          - name: Export a GPO to a File
+            href: export-a-gpo-to-a-file.md
+          - name: Import a GPO from a File
+            href: import-a-gpo-from-a-file-ed.md
+          - name: Test a GPO in a Separate Organizational Unit
+            href: test-a-gpo-in-a-separate-organizational-unit-agpm40.md
+        - name: Request Deployment of a GPO
+          href: request-deployment-of-a-gpo-agpm40.md
+        - name: Creating a Template and Setting a Default Template
+          href: creating-a-template-and-setting-a-default-template-agpm40.md
+          items:
+          - name: Create a Template
+            href: create-a-template-agpm40.md
+          - name: Set a Default Template
+            href: set-a-default-template-agpm40.md
+        - name: Deleting or Restoring a GPO
+          href: deleting-or-restoring-a-gpo-agpm40.md
+          items:
+          - name: Request Deletion of a GPO
+            href: request-deletion-of-a-gpo-agpm40.md
+          - name: Request Restoration of a Deleted GPO
+            href: request-restoration-of-a-deleted-gpo-agpm40.md
+      - name: Performing Approver Tasks
+        href: performing-approver-tasks-agpm40.md
+        items:
+        - name: Approve or Reject a Pending Action
+          href: approve-or-reject-a-pending-action-agpm40.md
+        - name: Creating or Controlling a GPO
+          href: creating-or-controlling-a-gpo-agpm40-app.md
+          items:
+          - name: Control an Uncontrolled GPO
+            href: control-an-uncontrolled-gpo-agpm40.md
+          - name: Create a New Controlled GPO
+            href: create-a-new-controlled-gpo-agpm40.md
+          - name: Delegate Management of a Controlled GPO
+            href: delegate-management-of-a-controlled-gpo-agpm40.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-agpm40-app.md
+        - name: Check In a GPO
+          href: check-in-a-gpo-agpm40.md
+        - name: Deploy a GPO
+          href: deploy-a-gpo-agpm40.md
+        - name: Roll Back to an Earlier Version of a GPO
+          href: roll-back-to-an-earlier-version-of-a-gpo-agpm40.md
+        - name: Deleting, Restoring, or Destroying a GPO
+          href: deleting-restoring-or-destroying-a-gpo-agpm40.md
+          items:
+          - name: Delete a Controlled GPO
+            href: delete-a-controlled-gpo-agpm40.md
+          - name: Restore a Deleted GPO
+            href: restore-a-deleted-gpo-agpm40.md
+          - name: Destroy a GPO
+            href: destroy-a-gpo-agpm40.md
+      - name: Performing Reviewer Tasks
+        href: performing-reviewer-tasks-agpm40.md
+        items:
+        - name: Configure an AGPM Server Connection
+          href: configure-an-agpm-server-connection-agpm40.md
+        - name: Review GPO Settings
+          href: review-gpo-settings-agpm40.md
+        - name: Review GPO Links
+          href: review-gpo-links-agpm40.md
+        - name: Identify Differences Between GPOs, GPO Versions, or Templates
+          href: identify-differences-between-gpos-gpo-versions-or-templates-agpm40.md
+      - name: Troubleshooting AGPM
+        href: troubleshooting-agpm-agpm40.md
+      - name: User Interface—Advanced Group Policy Management
+        href: user-interface-advanced-group-policy-management-agpm40.md
+        items:
+        - name: Contents Tab
+          href: contents-tab-agpm40.md
+          items:
+          - name: Contents Tab Features
+            href: contents-tab-features-agpm40.md
+          - name: History Window
+            href: history-window-agpm40.md
+          - name: Controlled GPO Commands
+            href: controlled-gpo-commands-agpm40.md
+          - name: Uncontrolled GPO Commands
+            href: uncontrolled-gpo-commands-agpm40.md
+          - name: Pending GPO Commands
+            href: pending-gpo-commands-agpm40.md
+          - name: Template Commands
+            href: template-commands-agpm40.md
+          - name: Recycle Bin Commands
+            href: recycle-bin-commands-agpm40.md
+        - name: Domain Delegation Tab
+          href: domain-delegation-tab-agpm40.md
+        - name: AGPM Server Tab
+          href: agpm-server-tab-agpm40.md
+        - name: Production Delegation Tab
+          href: production-delegation-tab-agpm40.md
+        - name: Administrative Templates Folder
+          href: administrative-templates-folder-agpm40.md
+          items:
+          - name: Logging and Tracing Settings
+            href: logging-and-tracing-settings-agpm40.md
+          - name: AGPM Server Connection Settings
+            href: agpm-server-connection-settings-agpm40.md
+          - name: Feature Visibility Settings
+            href: feature-visibility-settings-agpm40.md
+    - name: Release Notes for Microsoft Advanced Group Policy Management 4.0
+      href: release-notes-for-microsoft-advanced-group-policy-management-40.md
+  - name: AGPM 3
+    href: agpm-3-navengl.md
+    items:
+    - name: What's New in AGPM 3.0
+      href: whats-new-in-agpm-30.md
+    - name: Step-by-Step Guide for Microsoft Advanced Group Policy Management 3.0
+      href: step-by-step-guide-for-microsoft-advanced-group-policy-management-30.md
+    - name: Operations Guide for Microsoft Advanced Group Policy Management 3.0
+      href: operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops.md
+      items:
+      - name: Overview of Advanced Group Policy Management
+        href: overview-of-advanced-group-policy-management-agpm30ops.md
+      - name: Best Practices for Version Control
+        href: best-practices-for-version-control.md
+      - name: Checklist—Administer the AGPM Server and Archive
+        href: checklist-administer-the-agpm-server-and-archive.md
+      - name: Checklist—Create, Edit, and Deploy a GPO
+        href: checklist-create-edit-and-deploy-a-gpo-agpm30ops.md
+      - name: Performing AGPM Administrator Tasks
+        href: performing-agpm-administrator-tasks-agpm30ops.md
+        items:
+        - name: Configuring Advanced Group Policy Management
+          href: configuring-advanced-group-policy-management.md
+          items:
+          - name: Configure AGPM Server Connections
+            href: configure-agpm-server-connections-agpm30ops.md
+          - name: Configure E-Mail Notification
+            href: configure-e-mail-notification-agpm30ops.md
+          - name: Configure E-Mail Security for AGPM
+            href: configure-e-mail-security-for-agpm-agpm30ops.md
+          - name: Delegate Access to the Production Environment
+            href: delegate-access-to-the-production-environment-agpm30ops.md
+          - name: Configure Logging and Tracing
+            href: configure-logging-and-tracing-agpm30ops.md
+        - name: Managing the Archive
+          href: managing-the-archive.md
+          items:
+          - name: Delegate Domain-Level Access to the Archive
+            href: delegate-domain-level-access-to-the-archive-agpm30ops.md
+          - name: Delegate Access to an Individual GPO in the Archive
+            href: delegate-access-to-an-individual-gpo-in-the-archive-agpm30ops.md
+          - name: Limit the GPO Versions Stored
+            href: limit-the-gpo-versions-stored-agpm30ops.md
+          - name: Back Up the Archive
+            href: back-up-the-archive.md
+          - name: Restore the Archive from a Backup
+            href: restore-the-archive-from-a-backup.md
+        - name: Managing the AGPM Service
+          href: managing-the-agpm-service-agpm30ops.md
+          items:
+          - name: Start and Stop the AGPM Service
+            href: start-and-stop-the-agpm-service-agpm30ops.md
+          - name: Modify the AGPM Service
+            href: modify-the-agpm-service-agpm30ops.md
+        - name: Move the AGPM Server and the Archive
+          href: move-the-agpm-server-and-the-archive.md
+      - name: Performing Editor Tasks
+        href: performing-editor-tasks-agpm30ops.md
+        items:
+        - name: Creating, Controlling, or Importing a GPO
+          href: creating-controlling-or-importing-a-gpo-agpm30ops.md
+          items:
+          - name: Request Control of an Uncontrolled GPO
+            href: request-control-of-an-uncontrolled-gpo-agpm30ops.md
+          - name: Request the Creation of a New Controlled GPO
+            href: request-the-creation-of-a-new-controlled-gpo-agpm30ops.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-agpm30ops.md
+        - name: Editing a GPO
+          href: editing-a-gpo-agpm30ops.md
+          items:
+          - name: Edit a GPO Offline
+            href: edit-a-gpo-offline-agpm30ops.md
+          - name: Use a Test Environment
+            href: use-a-test-environment-agpm30ops.md
+          - name: Request Deployment of a GPO
+            href: request-deployment-of-a-gpo-agpm30ops.md
+          - name: Label the Current Version of a GPO
+            href: label-the-current-version-of-a-gpo-agpm30ops.md
+          - name: Rename a GPO or Template
+            href: rename-a-gpo-or-template-agpm30ops.md
+        - name: Creating a Template and Setting a Default Template
+          href: creating-a-template-and-setting-a-default-template-agpm30ops.md
+          items:
+          - name: Create a Template
+            href: create-a-template-agpm30ops.md
+          - name: Set a Default Template
+            href: set-a-default-template-agpm30ops.md
+        - name: Deleting or Restoring a GPO
+          href: deleting-or-restoring-a-gpo-agpm30ops.md
+          items:
+          - name: Request Deletion of a GPO
+            href: request-deletion-of-a-gpo-agpm30ops.md
+          - name: Request Restoration of a Deleted GPO
+            href: request-restoration-of-a-deleted-gpo-agpm30ops.md
+      - name: Performing Approver Tasks
+        href: performing-approver-tasks-agpm30ops.md
+        items:
+        - name: Approve or Reject a Pending Action
+          href: approve-or-reject-a-pending-action-agpm30ops.md
+        - name: Creating, Controlling, or Importing a GPO
+          href: creating-controlling-or-importing-a-gpo-editor-agpm30ops.md
+          items:
+          - name: Control an Uncontrolled GPO
+            href: control-an-uncontrolled-gpo-agpm30ops.md
+          - name: Create a New Controlled GPO
+            href: create-a-new-controlled-gpo-agpm30ops.md
+          - name: Delegate Management of a Controlled GPO
+            href: delegate-management-of-a-controlled-gpo-agpm30ops.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-editor-agpm30ops.md
+        - name: Check In a GPO
+          href: check-in-a-gpo-agpm30ops.md
+        - name: Deploy a GPO
+          href: deploy-a-gpo-agpm30ops.md
+        - name: Roll Back to a Previous Version of a GPO
+          href: roll-back-to-a-previous-version-of-a-gpo-agpm30ops.md
+        - name: Deleting, Restoring, or Destroying a GPO
+          href: deleting-restoring-or-destroying-a-gpo-agpm30ops.md
+          items:
+          - name: Delete a Controlled GPO
+            href: delete-a-controlled-gpo-agpm30ops.md
+          - name: Restore a Deleted GPO
+            href: restore-a-deleted-gpo-agpm30ops.md
+          - name: Destroy a GPO
+            href: destroy-a-gpo-agpm30ops.md
+      - name: Performing Reviewer Tasks
+        href: performing-reviewer-tasks-agpm30ops.md
+        items:
+        - name: Configure an AGPM Server Connection
+          href: configure-an-agpm-server-connection-reviewer-agpm30ops.md
+        - name: Review GPO Settings
+          href: review-gpo-settings-agpm30ops.md
+        - name: Review GPO Links
+          href: review-gpo-links-agpm30ops.md
+        - name: Identify Differences Between GPOs, GPO Versions, or Templates
+          href: identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops.md
+      - name: Troubleshooting AGPM
+        href: troubleshooting-advanced-group-policy-management-agpm30ops.md
+      - name: User Interface—Advanced Group Policy Management
+        href: user-interface-advanced-group-policy-management-agpm30ops.md
+        items:
+        - name: Contents Tab
+          href: contents-tab-agpm30ops.md
+          items:
+          - name: Contents Tab Features
+            href: contents-tab-features-agpm30ops.md
+          - name: History Window
+            href: history-window-agpm30ops.md
+          - name: Controlled GPO Commands
+            href: controlled-gpo-commands-agpm30ops.md
+          - name: Uncontrolled GPO Commands
+            href: uncontrolled-gpo-commands-agpm30ops.md
+          - name: Pending GPO Commands
+            href: pending-gpo-commands-agpm30ops.md
+          - name: Template Commands
+            href: template-commands-agpm30ops.md
+          - name: Recycle Bin Commands
+            href: recycle-bin-commands-agpm30ops.md
+        - name: Domain Delegation Tab
+          href: domain-delegation-tab-agpm30ops.md
+        - name: AGPM Server Tab
+          href: agpm-server-tab-agpm30ops.md
+        - name: Production Delegation Tab
+          href: production-delegation-tab-agpm30ops.md
+        - name: Administrative Templates Folder
+          href: administrative-templates-folder-agpm30ops.md
+          items:
+          - name: Logging and Tracing Settings
+            href: logging-and-tracing-settings-agpm30ops.md
+          - name: AGPM Server Connection Settings
+            href: agpm-server-connection-settings-agpm30ops.md
+          - name: Feature Visibility Settings
+            href: feature-visibility-settings-agpm30ops.md
+  - name: AGPM 2.5
+    href: agpm-25-navengl.md
+    items:
+    - name: Step-by-Step Guide for Microsoft Advanced Group Policy Management 2.5
+      href: step-by-step-guide-for-microsoft-advanced-group-policy-management-25.md
+    - name: Operations Guide for Microsoft Advanced Group Policy Management 2.5
+      href: operations-guide-for-microsoft-advanced-group-policy-management-25.md
+      items:
+      - name: Overview of Advanced Group Policy Management
+        href: overview-of-advanced-group-policy-management.md
+      - name: Checklist—Create, Edit, and Deploy a GPO
+        href: checklist-create-edit-and-deploy-a-gpo.md
+      - name: Performing AGPM Administrator Tasks
+        href: performing-agpm-administrator-tasks.md
+        items:
+        - name: Configure the AGPM Server Connection
+          href: configure-the-agpm-server-connection.md
+        - name: Configure E-Mail Notification
+          href: configure-e-mail-notification.md
+        - name: Delegate Domain-Level Access
+          href: delegate-domain-level-access.md
+        - name: Delegate Access to an Individual GPO
+          href: delegate-access-to-an-individual-gpo.md
+        - name: Configure Logging and Tracing
+          href: configure-logging-and-tracing.md
+        - name: Managing the AGPM Service
+          href: managing-the-agpm-service.md
+          items:
+          - name: Start and Stop the AGPM Service
+            href: start-and-stop-the-agpm-service.md
+          - name: Modify the Archive Path
+            href: modify-the-archive-path.md
+          - name: Modify the AGPM Service Account
+            href: modify-the-agpm-service-account.md
+          - name: Modify the Port on Which the AGPM Service Listens
+            href: modify-the-port-on-which-the-agpm-service-listens.md
+      - name: Performing Editor Tasks
+        href: performing-editor-tasks.md
+        items:
+        - name: Creating, Controlling, or Importing a GPO
+          href: creating-controlling-or-importing-a-gpo-editor.md
+          items:
+          - name: Request Control of a Previously Uncontrolled GPO
+            href: request-control-of-a-previously-uncontrolled-gpo.md
+          - name: Request the Creation of a New Controlled GPO
+            href: request-the-creation-of-a-new-controlled-gpo.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-editor.md
+        - name: Editing a GPO
+          href: editing-a-gpo.md
+          items:
+          - name: Edit a GPO Offline
+            href: edit-a-gpo-offline.md
+          - name: Use a Test Environment
+            href: use-a-test-environment.md
+          - name: Request Deployment of a GPO
+            href: request-deployment-of-a-gpo.md
+          - name: Label the Current Version of a GPO
+            href: label-the-current-version-of-a-gpo.md
+          - name: Rename a GPO or Template
+            href: rename-a-gpo-or-template.md
+        - name: Creating a Template and Setting a Default Template
+          href: creating-a-template-and-setting-a-default-template.md
+          items:
+          - name: Create a Template
+            href: create-a-template.md
+          - name: Set a Default Template
+            href: set-a-default-template.md
+        - name: Delete a GPO
+          href: delete-a-gpo-editor.md
+      - name: Performing Approver Tasks
+        href: performing-approver-tasks.md
+        items:
+        - name: Approve or Reject a Pending Action
+          href: approve-or-reject-a-pending-action.md
+        - name: Creating, Controlling, or Importing a GPO
+          href: creating-controlling-or-importing-a-gpo-approver.md
+          items:
+          - name: Control a Previously Uncontrolled GPO
+            href: control-a-previously-uncontrolled-gpo.md
+          - name: Create a New Controlled GPO
+            href: create-a-new-controlled-gpo.md
+          - name: Delegate Access to a GPO
+            href: delegate-access-to-a-gpo.md
+          - name: Import a GPO from Production
+            href: import-a-gpo-from-production-approver.md
+        - name: Check In a GPO
+          href: check-in-a-gpo-approver.md
+        - name: Deploy a GPO
+          href: deploy-a-gpo.md
+        - name: Roll Back to a Previous Version of a GPO
+          href: roll-back-to-a-previous-version-of-a-gpo.md
+        - name: Deleting, Restoring, or Destroying a GPO
+          href: deleting-restoring-or-destroying-a-gpo.md
+          items:
+          - name: Delete a GPO
+            href: delete-a-gpo-approver.md
+          - name: Restore a Deleted GPO
+            href: restore-a-deleted-gpo.md
+          - name: Destroy a GPO
+            href: destroy-a-gpo.md
+      - name: Performing Reviewer Tasks
+        href: performing-reviewer-tasks.md
+        items:
+        - name: Configure the AGPM Server Connection
+          href: configure-the-agpm-server-connection-reviewer.md
+        - name: Review GPO Settings
+          href: review-gpo-settings.md
+        - name: Review GPO Links
+          href: review-gpo-links.md
+        - name: Identify Differences Between GPOs, GPO Versions, or Templates
+          href: identify-differences-between-gpos-gpo-versions-or-templates.md
+      - name: Troubleshooting Advanced Group Policy Management
+        href: troubleshooting-advanced-group-policy-management.md
+      - name: User Interface—Advanced Group Policy Management
+        href: user-interface-advanced-group-policy-management.md
+        items:
+        - name: Contents Tab
+          href: contents-tab.md
+          items:
+          - name: Controlled Tab
+            href: controlled-tab.md
+          - name: Uncontrolled Tab
+            href: uncontrolled-tab.md
+          - name: Pending Tab
+            href: pending-tab.md
+          - name: Templates Tab
+            href: templates-tab.md
+          - name: Recycle Bin Tab
+            href: recycle-bin-tab.md
+          - name: Common Secondary Tab Features
+            href: common-secondary-tab-features.md
+          - name: History Window
+            href: history-window.md
+        - name: Domain Delegation Tab
+          href: domain-delegation-tab.md
+        - name: AGPM Server Tab
+          href: agpm-server-tab.md
+        - name: Administrative Template Settings
+          href: administrative-template-settings.md
+          items:
+          - name: Logging and Tracing Settings
+            href: logging-and-tracing-settings.md
+          - name: AGPM Server Connection Settings
+            href: agpm-server-connection-settings.md
+          - name: Feature Visibility Settings
+            href: feature-visibility-settings.md
+        - name: Other Enhancements to the GPMC
+          href: other-enhancements-to-the-gpmc.md
+  - name: Troubleshooting AGPM Upgrades
+    href: troubleshooting-agpm40-upgrades.md
