@@ -48,9 +48,11 @@ Table 1 lists the operating systems on which you can install AGPM 4.0 SP3, and 
 <tbody>
 <tr class="odd">
 
-<td align="left"><p>Windows Server 2022 or Windows 10 or Windows 11</p></td>
-<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
-<td align="left"><p>Windows Server 2019 or Windows 10 or Windows 11</p></td>
+<td align="left"><p>Windows Server 2022 or 2019 or Windows 10 or Windows 11</p></td>
+
+<td align="left"><p>Windows Server 2022 0r 2019 or Windows 10 or Windows 11</p></td>
+
+<td align="left"><p>Windows Server 2022 or 2019 or Windows 10 or Windows 11</p></td>
 <td align="left"><p>Supported</p></td>
 </tr>
 <tr class="even">
