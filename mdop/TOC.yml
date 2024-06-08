@@ -15,8 +15,6 @@
       items:
         - name: Diagnostics and Recovery Toolset 10
           href: dart-v10/index.md
-        - name: Diagnostics and Recovery Toolset 8
-          href: dart-v8/index.md
         - name: Diagnostics and Recovery Toolset 7
           href: dart-v7/index.md
     - name: Microsoft Bitlocker Administration and Monitoring
