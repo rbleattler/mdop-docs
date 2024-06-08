@@ -266,11 +266,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mdop/dart-v8/TOC.yml",
-      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/dart-v8/TOC.yml",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "mdop/dart-v8/troubleshooting-dart-80-dart-8.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/dart-v8/troubleshooting-dart-80-dart-8.md",
       "redirect_document_id": false
