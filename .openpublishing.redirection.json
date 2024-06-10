@@ -274,6 +274,296 @@
       "source_path": "mdop/dart-v8/use-windows-defender-offline-wdo-for-malware-protection-not-dart.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/dart-v8/use-windows-defender-offline-wdo-for-malware-protection-not-dart.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/about-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/about-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/accessibility-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/accessibility-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/administering-mbam-10-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/administering-mbam-10-by-using-powershell.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/administering-mbam-10-features.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/administering-mbam-10-features.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/deploying-mbam-10-group-policy-objects.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/deploying-mbam-10-group-policy-objects.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/deploying-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/deploying-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/deploying-the-mbam-10-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/deploying-the-mbam-10-client.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/deploying-the-mbam-10-language-release-update.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/deploying-the-mbam-10-language-release-update.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/deploying-the-mbam-10-server-infrastructure.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/deploying-the-mbam-10-server-infrastructure.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/evaluating-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/evaluating-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/getting-started-with-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/getting-started-with-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/high-availability-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/high-availability-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/high-level-architecture-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/high-level-architecture-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-configure-network-load-balancing-for-mbam.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-configure-network-load-balancing-for-mbam.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-determine-the-bitlocker-encryption-state-of-a-lost-computers-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-determine-the-bitlocker-encryption-state-of-a-lost-computers-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-edit-mbam-10-gpo-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-edit-mbam-10-gpo-settings.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-generate-mbam-reports-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-generate-mbam-reports-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-install-and-configure-mbam-on-a-single-server-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-install-and-configure-mbam-on-a-single-server-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-install-and-configure-mbam-on-distributed-servers-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-install-and-configure-mbam-on-distributed-servers-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-install-the-mbam-10-group-policy-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-install-the-mbam-10-group-policy-template.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-install-the-mbam-language-update-on-a-single-server-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-install-the-mbam-language-update-on-a-single-server-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-install-the-mbam-language-update-on-distributed-servers-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-install-the-mbam-language-update-on-distributed-servers-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-manage-computer-bitlocker-encryption-exemptions.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-manage-computer-bitlocker-encryption-exemptions.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-manage-hardware-compatibility-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-manage-hardware-compatibility-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-manage-mbam-administrator-roles-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-manage-mbam-administrator-roles-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-manage-user-bitlocker-encryption-exemptions-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-manage-user-bitlocker-encryption-exemptions-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-move-mbam-10-features-to-another-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-move-mbam-10-features-to-another-computer.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-recover-a-corrupted-drive-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-recover-a-corrupted-drive-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-recover-a-drive-in-recovery-mode-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-recover-a-drive-in-recovery-mode-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-recover-a-moved-drive-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-recover-a-moved-drive-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/how-to-reset-a-tpm-lockout-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/how-to-reset-a-tpm-lockout-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/index.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/known-issues-in-the-mbam-international-release-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/known-issues-in-the-mbam-international-release-mbam-1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/maintaining-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/maintaining-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/mbam-10-deployment-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/mbam-10-deployment-checklist.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/mbam-10-deployment-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/mbam-10-deployment-prerequisites.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/mbam-10-planning-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/mbam-10-planning-checklist.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/mbam-10-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/mbam-10-supported-configurations.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/monitoring-and-reporting-bitlocker-compliance-with-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/monitoring-and-reporting-bitlocker-compliance-with-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/operations-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/operations-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/performing-bitlocker-management-with-mbam.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/performing-bitlocker-management-with-mbam.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-for-mbam-10-administrator-roles.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-for-mbam-10-administrator-roles.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-for-mbam-10-client-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-for-mbam-10-client-deployment.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-for-mbam-10-group-policy-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-for-mbam-10-group-policy-requirements.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-for-mbam-10-server-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-for-mbam-10-server-deployment.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/planning-to-deploy-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/planning-to-deploy-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/preparing-your-environment-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/preparing-your-environment-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/privacy-statement-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/privacy-statement-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/release-notes-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/release-notes-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/security-and-privacy-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/security-and-privacy-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/security-considerations-for-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/security-considerations-for-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/troubleshooting-mbam-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/troubleshooting-mbam-10.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v1/understanding-mbam-reports-mbam-1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/understanding-mbam-reports-mbam-1.md",
+      "redirect_document_id": false
     }
   ]
 }
