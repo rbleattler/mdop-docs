@@ -2,8 +2,7 @@
 title: Release Notes for DaRT 8.0
 description: Release Notes for DaRT 8.0
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

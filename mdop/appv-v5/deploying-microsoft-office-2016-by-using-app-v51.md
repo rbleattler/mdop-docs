@@ -2,8 +2,7 @@
 title: Deploying Microsoft Office 2016 by Using App-V
 description: Deploying Microsoft Office 2016 by Using App-V
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/19/2017
@@ -232,7 +231,7 @@ The following table summarizes the values you need to enter in the CustomConfig.
     After you run the `/packager` command, the following folders appear up in the directory where you specified the package should be saved:
 
      - **App-V Packages** - contains an Office 2016 App-V package and two deployment configuration files.
-  
+
      - **WorkingDir**
 
     > [!NOTE]

@@ -3,8 +3,7 @@ title: MBAM 2.5 Deployment Prerequisites
 description: MBAM 2.5 Deployment Prerequisites
 author: aczechowski
 ms.assetid: a7b02d01-d182-4031-b373-0271177af14e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security

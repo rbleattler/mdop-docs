@@ -3,8 +3,7 @@ title: How to Control an Uncontrolled GPO
 description: Howt to Control an Uncontrolled GPO
 author: aczechowski
 ms.assetid: dc81545c-8da5-4b6f-b266-f01a82e27c6b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

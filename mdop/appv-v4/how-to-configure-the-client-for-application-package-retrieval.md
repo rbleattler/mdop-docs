@@ -2,8 +2,7 @@
 title: How to configure the client for application package retrieval
 description: How to configure the client for application package retrieval.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 06/16/2016
 ---

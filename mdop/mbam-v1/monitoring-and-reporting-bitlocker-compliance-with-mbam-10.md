@@ -3,8 +3,7 @@ title: Monitoring and Reporting BitLocker Compliance with MBAM 1.0
 description: Monitoring and Reporting BitLocker Compliance with MBAM 1.0
 author: aczechowski
 ms.assetid: fb497d3f-ff33-4747-8e34-366440ee25c2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

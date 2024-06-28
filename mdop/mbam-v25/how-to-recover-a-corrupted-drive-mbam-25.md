@@ -3,8 +3,7 @@ title: Recover a corrupted drive
 description: How to Recover a Corrupted Drive
 author: aczechowski
 ms.assetid: fa5b846b-dda6-4ae4-bf6c-39e4f1d8aa00
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -46,7 +45,7 @@ You can use this procedure with the Administration and Monitoring Website (also 
 </tbody>
 </table>
 
- 
+
 
 **To recover a corrupted drive**
 
@@ -59,7 +58,7 @@ You can use this procedure with the Administration and Monitoring Website (also 
     **Note**  
     If you are a member of the Advanced Helpdesk Users access group, you do not have to enter the user’s domain name or user name.
 
-     
+
 
 4.  Click **Submit**. The recovery key will be displayed.
 
@@ -76,7 +75,7 @@ You can use this procedure with the Administration and Monitoring Website (also 
     **Note**  
     Replace &lt;*fixed drive*&gt; with an available hard disk drive that has free space equal to or larger than the data on the corrupted drive. Data on the corrupted drive is recovered and moved to the specified hard disk drive.
 
-     
+
 
 
 ## Related topics
@@ -84,11 +83,11 @@ You can use this procedure with the Administration and Monitoring Website (also 
 
 [Performing BitLocker Management with MBAM 2.5](performing-bitlocker-management-with-mbam-25.md)
 
- 
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
- 
+
 
 
 

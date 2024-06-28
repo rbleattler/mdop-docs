@@ -3,8 +3,7 @@ title: Managing Connection Groups
 description: Managing Connection Groups
 author: aczechowski
 ms.assetid: 1a9c8f26-f421-4b70-b7e2-da8118e8198c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ Connection groups enable the applications within a package to interact with each
 **Note**  
 In previous versions of App-V 5.0, connection groups were referred to as Dynamic Suite Composition.
 
- 
+
 
 **In this topic:**
 
@@ -59,7 +58,7 @@ In previous versions of App-V 5.0, connection groups were referred to as Dynamic
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -71,9 +70,9 @@ In previous versions of App-V 5.0, connection groups were referred to as Dynamic
 
 -   [Operations for App-V 5.0](operations-for-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

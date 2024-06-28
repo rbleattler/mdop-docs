@@ -3,8 +3,7 @@ title: App-V 5.0 Security Considerations
 description: App-V 5.0 Security Considerations
 author: aczechowski
 ms.assetid: 1e7292a0-7972-4b4f-85a9-eaf33f6c563a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 08/30/2016
 
 This topic contains a brief overview of the accounts and groups, log files, and other security-related considerations for App-V 5.0.
 
-**Important**  
+**Important**
 App-V 5.0 is not a security product and does not provide any guarantees for a secure environment.
 
 
@@ -45,7 +44,7 @@ Effective as of June, 2014, the PackageStoreAccessControl (PSAC) feature that wa
 
 A best practice for user account management is to create domain global groups and add user accounts to them. Then, add the domain global accounts to the necessary App-V 5.0 local groups on the App-V 5.0 servers.
 
-**Note**  
+**Note**
 App-V client computer accounts that need to connect to the publishing server must be part of the publishing server’s **Users** local group. By default, all computers in the domain are part of the **Authorized Users** group, which is part of the **Users** local group.
 
 
@@ -109,7 +108,7 @@ Consider the following additional information:
 
 -   Access to the package shares - If a share exists on the same computer as the management Server, the **Network** service requires read access to the share. In addition, each App-V client computer must have read access to the package share.
 
-    **Note**  
+    **Note**
     In previous versions of App-V, package share was referred to as content share.
 
 

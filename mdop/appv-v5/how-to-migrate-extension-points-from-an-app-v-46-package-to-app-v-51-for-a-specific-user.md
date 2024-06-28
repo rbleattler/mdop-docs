@@ -3,8 +3,7 @@ title: How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.1 fo
 description: How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.1 for a Specific User
 author: aczechowski
 ms.assetid: 19da3776-5ebe-41e1-9890-12b84ef3c1c7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -57,9 +56,9 @@ This procedure assumes that you are running the latest version of App-V 4.6.
 
 [How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User](how-to-revert-extension-points-from-an-app-v-51-package-to-an-app-v-46-package-for-a-specific-user.md)
 
- 
 
- 
+
+
 
 
 

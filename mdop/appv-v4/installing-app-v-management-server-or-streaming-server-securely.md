@@ -3,8 +3,7 @@ title: Installing App-V Management Server or Streaming Server Securely
 description: Installing App-V Management Server or Streaming Server Securely
 author: aczechowski
 ms.assetid: d2a51a81-a80f-427c-a727-611e1eb74f02
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ The topics in this section provide information for installing an enhanced securi
 **Note**  
 Installing or configuring an App-V Management or Streaming Server to use enhanced security (for example, Transport Layer Security, or TLS) requires that an X.509 V3 certificate has been provisioned to the App-V server.
 
- 
+
 
 When you prepare to install or configure a secure Management or Streaming Server, consider the following technical requirements:
 
@@ -34,7 +33,7 @@ When you prepare to install or configure a secure Management or Streaming Server
     **Note**  
     If you are using App-V in a Network Load Balancing cluster, you must configure the certificate with Subject Alternate Names (SANs) to support RTSPS. For information about configuring the certification authority (CA) and creating certificates with SANs, see <https://go.microsoft.com/fwlink/?LinkId=133228>.
 
-     
+
 
 -   The client and the server need to trust the root CA—The CA issuing the certificate to the App-V server must by trusted by the client connecting to the server. If not, the client ends the connection.
 
@@ -43,18 +42,18 @@ When you prepare to install or configure a secure Management or Streaming Server
 ## In This Section
 
 
-<a href="" id="configuring-certificates-to-support-secure-streaming"></a>[Configuring Certificates to Support Secure Streaming](configuring-certificates-to-support-secure-streaming.md)  
+<a href="" id="configuring-certificates-to-support-secure-streaming"></a>[Configuring Certificates to Support Secure Streaming](configuring-certificates-to-support-secure-streaming.md)
 Provides information about obtaining, configuring, and installing certificates to support secure streaming.
 
-<a href="" id="how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server"></a>[How to Modify Private Key Permissions to Support Management Server or Streaming Server](how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server.md)  
+<a href="" id="how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server"></a>[How to Modify Private Key Permissions to Support Management Server or Streaming Server](how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server.md)
 Provides procedures you can use to modify keys in Windows Server 2003 and Windows Server 2008.
 
-<a href="" id="configuring-certificates-to-support-app-v-management-server-or-streaming-server"></a>[Configuring Certificates to Support App-V Management Server or Streaming Server](configuring-certificates-to-support-app-v-management-server-or-streaming-server.md)  
+<a href="" id="configuring-certificates-to-support-app-v-management-server-or-streaming-server"></a>[Configuring Certificates to Support App-V Management Server or Streaming Server](configuring-certificates-to-support-app-v-management-server-or-streaming-server.md)
 Provides information about configuring certificates for the App-V Management or Streaming Servers, including information about configuring certificates for Network Load Balancing environments.
 
- 
 
- 
+
+
 
 
 

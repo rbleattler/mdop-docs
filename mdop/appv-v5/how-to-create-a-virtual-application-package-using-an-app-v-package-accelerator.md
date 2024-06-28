@@ -3,8 +3,7 @@ title: How to Create a Virtual Application Package Using an App-V Package Accele
 description: How to Create a Virtual Application Package Using an App-V Package Accelerator
 author: aczechowski
 ms.assetid: 715e7526-e100-419c-8fc1-75cbfe433835
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -17,14 +16,14 @@ ms.date: 06/16/2016
 # How to Create a Virtual Application Package Using an App-V Package Accelerator
 
 
-**Important**  
+**Important**
 The App-V 5.0 Sequencer does not grant any license rights to the software application that you use to create the Package Accelerator. You must abide by all end user license terms for the application that you use. It is your responsibility to make sure that the software application’s license terms allow you to create a Package Accelerator with the App-V 5.0 Sequencer.
 
 
 
 Use the following procedure to create a virtual application package with the App-V 5.0 Package Accelerator.
 
-**Note**  
+**Note**
 Before you start this procedure, copy the required Package Accelerator locally to the computer that runs the App-V 5.0 Sequencer. You should also copy all required installation files for the package to a local directory on the computer that runs the Sequencer. This is the directory that you have to specify in step 5 of this procedure.
 
 
@@ -37,7 +36,7 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
 3.  To specify the package accelerator that will be used to create the new virtual application package, click **Browse** on the **Select Package Accelerator** page. Click **Next**.
 
-    **Important**  
+    **Important**
     If the publisher of the package accelerator cannot be verified and does not contain a valid digital signature, then before you click **Run**, you must confirm that you trust the source of the package accelerator. Confirm your choice in the **Security Warning** dialog box.
 
 
@@ -48,7 +47,7 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
     Alternatively, if you have already copied the installation files to a directory on this computer, click **Make New Folder**, browse to the folder that contains the installation files, and then click **Next**.
 
-    **Note**  
+    **Note**
     You can specify the following types of supported installation files:
 
     -   Windows Installer files (**.msi**)

@@ -3,8 +3,7 @@ title: How to Set MED-V Workspace Deletion Options
 description: How to Set MED-V Workspace Deletion Options
 author: aczechowski
 ms.assetid: 0f85aa81-c188-4115-9141-ceba2473c00e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

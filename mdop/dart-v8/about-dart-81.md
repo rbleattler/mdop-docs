@@ -3,8 +3,7 @@ title: About DaRT 8.1
 description: About DaRT 8.1
 author: aczechowski
 ms.assetid: dcaddc57-0111-4a9d-8be9-f5ada0eefa7d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -35,7 +34,7 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 8.1 provides the following enh
 
     You can create DaRT images by using Windows Server 2012 R2 or Windows 8.1.
 
-    **Note**  
+    **Note**
     For earlier versions of the Windows Server and Windows operating systems, continue to use the earlier versions of DaRT.
 
 
@@ -55,7 +54,7 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 8.1 provides the following enh
 
     Windows Assessment and Development Kit (ADK) 8.1 is a required prerequisite for the DaRT Recovery Image Wizard. Windows ADK 8.1 contains deployment tools that are used to customize, deploy, and service Windows images. It also contains the Windows Preinstallation Environment (Windows PE).
 
-    **Note**  
+    **Note**
     Windows ADK 8.1 is not required if you are installing only Remote Connection Viewer or Crash Analyzer.
 
 

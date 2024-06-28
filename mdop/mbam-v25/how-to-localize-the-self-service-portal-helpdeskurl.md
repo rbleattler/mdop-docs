@@ -3,8 +3,7 @@ title: How to Localize the Self-Service Portal “HelpdeskURL”
 description: How to Localize the Self-Service Portal “HelpdeskURL”
 author: aczechowski
 ms.assetid: 86798460-077b-459b-8d54-4b605e07d2f1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -24,7 +23,7 @@ If you create a localized version, as described in the following instructions, M
 **Note**  
 In the following instructions, *SelfService* is the default virtual directory name for the Self-Service Portal. You might have used a different name when you configured the Self-Service Portal.
 
- 
+
 
 **To localize the Self-Service Portal URL**
 
@@ -49,9 +48,9 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 [Customizing the Self-Service Portal for Your Organization](customizing-the-self-service-portal-for-your-organization.md)
 
- 
 
- 
+
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).

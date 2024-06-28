@@ -3,8 +3,7 @@ title: Rename a GPO or Template
 description: Rename a GPO or Template
 author: aczechowski
 ms.assetid: 64a1aaf4-f672-48b5-94c6-473bf1076cf3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

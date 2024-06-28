@@ -3,8 +3,7 @@ title: 'Editor: Delete a GPO'
 description: Delete a GPO
 author: aczechowski
 ms.assetid: 66be3dde-653e-4c25-8cb7-00e7090c8d31
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

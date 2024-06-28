@@ -3,8 +3,7 @@ title: CONFIGURE TYPE
 description: CONFIGURE TYPE
 author: aczechowski
 ms.assetid: 2caf9433-5449-486f-ab94-83ee8e44d7f1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Planning to Deploy MBAM 1.0
 description: Planning to Deploy MBAM 1.0
 author: aczechowski
 ms.assetid: 30ad4304-45c6-427d-8e33-ebe8053c7871
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

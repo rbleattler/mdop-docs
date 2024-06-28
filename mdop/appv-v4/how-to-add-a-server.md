@@ -3,8 +3,7 @@ title: How to Add a Server
 description: How to Add a Server
 author: aczechowski
 ms.assetid: 1f31678a-8edf-4d35-a812-e4a2abfd979b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ To help you manage your Application Virtualization Management Servers more effic
 **Note**  
 All servers in a server group must be connected to the same data store.
 
- 
+
 
 **To add a server to a group**
 
@@ -50,9 +49,9 @@ All servers in a server group must be connected to the same data store.
 
 [How to Remove a Server](how-to-remove-a-server.md)
 
- 
 
- 
+
+
 
 
 

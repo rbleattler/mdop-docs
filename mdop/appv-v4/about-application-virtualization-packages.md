@@ -3,8 +3,7 @@ title: About Application Virtualization Packages
 description: About Application Virtualization Packages
 author: aczechowski
 ms.assetid: 69bd35c1-7af3-43db-931b-3074780aa926
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

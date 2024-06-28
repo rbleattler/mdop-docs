@@ -3,8 +3,7 @@ title: How to Install the Sequencer
 description: How to Install the Sequencer
 author: aczechowski
 ms.assetid: 2cd16427-a0ba-4870-82d1-3e3c79e1959b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

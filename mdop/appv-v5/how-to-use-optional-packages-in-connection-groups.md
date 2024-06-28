@@ -3,8 +3,7 @@ title: How to Use Optional Packages in Connection Groups
 description: How to Use Optional Packages in Connection Groups
 author: aczechowski
 ms.assetid: 4d08a81b-55e5-471a-91dc-9a684fb3c9a1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ Starting in Microsoft Application Virtualization (App-V) 5.0 SP3, you can add op
 **Note**  
 **Optional packages are supported only in App-V 5.0 SP3.**
 
- 
+
 
 Before using optional packages, see [Requirements for using optional packages in connection groups](#bkmk-reqs-using-cg).
 
@@ -51,7 +50,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-apps-plugs-optional"></a>Use one connection group, with optional packages, for multiple users with different packages entitled to them
 
@@ -165,7 +164,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-unpub-del-optl-pkg"></a>Unpublish or delete an optional package, or unpublish an optional package and republish it later, without changing the connection group
 
@@ -232,7 +231,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-reqs-using-cg"></a>Requirements for using optional packages in connection groups
 
@@ -279,7 +278,7 @@ Review the following requirements before using optional packages in connection g
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -291,9 +290,9 @@ Review the following requirements before using optional packages in connection g
 
 [Managing Connection Groups](managing-connection-groups.md)
 
- 
 
- 
+
+
 
 
 

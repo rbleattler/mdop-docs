@@ -3,8 +3,7 @@ title: Select Files Page
 description: Select Files Page
 author: aczechowski
 ms.assetid: 6d1524ca-6306-4a28-b65f-3ded9d487e75
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Select Files** page to review the files that will be saved with the Pa
 
 This page contains the following elements:
 
-<a href="" id="select-files-pane"></a>**Select Files Pane**  
+<a href="" id="select-files-pane"></a>**Select Files Pane**
 Displays a list of the files that were discovered in the Package Accelerator. Carefully review the files, and clear any file that should be removed from the Package Accelerator. Select only files that are required by the application to run successfully.
 
 ## Related topics

@@ -3,8 +3,7 @@ title: Exclusion Items Tab
 description: Exclusion Items Tab
 author: aczechowski
 ms.assetid: 864e46dd-3d6e-4a1b-acf4-9dc00548117e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,34 +19,34 @@ The **Exclusion Items** tab displays the expressions that the Application Virtua
 
 This tab contains the following elements.
 
-<a href="" id="exclude-path"></a>**Exclude Path**  
+<a href="" id="exclude-path"></a>**Exclude Path**
 Displays variable names that the Sequencer excludes if encountered while parsing virtual file system items or virtual registry items.
 
-<a href="" id="resolves-to"></a>**Resolves To**  
+<a href="" id="resolves-to"></a>**Resolves To**
 Displays the actual paths that correspond to the Sequencer variables.
 
-<a href="" id="map-type"></a>**Map Type**  
+<a href="" id="map-type"></a>**Map Type**
 Displays mapping rules that the Sequencer applies to parse items in the virtual file system or virtual registry. One of the following values can occur:
 
-<a href="" id="new"></a>**New**  
+<a href="" id="new"></a>**New**
 Click to enter a new exclusion item.
 
-<a href="" id="edit"></a>**Edit**  
+<a href="" id="edit"></a>**Edit**
 Click to edit a selected exclusion.
 
-<a href="" id="delete"></a>**Delete**  
+<a href="" id="delete"></a>**Delete**
 Click to remove a selected exclusion.
 
-<a href="" id="save-as-default"></a>**Save As Default**  
+<a href="" id="save-as-default"></a>**Save As Default**
 Click to save the current exclusion items as your default.
 
-<a href="" id="restore-defaults"></a>**Restore Defaults**  
+<a href="" id="restore-defaults"></a>**Restore Defaults**
 Click to restore default-assigned exclusion items and remove any items you added.
 
-<a href="" id="ok"></a>**OK**  
+<a href="" id="ok"></a>**OK**
 Click to accept the displayed exceptions.
 
-<a href="" id="cancel"></a>**Cancel**  
+<a href="" id="cancel"></a>**Cancel**
 Click to cancel any changes you have made.
 
 ## Related topics

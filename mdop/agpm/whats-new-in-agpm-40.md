@@ -3,8 +3,7 @@ title: What's New in AGPM 4.0
 description: What's New in AGPM 4.0
 author: aczechowski
 ms.assetid: 31775f7f-a59c-4e64-a875-0adc9f5bc835
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

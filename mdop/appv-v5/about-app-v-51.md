@@ -3,8 +3,7 @@ title: About App-V 5.1
 description: About App-V 5.1
 author: aczechowski
 ms.assetid: 35bc9908-d502-4a9c-873f-8ee17b6d9d74
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -201,7 +200,7 @@ Complete the following steps to upgrade each component of the App-V infrastructu
 
 Use the package converter utility to upgrade virtual application packages created using versions of App-V prior to App-V 5.0. The package converter uses PowerShell to convert packages and can help automate the process if you have many packages that require conversion.
 
-**Note**  
+**Note**
 App-V 5.1 packages are exactly the same as App-V 5.0 packages. There has been no change in the package format between the versions and so there is no need to convert App-V 5.0 packages to App-V 5.1 packages.
 
 
@@ -415,7 +414,7 @@ You can import and export the AppxManifest.xml file. To export the manifest file
 
 After you make your changes, click **Import...** and select the file you edited. After you successfully import it back in, the manifest file is immediately updated within the package editor.
 
-**Caution**  
+**Caution**
 When you import the file, your changes are validated against the XML schema. If the file is not valid, you will receive an error. Be aware that it is possible to import a file that is validated against the XML schema, but that might still fail to run for other reasons.
 
 

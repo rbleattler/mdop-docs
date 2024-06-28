@@ -3,8 +3,7 @@ title: Production Delegation Tab
 description: Production Delegation Tab
 author: aczechowski
 ms.assetid: 9851637d-d5c1-4d29-8582-e8779500a14e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

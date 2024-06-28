@@ -3,8 +3,7 @@ title: Application Virtualization Sequencer Online Help
 description: Application Virtualization Sequencer Online Help
 author: aczechowski
 ms.assetid: 0ddeae59-314f-4c61-b85f-6b137b959fa6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

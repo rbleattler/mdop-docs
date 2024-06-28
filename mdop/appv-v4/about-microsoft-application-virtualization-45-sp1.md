@@ -3,8 +3,7 @@ title: About Microsoft Application Virtualization 4.5 SP1
 description: About Microsoft Application Virtualization 4.5 SP1
 author: aczechowski
 ms.assetid: f5dcff12-5956-41ef-bc36-b59200f90807
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -29,7 +28,7 @@ This service pack contains the following changes:
 ## In This Section
 
 
-<a href="" id="microsoft-application-virtualization-management-system-release-notes-4-5-sp1"></a>[Microsoft Application Virtualization Management System Release Notes 4.5 SP1](microsoft-application-virtualization-management-system-release-notes-45-sp1.md)  
+<a href="" id="microsoft-application-virtualization-management-system-release-notes-4-5-sp1"></a>[Microsoft Application Virtualization Management System Release Notes 4.5 SP1](microsoft-application-virtualization-management-system-release-notes-45-sp1.md)
 Provides the most up-to-date information about known issues with Microsoft Application Virtualization (App-V) 4.5 SP1.
 
  

@@ -3,8 +3,7 @@ title: Files Tab
 description: Files Tab
 author: aczechowski
 ms.assetid: 14191e51-11a2-40ab-8855-3408a4bc5a9d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,10 +20,10 @@ Use the **Files** tab to specify whether a file in a sequenced application packa
 ## In This Section
 
 
-<a href="" id="about-the-files-tab"></a>[About the Files Tab](about-the-files-tab.md)  
+<a href="" id="about-the-files-tab"></a>[About the Files Tab](about-the-files-tab.md)
 Provides general information about the **Files** tab.
 
-<a href="" id="how-to-modify-the-files-included-in-a-package"></a>[How to Modify the Files Included in a Package](how-to-modify-the-files-included-in-a-package.md)  
+<a href="" id="how-to-modify-the-files-included-in-a-package"></a>[How to Modify the Files Included in a Package](how-to-modify-the-files-included-in-a-package.md)
 Provides the procedure to modify the files included in a package.
 
 ## Related topics

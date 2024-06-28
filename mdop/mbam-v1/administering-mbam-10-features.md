@@ -3,8 +3,7 @@ title: Administering MBAM 1.0 Features
 description: Administering MBAM 1.0 Features
 author: aczechowski
 ms.assetid: dd9a9eff-f1ad-4af3-85d9-c19131a4ad22
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -33,7 +32,7 @@ The MBAM Hardware Compatibility feature can help you to ensure that only the com
 **Important**  
 When this feature is turned off, all computers where the MBAM policy is deployed will be encrypted.
 
- 
+
 
 MBAM can collect information on both the make and model of client computers if you deploy the “Allow Hardware Compatibility Checking” Group Policy. If you configure this policy, the MBAM agent reports the computer make and model information to the MBAM Server when the MBAM Client is deployed on a client computer.
 
@@ -60,9 +59,9 @@ If enabled through a Group Policy Objects (GPO), a custom MBAM control panel tha
 
 [Operations for MBAM 1.0](operations-for-mbam-10.md)
 
- 
 
- 
+
+
 
 
 

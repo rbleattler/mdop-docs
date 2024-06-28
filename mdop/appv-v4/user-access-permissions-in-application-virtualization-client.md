@@ -3,8 +3,7 @@ title: User Access Permissions in Application Virtualization Client
 description: User Access Permissions in Application Virtualization Client
 author: aczechowski
 ms.assetid: 7459374c-810c-45e3-b205-fdd1f8514f80
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ On the **Permissions** tab on the **Properties** dialog box, accessible by right
 **Note**  
 Before changing users permissions, ensure that any permissions changes are consistent with the organization's guidelines for granting user permissions.
 
- 
+
 
 The following table lists and describes the permissions that can be granted to users.
 
@@ -116,16 +115,16 @@ The following table lists and describes the permissions that can be granted to u
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [How to Change User Access Permissions](how-to-change-user-access-permissions.md)
 
- 
 
- 
+
+
 
 
 

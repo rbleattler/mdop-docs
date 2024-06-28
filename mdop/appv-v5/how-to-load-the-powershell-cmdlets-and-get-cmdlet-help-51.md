@@ -3,8 +3,7 @@ title: How to Load the PowerShell Cmdlets and Get Cmdlet Help
 description: How to Load the PowerShell Cmdlets and Get Cmdlet Help
 author: aczechowski
 ms.assetid: b6ae5460-2c3a-4030-b132-394d9d5a541e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -106,7 +105,7 @@ Review the following requirements for using the App-V PowerShell cmdlets:
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-load-cmdlets"></a>Loading the PowerShell cmdlets
 
@@ -209,9 +208,9 @@ To display help for a specific PowerShell cmdlet:
 
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
- 
 
- 
+
+
 
 
 

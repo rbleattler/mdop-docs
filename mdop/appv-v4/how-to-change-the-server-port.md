@@ -3,8 +3,7 @@ title: How to Change the Server Port
 description: How to Change the Server Port
 author: aczechowski
 ms.assetid: 0b4a262c-4816-48d0-b7c6-e496bb0d7370
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -33,7 +32,7 @@ From the Application Virtualization Server Management Console, you can use the f
     **Note**  
     The port number can be any value between 1 and 65,535. The default values are 554 for RTSP and 322 for RTSPS.
 
-     
+
 
 6.  Click **OK** to change the port number.
 
@@ -48,9 +47,9 @@ From the Application Virtualization Server Management Console, you can use the f
 
 [How to Manage Servers in the Server Management Console](how-to-manage-servers-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

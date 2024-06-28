@@ -3,8 +3,7 @@ title: Maintaining MBAM 1.0
 description: Maintaining MBAM 1.0
 author: aczechowski
 ms.assetid: 02ffb093-c364-4837-bbe8-23d4c09fbd3d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

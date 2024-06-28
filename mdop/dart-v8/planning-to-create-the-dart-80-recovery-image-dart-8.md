@@ -3,8 +3,7 @@ title: Planning to Create the DaRT 8.0 Recovery Image
 description: Planning to Create the DaRT 8.0 Recovery Image
 author: aczechowski
 ms.assetid: cfd0e1e2-c379-4460-b545-3f7be9f33583
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -61,16 +60,16 @@ The following items are required or recommended for creating the DaRT recovery i
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Planning to Deploy DaRT 8.0](planning-to-deploy-dart-80-dart-8.md)
 
- 
 
- 
+
+
 
 
 

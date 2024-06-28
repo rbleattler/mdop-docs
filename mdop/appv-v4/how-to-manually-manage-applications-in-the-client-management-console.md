@@ -3,8 +3,7 @@ title: How to Manually Manage Applications in the Client Management Console
 description: How to Manually Manage Applications in the Client Management Console
 author: aczechowski
 ms.assetid: e29caa22-325d-457b-a177-a11f8a8ad57c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,16 +20,16 @@ This section provides procedures for using the Application Virtualization Client
 ## In This Section
 
 
-<a href="" id="how-to-add-an-application"></a>[How to Add an Application](how-to-add-an-application.md)  
+<a href="" id="how-to-add-an-application"></a>[How to Add an Application](how-to-add-an-application.md)
 Provides a procedure you can use to add an application to the cache directly from the Application Virtualization Client Management Console.
 
-<a href="" id="how-to-publish-application-shortcuts"></a>[How to Publish Application Shortcuts](how-to-publish-application-shortcuts.md)  
+<a href="" id="how-to-publish-application-shortcuts"></a>[How to Publish Application Shortcuts](how-to-publish-application-shortcuts.md)
 Provides a procedure you can use to publish application shortcuts to the desktop, menus, and tool bar directly from the Application Virtualization Client Management Console.
 
-<a href="" id="how-to-add-a-file-type-association"></a>[How to Add a File Type Association](how-to-add-a-file-type-association.md)  
+<a href="" id="how-to-add-a-file-type-association"></a>[How to Add a File Type Association](how-to-add-a-file-type-association.md)
 Provides a procedure you can use to add a file type association to an application.
 
-<a href="" id="how-to-delete-a-file-type-association"></a>[How to Delete a File Type Association](how-to-delete-a-file-type-association.md)  
+<a href="" id="how-to-delete-a-file-type-association"></a>[How to Delete a File Type Association](how-to-delete-a-file-type-association.md)
 Provides a procedure you can use to delete a file type association.
 
 ## Related topics

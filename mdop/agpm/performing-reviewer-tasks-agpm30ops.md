@@ -3,8 +3,7 @@ title: Reviewer Tasks
 description: Performing Reviewer Tasks in AGPM 3.
 author: aczechowski
 ms.assetid: 1faf396d-be0d-49ac-b063-0722fda2e43d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

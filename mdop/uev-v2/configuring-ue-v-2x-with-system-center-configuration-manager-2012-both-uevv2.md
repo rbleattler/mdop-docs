@@ -3,8 +3,7 @@ title: Configuring UE-V 2.x with System Center Configuration Manager 2012
 description: Configuring UE-V 2.x with System Center Configuration Manager 2012
 author: aczechowski
 ms.assetid: 9a4e2a74-7646-4a77-b58f-2b4456487295
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -79,7 +78,7 @@ The UE-V Configuration Pack includes tools to perform the following tasks:
     </tbody>
     </table>
 
-     
+
 
 -   Verify compliance by confirming that UE-V is running.
 
@@ -117,7 +116,7 @@ It might be necessary to change the PowerShell execution policy to allow these s
 
     The default configuration file contains five sections:
 
-    <a href="" id="computer-policy"></a>**Computer Policy**  
+    <a href="" id="computer-policy"></a>**Computer Policy**
     All UE-V machine level settings. The DesiredState attribute can be
 
     -   **Set** to have the value assigned in the registry
@@ -128,7 +127,7 @@ It might be necessary to change the PowerShell execution policy to allow these s
 
     Do not remove lines from this section. Instead, set the DesiredState to ‘Unmanaged’ if you do not want Configuration Manager to alter current or default values.
 
-    <a href="" id="currentcomputeruserpolicy"></a>**CurrentComputerUserPolicy**  
+    <a href="" id="currentcomputeruserpolicy"></a>**CurrentComputerUserPolicy**
     All UE-V user level settings. These entries override the machine settings for a user. The DesiredState attribute can be
 
     -   **Set** to have the value assigned in the registry
@@ -139,10 +138,10 @@ It might be necessary to change the PowerShell execution policy to allow these s
 
     Do not remove lines from this section. Instead, set the DesiredState to ‘Unmanaged’ if you do not want Configuration Manager to alter current or default values.
 
-    <a href="" id="services"></a>**Services**  
+    <a href="" id="services"></a>**Services**
     Entries in this section control service operation. The default configuration file contains a single entry for the UevAgentService. The DesiredState attribute can be set to **Running** or **Stopped**.
 
-    <a href="" id="windows8appscomputerpolicy"></a>**Windows8AppsComputerPolicy**  
+    <a href="" id="windows8appscomputerpolicy"></a>**Windows8AppsComputerPolicy**
     All machine level Windows app synchronization settings. Each PackageFamilyName listed in this section can be assigned a DesiredState of
 
     -   **Enabled** to have settings roam
@@ -153,7 +152,7 @@ It might be necessary to change the PowerShell execution policy to allow these s
 
     Additional lines can be added to this section based on the list of installed Windows apps that can be viewed using the PowerShell cmdlet GetAppxPackage.
 
-    <a href="" id="windows8appscurrentcomputeruserpolicy"></a>**Windows8AppsCurrentComputerUserPolicy**  
+    <a href="" id="windows8appscurrentcomputeruserpolicy"></a>**Windows8AppsCurrentComputerUserPolicy**
     Identical to the Windows8AppsComputerPolicy with settings that override machine settings for an individual user.
 
 2.  Edit the configuration file by changing the desired state and value fields.
@@ -237,5 +236,5 @@ The UE-V Configuration Pack for Configuration Manager 2012 SP1 or later can be d
 
 [Manage Configurations for UE-V 2.x](manage-configurations-for-ue-v-2x-new-uevv2.md)
 
- 
+
 

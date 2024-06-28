@@ -3,8 +3,7 @@ title: How to Deploy DaRT 7.0
 description: How to Deploy DaRT 7.0
 author: aczechowski
 ms.assetid: 30522441-40cb-4eca-99b4-dff758f5c647
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -21,7 +20,7 @@ This topic provides instructions to deploy Microsoft Diagnostics and Recovery To
 **Important**  
 Before you install DaRT, ensure that the computer meets the minimum system requirements listed in [DaRT 7.0 Supported Configurations](dart-70-supported-configurations-dart-7.md).
 
- 
+
 
 **To install DaRT on an administrator computer**
 
@@ -52,7 +51,7 @@ Before you install DaRT, ensure that the computer meets the minimum system requi
 1.  The following example shows how to install all DaRT functionality.
 
     ``` syntax
-    msiexec /i MSDaRT70.msi ADDLOCAL=CommonFiles,MSDaRTHelp,DaRTRecoveryImage,CrashAnalyzer,RemoteViewer 
+    msiexec /i MSDaRT70.msi ADDLOCAL=CommonFiles,MSDaRTHelp,DaRTRecoveryImage,CrashAnalyzer,RemoteViewer
     ```
 
 2.  The following example shows how to install only the **DaRT Recovery Image Wizard**.
@@ -64,28 +63,28 @@ Before you install DaRT, ensure that the computer meets the minimum system requi
 3.  The following example shows how to install only the Crash Analyzer and the DaRT Remote Connection Viewer.
 
     ``` syntax
-    msiexec /i MSDaRT70.msi ADDLOCAL=CommonFiles,MSDaRTHelp,CrashAnalyzer,RemoteViewer 
+    msiexec /i MSDaRT70.msi ADDLOCAL=CommonFiles,MSDaRTHelp,CrashAnalyzer,RemoteViewer
     ```
 
 4.  The following example creates a setup log for the Windows Installer. This is valuable for debugging.
 
     ``` syntax
-    msiexec.exe /i MSDaRT70.msi /l*v log.txt 
+    msiexec.exe /i MSDaRT70.msi /l*v log.txt
     ```
 
 **Note**  
 You can add /qn or /qb to any of the DaRT installation command prompt options to perform a silent installation.
 
- 
+
 
 ## Related topics
 
 
 [Deploying DaRT 7.0 to Administrator Computers](deploying-dart-70-to-administrator-computers-dart-7.md)
 
- 
 
- 
+
+
 
 
 

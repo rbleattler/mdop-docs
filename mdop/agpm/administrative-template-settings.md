@@ -3,8 +3,7 @@ title: Administrative Template Settings
 description: Administrative Template Settings
 author: aczechowski
 ms.assetid: 1abbf0c1-fd32-46a8-a3ba-c005f066523d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

@@ -3,8 +3,7 @@ title: DaRT 8.0 Privacy Statement
 description: DaRT 8.0 Privacy Statement
 author: aczechowski
 ms.assetid: db474241-e44e-4bca-9be4-3557a3614c2a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

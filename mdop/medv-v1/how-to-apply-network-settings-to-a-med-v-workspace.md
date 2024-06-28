@@ -3,8 +3,7 @@ title: How to Apply Network Settings to a MED-V Workspace
 description: How to Apply Network Settings to a MED-V Workspace
 author: aczechowski
 ms.assetid: 641f46b3-a56f-478a-823b-1d90aa1716b3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

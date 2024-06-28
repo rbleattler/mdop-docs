@@ -3,8 +3,7 @@ title: Deploying MBAM 2.5 Group Policy Objects
 description: Deploying MBAM 2.5 Group Policy Objects
 author: aczechowski
 ms.assetid: 4b835054-6846-463d-af58-8ac4639a1188
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ To deploy MBAM, you have to set Group Policy settings that define MBAM implement
 **Important**  
 Do not change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM will not work correctly. When you configure the Group Policy settings in the **MDOP MBAM (BitLocker Management)** node, MBAM automatically configures the **BitLocker Drive Encryption** settings for you.
 
- 
+
 
 ## Copying the MBAM 2.5 Group Policy Templates
 
@@ -54,9 +53,9 @@ Since MBAM offers a customized MBAM control panel that can replace the default W
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
- 
 
- 
+
+
 
 
 

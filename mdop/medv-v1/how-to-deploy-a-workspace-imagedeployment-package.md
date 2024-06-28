@@ -3,8 +3,7 @@ title: Deploy a Workspace Image
 description: How to Deploy a Workspace Image
 author: aczechowski
 ms.assetid: b2c77e0d-101d-4956-a27c-8beb0e4f262e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

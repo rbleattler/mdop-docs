@@ -3,8 +3,7 @@ title: How to Configure User Permissions
 description: How to Configure User Permissions
 author: aczechowski
 ms.assetid: 54e69f46-b028-4ad1-9b80-f06ef5c8f559
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

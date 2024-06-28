@@ -3,8 +3,7 @@ title: About the Virtual Registry Tab
 description: About the Virtual Registry Tab
 author: aczechowski
 ms.assetid: ca8d837f-8218-4f86-95fd-13a44dccd022
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -25,23 +24,23 @@ The changes to the virtual registry **Settings** tab affect applications that ar
 **Note**  
   Exercise caution when changing virtual registry keys and values. Changing these keys and values might render your sequenced application package inoperable.
 
- 
+
 
 The left pane of the **Virtual Registry** tab displays the full list of virtual registries created during the sequencing of an application.
 
 ## Columns
 
 
-<a href="" id="name"></a>**Name**  
+<a href="" id="name"></a>**Name**
 The name for the entry in the virtual registry.
 
-<a href="" id="type"></a>**Type**  
+<a href="" id="type"></a>**Type**
 How the entry stores its data.
 
-<a href="" id="data"></a>**Data**  
+<a href="" id="data"></a>**Data**
 The value stored by the entry.
 
-<a href="" id="attributes"></a>**Attributes**  
+<a href="" id="attributes"></a>**Attributes**
 Displays the file attributes.
 
 ## Related topics
@@ -51,9 +50,9 @@ Displays the file attributes.
 
 [Sequencer Console](sequencer-console.md)
 
- 
 
- 
+
+
 
 
 

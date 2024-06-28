@@ -3,8 +3,7 @@ title: How to Install and Configure MBAM on Distributed Servers
 description: How to Install and Configure MBAM on Distributed Servers
 author: aczechowski
 ms.assetid: 9ee766aa-6339-422a-8d00-4f58e4646a5e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -20,7 +19,7 @@ The procedures in this topic describe the full installation of the Microsoft Bit
 
 Each server feature has certain prerequisites. To verify that you have met the prerequisites and hardware and software requirements, see [MBAM 1.0 Deployment Prerequisites](mbam-10-deployment-prerequisites.md) and [MBAM 1.0 Supported Configurations](mbam-10-supported-configurations.md). In addition, some features require that you provide certain information during the installation process to successfully deploy the feature.
 
-**Note**  
+**Note**
 To obtain the setup log files, you have to install MBAM by using the **msiexec** package and the **/l &lt;location&gt;** option. Log files are created in the location that you specify.
 
 Additional setup log files are created in the %temp% folder of the user that runs the MBAM installation.
@@ -32,7 +31,7 @@ Additional setup log files are created in the %temp% folder of the user that run
 
 The following steps describe how to install the general MBAM features.
 
-**Note**  
+**Note**
 Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup on 64-bit servers.
 
 
@@ -55,14 +54,14 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
     -   MBAM Group Policy Template
 
-    **Note**  
+    **Note**
     The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing. If all the prerequisites are met, the installation continues. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again**. If all prerequisites are met this time, the installation will resume.
 
 
 
 4.  The MBAM Setup wizard will display the installation pages for the selected features. The following sections describe the installation procedures for each feature.
 
-    **Note**  
+    **Note**
     Typically, each feature is installed on a separate server. If you want to install multiple features on a single server, you may change or eliminate some of the following steps.
 
 
@@ -132,7 +131,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
     http://*&lt;NameofMBAMReportsServer&gt;/*ReportServer
 
-    **Note**  
+    **Note**
     If you configured the SQL Server Reporting Services as a named instance, the URL resembles the following:http://*&lt;NameofMBAMReportsServer&gt;*/ReportServer\_*&lt;SRSInstanceName&gt;*
 
 
@@ -141,7 +140,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
 11. Enter the **Port Number**, the **Host Name** (optional), and the **Installation Path** for the MBAM Administration and Monitoring server
 
-    **Warning**  
+    **Warning**
     The port number that you specify must be an unused port number on the Administration and Monitoring server, unless you specify a unique host header name.
 
 
@@ -149,7 +148,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 12. Click **Next** to continue with the MBAM Setup wizard.
 
 
-5. 
+5.
 
    Specify whether to use Microsoft Updates to help keep your computer secure, and then click **Next**.
 
@@ -173,7 +172,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
     -   **MBAM Report Users**: Members of this local group can access the Reports in the MBAM administration website.
 
-    **Note**  
+    **Note**
     Identical user or group membership of the **MBAM Report Users** local group must be maintained on all computers where the MBAM Administration and Monitoring Server features, Compliance and Audit Database, and the Compliance and Audit Reports are installed.
 
 
@@ -187,7 +186,7 @@ When the MBAM Server feature installation is complete, you should validate that 
 
 1. On each server, where an MBAM feature is deployed, open **Control Panel**, click **Programs**, and then click **Programs and Features**. Verify that **Microsoft BitLocker Administration and Monitoring** appears in the **Programs and Features** list.
 
-   **Note**  
+   **Note**
    To validate the MBAM installation, you must use a Domain Account that has local computer administrative credentials on each server.
 
 
@@ -202,7 +201,7 @@ When the MBAM Server feature installation is complete, you should validate that 
 
    Confirm that a folder named **Malta Compliance Reports** is listed and that it contains five reports and one data source.
 
-   **Note**  
+   **Note**
    If SQL Server Reporting Services was configured as a named instance, the URL should resemble the following:http://*&lt;NameofMBAMReportsServer&gt;*/Reports\_*&lt;SRSInstanceName&gt;*
 
 
@@ -219,7 +218,7 @@ When the MBAM Server feature installation is complete, you should validate that 
 
    -   *http://&lt;computername&gt;/MBAMRecoveryAndHardwareService/CoreService.svc*
 
-   **Note**  
+   **Note**
    Typically, services are installed on the default port 80 without network encryption. If the services are installed on a different port, change the URLs to include the appropriate port. For example, http://*&lt;computername&gt;:&lt;port&gt;*/default.aspx or http://<em>&lt;hostheadername&gt;/</em>default.aspx
 
    If the services were installed with network encryption, change http:// to https://.

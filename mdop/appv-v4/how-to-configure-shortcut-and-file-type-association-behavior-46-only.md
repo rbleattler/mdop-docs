@@ -3,8 +3,7 @@ title: How to Configure Shortcut and File Type Association Behavior
 description: How to Configure Shortcut and File Type Association Behavior
 author: aczechowski
 ms.assetid: d6fd1728-4de6-4066-b36b-d4837d593d40
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -62,16 +61,16 @@ There are four policy values defined in the following table and these apply to b
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 The text values refer to the values for the XML attributes in the publishing XML file.  You can set these values manually if you have implemented a custom HTTP publishing solution.
 
- 
 
- 
 
- 
+
+
+
 
 
 

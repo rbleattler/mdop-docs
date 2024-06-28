@@ -3,8 +3,7 @@ title: How to Configure Microsoft SQL Server Mirroring Support for App-V
 description: How to Configure Microsoft SQL Server Mirroring Support for App-V
 author: aczechowski
 ms.assetid: 6d069eb5-109f-460a-836a-de49473b7035
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 08/30/2016
 
 You can use the following procedure to configure your Microsoft Application Virtualization (App-V) environment to use Microsoft SQL Server database mirroring. Configuring database mirroring can help with disaster recovery and failover scenarios. App-V 4.5 SP2 supports all modes of database mirroring currently available for Microsoft SQL Server 2005 and SQL Server 2008.
 
-**Note**  
+**Note**
 This procedure is written for administrators who are familiar with setting up and configuring SQL Server databases and database mirroring with Microsoft SQL Server, and therefore covers only the specific configuration settings that are unique to App-V.
 
 
@@ -41,7 +40,7 @@ This procedure is written for administrators who are familiar with setting up an
 
 5.  Check the registry key **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Softgrid\\4.5\\Server\\SQLServerName** and make sure that it contains only the host name of the SQL Server. If it includes an instance name, for example *serverhostname\\instancename*, the instance name must be removed.
 
-    **Important**  
+    **Important**
     The App-V Management Server uses the TCP/IP networking library to communicate with the SQL Server when database mirroring is enabled, and therefore instance names cannot be used. The port numbers must be specified in the registry keys instead.
 
 
@@ -60,14 +59,14 @@ This procedure is written for administrators who are familiar with setting up an
 
     -   Click the **All** tab, and then select the entry **Failover Partner**. Click **Edit Value**, and then enter the server name of the failover SQL Server. Click **OK**.
 
-    **Important**  
+    **Important**
     The App-V system uses Kerberos authentication. Therefore, when you configure SQL mirroring where Kerberos Authentication is enabled on the SQL Server and the SQL Server service runs under a domain user account, you must manually configure an SPN. For more information, see “When SQL Service Uses Domain-Based Account” in the article [Configuring App-V Administration for a Distributed Environment](https://go.microsoft.com/fwlink/?LinkId=203186) (https://go.microsoft.com/fwlink/?LinkId=203186).
 
 
 
 10. To verify that database mirroring is running correctly, test the failover and confirm that the App-V Management Server continues to function correctly.
 
-    **Important**  
+    **Important**
     Proceed with care, and follow your standard business practices to ensure that system operations are not disrupted in the event of a failure.
 
 

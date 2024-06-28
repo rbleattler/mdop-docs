@@ -3,8 +3,7 @@ title:  Recovering a Drive in Recovery Mode
 description: How to Recover a Drive in Recovery Mode
 author: aczechowski
 ms.assetid: 8b792bc8-b671-4345-9d37-0208db3e5b03
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -20,7 +19,7 @@ The encrypted drive recovery features of Microsoft BitLocker Administration and 
 
 Use this procedure to access the centralized key recovery data system, which can provide a recovery password if a recovery password ID and associated user identifier are supplied.
 
-**Important**  
+**Important**
 Microsoft BitLocker Administration and Monitoring uses single-use recovery keys that expire upon use. The single use of a recovery password is automatically applied to operating system drives and fixed drives. On removable drives, it is applied when the drive is removed and then re-inserted and unlocked on a computer that has Group Policy settings activated to manage removable drives.
 
 
@@ -35,7 +34,7 @@ Microsoft BitLocker Administration and Monitoring uses single-use recovery keys 
 
 4.  Select one of the predefined options from the **Reason for Drive Unlock** list, and then click **Submit**.
 
-    **Note**  
+    **Note**
     If you are an MBAM Advanced Helpdesk user, the user domain and user ID entries are not required.
 
 
@@ -49,7 +48,7 @@ MBAM returns the following:
 
 -   The recovery password and recovery package for the submitted user
 
-    **Note**  
+    **Note**
     If you are recovering a damaged drive, the recovery package option provides BitLocker with critical information that it needs to recover the drive.
 
 

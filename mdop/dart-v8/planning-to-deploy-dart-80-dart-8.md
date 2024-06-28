@@ -3,8 +3,7 @@ title: Planning to Deploy DaRT 8.0
 description: Planning to Deploy DaRT 8.0
 author: aczechowski
 ms.assetid: 36f2babb-9ac5-4ea2-932c-12c6211f5be2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

@@ -3,8 +3,7 @@ title: Prepare a UE-V 2.x Deployment
 description: Prepare a UE-V 2.x Deployment
 author: aczechowski
 ms.assetid: c429fd06-13ff-48c5-b9c9-fa1ec01ab800
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -86,7 +85,7 @@ See [User Experience Virtualization (UE-V) settings templates for Microsoft Offi
 
 When you install the UE-V 2.1 or 2.1 SP1 Agent, it registers a default group of settings location templates that capture settings values for these common Microsoft applications.
 
-**Tip**  
+**Tip**
 **Microsoft Office 2007 Settings Synchronization** – In UE-V 2.1 and 2.1 SP1, a settings location template is no longer included by default for Office 2007 applications. However, you can still use Office 2007 templates from UE-V 2.0 or earlier and can get the templates from the [UE-V template gallery](https://go.microsoft.com/fwlink/p/?LinkID=246589).
 
 
@@ -164,7 +163,7 @@ When you install the UE-V 2.1 or 2.1 SP1 Agent, it registers a default group of 
 
 
 
-**Note**  
+**Note**
 UE-V 2.1 SP1 does not synchronize settings between the Microsoft Calculator in Windows 10 and the Microsoft Calculator in previous operating systems.
 
 
@@ -173,7 +172,7 @@ UE-V 2.1 SP1 does not synchronize settings between the Microsoft Calculator in W
 
 When you install the UE-V 2.0 Agent, it registers a default group of settings location templates that capture settings values for these common Microsoft applications.
 
-**Tip**  
+**Tip**
 **Microsoft Office 2013 Settings Synchronization** – In UE-V 2.0, a settings location template is not included by default for Office 2013 applications, but is available for download from the [UE-V template gallery](https://go.microsoft.com/fwlink/p/?LinkID=246589). [Synchronizing Office 2013 with UE-V 2.0](synchronizing-office-2013-with-ue-v-20-both-uevv2.md) provides details about the supported templates that synchronize Office 2013 settings.
 
 
@@ -290,12 +289,12 @@ UE-V includes settings location templates that capture settings values for these
 
 
 
-**Note**  
+**Note**
 Starting in Windows 8, UE-V does not roam settings related to the Start screen, such as items and locations. In addition, UE-V does not support synchronization of pinned taskbar items or Windows file shortcuts.
 
 
 
-**Important**  
+**Important**
 UE-V 2.1 SP1 roams taskbar settings between Windows 10 devices. However, UE-V does not synchronize taskbar settings between Windows 10 devices and devices running previous operating systems.
 
 
@@ -367,7 +366,7 @@ For Windows apps, the app developer specifies the settings that are synchronized
 
 To display a list of Windows apps that can synchronize settings on a computer with their package family name, enabled status, and enabled source, at a Windows PowerShell command prompt, enter: `Get-UevAppxPackage`
 
-**Note**  
+**Note**
 As of Windows 8, UE-V does not synchronize Windows app settings if the domain user links their sign-in credentials to their Microsoft Account. This linking synchronizes settings to Microsoft OneDrive so UE-V, which disables synchronization of Windows app settings.
 
 
@@ -384,7 +383,7 @@ Printer roaming in UE-V requires one of these scenarios:
 
 -   The printer driver can be obtained from Windows Update.
 
-**Note**  
+**Note**
 The UE-V printer roaming feature does **not** roam printer settings or preferences, such as printing double-sided.
 
 
@@ -475,7 +474,7 @@ You should also consider these things when you are preparing to deploy UE-V:
 
 Many enterprise applications, including Microsoft Outlook and Lync, prompt users for their domain credentials at login. Users have the option of saving their credentials to disk to prevent having to enter them every time they open these applications. Enabling roaming credentials synchronization lets users save their credentials on one computer and avoid re-entering them on every computer they use in their environment. Users can synchronize some domain credentials with UE-V 2.1 and 2.1 SP1.
 
-**Important**  
+**Important**
 Credentials synchronization is disabled by default. You must explicitly enable credentials synchronization during deployment to implement this feature.
 
 
@@ -486,7 +485,7 @@ Credentials are synchronous settings, meaning they are applied to your profile t
 
 Credentials synchronization is managed by its own settings location template, which is disabled by default. You can enable or disable this template through the same methods used for other templates. The template identifier for this feature is RoamingCredentialSettings.
 
-**Important**  
+**Important**
 If you are using Active Directory Credential Roaming in your environment, we recommend that you don’t enable the UE-V credential roaming template.
 
 
@@ -499,7 +498,7 @@ Use one of these methods to enable credentials synchronization:
 
 -   Group Policy
 
-**Note**  
+**Note**
 Credentials are encrypted during synchronization.
 
 
@@ -708,7 +707,7 @@ Also…
 
 -   **Administrative Credentials** for any computer on which you’ll be installing
 
-**Note**  
+**Note**
 
 -   Starting with WIndows 10, version 1607, UE-V is included with [Windows 10 for Enterprise](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise) and is no longer part of the Microsoft Desktop Optimization Pack.
 
@@ -747,14 +746,14 @@ Enable this configuration through one of these methods:
 
 -   Use Windows PowerShell or Windows Management Instrumentation (WMI) to set the *SyncMethod = None* configuration.
 
-    **Note**  
+    **Note**
     These last two methods do not work for pooled virtual desktop infrastructure (VDI) environments.
 
 
 
 You must restart the computer before the settings start to synchronize.
 
-**Note**  
+**Note**
 If you set *SyncMethod = None*, any settings changes are saved directly to the server. If the network connection to the settings storage path is not found, then the settings changes are cached on the device and are synchronized the next time that the sync provider runs. If the settings storage path is not found and the user profile is removed from a pooled VDI environment on logoff, settings changes are lost and the user must reapply the change when the computer is reconnected to the settings storage path.
 
 
@@ -763,7 +762,7 @@ If you set *SyncMethod = None*, any settings changes are saved directly to the s
 
 **Support for shared VDI sessions:** UE-V 2.1 and 2.1 SP1 provide support for VDI sessions that are shared among end users. You can register and configure a special VDI template, which ensures that UE-V keeps all of its functionality intact for non-persistent VDI sessions.
 
-**Note**  
+**Note**
 If you do not enable VDI mode for non-persistent VDI sessions, certain features do not work, such as [back-up/restore and last known good (LKG)](https://technet.microsoft.com/library/dn878331.aspx).
 
 

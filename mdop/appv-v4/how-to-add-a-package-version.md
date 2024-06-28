@@ -3,8 +3,7 @@ title: How to Add a Package Version
 description: How to Add a Package Version
 author: aczechowski
 ms.assetid: dbb829c1-e5cb-4a2f-bc17-9a9bb50c671c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ In the Application Virtualization Server Management Console, when you resequence
 **Note**  
 When you upgrade a package with a new version, you can leave the existing version in place or delete it and leave only the newest one. You might want to leave the old version in place for compatibility with legacy documents or so that you can test the new version before making it available to all users.
 
- 
+
 
 **To add a package version**
 
@@ -46,9 +45,9 @@ When you upgrade a package with a new version, you can leave the existing versio
 
 [How to Manage Packages in the Server Management Console](how-to-manage-packages-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

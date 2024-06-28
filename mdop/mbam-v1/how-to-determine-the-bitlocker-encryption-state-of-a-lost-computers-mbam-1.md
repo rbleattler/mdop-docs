@@ -3,8 +3,7 @@ title: How to Determine the BitLocker Encryption State of a Lost Computers
 description: How to Determine the BitLocker Encryption State of a Lost Computers
 author: aczechowski
 ms.assetid: 9440890a-9c63-463b-9113-f46071446388
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ Microsoft BitLocker Administration and Monitoring (MBAM) enables you to determin
     **Note**  
     The default address for the MBAM website is http://*&lt;computername&gt;*. Use the fully qualified server name for faster browsing results.
 
-     
+
 
 2.  Select the **Report** node from the navigation pane, and then select the **Computer Compliance Report**.
 
@@ -36,16 +35,16 @@ Microsoft BitLocker Administration and Monitoring (MBAM) enables you to determin
     **Note**  
     Device compliance is determined by the deployed BitLocker policies. You should verify these deployed policies when you are trying to determine the BitLocker encryption state of a device.
 
-     
+
 
 ## Related topics
 
 
 [Performing BitLocker Management with MBAM](performing-bitlocker-management-with-mbam.md)
 
- 
 
- 
+
+
 
 
 

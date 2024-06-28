@@ -3,8 +3,7 @@ title: Reports Node
 description: Reports Node
 author: aczechowski
 ms.assetid: b7fdc52d-f112-4a65-af25-134398810e9b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 The **Reports** node is one level below the Application Virtualization System node in the **Scope** pane in the Application Virtualization Server Management Console. When you select this node, the **Results** pane displays a list of reports. Right-click the node to display a pop-up menu that contains the following elements.
 
-<a href="" id="new-report"></a>**New Report**  
+<a href="" id="new-report"></a>**New Report**
 Displays the New Report Wizard. The wizard has several pages. Depending on which report you select, the remaining pages in the wizard change for the requirements of that report type. Scan the following list of pages to find the pages that refer to your report:
 
 -   **Report Name**—Enables you to select a report type from the **Report Type** drop-down list. For more information, see [Application Virtualization Report Types](application-virtualization-report-types.md).
@@ -31,30 +30,30 @@ Displays the New Report Wizard. The wizard has several pages. Depending on which
 
 -   When prompted, click **Finish** to add the report.
 
-<a href="" id="view"></a>**View**  
+<a href="" id="view"></a>**View**
 Changes the appearance and content of the **Results** pane.
 
-<a href="" id="new-window-from-here"></a>**New Window from Here**  
+<a href="" id="new-window-from-here"></a>**New Window from Here**
 Opens a new management console with the selected node as the root node.
 
-<a href="" id="export-list"></a>**Export List**  
+<a href="" id="export-list"></a>**Export List**
 Creates a tab-delimited text file that contains the contents of the **Results** pane. This item displays a standard **File Save** dialog box where you specify the location for the text file you are creating.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 Displays the help system for the Application Virtualization Server Management Console.
 
 Right-click any report displayed under the **Reports** node to display a pop-up menu that contains the following elements.
 
-<a href="" id="new-window-from-here"></a>**New Window from Here**  
+<a href="" id="new-window-from-here"></a>**New Window from Here**
 Opens a new management console with the selected node as the root node.
 
-<a href="" id="delete"></a>**Delete**  
+<a href="" id="delete"></a>**Delete**
 Deletes the report from the **Reports** node.
 
-<a href="" id="rename"></a>**Rename**  
+<a href="" id="rename"></a>**Rename**
 Highlights the report name so that it becomes editable text.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 Displays the help system for the Application Virtualization Server Management Console.
 
 ## Related topics

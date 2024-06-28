@@ -3,8 +3,7 @@ title: LOCK APP
 description: LOCK APP
 author: aczechowski
 ms.assetid: 30673433-4364-499f-8116-cb135fe2716f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

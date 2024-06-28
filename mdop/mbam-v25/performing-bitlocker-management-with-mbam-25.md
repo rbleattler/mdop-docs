@@ -3,8 +3,7 @@ title: Perform BitLocker Management with MBAM 2.5
 description: Performing BitLocker Management with MBAM 2.5
 author: aczechowski
 ms.assetid: 068f3ee0-300c-4083-ba18-7065eef997ad
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security

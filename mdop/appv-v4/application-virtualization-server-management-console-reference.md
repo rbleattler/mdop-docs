@@ -3,8 +3,7 @@ title: Application Virtualization Server Management Console Reference
 description: Application Virtualization Server Management Console Reference
 author: aczechowski
 ms.assetid: 7c9890f4-7230-44dd-bbe8-95a4b65dc796
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,34 +20,34 @@ This section of the Application Virtualization Server Management Console Help pr
 ## In This Section
 
 
-<a href="" id="server-management-console--about-dialog-boxes"></a>[Server Management Console: About Dialog Boxes](server-management-console-about-dialog-boxes.md)  
+<a href="" id="server-management-console--about-dialog-boxes"></a>[Server Management Console: About Dialog Boxes](server-management-console-about-dialog-boxes.md)
 Describes the available **About** dialog boxes and how to view them.
 
-<a href="" id="server-management-console--application-virtualization-system-node"></a>[Server Management Console: Application Virtualization System Node](server-management-console-application-virtualization-system-node.md)  
+<a href="" id="server-management-console--application-virtualization-system-node"></a>[Server Management Console: Application Virtualization System Node](server-management-console-application-virtualization-system-node.md)
 Describes the screens in the Application Virtualization System node.
 
-<a href="" id="server-management-console--applications-node"></a>[Server Management Console: Applications Node](server-management-console-applications-node.md)  
+<a href="" id="server-management-console--applications-node"></a>[Server Management Console: Applications Node](server-management-console-applications-node.md)
 Describes the screens in the **Applications** node.
 
-<a href="" id="server-management-console--file-type-associations-node"></a>[Server Management Console: File Type Associations Node](server-management-console-file-type-associations-node.md)  
+<a href="" id="server-management-console--file-type-associations-node"></a>[Server Management Console: File Type Associations Node](server-management-console-file-type-associations-node.md)
 Describes the screens in the **File Type Association** node.
 
-<a href="" id="server-management-console--packages-node"></a>[Server Management Console: Packages Node](server-management-console-packages-node.md)  
+<a href="" id="server-management-console--packages-node"></a>[Server Management Console: Packages Node](server-management-console-packages-node.md)
 Describes the screens in the **Packages** node.
 
-<a href="" id="server-management-console--application-licenses-node"></a>[Server Management Console: Application Licenses Node](server-management-console-application-licenses-node.md)  
+<a href="" id="server-management-console--application-licenses-node"></a>[Server Management Console: Application Licenses Node](server-management-console-application-licenses-node.md)
 Describes the screens in the **Application Licenses** node.
 
-<a href="" id="server-management-console--server-groups-node"></a>[Server Management Console: Server Groups Node](server-management-console-server-groups-node.md)  
+<a href="" id="server-management-console--server-groups-node"></a>[Server Management Console: Server Groups Node](server-management-console-server-groups-node.md)
 Describes the screens in the **Server Groups** node.
 
-<a href="" id="server-management-console--provider-policies-node"></a>[Server Management Console: Provider Policies Node](server-management-console-provider-policies-node.md)  
+<a href="" id="server-management-console--provider-policies-node"></a>[Server Management Console: Provider Policies Node](server-management-console-provider-policies-node.md)
 Describes the screens in the **Provider Policies** node.
 
-<a href="" id="server-management-console--administrators-node"></a>[Server Management Console: Administrators Node](server-management-console-administrators-node.md)  
+<a href="" id="server-management-console--administrators-node"></a>[Server Management Console: Administrators Node](server-management-console-administrators-node.md)
 Describes the screens in the **Administrators** node.
 
-<a href="" id="server-management-console--reports-node"></a>[Server Management Console: Reports Node](server-management-console-reports-node.md)  
+<a href="" id="server-management-console--reports-node"></a>[Server Management Console: Reports Node](server-management-console-reports-node.md)
 Describes the screens in the **Reports** node.
 
 ## Related topics

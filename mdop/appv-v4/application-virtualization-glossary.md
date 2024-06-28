@@ -3,8 +3,7 @@ title: Application Virtualization Glossary
 description: Application Virtualization Glossary
 author: aczechowski
 ms.assetid: 9eb71774-e288-4f94-8f94-5b98e0d012a7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

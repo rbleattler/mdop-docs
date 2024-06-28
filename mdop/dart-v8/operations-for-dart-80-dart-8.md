@@ -3,8 +3,7 @@ title: Operations for DaRT 8.0
 description: Operations for DaRT 8.0
 author: aczechowski
 ms.assetid: a31615de-eb6e-41af-909c-d0b6f3eb3f2f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

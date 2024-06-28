@@ -3,8 +3,7 @@ title: Create and Use a Project Template
 description: How to Create and Use a Project Template
 author: aczechowski
 ms.assetid: e5ac1dc8-a88f-4b16-8e3c-df07ef5e4c3b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 You can use an App-V 5.1 project template to save commonly applied settings associated with an existing virtual application package. These settings can then be applied when you create new virtual application packages in your environment. Using a project template can streamline the process of creating virtual application packages.
 
-**Note**  
+**Note**
 You can, and often should apply an App-V 5.1 project template during a package upgrade. For example, if you sequenced an application with a custom exclusion list, it is recommended that an associated template is created and saved for later use while upgrading the sequenced application.
 
 
@@ -32,7 +31,7 @@ Use the following procedures to create and apply a new template.
 
 1.  To start the App-V 5.1 sequencer, on the computer that is running the sequencer, click **Start** / **All Programs** / **Microsoft Application Virtualization** / **Microsoft Application Virtualization Sequencer**.
 
-2.  **Note**  
+2.  **Note**
     If the virtual application package is currently open in the App-V 5.1 Sequencer console, skip to step 3 of this procedure.
 
 
@@ -47,7 +46,7 @@ To open the existing virtual application package that contains the settings you 
 
 **To apply a project template**
 
-1.  **Important**  
+1.  **Important**
     Creating a virtual application package using a project template in conjunction with a Package Accelerator is not supported.
 
 

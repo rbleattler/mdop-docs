@@ -3,8 +3,7 @@ title: App-V 5.1 Deployment Checklist
 description: App-V 5.1 Deployment Checklist
 author: aczechowski
 ms.assetid: 44bed85a-e4f5-49d7-a308-a2b681f76372
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 This checklist can be used to help you during Microsoft Application Virtualization (App-V) 5.1 deployment.
 
-**Note**  
+**Note**
 This checklist outlines the recommended steps and a high-level list of items to consider when deploying App-V 5.1 features. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
 

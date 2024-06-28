@@ -3,8 +3,7 @@ title: About This Guide
 description: About This Guide
 author: aczechowski
 ms.assetid: 17d8f150-226e-45f8-87e3-f425a77243e4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Performing Reviewer Tasks
 description: Performing Reviewer Tasks
 author: aczechowski
 ms.assetid: 4bdd43fa-5c73-4900-8947-b45906f47f60
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

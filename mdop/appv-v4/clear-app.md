@@ -3,8 +3,7 @@ title: CLEAR APP
 description: CLEAR APP
 author: aczechowski
 ms.assetid: c2e63031-5941-45e4-9863-127231cfa25b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Settings for Logging and Tracing
 description: Settings for Logging and Tracing
 author: aczechowski
 ms.assetid: 66d03306-80d8-4132-bf71-2827157b1fc9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

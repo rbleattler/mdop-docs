@@ -3,8 +3,7 @@ title: How to Upload a MED-V Image to the Server
 description: How to Upload a MED-V Image to the Server
 author: aczechowski
 ms.assetid: 0e70dfdf-3e3a-4860-970c-535806caa907
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ After a MED-V image has been tested, it can be packed and then uploaded to the s
 
 Once a MED-V image is packed and uploaded to the server, it can be distributed to users by using an enterprise software distribution center, or it can be downloaded by users using a deployment package. For information on deployment using an enterprise software distribution center, see [Deploying a MED-V Workspace Using an Enterprise Software Distribution System](deploying-a-med-v-workspace-using-an-enterprise-software-distribution-system.md). For information on deployment using a package, see [Deploying a MED-V Workspace Using a Deployment Package](deploying-a-med-v-workspace-using-a-deployment-package.md).
 
-**Note**  
+**Note**
 Before uploading an image, verify that a Web proxy is not defined in your browser settings and that Windows Update is not currently running.
 
 

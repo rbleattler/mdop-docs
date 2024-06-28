@@ -3,8 +3,7 @@ title: Recover Remote Computers by Using the DaRT Recovery Image
 description: How to Recover Remote Computers by Using the DaRT Recovery Image
 author: aczechowski
 ms.assetid: 363ccd48-6820-4b5b-a43a-323c0b208a9d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -34,7 +33,7 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
 
     Whichever method that you use to boot into DaRT, you must enable the boot device in the BIOS for the boot option or options that you want to make available to the end user.
 
-    **Note**  
+    **Note**
     Configuring the BIOS is unique, depending on the kind of hard disk drive, network adapters, and other hardware that is used in your organization.
 
 
@@ -57,7 +56,7 @@ As the computer is booting into the DaRT recovery image, the **NetStart** dialog
 
 6. Select the installation that you want to repair or diagnose, and then click **Next**.
 
-   **Note**  
+   **Note**
    If the Windows Recovery Environment (WinRE) detects or suspects that Windows 8 did not start correctly the last time that it was tried, **Startup Repair** might start to run automatically. For information about how to resolve this issue, see [Troubleshooting DaRT 8.0](troubleshooting-dart-80-dart-8.md).
 
 
@@ -80,7 +79,7 @@ The **System Recovery Options** window appears and lists various recovery tools.
 
 11. In the **DaRT Remote Connection** window, enter the required ticket, IP address, and port information.
 
-   **Note**  
+   **Note**
    This information is created on the end-user computer and must be provided by the end user. There might be multiple IP addresses to choose from, depending on how many are available on the end-user computer.
 
 
@@ -89,7 +88,7 @@ The **System Recovery Options** window appears and lists various recovery tools.
 
 The IT administrator now assumes control of the end-user computer and can run the DaRT tools remotely.
 
-**Note**  
+**Note**
 A file is provided that is named inv32.xml and contains remote connection information, such as the port number and IP address. By default, the file is typically located at %windir%\\system32.
 
 
@@ -181,7 +180,7 @@ When DaRT starts, it creates the file inv32.xml in \\Windows\\System32\\ on the 
 
 
 
-**Note**  
+**Note**
 The variables for these parameters are created on the end-user computer and must be provided by the end user.
 
 

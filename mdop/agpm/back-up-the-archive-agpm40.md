@@ -3,8 +3,7 @@ title: How to Back Up the Archive
 description: Backing Up the Archive
 author: aczechowski
 ms.assetid: 538d85eb-3596-4c1d-bbd7-26bc28857c28
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -34,7 +33,7 @@ A user account that has access to both the AGPM Server—the computer on which t
 **Note**  
 If an AGPM Administrator backs up the archive infrequently, the Group Policy Objects (GPOs) in the archive backup will not be current. To better ensure that the archive backup is current, back up the archive as part of your organization’s daily backup strategy.
 
- 
+
 
 ### Additional references
 
@@ -44,9 +43,9 @@ If an AGPM Administrator backs up the archive infrequently, the Group Policy Obj
 
 -   [Managing the Archive](managing-the-archive-agpm40.md)
 
- 
 
- 
+
+
 
 
 

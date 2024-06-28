@@ -3,8 +3,7 @@ title: Control a Previously Uncontrolled GPO
 description: Control a Previously Uncontrolled GPO
 author: aczechowski
 ms.assetid: 452689a9-4e32-4e3b-8208-56353a82bf36
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

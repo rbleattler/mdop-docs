@@ -3,8 +3,7 @@ title: App-V 5.0 Supported Configurations
 description: App-V 5.0 Supported Configurations
 author: aczechowski
 ms.assetid: 3787ff63-7ce7-45a8-8f01-81b4b6dced34
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 08/30/2016
 
 This topic specifies the requirements that are necessary to install and run Microsoft Application Virtualization (App-V) 5.0 in your environment.
 
-**Important**  
+**Important**
 **The supported configurations in this article apply only to App-V 5.0**. For supported configurations that apply to App-V 5.0 Service Packs, see the following web pages:
 
 -   [What's new in App-V 5.0 SP1](whats-new-in-app-v-50-sp1.md)
@@ -33,7 +32,7 @@ This topic specifies the requirements that are necessary to install and run Micr
 ## <a href="" id="---------app-v-5-0-server-system-requirements"></a> App-V 5.0 server system requirements
 
 
-**Important**  
+**Important**
 The App-V 5.0 server does not support the following scenarios:
 
 
@@ -42,7 +41,7 @@ The App-V 5.0 server does not support the following scenarios:
 
 -   Deployment to a computer that runs a previous version of App-V 5.0 server components.
 
-    **Note**  
+    **Note**
     You can install App-V 5.0 side-by-side with the App-V 4.5 Lightweight Streaming Server (LWS) server only. Deployment of App-V 5.0 side-by-side with the App-V 4.5 Application Virtualization Management Service (HWS) server is not supported.
 
 
@@ -59,7 +58,7 @@ The App-V 5.0 server does not support the following scenarios:
 
 The following table lists the operating systems that are supported for the App-V 5.0 management server installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -103,7 +102,7 @@ Microsoft provides support for the current service pack and, in some cases, the 
 
 
 
-**Important**  
+**Important**
 Deployment of the management server role to a computer with Remote Desktop Sharing (RDS) enabled is not supported.
 
 
@@ -120,7 +119,7 @@ Deployment of the management server role to a computer with Remote Desktop Shari
 
 The following table lists the operating systems that are supported for the App-V 5.0 publishing server installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -176,7 +175,7 @@ Microsoft provides support for the current service pack and, in some cases, the 
 
 The following table lists the operating systems that are supported for the App-V 5.0 reporting server installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -284,7 +283,7 @@ The following table lists the SQL Server versions that are supported for the App
 
 The following table lists the operating systems that are supported for the App-V 5.0 client installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -352,7 +351,7 @@ The following list displays the supported hardware configuration for the App-V 5
 
 The following table lists the operating systems that are supported for App-V 5.0 Remote Desktop client installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -368,7 +367,7 @@ SP1
 
 Microsoft Windows Server 2012
 
-**Important**  
+**Important**
 Windows Server 2012 R2 is only supported by App-V 5.0 SP2
 
 
@@ -396,7 +395,7 @@ The following list displays the supported hardware configuration for the App-V 5
 
 The following table lists the operating systems that are supported for App-V 5.0 Sequencer installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 

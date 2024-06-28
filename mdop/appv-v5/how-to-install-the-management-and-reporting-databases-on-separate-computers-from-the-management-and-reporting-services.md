@@ -3,8 +3,7 @@ title: Install the Management and Reporting Databases on Separate Computers from
 description: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
 author: aczechowski
 ms.assetid: 02afd6d6-4c33-4c0b-bd88-ae167b786fdf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 Use the following procedure to install the database server and management server on different computers. The computer you plan to install the database server on must be running a supported version of Microsoft SQL or the installation will fail.
 
-**Note**  
+**Note**
 After you complete the deployment, the **Microsoft SQL Server name**, **instance name** and **database name** will be required by the administrator installing the service to be able to connect to these databases.
 
 
@@ -44,7 +43,7 @@ After you complete the deployment, the **Microsoft SQL Server name**, **instance
 
 7.  On the next **Create New Management Server Database** page, select **Use a remote computer**, and type the remote machine account using the following format: **Domain\\MachineAccount**.
 
-    **Note**  
+    **Note**
     If you plan to deploy the management server on the same computer you must select **Use this local computer**.
 
 
@@ -75,7 +74,7 @@ Specify the user name for the management server **Install Administrator** using 
 
 7.  On the next **Create New Reporting Server Database** page, select **Use a remote computer**, and type the remote machine account using the following format: **Domain\\MachineAccount**.
 
-    **Note**  
+    **Note**
     If you plan to deploy the reporting server on the same computer you must select **Use this local computer**.
 
 
@@ -102,7 +101,7 @@ Specify the user name for the reporting server **Install Administrator** using t
 
 4.  For each database, copy the scripts to a share and modify them following the instructions in the readme file.
 
-    **Note**  
+    **Note**
     For more information about modifying the required SIDs contained in the scripts see, [How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell](how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell.md).
 
 

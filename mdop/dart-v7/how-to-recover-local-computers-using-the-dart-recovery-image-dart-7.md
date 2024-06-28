@@ -3,8 +3,7 @@ title: How to Recover Local Computers Using the DaRT Recovery Image
 description: How to Recover Local Computers Using the DaRT Recovery Image
 author: aczechowski
 ms.assetid: be29b5a8-be08-4cf2-822e-77a51d3f3b65
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -28,7 +27,7 @@ To recover a local computer by using Microsoft Diagnostics and Recovery Toolset 
 
 3.  Following the remapping dialog box, a **System Recovery Options** dialog box appears and asks you to select a keyboard layout. Then it displays the system root directory, the kind of operating system installed, and the partition size. If you do not see your operating system listed, and suspect that the lack of drivers is a possible cause of the failure, click **Load Drivers** to load the suspect drivers. This prompts you to insert the installation media for the device and to select the driver. Select the installation that you want to repair or diagnose, and then click **Next**.
 
-    **Note**  
+    **Note**
     If the Windows Recovery Environment (WinRE) detects or suspects that Windows 7 did not start correctly the last time that it was tried, **Startup Repair** might start to run automatically.
 
 

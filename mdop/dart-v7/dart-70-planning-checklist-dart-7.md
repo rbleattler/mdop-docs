@@ -3,8 +3,7 @@ title: DaRT 7.0 Planning Checklist
 description: DaRT 7.0 Planning Checklist
 author: aczechowski
 ms.assetid: f97a2318-6597-4774-a854-bb546279a8fd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -21,7 +20,7 @@ This checklist can be used to help you plan for preparing your computing environ
 **Note**  
 This checklist outlines the recommended steps and a high-level list of items to consider when planning for product deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
- 
+
 
 <table>
 <colgroup>
@@ -55,16 +54,16 @@ This checklist outlines the recommended steps and a high-level list of items to 
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Planning for DaRT 7.0](planning-for-dart-70-new-ia.md)
 
- 
 
- 
+
+
 
 
 

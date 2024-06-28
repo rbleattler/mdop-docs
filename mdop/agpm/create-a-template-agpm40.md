@@ -3,8 +3,7 @@ title: How to Create a Template
 description: Create a Template
 author: aczechowski
 ms.assetid: b38423af-7d24-437a-98bc-01f1ae891127
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -22,7 +21,7 @@ Creating a template enables you to save all of the settings of a particular vers
 **Note**  
 A template is an uneditable, static version of a GPO for use as a starting point for creating new, editable GPOs.
 
- 
+
 
 A user account with the Editor or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
 
@@ -52,9 +51,9 @@ A user account with the Editor or AGPM Administrator (Full Control) role or nece
 
 -   [Request the Creation of a New Controlled GPO](request-the-creation-of-a-new-controlled-gpo-agpm40.md)
 
- 
 
- 
+
+
 
 
 

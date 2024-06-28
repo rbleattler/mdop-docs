@@ -3,8 +3,7 @@ title: Managing the UE-V 2.x Agent and Packages with Windows PowerShell and WMI
 description: Managing the UE-V 2.x Agent and Packages with Windows PowerShell and WMI
 author: aczechowski
 ms.assetid: 56e6780b-8b2c-4717-91c8-2af63062ab75
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -23,7 +22,7 @@ You can use Windows Management Instrumentation (WMI) and Windows PowerShell to m
 
 1.  Stage the UE-V installer file in an accessible network share.
 
-    **Note**  
+    **Note**
     Use AgentSetup.exe to deploy both 32-bit and 64-bit versions of the UE-V Agent. Windows Installer packages, AgentSetupx86.msi and AgentSetupx64.msi, are available for each architecture. To uninstall the UE-V Agent at a later time by using the installation file, you must use the same file type.
 
 

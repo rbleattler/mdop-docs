@@ -3,8 +3,7 @@ title: Security Considerations for DaRT 7.0
 description: Security Considerations for DaRT 7.0
 author: aczechowski
 ms.assetid: 52ad7e6c-c169-4ba4-aa76-56335a585eb8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -34,7 +33,7 @@ You can even configure the DaRT image so that the option to start a remote conne
 **Important**  
 After the remote connection is established, all the tools that you included in the recovery image, including those unavailable to the end user, will become available to the helpdesk agent working on the end–user computer.
 
- 
+
 
 For more information about including tools in the DaRT recovery image, see [How to Use the DaRT Recovery Image Wizard to Create the Recovery Image](how-to-use-the-dart-recovery-image-wizard-to-create-the-recovery-image-dart-7.md).
 
@@ -48,7 +47,7 @@ Your encryption method should be deployed and enabled in all computers.
 **Note**  
 DaRT 7 supports BitLocker natively.
 
- 
+
 
 ## To help maintain security between two computers during Remote Connection
 
@@ -60,9 +59,9 @@ By default, the communication between two computers that have established a **Re
 
 [Operations for DaRT 7.0](operations-for-dart-70-new-ia.md)
 
- 
 
- 
+
+
 
 
 

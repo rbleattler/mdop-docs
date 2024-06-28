@@ -3,8 +3,7 @@ title: Install the Reporting Server on a Standalone Computer and Connect it to t
 description: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
 author: aczechowski
 ms.assetid: d186bdb7-e522-4124-bc6d-7d5a41ba8266
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
 
-**Important**  
+**Important**
 Before performing the following procedure you should read and understand [About App-V 5.0 Reporting](about-app-v-50-reporting.md).
 
 
@@ -38,7 +37,7 @@ Before performing the following procedure you should read and understand [About 
 
 6.  On the **Configure Existing Reporting Database** page, select **Use a remote SQL Server**, and type the machine name of the computer running Microsoft SQL Server, for example **SqlServerMachine**.
 
-    **Note**  
+    **Note**
     If the Microsoft SQL Server is deployed on the same server, select **Use local SQL Server**.
 
 

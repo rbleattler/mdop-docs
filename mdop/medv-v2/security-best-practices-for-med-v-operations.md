@@ -3,8 +3,7 @@ title: Security Best Practices for MED-V Operations
 description: Security Best Practices for MED-V Operations
 author: aczechowski
 ms.assetid: 231e2b9a-8b49-42fe-93b5-2ef12fe17bac
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

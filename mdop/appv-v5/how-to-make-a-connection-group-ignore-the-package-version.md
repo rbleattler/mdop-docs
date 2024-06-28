@@ -3,8 +3,7 @@ title: Make a Connection Group Ignore the Package Version
 description: How to Make a Connection Group Ignore the Package Version
 author: aczechowski
 ms.assetid: 6ebc1bff-d190-4f4c-a6da-e09a4cca7874
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -90,7 +89,7 @@ To upgrade a package in earlier versions of App-V, you had to perform several st
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -102,9 +101,9 @@ To upgrade a package in earlier versions of App-V, you had to perform several st
 
 [Managing Connection Groups](managing-connection-groups.md)
 
- 
 
- 
+
+
 
 
 

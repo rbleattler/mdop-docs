@@ -3,8 +3,7 @@ title: Control an Uncontrolled GPO
 description: Control an Uncontrolled GPO
 author: aczechowski
 ms.assetid: 603f00f9-1e65-4b2f-902a-e53dafedbd8d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

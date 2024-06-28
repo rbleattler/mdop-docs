@@ -3,8 +3,7 @@ title: Getting Started with MBAM 2.5
 description: Getting Started with MBAM 2.5
 author: aczechowski
 ms.assetid: 23d0cfbb-e2ef-4c34-bf29-1b7ab4c48f00
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -69,7 +68,7 @@ Before you start planning your MBAM deployment, review the following topics.
 </tbody>
 </table>
 
- 
+
 
 ## How to get MDOP technologies
 
@@ -95,9 +94,9 @@ MBAM 2.5 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is pa
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
- 
 
- 
+
+
 
 
 

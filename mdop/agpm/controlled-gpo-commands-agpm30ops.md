@@ -3,8 +3,7 @@ title: Controlled GPO Commands
 description: Controlled GPO Commands
 author: aczechowski
 ms.assetid: 82db4772-154a-4a8d-99cd-2c69e1738698
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

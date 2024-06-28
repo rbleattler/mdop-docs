@@ -3,8 +3,7 @@ title: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
 description: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
 author: aczechowski
 ms.assetid: e1957a5a-1f18-42da-b2c1-a5ae5a4cca7a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -50,7 +49,7 @@ Use one of the following methods to publish packages to App-V client computers w
 </tbody>
 </table>
 
- 
+
 
 **To deploy App-V 5.1 packages by using an ESD**
 
@@ -69,9 +68,9 @@ Use one of the following methods to publish packages to App-V client computers w
 
 [Operations for App-V 5.1](operations-for-app-v-51.md)
 
- 
 
- 
+
+
 
 
 

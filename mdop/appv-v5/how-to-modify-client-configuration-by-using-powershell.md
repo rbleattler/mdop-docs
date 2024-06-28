@@ -3,8 +3,7 @@ title: How to Modify Client Configuration by Using PowerShell
 description: How to Modify Client Configuration by Using PowerShell
 author: aczechowski
 ms.assetid: 53ccb2cf-ef81-4310-a853-efcb395f006e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

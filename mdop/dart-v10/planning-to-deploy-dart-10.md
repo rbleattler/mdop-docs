@@ -3,8 +3,7 @@ title: Planning to Deploy DaRT 10
 description: Planning to Deploy DaRT 10
 author: aczechowski
 ms.assetid: 32a39e97-a889-4aae-982c-b85cdc3d9134
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

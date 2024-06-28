@@ -3,8 +3,7 @@ title: How to Edit an OSD File
 description: How to Edit an OSD File
 author: aczechowski
 ms.assetid: 0d126ba7-72fb-42ce-982e-90ed01a852c8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,12 +20,12 @@ Use the following procedures to modify a sequenced application package's Open So
 **Note**  
   Some elements do not have an attribute, so it is not possible to add an attribute to every element.
 
- 
+
 
 **Important**  
 If you use the OSD editor to change the .sft file name, the HREF attribute of the CODEBASE element in the OSD file, you must use the **Save As** command to save the change to the project files.
 
- 
+
 
 **To add an element**
 
@@ -81,9 +80,9 @@ If you use the OSD editor to change the .sft file name, the HREF attribute of th
 
 [Sequencer Console](sequencer-console.md)
 
- 
 
- 
+
+
 
 
 

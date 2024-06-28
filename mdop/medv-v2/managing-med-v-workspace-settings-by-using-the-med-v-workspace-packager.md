@@ -3,8 +3,7 @@ title: Managing MED-V Workspace Settings by Using the MED-V Workspace Packager
 description: Managing MED-V Workspace Settings by Using the MED-V Workspace Packager
 author: aczechowski
 ms.assetid: e4b2c516-b9f8-44f9-9eae-caac6c2af3e7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

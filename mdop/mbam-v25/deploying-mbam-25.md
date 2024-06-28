@@ -3,8 +3,7 @@ title: Deploying MBAM 2.5
 description: Deploying MBAM 2.5
 author: aczechowski
 ms.assetid: 45403607-1f4d-42fe-8413-0d4da01808a6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -65,7 +64,7 @@ Use this information to identify the procedures you can follow to deploy and con
 </tbody>
 </table>
 
- 
+
 
 ## Other resources for deploying MBAM
 
@@ -88,9 +87,9 @@ Use this information to identify the procedures you can follow to deploy and con
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
- 
 
- 
+
+
 
 
 

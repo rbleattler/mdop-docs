@@ -3,8 +3,7 @@ title: Getting Started with MBAM 2.0
 description: Getting Started with MBAM 2.0
 author: aczechowski
 ms.assetid: 29f5c9af-5bbf-4d37-aa0f-0716046904af
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

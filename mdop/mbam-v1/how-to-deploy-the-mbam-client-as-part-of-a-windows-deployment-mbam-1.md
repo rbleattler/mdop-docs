@@ -3,8 +3,7 @@ title: How to Deploy the MBAM Client as Part of a Windows Deployment
 description: How to Deploy the MBAM Client as Part of a Windows Deployment
 author: aczechowski
 ms.assetid: 8704bf33-535d-41da-b9b2-45b60754367e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -18,14 +17,14 @@ ms.date: 06/16/2016
 
 The Microsoft BitLocker Administration and Monitoring (MBAM) Client enables administrators to enforce and monitor BitLocker drive encryption on computers in the enterprise. The BitLocker Client can be integrated into an organization by enabling BitLocker management and encryption on client computers during the computer imaging and Windows deployment process.
 
-**Note**  
+**Note**
 To review the MBAM Client system requirements, see [MBAM 1.0 Supported Configurations](mbam-10-supported-configurations.md).
 
 
 
 Encryption of client computers with BitLocker during the initial imaging stage of a Windows deployment can lower the administrative overhead for MBAM implementation. This approach also ensures that every computer that is deployed already has BitLocker running and is configured correctly.
 
-**Warning**  
+**Warning**
 This topic describes how to change the Windows registry by using Registry Editor. If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows. You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry. Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved. Change the registry at your own risk.
 
 
@@ -85,7 +84,7 @@ This topic describes how to change the Windows registry by using Registry Editor
 
 
 
-**Note**  
+**Note**
 MBAM policy or registry values can be set here to override the previously set values.
 
 
