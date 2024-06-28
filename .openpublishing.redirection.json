@@ -64,6 +64,11 @@
       "source_path": "mdop/solutions/index.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/index.yml",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-for-windows",
+      "redirect_document_id": false
     }
   ]
 }

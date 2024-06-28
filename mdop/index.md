@@ -2,7 +2,7 @@
 title: MDOP information experience
 description: MDOP information experience.
 author: aczechowski
-ms.date: 07/28/2023
+ms.date: 06/28/2024
 ---
 
 # MDOP information experience
@@ -12,16 +12,12 @@ The Microsoft Desktop Optimization Pack (MDOP) is a portfolio of technologies av
 > [!IMPORTANT]
 > Extended support for MDOP ends on April 14, 2026. For more information, see [Microsoft Desktop Optimization Pack (MDOP) support extended](/lifecycle/announcements/mdop-extended).
 
-## MDOP documentation
-
 The following sections provide links to the product documentation for supported MDOP products.
 
-<!--
 > [!NOTE]
-> Documentation for previous versions of MDOP is available with the [Windows previous versions documentation](/previous-versions/windows/).
- -->
+> Documentation for previous versions of MDOP is available with the [Windows previous versions documentation](/previous-versions/windows/microsoft-desktop-optimization-pack/).
 
-### Advanced Group Policy Management (AGPM)
+## Advanced Group Policy Management (AGPM)
 
 AGPM extends the capabilities of the Group Policy Management Console (GPMC) to provide change control and improved management.
 
@@ -29,7 +25,7 @@ AGPM extends the capabilities of the Group Policy Management Console (GPMC) to p
 
 - [AGPM 4.0 SP3](agpm/whats-new-in-agpm-40-sp3.md) supports Windows 11, Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Vista SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2008, and Windows Server 2008 R2.
 
-### Application Virtualization (App-V)
+## Application Virtualization (App-V)
 
 App-V lets you make applications available to end user computers without installing the applications directly on those computers.
 
@@ -49,13 +45,13 @@ For more information, see the [Microsoft Application Virtualization 5.1 administ
 
 For information about App-V in Windows 10, see [Application Virtualization (App-V) for Windows client overview](./app-v/appv-for-windows.md).
 
-### Microsoft BitLocker Administration and Monitoring (MBAM)
+## Microsoft BitLocker Administration and Monitoring (MBAM)
 
 MBAM provides an administrative interface to enterprise-wide BitLocker drive encryption.
 
 For more information, see [About MBAM 2.5 SP1](mbam-v25/about-mbam-25-sp1.md).
 
-### Diagnostics and Recovery Toolset (DaRT)
+## Diagnostics and Recovery Toolset (DaRT)
 
 DaRT helps troubleshoot and repair Windows-based computers.
 
@@ -63,24 +59,18 @@ For more information, see [Diagnostics and Recovery Toolset 10](dart-v10/index.m
 
 DaRT 10.0 supports Windows 11 and Windows 10.
 
-### User Experience Virtualization (UE-V)
+## User Experience Virtualization (UE-V)
 
 UE-V captures settings to apply to computers accessed by the user including desktop computers, laptop computers, and VDI sessions.
 
 For more information, see [What's New in UE-V 2.1 SP1](uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1.md).
 
-For information about UE-V in Windows 10, see [User Experience Virtualization (UE-V) for Windows 10 overview](/windows/configuration/ue-v/uev-for-windows).
+For information about UE-V in Windows 10, see [User Experience Virtualization (UE-V) for Windows 10 overview](./ue-v/uev-for-windows).
 
-## How to get MDOP
+<a name="how-to-get-mdop">
 
-MDOP is a suite of products that can help streamline desktop deployment, management, and support across the enterprise. MDOP is available as an additional subscription for Software Assurance customers.
+## Download MDOP
 
-### Download MDOP
-
-MDOP subscribers can download the software at the [Microsoft Volume Licensing website (MVLS)](https://go.microsoft.com/fwlink/p/?LinkId=166331).
+MDOP is available as an additional subscription for Software Assurance customers. MDOP subscribers can download the software at the [Microsoft Volume Licensing website (MVLS)](https://go.microsoft.com/fwlink/p/?LinkId=166331).
 
 You can manage the feature settings of certain Microsoft Desktop Optimization Pack (MDOP) technologies (for example, App-V, UE-V, or MBAM) by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
-
-### Purchase MDOP
-
-Visit the enterprise [Purchase Windows Enterprise Licensing](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) website to find out how to purchase MDOP for your business.

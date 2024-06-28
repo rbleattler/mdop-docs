@@ -5,12 +5,12 @@
       href: agpm/index.md
     - name: Application Virtualization
       items:
+        - name: App-V for Windows 10
+          href: app-v/appv-for-windows.md
         - name: Application Virtualization 5
           href: appv-v5/index.md
         - name: Application Virtualization 4
           href: appv-v4/index.md
-        - name: Application Virtualization
-          href: app-v/index.yml
     - name: Diagnostics and Recovery Toolset
       items:
         - name: Diagnostics and Recovery Toolset 10
@@ -33,6 +33,8 @@
           href: medv-v2/index.md
     - name: User Experience Virtualization
       items:
+        - name: UE-V for Windows 10
+          href: ue-v/uev-for-windows.md
         - name: User Experience Virtualization 2
           href: uev-v2/index.md
         - name: User Experience Virtualization 1
