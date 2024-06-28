@@ -3,8 +3,7 @@ title: Support for Client Reporting over HTTP
 description: Support for Client Reporting over HTTP
 author: aczechowski
 ms.assetid: 4a26ac80-1fb5-4c05-83de-4d06793f7bf2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: How to Configure the MBAM 2.5 Reports
 description: How to Configure the MBAM 2.5 Reports
 author: aczechowski
 ms.assetid: ec462879-0253-4d9c-83c7-a9bcad479725
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -147,7 +146,7 @@ The instructions are based on the recommended architecture in [High-Level Archit
 
 7. On the **Summary** page, review the features that will be added.
 
-   **Note**  
+   **Note**
    To create a Windows PowerShell script of the entries that you just made, click **Export PowerShell Script**, and then save the script.
 
 

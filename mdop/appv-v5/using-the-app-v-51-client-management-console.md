@@ -3,8 +3,7 @@ title: Using the App-V 5.1 Client Management Console
 description: Using the App-V 5.1 Client Management Console
 author: aczechowski
 ms.assetid: be6d4e35-5701-4f9a-ba8a-bede12662cf1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

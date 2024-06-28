@@ -3,8 +3,7 @@ title: Publishing Servers Node
 description: Publishing Servers Node
 author: aczechowski
 ms.assetid: b5823c6c-15bc-4e8d-aeeb-acc366ffedd1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ The **Publishing Servers** node is one level below the **Application Virtualizat
 
 Right-click the **Publishing Servers** node to display a pop-up menu that contains the following elements.
 
-<a href="" id="new-server"></a>**New Server**  
+<a href="" id="new-server"></a>**New Server**
 This menu item displays the New Server Wizard. This wizard consists of two pages:
 
 1.  Enter a server display name and server type:
@@ -37,19 +36,19 @@ This menu item displays the New Server Wizard. This wizard consists of two pages
 
     -   **Path**—This field defaults to "/" and is read-only when the server type is "Application Virtualization Server" or “Enhanced Security Application Virtualization Server”. When the server type is “Standard HTTP Server” or “Enhanced Security HTTP Server”, the **Path** field is also editable.
 
-<a href="" id="new-window-from-here"></a>**New Window from Here**  
+<a href="" id="new-window-from-here"></a>**New Window from Here**
 Select this menu item to open a new management console with the selected node as the root node.
 
-<a href="" id="export-list"></a>**Export List**  
+<a href="" id="export-list"></a>**Export List**
 You can use this menu item to create a tab-delimited text file that contains the contents of the **Results** pane. This item displays a standard **File Save** dialog box where you specify the location for the text file you are creating.
 
-<a href="" id="view"></a>**View**  
+<a href="" id="view"></a>**View**
 This pop-up list of menu items enables you to change the appearance and content of the **Results** pane.
 
-<a href="" id="refresh"></a>**Refresh**  
+<a href="" id="refresh"></a>**Refresh**
 Select this item to refresh the management console.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 This item displays the help system for the management console.
 
 ## Related topics

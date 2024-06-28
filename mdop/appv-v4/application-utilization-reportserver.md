@@ -3,8 +3,7 @@ title: Application Utilization Report
 description: Application Utilization Report
 author: aczechowski
 ms.assetid: cb961969-c9a3-4d46-8303-121d737d76d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

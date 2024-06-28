@@ -3,8 +3,7 @@ title: Install and Configure MBAM on a Single Server
 description: How to Install and Configure MBAM on a Single Server
 author: aczechowski
 ms.assetid: 55841c63-bad9-44e7-b7fd-ea7037febbd7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ To obtain the setup log files, you must install MBAM by using the **msiexec** pa
 
 Additional setup log files are created in the %temp% folder of the user who is installing MBAM.
 
- 
+
 
 ## To install MBAM Server features on a single server
 
@@ -35,7 +34,7 @@ The following steps describe how to install general MBAM features.
 **Note**  
 Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup on 64-bit servers.
 
- 
+
 
 **To start MBAM Server features installation**
 
@@ -58,7 +57,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
     **Note**  
     The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing. If all the prerequisites are met, the installation continues. If a missing prerequisite is detected, you must resolve the missing prerequisites, and then click **Check prerequisites again**. After all prerequisites are met, the installation resumes.
 
-     
+
 
 4.  You are prompted to configure the network communication security. MBAM can encrypt the communication between the Recovery and Hardware Database, the Administration and Monitoring Server, and the clients. If you decide to encrypt the communication, you are asked to select the authority-provisioned certificate that will be used for encryption.
 
@@ -85,7 +84,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
     **Warning**  
     The port number that you specify must be an unused port number on the Administration and Monitoring server, unless a unique host header name is specified.
 
-     
+
 
 8.  Click **Next** to continue.
 
@@ -116,7 +115,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
     To maintain identical memberships on all computers, you should create a domain security group and add that domain group to each local MBAM Report Users group. When you do this, you can manage the group memberships by using the domain group.
 
-     
+
 
 ## Validating the MBAM Server feature installation
 
@@ -127,10 +126,10 @@ When the MBAM installation is complete, validate that the installation has succe
 
 1. On each server where an MBAM feature is deployed, open **Control Panel**. Click **Programs**, and then click **Programs and Features**. Verify that **Microsoft BitLocker Administration and Monitoring** appears in the **Programs and Features** list.
 
-   **Note**  
+   **Note**
    To validate the installation, you must use a Domain Account that has local computer administrative credentials on each server.
 
-     
+
 
 2. On the server where the Recovery and Hardware Database is installed, open SQL Server Management Studio and verify that the **MBAM Recovery and Hardware** database is installed.
 
@@ -142,10 +141,10 @@ When the MBAM installation is complete, validate that the installation has succe
 
    Confirm that a folder named **Malta Compliance Reports** is listed and that it contains five reports and one data source.
 
-   **Note**  
+   **Note**
    If SQL Server Reporting Services was configured as a named instance, the URL should resemble the following:http://*&lt;NameofMBAMReportsServer&gt;*/Reports\_*&lt;SRSInstanceName&gt;*
 
-     
+
 
 5. On the server where the Administration and Monitoring feature is installed, run **Server Manager** and browse to **Roles**, select **Web Server (IIS)**, and click **Internet Information Services (IIS) Manager**
 
@@ -161,21 +160,21 @@ When the MBAM installation is complete, validate that the installation has succe
 
    -   *http://&lt;computername&gt;/MBAMRecoveryAndHardwareService/CoreService.svc*
 
-   **Note**  
+   **Note**
    Typically, the services are installed on the default port 80 without network encryption. If the services are installed on a different port, change the URLs to include the appropriate port. For example, http://*&lt;computername&gt;:&lt;port&gt;*/default.aspx or http://<em>&lt;hostheadername&gt;/</em>default.aspx.
 
    If the services are installed with network encryption, change http:// to https://.
 
-     
+
 
 ## Related topics
 
 
 [Deploying the MBAM 1.0 Server Infrastructure](deploying-the-mbam-10-server-infrastructure.md)
 
- 
 
- 
+
+
 
 
 

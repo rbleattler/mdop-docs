@@ -3,8 +3,7 @@ title: Installing the UE-V Group Policy ADMX Templates
 description: Installing the UE-V Group Policy ADMX Templates
 author: aczechowski
 ms.assetid: 7bd1f12e-7ba6-49f9-af9c-22c496b13b39
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

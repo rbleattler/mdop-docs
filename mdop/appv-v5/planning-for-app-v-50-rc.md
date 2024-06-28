@@ -3,8 +3,7 @@ title: Planning for App-V 5.0
 description: Planning for App-V 5.0
 author: aczechowski
 ms.assetid: 69df85b3-06c7-4123-af05-29d537a687ec
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

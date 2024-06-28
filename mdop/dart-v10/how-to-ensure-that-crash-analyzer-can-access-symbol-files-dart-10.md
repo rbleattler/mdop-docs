@@ -2,8 +2,7 @@
 title: Ensure that crash analyzer can access symbol files
 description: How to ensure that crash analyzer can access symbol files.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

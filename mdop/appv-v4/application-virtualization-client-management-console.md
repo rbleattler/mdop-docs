@@ -3,8 +3,7 @@ title: Application Virtualization Client Management Console
 description: Application Virtualization Client Management Console
 author: aczechowski
 ms.assetid: 18635688-8cbe-40d1-894e-acb2749b4e69
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,19 +20,19 @@ The Microsoft Application Virtualization Client Management Console is a snap-in 
 ## In This Section
 
 
-<a href="" id="application-virtualization-client-management-console-overview"></a>[Application Virtualization Client Management Console Overview](application-virtualization-client-management-console-overview.md)  
+<a href="" id="application-virtualization-client-management-console-overview"></a>[Application Virtualization Client Management Console Overview](application-virtualization-client-management-console-overview.md)
 Provides general information about the tasks you can perform by using the Virtualization Client Management Console.
 
-<a href="" id="how-to-perform-general-administrative-tasks-in-the-client-management-console"></a>[How to Perform General Administrative Tasks in the Client Management Console](how-to-perform-general-administrative-tasks-in-the-client-management-console.md)  
+<a href="" id="how-to-perform-general-administrative-tasks-in-the-client-management-console"></a>[How to Perform General Administrative Tasks in the Client Management Console](how-to-perform-general-administrative-tasks-in-the-client-management-console.md)
 Provides procedures that you can use to set up the Publishing Server and to refresh applications.
 
-<a href="" id="how-to-manage-applications-in-the-client-management-console"></a>[How to Manage Applications in the Client Management Console](how-to-manage-applications-in-the-client-management-console.md)  
+<a href="" id="how-to-manage-applications-in-the-client-management-console"></a>[How to Manage Applications in the Client Management Console](how-to-manage-applications-in-the-client-management-console.md)
 Provides procedures that you can use to manage applications.
 
-<a href="" id="how-to-configure-the-client-in-the-application-virtualization-client-management-console"></a>[How to Configure the Client in the Application Virtualization Client Management Console](how-to-configure-the-client-in-the-application-virtualization-client-management-console.md)  
+<a href="" id="how-to-configure-the-client-in-the-application-virtualization-client-management-console"></a>[How to Configure the Client in the Application Virtualization Client Management Console](how-to-configure-the-client-in-the-application-virtualization-client-management-console.md)
 Provides procedures that you can use to configure Desktop Client and Client for Remote Desktop Services.
 
-<a href="" id="how-to-manually-manage-applications-in-the-client-management-console"></a>[How to Manually Manage Applications in the Client Management Console](how-to-manually-manage-applications-in-the-client-management-console.md)  
+<a href="" id="how-to-manually-manage-applications-in-the-client-management-console"></a>[How to Manually Manage Applications in the Client Management Console](how-to-manually-manage-applications-in-the-client-management-console.md)
 Provides procedures that you can use to manually manage applications.
 
 ## Related topics

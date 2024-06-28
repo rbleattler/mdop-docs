@@ -3,8 +3,7 @@ title: High-Level Architecture for MBAM 2.0
 description: High-Level Architecture for MBAM 2.0
 author: aczechowski
 ms.assetid: 7f73dd3a-0b1f-4af6-a2f0-d0c5bc5d183a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ The following diagram shows the MBAM recommended architecture for a production e
 **Note**  
 A single-server architecture should be used only in test environments.
 
- 
+
 
 ![mbam 2 two-server deployment topology.](images/mbam2-3-servers.gif)
 
@@ -72,9 +71,9 @@ The MBAM Client is installed on a Windows computer and has the following charact
 
 [Getting Started with MBAM 2.0](getting-started-with-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: CONFIGURE SERVER
 description: CONFIGURE SERVER
 author: aczechowski
 ms.assetid: c916eddd-74f2-46e4-953d-120b23284e37
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

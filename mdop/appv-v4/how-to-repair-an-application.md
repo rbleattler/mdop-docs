@@ -3,8 +3,7 @@ title: How to Repair an Application
 description: How to Repair an Application
 author: aczechowski
 ms.assetid: 80b08416-ad86-4ed6-966a-b943e3efb951
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

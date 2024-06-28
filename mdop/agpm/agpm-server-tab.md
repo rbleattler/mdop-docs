@@ -3,8 +3,7 @@ title: AGPM Server Tab
 description: AGPM Server Tab
 author: aczechowski
 ms.assetid: ce4490b7-b564-49af-8962-858ee39e0016
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

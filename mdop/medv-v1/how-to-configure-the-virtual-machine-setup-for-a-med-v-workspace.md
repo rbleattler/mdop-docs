@@ -3,8 +3,7 @@ title: Configure Virtual Machine Setup for a MED-V Workspace
 description: How to Configure the Virtual Machine Setup for a MED-V Workspace
 author: aczechowski
 ms.assetid: a4659b4d-18b2-45b1-9605-8b5adc438f53
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -23,13 +22,13 @@ The virtual machine setup configures the setup performed when the virtual machin
 ## In This Section
 
 
-<a href="" id="how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace"></a>[How to Configure the Virtual Machine Setup for a MED-V Workspace](how-to-configure-the-virtual-machine-setup-for-a-med-v-workspacemedvv2.md)  
+<a href="" id="how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace"></a>[How to Configure the Virtual Machine Setup for a MED-V Workspace](how-to-configure-the-virtual-machine-setup-for-a-med-v-workspacemedvv2.md)
 Describes how to configure the virtual machine setup for persistent and revertible MED-V workspaces.
 
-<a href="" id="how-to-configure-vm-computer-name-pattern-properties"></a>[How to Configure VM Computer Name Pattern Properties](how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md)  
+<a href="" id="how-to-configure-vm-computer-name-pattern-properties"></a>[How to Configure VM Computer Name Pattern Properties](how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md)
 Describes how to configure virtual machine computer name pattern properties for persistent and revertible MED-V workspaces.
 
-<a href="" id="examples-of-virtual-machine-configurations"></a>[Examples of Virtual Machine Configurations](examples-of-virtual-machine-configurationsv2.md)  
+<a href="" id="examples-of-virtual-machine-configurations"></a>[Examples of Virtual Machine Configurations](examples-of-virtual-machine-configurationsv2.md)
 Provides examples of virtual machine configurations in both persistent and revertible MED-V workspaces.
 
 ## Related topics

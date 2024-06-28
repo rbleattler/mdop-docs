@@ -3,8 +3,7 @@ title: Perform Approver Tasks
 description: Performing Approver Tasks in AGPM 4.
 author: aczechowski
 ms.assetid: e0a4b7fe-ce69-4755-9104-c7f523ea6b62
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -22,7 +21,7 @@ An Approver is a person who is authorized by an AGPM Administrator (Full Control
 **Important**  
 Make sure that you're connecting to the central archive for GPOs. For more information, see [Configure an AGPM Server Connection](configure-an-agpm-server-connection-agpm40.md).
 
- 
+
 
 -   [Approve or Reject a Pending Action](approve-or-reject-a-pending-action-agpm40.md)
 
@@ -39,7 +38,7 @@ Make sure that you're connecting to the central archive for GPOs. For more infor
 **Note**  
 Before approving a GPO, an Approver should review the policy settings that it contains. The Approver role includes the permissions for the Reviewer role, so that an Approver can review policy settings and compare GPOs. See [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md) for more information.
 
- 
+
 
 ### Additional considerations
 
@@ -57,9 +56,9 @@ By default, the following permissions are provided for the Approver role:
 
 Also, an Approver has full control over GPOs that they created or controlled.
 
- 
 
- 
+
+
 
 
 

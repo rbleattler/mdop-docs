@@ -3,8 +3,7 @@ title: Application Virtualization Properties Permissions Tab
 description: Application Virtualization Properties Permissions Tab
 author: aczechowski
 ms.assetid: 5219bc7c-7c7a-4e2f-8fba-7039933d1124
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Administering UE-V 2.x
 description: Administering UE-V 2.x
 author: aczechowski
 ms.assetid: 996e4797-8383-4627-b714-24a84c907798
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization

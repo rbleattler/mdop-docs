@@ -3,8 +3,7 @@ title: High Level Architecture for App-V 5.1
 description: High Level Architecture for App-V 5.1
 author: aczechowski
 ms.assetid: 90406361-55b8-40b7-85c0-449436789d4c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -64,12 +63,12 @@ A typical App-V 5.1 implementation consists of the following elements.
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 If you are using App-V 5.1 with Electronic Software Distribution (ESD) you are not required to use the App-V 5.1 Management server, however you can still utilize the reporting and streaming functionality of App-V 5.1.
 
- 
+
 
 
 
@@ -81,9 +80,9 @@ If you are using App-V 5.1 with Electronic Software Distribution (ESD) you are n
 
 [Getting Started with App-V 5.1](getting-started-with-app-v-51.md)
 
- 
 
- 
+
+
 
 
 

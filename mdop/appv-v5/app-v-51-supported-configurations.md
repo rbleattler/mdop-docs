@@ -3,8 +3,7 @@ title: App-V 5.1 Supported Configurations
 description: App-V 5.1 Supported Configurations
 author: aczechowski
 ms.assetid: 8b8db63b-f71c-4ae9-80e7-a6752334e1f6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -52,12 +51,12 @@ The following table lists the operating systems that are supported for the App-V
 | Microsoft Windows Server 2012 R2 |              |        64-bit       |
 | Microsoft Windows Server 2012    |              |        64-bit       |
 | Microsoft Windows Server 2008 R2 [Extended Security Update](https://www.microsoft.com/windows-server/extended-security-updates)|      SP1     |        64-bit       |
- 
+
 
 **Important**  
 Deployment of the Management server role to a computer with Remote Desktop Sharing (RDS) enabled is not supported.
 
- 
+
 
 ### <a href="" id="management-server-hardware-requirements-"></a>Management server hardware requirements
 
@@ -177,7 +176,7 @@ The following table lists the SQL Server versions that are supported for the App
 | Microsoft SQL Server 2014    |               |        32-bit or 64-bit       |
 | Microsoft SQL Server 2012    |      SP2      |        32-bit or 64-bit       |
 | Microsoft SQL Server 2008 R2 |      SP3      |        32-bit or 64-bit       |
- 
+
 ## <a href="" id="bkmk-client-supp-cfgs"></a>App-V client system requirements
 
 The following table lists the operating systems that are supported for the App-V 5.1 client installation.
@@ -217,7 +216,7 @@ The following table lists the operating systems that are supported for the App-V
 </tbody>
 </table>
 
- 
+
 
 The following App-V client installation scenarios are not supported, except as noted:
 
@@ -341,7 +340,7 @@ The following App-V and System Center Configuration Manager version matrix shows
 </tbody>
 </table>
 
- 
+
 
 For more information about how Configuration Manager integrates with App-V, see [Planning for App-V Integration with Configuration Manager](https://technet.microsoft.com/library/jj822982.aspx).
 

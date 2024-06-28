@@ -3,8 +3,7 @@ title: Configuring MED-V Workspace Policies
 description: Configuring MED-V Workspace Policies
 author: aczechowski
 ms.assetid: 0eaed981-cbf3-4b16-a4b7-4705c5705dc7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -29,41 +28,41 @@ It is important to decide on the type of MED-V workspace you are creating before
 **Note**  
 When configuring a policy, a warning symbol appears next to mandatory fields that are not filled in. If a mandatory field is not filled in, the symbol appears on the tab as well.
 
- 
+
 
 ## In This Section
 
 
-<a href="" id="how-to-apply-general-settings-to-a-med-v-workspace"></a>[How to Apply General Settings to a MED-V Workspace](how-to-apply-general-settings-to-a-med-v-workspace.md)  
+<a href="" id="how-to-apply-general-settings-to-a-med-v-workspace"></a>[How to Apply General Settings to a MED-V Workspace](how-to-apply-general-settings-to-a-med-v-workspace.md)
 Describes the general settings of a MED-V workspace, and how to apply them to a policy.
 
-<a href="" id="how-to-apply-virtual-machine-settings-to-a-med-v-workspace"></a>[How to Apply Virtual Machine Settings to a MED-V Workspace](how-to-apply-virtual-machine-settings-to-a-med-v-workspace.md)  
+<a href="" id="how-to-apply-virtual-machine-settings-to-a-med-v-workspace"></a>[How to Apply Virtual Machine Settings to a MED-V Workspace](how-to-apply-virtual-machine-settings-to-a-med-v-workspace.md)
 Describes the virtual machine settings for a MED-V workspace, and how to apply them to a policy.
 
-<a href="" id="how-to-configure-a-domain-user-or-group"></a>[How to Configure a Domain User or Group](how-to-configure-a-domain-user-or-groupmedvv2.md)  
+<a href="" id="how-to-configure-a-domain-user-or-group"></a>[How to Configure a Domain User or Group](how-to-configure-a-domain-user-or-groupmedvv2.md)
 Describes how to configure domain users and groups.
 
-<a href="" id="how-to-configure-published-applications"></a>[How to Configure Published Applications](how-to-configure-published-applicationsmedvv2.md)  
+<a href="" id="how-to-configure-published-applications"></a>[How to Configure Published Applications](how-to-configure-published-applicationsmedvv2.md)
 Describes published applications and menus, and how to apply them to a policy.
 
-<a href="" id="how-to-configure-web-settings-for-a-med-v-workspace"></a>[How to Configure Web Settings for a MED-V Workspace](how-to-configure-web-settings-for-a-med-v-workspace.md)  
+<a href="" id="how-to-configure-web-settings-for-a-med-v-workspace"></a>[How to Configure Web Settings for a MED-V Workspace](how-to-configure-web-settings-for-a-med-v-workspace.md)
 Describes the Web settings available for a MED-V workspace, and how to apply them to a policy.
 
-<a href="" id="how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace"></a>[How to Configure the Virtual Machine Setup for a MED-V Workspace](how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace.md)  
+<a href="" id="how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace"></a>[How to Configure the Virtual Machine Setup for a MED-V Workspace](how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace.md)
 Describes the virtual machine setup for a MED-V workspace, and how to apply it to a policy.
 
-<a href="" id="how-to-apply-network-settings-to-a-med-v-workspace"></a>[How to Apply Network Settings to a MED-V Workspace](how-to-apply-network-settings-to-a-med-v-workspace.md)  
+<a href="" id="how-to-apply-network-settings-to-a-med-v-workspace"></a>[How to Apply Network Settings to a MED-V Workspace](how-to-apply-network-settings-to-a-med-v-workspace.md)
 Describes the network settings of a MED-V workspace, and how to apply them to a policy.
 
-<a href="" id="how-to-apply-performance-settings-to-a-med-v-workspace"></a>[How to Apply Performance Settings to a MED-V Workspace](how-to-apply-performance-settings-to-a-med-v-workspace.md)  
+<a href="" id="how-to-apply-performance-settings-to-a-med-v-workspace"></a>[How to Apply Performance Settings to a MED-V Workspace](how-to-apply-performance-settings-to-a-med-v-workspace.md)
 Describes the performance settings of a MED-V workspace, and how to apply them to a policy.
 
-<a href="" id="how-to-import-and-export-a-policy"></a>[How to Import and Export a Policy](how-to-import-and-export-a-policy.md)  
+<a href="" id="how-to-import-and-export-a-policy"></a>[How to Import and Export a Policy](how-to-import-and-export-a-policy.md)
 Describes how to import and export a policy.
 
- 
 
- 
+
+
 
 
 

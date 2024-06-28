@@ -3,8 +3,7 @@ title: How to Install the App-V Databases and Convert the Associated Security Id
 description: How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
 author: aczechowski
 ms.assetid: 2be6fb72-f3a6-4550-bba1-6defa78ca08a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -133,9 +132,9 @@ Before attempting this procedure, you should read and understand the information
    For example,
 
    **.\\ConvertToSID.ps1 DOMAIN\\user\_account1 DOMAIN\\machine\_account1$ DOMAIN\\user\_account2 | Format-List**
-   
+
    or
-   
+
    **$accountsArray = @("DOMAIN\\user\_account1", "DOMAIN\\machine\_account1$", "DOMAIN\_user\_account2")**
    **.\\ConvertToSID.ps1 $accountsArray | Write-Output -FilePath .\\SIDs.txt -Width 200**
 

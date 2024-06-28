@@ -3,8 +3,7 @@ title: Planning How to Secure the MBAM Websites
 description: Planning How to Secure the MBAM Websites
 author: aczechowski
 ms.assetid: aea1d137-62cf-4da4-9989-541e0b5ad8d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -57,7 +56,7 @@ We recommend that you use a certificate to secure the communication between the:
 
 For information about requesting and installing a certificate, see [Configuring Internet Server Certificates](https://technet.microsoft.com/library/cc731977.aspx).
 
-**Note**  
+**Note**
 You can configure the websites and web services on different servers only if you are using Windows PowerShell. If you use the MBAM Server Configuration wizard to configure the websites, you must configure the websites and the web services on the same server.
 
 

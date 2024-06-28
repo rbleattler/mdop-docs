@@ -3,8 +3,7 @@ title: Troubleshooting UE-V 1.0
 description: Troubleshooting UE-V 1.0
 author: aczechowski
 ms.assetid: e40f46a9-34f6-40ee-801b-9bf91f65c0e1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

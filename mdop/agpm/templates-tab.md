@@ -3,8 +3,7 @@ title: Templates Tab
 description: Templates Tab
 author: aczechowski
 ms.assetid: 5676e9f9-eb52-49e1-a55d-15c1059af368
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -30,7 +29,7 @@ Because a template cannot be altered, templates have no history. However, like a
 **Note**  
 A template is an uneditable, static version of a GPO for use as a starting point for creating new, editable GPOs.
 
- 
+
 
 Right-clicking the **Group Policy Objects** list on this tab displays a shortcut menu, including whichever of the following options are applicable.
 
@@ -56,7 +55,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+
 
 ## Reports
 
@@ -84,7 +83,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+
 
 ## Template management
 
@@ -116,7 +115,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+
 
 ## Miscellaneous
 
@@ -144,7 +143,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+
 
 ### Additional references
 
@@ -154,9 +153,9 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 
 -   [Performing Reviewer Tasks](performing-reviewer-tasks.md)
 
- 
 
- 
+
+
 
 
 

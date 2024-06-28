@@ -3,8 +3,7 @@ title: How to Determine Which Type of Application to Sequence (App-V 4.6 SP1)
 description: How to Determine Which Type of Application to Sequence (App-V 4.6 SP1)
 author: aczechowski
 ms.assetid: 936abee2-98f1-45fb-9f0d-786e1d7464b1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -55,16 +54,16 @@ Use the following table to determine which type of application you should sequen
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Tasks for the Application Virtualization Sequencer (App-V 4.6 SP1)](tasks-for-the-application-virtualization-sequencer--app-v-46-sp1-.md)
 
- 
 
- 
+
+
 
 
 

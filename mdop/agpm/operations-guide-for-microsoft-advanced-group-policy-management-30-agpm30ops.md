@@ -3,8 +3,7 @@ title: Operations Guide for Microsoft Advanced Group Policy Management 3.0
 description: Operations Guide for Microsoft Advanced Group Policy Management 3.0
 author: aczechowski
 ms.assetid: aaefe6d1-a9e5-43eb-b4d8-85880798cb8b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

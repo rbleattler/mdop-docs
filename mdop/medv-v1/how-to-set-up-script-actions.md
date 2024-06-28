@@ -3,8 +3,7 @@ title: How to Set Up Script Actions
 description: How to Set Up Script Actions
 author: aczechowski
 ms.assetid: 367e28f1-d8c2-4845-a01b-2fff9128ccfd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -46,10 +45,10 @@ The following is a list of actions that can be added to the domain setup script:
     **Note**  
     **Rename Computer** is configured in the **VM Settings** tab. For more information, see [How to Configure VM Computer Name Pattern Properties](how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md).
 
-     
 
 
-**Note**  
+
+**Note**
 To rename a computer, Windows must be restarted. It is recommended to add a Restart Windows action following a Rename Computer action.
 
 
@@ -59,12 +58,12 @@ To rename a computer, Windows must be restarted. It is recommended to add a Rest
 
 5. Click **OK**.
 
-**Note**  
+**Note**
 When running the Join Domain script, for the script to work, the user logged into the MED-V workspace virtual machine must have local administrator rights.
 
 
 
-**Note**  
+**Note**
 When running the Disable Auto-Logon script, it is recommended to disable the local guest account used for the auto-logon once the initial setup is complete.
 
 
@@ -115,13 +114,13 @@ When running the Disable Auto-Logon script, it is recommended to disable the loc
 <strong>Warning</strong><br/><p>Only a single level OU is supported as is shown in the example above.</p>
 </div>
 <div>
- 
+
 </div></td>
 </tr>
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-checkconnectivityproperties"></a>
 
@@ -154,7 +153,7 @@ When running the Disable Auto-Logon script, it is recommended to disable the loc
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-commandlineproperties"></a>
 
@@ -213,7 +212,7 @@ When running the Disable Auto-Logon script, it is recommended to disable the loc
 </tbody>
 </table>
 
- 
+
 
 When configuring the command-line action, several variables can be used as defined in the following table.
 
@@ -254,7 +253,7 @@ When configuring the command-line action, several variables can be used as defin
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -263,9 +262,9 @@ When configuring the command-line action, several variables can be used as defin
 
 [How to Configure VM Computer Name Pattern Properties](how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Administering App-V by Using PowerShell
 description: Administering App-V by Using PowerShell
 author: aczechowski
 ms.assetid: 1ff4686a-1e19-4eff-b648-ada091281094
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -79,7 +78,7 @@ Use the following PowerShell procedures to perform various App-V 5.0 tasks.
 </tbody>
 </table>
 
- 
+
 
 ## PowerShell Error Handling
 
@@ -116,7 +115,7 @@ Use the following table for information about App-V 5.0 PowerShell error handlin
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -128,9 +127,9 @@ Use the following table for information about App-V 5.0 PowerShell error handlin
 
 [Operations for App-V 5.0](operations-for-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

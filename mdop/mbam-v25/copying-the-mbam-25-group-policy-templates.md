@@ -3,8 +3,7 @@ title: Copying the MBAM 2.5 Group Policy Templates
 description: Copying the MBAM 2.5 Group Policy Templates
 author: aczechowski
 ms.assetid: e526ecec-07ff-435e-bc90-3084b617b84b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -30,7 +29,7 @@ MDOP Group Policy templates are available for download in a self-extracting, com
 
 2. Run the downloaded file to extract the template folders.
 
-   **Warning**  
+   **Warning**
    Do not extract the templates directly to the Group Policy deployment directory. Multiple technologies and versions are bundled in this file.
 
 

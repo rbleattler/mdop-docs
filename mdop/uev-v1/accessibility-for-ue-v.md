@@ -3,8 +3,7 @@ title: Accessibility for UE-V
 description: Accessibility for UE-V
 author: aczechowski
 ms.assetid: 059a76e5-bcf0-4459-b5d2-8b71ff2ef433
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -32,7 +31,7 @@ You can access most commands by using two keystrokes. To use an access key:
 **Note**  
 To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
- 
+
 
 ### Documentation in alternative formats
 
@@ -71,7 +70,7 @@ For information about the availability of Microsoft product documentation and bo
 </tbody>
 </table>
 
- 
+
 
 ### Customer service for people with hearing impairments
 
@@ -93,9 +92,9 @@ For more information about how accessible technology for computers can help to i
 
 [Getting Started With User Experience Virtualization 1.0](getting-started-with-user-experience-virtualization-10.md)
 
- 
 
- 
+
+
 
 
 

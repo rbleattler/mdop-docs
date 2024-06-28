@@ -3,8 +3,7 @@ title: Install and Configure MBAM on Distributed Servers
 description: How to Install and Configure MBAM on Distributed Servers
 author: aczechowski
 ms.assetid: 67b91e6b-ae2e-4e47-9ef2-6819aba95976
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -20,7 +19,7 @@ The procedures in this topic describe how to install Microsoft BitLocker Adminis
 
 Each server feature has certain prerequisites. To verify that you have met the prerequisites and hardware and software requirements, see [MBAM 2.0 Deployment Prerequisites](mbam-20-deployment-prerequisites-mbam-2.md) and [MBAM 2.0 Supported Configurations](mbam-20-supported-configurations-mbam-2.md). In addition, some features require that you provide certain information during the installation process to successfully deploy the feature. You should also review [Planning for MBAM 2.0 Server Deployment](planning-for-mbam-20-server-deployment-mbam-2.md) before you start the MBAM deployment.
 
-**Note**  
+**Note**
 To obtain the setup log files, you have to use the Msiexec package and the **/L** &lt;location&gt; option to install MBAM. Log files are created in the location that you specify.
 
 Additional setup log files are created in the %temp% folder on the server of the user who is installing MBAM.
@@ -42,7 +41,7 @@ The following steps describe how to install general MBAM features.
 
 4.  On the **Topology Selection** page, select the **Stand-alone** topology, and then click **Next**.
 
-    **Note**  
+    **Note**
     If you want to install MBAM with the Configuration Manager integrated topology, see [Deploying MBAM with Configuration Manager](deploying-mbam-with-configuration-manager-mbam2.md).
 
 
@@ -61,7 +60,7 @@ The following steps describe how to install general MBAM features.
 
     -   MBAM Group Policy template
 
-    **Note**  
+    **Note**
     The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing. If all of the prerequisites are met, the installation continues. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again**. If all prerequisites are met this time, the installation resumes.
 
 
@@ -69,7 +68,7 @@ The following steps describe how to install general MBAM features.
 
 The MBAM Setup wizard displays installation pages for the features that you select. The following sections describe the installation procedures for each feature.
 
-**Note**  
+**Note**
 For the following instructions, it is assumed that each feature is to be installed on a separate server. If you install multiple features on a single server, you can change or eliminate some steps.
 
 
@@ -91,7 +90,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 2.  Specify the computer names of the computers that will be running the Administration and Monitoring Server and the Compliance and Audit Reports. After the Administration and Monitoring and the Compliance and Audit Reports Server are deployed, they use their domain accounts to connect to the databases.
 
-    **Note**  
+    **Note**
     If you are installing the Compliance and Audit Database without the Compliance and Audit Reports feature, you must add an exception on the Compliance and Audit Database computer to enable inbound traffic on the Microsoft SQL Server port. The default port number is 1433.
 
 
@@ -104,7 +103,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 1.  On the **Configure the Compliance and Audit Reports** page, specify the remote SQL Server instance name (for example, &lt;ServerName&gt;) where the Compliance and Audit Database was installed.
 
-    **Note**  
+    **Note**
     If you are installing the Compliance and Audit Reports without the Administration and Monitoring Server, you must add an exception on the Compliance and Audit Report computer to enable inbound traffic on the Reporting Server port (the default port is 80).
 
 
@@ -137,7 +136,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 9.  Enter the **Port Number**, the **Host Name** (optional), and the **Installation Path** for the MBAM Administration and Monitoring Server.
 
-    **Note**  
+    **Note**
     The port number that you specify must be an unused port number on the Administration and Monitoring server unless you specify a unique host header name. If you are using Windows Firewall, the port will be opened automatically.
 
 
@@ -152,7 +151,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 14. Click **Finish** to exit the wizard.
 
-    **Note**  
+    **Note**
     To configure the Self-Service Portal after you installed it, brand the Self-Service Portal with your company name and other company-specific information, see [How to Brand the Self-Service Portal](how-to-brand-the-self-service-portal.md) for instructions.
 
 
@@ -179,7 +178,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 5. Expand **Sites** &gt; **Microsoft BitLocker Administration and Monitoring**, and highlight **SelfService**.
 
-   **Note**  
+   **Note**
    *SelfService* is the default virtual directory name. If you chose a different name for this directory during installation, remember to replace *SelfService* in the rest of these instructions with the name you chose.
 
 
@@ -218,7 +217,7 @@ For the following instructions, it is assumed that each feature is to be install
 
    http://<em>&lt;NameofMBAMReportsServer&gt;/</em>ReportServer
 
-   **Note**  
+   **Note**
    If SQL Server Reporting Services was configured as a named instance, the URL resembles the following: http://*&lt;NameofMBAMReportsServer&gt;*/ReportServer\_*&lt;SRSInstanceName&gt;*.
 
 
@@ -227,7 +226,7 @@ For the following instructions, it is assumed that each feature is to be install
 
 11. Enter the **Port Number**, the **Host Name** (optional), and the **Installation Path** for the MBAM Administration and Monitoring Server.
 
-    **Note**  
+    **Note**
     The port number that you specify must be an unused port number on the Administration and Monitoring server unless you specify a unique host header name. If you are using Windows Firewall, the port will be opened automatically.
 
 
@@ -254,7 +253,7 @@ For the following instructions, it is assumed that each feature is to be install
 
     -   **MBAM Report Users**: Members of this local group can access the reports on the MBAM Administration and Monitoring website.
 
-    **Note**  
+    **Note**
     Identical user or group membership of the **MBAM Report Users** local group must be maintained on all computers where the MBAM Administration and Monitoring Server features, Compliance and Audit Database, and the Compliance and Audit Reports are installed.
 
 
@@ -268,7 +267,7 @@ When Microsoft BitLocker Administration and Monitoring Server feature installati
 
 1. On each server where an MBAM feature is deployed, open **Control Panel**, select **Programs**, and then select **Programs and Features**. Verify that **Microsoft BitLocker Administration and Monitoring** appears in the **Programs and Features** list.
 
-   **Note**  
+   **Note**
    To validate the MBAM installation, you must use a domain account that has local computer administrative credentials on each server.
 
 
@@ -283,13 +282,13 @@ When Microsoft BitLocker Administration and Monitoring Server feature installati
 
    Confirm that a reports folder named **Microsoft BitLocker Administration and Monitoring** contains a data source called **MaltaDataSource** and that an **en-us** folder contains four reports.
 
-   **Note**  
+   **Note**
    If SQL Server Reporting Services was configured as a named instance, the URL should resemble the following:http://*&lt;NameofMBAMReportsServer&gt;*/Reports\_*&lt;SRSInstanceName&gt;*
 
 
 
 
-**Note**  
+**Note**
 If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the reports will be set to HTTP instead of HTTPS when you install the MBAM Server. If you then go to the Administration and Monitoring website and select a report, the following message appears: “Only Secure Content is Displayed.” To show the report, click **Show All Content**.
 
 
@@ -301,7 +300,7 @@ If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the rep
 
 7. On the server where the Administration and Monitoring features and Self-Service Portal are installed, open a web browser with administrative credentials and browse to the following locations to verify that they load successfully.
 
-   **Note**  
+   **Note**
    The URLs ending in “.svc” do not display a website. Success is indicated by the message “Metadata publishing for this service is currently disabled” or by information resembling code. If you see some other error message or if the page cannot be found, the page has not loaded successfully.
 
 
@@ -319,7 +318,7 @@ If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the rep
 
 -   *http://&lt;computername&gt;/MBAMRecoveryAndHardwareService/CoreService.svc*
 
-**Note**  
+**Note**
 It is assumed that the server features were installed on the default port without network encryption. If you installed the server features on a different port or virtual directory, change the URLs to include the appropriate port, for example, *http://&lt;hostname&gt;:&lt;port&gt;/HelpDesk/default.aspx* or*http://&lt;hostname&gt;:&lt;port&gt;/&lt;virtualdirectory&gt;/default.aspx*
 
 If the server features were installed with network encryption, change http:// to https://.

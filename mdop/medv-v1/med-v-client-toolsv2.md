@@ -3,8 +3,7 @@ title: MED-V Client Tools
 description: MED-V Client Tools
 author: aczechowski
 ms.assetid: ea18d82e-2433-4754-85ac-6eac84bcbb01
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -32,7 +31,7 @@ The File Transfer Tool can be used to copy files or folders from the MED-V works
 **Note**  
 The File Transfer Tool is enabled only when the MED-V workspace is running.
 
- 
+
 
 **To copy files or folders from a MED-V workspace that is currently running**
 
@@ -100,9 +99,9 @@ The following functions can be performed using the diagnostic tool:
 
 -   Browse image store—View all available MED-V workspace images.
 
- 
 
- 
+
+
 
 
 

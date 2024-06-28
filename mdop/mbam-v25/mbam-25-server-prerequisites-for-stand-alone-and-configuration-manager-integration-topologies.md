@@ -3,8 +3,7 @@ title: MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager I
 description: MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies
 author: aczechowski
 ms.assetid: 76a6047a-5c6e-42ff-af09-a6f382a69537
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -23,7 +22,7 @@ If you're deploying MBAM with System Center Configuration Manager, you must comp
 
 For a list of the supported hardware and operating systems for MBAM, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 
-**Important**  
+**Important**
 If BitLocker was used without MBAM, you must decrypt the drive and then clear TPM using tpm.msc. MBAM can't take ownership of TPM if the client PC is already encrypted and the TPM owner password created.
 
 
@@ -262,7 +261,7 @@ The following table lists the installation prerequisites for the MBAM Administra
 <ul>
 <li><p><strong>.NET Framework 4.5 or 4.6</strong></p>
 <ul>
-<li><p><strong>Windows Server 2016</strong> - .NET Framework 4.6 is already installed for these versions of Windows Server, but you must enable it.</p></li>  
+<li><p><strong>Windows Server 2016</strong> - .NET Framework 4.6 is already installed for these versions of Windows Server, but you must enable it.</p></li>
 <li><p><strong>Windows Server 2012 or Windows Server 2012 R2</strong> - .NET Framework 4.5 is already installed for these versions of Windows Server, but you must enable it.</p></li>
 <li><p><strong>Windows Server 2008 R2</strong> - .NET Framework 4.5 isn't included with Windows Server 2008 R2, so you must <a href="https://go.microsoft.com/fwlink/?LinkId=392318" data-raw-source="[download Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?LinkId=392318)">download Microsoft .NET Framework 4.5</a> and install it separately.</p>
 <div class="alert">

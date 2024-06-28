@@ -3,8 +3,7 @@ title: Client Configuration Settings
 description: Client Configuration Settings
 author: aczechowski
 ms.assetid: 18bb307a-7eda-4dd6-a83e-6afaefd99470
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -46,8 +45,8 @@ The following table displays information about the App-V 5.1 client configuratio
 | UserRefreshInterval<br>**Note** This setting cannot be modified using the **set-AppvclientConfiguration** cmdLet. You must use the **Set-AppvPublishingServer** cmdlet. | USERREFRESHINTERVAL | Specifies the publishing refresh interval using the UserRefreshIntervalUnit. To disable package refresh, select 0. | Word count (with spaces): 85<br>Integer (0-744 Hours) | Publishing\Servers\{serverId}\UserPeriodicRefreshInterval | 0 |
 | UserRefreshIntervalUnit<br>**Note** This setting cannot be modified using the **set-AppvclientConfiguration** cmdLet. You must use the **Set-AppvPublishingServer** cmdlet. | USERREFRESHINTERVALUNIT | Specifies the interval unit (Hour 0-23, Day 0-31). | 0 for hour, 1 for day | Publishing\Servers\{serverId}\UserPeriodicRefreshIntervalUnit | 1 |
 | MigrationMode | MIGRATIONMODE | Migration mode allows the App-V client to modify shortcuts and FTA’s for packages created using a previous version of App-V. | True(enabled state); False (disabled state) | Coexistence\MigrationMode | |
-| CEIPOPTIN | CEIPOPTIN | Allows the computer running the App-V 5.1 Client to collect and return certain usage information to help allow us to further improve the application. | 0 for disabled; 1 for enabled | SOFTWARE/Microsoft/AppV/CEIP/CEIPEnable | 0 | 
-| EnablePackageScripts | ENABLEPACKAGESCRIPTS | Enables scripts defined in the package manifest of configuration files that should run. | True(enabled); False(Disabled state) | \Scripting\EnablePackageScripts | | 
+| CEIPOPTIN | CEIPOPTIN | Allows the computer running the App-V 5.1 Client to collect and return certain usage information to help allow us to further improve the application. | 0 for disabled; 1 for enabled | SOFTWARE/Microsoft/AppV/CEIP/CEIPEnable | 0 |
+| EnablePackageScripts | ENABLEPACKAGESCRIPTS | Enables scripts defined in the package manifest of configuration files that should run. | True(enabled); False(Disabled state) | \Scripting\EnablePackageScripts | |
 | RoamingFileExclusions | ROAMINGFILEEXCLUSIONS | Specifies the file paths relative to %userprofile% that do not roam with a user's profile. Example usage:  /ROAMINGFILEEXCLUSIONS='desktop;my pictures' | | | |
 | RoamingRegistryExclusions | ROAMINGREGISTRYEXCLUSIONS | Specifies the registry paths that do not roam with a user profile. Example usage: /ROAMINGREGISTRYEXCLUSIONS=software\\classes;software\\clients | String | Integration\RoamingRegistryExclusions | Policy value not written (same as Not Configured) |
 | IntegrationRootUser | Not available. | Specifies the location to create symbolic links associated with the current version of a per-user published package. all virtual application extensions, for example shortcuts and file type associations, will point to this path. If you do not specify a path, symbolic links will not be used when you publish the package. For example: %localappdata%\Microsoft\AppV\Client\Integration.| String | Integration\IntegrationRootUser | Policy value not written (same as Not Configured) |

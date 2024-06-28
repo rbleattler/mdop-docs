@@ -3,8 +3,7 @@ title: Deploying the MBAM 2.5 Server Infrastructure
 description: Deploying the MBAM 2.5 Server Infrastructure
 author: aczechowski
 ms.assetid: e85a60cf-4cc1-4906-8da3-442232c374af
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -47,18 +46,18 @@ To deploy the Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 Serve
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Deploying MBAM 2.5](deploying-mbam-25.md)
 
- 
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
- 
+
 
 
 

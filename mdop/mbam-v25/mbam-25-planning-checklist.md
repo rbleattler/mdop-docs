@@ -3,8 +3,7 @@ title: MBAM 2.5 Planning Checklist
 description: MBAM 2.5 Planning Checklist
 author: aczechowski
 ms.assetid: ffe11eb8-44db-4886-8300-6dffec8bcfa4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -125,7 +124,7 @@ You can use the following checklists to help you prepare your computing environm
 </tbody>
 </table>
 
- 
+
 
 
 ## Related topics
@@ -133,9 +132,9 @@ You can use the following checklists to help you prepare your computing environm
 
 [Planning for MBAM 2.5](planning-for-mbam-25.md)
 
- 
 
- 
+
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).

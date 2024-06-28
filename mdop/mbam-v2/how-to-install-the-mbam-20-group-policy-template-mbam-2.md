@@ -3,8 +3,7 @@ title: How to Install the MBAM 2.0 Group Policy Template
 description: How to Install the MBAM 2.0 Group Policy Template
 author: aczechowski
 ms.assetid: bc193232-d060-4285-842e-d194a74dd3c9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -23,7 +22,7 @@ The following steps describe how to install the MBAM Group Policy template.
 **Note**  
 Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup on 64-bit servers.
 
- 
+
 
 **To install the MBAM Group Policy template**
 
@@ -38,7 +37,7 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
     **Note**  
     The installation wizard checks the prerequisites for your installation and displays prerequisites that are missing. If all the prerequisites are met, the installation continues. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again**. Once all prerequisites are met, the installation will resume.
 
-     
+
 
 5.  For specific steps about how and where to install the templates, see [How to Download and Deploy MDOP Group Policy (.admx) Templates](https://technet.microsoft.com/library/dn659707.aspx).
 
@@ -49,9 +48,9 @@ Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup o
 
 [Deploying MBAM 2.0 Group Policy Objects](deploying-mbam-20-group-policy-objects-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

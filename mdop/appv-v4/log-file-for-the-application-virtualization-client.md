@@ -3,8 +3,7 @@ title: Log File for the Application Virtualization Client
 description: Log File for the Application Virtualization Client
 author: aczechowski
 ms.assetid: ac4b3e4a-a220-4c06-bd60-af7dc318b3a9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

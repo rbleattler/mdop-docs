@@ -3,8 +3,7 @@ title: About Microsoft Application Virtualization 4.5 SP2
 description: About Microsoft Application Virtualization 4.5 SP2
 author: aczechowski
 ms.assetid: c498adbe-e331-42c8-99fe-29623fae2345
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 08/30/2016
 
 This service pack contains the following changes:
 
--   Support for Office 2010: Microsoft Application Virtualization (App-V) 4.5 SP2 now supports the virtualization of Microsoft Office 2010. 
+-   Support for Office 2010: Microsoft Application Virtualization (App-V) 4.5 SP2 now supports the virtualization of Microsoft Office 2010.
 
 -   Support for Database Mirroring: App-V 4.5 SP2 now supports Microsoft SQL Server Database Mirroring. For more information about configuring database mirroring in your App-V environment, see [How to Configure Microsoft SQL Server Mirroring Support for App-V](https://go.microsoft.com/fwlink/?LinkId=190880) (https://go.microsoft.com/fwlink/?LinkId=190880).
 
@@ -26,7 +25,7 @@ This service pack contains the following changes:
 
 ## In This Section
 
-<a href="" id="app-v-4-5-sp2-release-notes"></a>[App-V 4.5 SP2 Release Notes](app-v-45-sp2-release-notes.md)  
+<a href="" id="app-v-4-5-sp2-release-notes"></a>[App-V 4.5 SP2 Release Notes](app-v-45-sp2-release-notes.md)
 Provides the most up-to-date information about known issues with App-V 4.5 SP2.
 
  

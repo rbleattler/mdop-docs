@@ -3,8 +3,7 @@ title: How to Sequence a New Application
 description: How to Sequence a New Application
 author: aczechowski
 ms.assetid: e01e98cd-2378-478f-9739-f72c465bf79a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -30,7 +29,7 @@ After you successfully sequence the application, it is available in the App-V Se
 
 3.  On the **Package Information** page, specify the **Package Name** that will be assigned to the virtual application. The package name is required for generating the associated Windows Installer file. You should also add an optional comment that will be assigned to the package and that provides detailed information about the virtual application. To display the **Advanced Options** page, select **Show Advanced Monitoring Options**. Click **Next**.
 
-    **Note**  
+    **Note**
     To display the **Advanced Options** page, you must select **Show Advanced Monitoring Options**. If you do not require the **Advanced Options** page, skip to step 4.
 
 
@@ -39,7 +38,7 @@ After you successfully sequence the application, it is available in the App-V Se
 
 5.  On the **Monitor Installation** page, to monitor the installation of an application, click **Begin Monitoring**. After you click **Begin Monitoring**, specify the directory on the Q:\\ drive where the application will be installed. To install the application to a folder that has not been created, click **Make New Folder**. You must install each application that you sequence into a separate directory.
 
-    **Important**  
+    **Important**
     The folder name you specify must not be longer than 8 characters.
 
 

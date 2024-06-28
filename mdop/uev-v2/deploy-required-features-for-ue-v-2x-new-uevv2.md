@@ -3,8 +3,7 @@ title: Deploy Required Features for UE-V 2.x
 description: Deploy Required Features for UE-V 2.x
 author: aczechowski
 ms.assetid: 10399bb3-cc7b-4578-bc0c-2f6b597abe4d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -44,7 +43,7 @@ UE-V requires a location in which to store user settings in settings package fil
 
 If you don’t create a settings storage location, the UE-V Agent will use Active Directory (AD) by default.
 
-**Note**  
+**Note**
 As a matter of [performance and capacity planning](https://technet.microsoft.com/library/dn458932.aspx#capacity) and to reduce problems with network latency, create settings storage locations on the same local networks where the users’ computers reside. We recommend 20 MB of disk space per user for the settings storage location.
 
 
@@ -141,7 +140,7 @@ The UE-V Agent dynamically creates a user-specific settings storage path, with a
 
 With this configuration, the UE-V Agent creates and secures a Settingspackage folder while it runs in the context of the user, and grants each user permission to create folders for settings storage. Users receive full control to their Settingspackage folder while other users cannot access it.
 
-**Note**  
+**Note**
 If you create the settings storage share on a computer running a Windows Server operating system, configure UE-V to verify that either the local Administrators group or the current user is the owner of the folder where settings packages are stored. To enable this additional security, specify this setting in the Windows Server Registry Editor:
 
 1.  Add a **REG\_DWORD** registry key named **"RepositoryOwnerCheckEnabled"** to **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\UEV\\Agent\\Configuration**.
@@ -175,7 +174,7 @@ You can configure UE-V before, during, or after UE-V Agent installation, dependi
 
 -   [Windows PowerShell and WMI](https://technet.microsoft.com/library/dn458937.aspx)**:** You can use scripted commands for Windows PowerShell and Windows Management Instrumentation (WMI) to modify configurations after you install the UE-V Agent.
 
-    **Note**  
+    **Note**
     Registry modification can result in data loss, or the computer becomes unresponsive. We recommend that you use other configuration methods.
 
 
@@ -189,7 +188,7 @@ The UE-V Agent is the core of a UE-V deployment and must run on each computer th
 
 **UE-V Agent Installation Files:** A single installation file, AgentSetup.exe, installs the UE-V Agent on both 32-bit and 64-bit operating systems. In addition, AgentSetupx86.msi or AgentSetupx64.msi architecture-specific Windows Installer files are provided, and since they are smaller, they might streamline the agent deployments. The [command-line parameters for the AgentSetup.exe installer](#params) are supported for the Windows Installer installation as well.
 
-**Important**  
+**Important**
 During UE-V Agent installation or uninstallation, you can either use the AgentSetup.exe file or the AgentSetup&lt;arch&gt;.msi file, but not both. The same file must be used to uninstall the UE-V Agent that was used to install the UE-V Agent.
 
 
@@ -264,7 +263,7 @@ Use the following procedure to deploy the UE-V Agent from a network share.
 
 
 
-**Note**  
+**Note**
 The installation of the UE-V Agent requires administrator rights, and the computer requires a restart before the UE-V Agent can run.
 
 
@@ -397,7 +396,7 @@ During a UE-V Agent upgrade, the default group of settings location templates fo
 
 The UE-V 2.x Agent introduces many new features and modifies how and when the agent uploads content to the settings storage share. The upgrade process automates these changes. To upgrade the UE-V Agent, run the UE-V Agent install package (AgentSetup.exe, AgentSetupx86.msi, or AgentSetupx64.msi) on users’ computers.
 
-**Note**  
+**Note**
 When you upgrade the UE-V Agent, you must use the same installer type (.exe file or .msi packet) that installed the previous UE-V Agent. For example, use the UE-V 2 AgentSetup.exe to upgrade UE-V 1.0 Agents that were installed by using AgentSetup.exe.
 
 
@@ -410,7 +409,7 @@ The following configurations are preserved when the Agent Setup program runs:
 
 -   Scheduled tasks (Interval settings are reset to their defaults)
 
-**Note**  
+**Note**
 A computer with UE-V 2.x settings location templates that are registered in the UE-V 1.0 Agent register errors in the Windows Event Log.
 
 

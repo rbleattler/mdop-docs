@@ -3,8 +3,7 @@ title: Troubleshooting MBAM 1.0
 description: Troubleshooting MBAM 1.0
 author: aczechowski
 ms.assetid: 7d47fbfe-51c0-4619-bed3-163dfd18cdec
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

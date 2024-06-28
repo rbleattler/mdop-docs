@@ -3,8 +3,7 @@ title: Verify Applications Page (Package Accelerators)
 description: Verify Applications Page (Package Accelerators)
 author: aczechowski
 ms.assetid: e58a37db-d042-453f-aa0d-2f324600a35b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -30,13 +29,13 @@ You can add or edit the following types of information. Only the application **N
 
 This page contains the following elements:
 
-<a href="" id="add"></a>**Add**  
+<a href="" id="add"></a>**Add**
 Adds a new installation file dependency that will be required when the Package Accelerator is applied.
 
-<a href="" id="delete"></a>**Delete**  
+<a href="" id="delete"></a>**Delete**
 Deletes a selected dependency file that is currently part of the Package Accelerator.
 
-<a href="" id="edit"></a>**Edit**  
+<a href="" id="edit"></a>**Edit**
 Enables you to edit the properties associated with the selected installer file’s dependency.
 
 ## Related topics

@@ -3,8 +3,7 @@ title: How to Upgrade a Virtual Application Package (App-V 4.6)
 description: How to Upgrade a Virtual Application Package (App-V 4.6)
 author: aczechowski
 ms.assetid: 3566227e-f3dc-4c32-af1f-e0211588118c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -27,7 +26,7 @@ Use the following procedure to upgrade an existing virtual application by using 
     **Warning**  
     You must specify the root folder of the existing virtual application. Do not manually create a subfolder or the upgrade will fail.
 
-     
+
 
 3.  On the **Package Information** page, specify the **Package Name** that will be assigned to the updated package. The package name is required for generating the associated Windows Installer file. You should also add an optional comment that will be assigned to the package and that provides detailed information about the virtual application—for example, a version number. To display the **Advanced Options** page, select **Show Advanced Monitoring Options** and click **Next**; otherwise, proceed to step 5.
 
@@ -50,9 +49,9 @@ Use the following procedure to upgrade an existing virtual application by using 
 
 [How to Sequence a New Application (App-V 4.6)](how-to-sequence-a-new-application--app-v-46-.md)
 
- 
 
- 
+
+
 
 
 

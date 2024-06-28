@@ -3,8 +3,7 @@ title: How to Edit MBAM 1.0 GPO Settings
 description: How to Edit MBAM 1.0 GPO Settings
 author: aczechowski
 ms.assetid: 03d12fbc-4302-43fc-9b38-440607d778a1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -69,7 +68,7 @@ The following steps describe how to configure the basic, recommended Group Polic
 
 
 
-**Important**  
+**Important**
 Depending on the policies that your organization decides to deploy, you may have to configure additional policies. See [Planning for MBAM 1.0 Group Policy Requirements](planning-for-mbam-10-group-policy-requirements.md) for Group Policy configuration details for all of the available MBAM GPO policy options.
 
 

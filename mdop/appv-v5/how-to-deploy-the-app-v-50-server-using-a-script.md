@@ -3,8 +3,7 @@ title: How to Deploy the App-V 5.0 Server Using a Script
 description: How to Deploy the App-V 5.0 Server Using a Script
 author: aczechowski
 ms.assetid: b91a35c8-df9e-4065-9187-abafbe565b84
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -69,7 +68,7 @@ Use the following tables for more information about installing the App-V 5.0 ser
     </tr>
     </tbody>
     </table>
-     
+
 <table>
     <colgroup>
     <col width="50%" />
@@ -151,7 +150,7 @@ Use the following tables for more information about installing the App-V 5.0 ser
     </tr>
     </tbody>
     </table>
-    
+
 <table>
     <colgroup>
     <col width="50%" />
@@ -623,7 +622,7 @@ Use the following tables for more information about installing the App-V 5.0 ser
     </tbody>
     </table>
 
-     
+
 
 ### Parameters for using an Existing Reporting Server Database
 
@@ -741,15 +740,15 @@ Use the following tables for more information about installing the App-V 5.0 ser
 </tr>
 </tbody>
 </table>
-  
+
 
 ## Related topics
 
 [Deploying the App-V 5.0 Server](deploying-the-app-v-50-server.md)
 
- 
 
- 
+
+
 
 
 

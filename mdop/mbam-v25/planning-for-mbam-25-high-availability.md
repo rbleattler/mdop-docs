@@ -3,8 +3,7 @@ title: Planning for MBAM 2.5 High Availability
 description: Planning for MBAM 2.5 High Availability
 author: aczechowski
 ms.assetid: 1e29b30c-33f1-4a52-9442-8c1391f0049c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security

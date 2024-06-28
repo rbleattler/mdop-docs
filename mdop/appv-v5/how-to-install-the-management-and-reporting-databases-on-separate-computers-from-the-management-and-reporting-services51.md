@@ -3,8 +3,7 @@ title: How to Install the Management and Reporting Databases on Separate Compute
 description: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
 author: aczechowski
 ms.assetid: 2a67402e-3119-40ea-a247-24d166af1ced
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

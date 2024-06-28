@@ -3,8 +3,7 @@ title: Install the Publishing Server on a Remote Computer
 description: How to Install the Publishing Server on a Remote Computer
 author: aczechowski
 ms.assetid: 37970706-54ff-4799-9485-b9b49fd50f37
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -69,9 +68,9 @@ Use the following procedure to install the publishing server on a separate compu
 
 [Deploying App-V 5.0](deploying-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

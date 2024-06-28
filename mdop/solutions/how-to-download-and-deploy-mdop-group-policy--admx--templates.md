@@ -3,8 +3,7 @@ title: How to Download and Deploy MDOP Group Policy (.admx) Templates
 description: How to Download and Deploy MDOP Group Policy (.admx) Templates
 author: aczechowski
 ms.assetid: fdb64505-6c66-4fdf-ad74-a6a161191e3f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: deploy
@@ -22,11 +21,11 @@ You can manage the feature settings of certain Microsoft Desktop Optimization Pa
 
 **How to download and deploy the MDOP Group Policy templates**
 
-1. Download the latest [MDOP Group Policy templates](https://www.microsoft.com/download/details.aspx?id=55531) 
+1. Download the latest [MDOP Group Policy templates](https://www.microsoft.com/download/details.aspx?id=55531)
 
 2. Expand the downloaded .cab file by running `expand <download_folder>\MDOP_ADMX_Templates.cab -F:* <destination_folder>`
 
-   **Warning**  
+   **Warning**
    Do not extract the templates directly to the Group Policy deployment directory. Multiple technologies and versions are bundled in this file.
 
 3. In the extracted folder, locate the technology-version .admx file. Certain MDOP technologies have multiple sets of Group Policy Objects (GPOs). For example, MBAM includes MBAM Management settings and MBAM User settings.

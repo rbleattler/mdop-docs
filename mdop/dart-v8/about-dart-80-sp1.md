@@ -3,8 +3,7 @@ title: About DaRT 8.0 SP1
 description: About DaRT 8.0 SP1
 author: aczechowski
 ms.assetid: 2e166444-4097-4b23-9f50-d8819f1f4960
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

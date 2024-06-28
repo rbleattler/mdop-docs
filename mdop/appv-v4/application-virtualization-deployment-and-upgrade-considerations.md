@@ -3,8 +3,7 @@ title: Considerations for Application Virtualization Deployment and Upgrade
 description: Considerations for Application Virtualization Deployment and Upgrade
 author: aczechowski
 ms.assetid: adc562ee-7276-4b14-b10a-da17f05e1682
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,19 +20,19 @@ Before you begin the deployment of Microsoft Application Virtualization, you mig
 ## In This Section
 
 
-<a href="" id="application-virtualization-deployment-requirements"></a>[Application Virtualization Deployment Requirements](application-virtualization-deployment-requirements.md)  
+<a href="" id="application-virtualization-deployment-requirements"></a>[Application Virtualization Deployment Requirements](application-virtualization-deployment-requirements.md)
 Provides general information about system requirements and upgrade considerations for your Application Virtualization deployment.
 
-<a href="" id="how-to-upgrade-the-application-virtualization-client"></a>[How to Upgrade the Application Virtualization Client](how-to-upgrade-the-application-virtualization-client.md)  
+<a href="" id="how-to-upgrade-the-application-virtualization-client"></a>[How to Upgrade the Application Virtualization Client](how-to-upgrade-the-application-virtualization-client.md)
 Provides step-by-step procedures for upgrading the Application Virtualization Desktop Client or the Application Virtualization Client for Remote Desktop Services (formerly Terminal Services).
 
-<a href="" id="how-to-upgrade-the-servers-and-system-components"></a>[How to Upgrade the Servers and System Components](how-to-upgrade-the-servers-and-system-components.md)  
+<a href="" id="how-to-upgrade-the-servers-and-system-components"></a>[How to Upgrade the Servers and System Components](how-to-upgrade-the-servers-and-system-components.md)
 Provides a step-by-step procedure you can use to upgrade the software components installed on all Application Virtualization System computers.
 
-<a href="" id="how-to-upgrade-the-application-virtualization-sequencer"></a>[How to Upgrade the Application Virtualization Sequencer](how-to-upgrade-the-application-virtualization-sequencer.md)  
+<a href="" id="how-to-upgrade-the-application-virtualization-sequencer"></a>[How to Upgrade the Application Virtualization Sequencer](how-to-upgrade-the-application-virtualization-sequencer.md)
 Provides step-by-step procedures for upgrading the Sequencer on computers running Windows Vista or Windows XP.
 
-<a href="" id="how-to-install-the-application-virtualization-sequencer"></a>[How to Install the Application Virtualization Sequencer](how-to-install-the-application-virtualization-sequencer.md)  
+<a href="" id="how-to-install-the-application-virtualization-sequencer"></a>[How to Install the Application Virtualization Sequencer](how-to-install-the-application-virtualization-sequencer.md)
 Provides a step-by-step procedure for installing the Sequencer.
 
 ## Related topics

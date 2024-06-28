@@ -3,8 +3,7 @@ title: How to Move an Application
 description: How to Move an Application
 author: aczechowski
 ms.assetid: 3ebbf30c-b435-4a69-a0ba-2313aaf0017c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ If you have application groups under the **Applications** node in the Applicatio
 **Important**  
 You must have one or more application groups under the **Applications** node to move applications.
 
- 
+
 
 **To move an application**
 
@@ -40,7 +39,7 @@ You must have one or more application groups under the **Applications** node to 
     **Note**  
     You can select and move multiple application groups simultaneously. In the right pane, use the **CTRL**-click or **Shift**-click key combinations to select more than one group.
 
-     
+
 
 ## Related topics
 
@@ -49,9 +48,9 @@ You must have one or more application groups under the **Applications** node to 
 
 [How to Manage Applications in the Server Management Console](how-to-manage-applications-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Planning for MBAM 2.5 Server Deployment
 description: Planning for MBAM 2.5 Server Deployment
 author: aczechowski
 ms.assetid: 88774c89-31c8-4eb8-a845-a00bbec8c870
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -57,7 +56,7 @@ This topic lists the features that you deploy for the MBAM Stand-alone and Confi
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="planning-for-mbam-server-deployment---stand-alone-topology"></a>Planning for MBAM Server deployment – Stand-alone topology
 
@@ -108,7 +107,7 @@ For a description of these features, see [High-Level Architecture of MBAM 2.5 wi
 
 [Deploying the MBAM 2.5 Server Infrastructure](deploying-the-mbam-25-server-infrastructure.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

@@ -3,8 +3,7 @@ title: Maintaining App-V 5.0
 description: Maintaining App-V 5.0
 author: aczechowski
 ms.assetid: 66851ec3-c674-493b-ad6d-db8fcbf1956c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

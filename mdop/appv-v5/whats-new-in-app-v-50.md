@@ -3,8 +3,7 @@ title: What's New in App-V 5.0
 description: What's New in App-V 5.0
 author: aczechowski
 ms.assetid: 79ff6e02-e926-4803-87d8-248a6b28099d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -116,7 +115,7 @@ The following table displays information about what has changed with the App-V 5
 </tbody>
 </table>
 
- 
+
 
 ## Sequencing error detection
 
@@ -164,9 +163,9 @@ There is no file or application cache available with App-V 5.0.
 
 [About App-V 5.0](about-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

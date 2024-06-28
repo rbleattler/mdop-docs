@@ -3,8 +3,7 @@ title: Using UE-V 2.x with Application Virtualization Applications
 description: Using UE-V 2.x with Application Virtualization Applications
 author: aczechowski
 ms.assetid: 4644b810-fc48-4fd0-96e4-2fc6cd64d8ad
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -35,7 +34,7 @@ UE-V monitors when an application opens by the program name and, optionally, by 
     **Note**  
     If you publish the newly created template to the settings template catalog, the client does not receive the template until the sync provider updates the settings. To manually start this process, open **Task Scheduler**, expand **Task Scheduler Library**, expand **Microsoft**, and expand **UE-V**. In the results pane, right-click **Template Auto Update**, and then click **Run**.
 
-     
+
 
 4.  Start the App-V package.
 
@@ -49,9 +48,9 @@ UE-V monitors when an application opens by the program name and, optionally, by 
 
 [Administering UE-V 2.x](administering-ue-v-2x-new-uevv2.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Use the Completion Page
 description: Use the Completion Page.
 author: aczechowski
 ms.assetid: b2c7776c-2c35-4d25-92b4-6cd8c2bdff42
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Completion** page to review the package completion report. Any issues 
 
 This page contains the following elements:
 
-<a href="" id="close"></a>**Close**  
+<a href="" id="close"></a>**Close**
 Closes the **Create New Package Wizard**.
 
 ## Related topics

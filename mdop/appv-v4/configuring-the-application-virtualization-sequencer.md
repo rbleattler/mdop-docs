@@ -3,8 +3,7 @@ title: Configuring the Application Virtualization Sequencer
 description: Configuring the Application Virtualization Sequencer
 author: aczechowski
 ms.assetid: cae1c368-9fcd-454e-8fc9-0893345d55bf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,16 +22,16 @@ Click any link in the following section for information about configuring your e
 ## In This Section
 
 
-<a href="" id="how-to-install-the-sequencer"></a>[How to Install the Sequencer](how-to-install-the-sequencer.md)  
+<a href="" id="how-to-install-the-sequencer"></a>[How to Install the Sequencer](how-to-install-the-sequencer.md)
 Contains the steps for installing the App-V Sequencer.
 
-<a href="" id="how-to-create-the-package-root-directory"></a>[How to Create the Package Root Directory](how-to-create-the-package-root-directory.md)  
+<a href="" id="how-to-create-the-package-root-directory"></a>[How to Create the Package Root Directory](how-to-create-the-package-root-directory.md)
 Contains the steps necessary to configure the directory where sequenced applications will be installed.
 
-<a href="" id="how-to-modify-the-location-of-the-log-directory"></a>[How to Modify the Location of the Log Directory](how-to-modify-the-location-of-the-log-directory.md)  
+<a href="" id="how-to-modify-the-location-of-the-log-directory"></a>[How to Modify the Location of the Log Directory](how-to-modify-the-location-of-the-log-directory.md)
 Contains the steps necessary to configure where the Sequencer logs will be saved.
 
-<a href="" id="how-to-modify-the-location-of-the-scratch-directory"></a>[How to Modify the Location of the Scratch Directory](how-to-modify-the-location-of-the-scratch-directory.md)  
+<a href="" id="how-to-modify-the-location-of-the-scratch-directory"></a>[How to Modify the Location of the Scratch Directory](how-to-modify-the-location-of-the-scratch-directory.md)
 Contains the steps necessary to configure the location where the Sequencer temporarily stores files during sequencing.
 
 ## Related topics

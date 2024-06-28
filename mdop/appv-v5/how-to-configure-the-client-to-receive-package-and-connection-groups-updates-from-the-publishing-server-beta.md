@@ -3,8 +3,7 @@ title: How to Configure the Client to Receive Package and Connection Groups Upda
 description: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
 author: aczechowski
 ms.assetid: f5dfd96d-4b63-468c-8d93-9dfdf47c28fd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -24,7 +23,7 @@ Use the following steps to configure the App-V 5.0 client to receive updates fro
 **Note**  
 For the following procedures the management server was installed on a computer named **MyMgmtSrv**, and the publishing server was installed on a computer named **MyPubSrv**.
 
- 
+
 
 **To configure the App-V 5.0 client to receive updates from the publishing server**
 
@@ -77,9 +76,9 @@ For the following procedures the management server was installed on a computer n
 
 [Operations for App-V 5.0](operations-for-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: MED-V High-Level Architecture
 description: MED-V High-Level Architecture
 author: aczechowski
 ms.assetid: a78e12ad-5aa6-40e0-ae8b-51acaf005712
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

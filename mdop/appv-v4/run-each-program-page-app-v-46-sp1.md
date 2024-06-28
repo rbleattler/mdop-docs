@@ -3,8 +3,7 @@ title: Run Each Program Page
 description: Run Each Program Page
 author: aczechowski
 ms.assetid: 4f09a64e-9545-47aa-bc43-fda0089f7adb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Run Each Program** page to run each program to complete any configurat
 
 This page contains the following elements:
 
-<a href="" id="run-selected"></a>**Run Selected**  
+<a href="" id="run-selected"></a>**Run Selected**
 Runs only the selected applications.
 
-<a href="" id="run-all"></a>**Run All**  
+<a href="" id="run-all"></a>**Run All**
 Runs all applications contained in the package.
 
 ## Related topics

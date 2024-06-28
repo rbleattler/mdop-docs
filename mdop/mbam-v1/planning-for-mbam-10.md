@@ -3,8 +3,7 @@ title: Planning for MBAM 1.0
 description: Planning for MBAM 1.0
 author: aczechowski
 ms.assetid: d4e8a42f-2836-48c8-83c1-40bd58270e19
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

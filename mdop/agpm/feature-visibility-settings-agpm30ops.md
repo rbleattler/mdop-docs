@@ -3,8 +3,7 @@ title: Configure Feature Visibility Settings
 description: How to Configure Feature Visibility Settings
 author: aczechowski
 ms.assetid: 6a844478-a6b0-490d-923f-5a6f82467831
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

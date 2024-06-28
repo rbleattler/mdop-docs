@@ -3,8 +3,7 @@ title: AGPM 4.0 SP2
 description: AGPM 4.0 SP2
 author: aczechowski
 ms.assetid: 915c9791-ac07-43db-bd53-957b641c700f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

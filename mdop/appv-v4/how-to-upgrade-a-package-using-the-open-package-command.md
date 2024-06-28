@@ -3,8 +3,7 @@ title: How to Upgrade a Package Using the Open Package Command
 description: How to Upgrade a Package Using the Open Package Command
 author: aczechowski
 ms.assetid: 67c10440-de8a-4547-a34b-f83206d0cc3b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -29,16 +28,16 @@ Use the Open Package command to upgrade or apply an update to a sequenced applic
     **Important**  
     Updating the file name with the package version is essential to successfully completing the upgrade.
 
-     
+
 
 ## Related topics
 
 
 [How to Manage Virtual Applications Using the Command Line](how-to-manage-virtual-applications-using-the-command-line.md)
 
- 
 
- 
+
+
 
 
 

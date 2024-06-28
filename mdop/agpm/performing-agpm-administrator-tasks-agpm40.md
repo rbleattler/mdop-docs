@@ -3,8 +3,7 @@ title: Performing AGPM Administrator Tasks Guidance
 description: Performing AGPM Administrator Tasks Guidance
 author: aczechowski
 ms.assetid: bc746f39-bdc9-4e2a-bc48-c3c7905de098
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -38,7 +37,7 @@ Because the AGPM Administrator role includes the permissions for all other roles
 
 [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md), such as reviewing settings and comparing GPOs
 
- 
+
 
 ### Additional considerations
 
@@ -68,9 +67,9 @@ By default, the AGPM Administrator role has Full Control—all AGPM permissions:
 
 The **Modify Options** and **Modify Security** permissions are unique to the role of AGPM Administrator.
 
- 
 
- 
+
+
 
 
 

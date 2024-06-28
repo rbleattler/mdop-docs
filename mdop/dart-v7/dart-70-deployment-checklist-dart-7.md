@@ -3,8 +3,7 @@ title: DaRT 7.0 Deployment Checklist
 description: DaRT 7.0 Deployment Checklist
 author: aczechowski
 ms.assetid: 2c68ec15-0624-4a75-8237-05c68b61ad07
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -21,7 +20,7 @@ This checklist can be used to help you during Microsoft Diagnostics and Recovery
 **Note**  
 This checklist outlines the recommended steps and a high-level list of items to consider when planning for product deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
- 
+
 
 <table>
 <colgroup>
@@ -55,16 +54,16 @@ This checklist outlines the recommended steps and a high-level list of items to 
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Deploying DaRT 7.0](deploying-dart-70-new-ia.md)
 
- 
 
- 
+
+
 
 
 

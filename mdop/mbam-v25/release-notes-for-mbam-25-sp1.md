@@ -2,8 +2,7 @@
 title: Release Notes for MBAM 2.5 SP1
 description: Release Notes for MBAM 2.5 SP1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 09/06/2017
@@ -124,7 +123,7 @@ If different encryption strengths are used, MBAM reports the machine as **non-co
 
 ### Self-Service Portal automatically adds "-" on Key ID entry
 
-As of HF02, the MBAM Self-Service Portal automatically adds the '-' on Key ID entry.  
+As of HF02, the MBAM Self-Service Portal automatically adds the '-' on Key ID entry.
 **Note:** The Server has to be reconfigured for the JavaScript to take effect.
 
 ### MBAM 2.5 SP1 Reports don't work / render properly
@@ -137,7 +136,7 @@ Digging this further with Fiddler - it does look like once we select on Reports 
 
 `<meta http-equiv="X-UA-Compatible" content="IE=Edge" />`
 
-Original setting is: 
+Original setting is:
 
 `<meta http-equiv="X-UA-Compatible" content="IE=8" />`
 

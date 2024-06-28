@@ -3,8 +3,7 @@ title: About Microsoft Application Virtualization 4.6 SP1
 description: About Microsoft Application Virtualization 4.6 SP1
 author: aczechowski
 ms.assetid: 20917eb6-c998-43f8-aefa-307eb322dc8d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -39,7 +38,7 @@ Microsoft Application Virtualization (App-V) 4.6 SP1 provides the following enha
 ## In This Section
 
 
-<a href="" id="app-v-4-6-sp1-release-notes"></a>[App-V 4.6 SP1 Release Notes](app-v-46-sp1-release-notes.md)  
+<a href="" id="app-v-4-6-sp1-release-notes"></a>[App-V 4.6 SP1 Release Notes](app-v-46-sp1-release-notes.md)
 Provides the most up-to-date information about known issues with Microsoft Application Virtualization (App-V) 4.6 SP1.
 
  

@@ -3,8 +3,7 @@ title: How to Enable BitLocker by Using MBAM as Part of a Windows Deployment
 description: How to Enable BitLocker by Using MBAM as Part of a Windows Deployment
 author: aczechowski
 ms.assetid: 7609ad7a-bb06-47be-b186-0a2db787c8a5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -17,7 +16,7 @@ ms.date: 04/23/2017
 # How to Enable BitLocker by Using MBAM as Part of a Windows Deployment
 
 > [!IMPORTANT]
-> These instructions do not pertain to Configuration Manager BitLocker Management. The `Invoke-MbamClientDeployment.ps1` PowerShell script is not supported for use with BitLocker Management in Configuration Manager. This includes escrowing of BitLocker recovery keys during a Configuration Manager task sequence. 
+> These instructions do not pertain to Configuration Manager BitLocker Management. The `Invoke-MbamClientDeployment.ps1` PowerShell script is not supported for use with BitLocker Management in Configuration Manager. This includes escrowing of BitLocker recovery keys during a Configuration Manager task sequence.
 >
 > Furthermore, starting with Configuration Manager, version 2103, Configuration Manager BitLocker Management no longer uses the MBAM key recovery services site to escrow keys. Attempting to use the `Invoke-MbamClientDeployment.ps1` PowerShell script with Configuration Manager, version 2103 or newer can result in serious problems with the Configuration Manager site. Known problems include creation of a large amount of policy targeted to all devices which can cause policy storms. This will lead to severe degradation of performance in Configuration Manager primarily in SQL and with Management Points. For more information, see [Using the MBAM Agent to escrow BitLocker recovery keys generates excessive policies in Configuration Manager, version 2103](/mem/configmgr/hotfix/2103/10372804).
 >
@@ -139,16 +138,16 @@ Here is a list of common error messages:
    | **WS_E_ENDPOINT_UNREACHABLE**<br />2151481360 (0x803D0010) | The remote endpoint was not reachable. |
    | **WS_E_ENDPOINT_FAULT_RECEIVED**<br />2151481363 (0x803D0013) | A message containing a fault was received from the remote endpoint. Make sure you are connecting to the correct service endpoint. |
    | **WS_E_INVALID_ENDPOINT_URL**<br />2151481376 (0x803D0020) | The endpoint address URL is not valid. The URL must start with “http” or “https”. |
-     
+
 
 2. **Deploy MBAM by using Microsoft Deployment Toolkit (MDT) and PowerShell**
 
    1.  In MDT, create a new deployment share or open an existing deployment share.
 
-       **Note**  
+       **Note**
        The `Invoke-MbamClientDeployment.ps1` PowerShell script can be used with any imaging process or tool. This section shows how to integrate it by using MDT, but the steps are similar to integrating it with any other process or tool.
 
-       **Caution**  
+       **Caution**
        If you are using BitLocker pre-provisioning (WinPE) and want to maintain the TPM owner authorization value, you must add the `SaveWinPETpmOwnerAuth.wsf` script in WinPE immediately before the installation reboots into the full operating system. **If you do not use this script, you will lose the TPM owner authorization value on reboot.**
 
    2.  Copy `Invoke-MbamClientDeployment.ps1` to **&lt;DeploymentShare&gt;\\Scripts**. If you are using pre-provisioning, copy the `SaveWinPETpmOwnerAuth.wsf` file into **&lt;DeploymentShare&gt;\\Scripts**.
@@ -259,7 +258,7 @@ Here is a list of common error messages:
                </tbody>
                </table>
 
-                 
+
 
 **To enable BitLocker using MBAM 2.5 or earlier as part of a Windows deployment**
 

@@ -3,8 +3,7 @@ title: How to Publish a Connection Group
 description: How to Publish a Connection Group
 author: aczechowski
 ms.assetid: c61db00a-8393-485c-949e-af2098b9e258
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

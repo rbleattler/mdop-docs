@@ -3,8 +3,7 @@ title: Prepare the Deployment Environment for MED-V
 description: Prepare the Deployment Environment for MED-V
 author: aczechowski
 ms.assetid: d15ea370-7fdb-4852-a1ba-730ec7568e3e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -21,10 +20,10 @@ This section provides information about preparing your Microsoft Enterprise Desk
 ## In This Section
 
 
-<a href="" id="configure-environment-prerequisites"></a>[Configure Environment Prerequisites](configure-environment-prerequisites.md)  
+<a href="" id="configure-environment-prerequisites"></a>[Configure Environment Prerequisites](configure-environment-prerequisites.md)
 Describes the prerequisites that are required as part of the MED-V 2.0 environment.
 
-<a href="" id="configure-installation-prerequisites"></a>[Configure Installation Prerequisites](configure-installation-prerequisites.md)  
+<a href="" id="configure-installation-prerequisites"></a>[Configure Installation Prerequisites](configure-installation-prerequisites.md)
 Describes the prerequisites that are required before you install MED-V 2.0.
 
 ## Related topics

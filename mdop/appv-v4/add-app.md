@@ -3,8 +3,7 @@ title: ADD APP
 description: ADD APP
 author: aczechowski
 ms.assetid: 329fd0c8-a795-49be-b0fd-1367c5b4a34b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -59,7 +58,7 @@ Adds an application record.
 </tbody>
 </table>
 
- 
+
 
 For version 4.6, the following option has been added.
 
@@ -76,21 +75,21 @@ For version 4.6, the following option has been added.
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 The resulting name of the application will be taken from the OSD file and not from the name provided in APP:&lt;application&gt;.
 
- 
+
 
 ## Related topics
 
 
 [SFTMIME Command Reference](sftmime--command-reference.md)
 
- 
 
- 
+
+
 
 
 

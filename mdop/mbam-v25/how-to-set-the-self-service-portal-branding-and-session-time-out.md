@@ -3,8 +3,7 @@ title: How to Set the Self-Service Portal Branding and Session Time-out
 description: How to Set the Self-Service Portal Branding and Session Time-out
 author: aczechowski
 ms.assetid: 031eedfc-fade-4d2f-8771-b329e1d38c0d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -19,12 +18,12 @@ ms.date: 06/16/2016
 
 After you configure the Self-Service Portal, you can brand it with your company name, Help Desk URL, and "notice" text. You can also change the Session Time-out setting to make the end user’s session expire after a specified period of inactivity.
 
-**Note**  
+**Note**
 You can also brand the Self-Service Portal by using the **Enable-MbamWebApplication** Windows PowerShell cmdlet or the MBAM Server Configuration wizard. For instructions on using the wizard, see [How to Configure the MBAM 2.5 Web Applications](how-to-configure-the-mbam-25-web-applications.md).
 
 
 
-**Note**  
+**Note**
 In the following instructions, *SelfService* is the default virtual directory name for the Self-Service Portal. You might have used a different name when you configured the Self-Service Portal.
 
 
@@ -41,7 +40,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 5.  In the **Name** column, select the item that you want to change, and change the default value to reflect the name that you want to use. The following table lists the values that you can set.
 
-    **Caution**  
+    **Caution**
     Do not change the value in the Name column (CompanyName\*), as it will cause Self-Service Portal to stop working.
 
 
@@ -79,7 +78,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 <td align="left"><p>HelpdeskUrl</p></td>
 <td align="left"><p>#</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>In MBAM 2.5 SP1, the HelpdeskUrl default value is empty.</p>
 </div>
 <div>
@@ -90,7 +89,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 <td align="left"><p>jQueryPath</p></td>
 <td align="left"><p>[//go.microsoft.com/fwlink/?LinkID=390515](//go.microsoft.com/fwlink/?LinkID=390515)</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>In MBAM 2.5 SP1, this has been changed to a local JavaScript file shipped with the product, located at ~/Scripts/jquery-1.10.2.min.js</p>
 </div>
 <div>
@@ -101,7 +100,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 <td align="left"><p>jQueryValidatePath</p></td>
 <td align="left"><p>[//go.microsoft.com/fwlink/?LinkID=390516](//go.microsoft.com/fwlink/?LinkID=390516)</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>In MBAM 2.5 SP1, this has been changed to a local JavaScript file shipped with the product, located at ~/Scripts/jquery.validate.min.js</p>
 </div>
 <div>
@@ -112,7 +111,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 <td align="left"><p>jQueryValidateUnobtrusivePath</p></td>
 <td align="left"><p>[//go.microsoft.com/fwlink/?LinkID=390517](//go.microsoft.com/fwlink/?LinkID=390517)</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>In MBAM 2.5 SP1, this has been changed to a local JavaScript file shipped with the product, located at ~/Scripts/jquery.validate.unobtrusive.min.js</p>
 </div>
 <div>
@@ -123,7 +122,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 <td align="left"><p>NoticeTextPath</p></td>
 <td align="left"><p>Notice.txt</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>You can edit the notice text either by using the Internet Information Services (IIS) Manager or by opening and changing the Notice.txt file in the installation directory.</p>
 </div>
 <div>
@@ -151,7 +150,7 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

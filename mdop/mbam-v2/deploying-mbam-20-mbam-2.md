@@ -3,8 +3,7 @@ title: Deploying MBAM 2.0
 description: Deploying MBAM 2.0
 author: aczechowski
 ms.assetid: 4b0eaf10-81b4-427e-9d43-eb833de935a3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

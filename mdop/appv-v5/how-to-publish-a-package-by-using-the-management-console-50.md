@@ -3,8 +3,7 @@ title: How to Publish a Package by Using the Management Console
 description: How to Publish a Package by Using the Management Console
 author: aczechowski
 ms.assetid: 7c6930fc-5c89-4519-a901-512dae155fd2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ Use the following procedure to publish an App-V 5.0 package. Once you publish a 
 **Note**  
 The ability to enable only administrators to publish or unpublish packages (described below) is supported starting in App-V 5.0 SP3.
 
- 
+
 
 **To publish an App-V 5.0 package**
 
@@ -51,9 +50,9 @@ The ability to enable only administrators to publish or unpublish packages (desc
 
 [How to Configure Access to Packages by Using the Management Console](how-to-configure-access-to-packages-by-using-the-management-console-50.md)
 
- 
 
- 
+
+
 
 
 

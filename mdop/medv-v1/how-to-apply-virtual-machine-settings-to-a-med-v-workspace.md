@@ -3,8 +3,7 @@ title: How to Apply Virtual Machine Settings to a MED-V Workspace
 description: How to Apply Virtual Machine Settings to a MED-V Workspace
 author: aczechowski
 ms.assetid: b50d0dfb-8d61-4543-9607-a29bbb1ed45f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -49,7 +48,7 @@ The actual Microsoft Virtual PC image assigned to the MED-V workspace. The menu 
     **Note**  
     Each MED-V workspace image can only be used by one Windows user.
 
-     
+
 
 Workspace is persistent
 
@@ -60,7 +59,7 @@ For a Domain MED-V workspace, this option must be selected.
 **Note**  
 This setting should not be changed after a MED-V workspace is deployed to users.
 
- 
+
 
 Shut down the VM when stopping the Workspace
 
@@ -69,7 +68,7 @@ Select this check box to shut down the virtual machine when stopping the MED-V w
 **Note**  
 This property is enabled only if **Workspace is persistent** is selected.
 
- 
+
 
 Logon to Windows in VM using MED-V credentials (SSO)
 
@@ -78,7 +77,7 @@ Select this check box to log in to Windows on the virtual machine by using the M
 **Note**  
 This property is enabled only when **Workspace is persistent** is selected.
 
- 
+
 
 Workspace is revertible
 
@@ -87,7 +86,7 @@ Select this check box to configure the MED-V workspace as revertible. In a rever
 **Note**  
 This setting should not be changed after a MED-V workspace is deployed to users.
 
- 
+
 
 Synchronize Workspace time zone with host
 
@@ -112,7 +111,7 @@ Select this check box to lock the MED-V workspace when the MED-V workspace is id
 **Note**  
 The idle time refers to the MED-V workspace applications (not the host applications).
 
- 
+
 
 *Image Update Settings*
 
@@ -133,9 +132,9 @@ Select this check box to enable Trim Transfer (for more information, see [MED-V 
 **Note**  
 Trim Transfer requires indexing the hard drive, which might take a considerable amount of time. It is recommended to use Trim Transfer when indexing the hard drive is more efficient than downloading the new image version, such as when downloading an image version that is similar to the existing version.
 
- 
 
- 
+
+
 
 ## Related topics
 
@@ -146,9 +145,9 @@ Trim Transfer requires indexing the hard drive, which might take a considerable 
 
 [Creating a MED-V Workspace](creating-a-med-v-workspacemedv-10-sp1.md)
 
- 
 
- 
+
+
 
 
 

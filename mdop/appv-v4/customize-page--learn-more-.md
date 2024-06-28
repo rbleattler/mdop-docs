@@ -3,8 +3,7 @@ title: Customize Page (Learn More)
 description: Customize Page (Learn More)
 author: aczechowski
 ms.assetid: 893df614-7058-4fcf-ba34-d0f16c856374
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Customize** page to finish creating the virtual application package or
 
 This page contains the following elements:
 
-<a href="" id="stop-now"></a>**Stop Now**  
+<a href="" id="stop-now"></a>**Stop Now**
 Creates a basic virtual application package. If you select this option, the package creation will finish, and the package will be available in the Sequencer console.
 
-<a href="" id="customize"></a>**Customize**  
+<a href="" id="customize"></a>**Customize**
 Enables you to configure the virtual application package further. You can perform the following configuration items:
 
 -   **Edit Shortcuts**. Add, remove, or change the shortcuts, and configure the file type associations associated with the virtual application package that will be created on target computers.

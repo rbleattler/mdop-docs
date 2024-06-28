@@ -3,8 +3,7 @@ title: MED-V 1.0 Supported Configurations
 description: MED-V 1.0 Supported Configurations
 author: aczechowski
 ms.assetid: 74643de6-549e-4177-a559-6407e156ed3a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -58,7 +57,7 @@ The following table lists the operating systems that are supported for MED-V 1.0
 
 
 
-**Note**  
+**Note**
 MED-V client does not run in native x64 mode. Instead, MED-V runs in Windows on Windows 64-bit (WOW64) mode on 64-bit computers.
 
 
@@ -151,7 +150,7 @@ MED-V requires one of the following supported versions of the Microsoft .NET Fra
 
 -   .NET Framework 3.5 or .NET Framework 3.5 SP1
 
-**Note**  
+**Note**
 .NET Framework 3.5 SP1 is recommended to ensure that the MED-V workspace will be compatible with future versions of MED-V.
 
 

@@ -3,8 +3,7 @@ title: Preparing your Environment for MBAM 2.5
 description: Preparing your Environment for MBAM 2.5
 author: aczechowski
 ms.assetid: 7552ba08-9dbf-40cd-8920-203d733fd242
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security

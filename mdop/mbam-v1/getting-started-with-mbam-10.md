@@ -3,8 +3,7 @@ title: Getting Started with MBAM 1.0
 description: Getting Started with MBAM 1.0
 author: aczechowski
 ms.assetid: 4fab4e4a-d25e-4661-b235-2b45bf5ac3e4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -15,7 +14,7 @@ ms.date: 08/30/2016
 # Getting Started with MBAM 1.0
 
 > **IMPORTANT**
-> MBAM 1.0 will reach end of support on September 14, 2021. 
+> MBAM 1.0 will reach end of support on September 14, 2021.
 > See our [lifecycle page](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20BitLocker%20Administration%20and%20Monitoring%201.0) for more information. We recommend [migrating to MBAM 2.5](/microsoft-desktop-optimization-pack/mbam-v25/upgrading-to-mbam-25-or-mbam-25-sp1-from-previous-versions) or another supported version of MBAM, or migrating your BitLocker management to [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager).
 
 
@@ -26,7 +25,7 @@ If you are new to this product, we recommend that you read the documentation tho
 **Note**  
 You can find a downloadable version of this documentation and the MBAM Evaluation Guide at <https://go.microsoft.com/fwlink/p/?LinkId=225356>.
 
- 
+
 
 This section of the MBAM Administrator’s Guide includes high-level information about MBAM to provide you with a basic understanding of the product before you begin the deployment planning. Additional MBAM documentation can be found on the MBAM Documentation Resources Download page at <https://go.microsoft.com/fwlink/p/?LinkId=258391>.
 
@@ -62,6 +61,6 @@ This section of the MBAM Administrator’s Guide includes high-level information
 
 -   [Troubleshooting MBAM 1.0](troubleshooting-mbam-10.md)
 
- 
 
- 
+
+

@@ -3,8 +3,7 @@ title: Recycle Bin Commands
 description: Recycle Bin Commands in AGPM 4.
 author: aczechowski
 ms.assetid: 347a101f-0ba0-4afc-bd59-752cc06bb904
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

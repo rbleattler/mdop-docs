@@ -3,8 +3,7 @@ title: Troubleshooting Advanced Group Policy Management
 description: Troubleshooting Advanced Group Policy Management
 author: aczechowski
 ms.assetid: f58849cf-6c5b-44d8-b356-0ed7a5b24cee
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

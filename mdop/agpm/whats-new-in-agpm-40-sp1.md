@@ -3,8 +3,7 @@ title: What's New in AGPM 4.0 SP1
 description: What's New in AGPM 4.0 SP1
 author: aczechowski
 ms.assetid: c6a3d94a-13c3-44e6-a466-c3011879999e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

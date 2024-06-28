@@ -3,8 +3,7 @@ title: How to Move the MBAM 2.5 Websites
 description: How to Move the MBAM 2.5 Websites
 author: aczechowski
 ms.assetid: 71af9a54-c27b-408f-9d75-37c0d02e730e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -26,7 +25,7 @@ Use these procedures to move the following MBAM websites from one computer to an
 **Important**  
 During the configuration of both websites, you must provide the same connection string, Reports URL, group accounts, and web service application pool domain account as the ones that you are currently using. If you don’t use the same values, you cannot access some of the servers. To get the current values, use the **Get-MbamWebApplication** Windows PowerShell cmdlet.
 
- 
+
 
 **To move the Administration and Monitoring Website to another server**
 
@@ -63,7 +62,7 @@ During the configuration of both websites, you must provide the same connection 
 
 [Moving MBAM 2.5 Features to Another Server](moving-mbam-25-features-to-another-server.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

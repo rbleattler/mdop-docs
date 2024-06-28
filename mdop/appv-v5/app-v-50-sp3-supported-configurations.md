@@ -3,8 +3,7 @@ title: App-V 5.0 SP3 Supported Configurations
 description: App-V 5.0 SP3 Supported Configurations
 author: aczechowski
 ms.assetid: 08ced79a-0ed3-43c3-82e7-de01c1f33e81
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -47,7 +46,7 @@ The following table lists the operating systems that are supported for the App-V
 **Note**  
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). See [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976) for more information.
 
- 
+
 
 <table>
 <colgroup>
@@ -81,12 +80,12 @@ Microsoft provides support for the current service pack and, in some cases, the 
 </tbody>
 </table>
 
- 
+
 
 **Important**  
 Deployment of the Management server role to a computer with Remote Desktop Sharing (RDS) enabled is not supported.
 
- 
+
 
 ### <a href="" id="management-server-hardware-requirements-"></a>Management server hardware requirements
 
@@ -132,7 +131,7 @@ The following table lists the SQL Server versions that are supported for the App
 </tbody>
 </table>
 
- 
+
 
 ### Publishing server operating system requirements
 
@@ -170,7 +169,7 @@ The following table lists the operating systems that are supported for the App-V
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="publishing-server-hardware-requirements-"></a>Publishing server hardware requirements
 
@@ -218,7 +217,7 @@ The following table lists the operating systems that are supported for the App-V
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="reporting-server-hardware-requirements-"></a>Reporting server hardware requirements
 
@@ -266,7 +265,7 @@ The following table lists the SQL Server versions that are supported for the App
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-client-supp-cfgs"></a>App-V client system requirements
 
@@ -305,7 +304,7 @@ The following table lists the operating systems that are supported for the App-V
 </tbody>
 </table>
 
- 
+
 
 The following App-V client installation scenarios are not supported, except as noted:
 
@@ -362,7 +361,7 @@ The following table lists the operating systems that are supported for App-V 5.0
 </tbody>
 </table>
 
- 
+
 
 ### Remote Desktop Services client hardware requirements
 
@@ -426,7 +425,7 @@ The following table lists the operating systems that are supported for the App-V
 </tbody>
 </table>
 
- 
+
 
 ### Sequencer hardware requirements
 
@@ -457,9 +456,9 @@ For more information about how Configuration Manager integrates with App-V, see 
 
 [App-V 5.0 SP3 Prerequisites](app-v-50-sp3-prerequisites.md)
 
- 
 
- 
+
+
 
 
 

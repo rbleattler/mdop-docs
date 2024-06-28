@@ -3,8 +3,7 @@ title: How to Create a Server Group
 description: How to Create a Server Group
 author: aczechowski
 ms.assetid: 29ada98b-1024-483d-a3ee-67d4bb263df7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

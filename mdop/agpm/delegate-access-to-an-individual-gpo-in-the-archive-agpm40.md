@@ -3,8 +3,7 @@ title: How to Delegate Access to an Individual GPO in the Archive
 description: How to Delegate Access to an Individual GPO in the Archive
 author: aczechowski
 ms.assetid: 284d2aa2-7c10-4ffa-8978-bbe30867c1c1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -34,14 +33,14 @@ A user account with the AGPM Administrator (Full Control) role, the user account
         **Note**  
         If a user or group inherits domain-wide access, the **Remove** button is unavailable. You can modify domain-wide access on the **Domain Delegation** tab.
 
-         
+
 
     3.  To modify the roles and permissions delegated to a user or group, click the **Advanced** button. In the **Permissions** dialog box, select the user or group, select the check box for each role to be assigned to that user or group, and click **OK**.
 
         **Note**  
         Editor and Approver include Reviewer permissions.
 
-         
+
 
 ### Additional considerations
 
@@ -57,9 +56,9 @@ A user account with the AGPM Administrator (Full Control) role, the user account
 
 -   [Managing the Archive](managing-the-archive-agpm40.md)
 
- 
 
- 
+
+
 
 
 

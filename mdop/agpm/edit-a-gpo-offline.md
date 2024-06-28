@@ -3,8 +3,7 @@ title: Edit a GPO Offline
 description: How to Edit a GPO Offline
 author: aczechowski
 ms.assetid: 4a148952-9fe9-4ec4-8df1-b25e37c97a54
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

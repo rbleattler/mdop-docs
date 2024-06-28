@@ -3,8 +3,7 @@ title: MBAM 1.0 Planning Checklist
 description: MBAM 1.0 Planning Checklist
 author: aczechowski
 ms.assetid: e9439f16-d68b-48ed-99ce-5949356b180b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -21,7 +20,7 @@ You can use this checklist to plan and prepare your computing environment for Mi
 **Note**  
 This checklist outlines the recommended steps and a high-level list of items to consider when you plan for an MBAM deployment. We recommend that you copy this checklist into a spreadsheet program and customize it for your use.
 
- 
+
 
 <table>
 <colgroup>
@@ -90,16 +89,16 @@ This checklist outlines the recommended steps and a high-level list of items to 
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Planning for MBAM 1.0](planning-for-mbam-10.md)
 
- 
 
- 
+
+
 
 
 

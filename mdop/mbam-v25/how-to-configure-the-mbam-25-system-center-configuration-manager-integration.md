@@ -3,8 +3,7 @@ title: How to Configure the MBAM 2.5 System Center Configuration Manager Integra
 description: How to Configure the MBAM 2.5 System Center Configuration Manager Integration
 author: aczechowski
 ms.assetid: 2b8a4c13-1dad-41e8-89ac-6889c5f7e051
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -122,7 +121,7 @@ The instructions are based on the recommended architecture in [High-Level Archit
 
 5.  On the **Summary** page, review the features that will be added.
 
-    **Note**  
+    **Note**
     To create a Windows PowerShell script of the entries you just made, click **Export PowerShell Script** and save the script.
 
 

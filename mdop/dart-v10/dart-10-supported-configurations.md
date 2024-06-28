@@ -2,8 +2,7 @@
 title: DaRT 10 Supported Configurations
 description: DaRT 10 Supported Configurations
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021

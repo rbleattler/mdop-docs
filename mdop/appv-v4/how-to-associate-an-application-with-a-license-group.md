@@ -3,8 +3,7 @@ title: How to Associate an Application with a License Group
 description: How to Associate an Application with a License Group
 author: aczechowski
 ms.assetid: 85639db3-5751-497e-a9e7-ce4770c0b55f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ You can enforce licensing restrictions on an application by associating the appl
 **Important**  
 One or more application license groups must exist for you to associate an application with a license group.
 
- 
+
 
 **To associate an application with a license group**
 
@@ -36,7 +35,7 @@ One or more application license groups must exist for you to associate an applic
     **Note**  
        You can alter the **Properties** tab of one application at a time.
 
-     
+
 
 ## Related topics
 
@@ -47,9 +46,9 @@ One or more application license groups must exist for you to associate an applic
 
 [How to Manage Reports in the Server Management Console](how-to-manage-reports-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

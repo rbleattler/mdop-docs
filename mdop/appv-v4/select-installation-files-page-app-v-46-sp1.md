@@ -3,8 +3,7 @@ title: Select Installation Files Page
 description: Select Installation Files Page
 author: aczechowski
 ms.assetid: 4c8cd49e-ba39-4918-9863-5b3c315d14a5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Select Installation Files** page to select installation files that the
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the directory that contains required installation files for the selected Package Accelerator to create the virtual application package. The directory should be located on the computer running the Sequencer. You can specify installation files of the following types of media and format:
 
 -   Compressed files

@@ -2,8 +2,7 @@
 title: How to Deploy the App-V 5.1 Server
 description: How to Deploy the App-V 5.1 Server
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

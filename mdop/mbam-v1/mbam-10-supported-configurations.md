@@ -3,8 +3,7 @@ title: MBAM 1.0 Supported Configurations
 description: MBAM 1.0 Supported Configurations
 author: aczechowski
 ms.assetid: 1f5ac58e-6a3f-47df-8a9b-4b57631ab9ee
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ This topic specifies the necessary requirements to install and run Microsoft Bit
 
 The following table lists the operating systems that are supported for the Microsoft BitLocker Administration and Monitoring Server installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 
@@ -63,7 +62,7 @@ Microsoft provides support for the current service pack and, in some cases, the 
 
 
 
-**Warning**  
+**Warning**
 There is no support for installing MBAM services, reports, or databases on a domain controller computer.
 
 
@@ -133,7 +132,7 @@ The following table lists the SQL Server versions that are supported for the MBA
 
 The following table lists the operating systems that are supported for MBAM Client installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
 

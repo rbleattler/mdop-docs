@@ -3,8 +3,7 @@ title: Convert a Package Created in a Previous Version of App-V
 description: How to Convert a Package Created in a Previous Version of App-V
 author: aczechowski
 ms.assetid: 3366d399-2891-491d-8de1-f8cfdf39bbab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 You can use the package converter utility to upgrade virtual application packages that have been created with previous versions of App-V.
 
-**Note**  
+**Note**
 If you are running a computer with a 64-bit architecture, you must use the x86 version of PowerShell.
 
 
@@ -28,7 +27,7 @@ The package converter can only directly convert packages that were created by us
 
 The following information provides direction for converting existing virtual application packages.
 
-**Important**  
+**Important**
 You must configure the package converter to always save the package ingredients file to a secure location and directory. A secure location is accessible only by an administrator. Additionally, when you deploy the package, you should save the package to a location that is secure, or make sure that no other user is allowed to be logged in during the conversion process.
 
 
@@ -45,7 +44,7 @@ Prior to App-V 5.1, the 4.6 root folder was not recognized and could not be acce
 
 1.  Install the App-V Sequencer on a computer in your environment. For information about how to install the Sequencer, see [How to Install the Sequencer](how-to-install-the-sequencer-51beta-gb18030.md).
 
-2.  
+2.
 
     The following cmdlets are available:
 
@@ -55,7 +54,7 @@ Prior to App-V 5.1, the 4.6 root folder was not recognized and could not be acce
 
         Additionally, the package converter optimizes performance of packages in App-V 5.1 by setting the package to stream fault the App-V package.  This is more performant than the primary feature block and fully downloading the package. The flag **DownloadFullPackageOnFirstLaunch** allows you to convert the package and set the package to be fully downloaded by default.
 
-        **Note**  
+        **Note**
         Before you specify the output directory, you must create the output directory.
 
 

@@ -3,8 +3,7 @@ title: Planning for DaRT 10
 description: Planning for DaRT 10
 author: aczechowski
 ms.assetid: 2ca0249a-6a9f-4b4e-91f1-f1b34be7b16c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

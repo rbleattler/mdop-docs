@@ -3,8 +3,7 @@ title: How to Brand the Self-Service Portal
 description: How to Brand the Self-Service Portal
 author: aczechowski
 ms.assetid: 3ef9e951-7c42-4f7f-b131-3765d39b3207
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -30,7 +29,7 @@ After you install the Microsoft BitLocker Administration and Monitoring (MBAM) S
 
 5.  From the **Name** column, select the item that you want to change, and change the default value to reflect the name that you want to use. The following table lists the values that you can set.
 
-    **Caution**  
+    **Caution**
     Do not change the value in the Name column (CompanyName\*), as it will cause the Self-Service Portal to stop working.
 
 
@@ -76,7 +75,7 @@ After you install the Microsoft BitLocker Administration and Monitoring (MBAM) S
 <td align="left"><p>NoticeTextPath</p></td>
 <td align="left"><p>Notice.txt</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>You can edit the Notice text either by using the IIS Manager or by opening and changing the Notice.txt file in the installation directory.</p>
 </div>
 <div>

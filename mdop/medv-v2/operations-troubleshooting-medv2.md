@@ -2,8 +2,7 @@
 title: Operations Troubleshooting
 description: MED-V Operations Troubleshooting.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

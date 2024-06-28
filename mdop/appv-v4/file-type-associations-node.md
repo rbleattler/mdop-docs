@@ -3,8 +3,7 @@ title: About the File Type Associations Node
 description: About the File Type Associations Node.
 author: aczechowski
 ms.assetid: a3f35562-32d0-4a43-8604-3a54189ade92
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 The **File Type Associations** node is one level below the Application Virtualization System node in the **Scope** pane in the Application Virtualization Server Management Console. When you select this node, the **Results** pane displays a list of file type associations. Right-click the **File Type Association** node to display a pop-up menu that contains the following elements.
 
-<a href="" id="new-file-type-association"></a>**New File Type Association**  
+<a href="" id="new-file-type-association"></a>**New File Type Association**
 Displays the New File Type Association Wizard. This wizard consists of the following two pages:
 
 1.  Enter a new or existing file name extension, and associate the extension with a file type.
@@ -35,19 +34,19 @@ Displays the New File Type Association Wizard. This wizard consists of the follo
 
     2.  **Icon Path**—Enables you to enter the complete path to the ICO file or to browse for the ICO file.
 
-<a href="" id="view"></a>**View**  
+<a href="" id="view"></a>**View**
 Changes the appearance and content of the **Results** pane.
 
-<a href="" id="new-window-from-here"></a>**New Window from Here**  
+<a href="" id="new-window-from-here"></a>**New Window from Here**
 Opens a new management console with the selected node as the root node.
 
-<a href="" id="refresh"></a>**Refresh**  
+<a href="" id="refresh"></a>**Refresh**
 Refreshes the view of the server.
 
-<a href="" id="export-list"></a>**Export List**  
+<a href="" id="export-list"></a>**Export List**
 Creates a tab-delimited text file that contains the contents of the **Results** pane. This item displays a standard **File Save** dialog box where you specify the location for the text file you are creating.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 Displays the help system.
 
 ## Related topics

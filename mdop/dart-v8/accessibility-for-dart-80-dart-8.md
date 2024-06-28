@@ -3,8 +3,7 @@ title: Accessibility for DaRT 8.0
 description: Accessibility for DaRT 8.0
 author: aczechowski
 ms.assetid: 95f426de-222c-4ec0-9b9b-af817c7fff9b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -32,7 +31,7 @@ Access keys let you quickly use a command by pressing a few keys. You can get to
 **Note**  
 To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
- 
+
 
 ## Documentation in alternative formats
 
@@ -72,7 +71,7 @@ For information about the availability of Microsoft product documentation and bo
 </tbody>
 </table>
 
- 
+
 
 ## Customer service for people with hearing impairments
 
@@ -95,9 +94,9 @@ For more information about how accessible technology for computers helps to impr
 
 [Getting Started with DaRT 8.0](getting-started-with-dart-80-dart-8.md)
 
- 
 
- 
+
+
 
 
 

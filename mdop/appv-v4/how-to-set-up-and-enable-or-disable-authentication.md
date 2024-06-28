@@ -3,8 +3,7 @@ title: How to Set Up and Enable or Disable Authentication
 description: How to Set Up and Enable or Disable Authentication
 author: aczechowski
 ms.assetid: 1e43d0c5-a467-4a8b-b656-93f75d7deb82
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ The Application Virtualization Server Management Console lets you enable or disa
 **Note**  
   Normally, you set up authentication when you add a provider policy through the New Provider Policy Wizard.
 
- 
+
 
 **To set up authentication**
 
@@ -52,9 +51,9 @@ The Application Virtualization Server Management Console lets you enable or disa
 
 [How to Customize an Application Virtualization System in the Server Management Console](how-to-customize-an-application-virtualization-system-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

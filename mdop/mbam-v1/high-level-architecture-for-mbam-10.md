@@ -3,8 +3,7 @@ title: High Level Architecture for MBAM 1.0
 description: High Level Architecture for MBAM 1.0
 author: aczechowski
 ms.assetid: b1349196-88ed-4d6c-8a1d-998f18127b6b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -28,7 +27,7 @@ The following diagram displays the MBAM architecture. The single-server MBAM dep
 **Note**  
 At least a three-computer MBAM deployment topology is recommended for a production deployment. For more information about MBAM deployment topologies, see [Deploying the MBAM 1.0 Server Infrastructure](deploying-the-mbam-10-server-infrastructure.md).
 
- 
+
 
 ![mbam single server deployment topology.](images/mbam-1-server.jpg)
 
@@ -57,9 +56,9 @@ At least a three-computer MBAM deployment topology is recommended for a producti
 
 [Getting Started with MBAM 1.0](getting-started-with-mbam-10.md)
 
- 
 
- 
+
+
 
 
 

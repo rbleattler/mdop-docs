@@ -3,8 +3,7 @@ title: How to Deploy DaRT 10
 description: How to Deploy DaRT 10
 author: aczechowski
 ms.assetid: 13e8ba20-21c3-4870-94ed-6d3106d69f21
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -57,7 +56,7 @@ When you install or uninstall DaRT, you have the option of running the installat
 The following example shows how to install all DaRT functionality.
 
 ```cmd
-msiexec.exe /i MSDaRT.msi ADDLOCAL=CommonFiles, DaRTRecoveryImage,CrashAnalyzer,RemoteViewer 
+msiexec.exe /i MSDaRT.msi ADDLOCAL=CommonFiles, DaRTRecoveryImage,CrashAnalyzer,RemoteViewer
 ```
 
 The following example shows how to install only the DaRT Recovery Image wizard.
@@ -69,13 +68,13 @@ msiexec.exe /i MSDaRT.msi ADDLOCAL=CommonFiles, ,DaRTRecoveryImage
 The following example shows how to install only the Crash Analyzer and the DaRT Remote Connection Viewer.
 
 ```cmd
-msiexec.exe /i MSDaRT.msi ADDLOCAL=CommonFiles,CrashAnalyzer,RemoteViewer 
+msiexec.exe /i MSDaRT.msi ADDLOCAL=CommonFiles,CrashAnalyzer,RemoteViewer
 ```
 
 The following example creates a setup log for the Windows Installer. This is valuable for debugging.
 
 ```cmd
-msiexec.exe /i MSDaRT.msi /l*v log.txt 
+msiexec.exe /i MSDaRT.msi /l*v log.txt
 ```
 
 > [!NOTE]

@@ -3,8 +3,7 @@ title: How to Create a Virtual Environment for a Web-Based Application
 description: How to Create a Virtual Environment for a Web-Based Application
 author: aczechowski
 ms.assetid: d2b16e9d-369c-4bd6-b2a0-16dd24c0e32c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

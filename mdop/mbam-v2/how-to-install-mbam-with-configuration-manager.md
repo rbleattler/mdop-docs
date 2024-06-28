@@ -3,8 +3,7 @@ title: How to Install MBAM with Configuration Manager
 description: How to Install MBAM with Configuration Manager
 author: aczechowski
 ms.assetid: fd0832e4-3b79-4e56-9550-d2f396be6d09
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -31,7 +30,7 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
 
 `MbamSetup.exe CM_SSRS_INSTANCE_NAME=<NamedInstance>`
 
- 
+
 
 **To install MBAM on the Configuration Manager Server**
 
@@ -42,7 +41,7 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
 
     Additional setup log files are created in the %temp% folder on the computer of the user who is installing Configuration Manager.
 
-     
+
 
 2.  On the **Welcome** page, optionally select the **Customer Experience Improvement Program**, and then click **Start**.
 
@@ -55,7 +54,7 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
     **Note**  
     On the **Checking Prerequisites** page, click **Next** after the installation wizard checks the prerequisites for your installation and confirms that none are missing. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again.**
 
-     
+
 
 6.  Specify whether to use Microsoft Updates to help keep your computer secure, and then click **Next**. Using Microsoft Updates does not turn on Automatic Updates in Windows.
 
@@ -80,7 +79,7 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
     **Note**  
     The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing. If all of the prerequisites are met, the installation continues. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again**. If all prerequisites are met this time, the installation resumes.
 
-     
+
 
 6.  On the **Configure the Recovery Database** page, specify the names of the computers that will be running the Administration and Monitoring Server feature. After the Administration and Monitoring Server feature is deployed, it uses its domain account to connect to the database.
 
@@ -97,7 +96,7 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
     **Note**  
     If you are installing the Audit Database without the Audit Reports feature, you must add an exception on the Audit Database computer to enable inbound traffic on the Microsoft SQL Server port. The default port number is 1433.
 
-     
+
 
 12. Specify the SQL Server instance name and the name of the database that will store the audit data. You must also specify where the database and log information will be located.
 
@@ -118,14 +117,14 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
     **Note**  
     The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing. If all of the prerequisites are met, the installation continues. If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click **Check prerequisites again**. If all prerequisites are met this time, the installation resumes.
 
-     
+
 
 6.  Install the Self-Service Portal by following the steps in the **To install the Self-Service Portal** section in [How to Install and Configure MBAM on Distributed Servers](how-to-install-and-configure-mbam-on-distributed-servers-mbam-2.md).
 
     **Note**  
     If the client computers will not have access to the Microsoft Content Delivery Network (CDN), which gives the Self-Service Portal the required access to certain JavaScript files, complete the steps in the **To configure the Self-Service Portal when end users cannot access the Microsoft Content Delivery Network** section [How to Install and Configure MBAM on Distributed Servers](how-to-install-and-configure-mbam-on-distributed-servers-mbam-2.md) to configure the Self-Service Portal to reference the JavaScript files from an accessible source.
 
-     
+
 
 7.  Install the Administration and Monitoring Server features by following the steps in the **To install the Administration and Monitoring Server feature** section in [How to Install and Configure MBAM on Distributed Servers](how-to-install-and-configure-mbam-on-distributed-servers-mbam-2.md).
 
@@ -138,9 +137,9 @@ If you are using a non-default SQL Server Reporting Services (SSRS) instance, yo
 
 [Deploying MBAM with Configuration Manager](deploying-mbam-with-configuration-manager-mbam2.md)
 
- 
 
- 
+
+
 
 
 

@@ -2,8 +2,7 @@
 title: DaRT 10 privacy statement
 description: DaRT 10 privacy statement.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

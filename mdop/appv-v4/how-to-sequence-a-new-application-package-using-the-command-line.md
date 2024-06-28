@@ -3,8 +3,7 @@ title: How to Sequence a New Application Package Using the Command Line
 description: How to Sequence a New Application Package Using the Command Line
 author: aczechowski
 ms.assetid: de72912b-d9e7-45b5-a601-12528f1a4cac
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 You can use a command line to sequence a new application. Using a command line is useful when you have to create a large number of virtual applications or when you need to create sequenced applications on a recurring basis.
 
-**Important**  
+**Important**
 Command-line sequencing allows for default sequencing only. If you need to change default installation settings for the application you are sequencing, you must either manually modify the virtual application or update the virtual application by using the Application Virtualization (App-V) Sequencer. For more information about updating a virtual application by using the App-V Sequencer, see [How to Upgrade an Existing Virtual Application](how-to-upgrade-an-existing-virtual-application.md).
 
 
@@ -35,7 +34,7 @@ Use the following procedure to create a virtual application by using the command
 
     `SFTSequencer /INSTALLPACKAGE:"pathtoMSI" /INSTALLPATH:"pathtopackageroot" /OUTPUTFILE:"pathtodestinationSPRJ"`
 
-    **Note**  
+    **Note**
     You can specify additional parameters by using the command line, depending on the complexity of the application you are sequencing. For a complete list of parameters that are available for use with the App-V Sequencer, see [Application Virtualization Sequencer Command Line](application-virtualization-sequencer-command-line.md).
 
 

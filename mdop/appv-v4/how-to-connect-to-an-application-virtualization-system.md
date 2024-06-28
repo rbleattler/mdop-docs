@@ -3,8 +3,7 @@ title: How to Connect to an Application Virtualization System
 description: How to Connect to an Application Virtualization System
 author: aczechowski
 ms.assetid: ac38216c-5464-4c0b-a4d3-3949ba6358ac
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -22,7 +21,7 @@ You must connect the Application Virtualization Server Management Console to an 
 
 1. Right-click the Application Virtualization System node in the **Scope** pane, and select **Connect to Application Virtualization System** from the pop-up menu.
 
-   **Note**  
+   **Note**
    There are three components to Application Virtualization server management: the Application Virtualization Management Console, the Management Web Service, and the SQL Datastore. If these components are distributed across different physical machines, you must configure security properly for the components to communicate across the system. For more information, see the following manuals and articles:
 
    [How to Configure the Server to be Trusted for Delegation](https://go.microsoft.com/fwlink/?LinkID=166682) (https://go.microsoft.com/fwlink/?LinkID=166682)
@@ -35,7 +34,7 @@ You must connect the Application Virtualization Server Management Console to an 
 
    [Article 930565](https://go.microsoft.com/fwlink/?LinkId=114648) in the Microsoft Knowledge Base (https://go.microsoft.com/fwlink/?LinkId=114648)
 
-     
+
 
 2. Complete the fields in the **Connect to Application Virtualization System** dialog box:
 
@@ -60,9 +59,9 @@ You must connect the Application Virtualization Server Management Console to an 
 
 [How to Perform Administrative Tasks in the Application Virtualization Server Management Console](how-to-perform-administrative-tasks-in-the-application-virtualization-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

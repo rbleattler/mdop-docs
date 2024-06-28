@@ -3,8 +3,7 @@ title: How to Modify File-Mapping Information
 description: How to Modify File-Mapping Information
 author: aczechowski
 ms.assetid: d3a9d10a-6cc8-4399-9479-b20f729c4dd9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

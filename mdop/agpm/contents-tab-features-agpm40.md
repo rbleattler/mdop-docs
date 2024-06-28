@@ -1,10 +1,9 @@
 ---
-title: Features on the Contents Tab 
+title: Features on the Contents Tab
 description: Contents Tab Features
 author: aczechowski
 ms.assetid: f1f4849d-bf94-47d5-ad81-0eee33abcaca
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -14,7 +13,7 @@ ms.date: 06/16/2016
 ---
 
 
-# Features on the Contents Tab 
+# Features on the Contents Tab
 
 
 Each secondary tab within the **Contents** tab has two sections—**Group Policy objects** and **Groups and Users**.

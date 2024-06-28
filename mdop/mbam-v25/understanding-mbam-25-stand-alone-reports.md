@@ -3,8 +3,7 @@ title: Understanding MBAM 2.5 Stand-alone Reports
 description: Understanding MBAM 2.5 Stand-alone Reports
 author: aczechowski
 ms.assetid: 78b5aaf4-8257-4722-8eb9-e0de48db6a11
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 This topic describes the reports that are available when you are running Microsoft BitLocker Administration and Monitoring (MBAM) in the Stand-alone topology.
 
-**Note**  
+**Note**
 If you are running MBAM with the Configuration Manager Integration topology, you generate reports from Configuration Manager rather than from MBAM. See [Viewing MBAM 2.5 Reports for the Configuration Manager Integration Topology](viewing-mbam-25-reports-for-the-configuration-manager-integration-topology.md) for more information about these reports.
 
 
@@ -145,7 +144,7 @@ Use this report type to collect information that is specific to a computer or us
 
 View this report by clicking the computer name in the Enterprise Compliance Report, or by typing the computer name in the Computer Compliance Report. This report shows detailed encryption information about each drive (operating system and fixed data drives) on a computer. It also indicates the policy that is applied to each drive type on the computer. To view the details of each drive, expand the Computer Name entry.
 
-**Note**  
+**Note**
 Removable Data Volume encryption status is not shown in this report.
 
 
@@ -363,7 +362,7 @@ Use this report type to audit users who have requested access to BitLocker recov
 
 
 
-**Note**  
+**Note**
 Report results can be saved to a file by clicking the **Export** button on the **Reports** menu bar.
 
 
@@ -380,7 +379,7 @@ Report results can be saved to a file by clicking the **Export** button on the *
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

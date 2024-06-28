@@ -3,8 +3,7 @@ title: Configure Logging and Tracing Settings
 description: Configure Logging and Tracing Settings
 author: aczechowski
 ms.assetid: 858b6fbf-65b4-42fa-95a9-69b04e5734d7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

@@ -3,8 +3,7 @@ title: Server Management Console Packages Node
 description: Server Management Console Packages Node
 author: aczechowski
 ms.assetid: 458424f6-d586-4fa8-bf61-44c5028a4490
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="packages-node"></a>[Packages Node](packages-node.md)  
+<a href="" id="packages-node"></a>[Packages Node](packages-node.md)
 Describes the features and commands available from the **Packages** node.
 
-<a href="" id="package-results-pane"></a>[Package Results Pane](package-results-pane.md)  
+<a href="" id="package-results-pane"></a>[Package Results Pane](package-results-pane.md)
 Describes the features and commands available in the **Packages** node **Results** pane.
 
-<a href="" id="package-results-pane-columns"></a>[Package Results Pane Columns](package-results-pane-columns.md)  
+<a href="" id="package-results-pane-columns"></a>[Package Results Pane Columns](package-results-pane-columns.md)
 Describes the columns available in the **Packages** node **Results** pane.
 
 ## Related topics
