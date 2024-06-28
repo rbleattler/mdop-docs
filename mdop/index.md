@@ -65,7 +65,7 @@ UE-V captures settings to apply to computers accessed by the user including desk
 
 For more information, see [What's New in UE-V 2.1 SP1](uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1.md).
 
-For information about UE-V in Windows 10, see [User Experience Virtualization (UE-V) for Windows 10 overview](./ue-v/uev-for-windows).
+For information about UE-V in Windows 10, see [User Experience Virtualization (UE-V) for Windows 10 overview](./ue-v/uev-for-windows.md).
 
 <a name="how-to-get-mdop">
 
