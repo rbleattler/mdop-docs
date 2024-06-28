@@ -2,14 +2,7 @@
 title: Application Virtualization (App-V) (Windows 10/11)
 description: See various articles that can help you administer Application Virtualization (App-V) and its components.
 author: aczechowski
-ms.service: windows-client
 ms.date: 09/27/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # Application Virtualization (App-V) for Windows client overview
@@ -21,13 +14,13 @@ ms.subservice: itpro-apps
 
 The articles in this section provide information and instructions to help you administer App-V and its components. This information is for system administrators who manage large installations with many servers and clients, and for support personnel who interact directly with the computers or users.
 
-[Getting started with App-V](appv-getting-started.md)  
+[Getting started with App-V](appv-getting-started.md)
 
 - [What's new in App-V](appv-about-appv.md)
 - [Evaluating App-V](appv-evaluating-appv.md)
 - [High-level architecture for App-V](appv-high-level-architecture.md)
 
-[Planning for App-V](appv-planning-for-appv.md)  
+[Planning for App-V](appv-planning-for-appv.md)
 
 - [Preparing your environment for App-V](appv-preparing-your-environment.md)
 - [App-V prerequisites](appv-prerequisites.md)
@@ -35,7 +28,7 @@ The articles in this section provide information and instructions to help you ad
 - [App-V supported configurations](appv-supported-configurations.md)
 - [App-V planning checklist](appv-planning-checklist.md)
 
-[Deploying App-V](appv-deploying-appv.md)  
+[Deploying App-V](appv-deploying-appv.md)
 
 - [Deploying the App-V Sequencer and configuring the client](appv-deploying-the-appv-sequencer-and-client.md)
 - [Deploying the App-V Server](appv-deploying-the-appv-server.md)
@@ -44,7 +37,7 @@ The articles in this section provide information and instructions to help you ad
 - [Deploying Microsoft Office 2013 by using App-V](appv-deploying-microsoft-office-2013-with-appv.md)
 - [Deploying Microsoft Office 2010 by using App-V](appv-deploying-microsoft-office-2010-wth-appv.md)
 
-[Operations for App-V](appv-operations.md)  
+[Operations for App-V](appv-operations.md)
 
 - [Creating and managing App-V virtualized applications](appv-creating-and-managing-virtualized-applications.md)
 - [Automatically provision your sequencing environment using Microsoft Application Virtualization Sequencer (App-V Sequencer)](appv-auto-provision-a-vm.md)
@@ -59,9 +52,9 @@ The articles in this section provide information and instructions to help you ad
 - [Maintaining App-V](appv-maintaining-appv.md)
 - [Administering App-V by using Windows PowerShell](appv-administering-appv-with-powershell.md)
 
-[Troubleshooting App-V](appv-troubleshooting.md)  
+[Troubleshooting App-V](appv-troubleshooting.md)
 
-[Technical reference for App-V](appv-technical-reference.md)  
+[Technical reference for App-V](appv-technical-reference.md)
 
 - [Performance guidance for Application Virtualization](appv-performance-guidance.md)
 - [Application publishing and client interaction](appv-application-publishing-and-client-interaction.md)

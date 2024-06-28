@@ -2,14 +2,7 @@
 title: How to create a connection croup with user-published and globally published packages (Windows 10/11)
 description: How to create a connection croup with user-published and globally published packages.
 author: aczechowski
-ms.service: windows-client
 ms.date: 07/10/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # How to create a connection croup with user-published and globally published packages
 
@@ -26,13 +19,13 @@ Here are some important things to know before you get started:
 
 - If you add user-published packages in globally entitled connection groups, the connection group will fail.
 - Track the connection groups where you've used a non-optional package before removing it with the **Unpublish-AppvClientPackage <</span>package> -global** cmdlet.
-      
+
     In situations where you have a globally published package that's listed as non-optional in a user-published connection group that also appears in other packages, running **Unpublish-AppvClientPackage <</span>package> -global** cmdlet can unpublish the package from every connection group containing that package. Tracking connection groups can help you avoid unintentionally unpublishing non-optional packages.
 
 ## How to use Windows PowerShell cmdlets to create user-entitled connection groups
 
 1. Add and publish packages by using the following commands:
-    
+
     ```PowerShell
     Add-AppvClientPackage <Package1_AppV_file_Path>
     Add-AppvClientPackage <Package2_AppV_file_Path>
@@ -43,7 +36,7 @@ Here are some important things to know before you get started:
 2. Create the connection group XML file. For more information, see [About the connection group file](appv-connection-group-file.md).
 
 3. Add and publish the connection group by using the following commands:
-    
+
     ```PowerShell
     Add-AppvClientConnectionGroup <Connection_Group_XML_file_Path>
     Enable-AppvClientConnectionGroup -GroupId <CG_Group_ID> -VersionId <CG_Version_ID>

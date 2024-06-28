@@ -2,14 +2,7 @@
 title: How to publish a package by using the Management console (Windows 10/11)
 description: Learn how the Management console in App-V can help you enable admin controls as well as publish App-V packages.
 author: aczechowski
-ms.service: windows-client
 ms.date: 09/27/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # How to publish a package by using the Management console

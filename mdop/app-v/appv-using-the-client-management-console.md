@@ -2,14 +2,7 @@
 title: Using the App-V Client Management Console (Windows 10/11)
 description: Learn how to use the Application Virtualization (App-V) client management console to manage packages on the computer running the App-V client.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/19/2017
-ms.reviewer:
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.subservice: itpro-apps
-ms.topic: article
 ---
 
 # Using the App-V Client Management Console

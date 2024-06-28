@@ -2,14 +2,7 @@
 title: App-V Prerequisites (Windows 10/11)
 description: Learn about the prerequisites you need before you begin installing Application Virtualization (App-V).
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/18/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # App-V for Windows client prerequisites

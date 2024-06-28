@@ -2,14 +2,7 @@
 title: Apply deployment config file via Windows PowerShell (Windows 10/11)
 description: How to apply the deployment configuration file by using Windows PowerShell for Windows 10/11.
 author: aczechowski
-ms.service: windows-client
 ms.date: 06/15/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # How to apply the deployment configuration file by using Windows PowerShell
 
@@ -21,10 +14,10 @@ When you add or set a package to a computer running the App-V client before it's
 
 > [!NOTE]
 > The following example cmdlet uses the following two file paths for the package and configuration files:
-> 
+>
 > * C:\\Packages\\Contoso\\MyApp.appv
 > * C:\\Packages\\Contoso\\DynamicConfigurations\\deploymentconfig.xml
-> 
+>
 > If your package and configuration files use different file paths than the example, feel free to replace them as needed.
 
 To specify a new default set of configurations for all users who will run the package on a specific computer, in a Windows PowerShell console, enter the following cmdlet:

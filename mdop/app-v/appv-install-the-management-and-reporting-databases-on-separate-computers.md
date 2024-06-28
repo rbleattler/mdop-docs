@@ -2,14 +2,7 @@
 title: How to Install the Management and Reporting Databases on separate computers from the Management and Reporting Services (Windows 10/11)
 description: How to install the Management and Reporting Databases on separate computers from the Management and Reporting Services.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/18/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # How to Install the Management and Reporting Databases on separate computers from the Management and Reporting Services
@@ -61,7 +54,7 @@ Use the following procedure to install the database server and management server
    ```SQL
     appv\_server\_setup.exe /LAYOUT /LAYOUTDIR=”InstallationExtractionLocation”
    ```
-  
+
 3. After the extraction has been completed, to access the App-V database scripts and instructions readme file:
 
    * The App-V Management Database scripts and instructions readme are located in the following folder: **InstallationExtractionLocation** \\ **Database Scripts** \\ **Management Database**.

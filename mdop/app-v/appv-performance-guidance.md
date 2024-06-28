@@ -2,14 +2,7 @@
 title: Performance Guidance for Application Virtualization
 description: Learn how to configure App-V for optimal performance, optimize virtual app packages, and provide a better user experience with RDS and VDI.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/19/2017
-ms.reviewer:
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.subservice: itpro-apps
-ms.topic: article
 ---
 
 # Performance Guidance for Application Virtualization

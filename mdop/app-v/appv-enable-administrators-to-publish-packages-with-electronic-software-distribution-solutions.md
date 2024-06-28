@@ -2,11 +2,7 @@
 title: How to enable only administrators to publish packages by using an ESD
 description: Learn how to enable only administrators to publish packages by bsing an electronic software delivery (ESD).
 author: aczechowski
-ms.service: windows-client
-ms.subservice: itpro-apps
 ms.date: 05/02/2022
-ms.reviewer: 
-manager: aaroncz
 ms.author: aaroncz
 ms.collection: must-keep
 ms.topic: how-to
