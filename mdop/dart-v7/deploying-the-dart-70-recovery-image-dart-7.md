@@ -2,8 +2,7 @@
 title: Deploying the DaRT 7.0 Recovery Image
 description: Deploying the DaRT 7.0 Recovery Image
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---
@@ -25,7 +24,7 @@ After you have created the International Organization for Standardization (ISO) 
 > [!IMPORTANT]
 > The **DaRT Recovery Image Wizard** only provides the option to burn a CD or DVD. All other methods of saving and deploying the recovery image require additional steps that involve tools that are not included in DaRT. Some guidance and links for these other methods are provided in this section.
 
- 
+
 
 ## Deploy the DaRT Recovery Image Using a USB Flash Drive
 

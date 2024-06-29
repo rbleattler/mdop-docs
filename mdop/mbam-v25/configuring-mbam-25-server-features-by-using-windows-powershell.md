@@ -3,8 +3,7 @@ title: Configuring MBAM 2.5 Server Features by Using Windows PowerShell
 description: Configuring MBAM 2.5 Server Features by Using Windows PowerShell
 author: aczechowski
 ms.assetid: 826429fd-29bb-44be-b47e-5f5c7d20dd1d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -85,7 +84,7 @@ Windows PowerShell Help for MBAM is available in the following formats:
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-config-only-posh"></a>Configurations that you can do only with Windows PowerShell but not with the MBAM Server Configuration wizard
 
@@ -125,12 +124,12 @@ Windows PowerShell Help for MBAM is available in the following formats:
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 You cannot disable the MBAM databases with a Windows PowerShell cmdlet or the MBAM Server Configuration wizard. To prevent the accidental removal of your compliance and audit data, database administrators must remove databases manually.
 
- 
+
 
 ## <a href="" id="bkmk-prereqs-posh-mbamsvr"></a>Prerequisites and requirements for using Windows PowerShell to configure MBAM Server features
 
@@ -167,7 +166,7 @@ Before starting the configuration, complete the following prerequisites.
 </tbody>
 </table>
 
- 
+
 
 **Permission-related prerequisites**
 
@@ -234,7 +233,7 @@ Before starting the configuration, complete the following prerequisites.
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-remote-config"></a>Using Windows PowerShell to configure MBAM on a remote computer
 
@@ -273,7 +272,7 @@ Before starting the configuration, complete the following prerequisites.
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-reqd-posh-accts"></a>Required accounts and corresponding Windows PowerShell cmdlet parameters
 
@@ -309,7 +308,7 @@ Specifies the administrative credential that the local SSRS instance uses to con
 **Important**  
 The account specified in the administrative credentials should have limited user rights for improved security. Also, the password of the account should be set to not expire.
 
- 
+
 
 ReportsReadOnlyAccessGroup
 
@@ -348,9 +347,9 @@ For improved security, set the account that is specified in the administrative c
 
 To view the local security setting, open the **Local Security Policy editor**, expand the **Local Policies** node, select the **User Rights Assignment** node, and then double-click the **Impersonate a client after authentication** and **Log on as a batch job** Group Policy settings in the details pane.
 
- 
 
- 
+
+
 
 
 
@@ -364,11 +363,11 @@ To view the local security setting, open the **Local Security Policy editor**, e
 
 [Using Windows PowerShell to Administer MBAM 2.5](using-windows-powershell-to-administer-mbam-25.md)
 
- 
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
- 
+
 
 
 

@@ -3,8 +3,7 @@ title: About Application Virtualization Applications
 description: About Application Virtualization Applications
 author: aczechowski
 ms.assetid: 3bf833b7-d172-4eef-a9e8-4b4f0c7eb15b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

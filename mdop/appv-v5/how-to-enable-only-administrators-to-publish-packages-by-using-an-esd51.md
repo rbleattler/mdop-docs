@@ -3,8 +3,7 @@ title: How to Enable Only Administrators to Publish Packages by Using an ESD
 description: How to Enable Only Administrators to Publish Packages by Using an ESD
 author: aczechowski
 ms.assetid: bbc9fda2-fc09-4d72-8d9a-e83d2fcfe234
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

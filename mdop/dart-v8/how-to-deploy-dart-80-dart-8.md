@@ -3,8 +3,7 @@ title: How to Deploy DaRT 8.0
 description: How to Deploy DaRT 8.0
 author: aczechowski
 ms.assetid: ab772e7a-c02f-4847-acdf-8bd362769a77
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -21,7 +20,7 @@ The following instructions explain how to deploy Microsoft Diagnostics and Recov
 **Important**  
 Before you install DaRT, see [DaRT 8.0 Supported Configurations](dart-80-supported-configurations-dart-8.md) to ensure that you have installed all of the prerequisite software and that the computer meets the minimum system requirements. The computer onto which you install DaRT must be running Windows 8 or Windows Server 2012.
 
- 
+
 
 You can install DaRT using one of two different configurations:
 
@@ -61,7 +60,7 @@ When you install or uninstall DaRT, you have the option of running the installat
 The following example shows how to install all DaRT functionality.
 
 ``` syntax
-msiexec /i MSDaRT80.msi ADDLOCAL=CommonFiles, DaRTRecoveryImage,CrashAnalyzer,RemoteViewer 
+msiexec /i MSDaRT80.msi ADDLOCAL=CommonFiles, DaRTRecoveryImage,CrashAnalyzer,RemoteViewer
 ```
 
 The following example shows how to install only the DaRT Recovery Image wizard.
@@ -73,19 +72,19 @@ msiexec /i MSDaRT80.msi ADDLOCAL=CommonFiles, ,DaRTRecoveryImage
 The following example shows how to install only the Crash Analyzer and the DaRT Remote Connection Viewer.
 
 ``` syntax
-msiexec /i MSDaRT80.msi ADDLOCAL=CommonFiles,CrashAnalyzer,RemoteViewer 
+msiexec /i MSDaRT80.msi ADDLOCAL=CommonFiles,CrashAnalyzer,RemoteViewer
 ```
 
 The following example creates a setup log for the Windows Installer. This is valuable for debugging.
 
 ``` syntax
-msiexec.exe /i MSDaRT80.msi /l*v log.txt 
+msiexec.exe /i MSDaRT80.msi /l*v log.txt
 ```
 
 **Note**  
 You can add /qn or /qb to perform a silent installation.
 
- 
+
 
 **To validate the DaRT installation**
 
@@ -100,9 +99,9 @@ You can add /qn or /qb to perform a silent installation.
 
 [Deploying DaRT 8.0 to Administrator Computers](deploying-dart-80-to-administrator-computers-dart-8.md)
 
- 
 
- 
+
+
 
 
 

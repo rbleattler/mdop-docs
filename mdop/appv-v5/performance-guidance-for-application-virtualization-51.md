@@ -2,8 +2,7 @@
 title: Performance Guidance for Application Virtualization 5.1
 description: Performance Guidance for Application Virtualization 5.1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -230,7 +229,7 @@ On subsequent logins:
 - (Expectation) There will be shortcuts present on the desktop, or in the Start menu, which works immediately. When the publishing/refresh completes (that is, package entitlements change), some may go away.
 - (Operation) Publishing/refresh will process unpublish and publish operations for changes in user package entitlements. (Expectation) If there are no entitlement changes, publishing1 will complete in seconds. Otherwise, the publishing/refresh will increase relative to the number and complexity* of virtual applications.
 - (Operation) UPM solution captures user integrations again at sign out. (Expectation) Same as previous.
-  
+
 ¹ The publishing operation (Publish-AppVClientPackage) adds entries to the user catalog, maps entitlement to the user, identifies the local store, and finishes by completing any integration steps.
 
 **Outcome**: Because the user integrations are entirely preserved, there will be no work for example, integration for the publishing/refresh to complete. All virtual applications are available within seconds of sign-in. The publishing/refresh will process changes to the users entitled virtual applications, which impact the experience.

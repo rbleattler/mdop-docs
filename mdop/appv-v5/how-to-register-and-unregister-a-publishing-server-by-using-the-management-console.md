@@ -3,8 +3,7 @@ title: How to Register and Unregister a Publishing Server by Using the Managemen
 description: How to Register and Unregister a Publishing Server by Using the Management Console
 author: aczechowski
 ms.assetid: c24f3b43-4888-41a9-9a39-973657f2b917
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

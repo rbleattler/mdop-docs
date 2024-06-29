@@ -3,8 +3,7 @@ title: How to Modify App-V 5.1 Client Configuration Using the ADMX Template and 
 description: How to Modify App-V 5.1 Client Configuration Using the ADMX Template and Group Policy
 author: aczechowski
 ms.assetid: 0d9cf13a-b29c-4c87-a776-15fea34027dd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -24,7 +23,7 @@ Use the Microsoft Application Virtualization (App-V) 5.1 ADMX template to config
 1.  To modify the App-V 5.1 client configuration, locate the **ADMXTemplate** files that are available with App-V 5.1.
 
     **Note**  
-    To download the App-V 5.1 **ADMX Templates**, see [How to Download and Deploy MDOP Group Policy (.admx) Templates](../solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).     
+    To download the App-V 5.1 **ADMX Templates**, see [How to Download and Deploy MDOP Group Policy (.admx) Templates](../solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
 
 2.  On the computer where you manage group Policy, typically the domain controller, copy the template **.admx** file to the following directory: **&lt;Installation Drive&gt; \\ Windows \\ PolicyDefinitions**.
 
@@ -41,9 +40,9 @@ Use the Microsoft Application Virtualization (App-V) 5.1 ADMX template to config
 
 [About Client Configuration Settings](about-client-configuration-settings51.md)
 
- 
 
- 
+
+
 
 
 

@@ -2,8 +2,7 @@
 title: About App-V 5.0 SP3
 description: About App-V 5.0 SP3
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 11/02/2016

@@ -3,8 +3,7 @@ title: Validating the MBAM 2.5 Server Feature Configuration
 description: Validating the MBAM 2.5 Server Feature Configuration
 author: aczechowski
 ms.assetid: f4983a33-ce18-4186-a471-dd6415940504
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -28,7 +27,7 @@ Use the following steps to validate your MBAM Server deployment with the Stand-a
 
 1.  On each server where an MBAM feature is deployed, click **Control Panel** &gt; **Programs** &gt; **Programs and Features**. Verify that **Microsoft BitLocker Administration and Monitoring** appears in the **Programs and Features** list.
 
-    **Note**  
+    **Note**
     To do the validation, you must use a domain account that has local computer administrative credentials on each server.
 
 
@@ -47,13 +46,13 @@ Use the following steps to validate your MBAM Server deployment with the Stand-a
 
 5.  Confirm that a reports folder named **Microsoft BitLocker Administration and Monitoring** contains a data source called **MaltaDataSource** as well as the language folders. The data source contains folders with names that represent languages (for example, en-us). The reports are in the language folders.
 
-    **Note**  
+    **Note**
     If SQL Server Reporting Services (SSRS) was configured as a named instance, the URL should resemble the following: http(s)://&lt; *MBAMReportsServerName*&gt;:&lt;*port*&gt;/Reports\_&lt;*SSRSInstanceName*&gt;
 
 
 
 
-**Note**  
+**Note**
 If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the reports will be set to HTTP instead of HTTPS when you install the MBAM Server. If you then go to the Administration and Monitoring Website (also known as Help Desk) and select a report, the following message appears: "Only Secure Content is Displayed." To show the report, click **Show All Content**.
 
 
@@ -77,7 +76,7 @@ If SSRS was not configured to use Secure Socket Layer (SSL), the URL for the rep
 
    -   http(s)://&lt; *MBAMAdministrationServerName*&gt;:&lt;*port*&gt;/SelfService/
 
-   **Note**  
+   **Note**
    It is assumed that you configured the server features on the default port without network encryption. If you configured the server features on a different port or virtual directory, change the URLs to include the appropriate port, for example:
 
    http(s)://&lt; *host name*&gt;:&lt;*port*&gt;/HelpDesk/
@@ -111,7 +110,7 @@ Use these steps to validate your MBAM Server deployment when you are using MBAM 
 
 1.  On the server where System Center 2012 Configuration Manager is deployed, open **Programs and Features** in **Control Panel**, and verify that **Microsoft BitLocker Administration and Monitoring** appears.
 
-    **Note**  
+    **Note**
     To validate the configuration, you must use a domain account that has local computer administrative credentials on each server.
 
 
@@ -146,7 +145,7 @@ Use these steps to validate your MBAM Server deployment when you are using MBAM 
 
 1.  On the server where Configuration Manager 2007 is deployed, open **Programs and Features** on **Control Panel** , and verify that **Microsoft BitLocker Administration and Monitoring** appears.
 
-    **Note**  
+    **Note**
     To validate the configuration, you must use a domain account that has local computer administrative credentials on each server.
 
 

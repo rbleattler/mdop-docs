@@ -3,8 +3,7 @@ title: Editor Tasks
 description: Performing Editor Tasks in AGPM 4.
 author: aczechowski
 ms.assetid: 81976a01-2a95-4256-b703-9fb3c884ef34
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -22,7 +21,7 @@ In Advanced Group Policy Management (AGPM), an Editor is a person authorized by 
 **Important**  
 Make sure that you are connecting to the central archive for GPOs. For more information, see [Configure an AGPM Server Connection](configure-an-agpm-server-connection-agpm40.md).
 
- 
+
 
 -   [Creating or Controlling a GPO](creating-or-controlling-a-gpo-agpm40-ed.md)
 
@@ -39,7 +38,7 @@ Make sure that you are connecting to the central archive for GPOs. For more info
 **Note**  
 Because the Editor role includes the permissions for the Reviewer role, an Editor can also review settings and compare GPOs. See [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md) for more information.
 
- 
+
 
 ### Additional considerations
 
@@ -57,9 +56,9 @@ By default, the following permissions are provided for the Editor role:
 
 -   Create Template
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Labeling the Current Version of a GPO
 description: Labeling the Current Version of a GPO
 author: aczechowski
 ms.assetid: 3845211a-0bc9-4875-9906-cb758c443825
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

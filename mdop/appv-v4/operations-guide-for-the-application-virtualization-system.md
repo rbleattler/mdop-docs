@@ -2,8 +2,7 @@
 title: Operations Guide for the Application Virtualization System
 description: Operations Guide for the Application Virtualization System
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

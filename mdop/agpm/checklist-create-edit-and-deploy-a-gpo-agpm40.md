@@ -3,8 +3,7 @@ title: Create, Edit, and Deploy a GPO Checklist
 description: Checklist Create, Edit, and Deploy a GPO
 author: aczechowski
 ms.assetid: 44631bed-16d2-4b5a-af70-17a73fb5f6af
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -63,15 +62,15 @@ In an environment where multiple people change Group Policy Objects (GPOs) by us
 </tbody>
 </table>
 
- 
+
 
 ### Additional references
 
 [Advanced Group Policy Management 4.0](advanced-group-policy-management-40.md)
 
- 
 
- 
+
+
 
 
 

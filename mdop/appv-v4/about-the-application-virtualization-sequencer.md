@@ -3,8 +3,7 @@ title: About the Application Virtualization Sequencer
 description: About the Application Virtualization Sequencer
 author: aczechowski
 ms.assetid: bee193ca-58bd-40c9-b41a-310435633895
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,44 +20,44 @@ The Microsoft Application Virtualization (App-V) Sequencer monitors and records 
 **Important**  
 To run a virtual application package the target computer must be running the appropriate version of the App-V client.
 
- 
+
 
 Virtual application packages run on target computers without interacting with the underlying operating system on the target computer because each application runs in a virtual environment and is isolated from other applications that are installed or running on the target computer. This isolation can reduce application conflicts and can help decrease the required amount of application pre-deployment testing.
 
 ## Sequencer Terminology
 
 
-<a href="" id="application-virtualization-drive"></a>Application Virtualization drive  
+<a href="" id="application-virtualization-drive"></a>Application Virtualization drive
 The application virtualization drive is the default drive (Q:\) on the target computer from which sequenced applications are run.
 
-<a href="" id="ico-file"></a>ICO file  
+<a href="" id="ico-file"></a>ICO file
 The icon file on the client desktop which is used to launch a sequenced application.
 
-<a href="" id="installation-directory"></a>Installation directory  
+<a href="" id="installation-directory"></a>Installation directory
 The directory used by the sequencer to place installation files during setup.
 
-<a href="" id="open-software-descriptor--osd--file"></a>Open Software Descriptor (OSD) file  
+<a href="" id="open-software-descriptor--osd--file"></a>Open Software Descriptor (OSD) file
 An XML-based file that instructs the App-V client how to retrieve the sequenced application from the App-V streaming server and how to run the sequenced application in the virtual environment.
 
-<a href="" id="package-root-directory"></a>Package root directory  
+<a href="" id="package-root-directory"></a>Package root directory
 The directory on the sequencing computer on which files for the sequenced application package are installed. This directory also exists virtually on the computer to which a sequenced application will be streamed.
 
-<a href="" id="sequenced-application"></a>Sequenced application  
+<a href="" id="sequenced-application"></a>Sequenced application
 An application that has been monitored by the sequencer, broken up into primary and secondary feature blocks, streamed to a target computer running the App-V client t, and runs a virtual environment.
 
-<a href="" id="sequenced-application-package"></a>Sequenced application package  
+<a href="" id="sequenced-application-package"></a>Sequenced application package
 The files that comprise a virtual application and allow a virtual application to run. These files are created after sequencing and specifically include **.osd**, **.sft**, **.sprj**, and **.ico** files.
 
-<a href="" id="sequencing"></a>Sequencing  
+<a href="" id="sequencing"></a>Sequencing
 The process of creating an application package using the App-V Sequencer. In this process, an application is monitored, its shortcuts are configured, and a sequenced application package is created.
 
-<a href="" id="sequencing-computer"></a>Sequencing computer  
+<a href="" id="sequencing-computer"></a>Sequencing computer
 The computer used to sequence an application.
 
-<a href="" id="virtual-application"></a>Virtual application  
+<a href="" id="virtual-application"></a>Virtual application
 An application packaged by the Sequencer to run in a self-contained, virtual environment. The virtual environment contains the information necessary to run the application on the client without installing the application locally.
 
-<a href="" id="primary-feature-block"></a>Primary feature block  
+<a href="" id="primary-feature-block"></a>Primary feature block
 The minimum content in a virtual application package that is necessary for an application to run on a target computer. The content in the primary feature block is identified during the application phase of sequencing and typically consists of the content for the most used application features.
 
 ## <a href="" id="sequencing-applications-"></a>Sequencing Applications
@@ -82,16 +81,16 @@ The App-V Sequencer runs all services detected at sequencing time using the Loca
 **Important**  
 You should always save virtual application packages in a secure location.
 
- 
+
 
 ## Related topics
 
 
 [Application Virtualization Sequencer Overview](application-virtualization-sequencer-overview.md)
 
- 
 
- 
+
+
 
 
 

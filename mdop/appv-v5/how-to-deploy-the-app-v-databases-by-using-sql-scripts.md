@@ -2,8 +2,7 @@
 title: Deploy the App-V 5.0 databases by using SQL scripts
 description: How to deploy the App-V 5.0 databases by using SQL scripts.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

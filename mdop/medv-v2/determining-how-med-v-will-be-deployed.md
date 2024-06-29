@@ -2,8 +2,7 @@
 title: Determining how MED-V is deployed
 description: Determining how MED-V is deployed.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

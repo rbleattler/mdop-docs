@@ -3,8 +3,7 @@ title: Uncontrolled GPO Commands
 description: Uncontrolled GPO Commands in AGPM 3.
 author: aczechowski
 ms.assetid: 94c07b09-cb96-4ff2-b963-b25f103e73e9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

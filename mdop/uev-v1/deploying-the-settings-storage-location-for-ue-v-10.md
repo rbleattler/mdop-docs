@@ -3,8 +3,7 @@ title: Deploying the Settings Storage Location for UE-V 1.0
 description: Deploying the Settings Storage Location for UE-V 1.0
 author: aczechowski
 ms.assetid: b187d44d-649b-487e-98d3-a61ee2be8c2f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -58,7 +57,7 @@ When you create the settings storage share, you should limit access only to user
     </tbody>
     </table>
 
-     
+
 
 4.  Set the following NTFS permissions for the settings storage location folder:
 
@@ -89,7 +88,7 @@ When you create the settings storage share, you should limit access only to user
     </tbody>
     </table>
 
-     
+
 
 5.  Click **OK** to close the dialog boxes.
 
@@ -102,7 +101,7 @@ Additional security can be configured when a Windows server is utilized for the 
 
 2.  Set registry key value to 1.
 
- 
+
 
 ## Related topics
 
@@ -116,9 +115,9 @@ Deploy the Central Storage for User Experience Virtualization Settings Templates
 
 [Deploying the UE-V Agent](deploying-the-ue-v-agent.md)
 
- 
 
- 
+
+
 
 
 

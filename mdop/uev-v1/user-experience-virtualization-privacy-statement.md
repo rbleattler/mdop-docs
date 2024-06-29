@@ -2,8 +2,7 @@
 title: User Experience Virtualization Privacy Statement
 description: User Experience Virtualization Privacy Statement
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

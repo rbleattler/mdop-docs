@@ -2,8 +2,7 @@
 title: What's New in AGPM 4.0 SP2
 description: What's New in AGPM 4.0 SP2
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

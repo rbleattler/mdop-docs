@@ -3,8 +3,7 @@ title: Managing UE-V 2.x Settings Location Templates Using Windows PowerShell an
 description: Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI
 author: aczechowski
 ms.assetid: b5253050-acc3-4274-90d0-1fa4c480331d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -197,28 +196,28 @@ To display a list of Windows apps that can synchronize settings on a computer wi
 
 **Definitions of Get-UevAppxPackage properties**
 
-<a href="" id="displayname"></a>**DisplayName**  
+<a href="" id="displayname"></a>**DisplayName**
 The name that is displayed to the user in the Company Settings Center application. The `DisplayName` property is derived from the `PackageFamilyName` property.
 
-<a href="" id="packagefamilyname"></a>**PackageFamilyName**  
+<a href="" id="packagefamilyname"></a>**PackageFamilyName**
 The name of the package that is installed for the current user.
 
-<a href="" id="enabled"></a>**Enabled**  
+<a href="" id="enabled"></a>**Enabled**
 Defines whether the settings for the app are configured to synchronize.
 
-<a href="" id="enabledsource"></a>**EnabledSource**  
+<a href="" id="enabledsource"></a>**EnabledSource**
 The location where the configuration that enables or disables the app is set. Possible values are: *NotSet*, *LocalMachine*, *LocalUser*, *PolicyMachine*, and *PolicyUser*.
 
-<a href="" id="notset"></a>**NotSet**  
+<a href="" id="notset"></a>**NotSet**
 The policy is not configured to synchronize this app.
 
-<a href="" id="localmachine"></a>**LocalMachine**  
+<a href="" id="localmachine"></a>**LocalMachine**
 The enabled state is set in the local computer section of the registry.
 
-<a href="" id="localuser"></a>**LocalUser**  
+<a href="" id="localuser"></a>**LocalUser**
 The enabled state is set in the current user section of the registry.
 
-<a href="" id="policymachine"></a>**PolicyMachine**  
+<a href="" id="policymachine"></a>**PolicyMachine**
 The enabled state is set in the policy section of the local computer section of the registry.
 
 To get the user-configured list of Windows apps, at the Windows PowerShell command prompt, enter: `Get-UevAppxPackage –CurrentComputerUser`
@@ -229,16 +228,16 @@ For either parameter, CurrentComputerUser or Computer, the cmdlet returns a list
 
 **Definitions of properties**
 
-<a href="" id="displayname"></a>**DisplayName**  
+<a href="" id="displayname"></a>**DisplayName**
 The name that is displayed to the user in the Company Settings Center application. The `DisplayName` property is derived from the `PackageFamilyName` property.
 
-<a href="" id="packagefamilyname"></a>**PackageFamilyName**  
+<a href="" id="packagefamilyname"></a>**PackageFamilyName**
 The name of the package that is installed for the current user.
 
-<a href="" id="enabled"></a>**Enabled**  
+<a href="" id="enabled"></a>**Enabled**
 Defines whether the settings for the app are configured to synchronize for the specified switch, that is, **user** or **computer**.
 
-<a href="" id="installed"></a>**Installed**  
+<a href="" id="installed"></a>**Installed**
 True if the app, that is, the PackageFamilyName is installed for the current user.
 
 ### Manage UE-V 2 settings location templates by using WMI
@@ -337,7 +336,7 @@ User Experience Virtualization provides the following set of WMI commands. Admin
 
 
 
-**Note**  
+**Note**
 Where a list of Package Family Names is called by the WMI command, the list must be in quotes and separated by a pipe symbol, for example, `"<package family name | package family name>"`.
 
 
@@ -349,7 +348,7 @@ Where a list of Package Family Names is called by the WMI command, the list must
 
 1.  Stage the UE-V Agent installation package in an accessible network share.
 
-    **Note**  
+    **Note**
     Use AgentSetup.exe to deploy both 32-bit and 64-bit versions of the UE-V Agent. The Windows Installer packages, AgentSetupx86.msi and AgentSetupx64.msi, are available for each architecture. To uninstall the UE-V Agent at a later time by using the installation file, you must use the same file type.
 
 

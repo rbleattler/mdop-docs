@@ -3,8 +3,7 @@ title: Log Files for the Application Virtualization Sequencer
 description: Log Files for the Application Virtualization Sequencer
 author: aczechowski
 ms.assetid: 1a296544-eab4-46f9-82ce-3136f8b578af
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

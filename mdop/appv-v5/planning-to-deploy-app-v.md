@@ -3,8 +3,7 @@ title: Planning to Deploy App-V
 description: Planning to Deploy App-V
 author: aczechowski
 ms.assetid: 28d3035c-3805-4339-90fc-6c3fd3b1123e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

@@ -3,8 +3,7 @@ title: Accessibility for MBAM 1.0
 description: Accessibility for MBAM 1.0
 author: aczechowski
 ms.assetid: 5c1bf1a3-76cf-458c-ac4a-cd343aace4de
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -32,7 +31,7 @@ Access keys let you quickly use a command by pressing a few keys. You can get to
 **Note**  
 To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
- 
+
 
 ## Documentation in Alternative Formats
 
@@ -72,7 +71,7 @@ For information about the availability of Microsoft product documentation and bo
 </tbody>
 </table>
 
- 
+
 
 ## Customer Service for People with Hearing Impairments
 
@@ -95,9 +94,9 @@ For more information about how accessible technology for computers helps to impr
 
 [Getting Started with MBAM 1.0](getting-started-with-mbam-10.md)
 
- 
 
- 
+
+
 
 
 

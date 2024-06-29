@@ -3,8 +3,7 @@ title: Electronic Software Distribution-Based Scenario Overview
 description: Electronic Software Distribution-Based Scenario Overview
 author: aczechowski
 ms.assetid: e9e94b8a-6cba-4de8-9b57-73897796b6a0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ If you plan to use an electronic software distribution (ESD) solution to deploy 
 > [!IMPORTANT]
 > Whichever ESD solution you use, you must be familiar with the requirements of your particular solution. For example, see [Microsoft Configuration Manager documentation](/mem/configmgr/).
 
- 
+
 
 Using an existing ESD system provides you with the following benefits:
 

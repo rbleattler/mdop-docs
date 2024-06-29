@@ -3,8 +3,7 @@ title: Server Event Logs
 description: Server Event Logs
 author: aczechowski
 ms.assetid: 04e724d2-28cc-4fa8-86a1-0d4ab0234b11
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -446,7 +445,7 @@ The following table contains messages and troubleshooting information for event 
 </tbody>
 </table>
 
- 
+
 
 ## Operation
 
@@ -661,7 +660,7 @@ The following table contains messages and troubleshooting information for event 
 </tbody>
 </table>
 
- 
+
 
 
 ## Related topics
@@ -671,11 +670,11 @@ The following table contains messages and troubleshooting information for event 
 
 [Client Event Logs](client-event-logs.md)
 
- 
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
- 
+
 
 
 

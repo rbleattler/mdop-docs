@@ -2,8 +2,7 @@
 title: How to Plan for Using App-V with Office
 description: Planning for Using App-V with Office
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 03/16/2017

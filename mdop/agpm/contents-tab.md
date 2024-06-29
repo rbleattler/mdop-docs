@@ -3,8 +3,7 @@ title: Contents Tab
 description: Contents Tab of the Change Control
 author: aczechowski
 ms.assetid: 8a756bc1-3900-4d83-93c4-7ebc4705d956
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

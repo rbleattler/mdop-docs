@@ -3,8 +3,7 @@ title: MBAM 2.0 Supported Configurations
 description: MBAM 2.0 Supported Configurations
 author: aczechowski
 ms.assetid: dca63391-39fe-4273-a570-76d0a2f8a0fd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ The recommended configuration for running MBAM in a production environment is wi
 **Note**  
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
 
- 
+
 
 ## <a href="" id="---------mbam-server-system-requirements"></a> MBAM Server System Requirements
 
@@ -65,12 +64,12 @@ The following table lists the operating systems that are supported for the Micro
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 There is no support for installing MBAM services, reports, or databases on a domain controller computer.
 
- 
+
 
 ### <a href="" id="server-processor--ram--and-disk-space-requirements-"></a>Server Processor, RAM, and Disk Space Requirements
 
@@ -106,7 +105,7 @@ There is no support for installing MBAM services, reports, or databases on a dom
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="sql-server-database-requirements-"></a>SQL Server Database Requirements
 
@@ -115,7 +114,7 @@ The following table lists the SQL Server versions that are supported for the Ad
 **Note**  
 MBAM does not natively support SQL clustering, mirroring, or Availability Groups. To install the databases, you must run the MBAM Server installation on a stand-alone SQL server.
 
- 
+
 
 <table>
 <colgroup>
@@ -148,7 +147,7 @@ MBAM does not natively support SQL clustering, mirroring, or Availability Groups
 </tbody>
 </table>
 
- 
+
 
 <table>
 <colgroup>
@@ -182,7 +181,7 @@ MBAM does not natively support SQL clustering, mirroring, or Availability Groups
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="---------mbam-client-system-requirements"></a> MBAM Client System Requirements
 
@@ -228,7 +227,7 @@ The following table lists the operating systems that are supported for Microsoft
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="client-ram-requirements-"></a>Client RAM Requirements
 
@@ -282,7 +281,7 @@ The following table lists the operating systems that are supported for Microsoft
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -291,9 +290,9 @@ The following table lists the operating systems that are supported for Microsoft
 
 [MBAM 2.0 Deployment Prerequisites](mbam-20-deployment-prerequisites-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

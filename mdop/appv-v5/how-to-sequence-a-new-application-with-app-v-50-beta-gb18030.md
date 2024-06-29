@@ -3,8 +3,7 @@ title: How to Sequence a New Application with App-V 5.0
 description: How to Sequence a New Application with App-V 5.0
 author: aczechowski
 ms.assetid: a263fa84-cd6d-4219-a5c2-eb6a553b826c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -70,7 +69,7 @@ ms.date: 06/16/2016
 
 3.  On the **Prepare Computer** page, review the issues that could cause the package creation to fail or could cause the package to contain unnecessary data. You should resolve all potential issues before you continue. After making any corrections, click **Refresh** to display the updated information. After you have resolved all potential issues, click **Next**.
 
-    **Important**  
+    **Important**
     If you are required to disable virus scanning software, you should first scan the computer that runs the sequencer in order to ensure that no unwanted or malicious files could be added to the package.
 
 
@@ -79,7 +78,7 @@ ms.date: 06/16/2016
 
 5.  On the **Select Installer** page, click **Browse** and specify the installation file for the application.
 
-    **Note**  
+    **Note**
     If the specified application installer modifies security access to a file or directory, existing or new, the associated changes will not be captured into the package.
 
 
@@ -92,13 +91,13 @@ If the application does not have an associated installer file and you plan to ru
 
    The **Primary Virtual Application Directory** displays the path where the application will be installed on target computers. To specify this location, select **Browse**.
 
-   **Note**  
+   **Note**
    Starting in App-V 5.0 SP3, the primary virtual application directory (PVAD) is hidden, but you can turn it back on. See [About App-V 5.0 SP3](about-app-v-50-sp3.md#bkmk-pvad-hidden).
 
 
 
 
-**Important**  
+**Important**
 The primary application virtual directory should match the installation location for the application that is being sequenced. For example, if you install Notepad to **C:\\Program Files\\Notepad**; you should configure **C:\\Program Files\\Notepad** as your primary virtual directory. Alternatively, you can choose to set **C:\\Notepad** as the primary virtual application directory, as long as during installation time, you configure the installer to install to **C:\\Notepad**. Editing the Application Virtualization path is an advanced configuration task. For most applications, the default path is recommended for the following reasons:
 
 -   Application Compatibility. Some virtualized applications will not function correctly, or will fail to open if the directories are not configured with identical virtual directory paths.
@@ -107,7 +106,7 @@ The primary application virtual directory should match the installation location
 
 
 
-**Tip**  
+**Tip**
 It is recommended that prior to Sequencing an application, you open the associated installer to determine the default installation directory, and then configure that location as the **Primary Virtual Application Directory**.
 
 
@@ -117,7 +116,7 @@ Click **Next**.
 
 7. On the **Installation** page, when the sequencer and application installer are ready you can proceed to install the application so that the sequencer can monitor the installation process.
 
-   **Important**  
+   **Important**
    You should always install applications to a secure location and make sure no other users are logged on to the computer running the sequencer during monitoring.
 
 
@@ -130,7 +129,7 @@ Use the application's installation process to perform the installation. If addit
 
 9. On the **Configure Software** page, optionally run the programs contained in the package. This step allows you to complete any necessary license or configuration tasks before you deploy and run the package on target computers. To run all the programs at one time, select at least one program, and then click **Run All**. To run specific programs, select the program or programs, and then click **Run Selected**. Complete the required configuration tasks and then close the applications. You may need to wait several minutes for all programs to run.
 
-   **Note**  
+   **Note**
    To run first-use tasks for any application that is not available in the list, open the application. The associated information will be captured during this step.
 
 
@@ -151,14 +150,14 @@ Click **Next**.
 
 12. On the **Streaming** page, run each program so that it can be optimized and run more efficiently on target computers. It can take several minutes for all the applications to run. After all applications have run, close each of the applications, and then click **Next**.
 
-   **Note**  
+   **Note**
    If you do not open any applications during this step, the default streaming method is on-demand streaming delivery. This means applications will be downloaded bit by bit until it can be opened, and then depending on how the background loading is configured, will load the rest of the application.
 
 
 
 13. On the **Target OS** page, specify the operating systems that can run this package. To allow all supported operating systems in your environment to run this package, select **Allow this package to run on any operating system**. To configure this package to run only on specific operating systems, select **Allow this package to run only on the following operating systems** and select the operating systems that can run this package. Click **Next**.
 
-   **Important**  
+   **Important**
    Make sure that the operating systems you specify here are supported by the application you are sequencing.
 
 
@@ -167,7 +166,7 @@ Click **Next**.
 
    To save the package immediately, select **Save the package now** (default). Add optional **Comments** to be associated with the package. Comments are useful for identifying the program version and other information about the package.
 
-   **Important**  
+   **Important**
    The system does not support non-printable characters in **Comments** and **Descriptions**.
 
 
@@ -180,7 +179,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
    The package is now available in the sequencer.
 
-   **Important**  
+   **Important**
    After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the sequencer.
 
 
@@ -199,7 +198,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 3. On the **Prepare Computer** page, review the issues that might cause the package creation to fail or could cause the package to contain unnecessary data. You should resolve all potential issues before you continue. After making any corrections, click **Refresh** to display the updated information. After you have resolved all potential issues, click **Next**.
 
-   **Important**  
+   **Important**
    If you are required to disable virus scanning software, you should first scan the computer that runs the sequencer in order to ensure that no unwanted or malicious files could be added to the package.
 
 
@@ -214,7 +213,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 7. On the **Package Name** page, type a name that will be associated with the package. Use a name that helps identify the purpose and version of the application that will be added to the package. The package name will be displayed in the App-V 5.0 Management Console. The **Primary Virtual Application Directory** displays the path where the application will be installed. To specify this location, type the path, or click **Browse**.
 
-   **Note**  
+   **Note**
    Starting in App-V 5.0 SP3, the primary virtual application directory (PVAD) is hidden, but you can turn it back on. See [About App-V 5.0 SP3](about-app-v-50-sp3.md#bkmk-pvad-hidden).
 
 
@@ -237,7 +236,7 @@ Click **Next**.
 
 11. On the **Streaming** page, run each program so that it can be optimized and run more efficiently on target computers. Streaming improves the experience when the virtual application package is run on target computers on high-latency networks. It can take several minutes for all the applications to run. After all applications have run, close each of the applications. You can also configure the package to be required to be fully downloaded before opening by selecting the **Force applications to be downloaded** check-box. Click **Next**.
 
-   **Note**  
+   **Note**
    If necessary, you can stop an application from loading during this step. In the **Application Launch** dialog box, click **Stop** and select one of the check boxes: **Stop all applications** or **Stop this application only**.
 
 
@@ -248,7 +247,7 @@ Click **Next**.
 
    To save the package immediately, select **Save the package now**. Optionally, add a **Description** that will be associated with the package. Descriptions are useful for identifying the version and other information about the package.
 
-   **Important**  
+   **Important**
    The system does not support non-printable characters in Comments and Descriptions.
 
 
@@ -265,7 +264,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 3. On the **Prepare Computer** page, review the issues that could cause the package creation to fail or could cause the package to contain unnecessary data. You should resolve all potential issues before you continue. After making any corrections, click **Refresh** to display the updated information. After you have resolved all potential issues, click **Next**.
 
-   **Important**  
+   **Important**
    If you are required to disable virus scanning software, you should first scan the computer that runs the App-V 5.0 Sequencer in order to ensure that no unwanted or malicious files can be added to the package.
 
 
@@ -290,7 +289,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
     To save the package immediately, select **Save the package now**. Optionally, add a **Description** to be associated with the package. Descriptions are useful for identifying the program version and other information about the package.
 
-    **Important**  
+    **Important**
     The system does not support non-printable characters in Comments and Descriptions.
 
 
@@ -303,7 +302,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
    The package is now available in the sequencer. To edit the package properties, click **Edit \[Package Name\]**.
 
-   **Important**  
+   **Important**
    After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the sequencer.
 
 

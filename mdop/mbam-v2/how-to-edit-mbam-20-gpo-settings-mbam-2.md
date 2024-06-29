@@ -3,8 +3,7 @@ title: How to Edit MBAM 2.0 GPO Settings
 description: How to Edit MBAM 2.0 GPO Settings
 author: aczechowski
 ms.assetid: f5ffa93d-b4d2-4317-8a1c-7d2be0264fe3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -69,7 +68,7 @@ You can use the following steps to configure the basic, recommended GPO settings
 
 
 
-**Important**  
+**Important**
 Depending on the policies that your organization decides to deploy, you may have to configure additional policies. See [Planning for MBAM 2.0 Group Policy Requirements](planning-for-mbam-20-group-policy-requirements-mbam-2.md) for Group Policy configuration details for all of the available MBAM GPO policy options.
 
 

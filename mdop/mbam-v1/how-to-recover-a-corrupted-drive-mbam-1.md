@@ -3,8 +3,7 @@ title: How to Recover a Corrupted Drive protected by BitLocker
 description: How to Recover a Corrupted Drive
 author: aczechowski
 ms.assetid: 715491ae-69c0-4fae-ad3f-3bd19a0db2f2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -27,7 +26,7 @@ To recover a corrupted drive that has been protected by BitLocker, a Microsoft B
     **Note**  
     If you are a member of the Help Desk Administrators role, you do not have to enter the user’s domain name or user name.
 
-     
+
 
 3.  Click **Submit**. The recovery key will be displayed.
 
@@ -44,16 +43,16 @@ To recover a corrupted drive that has been protected by BitLocker, a Microsoft B
     **Note**  
     For the &lt;fixed drive&gt; in the command, specify an available storage device that has free space equal to or larger than the data on the corrupted drive. Data on the corrupted drive is recovered and moved to the specified fixed drive.
 
-     
+
 
 ## Related topics
 
 
 [Performing BitLocker Management with MBAM](performing-bitlocker-management-with-mbam.md)
 
- 
 
- 
+
+
 
 
 

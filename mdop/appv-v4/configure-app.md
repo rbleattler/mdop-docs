@@ -3,8 +3,7 @@ title: CONFIGURE APP
 description: CONFIGURE APP
 author: aczechowski
 ms.assetid: fcfb4f86-8b7c-4208-bca3-955fd067079f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

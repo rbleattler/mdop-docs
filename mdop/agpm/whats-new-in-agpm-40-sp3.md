@@ -3,8 +3,7 @@ title: What's New in AGPM 4.0 SP3
 description: What's New in AGPM 4.0 SP3
 author: aczechowski
 ms.assetid: df495d55-9fbf-4f7e-a7af-3905f4f8790e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -182,7 +181,7 @@ AGPM 4.0 SP3 supports the configurations in the following table. Although AGPM 
 
 The following table describes the behavior of AGPM 4.0 SP3 Client and Server installers when the .NET Framework 4.5.1, PowerShell 3.0, or the GPMC in the Remote Server Administration Tools is missing.
 
-| AGPM Client            |  &nbsp;  |    &nbsp;  | AGPM Server                                                                     |               &nbsp;                                                                                  | &nbsp;   |     
+| AGPM Client            |  &nbsp;  |    &nbsp;  | AGPM Server                                                                     |               &nbsp;                                                                                  | &nbsp;   |
 |------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | Operating system       | .NET Framework                                                                                  | PowerShell                                                                 | Remote Server Administration Tools                                              | .NET Framework                                                                                  | Remote Server Administration Tools                                              |
 | Windows 10             | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If PowerShell 3.0 isn't installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. | If the .NET Framework 4.5.1 isn't enabled or installed, the installer blocks the installation. | If the GPMC isn't enabled or installed, the installer blocks the installation. |

@@ -3,8 +3,7 @@ title: Migrating from a Previous Version
 description: Migrating from a Previous Version
 author: aczechowski
 ms.assetid: a13cd353-b22a-48f7-af1e-5d54ede2a7e5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -24,7 +23,7 @@ Consider the following sections when you plan your migration strategy:
 **Note**  
 For more information about the differences between App-V 4.6 and App-V 5.0, see the **Differences between App-V 4.6 and App-V 5.0 section** of [About App-V 5.0](about-app-v-50.md).
 
- 
+
 
 ## Converting packages created using a prior version of App-V
 
@@ -34,7 +33,7 @@ Use the package converter utility to upgrade virtual application packages create
 **Important**  
 After you convert an existing package you should test the package prior to deploying the package to ensure the conversion process was successful.
 
- 
+
 
 **What to know before you convert existing packages**
 
@@ -73,7 +72,7 @@ After you convert an existing package you should test the package prior to deplo
 </tbody>
 </table>
 
- 
+
 
 When converting a package check for failing files or shortcuts. Locate the item in App-V 4.6 package. It could possibly be hard-coded path. Convert the path.
 
@@ -82,7 +81,7 @@ It is recommended that you use the App-V 5.0 sequencer for converting critical a
 
 If a converted package does not open after you convert it, it is also recommended that you re-sequence the application using the App-V 5.0 sequencer.
 
- 
+
 
 [How to Convert a Package Created in a Previous Version of App-V](how-to-convert-a-package-created-in-a-previous-version-of-app-v.md)
 
@@ -118,12 +117,12 @@ The following table displays the recommended method for upgrading clients.
 </tbody>
 </table>
 
- 
+
 
 **Important**  
 You must be running App-V 4.6 SP3 to use coexistence mode. Additionally, when you sequence a package, you must configure the Managing Authority setting, which is in the **User Configuration** is located in the **User Configuration** section.
 
- 
+
 
 ## Migrating the App-V 5.0 Server Full Infrastructure
 
@@ -161,7 +160,7 @@ There is no direct method to upgrade to a full App-V 5.0 infrastructure. Use the
 </tbody>
 </table>
 
- 
+
 
 ## Additional Migration tasks
 
@@ -189,9 +188,9 @@ You can also perform additional migration tasks such as reconfiguring end points
 
 [A simplified Microsoft App-V 5.1 Management Server upgrade procedure](https://go.microsoft.com/fwlink/p/?LinkId=786330)
 
- 
 
- 
+
+
 
 
 

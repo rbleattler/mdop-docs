@@ -3,8 +3,7 @@ title: About Microsoft Application Virtualization 4.6 SP2
 description: About Microsoft Application Virtualization 4.6 SP2
 author: aczechowski
 ms.assetid: 1429e314-9c38-472b-8687-3bed6cf0015c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ Microsoft Application Virtualization (App-V) 4.6 SP2 provides several enhanceme
 **Caution**  
 This topic describes how to change the Windows registry by using Registry Editor. If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows. You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry. Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved. Change the registry at your own risk.
 
- 
+
 **Support for Windows 8 and Windows Server 2012**
 
 App-V 4.6 SP2 adds support for Windows 8 and Windows Server 2012 Remote Desktop Services.
@@ -59,12 +58,12 @@ Before launching the App-V Sequencer, create the following registry value under 
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 On a computer running a 64-bit operating system, create the registry value under HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\SoftGrid\\4.5\\SystemGuard\\Overrides.
 
- 
+
 
 For each OSD-file in your Adobe Reader X package, add the following items under the &lt;POLICIES&gt; element:
 
@@ -93,12 +92,12 @@ App-V 4.6 SP2 includes a rollup of fixes to address issues found since the App
 ## In This Section
 
 
-<a href="" id="app-v-4-6-sp2-release-notes"></a>[App-V 4.6 SP2 Release Notes](https://go.microsoft.com/fwlink/?LinkId=267600)  
+<a href="" id="app-v-4-6-sp2-release-notes"></a>[App-V 4.6 SP2 Release Notes](https://go.microsoft.com/fwlink/?LinkId=267600)
 Provides the most up-to-date information about known issues with App-V 4.6 SP2.
 
- 
 
- 
+
+
 
 
 

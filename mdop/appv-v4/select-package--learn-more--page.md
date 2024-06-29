@@ -3,8 +3,7 @@ title: Select Package (Learn More) Page
 description: Select Package (Learn More) Page
 author: aczechowski
 ms.assetid: 0b3d4ca4-ff65-4aa5-87a9-61cbe2ffc8be
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Select Package** page to select the source virtual application package
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the existing virtual application package that you will use to create the Package Accelerator. Save the package you specify locally on the computer running the sequencer.
 
 ## Related topics

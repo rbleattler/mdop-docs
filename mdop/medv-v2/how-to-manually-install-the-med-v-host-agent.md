@@ -3,8 +3,7 @@ title: How to Manually Install the MED-V Host Agent
 description: How to Manually Install the MED-V Host Agent
 author: aczechowski
 ms.assetid: 4becc90b-6481-4e1f-a4d3-aec74c8821ec
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -23,12 +22,12 @@ Typically, you deploy and install the MED-V Host Agent by using your company’s
 **Note**  
 The MED-V Guest Agent is installed automatically during first time setup.
 
- 
+
 
 **Important**  
 Close Internet Explorer before you install the MED-V Host Agent, otherwise conflicts can occur later with URL redirection. You can also do this by specifying a computer restart during a distribution.
 
- 
+
 
 **To install the MED-V Host Agent**
 
@@ -51,7 +50,7 @@ Close Internet Explorer before you install the MED-V Host Agent, otherwise confl
 **Note**  
 Until a MED-V workspace is installed, the MED-V Host Agent can be started and runs, but provides no functionality.
 
- 
+
 
 ## Related topics
 
@@ -62,9 +61,9 @@ Until a MED-V workspace is installed, the MED-V Host Agent can be started and ru
 
 [How to Uninstall the MED-V Components](how-to-uninstall-the-med-v-components.md)
 
- 
 
- 
+
+
 
 
 

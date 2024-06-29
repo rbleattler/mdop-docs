@@ -3,8 +3,7 @@ title: How to Manage Reports in the Server Management Console
 description: How to Manage Reports in the Server Management Console
 author: aczechowski
 ms.assetid: 28d99620-6339-43f6-9288-4aa958607c59
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -28,22 +27,22 @@ To effectively manage the Application Virtualization System, you can use the App
 ## In This Section
 
 
-<a href="" id="application-virtualization-report-types"></a>[Application Virtualization Report Types](application-virtualization-report-types.md)  
+<a href="" id="application-virtualization-report-types"></a>[Application Virtualization Report Types](application-virtualization-report-types.md)
 Contains information about the available report types.
 
-<a href="" id="how-to-create-a-report"></a>[How to Create a Report](how-to-create-a-reportserver.md)  
+<a href="" id="how-to-create-a-report"></a>[How to Create a Report](how-to-create-a-reportserver.md)
 Provides a step-by-step process for creating a report.
 
-<a href="" id="how-to-run-a-report"></a>[How to Run a Report](how-to-run-a-reportserver.md)  
+<a href="" id="how-to-run-a-report"></a>[How to Run a Report](how-to-run-a-reportserver.md)
 Provides a step-by-step process for running a report.
 
-<a href="" id="how-to-print-a-report"></a>[How to Print a Report](how-to-print-a-reportserver.md)  
+<a href="" id="how-to-print-a-report"></a>[How to Print a Report](how-to-print-a-reportserver.md)
 Provides a step-by-step process for printing a report.
 
-<a href="" id="how-to-export-a-report"></a>[How to Export a Report](how-to-export-a-reportserver.md)  
+<a href="" id="how-to-export-a-report"></a>[How to Export a Report](how-to-export-a-reportserver.md)
 Provides a step-by-step process for exporting a report.
 
-<a href="" id="how-to-delete-a-report"></a>[How to Delete a Report](how-to-delete-a-reportserver.md)  
+<a href="" id="how-to-delete-a-report"></a>[How to Delete a Report](how-to-delete-a-reportserver.md)
 Provides a step-by-step process for deleting a report.
 
 ## Related topics

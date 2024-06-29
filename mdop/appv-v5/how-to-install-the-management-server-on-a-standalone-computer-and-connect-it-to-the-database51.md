@@ -3,8 +3,7 @@ title: Install the Management Server on a Standalone Computer and Connect it to 
 description: How to install the Management Server on a Standalone Computer and Connect it to the Database
 author: aczechowski
 ms.assetid: 3f83c335-d976-4abd-b8f8-d7f5e50b4318
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -33,7 +32,7 @@ Use the following procedure to install the management server on a standalone com
 
 6.  On the **Configure Existing Management Database** page, select **Use a remote SQL Server**, and type the machine name of the computer running Microsoft SQL SQL, for example **SqlServerMachine**.
 
-    **Note**  
+    **Note**
     If the Microsoft SQL Server is deployed on the same server, select **Use local SQL Server**.
 
 

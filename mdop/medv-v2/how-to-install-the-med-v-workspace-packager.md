@@ -3,8 +3,7 @@ title: How to Install the MED-V Workspace Packager
 description: How to Install the MED-V Workspace Packager
 author: aczechowski
 ms.assetid: 627478e9-6798-4b32-9a50-7a1b72bea295
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ Microsoft Enterprise Desktop Virtualization (MED-V) 2.0 includes a **MED-V Works
 **Important**  
 Before you start to run the wizards, make sure that you have a prepared VHD ready to install. For more information, see [Prepare a MED-V Image](prepare-a-med-v-image.md).
 
- 
+
 
 This section provides step-by-step instructions for installing or repairing the **MED-V Workspace Packager**.
 
@@ -68,9 +67,9 @@ If the packager does not open as expected, you can try to repair the installatio
 
 [How to Uninstall the MED-V Components](how-to-uninstall-the-med-v-components.md)
 
- 
 
- 
+
+
 
 
 

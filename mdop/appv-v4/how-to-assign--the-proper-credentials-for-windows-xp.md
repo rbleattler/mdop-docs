@@ -3,8 +3,7 @@ title: How to Assign the Proper Credentials for Windows XP
 description: How to Assign the Proper Credentials for Windows XP
 author: aczechowski
 ms.assetid: cddbd556-d8f9-4981-a947-6e8e3f552b70
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ Use the following procedure to configure the App-V Desktop Client for proper Win
 **Note**  
 After finishing this procedure, the non-domain joined client can perform a publishing refresh without being joined to a domain.
 
- 
+
 
 **To assign the proper credentials for App-V clients running Windows XP**
 
@@ -48,9 +47,9 @@ After finishing this procedure, the non-domain joined client can perform a publi
 
 [How to Assign the Proper Credentials for Windows Vista](how-to-assign--the-proper-credentials-for-windows-vista.md)
 
- 
 
- 
+
+
 
 
 

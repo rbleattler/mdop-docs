@@ -3,8 +3,7 @@ title: Getting Started - Using MBAM with Configuration Manager
 description: Getting Started - Using MBAM with Configuration Manager
 author: aczechowski
 ms.assetid: b0a1d3cc-0b01-4b69-a2cd-fd09fb3beda4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -21,7 +20,7 @@ When you install Microsoft BitLocker Administration and Monitoring (MBAM), you c
 **Important**  
 Windows To Go is not supported when you install the integrated topology of MBAM with Configuration Manager 2007.
 
- 
+
 
 ## Using MBAM with Configuration Manager
 
@@ -96,9 +95,9 @@ A description of the servers, databases, and features of this architecture follo
 
 [Using MBAM with Configuration Manager](using-mbam-with-configuration-manager.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: How to Sequence a New Standard Application (App-V 4.6 SP1)
 description: How to Sequence a New Standard Application (App-V 4.6 SP1)
 author: aczechowski
 ms.assetid: c4a2eb33-def8-4535-b93a-3d2de21ce29f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,12 +17,12 @@ ms.date: 06/16/2016
 
 Use the following procedure to create a new standard virtual application package by using the Application Virtualization (App-V) Sequencer. This procedure applies to most applications that you sequence. For more information about the types of applications you can sequence, see [How to Determine Which Type of Application to Sequence (App-V 4.6 SP1)](how-to-determine-which-type-of-application-to-sequence---app-v-46-sp1-.md). You must run the sequencer (**SFTSequencer.exe**) using an account that has administrator privileges because of the changes the sequencer makes to the local system. These changes can include writing files to the **C:\\Program Files** directory, making registry changes, starting and stopping services, updating security descriptors for files, and changing permissions.
 
-**Important**  
+**Important**
 During sequencing, if the computer running the Sequencer is running Windows Vista or Windows 7 and a restart is initiated outside of the virtual environment, for example, **Start** / **Shut Down**, you must click **Cancel** when prompted to close the program that is preventing Windows Vista or Windows from shutting down. If you click **Force shut down**, the package creation fails. When you click **Cancel**, the Sequencer successfully records the restart while the application is being sequenced.
 
 
 
-**Note**  
+**Note**
 Running the App-V sequencer in Safe Mode is not supported.
 
 
@@ -36,7 +35,7 @@ Running the App-V sequencer in Safe Mode is not supported.
 
 3.  On the **Prepare Computer** page, review the issues that could cause the package creation to fail, or for the package to contain unnecessary data. We strongly recommend that you resolve all potential issues before you continue. After you have fixed the conflicts, to update the information that is displayed, click **Refresh**. After you have resolved all potential issues, click **Next**.
 
-    **Important**  
+    **Important**
     If you are required to disable virus scanning software, scan the computer running the Sequencer to ensure that no unwanted or malicious files could be added to the package.
 
 
@@ -49,7 +48,7 @@ Running the App-V sequencer in Safe Mode is not supported.
 
 6.  On the **Package Name** page, specify a name that will be associated with the package. The name helps identify the purpose and version of the application that are added to the package. The package name is also displayed in the App-V management console. The **Primary Virtual Application Directory** displays the Application Virtualization path where the application will be installed on target computers. To edit this location, select **Edit (Advanced)**.
 
-    **Important**  
+    **Important**
     Editing the Application Virtualization path is an advanced configuration task. You should fully understand the implications of changing the path. For most applications, the default path is recommended.
 
 
@@ -80,14 +79,14 @@ Click **Next**.
 
 13. On the **Streaming** page, run each program so that it can be optimized and run more efficiently on target computers. It can take several minutes for all the applications to run. After all applications have run, close each of the applications, and then click **Next**.
 
-   **Note**  
+   **Note**
    If you want to stop an application from loading during this step, in the **Application Launch** dialog box, click **Stop**, and select one of the check boxes, **Stop all applications** or **Stop this application only**, depending on what you want.
 
 
 
 14. On the **Target OS** page, specify the operating systems that can run this package. To enable all supported operating systems in your environment to run this package, select **Allow this package to run on any operating system**. To configure this package to run only on specific operating systems, select **Allow this package to run only on the following operating systems** and specify the operating systems that can run this package. Click **Next**.
 
-   **Important**  
+   **Important**
    The operating systems specified during this step reflect the operating systems on target computers that are enabled to run the package. You must ensure that the operating systems specified are supported by the application you are sequencing.
 
 
@@ -100,7 +99,7 @@ Click **Next**.
 
     The package is now available in the Sequencer. To edit the package properties, click **Edit \[Package Name\]**. For more information about modifying a package, see [How to Modify an Existing Virtual Application Package (App-V 4.6 SP1)](how-to-modify-an-existing-virtual-application-package--app-v-46-sp1-.md)
 
-    **Important**  
+    **Important**
     After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the Sequencer.
 
 

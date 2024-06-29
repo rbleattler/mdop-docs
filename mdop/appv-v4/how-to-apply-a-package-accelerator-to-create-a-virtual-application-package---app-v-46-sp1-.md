@@ -3,8 +3,7 @@ title: How to Apply a Package Accelerator to Create a Virtual Application Packag
 description: How to Apply a Package Accelerator to Create a Virtual Application Package (App-V 4.6 SP1)
 author: aczechowski
 ms.assetid: ca0bd514-2bbf-4130-8c77-98d991cbe016
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,12 +17,12 @@ ms.date: 06/16/2016
 
 You can use App-V Package Accelerators to automatically generate a new virtual application package. For more information about Package Accelerators, see [About App-V Package Accelerators (App-V 4.6 SP1)](about-app-v-package-accelerators--app-v-46-sp1-.md).
 
-**Important**  
+**Important**
 Disclaimer: The Application Virtualization Sequencer does not give you any license rights to the software application you are using to create a Package Accelerator. You must abide by all end user license terms for such application. It is your responsibility to make sure the software application’s license terms allow you to create a Package Accelerator using Application Virtualization Sequencer.
 
 
 
-**Note**  
+**Note**
 Before starting this procedure, copy the required Package Accelerator locally to the computer running the App-V Sequencer. You should also copy all required installation files for the package to a local directory on the computer running the Sequencer. This is the directory that you have to specify in step 5 of this procedure.
 
 
@@ -38,7 +37,7 @@ Use the following procedure to create a virtual application package by using a P
 
 3. On the **Select Package Accelerator** page, to specify the Package Accelerator that will be used to create the new virtual application package, click **Browse** to locate the Package Accelerator that you want to use. Click **Next**.
 
-   **Important**  
+   **Important**
    If the publisher of the Package Accelerator cannot be verified and does not contain a valid digital signature, in the **Security Warning** dialog box, you must confirm that you trust the source of the Package Accelerator before you click **Run**.
 
 
@@ -49,7 +48,7 @@ Use the following procedure to create a virtual application package by using a P
 
    Alternatively, if you have already copied the installation files to a directory on this computer, click **Make New Folder**, browse to the folder that contains the installation files, and then click **Next**.
 
-   **Note**  
+   **Note**
    You can specify the following types of supported installation files:
 
    -   Windows Installer files(**.msi**

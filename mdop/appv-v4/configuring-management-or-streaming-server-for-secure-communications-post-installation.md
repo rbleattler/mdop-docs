@@ -3,8 +3,7 @@ title: Configuring Management or Streaming Server for Secure Communications Post
 description: Configuring Management or Streaming Server for Secure Communications Post-Installation
 author: aczechowski
 ms.assetid: 1062a213-470b-4ae2-b12f-b3e28a6ab745
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ If the proper certificate was not provisioned before the installation of the App
 ## In This Section
 
 
-<a href="" id="how-to-configure-management-server-security-post-installation"></a>[How to Configure Management Server Security Post-Installation](how-to-configure-management-server-security-post-installation.md)  
+<a href="" id="how-to-configure-management-server-security-post-installation"></a>[How to Configure Management Server Security Post-Installation](how-to-configure-management-server-security-post-installation.md)
 Provides a procedure that can be performed post-installation, using the App-V Management Console, to add the certificate and configure the App-V Management Server for enhanced security.
 
-<a href="" id="how-to-configure-streaming-server-security-post-installation"></a>[How to Configure Streaming Server Security Post-Installation](how-to-configure-streaming-server-security-post-installation.md)  
+<a href="" id="how-to-configure-streaming-server-security-post-installation"></a>[How to Configure Streaming Server Security Post-Installation](how-to-configure-streaming-server-security-post-installation.md)
 Provides a procedure that can be performed post-installation, to add the certificate and configure the App-V Streaming Server for enhanced security.
 
-<a href="" id="troubleshooting-certificate-permission-issues"></a>[Troubleshooting Certificate Permission Issues](troubleshooting-certificate-permission-issues.md)  
+<a href="" id="troubleshooting-certificate-permission-issues"></a>[Troubleshooting Certificate Permission Issues](troubleshooting-certificate-permission-issues.md)
 Provides troubleshooting guidance for when the private key has not been configured with the proper ACL for the Network Service.
 
  

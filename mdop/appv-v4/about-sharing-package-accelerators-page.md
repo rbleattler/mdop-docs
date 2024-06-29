@@ -3,8 +3,7 @@ title: About Sharing Package Accelerators Page
 description: About Sharing Package Accelerators Page
 author: aczechowski
 ms.assetid: 9630cde0-e2c3-476f-8fa1-58b3c9f7d3f7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

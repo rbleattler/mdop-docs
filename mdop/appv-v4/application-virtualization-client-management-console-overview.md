@@ -3,8 +3,7 @@ title: Application Virtualization Client Management Console Overview
 description: Application Virtualization Client Management Console Overview
 author: aczechowski
 ms.assetid: 21d648cc-eca5-475c-be42-228879b7a45a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The Microsoft Application Virtualization Client Management Console is a snap-in 
 ## In This Section
 
 
-<a href="" id="about-application-virtualization-servers"></a>[About Application Virtualization Servers](about-application-virtualization-servers.md)  
+<a href="" id="about-application-virtualization-servers"></a>[About Application Virtualization Servers](about-application-virtualization-servers.md)
 Provides a brief description of the Application Virtualization Management Servers.
 
-<a href="" id="user-access-permissions-in-application-virtualization-client"></a>[User Access Permissions in Application Virtualization Client](user-access-permissions-in-application-virtualization-client.md)  
+<a href="" id="user-access-permissions-in-application-virtualization-client"></a>[User Access Permissions in Application Virtualization Client](user-access-permissions-in-application-virtualization-client.md)
 Provides the list of user access permissions.
 
-<a href="" id="disconnected-operation-mode"></a>[Disconnected Operation Mode](disconnected-operation-mode.md)  
+<a href="" id="disconnected-operation-mode"></a>[Disconnected Operation Mode](disconnected-operation-mode.md)
 Describes the disconnected operation mode and circumstances that affect it.
 
 ## Related topics

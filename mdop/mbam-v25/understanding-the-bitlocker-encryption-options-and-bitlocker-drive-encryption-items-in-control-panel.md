@@ -3,8 +3,7 @@ title: Understanding the BitLocker Encryption Options and BitLocker Drive Encryp
 description: Understanding the BitLocker Encryption Options and BitLocker Drive Encryption Items in Control Panel
 author: aczechowski
 ms.assetid: f8a01cc2-0c77-48b9-8351-8194e80b0cf8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -125,7 +124,7 @@ The following table describes how the **Manage BitLocker** shortcut menu differs
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

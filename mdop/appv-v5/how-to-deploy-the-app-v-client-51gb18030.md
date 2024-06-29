@@ -2,8 +2,7 @@
 title: How to Deploy the App-V Client
 description: How to Deploy the App-V Client
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 11/01/2016

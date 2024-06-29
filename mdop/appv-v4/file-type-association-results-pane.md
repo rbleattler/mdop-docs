@@ -3,8 +3,7 @@ title: File Type Association Results Pane
 description: File Type Association Results Pane
 author: aczechowski
 ms.assetid: bc5ceb48-1b9f-45d9-a770-1bac90629c76
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ The **File Association** **Results** pane is one level below the **System** pane
 
 To display specific options for file types, right-click any application extension to display a pop-up menu that contains the following elements.
 
-<a href="" id="delete"></a>**Delete**  
+<a href="" id="delete"></a>**Delete**
 Deletes the file name extension from the list and removes the association to the file type.
 
-<a href="" id="properties"></a>**Properties**  
+<a href="" id="properties"></a>**Properties**
 Displays the **Properties** dialog box for the selected application extension. This dialog box has two tabs:
 
 -   The **General** tab displays general information about the file type association, including the application icon and name:
@@ -58,12 +57,12 @@ Displays the **Properties** dialog box for the selected application extension. T
 
     -   **Apply to all users**—Select this check box to specify that extensions should be available to all users.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 Displays the Client Management Console help system.
 
 To display general options for the **Results** pane, right-click anywhere in the **Results** pane to display a pop-up menu that contains the following elements.
 
-<a href="" id="new-association"></a>**New Association**  
+<a href="" id="new-association"></a>**New Association**
 This menu item displays the New Association Wizard. This wizard consists of two pages:
 
 1.  Enter a new or existing file name extension, and associate the extension with a file type:
@@ -82,19 +81,19 @@ This menu item displays the New Association Wizard. This wizard consists of two 
 
     -   **Open file with the association described in this OSD file**—Select this radio button to specify an OSD file that determines the application used to open the file. Use the browse button to select an existing location, or enter a path or HTTP-formatted URL in this field.
 
-<a href="" id="refresh"></a>**Refresh**  
+<a href="" id="refresh"></a>**Refresh**
 This item refreshes the **Results** pane.
 
-<a href="" id="export-list"></a>**Export List**  
+<a href="" id="export-list"></a>**Export List**
 With this menu item, you can create a tab-delimited text file that contains the contents of the **Results** pane. This item displays a standard **File Save** dialog box where you specify the location for the text file you are creating.
 
-<a href="" id="view"></a>**View**  
+<a href="" id="view"></a>**View**
 This pop-up list of menu item lets you change the appearance and content of the **Results** pane.
 
-<a href="" id="arrange-line-up-icons"></a>**Arrange/Line Up Icons**  
+<a href="" id="arrange-line-up-icons"></a>**Arrange/Line Up Icons**
 These menu items can be used to change how the icons are displayed in the **Results** pane.
 
-<a href="" id="help"></a>**Help**  
+<a href="" id="help"></a>**Help**
 This item displays the help system for the management console.
 
 ## Related topics

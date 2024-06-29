@@ -3,8 +3,7 @@ title: Administrators Results Pane Columns
 description: Administrators Results Pane Columns
 author: aczechowski
 ms.assetid: 2ac86625-15a8-471a-846b-a42eae37ed72
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

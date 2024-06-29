@@ -3,8 +3,7 @@ title: MED-V Trim Transfer Technology
 description: MED-V Trim Transfer Technology
 author: aczechowski
 ms.assetid: 2744e855-a486-4028-9606-f0084794ec65
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -32,41 +31,41 @@ You can configure which folders are indexed on the host as part of the Trim Tran
 When applying new settings, the service must be restarted.
 
 ```xml
-<HostIndexingXP type="System.String[]"> 
+<HostIndexingXP type="System.String[]">
 - <ArrayOfString>
-<string>%WINDIR%</string> 
-<string>%ProgramFiles%\Common Files</string> 
-<string>%ProgramFiles%\Internet Explorer</string> 
-<string>%ProgramFiles%\MED-V</string> 
-<string>%ProgramFiles%\Microsoft Office</string> 
-<string>%ProgramFiles%\Windows NT</string> 
-<string>%ProgramFiles%\Messenger</string> 
-<string>%ProgramFiles%\Adobe</string> 
-<string>%ProgramFiles%\Outlook Express</string> 
-</ArrayOfString> 
-</HostIndexingXP> 
-- <HostIndexingVista type="System.String[]"> 
-- <ArrayOfString> 
-<string>%WINDIR%\MSAgent</string> 
-<string>%WINDIR%\winsxs</string> 
-<string>%WINDIR%\system</string> 
-<string>%WINDIR%\system32</string> 
-<string>%WINDIR%\Microsoft.NET</string> 
-<string>%WINDIR%\SoftwareDistribution</string> 
-<string>%WINDIR%\L2Schemas</string> 
-<string>%WINDIR%\Cursors</string> 
-<string>%WINDIR%\Boot</string> 
-<string>%WINDIR%\Help</string> 
-<string>%WINDIR%\assembly</string> 
-<string>%WINDIR%\inf</string> 
-<string>%WINDIR%\fonts</string> 
-<string>%WINDIR%\Installer</string> 
-<string>%WINDIR%\IME</string> 
-<string>%WINDIR%\Resources</string> 
-<string>%WINDIR%\servicing</string> 
-<string>%ProgramFiles%\MED-V</string> 
-<string>%ProgramFiles%\Microsoft Office</string> 
-</ArrayOfString> 
+<string>%WINDIR%</string>
+<string>%ProgramFiles%\Common Files</string>
+<string>%ProgramFiles%\Internet Explorer</string>
+<string>%ProgramFiles%\MED-V</string>
+<string>%ProgramFiles%\Microsoft Office</string>
+<string>%ProgramFiles%\Windows NT</string>
+<string>%ProgramFiles%\Messenger</string>
+<string>%ProgramFiles%\Adobe</string>
+<string>%ProgramFiles%\Outlook Express</string>
+</ArrayOfString>
+</HostIndexingXP>
+- <HostIndexingVista type="System.String[]">
+- <ArrayOfString>
+<string>%WINDIR%\MSAgent</string>
+<string>%WINDIR%\winsxs</string>
+<string>%WINDIR%\system</string>
+<string>%WINDIR%\system32</string>
+<string>%WINDIR%\Microsoft.NET</string>
+<string>%WINDIR%\SoftwareDistribution</string>
+<string>%WINDIR%\L2Schemas</string>
+<string>%WINDIR%\Cursors</string>
+<string>%WINDIR%\Boot</string>
+<string>%WINDIR%\Help</string>
+<string>%WINDIR%\assembly</string>
+<string>%WINDIR%\inf</string>
+<string>%WINDIR%\fonts</string>
+<string>%WINDIR%\Installer</string>
+<string>%WINDIR%\IME</string>
+<string>%WINDIR%\Resources</string>
+<string>%WINDIR%\servicing</string>
+<string>%ProgramFiles%\MED-V</string>
+<string>%ProgramFiles%\Microsoft Office</string>
+</ArrayOfString>
 </HostIndexingVista>
 ```
 

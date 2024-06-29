@@ -3,8 +3,7 @@ title: How to Set Up Publishing Servers
 description: How to Set Up Publishing Servers
 author: aczechowski
 ms.assetid: 2111f079-c202-4c49-b2a6-f4237068b2dc
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

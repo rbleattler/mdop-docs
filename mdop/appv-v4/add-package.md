@@ -3,8 +3,7 @@ title: ADD PACKAGE
 description: ADD PACKAGE
 author: aczechowski
 ms.assetid: aa83928d-a234-4395-831e-2a7ef786ff53
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

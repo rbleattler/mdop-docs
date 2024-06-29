@@ -3,8 +3,7 @@ title: Planning for UE-V Configuration Methods
 description: Planning for UE-V Configuration Methods
 author: aczechowski
 ms.assetid: 57bce7ab-1be5-434b-9ee5-c96026bbe010
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -38,7 +37,7 @@ You can configure UE-V before, during, or after agent installation, depending on
 **Note**  
 Registry modification can result in data loss or the computer becoming unresponsive. We recommend that you use other configuration methods.
 
- 
+
 
 ### UE-V configuration settings
 
@@ -65,9 +64,9 @@ The following are examples of UE-V configuration settings:
 
 [Planning for UE-V Configuration](planning-for-ue-v-configuration.md)
 
- 
 
- 
+
+
 
 
 

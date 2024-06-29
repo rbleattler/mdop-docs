@@ -3,8 +3,7 @@ title: App-V Pre-Installation Checklist
 description: App-V Pre-Installation Checklist
 author: aczechowski
 ms.assetid: 3af609b1-2c09-4edb-b083-b913b6d5e8c4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

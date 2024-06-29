@@ -3,8 +3,7 @@ title: Deploying the MBAM 1.0 Language Release Update
 description: Deploying the MBAM 1.0 Language Release Update
 author: aczechowski
 ms.assetid: 9dbd85c3-e470-4752-a90f-25754dd46dab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

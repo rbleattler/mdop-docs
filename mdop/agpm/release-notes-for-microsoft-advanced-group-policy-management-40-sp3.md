@@ -2,8 +2,7 @@
 title: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3
 description: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 09/27/2016
@@ -24,7 +23,7 @@ This section describes the known issues for AGPM 4.0 SP3.
 
 ### AGPM Client may fail to connect to the AGPM server
 
-The AGPM client may fail to connect to the AGPM server. The error retuned to the AGPM client is 
+The AGPM client may fail to connect to the AGPM server. The error retuned to the AGPM client is
 
 "Text: CoCreateInstance of the client remoting object failed!
 

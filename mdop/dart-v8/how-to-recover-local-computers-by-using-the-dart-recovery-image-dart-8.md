@@ -3,8 +3,7 @@ title: Recover Local Computers by Using the DaRT Recovery Image
 description: How to Recover Local Computers by Using the DaRT Recovery Image
 author: aczechowski
 ms.assetid: f679d522-49ab-429c-93d0-294c3f3e5639
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -38,7 +37,7 @@ Use these instructions to recover a computer when you are physically present at 
 
 6.  Select the installation that you want to repair or diagnose, and then click **Next**.
 
-    **Note**  
+    **Note**
     If the Windows Recovery Environment (WinRE) detects or suspects that Windows 8 did not start correctly the last time that it was tried, **Startup Repair** might start to run automatically.
 
 

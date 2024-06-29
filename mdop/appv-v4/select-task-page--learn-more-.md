@@ -3,8 +3,7 @@ title: Select Task Page (Learn More)
 description: Select Task Page (Learn More)
 author: aczechowski
 ms.assetid: 09534c40-bf6c-4b3f-be9a-8624965c9c18
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Select Task** page to modify an existing virtual application package. 
 
 This page contains the following elements:
 
-<a href="" id="update-application-in-existing-package"></a>**Update Application in Existing Package**  
+<a href="" id="update-application-in-existing-package"></a>**Update Application in Existing Package**
 Select this option to apply an update to an application or program that is part of an existing virtual application package. If you select this option, you should have the associated installation files saved locally to the computer running the App-V Sequencer. You must also have access to the location where the package that contains the application or program that you want to modify is saved.
 
-<a href="" id="edit-package"></a>**Edit Package**  
+<a href="" id="edit-package"></a>**Edit Package**
 Select this option to modify the properties associated with an existing virtual application package. To edit a package, you must have access to the location where the virtual application package is saved. The following list displays the package properties that can be updated if you select **Edit Package**:
 
 -   View package properties.
@@ -52,7 +51,7 @@ Select this option to modify the properties associated with an existing virtual 
 
 -   Edit virtual file system mappings.
 
-<a href="" id="add-new-application"></a>**Add New Application**  
+<a href="" id="add-new-application"></a>**Add New Application**
 Select this option to add a new application or program to an existing virtual application package. For example, you can add Microsoft Excel to an existing Microsoft Office virtual application package. To add a new application, you must have access to the location where the virtual application package is saved. You can also edit file type associations associated with an existing package.
 
 ## Related topics

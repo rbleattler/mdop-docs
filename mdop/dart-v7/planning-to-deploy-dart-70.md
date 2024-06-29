@@ -3,8 +3,7 @@ title: Planning to Deploy DaRT 7.0
 description: Planning to Deploy DaRT 7.0
 author: aczechowski
 ms.assetid: 05e97cdb-a8c2-46e4-9c75-a7d12fe26fe8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -50,7 +49,7 @@ Several methods can be used to save and deploy the DaRT recovery image. When you
 **Note**  
 You might want to use more than one method in your organization. For example, you can boot into DaRT from a remote partition for most situations and have a USB flash drive available in case the end-user computer cannot connect to the network.
 
- 
+
 
 [Planning How to Save and Deploy the DaRT 7.0 Recovery Image](planning-how-to-save-and-deploy-the-dart-70-recovery-image.md)
 
@@ -59,9 +58,9 @@ You might want to use more than one method in your organization. For example, yo
 
 [Planning for DaRT 7.0](planning-for-dart-70-new-ia.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Editing the Configuration.mof File
 description: Edit the Configuration.mof File
 author: aczechowski
 ms.assetid: 5d8cd76b-8ffc-4d46-b761-1b8350310c48
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -31,11 +30,11 @@ To enable the client computers to report BitLocker compliance details through th
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2")
-    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL) 
+    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL)
     [Union, ViewSources{"select DeviceId, BitlockerPersistentVolumeId, BitLockerManagementPersistentVolumeId, BitLockerManagementVolumeType, DriveLetter, Compliant, ReasonsForNonCompliance, KeyProtectorTypes, EncryptionMethod, ConversionStatus, ProtectionStatus, IsAutoUnlockEnabled, NoncomplianceDetectedDate, EnforcePolicyDate from Mbam_Volume"}, ViewSpaces{"\\\\.\\root\\microsoft\\mbam"}, dynamic, Provider("MS_VIEW_INSTANCE_PROVIDER")]
     class Win32_BitLockerEncryptionDetails
     {
@@ -78,12 +77,12 @@ To enable the client computers to report BitLocker compliance details through th
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
         UInt32    EncryptionMethod;
-        
+
         //Required protectors properties
         UInt32    OsDriveProtector;
         UInt32    FixedDataDriveAutoUnlock;
@@ -103,7 +102,7 @@ To enable the client computers to report BitLocker compliance details through th
     Instance of Win32Reg_MBAMPolicy
     {
         KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -111,7 +110,7 @@ To enable the client computers to report BitLocker compliance details through th
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;
@@ -174,11 +173,11 @@ To enable the client computers to report BitLocker compliance details through th
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2")
-    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL) 
+    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL)
     [Union, ViewSources{"select DeviceId, BitlockerPersistentVolumeId, BitLockerManagementPersistentVolumeId, BitLockerManagementVolumeType, DriveLetter, Compliant, ReasonsForNonCompliance, KeyProtectorTypes, EncryptionMethod, ConversionStatus, ProtectionStatus, IsAutoUnlockEnabled, NoncomplianceDetectedDate, EnforcePolicyDate from Mbam_Volume"}, ViewSpaces{"\\\\.\\root\\microsoft\\mbam"}, dynamic, Provider("MS_VIEW_INSTANCE_PROVIDER")]
     class Win32_BitLockerEncryptionDetails
     {
@@ -221,12 +220,12 @@ To enable the client computers to report BitLocker compliance details through th
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
         UInt32    EncryptionMethod;
-        
+
         //Required protectors properties
         UInt32    OsDriveProtector;
         UInt32    FixedDataDriveAutoUnlock;
@@ -246,7 +245,7 @@ To enable the client computers to report BitLocker compliance details through th
     Instance of Win32Reg_MBAMPolicy
     {
         KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -254,7 +253,7 @@ To enable the client computers to report BitLocker compliance details through th
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;
@@ -283,12 +282,12 @@ To enable the client computers to report BitLocker compliance details through th
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
         UInt32    EncryptionMethod;
-        
+
         //Required protectors properties
         UInt32    OsDriveProtector;
         UInt32    FixedDataDriveAutoUnlock;
@@ -308,7 +307,7 @@ To enable the client computers to report BitLocker compliance details through th
     Instance of Win32Reg_MBAMPolicy_64
     {
         KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -316,7 +315,7 @@ To enable the client computers to report BitLocker compliance details through th
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;

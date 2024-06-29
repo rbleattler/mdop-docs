@@ -3,8 +3,7 @@ title: Change an Application Icon
 description: Change an Application Icon.
 author: aczechowski
 ms.assetid: 52c870eb-4a54-410b-8abf-79395a53f846
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Evaluating MBAM 1.0
 description: Evaluating MBAM 1.0
 author: aczechowski
 ms.assetid: a1e2b674-eda9-4e1c-9b4c-e748470c71f2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -155,7 +154,7 @@ After you complete the necessary planning and software prerequisite installation
 
 You can change the frequency settings on the MBAM Client status reporting by using Registry Editor. However, these modifications should be used for testing purposes only.
 
-**Warning**  
+**Warning**
 This topic describes how to change the Windows registry by using Registry Editor. If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows. You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry. Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved. Change the registry at your own risk.
 
 

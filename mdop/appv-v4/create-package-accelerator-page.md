@@ -3,8 +3,7 @@ title: Create Package Accelerator Page
 description: Create Package Accelerator Page
 author: aczechowski
 ms.assetid: 51cdc262-beda-4a4f-bb3e-66458062a7bd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Create Package Accelerator** page to specify the location where to sav
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the location where to save the Package Accelerator.
 
 ## Related topics

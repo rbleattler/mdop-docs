@@ -2,8 +2,7 @@
 title: App-V 5.0 Prerequisites
 description: App-V 5.0 Prerequisites
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

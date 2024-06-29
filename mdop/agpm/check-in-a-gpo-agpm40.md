@@ -3,8 +3,7 @@ title: How to Check In a GPO
 description: Procedure to Check In a GPO
 author: aczechowski
 ms.assetid: b838c8a2-eb9e-4e5b-8740-d7701a4294ac
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

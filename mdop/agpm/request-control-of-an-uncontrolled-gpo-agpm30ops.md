@@ -3,8 +3,7 @@ title: Request Control of an Uncontrolled GPO
 description: Request Control of an Uncontrolled GPO in AGPM 3.
 author: aczechowski
 ms.assetid: b668a67a-5a2c-4f6a-8b1c-efa3ca0794d4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

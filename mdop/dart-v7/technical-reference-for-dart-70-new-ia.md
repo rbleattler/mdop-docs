@@ -3,8 +3,7 @@ title: Technical Reference for DaRT 7.0
 description: Technical Reference for DaRT 7.0
 author: aczechowski
 ms.assetid: f55c7e5e-713a-42d1-84c9-88370155f934
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

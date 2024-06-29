@@ -2,8 +2,7 @@
 title: Microsoft Application Virtualization Management System Release Notes 4.5 SP1
 description: Microsoft Application Virtualization Management System Release Notes 4.5 SP1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---
@@ -59,7 +58,7 @@ Alternatively, if you're installing or upgrading to the App-V 4.5 SP1 Client for
 > [!NOTE]
 > The APPGUID parameter references the product code of the App-V client that you install or upgrade. The product code is unique for each setup.msi. You can use the Orca database editor or a similar tool to examine Windows Installer files and determine the product code. This step is required for all installations or upgrades to App-V 4.5 SP1.
 
- 
+
 
 ### Improving performance when sequencing the .NET Framework
 

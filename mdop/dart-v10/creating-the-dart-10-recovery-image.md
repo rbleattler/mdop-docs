@@ -3,8 +3,7 @@ title: Creating the DaRT 10 Recovery Image
 description: Creating the DaRT 10 Recovery Image
 author: aczechowski
 ms.assetid: 173556de-2f20-4ea6-9e29-fc5ccc71ebd7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

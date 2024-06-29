@@ -3,8 +3,7 @@ title: Application Template Schema Reference for UE-V 2.x
 description: Application Template Schema Reference for UE-V 2.x
 author: aczechowski
 ms.assetid: be8735a5-6a3e-4b1f-ba14-2a3bc3e5a8b6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -151,7 +150,7 @@ The Process data type is a container used to describe processes to be monitored 
 </tbody>
 </table>
 
- 
+
 
 <a href="" id="processes"></a>**Processes**
 The Processes data type represents a container for a collection of one or more Process elements. Two child elements are supported in the Processes sequence type: **Process** and **ShellProcess**. Process is an element of type Process and ShellProcess is of data type Empty. At least one item must be identified in the sequence.
@@ -201,7 +200,7 @@ Settings is a container for all the settings that apply to a particular template
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="name21"></a>Name Element
 
@@ -216,7 +215,7 @@ UE-V does not reference external DTDs, so it is not possible to use named entiti
 
 See <http://www.w3.org/TR/xhtml1/dtds.html> for a complete list of character entities. UTF-8-encoded documents may include the Unicode characters directly. Saving templates through the UE-V Generator converts character entities to their Unicode representations automatically.
 
- 
+
 
 ### <a href="" id="id21"></a>ID Element
 
@@ -261,7 +260,7 @@ This value is queried to determine if a new version of a template should be appl
 
 -   When the microsoft\\uev:SettingsLocationTemplate Update method is called through WMI
 
- 
+
 
 ### <a href="" id="author21"></a>Author Element
 
@@ -327,7 +326,7 @@ A value of **True** indicates that the string contains illegal characters. Here 
 **Note**  
 The UE-V Generator encodes the greater than and less than characters as &gt; and &lt; respectively.
 
- 
+
 
 In rare circumstances, the FileName value will not necessarily include the .exe extension, but it should be specified as part of the value. For example, `<Filename>MyApplictication.exe</Filename>` should be specified instead of `<Filename>MyApplictication</Filename>`. The second example will not apply the template to the process if the actual name of the executable file is “MyApplication.exe”.
 
@@ -344,7 +343,7 @@ If this element is absent, the settings location template ignores the process’
 **Note**  
 UE-V does not support ARM processors in this version.
 
- 
+
 
 ### ProductName
 
@@ -537,7 +536,7 @@ Application is a container for settings that apply to a particular application. 
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="common21"></a>Common Element
 
@@ -596,7 +595,7 @@ Common is similar to an Application element, but it is always associated with tw
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="settingslocationtemplate21"></a>SettingsLocationTemplate Element
 
@@ -635,7 +634,7 @@ This element defines the settings for a single application or a suite of applica
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="appendix21"></a>Appendix: SettingsLocationTemplate.xsd
 
@@ -1090,7 +1089,7 @@ The Process data type is a container used to describe processes to be monitored 
 </tbody>
 </table>
 
- 
+
 
 <a href="" id="processes"></a>**Processes**
 The Processes data type represents a container for a collection of one or more Process elements. Two child elements are supported in the Processes sequence type: **Process** and **ShellProcess**. Process is an element of type Process and ShellProcess is of data type Empty. At least one item must be identified in the sequence.
@@ -1137,7 +1136,7 @@ Settings is a container for all the settings that apply to a particular template
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="name"></a>Name Element
 
@@ -1152,7 +1151,7 @@ UE-V does not reference external DTDs, so it is not possible to use named entiti
 
 See <http://www.w3.org/TR/xhtml1/dtds.html> for a complete list of character entities. UTF-8-encoded documents may include the Unicode characters directly. Saving templates through the UE-V Generator converts character entities to their Unicode representations automatically.
 
- 
+
 
 ### <a href="" id="id"></a>ID Element
 
@@ -1197,7 +1196,7 @@ This value is queried to determine if a new version of a template should be appl
 
 -   When the microsoft\\uev:SettingsLocationTemplate Update method is called through WMI
 
- 
+
 
 ### <a href="" id="author"></a>Author Element
 
@@ -1263,7 +1262,7 @@ A value of **True** indicates that the string contains illegal characters. Here 
 **Note**  
 The UE-V Generator encodes the greater than and less than characters as &gt; and &lt; respectively.
 
- 
+
 
 In rare circumstances, the FileName value will not necessarily include the .exe extension, but it should be specified as part of the value. For example, `<Filename>MyApplictication.exe</Filename>` should be specified instead of `<Filename>MyApplictication</Filename>`. The second example will not apply the template to the process if the actual name of the executable file is “MyApplication.exe”.
 
@@ -1280,7 +1279,7 @@ If this element is absent, the settings location template ignores the process’
 **Note**  
 UE-V does not support ARM processors in this version.
 
- 
+
 
 ### ProductName
 
@@ -1471,7 +1470,7 @@ Application is a container for settings that apply to a particular application. 
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="common"></a>Common Element
 
@@ -1528,7 +1527,7 @@ Common is similar to an Application element, but it is always associated with tw
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="settingslocationtemplate"></a>SettingsLocationTemplate Element
 
@@ -1569,7 +1568,7 @@ This element defines the settings for a single application or a suite of applica
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="appendix"></a>Appendix: SettingsLocationTemplate.xsd
 
@@ -1878,9 +1877,9 @@ Here is the SettingsLocationTemplate.xsd file showing its elements, child elemen
 
 [Technical Reference for UE-V 2.x](technical-reference-for-ue-v-2x-both-uevv2.md)
 
- 
 
- 
+
+
 
 
 

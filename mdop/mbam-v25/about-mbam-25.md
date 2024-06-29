@@ -3,8 +3,7 @@ title: About MBAM 2.5
 description: About MBAM 2.5
 author: aczechowski
 ms.assetid: 1ce218ec-4d2e-4a75-8d1a-68d737a8f3c9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -51,7 +50,7 @@ The following groups might be interested in using MBAM to manage BitLocker:
 **Note**  
 BitLocker is not explained in detail in this MBAM documentation. For more information, see [BitLocker Drive Encryption Overview](https://go.microsoft.com/fwlink/p/?LinkId=225013).
 
- 
+
 
 ## <a href="" id="what-s-new-in-mbam-2-5"></a>What’s new in MBAM 2.5
 
@@ -69,7 +68,7 @@ The MBAM Group Policy Templates must be downloaded separately from the MBAM inst
 **Important**  
 Do not change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM will not work correctly. When you configure the Group Policy settings in the **MDOP MBAM (BitLocker Management)** node, MBAM automatically configures the BitLocker Drive Encryption settings for you.
 
- 
+
 
 The template files that you need to copy to a server or workstation are:
 
@@ -108,7 +107,7 @@ Copy the template files to the location that best meets your needs. For the lang
   </tbody>
   </table>
 
-     
+
 
 - To make the templates available to all Group Policy administrators in a domain, copy the files to one of the following locations on a domain controller.
 
@@ -135,7 +134,7 @@ Copy the template files to the location that best meets your needs. For the lang
   </tbody>
   </table>
 
-     
+
 
 For more information about template files, see [Managing Group Policy ADMX Files Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkId=392818).
 
@@ -179,7 +178,7 @@ To enable you to configure encryption policy enforcement, a new Group Policy set
 </tbody>
 </table>
 
- 
+
 
 ### Ability to provide a URL in the BitLocker Drive Encryption wizard to point to your security policy
 
@@ -250,7 +249,7 @@ The following table lists the security groups that you must create in AD DS. You
 </tbody>
 </table>
 
- 
+
 
 After you create the security groups in AD DS, assign users and/or groups to the appropriate security group to enable the corresponding level of access to the Administration and Monitoring Website. To enable individuals with each role to access the Administration and Monitoring Website, you must also specify each security group when you are configuring the Administration and Monitoring Website.
 
@@ -299,7 +298,7 @@ Windows PowerShell Help for MBAM is available in the following formats:
 </tbody>
 </table>
 
- 
+
 
 ### Support for ASCII-only and enhanced PINs and ability to prevent sequential and repeating characters
 
@@ -358,7 +357,7 @@ MBAM is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part o
 For more information and late-breaking news that is not included in this documentation, see [Release Notes for MBAM 2.5](release-notes-for-mbam-25.md).
 
 ## Got a suggestion for MBAM?
-- Send your feedback [here](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub). 
+- Send your feedback [here](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub).
 - For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 ## Related topics
@@ -368,9 +367,9 @@ For more information and late-breaking news that is not included in this documen
 
 [Getting Started with MBAM 2.5](getting-started-with-mbam-25.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: About the Virtual File System Tab
 description: About the Virtual File System Tab
 author: aczechowski
 ms.assetid: 4d2e344d-3f3b-49fd-bbbd-fa5177e7af50
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,10 +22,10 @@ For information about the virtual file system and its use, see the section “VF
 ## Columns
 
 
-<a href="" id="from"></a>**From**  
+<a href="" id="from"></a>**From**
 Displays the application's component files in the SFT file as they will be distributed on an Application Virtualization Desktop Client.
 
-<a href="" id="to"></a>**To**  
+<a href="" id="to"></a>**To**
 Displays the application's component files as they have been distributed by the application installer on the Application Virtualization Sequencer.
 
 ## Related topics

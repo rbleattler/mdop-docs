@@ -3,8 +3,7 @@ title: Planning for MBAM 1.0 Group Policy Requirements
 description: Planning for MBAM 1.0 Group Policy Requirements
 author: aczechowski
 ms.assetid: 0fc9c509-7850-4a8e-bb82-b949025bcb02
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 Microsoft BitLocker Administration and Monitoring (MBAM) Client management requires custom Group Policy settings to be applied. This topic describes the available policy options for Group Policy Object (GPO) when you use MBAM to manage BitLocker Drive Encryption in the enterprise.
 
-**Important**  
+**Important**
 MBAM does not use the default GPO settings for Windows BitLocker drive encryption. If the default settings are enabled, they can cause conflicting behavior. To enable MBAM to manage BitLocker, you must define the GPO policy settings after you install the MBAM Group Policy Template.
 
 
@@ -27,7 +26,7 @@ After you install the MBAM Group Policy template, you can view and modify the av
 
 The MDOP MBAM (BitLocker Management) GPO node contains four global policy settings and four child GPO setting nodes, respectively. The four GPO global policy settings are: Client Management, Fixed Drive, Operating System Drive, and Removable Drive. The following sections provide policy definitions and suggested policy settings to help you plan for the MBAM GPO policy setting requirements.
 
-**Note**  
+**Note**
 For more information about configuring the minimum suggested GPO settings to enable MBAM to manage BitLocker encryption, see [How to Edit MBAM 1.0 GPO Settings](how-to-edit-mbam-10-gpo-settings.md).
 
 

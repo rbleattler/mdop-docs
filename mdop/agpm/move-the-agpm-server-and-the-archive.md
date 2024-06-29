@@ -3,8 +3,7 @@ title: Move the AGPM Server and the Archive
 description: Move the AGPM Server and the Archive
 author: aczechowski
 ms.assetid: 13cb83c4-bb42-4e81-8660-5b7540f473d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -24,7 +23,7 @@ If you are replacing the AGPM Server and the server on which the archive is host
 
 -   By default, the archive is hosted on the AGPM Server, but you can specify an archive path to host it on another server instead.
 
- 
+
 
 A user account that is a member of the Domain Admins group and has access to the previous and new AGPM Servers is required to complete this procedure. Additionally, you must provide credentials for the AGPM Service Account to be used by the new AGPM Server to complete this procedure.
 
@@ -43,7 +42,7 @@ A user account that is a member of the Domain Admins group and has access to the
         **Note**  
         As a best practice, you should uninstall Microsoft Advanced Group Policy Management – Server from the previous AGPM Server. This will ensure that the AGPM Service cannot be unintentionally restarted on that server and potentially cause confusion if any AGPM Server connections to it remain.
 
-         
+
 
 3.  Copy the archive from the backup to the new server that will host the archive. For more information, see [Restore the Archive from a Backup](restore-the-archive-from-a-backup.md).
 
@@ -54,7 +53,7 @@ A user account that is a member of the Domain Admins group and has access to the
 
     2.  You must re-enter and confirm the password on the **Domain Delegation** tab. For more information, see [Configure E-Mail Notification](configure-e-mail-notification-agpm30ops.md).
 
-     
+
 
 ### Additional references
 
@@ -72,9 +71,9 @@ A user account that is a member of the Domain Admins group and has access to the
 
 -   [Performing AGPM Administrator Tasks](performing-agpm-administrator-tasks-agpm30ops.md)
 
- 
 
- 
+
+
 
 
 

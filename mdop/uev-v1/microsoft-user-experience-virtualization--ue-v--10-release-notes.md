@@ -2,8 +2,7 @@
 title: Microsoft User Experience Virtualization (UE-V) 1.0 Release Notes
 description: Microsoft User Experience Virtualization (UE-V) 1.0 Release Notes
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

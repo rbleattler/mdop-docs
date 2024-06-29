@@ -3,8 +3,7 @@ title: MED-V Reporting
 description: MED-V Reporting
 author: aczechowski
 ms.assetid: b379153b-be89-4a76-a284-2bb4591c3490
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -21,10 +20,10 @@ MED-V provides status, activity log, and error reports to help the administrator
 ## In This Section
 
 
-<a href="" id="how-to-generate-reports"></a>[How to Generate Reports](how-to-generate-reports-medvv2.md)  
+<a href="" id="how-to-generate-reports"></a>[How to Generate Reports](how-to-generate-reports-medvv2.md)
 Describes how to generate the different types of reports.
 
-<a href="" id="how-to-work-with-reports"></a>[How to Work with Reports](how-to-work-with-reports.md)  
+<a href="" id="how-to-work-with-reports"></a>[How to Work with Reports](how-to-work-with-reports.md)
 Describes the functions used when working with reports.
 
 ## Related topics

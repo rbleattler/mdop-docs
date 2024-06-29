@@ -3,8 +3,7 @@ title: How to Load or Unload an Application
 description: How to Load or Unload an Application
 author: aczechowski
 ms.assetid: 8c149761-c591-433f-972b-91793a69c654
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ You can use the following procedures to load or unload an application from the c
 **Note**  
 When you load or unload a package, all the applications in the package are loaded into or removed from cache. When loading a package, if you do not have adequate space in cache to load the applications, increase your cache size. For more information about cache size, see [How to Change the Cache Size and the Drive Letter Designation](how-to-change-the-cache-size-and-the-drive-letter-designation.md).
 
- 
+
 
 **To load an application**
 
@@ -40,9 +39,9 @@ When you load or unload a package, all the applications in the package are loade
 
 [How to Change the Cache Size and the Drive Letter Designation](how-to-change-the-cache-size-and-the-drive-letter-designation.md)
 
- 
 
- 
+
+
 
 
 

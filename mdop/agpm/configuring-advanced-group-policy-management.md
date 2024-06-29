@@ -3,8 +3,7 @@ title: Configuring Advanced Group Policy Management
 description: Configuring Advanced Group Policy Management
 author: aczechowski
 ms.assetid: 836f4a49-2c77-4f6b-8727-9df7ef443141
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

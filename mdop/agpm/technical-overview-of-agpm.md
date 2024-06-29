@@ -3,8 +3,7 @@ title: Technical Overview of AGPM
 description: Technical Overview of AGPM
 author: aczechowski
 ms.assetid: 36bc0ab5-f752-474c-8559-721ea95169c2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -101,7 +100,7 @@ Table 1 describes both the items that AGPM installs or creates and the parts of 
 </tbody>
 </table>
 
- 
+
 
 ### Additional references
 
@@ -119,7 +118,7 @@ The gpostate.xml file records the state of each GPO in the archive. The file is 
 **Caution**  
 Do not manually edit gpostate.xml or the GPOs the archive contains. This information is provided only to enhance understanding of the AGPM archive. Instead, use the AGPM snap-in to change GPOs.
 
- 
+
 
 When AGPM creates the archive, it gives Full Control to SYSTEM, Administrators, and the AGPM Service Account (specified in the setup of AGPM Server). Changing permissions by using the AGPM user interface on the AGPM snap-in does not alter permissions on the archive, because the AGPM Service Account performs all operations on behalf of the logged-on user.
 
@@ -261,22 +260,22 @@ AGPM gives AGPM Administrators the flexibility to configure permissions at a mor
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 **Export GPO** and **Import GPO** permissions are not available in AGPM 3.0 or 2.5.
 
 The ability to delegate access to GPOs in the production environment for a domain and the ability to limit the number of GPO versions stored are not available in AGPM 2.5.
 
- 
+
 
 ### Additional references
 
 For information about what tasks can be performed by Group Policy administrators assigned a particular role or about which permissions are required to perform a specific task, see the [Operations Guide for AGPM](https://go.microsoft.com/fwlink/?LinkId=160061).
 
- 
 
- 
+
+
 
 
 

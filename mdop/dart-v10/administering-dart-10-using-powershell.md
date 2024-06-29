@@ -3,7 +3,6 @@ title: Administering DaRT 10 Using PowerShell
 description: Administering DaRT 10 Using PowerShell
 author: aczechowski
 ms.reviewer:
-manager: dansimp
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021
@@ -90,7 +89,7 @@ Mount-WindowsImage -ImagePath $DestinationWimPath -Path $TempMountPath -Index 2
 ### Add additional drivers to the image.
 ###
 
-### The following is an example of how to add additional drivers to the image. 
+### The following is an example of how to add additional drivers to the image.
 ### Specify the actual path to a driver's INF file and uncomment the following statement.
 # Add-WindowsDriver -Path $TempMountPath -Driver "c:\example\path\to\drivers.inf" -ForceUnsigned
 

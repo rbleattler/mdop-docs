@@ -3,8 +3,7 @@ title: Troubleshooting Certificate Permission Issues
 description: Troubleshooting Certificate Permission Issues
 author: aczechowski
 ms.assetid: 06b8cbbc-93fd-44aa-af39-2d780792d3c3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

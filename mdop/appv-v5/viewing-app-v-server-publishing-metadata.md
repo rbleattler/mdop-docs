@@ -3,8 +3,7 @@ title: Viewing App-V Server Publishing Metadata
 description: Viewing App-V Server Publishing Metadata
 author: aczechowski
 ms.assetid: 048dd42a-24d4-4cc4-81f6-7a919aadd9b2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

@@ -3,8 +3,7 @@ title: Step-by-Step Guide for Microsoft Advanced Group Policy Management 2.5
 description: Step-by-Step Guide for Microsoft Advanced Group Policy Management 2.5
 author: aczechowski
 ms.assetid: 454298c9-0fab-497a-9808-c0246a4c8db5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -68,7 +67,7 @@ Archives cannot be migrated from an AGPM Server or a GPOVault Server running Win
 
 For Windows Server 2003, if GPOVault Server is installed on the computer on which you want to install AGPM Server, it is recommended that you do not uninstall GPOVault Server before beginning the installation. The installation of AGPM Server will uninstall GPOVault Server and automatically transfer your existing GPOVault archive data to an AGPM archive.
 
- 
+
 
 ### AGPM Client requirements
 
@@ -81,7 +80,7 @@ Before you begin this scenario, create four user accounts. During the scenario, 
 **Note**  
 **Link GPOs** permission is assigned to members of Domain Administrators and Enterprise Administrators by default. To assign **Link GPOs** permission to additional users or groups (such as accounts with the roles of AGPM Administrator or Approver), click the node for the domain and then click the **Delegation** tab, select **Link GPOs**, click **Add**, and select users or groups to which to assign the permission.
 
- 
+
 
 For this scenario, you perform actions with different accounts. You can either log on with each account as indicated, or you can use the **Run as** command to start the GPMC with the indicated account.
 
@@ -90,7 +89,7 @@ To use the **Run as** command with GPMC on Windows Server 2003, click **Start**
 
 To use the **Run as** command with GPMC on Windows Vista, click the **Start** button, point to **Run**, and type **runas /user:**<em>DomainName\\UserName</em>**"mmc %windir%\\system32\\gpmc.msc"**, and click **OK**. Type the password for the account when prompted.
 
- 
+
 
 ## Steps for installing and configuring AGPM
 
@@ -134,7 +133,7 @@ In this step, you install AGPM Server on the member server or domain controller 
     **Caution**  
     Do not modify settings for the AGPM Service through **Administrative Tools** and **Services** in the operating system. Doing so can prevent the AGPM Service from starting. For information on how to modify settings for the service, see Help for Advanced Group Policy Management.
 
-     
+
 
 ### <a href="" id="bkmk-config2"></a>Step 2: Install AGPM Client
 
@@ -211,12 +210,12 @@ As an AGPM Administrator (Full Control), you delegate domain-level access to GPO
 **Note**  
 You can also delegate access at the GPO level rather than the domain level. For details, see Help for Advanced Group Policy Management.
 
- 
+
 
 **Important**  
 You should restrict membership in the Group Policy Creator Owners group, so it cannot be used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, click **Group Policy Objects** in the forest and domain in which you want to manage GPOs, click **Delegation**, and then configure the settings to meet the needs of your organization.)
 
- 
+
 
 **To delegate access to all GPOs throughout a domain**
 
@@ -512,7 +511,7 @@ Occasionally you may discover after deleting a GPO that it is still needed. In t
     **Note**  
     Restoring a GPO to the archive does not automatically redeploy it to the production environment. To return the GPO to the production environment, deploy the GPO as in [Step 3: Review and deploy a GPO](#bkmk-manage3).
 
-     
+
 
 After editing and deploying a GPO, you may discover that recent changes to the GPO are causing a problem. In this step, you act as an Approver to roll back to a previous version of the GPO. You can roll back to any version in the history of the GPO. You can use comments and labels to identify known good versions and when specific changes were made.
 
@@ -529,11 +528,11 @@ After editing and deploying a GPO, you may discover that recent changes to the G
     **Note**  
     To verify that the version that has been redeployed is the version intended, examine a difference report for the two versions. In the **History** window for the GPO, select the two versions, right-click them, point to **Difference**, and then click either **HTML Report** or **XML Report**.
 
-     
 
- 
 
- 
+
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Streaming Page
 description: Streaming Page
 author: aczechowski
 ms.assetid: a69a57a0-1bbe-4604-840d-bfa87ec463e1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,14 +20,14 @@ Use the **Streaming** page to optimize the virtual application package. During t
 **Note**  
 You only have to perform the following tasks if you plan to stream the package across the network.
 
- 
+
 
 This page contains the following elements:
 
-<a href="" id="run-selected"></a>**Run Selected**  
+<a href="" id="run-selected"></a>**Run Selected**
 Runs and optimizes only the specified programs saved in the virtual application package.
 
-<a href="" id="run-all"></a>**Run All**  
+<a href="" id="run-all"></a>**Run All**
 Runs all the programs saved in the virtual application package.
 
 ## Related topics
@@ -36,9 +35,9 @@ Runs all the programs saved in the virtual application package.
 
 [Create New Package Wizard (AppV 4.6 SP1)](create-new-package-wizard---appv-46-sp1-.md)
 
- 
 
- 
+
+
 
 
 

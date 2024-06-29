@@ -3,8 +3,7 @@ title: Plan for Migrating from a Previous Version of App-V
 description: Planning for Migrating from a Previous Version of App-V
 author: aczechowski
 ms.assetid: d4ca8f09-86fd-456f-8ec2-242ff94ae9a0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -69,7 +68,7 @@ The following table shows the supported App-V coexistence scenarios. We recommen
 </tbody>
 </table>
 
- 
+
 
 ### Requirements for running coexisting clients
 
@@ -106,7 +105,7 @@ The following table provides link to the TechNet documentation about the release
 </tbody>
 </table>
 
- 
+
 
 For more information about how to configure App-V 5.0 client coexistence, see:
 
@@ -135,9 +134,9 @@ For more information about using the package converter to convert a package, see
 
 [Planning to Deploy App-V](planning-to-deploy-app-v.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: App-V 5.1 Planning Checklist
 description: App-V 5.1 Planning Checklist
 author: aczechowski
 ms.assetid: 1e26a861-0612-43a6-972f-375a40a8dcbc
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
