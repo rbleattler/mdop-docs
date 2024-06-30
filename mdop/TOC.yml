@@ -16,7 +16,7 @@
         - name: Diagnostics and Recovery Toolset 10
           href: dart-v10/index.md
         - name: Diagnostics and Recovery Toolset 8
-          href: dart-v8/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/
         - name: Diagnostics and Recovery Toolset 7
           href: dart-v7/index.md
     - name: Microsoft Bitlocker Administration and Monitoring
@@ -26,7 +26,7 @@
         - name: Microsoft Bitlocker Administration and Monitoring 2
           href: mbam-v2/index.md
         - name: Microsoft Bitlocker Administration and Monitoring 1
-          href: mbam-v1/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/
     - name: Microsoft Enterprise Desktop Virtualization
       items:
         - name: Microsoft Enterprise Desktop Virtualization 2
