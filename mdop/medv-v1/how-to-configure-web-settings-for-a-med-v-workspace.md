@@ -3,8 +3,7 @@ title: How to Configure Web Settings for a MED-V Workspace
 description: How to Configure Web Settings for a MED-V Workspace
 author: aczechowski
 ms.assetid: 9a6cd28f-7e4f-468f-830a-7b1d9abd3af3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Web sites that can only be displayed in older versions of Internet Explorer and 
 
 The following procedures describe how you can set a list of Web browsing rules for a MED-V workspace. All sites included in the rules can be browsed either in the MED-V workspace or on the host, as defined by the administrator. All sites not defined within the rules are browsed from the environment in which they were requested. However, you can configure them as a group as well, to be browsed in the MED-V workspace or the host.
 
-**Note**  
+**Note**
 Web settings are applied only to Internet Explorer and to no other browsers.
 
 

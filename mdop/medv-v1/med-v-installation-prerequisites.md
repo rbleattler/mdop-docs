@@ -3,8 +3,7 @@ title: MED-V Installation Prerequisites
 description: MED-V Installation Prerequisites
 author: aczechowski
 ms.assetid: cf3c0906-23eb-4c4a-8951-a65741720f95
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -93,7 +92,7 @@ To prevent antivirus activity from affecting the performance of the virtual desk
 **Important**  
 If Virtual PC for Windows exists on the host computer, uninstall it before installing Virtual PC 2007 SP1.
 
- 
+
 
 **To install Microsoft Virtual PC 2007 SP1**
 
@@ -106,16 +105,16 @@ If Virtual PC for Windows exists on the host computer, uninstall it before insta
     **Note**  
     The Virtual PC 2007 SP1 update is required for running Virtual PC 2007 SP1.
 
-     
+
 
 ## Related topics
 
 
 [Supported Configurations](supported-configurationsmedv-orientation.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Example MED-V System Installation Checklist
 description: Example MED-V System Installation Checklist
 author: aczechowski
 ms.assetid: 9e5673ba-dee4-4680-9c57-a149beab14d3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -49,11 +48,11 @@ The following checklist provides a high-level list of items to consider and outl
 </tbody>
 </table>
 
- 
 
- 
 
- 
+
+
+
 
 
 

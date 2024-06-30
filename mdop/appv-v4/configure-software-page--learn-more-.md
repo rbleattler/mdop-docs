@@ -3,8 +3,7 @@ title: Configure Software Page (Learn More)
 description: Configure Software Page (Learn More)
 author: aczechowski
 ms.assetid: 9a0cd4a5-88da-4897-a13a-5d21fc04afda
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Configure Software** page to run each program to complete any configur
 
 This page contains the following elements:
 
-<a href="" id="run-selected"></a>**Run Selected**  
+<a href="" id="run-selected"></a>**Run Selected**
 Opens only the selected programs associated with the application.
 
-<a href="" id="run-all"></a>**Run All**  
+<a href="" id="run-all"></a>**Run All**
 Opens all programs associated with the application.
 
 ## Related topics

@@ -2,8 +2,7 @@
 title: How to add or upgrade packages by using the management console
 description: How to add or upgrade packages by using the management console.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

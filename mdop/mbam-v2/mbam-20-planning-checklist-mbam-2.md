@@ -3,8 +3,7 @@ title: MBAM 2.0 Planning Checklist
 description: MBAM 2.0 Planning Checklist
 author: aczechowski
 ms.assetid: 16b27c27-5f5e-41e2-b526-89a036672fb8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -21,7 +20,7 @@ This checklist can be used to help you plan for preparing your computing environ
 **Note**  
 This checklist outlines the recommended steps and a high-level list of items to consider when planning for a Microsoft BitLocker Administration and Monitoring deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
- 
+
 
 <table>
 <colgroup>
@@ -90,16 +89,16 @@ This checklist outlines the recommended steps and a high-level list of items to 
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Planning for MBAM 2.0](planning-for-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

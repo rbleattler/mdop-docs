@@ -3,8 +3,7 @@ title: How to Remove an Application Group
 description: How to Remove an Application Group
 author: aczechowski
 ms.assetid: 3016b373-f5a0-4c82-96e8-e5e7960f0cc4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ You can use the following procedures to remove an application group in the Appli
 **Caution**  
 Deleting a group with its applications deletes those applications from the Application Virtualization Management Server. When you try to do this, you must confirm the deletion in a pop-up window.
 
- 
+
 
 **To empty and then delete an application group**
 
@@ -48,7 +47,7 @@ Deleting a group with its applications deletes those applications from the Appli
     **Note**  
     You can select and remove multiple application groups simultaneously. In the right pane, use the **CTRL**-click or **Shift**-click key combinations to select more than one group.
 
-     
+
 
 ## Related topics
 
@@ -57,9 +56,9 @@ Deleting a group with its applications deletes those applications from the Appli
 
 [How to Manage Applications in the Server Management Console](how-to-manage-applications-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

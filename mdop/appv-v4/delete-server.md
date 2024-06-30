@@ -3,8 +3,7 @@ title: DELETE SERVER
 description: DELETE SERVER
 author: aczechowski
 ms.assetid: 4c929639-1c1d-47c3-9225-cc4d7a8736f0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ Removes a publishing server.
 **Note**  
 This command does not remove any applications or packages published to the client by the server. For each application, use the SFTMIME **CLEAR APP** command followed by the **DELETE PACKAGE** command to completely remove those applications and packages from the client.
 
- 
+
 
 `SFTMIME DELETE SERVER:server-name [/LOG log-pathname | /CONSOLE | /GUI]`
 
@@ -56,7 +55,7 @@ This command does not remove any applications or packages published to the clien
 </tbody>
 </table>
 
- 
+
 
 For version 4.6, the following option has been added.
 
@@ -73,16 +72,16 @@ For version 4.6, the following option has been added.
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [SFTMIME Command Reference](sftmime--command-reference.md)
 
- 
 
- 
+
+
 
 
 

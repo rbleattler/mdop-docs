@@ -3,8 +3,7 @@ title: Validate UE-V Settings Location Templates with UE-V Generator
 description: Validate UE-V Settings Location Templates with UE-V Generator
 author: aczechowski
 ms.assetid: 131c636c-173a-4b41-af5d-9a75b453b9d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

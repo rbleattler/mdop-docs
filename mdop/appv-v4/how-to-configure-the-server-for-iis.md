@@ -3,8 +3,7 @@ title: How to Configure the Server for IIS
 description: How to Configure the Server for IIS
 author: aczechowski
 ms.assetid: 1fcfc583-322f-4a38-90d0-e64bfa9ee3d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -33,7 +32,7 @@ Before virtual applications can be streamed to the Application Virtualization De
 **Note**  
 If you are using IIS to publish the ICO and OSD files, you must configure a MIME type for OSD=TXT; otherwise, IIS will not serve the ICO and OSD files to clients. If you are using IIS to publish packages (SFT files), you must configure a MIME type for SFT=Binary; otherwise, IIS will not serve the SFT files to clients.
 
- 
+
 
 ## Related topics
 
@@ -48,9 +47,9 @@ If you are using IIS to publish the ICO and OSD files, you must configure a MIME
 
 [How to Configure the File Server](how-to-configure-the-file-server.md)
 
- 
 
- 
+
+
 
 
 

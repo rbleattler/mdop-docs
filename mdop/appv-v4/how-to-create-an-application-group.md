@@ -3,8 +3,7 @@ title: How to Create an Application Group
 description: How to Create an Application Group
 author: aczechowski
 ms.assetid: 32751511-3d1e-40e5-b21f-d88ea39c76a3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

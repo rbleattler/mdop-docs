@@ -3,8 +3,7 @@ title: DELETE PACKAGE
 description: DELETE PACKAGE
 author: aczechowski
 ms.assetid: 8f7a4598-610d-490e-a224-426acce01a9f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -51,7 +50,7 @@ Removes a package record and the applications associated with it.
 </tbody>
 </table>
 
- 
+
 
 For version 4.6, the following option has been added.
 
@@ -68,23 +67,23 @@ For version 4.6, the following option has been added.
 </tbody>
 </table>
 
- 
+
 
 **Important**  
 The DELETE PACKAGE command always performs a global delete of the package and deletes only global file types and shortcuts.
 
 If the package is global, this command must be run as local Administrator; otherwise, only **DeleteApp** permission is needed.
 
- 
+
 
 ## Related topics
 
 
 [SFTMIME Command Reference](sftmime--command-reference.md)
 
- 
 
- 
+
+
 
 
 

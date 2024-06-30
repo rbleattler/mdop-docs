@@ -3,8 +3,7 @@ title: How to Determine BitLocker Encryption State of Lost Computers
 description: How to Determine BitLocker Encryption State of Lost Computers
 author: aczechowski
 ms.assetid: 4f4bec1b-df3e-40ee-b431-291440268d64
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -28,7 +27,7 @@ To complete this task, you need access to the **Reports** area of the Administra
 **Note**  
 Device compliance is determined by the BitLocker policies that your enterprise has deployed. You may want to verify your deployed policies before you try to determine the BitLocker encryption state of a device.
 
- 
+
 
 **To determine the last known BitLocker encryption state of lost computers**
 
@@ -49,11 +48,11 @@ Device compliance is determined by the BitLocker policies that your enterprise h
 
 [Performing BitLocker Management with MBAM 2.5](performing-bitlocker-management-with-mbam-25.md)
 
- 
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
- 
+
 
 
 

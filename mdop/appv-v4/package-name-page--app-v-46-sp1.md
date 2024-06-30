@@ -3,8 +3,7 @@ title: Package Name Page
 description: Package Name Page
 author: aczechowski
 ms.assetid: 1cea36b7-737d-4c5e-9294-5feba02a3e7d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Package Name** page to specify a name to associate with the new virtua
 
 This page contains the following elements:
 
-<a href="" id="virtual-application-package-name"></a>**Virtual Application Package Name**  
+<a href="" id="virtual-application-package-name"></a>**Virtual Application Package Name**
 Specify a name that describes the new virtual application package. The name also identifies the virtual application package in the App-V Management Console.
 
 ## Related topics

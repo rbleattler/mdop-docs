@@ -3,8 +3,7 @@ title: Prerequisites for MBAM 2.5 Clients
 description: Prerequisites for MBAM 2.5 Clients
 author: aczechowski
 ms.assetid: fc230679-9c84-4b99-a77c-bae7e7bf8145
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -81,7 +80,7 @@ Before you install the MBAM Client software on end users' computers, ensure that
 
 
 
-**Important**  
+**Important**
 If BitLocker was used without MBAM, MBAM can be installed and utilize the existing TPM information.
 
 

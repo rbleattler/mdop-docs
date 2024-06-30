@@ -3,8 +3,7 @@ title: Select Installer Page (Learn More)
 description: Select Installer Page (Learn More)
 author: aczechowski
 ms.assetid: da05e756-d23e-4557-8ff6-313d695a78a1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Select Installer** page to specify the installation (**.msi**, **.exe*
 
 This page contains the following elements:
 
-<a href="" id="select-the-installer-for-the-application-"></a>**Select the installer for the application.**  
+<a href="" id="select-the-installer-for-the-application-"></a>**Select the installer for the application.**
 Specifies the installation file or files that the sequencer runs and records while creating the virtual application package. You must specify a valid Windows Installer or an executable (**.exe**) program.
 
-<a href="" id="select-this-option-to-perform-a-custom-installation-"></a>**Select this option to perform a custom installation.**  
+<a href="" id="select-this-option-to-perform-a-custom-installation-"></a>**Select this option to perform a custom installation.**
 If the application you are installing does not have an associated Windows Installer or executable program, select this option to manually install the application by using a custom set of installation files.
 
 ## Related topics

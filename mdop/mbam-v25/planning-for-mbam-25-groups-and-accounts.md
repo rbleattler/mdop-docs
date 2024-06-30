@@ -3,8 +3,7 @@ title: Planning for MBAM 2.5 Groups and Accounts
 description: Planning for MBAM 2.5 Groups and Accounts
 author: aczechowski
 ms.assetid: 73bb9fe5-5900-4b6f-b271-ade62991fca1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -19,7 +18,7 @@ ms.date: 11/02/2016
 
 This topic lists the roles and accounts that you must create in Active Directory Domain Services (AD DS) to provide security and access rights for the Microsoft BitLocker Administration and Monitoring (MBAM) databases, reports, and web applications. For each role and account, the corresponding field in the MBAM Server Configuration wizard is provided. For a list of Windows PowerShell cmdlets and parameters that correspond to these accounts, see [Configuring MBAM 2.5 Server Features by Using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md#bkmk-reqd-posh-accts).
 
-**Note**  
+**Note**
 MBAM does not support the use of managed service accounts.
 
 
@@ -186,7 +185,7 @@ Create the following accounts for the Administration and Monitoring Website.
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

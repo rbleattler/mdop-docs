@@ -3,8 +3,7 @@ title: Server Management Console Administrators Node
 description: Server Management Console Administrators Node
 author: aczechowski
 ms.assetid: ab421454-69d1-4c10-8f58-2a35ae89c8b1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="administrators-node"></a>[Administrators Node](administrators-node.md)  
+<a href="" id="administrators-node"></a>[Administrators Node](administrators-node.md)
 Describes the features and commands available from the **Administrators** node.
 
-<a href="" id="administrators-results-pane"></a>[Administrators Results Pane](administrators-results-pane.md)  
+<a href="" id="administrators-results-pane"></a>[Administrators Results Pane](administrators-results-pane.md)
 Describes the features and commands available in the **Administrators** node **Results** pane.
 
-<a href="" id="administrators-results-pane-columns"></a>[Administrators Results Pane Columns](administrators-results-pane-columns.md)  
+<a href="" id="administrators-results-pane-columns"></a>[Administrators Results Pane Columns](administrators-results-pane-columns.md)
 Describes the columns available in the **Administrators** node **Results** pane.
 
 ## Related topics

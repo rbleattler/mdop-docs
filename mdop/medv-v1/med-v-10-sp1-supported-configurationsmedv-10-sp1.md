@@ -3,8 +3,7 @@ title: MED-V 1.0 SP1 Supported Configurations
 description: MED-V 1.0 SP1 Supported Configurations
 author: aczechowski
 ms.assetid: 4dcf37c4-a061-43d2-878c-28efc87c3cdd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -25,7 +24,7 @@ This topic specifies the requirements necessary to install and run Microsoft Ent
 
 The following table lists the operating systems that are supported for MED-V 1.0 SP1 client installation.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/?LinkId=31975) (https://go.microsoft.com/fwlink/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/?LinkId=31976) (https://go.microsoft.com/fwlink/?LinkId=31976).
 
 
@@ -69,7 +68,7 @@ Microsoft provides support for the current service pack and, in some cases, the 
 
 
 
-**Note**  
+**Note**
 MED-V client does not run in native x64 mode. Instead, MED-V runs in Windows on Windows 64-bit (WOW64) mode on 64-bit computers.
 
 
@@ -148,7 +147,7 @@ MED-V 1.0 SP1 introduces changes to system requirements from those for MED-V 1.0
 
 The following table lists the operating systems supported for MED-V 1.0 SP1 workspaces.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/?LinkId=31975) (https://go.microsoft.com/fwlink/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/?LinkId=31976) (https://go.microsoft.com/fwlink/?LinkId=31976).
 
 
@@ -204,7 +203,7 @@ MED-V requires one of the following supported versions of the Microsoft .NET Fra
 
 -   .NET Framework 3.5 or .NET Framework 3.5 SP1
 
-**Note**  
+**Note**
 We recommend the .NET Framework 3.5 SP1 to ensure that the MED-V workspace is compatible with future versions of MED-V.
 
 
@@ -226,7 +225,7 @@ MED-V 1.0 SP1 introduces changes to system requirements from those for MED-V 1.0
 
 The following table lists the operating systems supported for MED-V 1.0 SP1 server installations.
 
-**Note**  
+**Note**
 Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/?LinkId=31975) (https://go.microsoft.com/fwlink/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/?LinkId=31976) (https://go.microsoft.com/fwlink/?LinkId=31976).
 
 

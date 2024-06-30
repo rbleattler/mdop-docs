@@ -2,8 +2,7 @@
 title: App-V Client Registry Values
 description: App-V Client Registry Values
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.topic: reference
 ms.date: 08/30/2016
@@ -123,7 +122,7 @@ Type: DWORD
 
 Example data: Default=0
 
-Indicates whether streaming from file will be enabled regardless of how the client has been configured with the `APPLICATIONSOURCEROOT` parameter. If set to FALSE, the transport won't enable streaming from files even if the OSD HREF or the `APPLICATIONSOURCEROOT` parameter contains a file path. 
+Indicates whether streaming from file will be enabled regardless of how the client has been configured with the `APPLICATIONSOURCEROOT` parameter. If set to FALSE, the transport won't enable streaming from files even if the OSD HREF or the `APPLICATIONSOURCEROOT` parameter contains a file path.
 
 | Value   | Description       |
 | ------- | ----------------- |
@@ -471,7 +470,7 @@ A value of 1 enables a user to use a modified OSD file.
 
 Type: DWORD
 
-- 0: Doesn't allow a user to import applications into cache. The difference between Load and Import is that when a Load is triggered, the client gets the package from the currently configured location contained in the OSD, ASR, or Override URL. When using Import, a location to get the package from must be specified. 
+- 0: Doesn't allow a user to import applications into cache. The difference between Load and Import is that when a Load is triggered, the client gets the package from the currently configured location contained in the OSD, ASR, or Override URL. When using Import, a location to get the package from must be specified.
 
 - 1: Allows a user to import applications into cache.
 

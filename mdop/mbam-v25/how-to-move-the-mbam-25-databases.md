@@ -3,8 +3,7 @@ title: How to Move the MBAM 2.5 Databases
 description: How to Move the MBAM 2.5 Databases
 author: aczechowski
 ms.assetid: 34b46f2d-0add-4377-8e4e-04b628fdfcf1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -26,9 +25,9 @@ Use these procedures to move the following databases from one computer to anothe
 
 > [!IMPORTANT]
 > Before proceeding with configuring MBAM, install the latest MDOP servicing release update as otherwise your database server will not be recognized/supported and the configuration wizard will report an error when trying to validate the database configuration:
-> 
+>
 > "An error occurred deploying the Data Tier Application ---> Microsoft.SqlServer.Dac.DacServicesException: Database source is not a supported version of SQL Server"
-> 
+>
 > Latest MDOP servicing release update: [October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9)
 
 If the databases are NOT present, the Configuration Wizard creates NEW, empty, databases. When your existing databases are then restored, this process will break the MBAM configuration.

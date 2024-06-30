@@ -3,8 +3,7 @@ title: Security and Privacy for MBAM 2.0
 description: Security and Privacy for MBAM 2.0
 author: aczechowski
 ms.assetid: 1b2859f8-2381-4ad7-8744-2caed88570ad
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

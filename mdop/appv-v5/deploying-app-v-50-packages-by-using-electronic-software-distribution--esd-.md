@@ -3,8 +3,7 @@ title: Deploying App-V 5.0 Packages by Using Electronic Software Distribution (E
 description: Deploying App-V 5.0 Packages by Using Electronic Software Distribution (ESD)
 author: aczechowski
 ms.assetid: d1d74af4-229f-4578-8c95-554a3d7cd2f3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

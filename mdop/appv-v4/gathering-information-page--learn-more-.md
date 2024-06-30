@@ -3,8 +3,7 @@ title: Gathering Information Page (Learn More)
 description: Gathering Information Page (Learn More)
 author: aczechowski
 ms.assetid: f8d5ec6b-a3d3-4e80-b1c2-3f8441b04aaa
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,10 +19,10 @@ Use the **Gathering Information** page to review the installation files that cou
 
 This page contains the following elements:
 
-<a href="" id="review-missing-files"></a>**Review Missing Files**  
+<a href="" id="review-missing-files"></a>**Review Missing Files**
 Displays a list of the installation files that were not found in the specified directory.
 
-<a href="" id="remove-these-files"></a>**Remove these files**  
+<a href="" id="remove-these-files"></a>**Remove these files**
 Specifies whether the missing installation files should be removed from the package. Only select this option if the files displayed in the **Review Missing Files** pane are not required to successfully run the application. All files that are removed will not be part of the Package Accelerator and also will not be part of any virtual application packages created by using the Package Accelerator. Ensure that removing these files will not cause the package to fail when running on target computers.
 
 ## Related topics

@@ -3,8 +3,7 @@ title: Troubleshooting MED-V by Using the Administration Toolkit
 description: Troubleshooting MED-V by Using the Administration Toolkit
 author: aczechowski
 ms.assetid: 6c096a1c-b9ce-4ec7-8dfd-5286e3b9a617
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -34,13 +33,13 @@ After the MED-V Administration Toolkit opens, you can use the toolkit to help re
 ## In this Section
 
 
-<a href="" id="viewing-and-configuring-med-v-logs"></a>[Viewing and Configuring MED-V Logs](viewing-and-configuring-med-v-logs.md)  
+<a href="" id="viewing-and-configuring-med-v-logs"></a>[Viewing and Configuring MED-V Logs](viewing-and-configuring-med-v-logs.md)
 Describes how to use the MED-V Administration Toolkit to collect and manage MED-V event logs in the host computer and the guest virtual machine.
 
-<a href="" id="restarting-and-resetting-a-med-v-workspace"></a>[Restarting and Resetting a MED-V Workspace](restarting-and-resetting-a-med-v-workspace.md)  
+<a href="" id="restarting-and-resetting-a-med-v-workspace"></a>[Restarting and Resetting a MED-V Workspace](restarting-and-resetting-a-med-v-workspace.md)
 Describes how to restart and reset MED-V workspaces by using the MED-V Administration Toolkit.
 
-<a href="" id="viewing-med-v-workspace-configurations"></a>[Viewing MED-V Workspace Configurations](viewing-med-v-workspace-configurations.md)  
+<a href="" id="viewing-med-v-workspace-configurations"></a>[Viewing MED-V Workspace Configurations](viewing-med-v-workspace-configurations.md)
 Describes how to use the MED-V Administration Toolkit to view the published applications and redirected web addresses in a MED-V workspace and how to open the MED-V workspace virtual machine in full-screen mode.
 
 ## Related topics

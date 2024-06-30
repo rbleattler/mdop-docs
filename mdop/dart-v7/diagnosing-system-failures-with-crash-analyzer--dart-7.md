@@ -3,8 +3,7 @@ title: How to Diagnose System Failures with Crash Analyzer
 description: Diagnosing System Failures with Crash Analyzer
 author: aczechowski
 ms.assetid: 170d40ef-4edb-4a32-a349-c285c0ea5e56
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

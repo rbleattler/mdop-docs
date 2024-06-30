@@ -2,8 +2,7 @@
 title: Release Notes for App-V 5.0 SP3
 description: Release Notes for App-V 5.0 SP3
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

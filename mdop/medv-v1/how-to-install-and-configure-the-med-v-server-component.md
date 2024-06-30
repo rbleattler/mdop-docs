@@ -3,8 +3,7 @@ title: How to Install and Configure the MED-V Server Component
 description: How to Install and Configure the MED-V Server Component
 author: aczechowski
 ms.assetid: 2d3c5b15-df2c-4ab6-bf78-f47ef8ae7418
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -47,7 +46,7 @@ This section explains how to [install](#bkmk-howtoinstallthemedvserver) and [con
 
 6.  When the **InstallShield Wizard Completed** screen appears, click **Finish** to complete the wizard.
 
-**Note**  
+**Note**
 If you are installing the MED-V server via Microsoft Remote Desktop, use the following syntax: **mstsc/admin**. Ensure that your RDP session is directed to the console.
 
 
@@ -71,7 +70,7 @@ The following server settings can be configured:
 
 1.  On the Windows Start menu, select **All Programs &gt; MED-V &gt; MED-V Server Configuration Manager**.
 
-    **Note**  
+    **Note**
     Note: If you selected the **Launch MED-V Server Configuration Manager** check box during the server installation, the MED-V server configuration manager starts automatically after the server installation is complete.
 
 
@@ -152,7 +151,7 @@ The MED-V Server Configuration Manager appears.
 
         `Data Source=<ServerName>;Initial Catalog=<DBName>;uid=sa;pwd=<Password>;`
 
-        **Note**  
+        **Note**
         Note: To connect to SQL Express, use: `Data Source=<ServerName>\sqlexpress.`
 
 

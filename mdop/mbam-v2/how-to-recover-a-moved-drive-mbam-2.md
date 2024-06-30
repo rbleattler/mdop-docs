@@ -3,8 +3,7 @@ title: How to Recover a that was Moved
 description: How to Recover a Moved Drive
 author: aczechowski
 ms.assetid: 697cd78d-962c-411e-901a-2e9220ba6552
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -27,7 +26,7 @@ When you move an operating system drive that is encrypted by using Microsoft Bit
     **Note**  
     In some cases, you may be able to click **I forgot the PIN** during the startup process, and then enter the recovery mode to display the recovery key ID.
 
-     
+
 
 3.  Use the recovery key ID to retrieve the recovery password and unlock the drive from the Administration and Monitoring website.
 
@@ -40,9 +39,9 @@ When you move an operating system drive that is encrypted by using Microsoft Bit
 
 [Performing BitLocker Management with MBAM](performing-bitlocker-management-with-mbam-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

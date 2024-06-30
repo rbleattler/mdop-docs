@@ -3,8 +3,7 @@ title: How to Delete a Connection Group
 description: How to Delete a Connection Group
 author: aczechowski
 ms.assetid: 92654019-a5ad-4ed7-8c39-45f658f60196
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

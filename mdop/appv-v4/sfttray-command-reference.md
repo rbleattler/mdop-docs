@@ -3,8 +3,7 @@ title: SFTTRAY Command Reference
 description: SFTTRAY Command Reference
 author: aczechowski
 ms.assetid: 6fa3a939-b047-4d6c-bd1d-dfb93e065eb2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -25,7 +24,7 @@ By default, the icon is displayed whenever a virtual application is started, alt
 
 The list of commands and command-line switches can be displayed by running the following command from a command window.
 
-**Note**  
+**Note**
 There is only one Application Virtualization Client Tray instance for each user context, so if you start a new SFTTRAY command, it will be passed to the program that is already running.
 
 
@@ -125,7 +124,7 @@ The SFTTRAY command-line switches are described in the following table.
 
 
 
-**Note**  
+**Note**
 ¹ The */LAUNCHRESULT* command line parameter provides a means for the process that launches sfttray.exe to specify the root name for a global event and a memory mapped file that are used to return the launch result code to the process. The unique identifier name should start with “SFT-” to prevent the event name from getting virtualized when the launching process is invoked within a virtual environment. The memory mapped region will be 64 bits in size.
 
 To use this parameter, the launching process creates an event with the name “&lt;UNIQUE ID&gt;-result\_event”, a memory mapped file with the name “&lt;UNIQUE ID&gt;-result\_value”, and optionally an event with the name “&lt;UNIQUE ID&gt;-shutdown\_event”, and then the launching process launches sfttray.exe and waits on the event to be signaled. After the event “&lt;UNIQUE ID&gt;-result\_event” is signaled, the launching process retrieves the 64-bit return code from the memory mapped region.

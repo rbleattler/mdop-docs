@@ -3,8 +3,7 @@ title: How to Branch a Package
 description: How to Branch a Package
 author: aczechowski
 ms.assetid: bfe46a8a-f0ee-4a71-9e9c-64ac08aac9c1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -28,7 +27,7 @@ Use the following procedure to branch a sequenced virtual application package.
 
 3.  To save a copy of the package, in the App-V Sequencer, select **File**, **Save As**. Specify a new, unique name, and specify a new unique package root directory for the copy of the package. Click **Save**.
 
-    **Important**  
+    **Important**
     You must specify a new package name or you will overwrite the existing version of the package.
 
 

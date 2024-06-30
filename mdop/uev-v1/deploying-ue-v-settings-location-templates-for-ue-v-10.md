@@ -3,8 +3,7 @@ title: Deploying UE-V Settings Location Templates for UE-V 1.0
 description: Deploying UE-V Settings Location Templates for UE-V 1.0
 author: aczechowski
 ms.assetid: 7e0cc553-14f7-40fa-828a-281c8d2d1934
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

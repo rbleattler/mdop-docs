@@ -3,8 +3,7 @@ title: Server Management Console Applications Node
 description: Server Management Console Applications Node
 author: aczechowski
 ms.assetid: e465f816-032d-4824-9924-f2dcf30f2a2c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="applications-node-in-server-management-console"></a>[Applications Node in Server Management Console](applications-node-in-server-management-console.md)  
+<a href="" id="applications-node-in-server-management-console"></a>[Applications Node in Server Management Console](applications-node-in-server-management-console.md)
 Describes the features and commands available from the **Applications** node.
 
-<a href="" id="applications-results-pane-in-server-management-console"></a>[Applications Results Pane in Server Management Console](applications-results-pane-in-server-management-console.md)  
+<a href="" id="applications-results-pane-in-server-management-console"></a>[Applications Results Pane in Server Management Console](applications-results-pane-in-server-management-console.md)
 Describes the features and commands available in the **Applications** node **Results** pane.
 
-<a href="" id="applications-results-pane-columns-in-server-management-console"></a>[Applications Results Pane Columns in Server Management Console](applications-results-pane-columns-in-server-management-console.md)  
+<a href="" id="applications-results-pane-columns-in-server-management-console"></a>[Applications Results Pane Columns in Server Management Console](applications-results-pane-columns-in-server-management-console.md)
 Describes the columns available in the **Applications** node **Results** pane.
 
 ## Related topics

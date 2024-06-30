@@ -3,8 +3,7 @@ title: Application Virtualization Properties Interface Tab
 description: Application Virtualization Properties Interface Tab
 author: aczechowski
 ms.assetid: bb9cb54e-315a-48bf-a396-b33e2cbd030a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,13 +19,13 @@ Use the **Interface** tab of the **Application Virtualization Properties** dialo
 
 This tab contains the following elements.
 
-<a href="" id="run-settings-radio-buttons"></a>**Run Settings** radio buttons  
+<a href="" id="run-settings-radio-buttons"></a>**Run Settings** radio buttons
 Select **Always**, **Only**, or **Do not show** to determine when the Application Virtualization Client is visible in the Windows desktop notification area.
 
-<a href="" id="error-message-display-time"></a>**Error message display time**  
+<a href="" id="error-message-display-time"></a>**Error message display time**
 Enter a duration (in seconds) to determine how long error messages are visible in the desktop notification area. The minimum allowable value is 10.
 
-<a href="" id="information-message-display-time"></a>**Information message display time**  
+<a href="" id="information-message-display-time"></a>**Information message display time**
 Enter a duration (in seconds) to determine how long information messages are visible in the desktop notification area. If you set this value to zero, all messages except error messages are suppressed.
 
 ## Related topics

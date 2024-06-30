@@ -3,8 +3,7 @@ title: Using the MED-V Management Console User Interface
 description: Using the MED-V Management Console User Interface
 author: aczechowski
 ms.assetid: f42714d7-6f0c-4995-ab31-d4ef0845a22c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -44,7 +43,7 @@ The console user interface is divided into the following sections:
 **Note**  
 For security reasons, the first user to log in to the MED-V management console will become the only user on that computer allowed to access the management console.
 
- 
+
 
 **To log in**
 
@@ -55,7 +54,7 @@ For security reasons, the first user to log in to the MED-V management console w
     **Note**  
     When configuring the server, users with full access as well as users with read-only access are defined. All users must be domain users. The domain user name and password is used for MED-V management login.
 
-     
+
 
 2.  Click **OK**.
 
@@ -66,9 +65,9 @@ For security reasons, the first user to log in to the MED-V management console w
 
 [How to Install MED-V Client and MED-V Management Console](how-to-install-med-v-client-and-med-v-management-console.md)
 
- 
 
- 
+
+
 
 
 

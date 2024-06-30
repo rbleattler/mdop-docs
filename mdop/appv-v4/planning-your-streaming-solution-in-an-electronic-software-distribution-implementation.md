@@ -3,8 +3,7 @@ title: Planning Your Streaming Solution in an Electronic Software Distribution I
 description: Planning Your Streaming Solution in an Electronic Software Distribution Implementation
 author: aczechowski
 ms.assetid: bc18772a-f169-486f-adb1-7af1a31845aa
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,7 +22,7 @@ The Application Virtualization Streaming Server provides support for the active 
 **Note**  
 Access to the applications is controlled by means of Security Groups in Active Directory Domain Services, so you will need to plan a process for setting up a security group for each virtual application and for managing which users are added to each group. The Application Virtualization system administrator configures each streaming server to use these Active Directory groups by applying ACLs to the application directories under the CONTENT share, which controls access to the packages based on Active Directory group membership.
 
- 
+
 
 The characteristics of the available streaming options are summarized in the following table.
 
@@ -89,7 +88,7 @@ The characteristics of the available streaming options are summarized in the fol
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -100,9 +99,9 @@ The characteristics of the available streaming options are summarized in the fol
 
 [Publishing Virtual Applications Using Electronic Software Distribution](publishing-virtual-applications-using-electronic-software-distribution.md)
 
- 
 
- 
+
+
 
 
 

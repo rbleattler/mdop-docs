@@ -3,8 +3,7 @@ title: Configuring Certificates to Support the App-V Web Management Service
 description: Configuring Certificates to Support the App-V Web Management Service
 author: aczechowski
 ms.assetid: b7960161-2c19-4cbf-a98a-d4b06f547dce
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -31,7 +30,7 @@ In each of the preceding scenarios, the method for obtaining a certificate is di
 **Important**  
 The name of the certificate must match the name of the server. It is a best practice to use fully qualified domain names (FQDNs) for the common name of the certificate.
 
- 
+
 
 App-V can use IIS servers to support different infrastructure configurations. For more information about configuring IIS servers to support HTTPS, see <https://go.microsoft.com/fwlink/?LinkId=151972>.
 
@@ -40,9 +39,9 @@ App-V can use IIS servers to support different infrastructure configurations. Fo
 
 [How to Install and Configure the App-V Management Console for a More Secure Environment](how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment.md)
 
- 
 
- 
+
+
 
 
 

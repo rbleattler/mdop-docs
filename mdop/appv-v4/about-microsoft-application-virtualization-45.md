@@ -3,8 +3,7 @@ title: About Microsoft Application Virtualization 4.5
 description: About Microsoft Application Virtualization 4.5
 author: aczechowski
 ms.assetid: 39f45a6f-ac55-4fd7-8a83-865e1a7034f8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -35,7 +34,7 @@ Formerly known as SoftGrid Application Virtualization, Microsoft Application Vir
 ## In This Section
 
 
-<a href="" id="microsoft-application-virtualization-management-system-release-notes"></a>[Microsoft Application Virtualization Management System Release Notes](microsoft-application-virtualization-management-system-release-notes.md)  
+<a href="" id="microsoft-application-virtualization-management-system-release-notes"></a>[Microsoft Application Virtualization Management System Release Notes](microsoft-application-virtualization-management-system-release-notes.md)
 Provides the most up-to-date information about known issues with Microsoft Application Virtualization (App-V) 4.5.
 
  

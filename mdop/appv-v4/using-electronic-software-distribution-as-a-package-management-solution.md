@@ -3,8 +3,7 @@ title: Using Electronic Software Distribution as a Package Management Solution
 description: Using Electronic Software Distribution as a Package Management Solution
 author: aczechowski
 ms.assetid: 7d96ea70-3e7e-49fa-89cc-586804a10657
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -25,10 +24,10 @@ For in-depth information about performing an ESD-based deployment, [Electronic S
 ## In This Section
 
 
-<a href="" id="publishing-virtual-applications-using-electronic-software-distribution"></a>[Publishing Virtual Applications Using Electronic Software Distribution](publishing-virtual-applications-using-electronic-software-distribution.md)  
+<a href="" id="publishing-virtual-applications-using-electronic-software-distribution"></a>[Publishing Virtual Applications Using Electronic Software Distribution](publishing-virtual-applications-using-electronic-software-distribution.md)
 Describes the available ESD-based methods for distributing your sequenced applications to clients.
 
-<a href="" id="planning-your-streaming-solution-in-an-electronic-software-distribution-implementation"></a>[Planning Your Streaming Solution in an Electronic Software Distribution Implementation](planning-your-streaming-solution-in-an-electronic-software-distribution-implementation.md)  
+<a href="" id="planning-your-streaming-solution-in-an-electronic-software-distribution-implementation"></a>[Planning Your Streaming Solution in an Electronic Software Distribution Implementation](planning-your-streaming-solution-in-an-electronic-software-distribution-implementation.md)
 Describes available options for using a streaming server to deploy your sequenced applications to clients.
 
 ## Related topics

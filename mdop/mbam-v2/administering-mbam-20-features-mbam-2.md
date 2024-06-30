@@ -3,8 +3,7 @@ title: Administering MBAM 2.0 Features
 description: Administering MBAM 2.0 Features
 author: aczechowski
 ms.assetid: 065e0704-069e-4372-9b86-0b57dd7638dd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -40,7 +39,7 @@ MBAM provides a custom control panel, called BitLocker Encryption Options, that 
 **Note**  
 This customized control panel does not replace the default Windows BitLocker control panel.
 
- 
+
 
 [How to Manage MBAM Client BitLocker Encryption Options by Using the Control Panel](how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-2.md)
 
@@ -49,9 +48,9 @@ This customized control panel does not replace the default Windows BitLocker con
 
 [Operations for MBAM 2.0](operations-for-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

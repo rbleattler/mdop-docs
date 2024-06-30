@@ -3,8 +3,7 @@ title: AGPM 2.5
 description: AGPM 2.5
 author: aczechowski
 ms.assetid: 6db42f2e-88b2-4305-ab6b-d3cd0c5d686c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

@@ -3,8 +3,7 @@ title: Application Virtualization Properties Import Search Path Tab
 description: Application Virtualization Properties Import Search Path Tab
 author: aczechowski
 ms.assetid: 7f94d472-1d0a-49d8-b307-330936071e13
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,13 +19,13 @@ Use the **Import Search Path** tab of the **Application Virtualization Propertie
 
 This tab contains the following elements.
 
-<a href="" id="path-window"></a>**Path Window**  
+<a href="" id="path-window"></a>**Path Window**
 This window displays the SFT paths.
 
-<a href="" id="add-and-remove"></a>**Add** and **Remove**  
+<a href="" id="add-and-remove"></a>**Add** and **Remove**
 Use these buttons to add or remove SFT search paths.
 
-<a href="" id="move-up-and-move-down"></a>**Move up** and **Move Down**  
+<a href="" id="move-up-and-move-down"></a>**Move up** and **Move Down**
 Use these buttons to organize the SFT search paths.
 
 ## Related topics

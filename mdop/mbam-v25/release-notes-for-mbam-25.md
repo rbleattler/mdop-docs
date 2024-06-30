@@ -2,8 +2,7 @@
 title: Release Notes for MBAM 2.5
 description: Release Notes for MBAM 2.5
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

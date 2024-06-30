@@ -3,8 +3,7 @@ title: Viewing MBAM 2.5 Reports for the Configuration Manager Integration Topolo
 description: Viewing MBAM 2.5 Reports for the Configuration Manager Integration Topology
 author: aczechowski
 ms.assetid: 60d11b2f-3a76-4023-8da4-f89e9f35b790
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -58,7 +57,7 @@ To access the Reports feature in Configuration Manager:
 </tbody>
 </table>
 
- 
+
 
 ## Description of reports in Configuration Manager
 
@@ -186,7 +185,7 @@ This report shows information about the overall BitLocker compliance across your
 </tbody>
 </table>
 
- 
+
 
 **BitLocker Enterprise Compliance Details States**
 
@@ -217,7 +216,7 @@ This report shows information about the overall BitLocker compliance across your
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-compliancesummary"></a>BitLocker Enterprise Compliance Summary
 
@@ -284,7 +283,7 @@ Use this report type to show information about the overall BitLocker compliance 
 </tbody>
 </table>
 
- 
+
 
 **BitLocker Enterprise Compliance Summary Computer Details**
 
@@ -331,7 +330,7 @@ Use this report type to show information about the overall BitLocker compliance 
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-compliancereport"></a>BitLocker Computer Compliance Report
 
@@ -340,7 +339,7 @@ Use this report type to collect information that is specific to a computer. The 
 **Note**  
 The Removable Data Volume encryption status is not shown in this report.
 
- 
+
 
 **BitLocker Computer Compliance Report: Computer Details Fields**
 
@@ -431,7 +430,7 @@ The Removable Data Volume encryption status is not shown in this report.
 </tbody>
 </table>
 
- 
+
 
 **BitLocker Computer Compliance Report: Computer Volume Fields**
 
@@ -474,14 +473,14 @@ The Removable Data Volume encryption status is not shown in this report.
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Monitoring and Reporting BitLocker Compliance with MBAM 2.5](monitoring-and-reporting-bitlocker-compliance-with-mbam-25.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

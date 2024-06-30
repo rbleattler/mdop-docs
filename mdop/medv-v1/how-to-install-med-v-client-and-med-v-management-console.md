@@ -3,8 +3,7 @@ title: How to Install MED-V Client and MED-V Management Console
 description: How to Install MED-V Client and MED-V Management Console
 author: aczechowski
 ms.assetid: 8a5f3010-3a50-487e-99d8-e352e5cb51c6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -24,12 +23,12 @@ The following MED-V components are included in the client .msi package:
 
 The MED-V management console and the MED-V client are both installed from the MED-V client .msi package. The MED-V client, however, can be installed independently without the MED-V management console by clearing the **Install the MED-V Management application** check box during installation.
 
-**Note**  
+**Note**
 The MED-V client and MED-V management console can only be installed on Windows 7-, Windows Vista-, and Windows XP-based computers. They cannot be installed on server products.
 
 
 
-**Note**  
+**Note**
 Do not install the MED-V client using the Windows **runas** command.
 
 
@@ -60,7 +59,7 @@ Do not install the MED-V client using the Windows **runas** command.
 
     -   Select the **Install the MED-V management application** check box to include the management component in the installation.
 
-        **Note**  
+        **Note**
         Enterprise Desktop Virtualization administrators should install the MED-V management application. This application is required for configuring desktop images and MED-V workspaces.
 
 

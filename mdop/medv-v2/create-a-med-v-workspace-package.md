@@ -3,8 +3,7 @@ title: Create a MED-V Workspace Package
 description: Create a MED-V Workspace Package
 author: aczechowski
 ms.assetid: 3f75fe73-41ac-4389-ae21-5efb2d437f4d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -26,7 +25,7 @@ Use the **MED-V Workspace Packager** to create MED-V workspaces. The **MED-V Wor
 
 -   A **Help Center** on the right-hand side of the window that provides information and guidance to help you create, test, and manage your MED-V workspaces.
 
-**Important**  
+**Important**
 Before you can use the **MED-V Workspace Packager**, you must first make sure that the Windows PowerShell execution policy is set to Unrestricted.
 
 `Set-ExecutionPolicy Unrestricted`
@@ -49,7 +48,7 @@ If it is necessary, change the SAN policy to "Online All" by typing the followin
 
 
 
-**Important**  
+**Important**
 If automatic disk encryption software is installed on the computer that you use to mount the virtual hard disk and build the MED-V workspace package, you must disable the software before you start. Otherwise, you cannot use the MED-V workspace on any other computer.
 
 
@@ -69,7 +68,7 @@ Before you start to build your MED-V workspace deployment package, verify that y
 
     Your URL redirection text file or list contains those URLs that you want redirected from the host computer to Internet Explorer in the MED-V workspace. When you are using the packaging wizard to create your MED-V workspace, you import, type, or copy and paste this redirection information as one of the steps in the package creation process.
 
-    **Note**  
+    **Note**
     URL redirection in MED-V only supports the protocols HTTP and HTTPS. MED-V does not provide support for FTP or any other protocols.
 
 
@@ -85,7 +84,7 @@ http://\*.contoso.com
 
 https://www.contoso.com/webapps/\*
 
-**Important**  
+**Important**
 If you import a text file that includes a URL that uses special characters (such as ~ ! @ \# and so on), make sure that you specify UTF-8 encoding when you save the text file. Special characters do not import correctly into the MED-V Workspace Packager if the text file was saved using the default ANSI encoding.
 
 
@@ -162,7 +161,7 @@ To create a MED-V workspace package, follow these steps:
 
 3.  On the **Package Information** page, enter a name for the MED-V workspace and select a folder where the MED-V workspace package files are saved.
 
-    **Warning**  
+    **Warning**
     You must name the MED-V workspace and specify a folder to continue.
 
 
@@ -173,7 +172,7 @@ After you have finished, click **Next**.
 
 4. On the **Select Windows XP Image** page, specify the location of your prepared MED-V Windows XP Virtual PC image (.vhd file).
 
-   **Warning**  
+   **Warning**
    You must specify a Windows XP VHD image to continue.
 
 
@@ -192,7 +191,7 @@ After you have finished, click **Next**.
 
    The default behavior is **Unattended setup, but notify end users before first time setup begins**.
 
-   **Caution**  
+   **Caution**
    If you created the Sysprep.inf file so that Mini-Setup requires user input to complete, you must select **Attended setup** or problems might occur during first time setup.
 
 
@@ -200,12 +199,12 @@ After you have finished, click **Next**.
 
 You can also specify how a MED-V workspace is used on computers that are shared by multiple end users. You can decide that you want to create a unique MED-V workspace for each end user or that you want the MED-V workspace made available to all end users who share the computer. The default is that the MED-V workspace is unique for each end user.
 
-**Important**  
+**Important**
 We recommend that you disable the fast user switching feature in Windows if you configure the MED-V workspace to be accessed by all users on a shared computer. Problems can occur if an end user logs on by using the fast user switching feature in Windows when another user is still logged on.
 
 
 
-**Tip**  
+**Tip**
 When you create a name mask for the MED-V workspace on the **Naming Computers** page, make sure that each virtual machine on a shared computer has a unique computer name.
 
 
@@ -221,7 +220,7 @@ After you have finished, click **Next**.
 
    -   The message that the end user sees if first time setup fails or an error occurs.
 
-   **Note**  
+   **Note**
    The **MED-V Messages** page of the wizard is hidden if you selected **Unattended setup, without any notification** on the **First Time Setup** page.
 
 
@@ -231,7 +230,7 @@ You can also specify an optional URL location for help information that is provi
 
 For example, the URL can point to an internal IT webpage with answers to questions such as "How long will this take and how will I know when it has completed?" or "What do you do if you get an error message?"
 
-**Note**  
+**Note**
 If you specify a URL, a link is shown during first time setup that points the end user to this help information. If you do not specify a URL, no link is provided.
 
 
@@ -249,13 +248,13 @@ After you have finished, click **Next**.
 
    -   The hostname and username fields are limited to the digits 0 through 9.
 
-   **Important**  
+   **Important**
    Computer names must be unique and are limited to a maximum of 15 characters. When you decide on your computer naming method, consider end users who have multiple computers or that share a computer, and avoid using computer name masks that could cause a collision on the network.
 
 
 
 
-**Caution**  
+**Caution**
 The computer name settings that you specify on this page override those specified in the Sysprep.inf answer file.
 
 
@@ -265,7 +264,7 @@ After you have finished, click **Next**.
 
 8. On the **Copy Settings from Host** page, you can select the following settings to specify how the MED-V workspace is configured:
 
-   **Caution**  
+   **Caution**
    The settings that you specify on this page that are copied from the host computer to the MED-V workspace override those specified in the Sysprep.inf answer file.
 
 
@@ -304,7 +303,7 @@ InputLocale_DefaultUser
 OrgName
 FullName</code></pre>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>
 <p>Personal settings, such as Internet browsing history, are not copied over to the MED-V workspace.</p>
 </div>
 <div>
@@ -318,7 +317,7 @@ FullName</code></pre>
 <tr class="even">
 <td align="left"><p></p></td>
 <td align="left"><div class="alert">
-<strong>Important</strong>  
+<strong>Important</strong>
 <p>The MED-V guest must be configured to join a domain that lets users log on by using the credentials that they use to log on to the MED-V host.</p>
 </div>
 <div>
@@ -397,7 +396,7 @@ After you have finished, click **Next**.
 
    You can also specify how Internet Explorer in the MED-V workspace is configured for end users. By default, the Internet zone security level is set to High. Also, certain default browsing capabilities, such as the address bar, are removed. This default configuration of Internet Explorer in the MED-V workspace provides a more secure browsing environment for end users.
 
-   **Caution**  
+   **Caution**
    By changing the default settings, you can customize Internet Explorer in the MED-V workspace. However, realize that if you change the default settings so as to make them less secure, you can expose your organization to those security risks that are present in older versions of Internet Explorer. For more information, see [Security Best Practices for MED-V Operations](security-best-practices-for-med-v-operations.md).
 
 
@@ -410,7 +409,7 @@ After you have finished, click **Next**.
 
    The **Completion** page of the **Create MED-V Workspace Package Wizard** opens to show the progress of the package creation.
 
-   **Note**  
+   **Note**
    The MED-V workspace package creation process might take several minutes to complete, depending on the size of the VHD specified.
 
 
@@ -428,7 +427,7 @@ If the MED-V workspace package is created successfully, the **Completion** page 
 
 -   **&lt;*workspace\_name*&gt;.ps1**—a Windows PowerShell script that you can use to rebuild the registry file and re-build the MED-V workspace package.
 
-    **Important**  
+    **Important**
     Before deployment, you can edit configuration settings by updating the .ps1 file that has your preferred method of script editing, such as Windows PowerShell. After you change the .ps1 file, use that file to rebuild the MED-V workspace package that you deploy to your enterprise. For more information, see [Configuring Advanced Settings by Using Windows PowerShell](configuring-advanced-settings-by-using-windows-powershell.md).
 
     However, after the MED-V workspace is deployed, you must edit configuration settings through the registry. For a list and description of the configuration settings, see [Managing MED-V Workspace Configuration Settings](managing-med-v-workspace-configuration-settings.md).

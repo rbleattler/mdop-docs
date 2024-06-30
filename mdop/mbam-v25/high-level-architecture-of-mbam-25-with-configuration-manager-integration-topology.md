@@ -3,8 +3,7 @@ title: High-Level Architecture of MBAM 2.5 with Configuration Manager Integratio
 description: High-Level Architecture of MBAM 2.5 with Configuration Manager Integration Topology
 author: aczechowski
 ms.assetid: 075bafa1-792b-4c24-9d8e-5d3153e2112c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -121,7 +120,7 @@ This feature is installed on a computer running Windows Server.
 The **monitoring web services** are used by the MBAM Client and the websites to communicate to the database.
 
 > [!IMPORTANT]
-> The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database. 
+> The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM websites communicate directly with the Recovery Database.
 
 ### Management workstation
 
@@ -131,7 +130,7 @@ The **monitoring web services** are used by the MBAM Client and the websites to 
 - Before you run MBAM, you must download the Group Policy Templates from [How to Download and Deploy MDOP Group Policy (.admx) Templates](../solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md) and copy them to a server or workstation that is running a supported Windows Server or Windows operating system.
 
     > [!NOTE]
-    > The workstation doesn't have to be a dedicated computer.     
+    > The workstation doesn't have to be a dedicated computer.
 
 ### MBAM Client and Configuration Manager Client computer
 
@@ -147,7 +146,7 @@ The **MBAM Client**:
 
 #### Configuration Manager Client
 
-The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information. 
+The **Configuration Manager Client** enables Configuration Manager to collect hardware compatibility data about the client computers and report compliance information.
 
 ## Differences in MBAM deployment for supported Configuration Manager versions
 

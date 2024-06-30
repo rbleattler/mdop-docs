@@ -3,8 +3,7 @@ title: Checklist Administer the AGPM Server and Archive
 description: 'Checklist: Administer the AGPM Server and Archive'
 author: aczechowski
 ms.assetid: 0b2eb536-c3cc-462f-a42f-27a53f57bc55
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -43,7 +42,7 @@ In Advanced Group Policy Management (AGPM), both the AGPM Service and the archiv
 </tbody>
 </table>
 
- 
+
 
 <table>
 <colgroup>
@@ -77,15 +76,15 @@ In Advanced Group Policy Management (AGPM), both the AGPM Service and the archiv
 </tbody>
 </table>
 
- 
+
 
 ### Additional references
 
 -   [Operations Guide for Microsoft Advanced Group Policy Management 3.0](operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops.md)
 
- 
 
- 
+
+
 
 
 

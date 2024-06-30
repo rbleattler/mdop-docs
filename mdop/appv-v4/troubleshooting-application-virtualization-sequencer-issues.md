@@ -3,8 +3,7 @@ title: Troubleshooting Application Virtualization Sequencer Issues
 description: Troubleshooting Application Virtualization Sequencer Issues
 author: aczechowski
 ms.assetid: 2712094b-a0bc-4643-aced-5415535f3fec
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

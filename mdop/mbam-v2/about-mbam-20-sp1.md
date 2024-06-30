@@ -3,8 +3,7 @@ title: About MBAM 2.0 SP1
 description: About MBAM 2.0 SP1
 author: aczechowski
 ms.assetid: 5ba89ed8-bb6e-407b-82c2-e2e36dd1078e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -45,7 +44,7 @@ MBAM reports for the Configuration Manager integrated topology are now available
 
 You can install MBAM on a primary site server or a central administration site server when you install MBAM with the Configuration Manager integrated topology. Previously, you were required to install MBAM on a central administration site server.
 
-**Important**  
+**Important**
 The server on which you install MBAM must be the top-tier server in your hierarchy.
 
 
@@ -167,7 +166,7 @@ MBAM displays the notice text, based on the following rules:
 
 -   If MBAM does not find a default notice.txt file, it displays the default text in the Self-Service Portal.
 
-**Note**  
+**Note**
 If an end user’s browser is set to a language that does not have a corresponding language subfolder or notice.txt, the text that is in the notice.txt file in the following root directory is displayed:
 
 &lt;*MBAM Self-Service Install Directory*&gt;\\Self Service Website\\
@@ -180,7 +179,7 @@ If an end user’s browser is set to a language that does not have a correspondi
 
     &lt;*MBAM Self-Service Install Directory*&gt;\\Self Service Website\\
 
-    **Note**  
+    **Note**
     Some language folders already exist, so you may not have to create one. If you do need to create a language folder, see [National Language Support (NLS) API Reference](https://go.microsoft.com/fwlink/?LinkId=317947) for a list of the valid names that you can use for the &lt;*language*&gt; folder.
 
 
@@ -251,11 +250,11 @@ If you are upgrading to MBAM 2.0 SP1 and you are using MBAM with Configuration M
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     # pragma namespace ("\\\\.\\root\\cimv2")
-    # pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL) 
+    # pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL)
 
     [Union, ViewSources{"select DeviceId, BitlockerPersistentVolumeId, BitLockerManagementPersistentVolumeId, BitLockerManagementVolumeType, DriveLetter, Compliant, ReasonsForNonCompliance, KeyProtectorTypes, EncryptionMethod, ConversionStatus, ProtectionStatus, IsAutoUnlockEnabled from Mbam_Volume"}, ViewSpaces{"\\\\.\\root\\microsoft\\mbam"}, dynamic, Provider("MS_VIEW_INSTANCE_PROVIDER")]
     class Win32_BitLockerEncryptionDetails

@@ -3,8 +3,7 @@ title: App-V Installation Checklist
 description: App-V Installation Checklist
 author: aczechowski
 ms.assetid: b17efaab-cd6d-4c30-beb7-c6e7c9c87657
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -68,7 +67,7 @@ The following checklist is intended to provide a high-level list of items to con
 </tbody>
 </table>
 
- 
+
 
 ¹ This is required only if you are installing the App-V Management Web Service, Management Console, or the Data Store on a different computer.
 
@@ -79,9 +78,9 @@ The following checklist is intended to provide a high-level list of items to con
 
 [App-V Postinstallation Checklist](app-v-postinstallation-checklist.md)
 
- 
 
- 
+
+
 
 
 

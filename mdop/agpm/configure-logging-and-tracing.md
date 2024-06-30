@@ -3,8 +3,7 @@ title: Configure Logging and Tracing
 description: How to Configure Logging and Tracing
 author: aczechowski
 ms.assetid: 419231f9-e9db-4f91-a7cf-a0a73db25256
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

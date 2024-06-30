@@ -2,8 +2,7 @@
 title: How To Use Dynamic Suite Composition
 description: How To Use Dynamic Suite Composition
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 06/16/2016
 ---

@@ -3,8 +3,7 @@ title: Configuring the MBAM 2.5 Server Features
 description: Configuring the MBAM 2.5 Server Features
 author: aczechowski
 ms.assetid: 894d1080-5f13-48f7-8fde-82f8d440a4ed
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -66,7 +65,7 @@ Review and complete the following steps before you start configuring the MBAM Se
 </tbody>
 </table>
 
- 
+
 
 ## Steps for configuring MBAM Server features
 
@@ -104,7 +103,7 @@ Each row in the following table describes the features that you will configure o
 </tbody>
 </table>
 
- 
+
 
 For a list of events about MBAM Server feature configuration, see [Server Event Logs](server-event-logs.md).
 
@@ -114,9 +113,9 @@ For a list of events about MBAM Server feature configuration, see [Server Event 
 
 
 Configuring the MBAM 2.5 Server Features
- 
 
- 
+
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).

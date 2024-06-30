@@ -3,8 +3,7 @@ title: Best Practices for the Application Virtualization Sequencer
 description: Best Practices for the Application Virtualization Sequencer
 author: aczechowski
 ms.assetid: 95e5e216-864f-41a1-90d4-b8d7e1eb42a0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -65,7 +64,7 @@ The following best practices should be considered when sequencing a new applicat
 >[!NOTE]
 >If you are running App-V 4.6 SP1 you do not need to sequence to a directory that follows the 8.3 naming convention.
 
-     
+
 
 -   **Sequence to a unique directory that follows the 8.3 naming convention.**
 
@@ -92,9 +91,9 @@ The following best practices should be considered when sequencing a new applicat
 
 [Planning for Application Virtualization System Deployment](planning-for-application-virtualization-system-deployment.md)
 
- 
 
- 
+
+
 
 
 

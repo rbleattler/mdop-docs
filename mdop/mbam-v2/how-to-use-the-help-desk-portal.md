@@ -3,8 +3,7 @@ title: How to Use the Help Desk Portal
 description: How to Use the Help Desk Portal
 author: aczechowski
 ms.assetid: c27f7737-10c8-4164-9de8-57987292c89c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -59,7 +58,7 @@ You can use the Administration and Monitoring website for many administrative ta
 **Note**  
 To access the various features offered by the Administration and Monitoring website, you must have the appropriate roles associated with your user account. For more information about understanding user roles, see [How to Manage MBAM Administrator Roles](how-to-manage-mbam-administrator-roles-mbam-2.md).
 
- 
+
 
 Use the following links to find information about the tasks that you can perform by using the Administration and Monitoring website:
 
@@ -73,9 +72,9 @@ Use the following links to find information about the tasks that you can perform
 
 -   [How to Determine BitLocker Encryption State of Lost Computers](how-to-determine-bitlocker-encryption-state-of-lost-computers-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

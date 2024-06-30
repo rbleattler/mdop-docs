@@ -3,8 +3,7 @@ title: Migrating to App-V 5.1 from a Previous Version
 description: Migrating to App-V 5.1 from a Previous Version
 author: aczechowski
 ms.assetid: e7ee0edc-7544-4c0a-aaca-d922a33bc1bb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -18,14 +17,14 @@ ms.date: 08/30/2016
 
 
 With Microsoft Application Virtualization (App-V) 5.1, you can migrate your existing App-V 4.6 or App-V 5.0 infrastructure to the more flexible, integrated, and easier to manage App-V 5.1 infrastructure.
-However, you cannot migrate directly from App-V 4.x to App-V 5.1, you must migrate to App-V 5.0 first. For more information on migrating from App-V 4.x to App-V 5.0, see [Migrating from a Previous Version](migrating-from-a-previous-version-app-v-50.md)  
+However, you cannot migrate directly from App-V 4.x to App-V 5.1, you must migrate to App-V 5.0 first. For more information on migrating from App-V 4.x to App-V 5.0, see [Migrating from a Previous Version](migrating-from-a-previous-version-app-v-50.md)
 
 **Note**  
 App-V 5.1 packages are exactly the same as App-V 5.0 packages. There has been no change in the package format between the versions and therefore, there is no need to convert App-V 5.0 packages to App-V 5.1 packages.
 
 For more information about the differences between App-V 4.6 and App-V 5.1, see the **Differences between App-V 4.6 and App-V 5.0 section** of [About App-V 5.0](about-app-v-50.md).
 
- 
+
 
 ## <a href="" id="bkmk-pkgconvimprove"></a>Improvements to the App-V 5.1 Package Converter
 
@@ -62,7 +61,7 @@ You can also use the `–OSDsToIncludeInPackage` parameter with the `ConvertFrom
 </tbody>
 </table>
 
- 
+
 
 ### Example conversion statement
 
@@ -87,7 +86,7 @@ To understand the new process, review the following example `ConvertFrom-AppvLeg
 **And you run this command:**
 
 ``` syntax
-ConvertFrom-AppvLegacyPackage –SourcePath \\OldPkgStore\ContosoApp\ 
+ConvertFrom-AppvLegacyPackage –SourcePath \\OldPkgStore\ContosoApp\
 -DestinationPath \\NewPkgStore\ContosoApp\
 -OSDsToIncludeInPackage X.osd,Y.osd
 ```
@@ -168,7 +167,7 @@ ConvertFrom-AppvLegacyPackage –SourcePath \\OldPkgStore\ContosoApp\
 </tbody>
 </table>
 
- 
+
 
 ## Converting packages created using a prior version of App-V
 
@@ -178,7 +177,7 @@ Use the package converter utility to upgrade virtual application packages create
 **Important**  
 After you convert an existing package you should test the package prior to deploying the package to ensure the conversion process was successful.
 
- 
+
 
 **What to know before you convert existing packages**
 
@@ -209,7 +208,7 @@ After you convert an existing package you should test the package prior to deplo
 </tbody>
 </table>
 
- 
+
 
 When converting a package check for failing files or shortcuts. Locate the item in App-V 4.6 package. It could possibly be a hard-coded path. Convert the path.
 
@@ -218,7 +217,7 @@ It is recommended that you use the App-V 5.1 sequencer for converting critical a
 
 If a converted package does not open after you convert it, it is also recommended that you re-sequence the application using the App-V 5.1 sequencer.
 
- 
+
 
 [How to Convert a Package Created in a Previous Version of App-V](how-to-convert-a-package-created-in-a-previous-version-of-app-v51.md)
 
@@ -254,12 +253,12 @@ The following table displays the recommended method for upgrading clients.
 </tbody>
 </table>
 
- 
+
 
 **Important**  
 You must be running the latest version of App-V 4.6 to use coexistence mode. Additionally, when you sequence a package, you must configure the Managing Authority setting, which is in the **User Configuration** is located in the **User Configuration** section.
 
- 
+
 
 ## Migrating the App-V 5.1 Server Full Infrastructure
 
@@ -297,7 +296,7 @@ There is no direct method to upgrade to a full App-V 5.1 infrastructure. Use the
 </tbody>
 </table>
 
- 
+
 
 ## Additional Migration tasks
 
@@ -325,9 +324,9 @@ You can also perform additional migration tasks such as reconfiguring end points
 
 [A simplified Microsoft App-V 5.1 Management Server upgrade procedure](https://go.microsoft.com/fwlink/p/?LinkId=786330)
 
- 
 
- 
+
+
 
 
 

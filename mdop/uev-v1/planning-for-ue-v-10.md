@@ -3,8 +3,7 @@ title: Planning for UE-V 1.0
 description: Planning for UE-V 1.0
 author: aczechowski
 ms.assetid: fc44aa5f-1d4f-4c03-b326-37ecd6bd913f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

@@ -3,8 +3,7 @@ title: Technical Reference for MED-V
 description: Technical Reference for MED-V
 author: aczechowski
 ms.assetid: 52aa15ae-6ca8-4494-8660-313c7b723406
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -21,28 +20,28 @@ The technical reference information we provide here includes example checklists 
 ## In This Section
 
 
-<a href="" id="command-line-options-for-med-v-installation-files"></a>[Command-Line Options for MED-V Installation Files](command-line-options-for-med-v-installation-files.md)  
+<a href="" id="command-line-options-for-med-v-installation-files"></a>[Command-Line Options for MED-V Installation Files](command-line-options-for-med-v-installation-files.md)
 Provides a list and description of the options that you can specify when you install or uninstall MED-V at the command prompt.
 
-<a href="" id="compacting-the-med-v-virtual-hard-disk"></a>[Compacting the MED-V Virtual Hard Disk](compacting-the-med-v-virtual-hard-disk.md)  
+<a href="" id="compacting-the-med-v-virtual-hard-disk"></a>[Compacting the MED-V Virtual Hard Disk](compacting-the-med-v-virtual-hard-disk.md)
 Describes the steps to follow to compact your virtual hard disk before you configure your Windows XP image for use with MED-V.
 
-<a href="" id="med-v-event-log-messages"></a>[MED-V Event Log Messages](med-v-event-log-messages.md)  
+<a href="" id="med-v-event-log-messages"></a>[MED-V Event Log Messages](med-v-event-log-messages.md)
 Describes how to use the event logs in MED-V to troubleshoot deployment and operations issues.
 
-<a href="" id="updating-med-v-2-0"></a>[Updating MED-V 2.0](updating-med-v-20.md)  
+<a href="" id="updating-med-v-2-0"></a>[Updating MED-V 2.0](updating-med-v-20.md)
 Provides information about how to upgrade your MED-V installation.
 
-<a href="" id="windows-virtual-pc-application-exclude-list"></a>[Windows Virtual PC Application Exclude List](windows-virtual-pc-application-exclude-list.md)  
+<a href="" id="windows-virtual-pc-application-exclude-list"></a>[Windows Virtual PC Application Exclude List](windows-virtual-pc-application-exclude-list.md)
 Describes how to specify certain installed applications that you do not want published to the host computer.
 
-<a href="" id="med-v-2-configuration-cmdlets"></a>[MED-V 2 Configuration Cmdlets](https://go.microsoft.com/fwlink/?LinkId=213301)  
+<a href="" id="med-v-2-configuration-cmdlets"></a>[MED-V 2 Configuration Cmdlets](https://go.microsoft.com/fwlink/?LinkId=213301)
 Provides information about cmdlets you can use to perform various MED-V configuration tasks from the command line.
 
-<a href="" id="med-v-2-workspace-cmdlets"></a>[MED-V 2 Workspace Cmdlets](https://go.microsoft.com/fwlink/?LinkId=213302)  
+<a href="" id="med-v-2-workspace-cmdlets"></a>[MED-V 2 Workspace Cmdlets](https://go.microsoft.com/fwlink/?LinkId=213302)
 Provides information about cmdlets you can use to perform various MED-V workspace configuration tasks from the command line.
 
-<a href="" id="example-med-v-checklists"></a>[Example MED-V Checklists](example-med-v-checklists.md)  
+<a href="" id="example-med-v-checklists"></a>[Example MED-V Checklists](example-med-v-checklists.md)
 Provides several checklist examples that you can reference when planning, deploying, or managing MED-V.
 
 ## Related topics

@@ -3,8 +3,7 @@ title: How to Download and Deploy MDOP Group Policy (.admx) Templates
 description: How to Download and Deploy MDOP Group Policy (.admx) Templates
 author: aczechowski
 ms.assetid: fdb64505-6c66-4fdf-ad74-a6a161191e3f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: deploy
@@ -22,7 +21,7 @@ You can manage the feature settings of certain Microsoft Desktop Optimization Pa
 
 **How to download and deploy the MDOP Group Policy templates**
 
-1. Download the latest [MDOP Group Policy templates](https://www.microsoft.com/download/details.aspx?id=55531) 
+1. Download the latest [MDOP Group Policy templates](https://www.microsoft.com/download/details.aspx?id=55531)
 
 2. Expand the downloaded .cab file by running `expand <download_folder>\MDOP_ADMX_Templates.cab -F:* <destination_folder>`
 
@@ -56,7 +55,7 @@ You can manage the feature settings of certain Microsoft Desktop Optimization Pa
 For more information about supported MDOP Group Policy, see the specific documentation for the technology.
 
 | MDOP Technology | Version bundles | Notes |
-| ----------------------------------------    | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
+| --------------- | --------------- | ----- |
 | **Application Virtualization (App-V)** | App-V 5.0 and App-V 5.0 Service Packs | [How to Modify App-V 5.0 Client Configuration Using the ADMX Template and Group Policy](../appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy.md) |
 | **User Experience Virtualization (UE-V)** | UE-V 2.0 and UE-V 2.1 | [Configuring UE-V 2.x with Group Policy Objects](../uev-v2/configuring-ue-v-2x-with-group-policy-objects-both-uevv2.md) |
 | &nbsp; | UE-V 1.0 including 1.0 SP1 | [Configuring UE-V with Group Policy Objects](../uev-v1/configuring-ue-v-with-group-policy-objects.md) |

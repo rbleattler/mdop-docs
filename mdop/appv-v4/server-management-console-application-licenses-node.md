@@ -3,8 +3,7 @@ title: Server Management Console Application Licenses Node
 description: Server Management Console Application Licenses Node
 author: aczechowski
 ms.assetid: ad3fa486-2b3c-4efd-91f5-507e9c5057d5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="applications-licenses-node"></a>[Applications Licenses Node](applications-licenses-node.md)  
+<a href="" id="applications-licenses-node"></a>[Applications Licenses Node](applications-licenses-node.md)
 Describes the features and commands available from the **Application Licenses** node.
 
-<a href="" id="applications-licenses-results-pane"></a>[Applications Licenses Results Pane](applications-licenses-results-pane.md)  
+<a href="" id="applications-licenses-results-pane"></a>[Applications Licenses Results Pane](applications-licenses-results-pane.md)
 Describes the features and commands available in the **Application Licenses** node **Results** pane.
 
-<a href="" id="applications-licenses-results-pane-columns"></a>[Applications Licenses Results Pane Columns](applications-licenses-results-pane-columns.md)  
+<a href="" id="applications-licenses-results-pane-columns"></a>[Applications Licenses Results Pane Columns](applications-licenses-results-pane-columns.md)
 Describes the columns available in the **Application Licenses** node **Results** pane.
 
 ## Related topics

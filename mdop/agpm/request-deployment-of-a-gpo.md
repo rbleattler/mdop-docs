@@ -3,8 +3,7 @@ title: Request Deployment of a GPO
 description: Request Deployment of a GPO
 author: aczechowski
 ms.assetid: 9aa9af29-4754-4f72-b624-bb3e1087cbe1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

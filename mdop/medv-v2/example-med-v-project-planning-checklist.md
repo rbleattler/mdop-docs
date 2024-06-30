@@ -3,8 +3,7 @@ title: Example MED-V Project Planning Checklist
 description: Example MED-V Project Planning Checklist
 author: aczechowski
 ms.assetid: 2b599bcb-1808-43ba-a689-1642bda24511
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -49,11 +48,11 @@ The following checklist provides a high-level list of items to consider and outl
 </tbody>
 </table>
 
- 
 
- 
 
- 
+
+
+
 
 
 

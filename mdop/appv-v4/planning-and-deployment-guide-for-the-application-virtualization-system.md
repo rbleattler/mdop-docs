@@ -3,8 +3,7 @@ title: Planning and Deployment Guide for the Application Virtualization System
 description: Planning and Deployment Guide for the Application Virtualization System
 author: aczechowski
 ms.assetid: 6c012e33-9ac6-4cd8-84ff-54f40973833f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -27,22 +26,22 @@ The Application Virtualization Planning and Deployment Guide provides informatio
 ## In This Section
 
 
-<a href="" id="planning-for-application-virtualization-system-deployment"></a>[Planning for Application Virtualization System Deployment](planning-for-application-virtualization-system-deployment.md)  
+<a href="" id="planning-for-application-virtualization-system-deployment"></a>[Planning for Application Virtualization System Deployment](planning-for-application-virtualization-system-deployment.md)
 Provides the guidance necessary to plan the implementation and deployment of your Application Virtualization system.
 
-<a href="" id="application-virtualization-deployment-and-upgrade-considerations"></a>[Application Virtualization Deployment and Upgrade Considerations](application-virtualization-deployment-and-upgrade-considerations.md)  
+<a href="" id="application-virtualization-deployment-and-upgrade-considerations"></a>[Application Virtualization Deployment and Upgrade Considerations](application-virtualization-deployment-and-upgrade-considerations.md)
 Provides information about hardware and software requirements for installing the various Application Virtualization components, as well as upgrade information.
 
-<a href="" id="electronic-software-distribution-based-scenario"></a>[Electronic Software Distribution-Based Scenario](electronic-software-distribution-based-scenario.md)  
+<a href="" id="electronic-software-distribution-based-scenario"></a>[Electronic Software Distribution-Based Scenario](electronic-software-distribution-based-scenario.md)
 Provides information about deploying Application Virtualization using an electronic software distribution (ESD) system.
 
-<a href="" id="application-virtualization-server-based-scenario"></a>[Application Virtualization Server-Based Scenario](application-virtualization-server-based-scenario.md)  
+<a href="" id="application-virtualization-server-based-scenario"></a>[Application Virtualization Server-Based Scenario](application-virtualization-server-based-scenario.md)
 Provides information about deploying Application Virtualization using the Application Virtualization Management Server.
 
-<a href="" id="stand-alone-delivery-scenario-for-application-virtualization-clients"></a>[Stand-Alone Delivery Scenario for Application Virtualization Clients](stand-alone-delivery-scenario-for-application-virtualization-clients.md)  
+<a href="" id="stand-alone-delivery-scenario-for-application-virtualization-clients"></a>[Stand-Alone Delivery Scenario for Application Virtualization Clients](stand-alone-delivery-scenario-for-application-virtualization-clients.md)
 Describes how to deploy Application Virtualization in a stand-alone mode, without the use of ESD or server-based resources.
 
-<a href="" id="application-virtualization-reference"></a>[Application Virtualization Reference](application-virtualization-reference.md)  
+<a href="" id="application-virtualization-reference"></a>[Application Virtualization Reference](application-virtualization-reference.md)
 Contains detailed technical reference material related to installing and managing system components.
 
  

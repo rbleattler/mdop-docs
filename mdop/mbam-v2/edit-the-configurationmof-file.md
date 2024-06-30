@@ -3,8 +3,7 @@ title: Edit the Configuration.mof File
 description: Edit the Configuration.mof File
 author: aczechowski
 ms.assetid: 23e50ec9-4083-4b12-ad96-626cf30960bb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -25,7 +24,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
 
 -   For an upgrade to MBAM 2.0 SP1, see **Update the configuration.mof file if you upgrade to MBAM 2.0 SP1 and you are using MBAM with Configuration Manager 2007**.
 
- 
+
 
 **To create the configuration.mof file if you are using MBAM 2.0 SP1 with Configuration Manager**
 
@@ -43,7 +42,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
     #pragma namespace ("\\\\.\\root\\cimv2")
     #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL)
@@ -85,7 +84,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
@@ -110,7 +109,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     Instance of Win32Reg_MBAMPolicy
     {
     KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -118,7 +117,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;
@@ -181,11 +180,11 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2")
-    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL) 
+    #pragma deleteclass("Win32_BitLockerEncryptionDetails", NOFAIL)
     [Union, ViewSources{"select DeviceId, BitlockerPersistentVolumeId, BitLockerManagementPersistentVolumeId, BitLockerManagementVolumeType, DriveLetter, Compliant, ReasonsForNonCompliance, KeyProtectorTypes, EncryptionMethod, ConversionStatus, ProtectionStatus, IsAutoUnlockEnabled from Mbam_Volume"}, ViewSpaces{"\\\\.\\root\\microsoft\\mbam"}, dynamic, Provider("MS_VIEW_INSTANCE_PROVIDER")]
     class Win32_BitLockerEncryptionDetails
     {
@@ -224,12 +223,12 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
         UInt32    EncryptionMethod;
-        
+
         //Required protectors properties
         UInt32    OsDriveProtector;
         UInt32    FixedDataDriveAutoUnlock;
@@ -249,7 +248,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     Instance of Win32Reg_MBAMPolicy
     {
         KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -257,7 +256,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;
@@ -286,12 +285,12 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     {
         [key]
         string KeyName;
-        
+
         //General encryption requirements
         UInt32    OsDriveEncryption;
         UInt32    FixedDataDriveEncryption;
         UInt32    EncryptionMethod;
-        
+
         //Required protectors properties
         UInt32    OsDriveProtector;
         UInt32    FixedDataDriveAutoUnlock;
@@ -311,7 +310,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
     Instance of Win32Reg_MBAMPolicy_64
     {
         KeyName="BitLocker policy";
-        
+
         //General encryption requirements
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE\\MDOPBitLockerManagement|ShouldEncryptOsDrive"),Dynamic,Provider("RegPropProv")]
         OsDriveEncryption;
@@ -319,7 +318,7 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
         FixedDataDriveEncryption;
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\FVE|EncryptionMethod"),Dynamic,Provider("RegPropProv")]
         EncryptionMethod;
-        
+
         //Required protectors properties
         [PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MBAM|OSVolumeProtectorPolicy"),Dynamic,Provider("RegPropProv")]
         OsDriveProtector;
@@ -378,9 +377,9 @@ If you are installing Microsoft BitLocker Administration and Monitoring (MBAM) 2
 
 [Deploying MBAM with Configuration Manager](deploying-mbam-with-configuration-manager-mbam2.md)
 
- 
 
- 
+
+
 
 
 

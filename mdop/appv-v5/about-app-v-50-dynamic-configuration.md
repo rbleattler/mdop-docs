@@ -2,8 +2,7 @@
 title: About App-V 5.0 Dynamic Configuration
 description: About App-V 5.0 Dynamic Configuration
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
@@ -529,7 +528,7 @@ Indicates whether the URL for the package can be modified globally through Packa
 
 ```xml
     <MachineConfiguration>
-      .. 
+      ..
       <ProductSourceURLOptOut Enabled="true" />
       ..
     </MachineConfiguration>
@@ -545,7 +544,7 @@ An application executable can be specified, whose child processes are terminated
 
 ```xml
     <MachineConfiguration>
-      ..   
+      ..
       <TerminateChildProcesses>
         <Application Path="\[{PackageRoot}\]\\Contoso\\ContosoApp.EXE" />
         <Application Path="\[{PackageRoot}\]\\LitView\\LitViewBrowser.exe" />

@@ -2,8 +2,7 @@
 title: App-V 4.6 SP2 Release Notes
 description: App-V 4.6 SP2 Release Notes
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

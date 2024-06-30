@@ -3,8 +3,7 @@ title: DaRT 10 Deployment Checklist
 description: DaRT 10 Deployment Checklist
 author: aczechowski
 ms.assetid: a6b7ba27-a969-4da9-bef0-d019739413cc
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

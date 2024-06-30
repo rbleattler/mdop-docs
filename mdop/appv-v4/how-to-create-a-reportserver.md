@@ -3,8 +3,7 @@ title: How to Create a Report
 description: How to Create a Report
 author: aczechowski
 ms.assetid: 70938167-d3b9-45ce-b459-a953c93769b0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ The process for creating a report from the Application Virtualization Server Man
 **Note**  
   When you create a report, you specify the parameters that are used for collecting the data when the report is run. Until you run a report, no data is collected.
 
- 
+
 
 **To create a report**
 
@@ -50,9 +49,9 @@ The process for creating a report from the Application Virtualization Server Man
 
 [How to Run a Report](how-to-run-a-reportserver.md)
 
- 
 
- 
+
+
 
 
 

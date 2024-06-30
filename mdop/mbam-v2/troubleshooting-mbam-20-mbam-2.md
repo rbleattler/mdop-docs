@@ -3,8 +3,7 @@ title: Troubleshooting MBAM 2.0
 description: Troubleshooting MBAM 2.0
 author: aczechowski
 ms.assetid: 43933ec7-b5b8-49c5-813f-4c06aa7314ed
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

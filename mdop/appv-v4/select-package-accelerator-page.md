@@ -3,8 +3,7 @@ title: Select Package Accelerator Page
 description: Select Package Accelerator Page
 author: aczechowski
 ms.assetid: 865c2702-4dfd-41ae-8cfc-3514d5f41f76
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -32,7 +31,7 @@ If any of these messages are displayed when using a Package Accelerators, visit 
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the Package Accelerator that you will use to create the virtual application package. Save the Package Accelerator you specified locally on the computer that is running the Sequencer.
 
 ## Related topics

@@ -3,8 +3,7 @@ title: How to Configure a Domain User or Group
 description: How to Configure a Domain User or Group
 author: aczechowski
 ms.assetid: 055aba81-a9c9-4b98-969d-775e603becf3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -39,13 +38,13 @@ To allow users to utilize the MED-V workspace, you must first add domain users o
 
     The domain users or groups are added.
 
-    **Note**  
+    **Note**
     Users from trusted domains should be added manually.
 
 
 
 
-**Warning**  
+**Warning**
 Do not run the management application from a computer that is part of a domain that is not trusted by the domain the server is installed on.
 
 
@@ -113,12 +112,12 @@ Select this check box to enable transferring files between the host and MED-V wo
 
 -   **Workspace to Host**—Enable transferring files from the MED-V workspace to the host.
 
-**Note**  
+**Note**
 If a user without permissions attempts to transfer files, a window will appear prompting him to enter the credentials of a user with permissions to perform the file transfer.
 
 
 
-**Important**  
+**Important**
 To support file transfer in Windows XP SP3, you must disable offline file synchronization by editing the registry as follows:
 
 `REG ADD HKLM\software\microsoft\windows\currentversion\netcache /V Enabled /T REG_DWORD /F /D 0`
@@ -135,7 +134,7 @@ Enable printing to printers connected to the host
 
 Select this check box to enable users to print from the MED-V workspace using the host printer.
 
-**Note**  
+**Note**
 The printing is performed by the printers defined on the host.
 
 

@@ -3,8 +3,7 @@ title: How to Cancel Loading of Virtual Applications from the Desktop Notificati
 description: How to Cancel Loading of Virtual Applications from the Desktop Notification Area
 author: aczechowski
 ms.assetid: 4420a091-a344-48e9-a354-93bc0e2470eb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

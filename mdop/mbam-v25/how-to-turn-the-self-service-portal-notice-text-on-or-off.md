@@ -3,8 +3,7 @@ title: How to Turn the Self-Service Portal Notice Text On or Off
 description: How to Turn the Self-Service Portal Notice Text On or Off
 author: aczechowski
 ms.assetid: e786685b-ffdb-4557-ae71-e79528097264
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ You can turn the Self-Service Portal notice text on or off. By default, the noti
 **Note**  
 In the following instructions, *SelfService* is the default virtual directory name for the Self-Service Portal. You might have used a different name when you configured the Self-Service Portal.
 
- 
+
 
 **To turn off the notice text**
 
@@ -37,9 +36,9 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 [Customizing the Self-Service Portal for Your Organization](customizing-the-self-service-portal-for-your-organization.md)
 
- 
 
- 
+
+
 
 ## Got a suggestion for MBAM?
 

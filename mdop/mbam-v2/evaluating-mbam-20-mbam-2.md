@@ -3,8 +3,7 @@ title: Evaluating MBAM 2.0
 description: Evaluating MBAM 2.0
 author: aczechowski
 ms.assetid: bfc77eec-0fd7-4fec-9c78-6870afa87152
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -82,7 +81,7 @@ Even though you are setting up a non-production instance of MBAM to evaluate in 
 </tbody>
 </table>
 
- 
+
 
 ### Perform an MBAM Evaluation Deployment
 
@@ -129,7 +128,7 @@ After completing the necessary planning and software prerequisite installations 
 </tbody>
 </table>
 
- 
+
 
 ## Configure Lab Computers for MBAM Evaluation
 
@@ -139,7 +138,7 @@ This section contains information that can be used to speed up the MBAM Client s
 **Note**  
 The information in following section describes how to modify the Windows registry. Using Registry Editor incorrectly can cause serious problems that may require you to reinstall Windows. Microsoft cannot guarantee that problems resulting from the incorrect use of Registry Editor can be solved. Use Registry Editor at your own risk.
 
- 
+
 
 ### Modify MBAM Client Status Reporting Frequency Settings
 
@@ -156,7 +155,7 @@ To modify the MBAM Client status reporting frequency settings:
 **Note**  
 To set values that are this low, you must set them in the registry manually.
 
- 
+
 
 ### Modify MBAM Client Service Startup Delay
 
@@ -167,9 +166,9 @@ In addition to the MBAM Client wakeup and status reporting frequencies, there is
 
 [Getting Started with MBAM 2.0](getting-started-with-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

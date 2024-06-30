@@ -3,8 +3,7 @@ title: Configuring E-Mail Notification
 description: Configuring E-Mail Notification
 author: aczechowski
 ms.assetid: 06f19556-f296-4a80-86a4-4f446c992204
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

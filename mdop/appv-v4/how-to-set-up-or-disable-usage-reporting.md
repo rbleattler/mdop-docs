@@ -3,8 +3,7 @@ title: How to Set Up or Disable Usage Reporting
 description: How to Set Up or Disable Usage Reporting
 author: aczechowski
 ms.assetid: 8587003a-128d-4b5d-ac70-5b9eddddd3dc
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ You can use the following procedures in the Application Virtualization Server Ma
 **Note**  
  To store usage information, you must select the **Log Usage Information** check box on the **Provider Pipeline** tab. To display this tab, right-click the provider policy in the **Provider Policies Results** pane and select **Properties**.
 
- 
+
 
 **To set up usage reporting**
 
@@ -54,9 +53,9 @@ You can use the following procedures in the Application Virtualization Server Ma
 
 [How to Set Up or Disable Database Size](how-to-set-up-or-disable-database-size.md)
 
- 
 
- 
+
+
 
 
 

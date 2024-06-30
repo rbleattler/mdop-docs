@@ -3,8 +3,7 @@ title: How to Configure a Deployment Package
 description: How to Configure a Deployment Package
 author: aczechowski
 ms.assetid: 748272a1-6af2-476e-a3f1-87435b8e94b1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 The Packaging wizard walks you through the creation of a package by creating a folder on your local computer and transferring all the required installation files to the single folder. The contents of the folder can then be moved to multiple removable media drives for distribution.
 
-**Note**  
+**Note**
 A single package cannot contain installation files for both x86 and x64 systems.
 
 
@@ -38,7 +37,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
    The **Image** field is enabled.
 
-   **Note**  
+   **Note**
    An image is not required in a MED-V package; the package can be created without an image. In such a case, the image should be uploaded to the server so that it can later be downloaded over the network to the client, or pushed to an image pre-stage folder.
 
 
@@ -53,7 +52,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
    -   Click **...** to browse to the directory where the installation file is located.
 
-   **Note**  
+   **Note**
    This field is mandatory, and the wizard will not continue without a valid file name.
 
 
@@ -72,17 +71,17 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
         1.  On the **MED-V Installation Custom Settings** page, in the **Installation folder** field, type the path of the folder where the MED-V files will be installed on the host computer.
 
-            **Note**  
+            **Note**
             It is recommended to use variables in the path rather than constants, which might vary from computer to computer.
 
             For example, use *%ProgramFiles%\\MED-V* instead of *c:\\MED-V*.
 
 
 
-    
+
     2.  In the **Virtual machines images folder** field, type the path of the folder where the virtual images files will be installed on the host computer.
 
-        **Note**  
+        **Note**
         If you are using image pre-staging, this is the image pre-stage folder where the image is located.
 
 
@@ -96,7 +95,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
     6.  Select the **Start automatically on computer startup** check box to start MED-V automatically on startup.
 
     7.  Click **Next**.
-    
+
 
 12. On the **Additional Installations** page, select the **Include installation of virtualization software** check box to include the Virtual PC installation in the package.
 
@@ -118,7 +117,7 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
     -   Click **...** to browse to the directory where the installation files should be saved.
 
-    **Note**  
+    **Note**
     Building the package might consume more space than the actual package size. It is therefore recommended to build the package on the hard drive. After the package is created, it can then be copied to the USB.
 
 
@@ -131,17 +130,17 @@ A single package cannot contain installation files for both x86 and x64 systems.
 
     After the package is created, a message appears notifying you that it has been completed successfully.
 
-**Note**  
+**Note**
 If you saved all the files locally, and not directly on the removable media, ensure that you copy only the contents of the folder and not the folder itself to the removable media.
 
 
 
-**Note**  
+**Note**
 The removable media must be large enough so that the package contents consume a maximum of only three-quarters of the removable media's memory.
 
 
 
-**Note**  
+**Note**
 When creating the package, up to double the size of the actual package size might be required when the build is complete.
 
 

@@ -3,8 +3,7 @@ title: Prerequisites for the Configuration Manager Integration Feature
 description: Prerequisites for the Configuration Manager Integration Feature
 author: aczechowski
 ms.assetid: b318cbd3-b009-44b8-991b-f7364c1cae88
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -19,7 +18,7 @@ ms.date: 08/30/2016
 
 If you deploy MBAM with the System Center Configuration Manager Integration topology, we recommend a three-server architecture, as described in [High-Level Architecture of MBAM 2.5 with Configuration Manager Integration Topology](high-level-architecture-of-mbam-25-with-configuration-manager-integration-topology.md). This architecture can support 500,000 client computers.
 
-**Important**  
+**Important**
 Windows To Go is not supported for the Configuration Manager Integration topology installation when you are using Configuration Manager 2007.
 
 
@@ -191,7 +190,7 @@ To enable the client computers to report BitLocker compliance details through th
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

@@ -2,9 +2,8 @@
 title: Upgrading to MBAM 2.5 SP1 from MBAM 2.5
 description: Upgrading to MBAM 2.5 SP1 from MBAM 2.5
 author: aczechowski
-ms.assetid: 
-ms.reviewer: 
-manager: dansimp
+ms.assetid:
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -31,13 +30,13 @@ Verify you have a current documentation of your MBAM environment, including all 
 #### Steps to upgrade the MBAM Database (SQL Server)
 1. Using the MBAM Configurator; remove the Reports role from the SQL server, or wherever the SSRS database is hosted. Depending on your environment, this can be the same server or a separate one.
   > [!NOTE]
-  > You will not see an option to remove the Databases; this is expected.  
+  > You will not see an option to remove the Databases; this is expected.
 2. Install 2.5 SP1 (Located with MDOP - Microsoft Desktop Optimization Pack 2015 from the Volume Licensing Service Center site:  <https://www.microsoft.com/Licensing/servicecenter/default.aspx>
 3. Do not configure it at this time 
 4. Using the MBAM Configurator; re-add the Reports role
 5. Using the MBAM Configurator; re-add the SQL Database role on the SQL Server
 6. At the end, you will be warned that the DBs already exist and  weren’t created, but this is expected
-7. This process updates the existing databases to the current version being installed.              
+7. This process updates the existing databases to the current version being installed.
 
 #### Steps to upgrade the MBAM Server (Running MBAM and IIS)
 1. Using the MBAM Configurator; remove the Admin and Self Service Portals from  the IIS server
@@ -45,7 +44,7 @@ Verify you have a current documentation of your MBAM environment, including all 
 3. Do not configure it at this time  
 4. Using the MBAM Configurator; re-add the Admin and Self Service Portals to the IIS server 
 5. Open an elevated command prompt, type **IISRESET**, and hit Enter.
- 
+
 #### Steps to upgrade the MBAM Clients/Endpoints
 1. Uninstall the 2.5 Agent from client endpoints
 2. Install the 2.5 SP1 Agent on the client endpoints

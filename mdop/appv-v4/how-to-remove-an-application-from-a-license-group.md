@@ -3,8 +3,7 @@ title: How to Remove an Application from a License Group
 description: How to Remove an Application from a License Group
 author: aczechowski
 ms.assetid: 973dfb11-b4d1-4b79-8f6a-aaea3e52b04f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -31,16 +30,16 @@ You can use the following procedure to remove an application from its assigned l
     **Note**  
       You can alter the **Properties** tab of one application at a time.
 
-     
+
 
 ## Related topics
 
 
 [How to Associate an Application with a License Group](how-to-associate-an-application-with-a-license-group.md)
 
- 
 
- 
+
+
 
 
 

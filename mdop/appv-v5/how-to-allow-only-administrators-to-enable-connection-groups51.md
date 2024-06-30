@@ -3,8 +3,7 @@ title: Only Allow Administrators to Enable Connection Groups
 description: How to Allow Only Administrators to Enable Connection Groups
 author: aczechowski
 ms.assetid: 42ca3157-5d85-467b-a148-09404f8f737a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ You can configure the App-V client so that only administrators (not end users) c
 **Note**  
 **This feature is supported starting in App-V 5.0 SP3.**
 
- 
+
 
 Use one of the following methods to allow only administrators to enable or disable connection groups.
 
@@ -56,7 +55,7 @@ Use one of the following methods to allow only administrators to enable or disab
 </tbody>
 </table>
 
- 
+
 
 **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
@@ -65,9 +64,9 @@ Use one of the following methods to allow only administrators to enable or disab
 
 [Managing Connection Groups](managing-connection-groups51.md)
 
- 
 
- 
+
+
 
 
 

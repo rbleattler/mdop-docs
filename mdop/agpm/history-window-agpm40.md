@@ -3,8 +3,7 @@ title: History Window Group Policy Object
 description: History Window
 author: aczechowski
 ms.assetid: 5bea62e7-d267-40b2-a66d-fb1be7373a1c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

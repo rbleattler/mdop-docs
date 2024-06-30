@@ -3,8 +3,7 @@ title: Application Virtualization Client Installer Command-Line Parameters
 description: Application Virtualization Client Installer Command-Line Parameters
 author: aczechowski
 ms.assetid: 508fa404-52a5-4919-8788-2a3dfb00639b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 08/30/2016
 
 The following table lists all available Microsoft Application Virtualization Client installer command-line parameters, their values, and a brief description of each parameter. Parameters are case-sensitive and must be entered as all-uppercase letters. All parameter values must be enclosed in double quotes.
 
-**Note**  
+**Note**
 -   For App-V version 4.6, command-line parameters cannot be used during a client upgrade.
 
 -   The *SWICACHESIZE* and *MINFREESPACEMB* parameters cannot be combined on the command line. If both are used, the *SWICACHESIZE* parameter will be ignored.

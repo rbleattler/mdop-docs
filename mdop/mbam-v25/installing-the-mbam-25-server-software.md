@@ -3,8 +3,7 @@ title: Installing the MBAM 2.5 Server Software
 description: Installing the MBAM 2.5 Server Software
 author: aczechowski
 ms.assetid: b9dbe697-5400-4bac-acfb-ee6dc6586c30
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -47,7 +46,7 @@ This topic describes how to install the Microsoft BitLocker Administration and M
 </tbody>
 </table>
 
- 
+
 
 ## Installing the MBAM 2.5 Server software by using the Microsoft BitLocker Administration and Monitoring Setup wizard
 
@@ -127,7 +126,7 @@ The following table describes the command-line parameters for installing the MBA
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -138,7 +137,7 @@ The following table describes the command-line parameters for installing the MBA
 
 [Configuring the MBAM 2.5 Server Features](configuring-the-mbam-25-server-features.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

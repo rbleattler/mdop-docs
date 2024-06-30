@@ -3,8 +3,7 @@ title: Using Windows PowerShell to Administer MBAM 2.5
 description: Using Windows PowerShell to Administer MBAM 2.5
 author: aczechowski
 ms.assetid: 64668e76-2cba-433d-8d2d-50df0a4b2997
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -49,7 +48,7 @@ Use the following Windows PowerShell cmdlets to recover computers or drives that
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="---------mbam-cmdlet-help"></a> MBAM cmdlet Help
 
@@ -87,7 +86,7 @@ Windows PowerShell Help for MBAM cmdlets is available in the following formats:
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -98,7 +97,7 @@ Windows PowerShell Help for MBAM cmdlets is available in the following formats:
 
 [Configuring MBAM 2.5 Server Features by Using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 
