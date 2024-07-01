@@ -1,6 +1,6 @@
 ---
 title: How to Configure Access to Packages by Using the Management Console
-description: How to Configure Access to Packages by Using the Management Console
+description: How to configure access to packages by using the Management Console in App-V 5.1.
 author: aczechowski
 ms.assetid: 4fd39bc2-d814-46de-a108-1c21fa404e8a
 ms.reviewer:

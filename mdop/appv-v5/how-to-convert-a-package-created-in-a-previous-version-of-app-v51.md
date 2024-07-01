@@ -1,6 +1,6 @@
 ---
 title: Convert a Package Created in a Previous Version of App-V
-description: How to Convert a Package Created in a Previous Version of App-V
+description: How to use App-V 5.1 to convert a package created in a previous version of App-V.
 author: aczechowski
 ms.assetid: 3366d399-2891-491d-8de1-f8cfdf39bbab
 ms.reviewer:
