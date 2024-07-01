@@ -34,10 +34,8 @@ Use the following procedure to configure access to virtualized packages.
 
     2.  Using the format **mydomain** \\ **groupname**, type the name or part of the name of an Active Directory group object, and click **Check**.
 
-        **Note**  
-        Ensure that you provide an associated domain name for the group that you are searching for.
-
-
+        > [!NOTE]
+        > Ensure that you provide an associated domain name for the group that you are searching for.
 
 3.  To grant access to the package, select the desired group and click **Grant Access**. The newly added group is displayed in the **AD ENTITIES WITH ACCESS** pane.
 
@@ -60,7 +58,6 @@ Use the following procedure to configure access to virtualized packages.
     **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
-
 
 [Operations for App-V 5.1](operations-for-app-v-51.md)
 
