@@ -41,9 +41,7 @@ Use the following procedure to configure access to virtualized packages.
 
 3.  To grant access to the package, select the desired group and click **Grant Access**. The newly added group is displayed in the **AD ENTITIES WITH ACCESS** pane.
 
-4.
-
-    To accept the default configuration settings and close the **AD ACCESS** page, click **Close**.
+4.  To accept the default configuration settings and close the **AD ACCESS** page, click **Close**.
 
     To customize configurations for a specific group, click the **ASSIGNED CONFIGURATIONS** drop-down and select **Custom**. To configure the custom configurations, click **EDIT**. After you grant access, click **Close**.
 

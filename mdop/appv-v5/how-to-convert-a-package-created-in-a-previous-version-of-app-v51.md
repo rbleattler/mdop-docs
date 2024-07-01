@@ -44,9 +44,7 @@ Prior to App-V 5.1, the 4.6 root folder was not recognized and could not be acce
 
 1.  Install the App-V Sequencer on a computer in your environment. For information about how to install the Sequencer, see [How to Install the Sequencer](how-to-install-the-sequencer-51beta-gb18030.md).
 
-2.
-
-    The following cmdlets are available:
+2.  The following cmdlets are available:
 
     -   Test-AppvLegacyPackage – This cmdlet is designed to check packages. It will return information about any failures with the package such as missing **.sft** files, an invalid source, **.osd** file errors, or invalid package version. This cmdlet will not parse the **.sft** file or do any in depth validation. For information about options and basic functionality for this cmdlet, using the PowerShell cmdline, type `Test-AppvLegacyPackage -?`.
 
