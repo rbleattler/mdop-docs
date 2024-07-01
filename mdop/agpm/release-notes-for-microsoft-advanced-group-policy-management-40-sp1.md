@@ -2,8 +2,7 @@
 title: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP1
 description: Release Notes for Microsoft Advanced Group Policy Management 4.0 SP1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

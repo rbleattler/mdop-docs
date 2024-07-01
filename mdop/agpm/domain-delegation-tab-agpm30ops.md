@@ -3,8 +3,7 @@ title: Domain Delegation Tab Overview
 description: Domain Delegation Tab
 author: aczechowski
 ms.assetid: 523cdf39-f4b8-4d20-a917-3485756658ce
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

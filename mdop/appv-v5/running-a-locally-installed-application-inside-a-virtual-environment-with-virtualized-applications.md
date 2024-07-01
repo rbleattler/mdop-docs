@@ -3,8 +3,7 @@ title: Running a Locally Installed Application Inside a Virtual Environment with
 description: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
 author: aczechowski
 ms.assetid: a8affa46-f1f7-416c-8125-9595cfbfdbc7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -67,7 +66,7 @@ There is no Group Policy setting available to manage this registry key, so you h
 </tbody>
 </table>
 
- 
+
 
 ### Steps to create the subkey
 
@@ -112,7 +111,7 @@ There is no Group Policy setting available to manage this registry key, so you h
     </tbody>
     </table>
 
-     
+
 
 2.  Set the new registry subkey’s value to the PackageId and VersionId of the package, separating the values with an underscore.
 
@@ -123,10 +122,10 @@ There is no Group Policy setting available to manage this registry key, so you h
     The application in the previous example would produce a registry export file (.reg file) like the following:
 
     ``` syntax
-    Windows Registry Editor Version 5.00 
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppV\Client\RunVirtual] 
-    @="" 
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppV\Client\RunVirtual\MyApp.exe] 
+    Windows Registry Editor Version 5.00
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppV\Client\RunVirtual]
+    @=""
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppV\Client\RunVirtual\MyApp.exe]
     @="aaaaaaaa-bbbb-cccc-dddd-eeeeeeee_11111111-2222-3333-4444-555555555
     ```
 
@@ -185,9 +184,9 @@ This method lets you launch any command within the context of an App-V package, 
 
 [Technical Reference for App-V 5.0](technical-reference-for-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

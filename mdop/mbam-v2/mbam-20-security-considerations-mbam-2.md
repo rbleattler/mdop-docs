@@ -3,8 +3,7 @@ title: MBAM 2.0 Security Considerations
 description: MBAM 2.0 Security Considerations
 author: aczechowski
 ms.assetid: 0aa5c6e2-d92c-4e30-9f6a-b48abb667ae5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -81,7 +80,7 @@ No Active Directory groups are created automatically during the MBAM setup proce
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="-------------mbam-server-local-groups"></a> MBAM Server Local Groups
 
@@ -126,7 +125,7 @@ MBAM Setup creates local groups to support MBAM operations. You should add the A
 </tbody>
 </table>
 
- 
+
 
 ### SSRS Reports Service Account
 
@@ -137,7 +136,7 @@ When you configure the SSRS Reports service account, specify a domain user accou
 **Note**  
 If you change the name of the service account after you deploy MBAM, you must reconfigure the reporting data source to use the new service account credentials. Otherwise, you will not be able to access the Help Desk Portal.
 
- 
+
 
 ## <a href="" id="---------mbam-log-files"></a> MBAM Log Files
 
@@ -146,35 +145,35 @@ The following MBAM Setup log files are created in the installing user’s %temp%
 
 **MBAM Server Setup log files**
 
-<a href="" id="msi-five-random-characters--log"></a>MSI<em>&lt;five random characters&gt;</em>.log  
+<a href="" id="msi-five-random-characters--log"></a>MSI<em>&lt;five random characters&gt;</em>.log
 Logs the actions taken during MBAM Setup and MBAM Server Feature installation.
 
-<a href="" id="installcompliancedatabase-log"></a>InstallComplianceDatabase.log  
+<a href="" id="installcompliancedatabase-log"></a>InstallComplianceDatabase.log
 Logs actions taken to create the MBAM Compliance and Audit Database setup.
 
-<a href="" id="installkeycompliancedatabase-log"></a>InstallKeyComplianceDatabase.log  
+<a href="" id="installkeycompliancedatabase-log"></a>InstallKeyComplianceDatabase.log
 Logs actions taken to create the MBAM Recovery Database.
 
-<a href="" id="addhelpdeskdbauditusers-log"></a>AddHelpDeskDbAuditUsers.log  
+<a href="" id="addhelpdeskdbauditusers-log"></a>AddHelpDeskDbAuditUsers.log
 Logs actions taken to create the SQL Server logins on the MBAM Compliance and Audit database and authorize the HelpDesk web service to the database for reports.
 
-<a href="" id="addhelpdeskdbusers-log"></a>AddHelpDeskDbUsers.log  
+<a href="" id="addhelpdeskdbusers-log"></a>AddHelpDeskDbUsers.log
 Logs actions taken to authorize web services to database for key recovery and create logins to the MBAM Recovery Database.
 
-<a href="" id="addkeycompliancedbusers-log"></a>AddKeyComplianceDbUsers.log  
+<a href="" id="addkeycompliancedbusers-log"></a>AddKeyComplianceDbUsers.log
 Logs actions taken to authorize web services to MBAM Compliance and Audit Database for compliance reporting.
 
-<a href="" id="addrecoveryandhardwaredbusers-log"></a>AddRecoveryAndHardwareDbUsers.log  
+<a href="" id="addrecoveryandhardwaredbusers-log"></a>AddRecoveryAndHardwareDbUsers.log
 Logs actions taken to authorize web services to the MBAM Recovery database for key recovery.
 
 **Note**  
 In order to obtain additional MBAM Setup log files, you have to install MBAM by using the msiexec package and the /L &lt;location&gt; option. Log files are created in the location specified.
 
- 
+
 
 **MBAM Client Setup log files**
 
-<a href="" id="msi-five-random-characters--log"></a>MSI<em>&lt;five random characters&gt;</em>.log  
+<a href="" id="msi-five-random-characters--log"></a>MSI<em>&lt;five random characters&gt;</em>.log
 Logs the actions taken during MBAM Client installation.
 
 ## <a href="" id="---------mbam-database-tde-considerations"></a> MBAM Database TDE Considerations
@@ -195,9 +194,9 @@ For more information about TDE in SQL Server 2008, see [SQL Server Encryption](
 
 [Security and Privacy for MBAM 2.0](security-and-privacy-for-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

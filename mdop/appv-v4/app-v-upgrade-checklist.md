@@ -3,8 +3,7 @@ title: App-V Upgrade Checklist
 description: App-V Upgrade Checklist
 author: aczechowski
 ms.assetid: 64e317d2-d260-4b67-8a49-ba9ac513087a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -70,7 +69,7 @@ Before trying to upgrade to Microsoft Application Virtualization (App-V) 4.5 or 
 
 -   One of the features of the 4.5 Sequencer is the ability to create Windows Installer (.msi) files as control points for virtual application package interoperability with electronic software distribution (ESD) systems, such as Microsoft Endpoint Configuration Manager. Previous Windows Installer files created with the MSI tool for Application Virtualization that were installed on a App-V 4.1 or 4.2 client that is subsequently upgraded to App-V 4.5 will continue to work, although they cannot be installed on the App-V 4.5 client. However, they cannot be removed or upgraded unless they are upgraded in the App-V 4.5 Sequencer. The original App-V package earlier than 4.5 has to be opened in the App-V 4.5 Sequencer and then saved as a Windows Installer File.
 
-    **Note**  
+    **Note**
     If the App-V 4.2 Client has already been upgraded to App-V 4.5, it is possible to script a workaround to preserve the version 4.2 packages on version 4.5 clients and allow them to be managed. This script must copy two files, msvcp71.dll and msvcr71.dll, to the App-V installation folder and set the following registry key values under the registry key:\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\SoftGrid\\4.5\\Client\\Configuration\]:
 
     "ClientVersion"="4.2.1.20"
@@ -140,7 +139,7 @@ You can deploy packages created in previous versions of App-V to App-V 4.6 clien
 
 To run a newly created 32-bit package, you must sequence the application on a computer running a 32-bit operating system with the App-V 4.6 Sequencer installed. After you have sequenced the application, in the Sequencer console, click the **Deployment** tab and then specify the appropriate operating system and chip architecture as required.
 
-**Important**  
+**Important**
 Applications sequenced on a computer running a 64-bit operating system must be deployed to computers running a 64-bit operating system. New 32-bit packages created by using the App-V 4.6 Sequencer do not run on computers running the App-V 4.5 client.
 
 

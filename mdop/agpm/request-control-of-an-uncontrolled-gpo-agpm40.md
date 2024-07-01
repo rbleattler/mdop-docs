@@ -3,8 +3,7 @@ title: How to Request Control of an Uncontrolled GPO
 description: Request Control of an Uncontrolled GPO in AGPM 4.
 author: aczechowski
 ms.assetid: a34e0aeb-33a1-4c9f-b187-1d08493a785c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

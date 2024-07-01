@@ -3,8 +3,7 @@ title: Troubleshooting UE-V 2.x
 description: Troubleshooting UE-V 2.x
 author: aczechowski
 ms.assetid: a02847f8-6986-4612-8307-ba1b72d7919b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization

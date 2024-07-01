@@ -3,8 +3,7 @@ title: Stand-Alone Delivery Scenario Overview
 description: Stand-Alone Delivery Scenario Overview
 author: aczechowski
 ms.assetid: b109f309-f3c1-43af-996f-2a9b138dd171
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

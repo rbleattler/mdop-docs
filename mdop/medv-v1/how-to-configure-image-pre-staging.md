@@ -2,8 +2,7 @@
 title: How to Configure Image Prestaging
 description: How to Configure Image Prestaging
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 06/16/2016
 ---

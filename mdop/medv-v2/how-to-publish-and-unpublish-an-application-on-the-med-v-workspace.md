@@ -3,8 +3,7 @@ title: How to Publish and Unpublish an Application on the MED-V Workspace
 description: How to Publish and Unpublish an Application on the MED-V Workspace
 author: aczechowski
 ms.assetid: fd5a62e9-0577-44d2-ae17-61c0aef78ce8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -23,7 +22,7 @@ In some cases, you might want to install applications on the MED-V workspace wit
 **Important**  
 If you publish an application that does not support UNC paths, we recommend that you map the application to a drive.
 
- 
+
 
 You can publish or unpublish applications to a deployed MED-V workspace by performing one of the following tasks:
 
@@ -44,14 +43,14 @@ You can publish or unpublish applications to a deployed MED-V workspace by perfo
     **Note**  
     Frequently, the shortcut is automatically deleted from the host computer **Start** menu when you uninstall the application. However, in some cases, such as for a MED-V workspace that is configured for all users of a shared computer, you might have to manually delete the shortcut on the **Start** menu after the application is uninstalled. The end-user can do this by right-clicking the shortcut and selecting **Delete**.
 
-     
+
 
 To test that the application was published or unpublished, verify on the MED-V workspace whether the corresponding shortcut is available or not.
 
 **Note**  
 Applications that are included in Windows XP SP3 and are located in the virtual machine Start Menu folder are not automatically published to the host. They are controlled by registry settings that block automatic publishing. For more information, see [Windows Virtual PC Application Exclude List](windows-virtual-pc-application-exclude-list.md).
 
- 
+
 
 **To publish Control Panel items**
 
@@ -66,7 +65,7 @@ Applications that are included in Windows XP SP3 and are located in the virtual 
 **Caution**  
 When you create the shortcut, do not specify %SystemRoot%\\control.exe. This application will not be published because it is contained in the registry settings that block automatic publishing.
 
- 
+
 
 **How MED-V handles automatic application publishing**
 
@@ -89,7 +88,7 @@ When you create the shortcut, do not specify %SystemRoot%\\control.exe. This app
 **Note**  
 A folder must already exist in the host computer Start Menu folder for MED-V to copy the shortcut there. MED-V does not create the folder if it does not already exist.
 
- 
+
 
 ## Related topics
 
@@ -100,9 +99,9 @@ A folder must already exist in the host computer Start Menu folder for MED-V to 
 
 [Windows Virtual PC Application Exclude List](windows-virtual-pc-application-exclude-list.md)
 
- 
 
- 
+
+
 
 
 

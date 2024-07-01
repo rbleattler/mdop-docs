@@ -3,8 +3,7 @@ title: Removing MBAM Server Features or Software
 description: Removing MBAM Server Features or Software
 author: aczechowski
 ms.assetid: 5212ba3f-124d-43c5-824a-608e9a192e86
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ These instructions explain how to remove software and features from Microsoft Bi
 **Note**  
 To prevent the accidental removal of data, MBAM provides no mechanism for removing the databases; you must do that manually.
 
- 
+
 
 ## <a href="" id="bkmk-removeserverfeatures"></a>Removing MBAM Server features
 
@@ -81,9 +80,9 @@ Use the following steps to remove the MBAM Server software and any MBAM Server f
 
 [Deploying MBAM 2.5](deploying-mbam-25.md)
 
- 
 
- 
+
+
 
 ## Got a suggestion for MBAM?
 

@@ -3,8 +3,7 @@ title: User Interface for Advanced Group Policy Management
 description: User Interface Advanced Group Policy Management in AGPM 3.
 author: aczechowski
 ms.assetid: 19aab694-8283-4d97-9425-1845404b461f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

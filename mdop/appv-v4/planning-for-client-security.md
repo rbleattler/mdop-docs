@@ -3,8 +3,7 @@ title: Planning for Client Security
 description: Planning for Client Security
 author: aczechowski
 ms.assetid: 4840a60f-4c91-489c-ad0b-6671882abf9b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -65,7 +64,7 @@ When the client communicates with the server to perform a publishing refresh, it
 **Note**  
 If you are using IIS to publish the ICO and OSD files, configure a MIME type for OSD=TXT; otherwise, IIS will refuse to serve the ICO and OSD files to clients.
 
- 
+
 
 ### Package Streaming
 
@@ -74,7 +73,7 @@ When a user launches an application for the first time, or if auto-loading param
 **Note**  
 If you are using IIS to publish packages (SFT files), configure a MIME type for SFT=Binary; otherwise, IIS will refuse to serve the SFT files to clients.
 
- 
+
 
 ### Roaming Profiles and Folder Redirection
 
@@ -98,9 +97,9 @@ If a user is home-based and the computer is not joined to the company domain, Ap
 
 [Planning for Security and Protection](planning-for-security-and-protection.md)
 
- 
 
- 
+
+
 
 
 

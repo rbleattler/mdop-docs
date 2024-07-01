@@ -3,8 +3,7 @@ title: Delete an Application
 description: Delete an Application.
 author: aczechowski
 ms.assetid: 421e7df0-fea3-4cb2-a884-3d04f2223da7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ You can delete an application through the Application Virtualization Server Mana
 **Note**  
 If this is the only application in a package, deleting it also removes related package data and file associations.
 
- 
+
 
 **To delete an application**
 
@@ -40,9 +39,9 @@ If this is the only application in a package, deleting it also removes related p
 
 [How to Manage Applications in the Server Management Console](how-to-manage-applications-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

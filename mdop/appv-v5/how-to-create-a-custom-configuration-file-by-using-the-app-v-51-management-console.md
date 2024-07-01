@@ -3,8 +3,7 @@ title: How to Create a Custom Configuration File by Using the App-V 5.1 Manageme
 description: How to Create a Custom Configuration File by Using the App-V 5.1 Management Console
 author: aczechowski
 ms.assetid: f5ab426a-f49a-47b3-93f3-b9d60aada8f4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -31,7 +30,7 @@ Use the following procedure to create a Dynamic User Configuration file by using
 
 4.  Click **Advanced**, and then click **Export Configuration**. Type in a filename and click **Save**. Now you can edit the file to configure a package for a user.
 
-    **Note**  
+    **Note**
     To export a configuration while running on Windows Server, you must disable "IE Enhanced Security Configuration". If this is enabled and set to block downloads, you cannot download anything from the App-V Server.
 
 

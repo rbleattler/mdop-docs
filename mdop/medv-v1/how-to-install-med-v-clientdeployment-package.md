@@ -3,8 +3,7 @@ title: Install the MED-V Client
 description: How to Install MED-V Client
 author: aczechowski
 ms.assetid: bfac6de7-d96d-4b3e-bd8b-183e051e53c8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 In a deployment package-based scenario, the MED-V client installation is included in the deployment package and installed directly from the package.
 
-**Important**  
+**Important**
 When using a deployment package that does not include an image, ensure that the image is uploaded to the Web or pushed to the pre-stage folder prior to installing the deployment package.
 
 
@@ -35,13 +34,13 @@ When using a deployment package that does not include an image, ensure that the 
 
     A dialog box appears listing the components that are already installed and those that are currently being installed.
 
-    **Note**  
+    **Note**
     If a version of the Microsoft Virtual PC that is not supported exists on the host computer, a message will appear telling you to uninstall the existing version and run the installer again.
 
 
 
 
-**Note**  
+**Note**
 If an older version of the MED-V client exists, it will prompt you asking whether you want to upgrade.
 
 

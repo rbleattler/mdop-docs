@@ -3,8 +3,7 @@ title: How to Uninstall the App-V 5.1 Client
 description: How to Uninstall the App-V 5.1 Client
 author: aczechowski
 ms.assetid: 21f2d946-fc9f-4cd3-899b-ac52b3fbc306
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -19,7 +18,7 @@ ms.date: 06/16/2016
 
 Use the following procedure to uninstall the Microsoft Application Virtualization (App-V) 5.1 client from a computer. When you uninstall the App-V 5.1 client all packages published to the computer running the client are also removed. If the uninstall operation does not complete the packages will need to be re-published to the computer running the App-V 5.1 client.
 
-**Important**  
+**Important**
 You should ensure that the App-V 5.1 client service is running prior to performing the uninstall procedure.
 
 
@@ -30,14 +29,14 @@ You should ensure that the App-V 5.1 client service is running prior to performi
 
 2.  In the dialog box that appears, click **Yes** to continue with the uninstall process.
 
-    **Important**  
+    **Important**
     The uninstall process cannot be canceled or interrupted.
 
 
 
 3.  A progress bar shows the time remaining. When this step finishes, you must restart the computer so that all associated drivers can be stopped to complete the uninstall process.
 
-    **Note**  
+    **Note**
     You can also use the command line to uninstall the App-V 5.1 client with the following switch: **/UNINSTALL**.
 
 

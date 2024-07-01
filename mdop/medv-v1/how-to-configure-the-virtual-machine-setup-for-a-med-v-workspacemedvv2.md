@@ -3,8 +3,7 @@ title: How to Configure the Virtual Machine Setup for a MED-V Workspace
 description: How to Configure the Virtual Machine Setup for a MED-V Workspace
 author: aczechowski
 ms.assetid: 50bbf58b-842c-4b63-bb93-3783903f6c7d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -27,7 +26,7 @@ All virtual machine setup configuration settings are configured in the **Policy*
 
 2.  In the **Persistent VM Setup** section, configure the properties as described in the following table.
 
-    **Note**  
+    **Note**
     The persistent VM setup properties are enabled only for a persistent MED-V workspace.
 
 
@@ -86,7 +85,7 @@ All virtual machine setup configuration settings are configured in the **Policy*
 
 2.  In the **Revertible VM Setup** section, configure the properties as described in the following table.
 
-    **Note**  
+    **Note**
     The revertible VM setup properties are enabled only for a revertible MED-V workspace.
 
 

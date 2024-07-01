@@ -2,8 +2,7 @@
 title: Release Notes for App-V 5.1
 description: Release Notes for App-V 5.1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 09/26/2016
@@ -123,7 +122,7 @@ The Permissions.sql script should be updated according to **Step 2** in KB artic
 > [!IMPORTANT]
 > **Step 1** is not required for versions of App-V later than App-V 5.0 SP3.
 
- 
+
 
 ## Microsoft Visual Studio 2012 not supported
 

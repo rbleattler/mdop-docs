@@ -3,8 +3,7 @@ title: About App-V 5.0
 description: About App-V 5.0
 author: aczechowski
 ms.assetid: 5799141b-44bc-4033-afcc-212235e15f00
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -86,7 +85,7 @@ The following table displays some of the differences between App-V 4.6 and App-V
 </tbody>
 </table>
 
- 
+
 
 ## How to Get MDOP Technologies
 
@@ -103,9 +102,9 @@ App-V 5.0 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is p
 
 [Getting Started with App-V 5.0](getting-started-with-app-v-50--rtm.md)
 
- 
 
- 
+
+
 
 
 

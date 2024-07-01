@@ -3,8 +3,7 @@ title: Using a Test Environment
 description: Using a Test Environment
 author: aczechowski
 ms.assetid: fc5fcc7c-1ac8-483a-a6bd-2279ae2ee3fb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -28,11 +27,11 @@ Before you request that a Group Policy Object (GPO) be deployed to the productio
 **Note**  
 You can also import a GPO from the production environment of the domain. For more information, see [Import a GPO from Production](import-a-gpo-from-production-agpm40-ed.md).
 
- 
 
- 
 
- 
+
+
+
 
 
 

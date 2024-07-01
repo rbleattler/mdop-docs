@@ -3,8 +3,7 @@ title: Configuring UE-V 2.x with Group Policy Objects
 description: Configuring UE-V 2.x with Group Policy Objects
 author: aczechowski
 ms.assetid: 2bb55834-26ee-4f19-9860-dfdf3c797143
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -136,12 +135,12 @@ The following policy settings can be configured for UE-V.
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 In addition, Group Policy settings are available for many desktop applications and Windows apps. You can use these settings to enable or disable settings synchronization for specific applications.
 
- 
+
 
 **Windows App Group Policy settings**
 
@@ -182,7 +181,7 @@ In addition, Group Policy settings are available for many desktop applications a
 </tbody>
 </table>
 
- 
+
 
 For more information about synchronizing Windows apps, see [Windows App List](https://technet.microsoft.com/library/dn458925.aspx#win8applist).
 
@@ -219,6 +218,6 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
 
 [Manage Configurations for UE-V 2.x](manage-configurations-for-ue-v-2x-new-uevv2.md)
 
- 
 
- 
+
+

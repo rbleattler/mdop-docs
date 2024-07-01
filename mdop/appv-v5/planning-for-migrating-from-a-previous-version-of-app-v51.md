@@ -3,8 +3,7 @@ title: Planning for Migrating from a Previous Version of App-V
 description: Planning for Migrating from a Previous Version of App-V
 author: aczechowski
 ms.assetid: 4a058047-9674-41bc-8050-c58c97a80a9b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -69,7 +68,7 @@ The following table shows the supported App-V coexistence scenarios. We recommen
 </tbody>
 </table>
 
- 
+
 
 ### Requirements for running coexisting clients
 
@@ -82,7 +81,7 @@ To run coexisting clients, you must:
 **Note**  
 App-V 5.1 packages can run side by side with App-V 4.6 packages if you have coexisting installations of App-V 5.1 and 4.6. However, App-V 5.1 packages cannot interact with App-V 4.6 packages in the same virtual environment.
 
- 
+
 
 ### Client downloads and documentation
 
@@ -111,7 +110,7 @@ The following table provides links to the App-V 4.6 client downloads and to the 
 </tbody>
 </table>
 
- 
+
 
 For more information about how to configure App-V 5.1 client coexistence, see:
 
@@ -140,9 +139,9 @@ For more information about using the package converter to convert a package, see
 
 [Planning to Deploy App-V](planning-to-deploy-app-v51.md)
 
- 
 
- 
+
+
 
 
 

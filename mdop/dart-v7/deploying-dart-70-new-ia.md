@@ -3,8 +3,7 @@ title: Deploying DaRT 7.0
 description: Deploying DaRT 7.0
 author: aczechowski
 ms.assetid: 7bc99bce-b94f-4074-ba88-986ed76f8a6c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

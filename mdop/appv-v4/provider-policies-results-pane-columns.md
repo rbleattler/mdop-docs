@@ -3,8 +3,7 @@ title: Provider Policies Results Pane Columns
 description: Provider Policies Results Pane Columns
 author: aczechowski
 ms.assetid: f9456f17-3106-4e5a-9a8c-df3af66986e1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

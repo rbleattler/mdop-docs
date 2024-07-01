@@ -3,8 +3,7 @@ title: Troubleshooting MED-V
 description: Troubleshooting MED-V
 author: aczechowski
 ms.assetid: f43dae36-6485-4e06-9c66-0a646e27079d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

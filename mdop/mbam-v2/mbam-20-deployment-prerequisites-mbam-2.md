@@ -3,8 +3,7 @@ title: MBAM 2.0 Deployment Prerequisites
 description: MBAM 2.0 Deployment Prerequisites
 author: aczechowski
 ms.assetid: 57d1c2bb-5ea3-457e-badd-dd9206ff0f20
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -92,7 +91,7 @@ Each of the MBAM Server features has specific prerequisites that must be met bef
 
 
 
-**Note**  
+**Note**
 For a list of supported operating systems, see [MBAM 2.0 Supported Configurations](mbam-20-supported-configurations-mbam-2.md).
 
 

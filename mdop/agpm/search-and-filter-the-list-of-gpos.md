@@ -3,8 +3,7 @@ title: Search and Filter the List of GPOs
 description: Search and Filter the List of GPOs
 author: aczechowski
 ms.assetid: 1bc58a38-033c-4aed-9eb4-c239827f5501
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

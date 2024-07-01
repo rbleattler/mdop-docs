@@ -3,8 +3,7 @@ title: Customizing the Self-Service Portal for Your Organization
 description: Customizing the Self-Service Portal for Your Organization
 author: aczechowski
 ms.assetid: f007e02b-e2df-47a9-9762-5909e230aa3f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -59,7 +58,7 @@ You can customize the Self-Service Portal in the following ways:
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -68,7 +67,7 @@ You can customize the Self-Service Portal in the following ways:
 
 [How to Configure the MBAM 2.5 Web Applications](how-to-configure-the-mbam-25-web-applications.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

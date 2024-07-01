@@ -3,8 +3,7 @@ title: How to Change User Access Permissions
 description: How to Change User Access Permissions
 author: aczechowski
 ms.assetid: 21b60cc7-5395-401e-a374-6ef0d58872b7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ Use the following procedure to change user access permissions in the Application
 **Note**  
 Before changing users access permissions, ensure that any permissions changes are consistent with the organization's guidelines for granting user access.
 
- 
+
 
 **To change user access permissions**
 
@@ -38,9 +37,9 @@ Before changing users access permissions, ensure that any permissions changes ar
 
 [User Access Permissions in Application Virtualization Client](user-access-permissions-in-application-virtualization-client.md)
 
- 
 
- 
+
+
 
 
 

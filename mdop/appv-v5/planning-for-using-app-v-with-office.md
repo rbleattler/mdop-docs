@@ -2,8 +2,7 @@
 title: Planning for Using App-V 5.0 with Office
 description: Planning for Using App-V 5.0 with Office.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016

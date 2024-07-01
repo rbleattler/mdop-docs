@@ -3,8 +3,7 @@ title: Create or Edit the Sms\_def.mof File
 description: Create or Edit the Sms\_def.mof File
 author: aczechowski
 ms.assetid: 0bc5e7d8-9747-4da6-a1b3-38d8f27ba121
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -33,7 +32,7 @@ In the following sections, complete the instructions that correspond to the vers
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2\\SMS")
@@ -84,7 +83,7 @@ In the following sections, complete the instructions that correspond to the vers
     {
         [SMS_Report(TRUE),key]
         string KeyName;
-        
+
         //General encryption requirements
         [SMS_Report(TRUE)]
         UInt32    OsDriveEncryption;
@@ -100,13 +99,13 @@ In the following sections, complete the instructions that correspond to the vers
         UInt32    FixedDataDriveAutoUnlock;
         [ SMS_Report (TRUE) ]
         UInt32    FixedDataDrivePassphrase;
-        
+
         //MBAM Agent fields
         //Policy not enforced (0), enforced (1), pending user exemption request (2) or exempted user (3)
         [SMS_Report(TRUE)]
         Uint32    MBAMPolicyEnforced;
         [SMS_Report(TRUE)]
-        string    LastConsoleUser; 
+        string    LastConsoleUser;
         //Date of the exemption request of the last logged on user,
         //or the first date the exemption was granted to him on this machine.
         [SMS_Report(TRUE)]
@@ -199,7 +198,7 @@ In the following sections, complete the instructions that correspond to the vers
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2\\SMS")
@@ -252,7 +251,7 @@ In the following sections, complete the instructions that correspond to the vers
     {
         [SMS_Report(TRUE),key]
         string KeyName;
-        
+
         //General encryption requirements
         [SMS_Report(TRUE)]
         UInt32    OsDriveEncryption;
@@ -268,13 +267,13 @@ In the following sections, complete the instructions that correspond to the vers
         UInt32    FixedDataDriveAutoUnlock;
         [ SMS_Report (TRUE) ]
         UInt32    FixedDataDrivePassphrase;
-        
+
         //MBAM Agent fields
         //Policy not enforced (0), enforced (1), pending user exemption request (2) or exempted user (3)
         [SMS_Report(TRUE)]
         Uint32    MBAMPolicyEnforced;
         [SMS_Report(TRUE)]
-        string    LastConsoleUser; 
+        string    LastConsoleUser;
         //Date of the exemption request of the last logged on user,
         //or the first date the exemption was granted to him on this machine.
         [SMS_Report(TRUE)]
@@ -298,7 +297,7 @@ In the following sections, complete the instructions that correspond to the vers
     {
         [SMS_Report(TRUE),key]
         string KeyName;
-        
+
         //General encryption requirements
         [SMS_Report(TRUE)]
         UInt32    OsDriveEncryption;
@@ -314,13 +313,13 @@ In the following sections, complete the instructions that correspond to the vers
         UInt32    FixedDataDriveAutoUnlock;
         [ SMS_Report (TRUE) ]
         UInt32    FixedDataDrivePassphrase;
-        
+
         //MBAM Agent fields
         //Policy not enforced (0), enforced (1), pending user exemption request (2) or exempted user (3)
         [SMS_Report(TRUE)]
         Uint32    MBAMPolicyEnforced;
         [SMS_Report(TRUE)]
-        string    LastConsoleUser; 
+        string    LastConsoleUser;
         //Date of the exemption request of the last logged on user,
         //or the first date the exemption was granted to him on this machine.
         [SMS_Report(TRUE)]

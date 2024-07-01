@@ -3,8 +3,7 @@ title: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 
 description: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
 author: aczechowski
 ms.assetid: bd53c5d6-7fd2-4816-b03b-d59da0a35819
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -31,7 +30,7 @@ Use the following procedure to revert an App-V 5.1 package to the App-V file for
 
 3.  Perform a publishing refresh, or wait for the next scheduled publishing refresh for the App-V 4.6. Open the application using FTAs or shortcuts. The Application should now open using App-V 4.6.
 
-    **Note**  
+    **Note**
     If you do not need the App-V 5.1 package anymore, you can unpublish the App-V 5.1 package and the extension points will automatically revert to App-V 4.6.
 
 

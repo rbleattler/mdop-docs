@@ -3,8 +3,7 @@ title: Planning Your Streaming Solution in an Application Virtualization Server-
 description: Planning Your Streaming Solution in an Application Virtualization Server-Based Implementation
 author: aczechowski
 ms.assetid: 3a57306e-5c54-4fde-8593-fe3b788f18d3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,7 +22,7 @@ The supported options include using a file server, an IIS server, or an Applicat
 **Note**  
 The active upgrade feature enables a new version of an application to be added to an App-V Management Server or Streaming Server without affecting users currently running the application. The App-V clients will automatically receive the latest version of the application from the App-V Management Server or Streaming Server the next time the user starts the application. Use of the RTSP(S) protocol is required for this feature.
 
- 
+
 
 <table>
 <colgroup>
@@ -101,7 +100,7 @@ The active upgrade feature enables a new version of an application to be added t
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -112,9 +111,9 @@ The active upgrade feature enables a new version of an application to be added t
 
 [Publishing Virtual Applications Using Application Virtualization Management Servers](publishing-virtual-applications-using-application-virtualization-management-servers.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Planning for the App-V 5.0 Server Deployment
 description: Planning for the App-V 5.0 Server Deployment
 author: aczechowski
 ms.assetid: fd89b324-3961-471a-ad90-c8f9ae7a8155
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -54,7 +53,7 @@ The App-V 5.0 Management Server contains the repository of packages and their as
 **Note**  
 The Management Server does not perform any load balancing. The associated metadata is simply passed to the publishing server for use when processing client requests.
 
- 
+
 
 ## Server-Related Protocols and External Features
 
@@ -97,7 +96,7 @@ The following displays information about server-related protocols used by the Ap
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -111,9 +110,9 @@ The following displays information about server-related protocols used by the Ap
 
 [Deploying the App-V 5.0 Server](deploying-the-app-v-50-server.md)
 
- 
 
- 
+
+
 
 
 

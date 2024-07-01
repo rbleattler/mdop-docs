@@ -3,8 +3,7 @@ title: How to Create the Sequencer Package Root Directory
 description: How to Create the Sequencer Package Root Directory
 author: aczechowski
 ms.assetid: 23fe28f1-c284-43ee-b8b7-1dfbed94eea5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -29,7 +28,7 @@ After you have created the package root directory, you can begin sequencing appl
     **Important**  
     The name you assign to virtual application files that will be saved in the package root directory should use the 8.3 naming format. The file names should be no longer than 8 characters with a three-character file name extension.
 
-     
+
 
 ## Related topics
 
@@ -40,9 +39,9 @@ After you have created the package root directory, you can begin sequencing appl
 
 [How to Modify the Scratch Directory Location](how-to-modify-the-scratch-directory-location.md)
 
- 
 
- 
+
+
 
 
 

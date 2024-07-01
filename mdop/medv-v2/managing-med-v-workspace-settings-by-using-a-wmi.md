@@ -3,8 +3,7 @@ title: Managing MED-V Workspace Settings by Using a WMI
 description: Managing MED-V Workspace Settings by Using a WMI
 author: aczechowski
 ms.assetid: 05a665a3-2309-46c1-babb-a3e3bbb0b1f9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -28,7 +27,7 @@ The WMI provider is implemented in the **root\\microsoft\\medv** namespace and i
 **Caution**  
 WMI browsing tools can be used to delete or modify classes and instances. Deleting or modifying certain classes and instances can result in the loss of valuable data and cause MED-V to function unpredictably.
 
- 
+
 
 You can use your preferred WMI browsing tool to view and edit MED-V configuration settings by following these steps.
 
@@ -55,7 +54,7 @@ After you have finished viewing or editing MED-V configuration settings, close t
 **Important**  
 In some cases, a restart of the MED-V workspace is required for changes to MED-V configuration settings to take effect.
 
- 
+
 
 The following code shows the Managed Object Format (MOF) file that defines the **Setting** class.
 
@@ -134,9 +133,9 @@ class ConfigValueProvider
 
 [Manage MED-V Workspace Settings](manage-med-v-workspace-settings.md)
 
- 
 
- 
+
+
 
 
 

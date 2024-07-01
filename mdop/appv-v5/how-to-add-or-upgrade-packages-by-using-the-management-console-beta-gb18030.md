@@ -2,8 +2,7 @@
 title: Add or upgrade packages by using the App-V 5.0 management console
 description: How to add or upgrade packages by using the App-V 5.0 management console.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

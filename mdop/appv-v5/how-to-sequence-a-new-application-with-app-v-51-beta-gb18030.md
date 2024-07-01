@@ -3,8 +3,7 @@ title: How to Sequence a New Application with App-V 5.1
 description: How to Sequence a New Application with App-V 5.1
 author: aczechowski
 ms.assetid: 7d7699b1-0cb8-450d-94e7-5af937e16c21
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -60,7 +59,7 @@ ms.date: 06/16/2016
 
     -   If short paths have been disabled for the virtualized package’s target volume, you must also sequence the package to a volume that was created and still has short-paths disabled. It cannot be the system volume.
 
-> [!NOTE]  
+> [!NOTE]
 > The App-V 5.x Sequencer cannot sequence applications with filenames matching "CO_&lt;x&gt;" where x is any numeral. Error 0x8007139F will be generated.
 
 **To sequence a new standard application**
@@ -77,7 +76,7 @@ ms.date: 06/16/2016
 
 
 
-> [!NOTE]  
+> [!NOTE]
 > There is currently no way to disable Windows Defender in Windows 10. If you receive a warning, you can safely ignore it. It is unlikely that Windows Defender will affect sequencing at all.
 
 
@@ -87,7 +86,7 @@ ms.date: 06/16/2016
 
 5. On the **Select Installer** page, click **Browse** and specify the installation file for the application.
 
-   > [!NOTE]  
+   > [!NOTE]
    > If the specified application installer modifies security access to a file or directory, existing or new, the associated changes will not be captured into the package.
 
 
@@ -115,7 +114,7 @@ Use the application's installation process to perform the installation. If addit
 
 9. On the **Configure Software** page, optionally run the programs contained in the package. This step allows you to complete any necessary license or configuration tasks before you deploy and run the package on target computers. To run all the programs at one time, select at least one program, and then click **Run All**. To run specific programs, select the program or programs, and then click **Run Selected**. Complete the required configuration tasks and then close the applications. You may need to wait several minutes for all programs to run.
 
-   > [!NOTE]  
+   > [!NOTE]
    > To run first-use tasks for any application that is not available in the list, open the application. The associated information will be captured during this step.
 
 
@@ -136,7 +135,7 @@ Click **Next**.
 
 12. On the **Streaming** page, run each program so that it can be optimized and run more efficiently on target computers. It can take several minutes for all the applications to run. After all applications have run, close each of the applications, and then click **Next**.
 
-   > [!NOTE]  
+   > [!NOTE]
    > If you do not open any applications during this step, the default streaming method is on-demand streaming delivery. This means applications will be downloaded bit by bit until it can be opened, and then depending on how the background loading is configured, will load the rest of the application.
 
 
@@ -172,7 +171,7 @@ The default **Save Location** is also displayed on this page. To change the defa
 
 **To sequence an add-on or plug-in application**
 
-1. > [!NOTE]  
+1. > [!NOTE]
    > Before performing the following procedure, install the parent application locally on the computer that is running the sequencer. Or if you have the parent application virtualized, you can follow the steps in the add-on or plug-in workflow to unpack the parent application on the computer.
    >
    > For example, if you are sequencing a plug-in for Microsoft Excel, install Microsoft Excel locally on the computer that is running the sequencer. Also install the parent application in the same directory where the application is installed on target computers. If the plug-in or add-on is going to be used with an existing virtual application package, install the application on the same virtual application drive that was used when you created the parent virtual application package.
@@ -218,7 +217,7 @@ On the computer that runs the sequencer, click **All Programs**, and then Click 
 
 11. On the **Streaming** page, run each program so that it can be optimized and run more efficiently on target computers. Streaming improves the experience when the virtual application package is run on target computers on high-latency networks. It can take several minutes for all the applications to run. After all applications have run, close each of the applications. You can also configure the package to be required to be fully downloaded before opening by selecting the **Force applications to be downloaded** check-box. Click **Next**.
 
-    > [!NOTE]  
+    > [!NOTE]
     > If necessary, you can stop an application from loading during this step. In the **Application Launch** dialog box, click **Stop** and select one of the check boxes: **Stop all applications** or **Stop this application only**.
 
 

@@ -3,8 +3,7 @@ title: Application Virtualization Server-Based Scenario Overview
 description: Application Virtualization Server-Based Scenario Overview
 author: aczechowski
 ms.assetid: 2d91392b-5085-4a5d-94f2-15eed1ed2928
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -54,7 +53,7 @@ For load from file package delivery, the server delivers the entire virtualized 
 **Note**  
 For each delivery method, the initial virtual application delivery process and the virtual application update process are the same; the updated virtual application package replaces the original application package.
 
- 
+
 
 The following table compares the advantages and disadvantages of each package delivery method.
 
@@ -97,7 +96,7 @@ The following table compares the advantages and disadvantages of each package de
 </tbody>
 </table>
 
- 
+
 
 ## Server-Related Protocols and External Components
 
@@ -156,7 +155,7 @@ The following table lists the server types that can be used in an Application Vi
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -167,9 +166,9 @@ The following table lists the server types that can be used in an Application Vi
 
 [How to Install the Servers and System Components](how-to-install-the-servers-and-system-components.md)
 
- 
 
- 
+
+
 
 
 

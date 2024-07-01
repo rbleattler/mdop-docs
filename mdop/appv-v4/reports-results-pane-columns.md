@@ -3,8 +3,7 @@ title: Reports Results Pane Columns
 description: Reports Results Pane Columns
 author: aczechowski
 ms.assetid: 907360ca-6a55-4e42-88d2-db1a24cd2a28
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

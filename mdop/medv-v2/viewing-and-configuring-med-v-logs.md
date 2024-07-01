@@ -3,8 +3,7 @@ title: Viewing and Configuring MED-V Logs
 description: Viewing and Configuring MED-V Logs
 author: aczechowski
 ms.assetid: a15537ce-981d-4f55-9c3c-e7fbf94b8fe5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -30,7 +29,7 @@ Event Viewer opens and displays the corresponding event logs that you can use to
 **Note**  
 End users can only save event log files in the guest if they have administrative permissions.
 
- 
+
 
 ### To manually open the Event Viewer in the host computer
 
@@ -50,7 +49,7 @@ You can also specify the event logging level by editing the EventLogLevel regist
 **Note**  
 The level you specify on the **MED-V Administration Toolkit** window applies to future MED-V event logging. If you set the level to capture all errors, warnings, and informational messages, then the event logs fill more quickly and older events are removed.
 
- 
+
 
 ## Related topics
 
@@ -59,9 +58,9 @@ The level you specify on the **MED-V Administration Toolkit** window applies to 
 
 [Viewing MED-V Workspace Configurations](viewing-med-v-workspace-configurations.md)
 
- 
 
- 
+
+
 
 
 

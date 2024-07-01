@@ -3,8 +3,7 @@ title: Recover a Drive in Recovery Mode
 description: How to Recover a Drive in Recovery Mode
 author: aczechowski
 ms.assetid: e126eaf8-9ae7-40fe-a28e-dbd78d26859e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -21,12 +20,12 @@ This topic explains how to use the Administration and Monitoring Website (also r
 
 To get a recovery password, use the **Drive Recovery** area of the Administration and Monitoring Website. You must be assigned the MBAM Helpdesk Users role or the MBAM Advanced Helpdesk Users role to access this area of the website.
 
-**Note**  
+**Note**
 You may have given these roles different names when you created them. For more information, see [Planning for MBAM 2.5 Groups and Accounts](planning-for-mbam-25-groups-and-accounts.md#bkmk-helpdesk-roles).
 
 
 
-**Important**  
+**Important**
 Recovery passwords expire after a single use. On operating system drives and fixed data drives, the single-use rule is applied automatically. On removable drives, it is applied when the drive is removed and then reinserted and unlocked on a computer that has Group Policy settings activated to manage removable drives.
 
 
@@ -39,7 +38,7 @@ Recovery passwords expire after a single use. On operating system drives and fix
 
 3.  Enter the end user’s Windows log-on domain and user name to view recovery information.
 
-    **Note**  
+    **Note**
     If you are in the MBAM Advanced Helpdesk Users group, the user domain and user ID fields are not required.
 
 
@@ -56,7 +55,7 @@ Recovery passwords expire after a single use. On operating system drives and fix
 
     -   The recovery password and recovery package for the submitted user
 
-        **Note**  
+        **Note**
         If you are recovering a damaged drive, the recovery package option provides BitLocker with critical information that it needs to recover the drive.
 
 
@@ -80,7 +79,7 @@ After the recovery password and recovery package are retrieved, the recovery pas
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

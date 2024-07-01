@@ -3,8 +3,7 @@ title: Administering MBAM 2.0 Using PowerShell
 description: Administering MBAM 2.0 Using PowerShell
 author: aczechowski
 ms.assetid: d785a8df-0a8c-4d70-abd2-93a762b4f3de
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

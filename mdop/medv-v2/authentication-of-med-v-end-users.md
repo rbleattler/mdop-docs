@@ -3,8 +3,7 @@ title: Authentication of MED-V End Users
 description: Authentication of MED-V End Users
 author: aczechowski
 ms.assetid: aaf96eb6-91d1-4f4d-9854-5fc73c7ae7ab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -51,7 +50,7 @@ Following is the policy path for the Terminal Services policy named DisablePassw
 
 HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Virtual Machine\\Policies\\DisablePasswordSaving
 
-**Note**  
+**Note**
 The changes that you make to DisablePasswordSaving only affect the RDP prompt to a virtual machine.
 
 
@@ -106,7 +105,7 @@ The following table lists the different ways you can configure your settings for
 
 By default, the MED-V installation sets a registry key in the guest to suppress the "password about to expire" prompt. The end user is only prompted for a password change on the host. Credentials that are updated on the host are passed to the guest.
 
-**Caution**  
+**Caution**
 If you use Group Policy in your environment, know that it can override the registry key causing the password prompts from the guest to reappear.
 
 

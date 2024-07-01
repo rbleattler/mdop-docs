@@ -3,8 +3,7 @@ title: How to Modify an Existing Virtual Application Package
 description: How to Modify an Existing Virtual Application Package
 author: aczechowski
 ms.assetid: 86b0fe21-52b0-4a9c-9a66-c78935fe74f1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -148,9 +147,9 @@ This topic explains how to:
 
 [Operations for App-V 5.0](operations-for-app-v-50.md)
 
- 
 
- 
+
+
 
 
 

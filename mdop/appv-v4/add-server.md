@@ -3,8 +3,7 @@ title: ADD SERVER
 description: ADD SERVER
 author: aczechowski
 ms.assetid: 4be2ac2e-a410-4711-9f84-f305393c8fa7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

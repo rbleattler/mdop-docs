@@ -3,8 +3,7 @@ title: Planning for MBAM 2.5 Client Deployment
 description: Planning for MBAM 2.5 Client Deployment
 author: aczechowski
 ms.assetid: 23c89976-af24-4753-9412-ce0ea42d1964
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -26,7 +25,7 @@ If you deploy MBAM with the Configuration Manager Integration topology, you can 
 **Note**  
 Windows To Go is not supported for the Configuration Manager Integration topology installation when you are using Configuration Manager 2007.
 
- 
+
 
 ## Deploying the MBAM Client to enable BitLocker Drive Encryption after computer distribution to end users
 
@@ -36,14 +35,14 @@ After you configure Group Policy, you can use an enterprise software deployment 
 **Note**  
 Beginning in MBAM 2.5 SP1, a separate MSI is no longer included with the MBAM product. However, you can extract the MSI from the executable file (.exe) that is included with the product.
 
- 
+
 
 When you deploy the MBAM Client after you distribute computers to client computers, end users are prompted to encrypt their computer. This action enables MBAM to collect the data, which includes the PIN and password (if required by policy), and then to begin the encryption process.
 
 **Note**  
 In this approach, end users who have computers with a TPM chip are prompted to activate and initialize the TPM chip if the chip has not been previously activated.
 
- 
+
 
 ## Using the MBAM Client to enable BitLocker Drive Encryption before computer distribution to end users
 
@@ -55,7 +54,7 @@ If your organization wants to use the TPM chip to encrypt computers, the adminis
 **Note**  
 The TPM protector option requires the administrator to accept the BIOS prompt to activate and initialize the TPM before the computer is delivered to the end user.
 
- 
+
 
 ## MBAM Client support for Encrypted Hard Drives
 
@@ -70,9 +69,9 @@ MBAM supports BitLocker on Encrypted Hard Drives that meet TCG specification req
 
 [Deploying the MBAM 2.5 Client](deploying-the-mbam-25-client.md)
 
- 
 
- 
+
+
 ## Got a suggestion for MBAM?
 
 For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).

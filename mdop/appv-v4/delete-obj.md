@@ -3,8 +3,7 @@ title: DELETE OBJ
 description: DELETE OBJ
 author: aczechowski
 ms.assetid: fb17a261-f378-4ce6-a538-ab2f0ada0f2d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

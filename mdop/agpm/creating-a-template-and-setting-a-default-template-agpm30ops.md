@@ -3,8 +3,7 @@ title: How to Create a Template and Set a Default Template
 description: Create a Template and Setting a Default Template
 author: aczechowski
 ms.assetid: acce0e0f-7e67-479c-9daa-e678fccd7ced
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -34,15 +33,15 @@ Some potential uses for a template include the following:
 **Note**  
 A template is a static version of a GPO that cannot be edited, yet can be used as a starting point for creating new, editable GPOs. Renaming or deleting a template does not affect GPOs created from that template.
 
- 
+
 
 -   [Create a Template](create-a-template-agpm30ops.md)
 
 -   [Set a Default Template](set-a-default-template-agpm30ops.md)
 
- 
 
- 
+
+
 
 
 

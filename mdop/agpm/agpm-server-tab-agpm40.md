@@ -3,8 +3,7 @@ title: About the AGPM Server Tab
 description: Use **AGPM Server** tab on the **Change Control** pane to select an AGPM Server by entering a fully-qualified computer name and port and to delete older versions of GPOs from the archive.
 author: aczechowski
 ms.assetid: a6689437-233e-4f33-a0d6-f7d432c96c00
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -34,7 +33,7 @@ The maximum number of unique versions to store for each GPO does not include the
 
 When a GPO version is deleted, a record of that version remains in the history of the GPO, but the GPO version itself is deleted from the archive. You can prevent a GPO version from being deleted by marking it in the history as not deletable.
 
- 
+
 ### Additional references
 
 -   [User Interface: Advanced Group Policy Management](user-interface-advanced-group-policy-management-agpm40.md)
@@ -43,9 +42,9 @@ When a GPO version is deleted, a record of that version remains in the history o
 
 -   [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md)
 
- 
 
- 
+
+
 
 
 

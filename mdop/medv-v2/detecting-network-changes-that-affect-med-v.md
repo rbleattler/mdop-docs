@@ -3,8 +3,7 @@ title: Detecting Network Changes that Affect MED-V
 description: Detecting Network Changes that Affect MED-V
 author: aczechowski
 ms.assetid: fd29b95a-cda2-464d-b86d-50b6bd64b4ca
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -23,7 +22,7 @@ The feature includes a component running in the guest operating system that is n
 **Note**  
 This feature is only available if the virtual machine is configured for network address translation (NAT) mode. If the virtual machine is configured for BRIDGED mode, no change indications are generated.
 
- 
+
 
 This section provides information and instruction to assist you in monitoring those network changes that can affect MED-V.
 
@@ -47,7 +46,7 @@ After you have deployed your MED-V workspaces, you can monitor changes to certai
    class CCM_NetworkAdapter
    {
        [Key, NotNull: ToInstance ToSubClass] string Name;
-       [NotNull: ToInstance ToSubClass] uint32 DHCPEnabled = 0; 
+       [NotNull: ToInstance ToSubClass] uint32 DHCPEnabled = 0;
        [NotNull: ToInstance ToSubClass] uint32 Quarantined = 0; // To check if it is quarantined.
        CCM_IPConfig IPConfigInfo[];
    };
@@ -85,9 +84,9 @@ The event subscription you created provides notification through the WMI system 
 
 [Manage MED-V Workspace Settings](manage-med-v-workspace-settings.md)
 
- 
 
- 
+
+
 
 
 

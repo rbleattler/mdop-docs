@@ -3,8 +3,7 @@ title: Edit a GPO
 description: Edit a GPO
 author: aczechowski
 ms.assetid: ef42eefe-7705-46b2-954d-18966335cbbf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

@@ -3,8 +3,7 @@ title: Client Management Console Applications Node
 description: Client Management Console Applications Node
 author: aczechowski
 ms.assetid: 20cf533c-e0b0-4b81-af4b-b5b519594d1e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="applications-node"></a>[Applications Node](applications-node.md)  
+<a href="" id="applications-node"></a>[Applications Node](applications-node.md)
 Describes the features and commands available from the **Applications** node.
 
-<a href="" id="applications-results-pane"></a>[Applications Results Pane](applications-results-pane.md)  
+<a href="" id="applications-results-pane"></a>[Applications Results Pane](applications-results-pane.md)
 Describes the features and commands available from the **Applications** node **Results** pane.
 
-<a href="" id="applications-results-pane-columns"></a>[Applications Results Pane Columns](applications-results-pane-columns.md)  
+<a href="" id="applications-results-pane-columns"></a>[Applications Results Pane Columns](applications-results-pane-columns.md)
 Describes the columns available in the **Applications** node **Results** pane.
 
 ## Related topics

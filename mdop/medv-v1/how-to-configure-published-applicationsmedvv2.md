@@ -3,8 +3,7 @@ title: How to Configure Published Applications
 description: How to Configure Published Applications
 author: aczechowski
 ms.assetid: 43a59ff7-5d4e-49dc-84e5-1082bc4dd8f4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -37,7 +36,7 @@ An application can be published in one of the following ways:
 
 4.  On the **Policy** menu, select **Commit**.
 
-    **Note**  
+    **Note**
     If you are setting Internet Explorer as a published application to ensure that Web redirection works properly, make certain that any parameters are not in parentheses.
 
 
@@ -186,7 +185,7 @@ All published applications appear as shortcuts in the Windows **Start** menu (**
 
 All published menus appear as shortcuts in the Windows **Start** menu (**Start &gt;All Programs&gt; MED-V Applications**). You can change the name of the shortcut in the **Start-menu shortcuts folder** field.
 
-**Note**  
+**Note**
 When configuring two MED-V workspaces, it is recommended to configure a different name for the Start menu shortcuts folder.
 
 
@@ -215,7 +214,7 @@ The administrator can run published applications from any location, such as a de
 "<Install path>\Manager\KidaroCommands.exe" /run "<published application name>" "<MED-V workspace name>"
 ```
 
-**Note**  
+**Note**
 The MED-V workspace in which the published application is defined must be running.
 
 

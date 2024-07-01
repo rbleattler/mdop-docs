@@ -3,8 +3,7 @@ title: Upgrading to MBAM 2.5 or MBAM 2.5 SP1 from Previous Versions
 description: Upgrading to MBAM 2.5 or MBAM 2.5 SP1 from Previous Versions
 author: aczechowski
 ms.assetid: a9edb4b8-5d5e-42ab-8db6-619db2878e50
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ This topic describes the process for upgrading the Microsoft BitLocker Administr
 **Note**  
 You can upgrade directly to MBAM 2.5 or MBAM 2.5 SP1 from any previous version of MBAM.
 
- 
+
 
 ## Before you start the upgrade
 
@@ -86,7 +85,7 @@ Review the following information before you start the upgrade.
 </tbody>
 </table>
 
- 
+
 
 ## Steps to upgrade the MBAM Server infrastructure
 
@@ -104,7 +103,7 @@ Use the steps in the following sections to upgrade MBAM for the Stand-alone topo
     **Note**  
     The databases will not be removed, and all compliance and recovery data is maintained in the database.
 
-     
+
 
 4.  Install and configure the MBAM 2.5 or 2.5 SP1 databases, reports, and web applications, in that order. The databases are upgraded in place.
 
@@ -127,7 +126,7 @@ Use the steps in the following sections to upgrade MBAM for the Stand-alone topo
     **Note**  
     The databases and the Configuration Manager objects (baseline, MBAM supported computers collection, and Reports) will not be removed, and all compliance and recovery data is maintained in the database.
 
-     
+
 
 5.  Update the .mof files.
 
@@ -161,7 +160,7 @@ MBAM supports upgrades to the MBAM 2.5 Client from any earlier version of the M
 
 [Configuring the MBAM 2.5 Server Features](configuring-the-mbam-25-server-features.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

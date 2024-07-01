@@ -3,8 +3,7 @@ title: How to Remove a Server Group
 description: How to Remove a Server Group
 author: aczechowski
 ms.assetid: 3017f4f4-614b-4db4-834c-b6fd9b45f10c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

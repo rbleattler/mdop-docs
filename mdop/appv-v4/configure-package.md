@@ -3,8 +3,7 @@ title: CONFIGURE PACKAGE
 description: CONFIGURE PACKAGE
 author: aczechowski
 ms.assetid: acc7eaa8-6ada-47b9-a655-2ca2537605b9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

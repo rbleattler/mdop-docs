@@ -2,8 +2,7 @@
 title: Deploying MBAM with Configuration Manager
 description: Deploying MBAM with Configuration Manager
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---

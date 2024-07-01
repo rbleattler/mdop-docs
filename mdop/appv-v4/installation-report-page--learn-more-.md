@@ -3,8 +3,7 @@ title: Installation Report Page (Learn More)
 description: Installation Report Page (Learn More)
 author: aczechowski
 ms.assetid: 499cf4db-a39c-4dcf-b1cf-85fd7da11701
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Installation Report** page to review the results of the sequencing pro
 
 This page contains the following elements:
 
-<a href="" id="information-pane"></a>**Information Pane**  
+<a href="" id="information-pane"></a>**Information Pane**
 Displays problems and additional information about the overall sequencing process.
 
 ## Related topics

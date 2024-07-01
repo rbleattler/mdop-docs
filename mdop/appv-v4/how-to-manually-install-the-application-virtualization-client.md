@@ -3,8 +3,7 @@ title: How to Manually Install the Application Virtualization Client
 description: How to Manually Install the Application Virtualization Client
 author: aczechowski
 ms.assetid: bb67f70b-d525-4317-b254-e4f084c717ab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -16,12 +15,12 @@ ms.date: 08/30/2016
 
 There are two types of Application Virtualization Client components: the Application Virtualization Desktop Client, which is designed for installation on desktop computers, and the Application Virtualization Client for Remote Desktop Services (formerly Terminal Services), which you can install on Remote Desktop Session Host (RD Session Host) servers . Although the two client installer programs are different, you can use the following procedure to manually install either the Application Virtualization Desktop Client on a single desktop computer or the Application Virtualization Client for Remote Desktop Services on a single RD Session Host server. In a production environment, you most likely will install the Application Virtualization Desktop Client on multiple desktop computers with an automated scripted installation process. For information about how to install multiple clients by using a scripted installation process, see [How to Install the Client by Using the Command Line](how-to-install-the-client-by-using-the-command-line-new.md).
 
-**Note**  
+**Note**
 1. If you are installing the Application Virtualization Client for Remote Desktop Services software on a RD Session Host server, advise users who have an open RDP or ICA client session with the RD Session Host server that they must save their work and close their sessions. In a Remote Desktop session, you can install the client the client manually. For more information about upgrading the client, see [How to Upgrade the Application Virtualization Client](how-to-upgrade-the-application-virtualization-client.md).
 
 2. If you have any configuration on the user’s computer that depends on the client install path, note that the Application Virtualization (App-V) 4.5 client uses a different install folder than previous versions. By default, a new install of the Application Virtualization (App-V) 4.5 client will install to the \\Program Files\\Microsoft Application Virtualization Client folder. If an earlier version of the client is already installed, installing the App-V client will perform an upgrade into the existing installation folder.
 
-**Note**  
+**Note**
 For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL is installed in the Windows\\system32 directory. If the App-V client is installed on a 64-bit system, SFTLDR\_WOW64.DLL is installed in the Windows\\SysWOW64 directory.
 
 **To manually install Application Virtualization Desktop Client**
@@ -42,7 +41,7 @@ For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL 
 
     - Microsoft Application Error Reporting
 
-    **Note**  
+    **Note**
     For App-V version 4.6 and later, the wizard will also install Microsoft Visual C++ 2008 SP1 Redistributable Package (x86).
 
     For more information about installing Microsoft Visual C++ 2008 SP1 Redistributable Package (x86), see [https://go.microsoft.com/fwlink/?LinkId=150700](https://go.microsoft.com/fwlink/?LinkId=150700).
@@ -71,7 +70,7 @@ For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL 
 
     3. Enter a new path to store the user-specific data in the **User-specific Data Location** field if you want to change the data location. The User Data Directory is where the Application Virtualization Desktop Client stores user-specific information, like personal settings for virtualized applications.
 
-       **Note**  
+       **Note**
        This path must be different for every user, so it should include a user-specific environment variable or a mapped drive or something else that will resolve to a unique path for each user.
 
     4. When you have finished making the changes, click **Next**.
@@ -82,7 +81,7 @@ For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL 
 
     2. **Use free disk space threshold**. Enter a numeric value to specify the amount of free disk space, in MB, that the Application Virtualization Client must leave available on the disk. This allows the cache to grow until the amount of free disk space reaches this limit. The value shown in **Free disk space remaining** indicates how much disk space is currently unused.
 
-    **Important**  
+    **Important**
     To ensure that the cache has sufficient space allocated for all packages that might be deployed, use the **Use free disk space threshold** setting when you configure the client so that the cache can grow as needed. Alternatively, determine in advance how much disk space will be needed for the App-V cache, and at installation time, set the cache size accordingly. For more information about the cache space management feature, in the Microsoft Application Virtualization (App-V) Operations Guide, see **How to Use the Cache Space Management Feature**.
 
     Click **Next** to continue.
@@ -97,7 +96,7 @@ For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL 
 
     4. **Automatically Load Application**. Controls when and how automatic background loading of applications occurs.
 
-       **Note**  
+       **Note**
        When you install the App-V client to use with a read-only cache, for example, with a VDI server implementation, set **What applications to Auto Load** to **Do not automatically load applications** to prevent the client from trying to update applications in the read-only cache.
 
     Click **Next** to continue.
@@ -120,7 +119,7 @@ For App-V version 4.6 and later, when the App-V client is installed, SFTLDR.DLL 
 
 17. On the **Install Wizard Completed** screen, click **Finish**.
 
-    **Note**  
+    **Note**
     If the installation fails for any reason, you might need to restart the computer before trying the install again.
 
 ## Related topics

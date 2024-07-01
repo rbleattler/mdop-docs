@@ -2,8 +2,7 @@
 title: Run crash analyzer in stand-alone mode on a computer other than an end-user computer
 description: How to run the crash analyzer in stand-alone mode on a computer other than an end-user computer.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021

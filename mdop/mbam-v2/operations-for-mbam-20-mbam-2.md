@@ -3,8 +3,7 @@ title: Operations for MBAM 2.0
 description: Operations for MBAM 2.0
 author: aczechowski
 ms.assetid: ece72016-4ffa-48df-8c12-1e442ee9e980
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage

@@ -2,8 +2,7 @@
 title: Import an application
 description: How to import an application
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 06/16/2016
 ---

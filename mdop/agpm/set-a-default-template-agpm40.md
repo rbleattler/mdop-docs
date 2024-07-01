@@ -3,8 +3,7 @@ title: How to Set a Default Template
 description: Set a Default Template in AGPM 4.
 author: aczechowski
 ms.assetid: 07208b6b-cb3a-4f6c-9c84-36d4dc1486d8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -22,7 +21,7 @@ As an Editor, you can specify which of the available templates will be the defau
 **Note**  
 A template is an uneditable, static version of a GPO for use as a starting point for creating new, editable GPOs.
 
- 
+
 
 A user account with the Editor or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
 
@@ -54,9 +53,9 @@ A user account with the Editor or AGPM Administrator (Full Control) role or nece
 
 -   [Request the Creation of a New Controlled GPO](request-the-creation-of-a-new-controlled-gpo-agpm40.md)
 
- 
 
- 
+
+
 
 
 

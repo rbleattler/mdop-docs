@@ -3,8 +3,7 @@ title: UE-V Checklist
 description: UE-V Checklist
 author: aczechowski
 ms.assetid: 0e4b9bd5-4e60-4673-b698-90612008fc2b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -67,7 +66,7 @@ Use this checklist to plan for preparing your computing environment for Microsof
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -76,9 +75,9 @@ Use this checklist to plan for preparing your computing environment for Microsof
 
 [Deploying UE-V 1.0](deploying-ue-v-10.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Server Management Console Provider Policies Node
 description: Server Management Console Provider Policies Node
 author: aczechowski
 ms.assetid: a5b99158-9af8-45bb-b3b8-61e220529e14
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="provider-policies-node"></a>[Provider Policies Node](provider-policies-node.md)  
+<a href="" id="provider-policies-node"></a>[Provider Policies Node](provider-policies-node.md)
 Describes the features and commands available from the **Provider Policies** node.
 
-<a href="" id="provider-policies-results-pane"></a>[Provider Policies Results Pane](provider-policies-results-pane.md)  
+<a href="" id="provider-policies-results-pane"></a>[Provider Policies Results Pane](provider-policies-results-pane.md)
 Describes the features and commands available in the **Provider Policies** node **Results** pane.
 
-<a href="" id="provider-policies-results-pane-columns"></a>[Provider Policies Results Pane Columns](provider-policies-results-pane-columns.md)  
+<a href="" id="provider-policies-results-pane-columns"></a>[Provider Policies Results Pane Columns](provider-policies-results-pane-columns.md)
 Describes the columns available in the **Provider Policies** node **Results** pane.
 
 ## Related topics

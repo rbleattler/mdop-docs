@@ -3,8 +3,7 @@ title: Manage Administrative Backup and Restore in UE-V 2.x
 description: Manage Administrative Backup and Restore in UE-V 2.x
 author: aczechowski
 ms.assetid: 2eb5ae75-65e5-4afc-adb6-4e83cf4364ae
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -90,7 +89,7 @@ Restoring a user’s device restores the currently registered Template’s setti
 
     If the user’s UE-V settings storage path, domain, and Computer name match the current user then all of the settings for that user are synchronized, with only the latest settings applied. If a user logs on to a new device for the first time and these criteria are met, the settings data is applied to that device.
 
-    **Note**  
+    **Note**
     Accessibility and Windows Desktop settings require the user to re-logon to Windows to be applied.
 
 
@@ -159,7 +158,7 @@ WMI and Windows PowerShell commands let you restore application and Windows sett
 
 
 
-**Note**  
+**Note**
 UE-V does not provide a settings rollback for Windows apps.
 
 

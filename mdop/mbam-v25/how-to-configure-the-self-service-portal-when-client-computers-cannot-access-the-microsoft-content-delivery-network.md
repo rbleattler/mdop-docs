@@ -3,8 +3,7 @@ title: How to Configure the Self-Service Portal When Client Computers Cannot Acc
 description: How to Configure the Self-Service Portal When Client Computers Cannot Access the Microsoft Content Delivery Network
 author: aczechowski
 ms.assetid: 90ee76db-9876-41b5-994a-118556d5ed3b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -26,7 +25,7 @@ Your client computers need access to the CDN, which gives the Self-Service Porta
 **Note**  
 In MBAM 2.5 SP1, the JavaScript files are included in the product, and you do not need to follow the instructions in this section to configure the SSP to support clients that cannot access the internet.
 
- 
+
 
 **How to configure the Self-Service Portal when client computers cannot access the CDN**
 
@@ -44,10 +43,10 @@ In MBAM 2.5 SP1, the JavaScript files are included in the product, and you do no
 
 4. Expand **Sites** &gt; **Microsoft BitLocker Administration and Monitoring**, and highlight **SelfService**.
 
-   **Note**  
+   **Note**
    *SelfService* is the default virtual directory name. If you chose a different name for this directory during the configuration, remember to replace *SelfService* in these instructions with the name you chose.
 
-     
+
 
 5. In the middle pane, double-click **Application Settings**.
 
@@ -66,7 +65,7 @@ In MBAM 2.5 SP1, the JavaScript files are included in the product, and you do no
 
 [How to Configure the MBAM 2.5 Web Applications](how-to-configure-the-mbam-25-web-applications.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

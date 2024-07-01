@@ -2,8 +2,7 @@
 title: Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0
 description: Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -49,7 +48,7 @@ For this scenario, you'll use a separate user account for each role in AGPM to d
 
 ### AGPM Server requirements
 
-AGPM Server 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from Remote Server Administration Tools (RSAT). Both 32-bit and 64-bit versions are supported. 
+AGPM Server 4.0 requires Windows Server 2012 or Windows 10 and newer and the GPMC from Remote Server Administration Tools (RSAT). Both 32-bit and 64-bit versions are supported.
 
 Before you install AGPM Server, you must be a member of the Domain Admins group and the following Windows features must be present unless otherwise noted:
 
@@ -90,7 +89,7 @@ Before you begin this scenario, create four user accounts. During the scenario, 
 > [!NOTE]
 > **Link GPOs** permission is assigned to members of Domain Administrators and Enterprise Administrators by default. To assign **Link GPOs** permission to additional users or groups (such as accounts that have the roles of AGPM Administrator or Approver), select the node for the domain and then select the **Delegation** tab, select **Link GPOs**, select **Add**, and select users or groups to which you want to assign the permission.
 
- 
+
 
 ## Steps for installing and configuring AGPM
 
@@ -133,7 +132,7 @@ In this step, you install AGPM Server on the member server or domain controller 
 
     -   Backup Operators
 
-    This account must be member of the local Administrators Group on the AGPM Server Computer. This is required to successfully handle 
+    This account must be member of the local Administrators Group on the AGPM Server Computer. This is required to successfully handle
 
     Additionally, this account requires Full Control permission for the following folders:
 
@@ -149,10 +148,10 @@ In this step, you install AGPM Server on the member server or domain controller 
 
 11. Select **Install**, and then select **Finish** to exit the Setup Wizard.
 
-    **Caution**  
+    **Caution**
     Don't change settings for the AGPM Service through **Administrative Tools** and **Services** in the operating system. Doing this can prevent the AGPM Service from starting. For information about how to change settings for the service, see Help for Advanced Group Policy Management.
 
-     
+
 
 ### <a name="bkmk-config2"></a>Step 2: Install AGPM Client
 
@@ -202,7 +201,7 @@ As an AGPM Administrator (Full Control), you designate the e-mail addresses of A
 
 **To configure e-mail notification for AGPM**
 
-1.  In **Group Policy Management Editor** , navigate to the **Change Control** folder 
+1.  In **Group Policy Management Editor** , navigate to the **Change Control** folder
 
 2.  In the details pane, select the **Domain Delegation** tab.
 
@@ -221,12 +220,12 @@ As an AGPM Administrator (Full Control), you delegate domain-level access to GPO
 > [!NOTE]
 > You can also delegate access at the GPO level instead of the domain level. For more information, see Help for Advanced Group Policy Management.
 
- 
+
 
 > [!IMPORTANT]
 > You should restrict membership in the Group Policy Creator Owners group so that it cannot be used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, select **Group Policy Objects** in the forest and domain in which you want to manage GPOs, select **Delegation**, and then configure the settings to meet the needs of your organization.)
 
- 
+
 
 **To delegate access to all GPOs throughout a domain**
 

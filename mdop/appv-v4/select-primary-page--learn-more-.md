@@ -3,8 +3,7 @@ title: Select Primary Page (Learn More)
 description: Select Primary Page (Learn More)
 author: aczechowski
 ms.assetid: 17c779da-f683-4967-b136-94fe65373c1b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -30,7 +29,7 @@ You can also use an existing virtual application package as the parent applicati
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the program that the add-in or plug-in you are sequencing will be associated with.
 
 ## Related topics

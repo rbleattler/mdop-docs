@@ -3,8 +3,7 @@ title: Illustrated Features of an MBAM 2.5 Deployment
 description: Illustrated Features of an MBAM 2.5 Deployment
 author: aczechowski
 ms.assetid: 7b5eff42-af8c-4bd0-a20a-18cc2e779f01
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -23,7 +22,7 @@ This topic describes the individual features that make up a Microsoft BitLocker 
 
 -   System Center Configuration Manager Integration
 
-**Important**  
+**Important**
 These features do not represent the recommended architecture for deploying MBAM. Use this information only as a guide to understand the individual features that make up an MBAM deployment. See [High-Level Architecture for MBAM 2.5](high-level-architecture-for-mbam-25.md) for the recommended architecture for MBAM.
 
 
@@ -51,10 +50,10 @@ The following image and table explain the features in an MBAM Stand-alone topolo
 |Administration and Monitoring Server|||
 |Administration and Monitoring Web Service|The Monitoring Web Service is used by the MBAM Client and the websites to communicate to the databases.|This feature is installed on a computer running Windows Server.|
 
-**Important**  
+**Important**
 The Self-Service Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1, in which the MBAM Client, the Administration and Monitoring Website, and the Self-Service Portal communicate directly with the Recovery Database.
 
-**Important**  
+**Important**
 The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM Client and the websites communicate directly with the Recovery Database.
 
 
@@ -64,10 +63,10 @@ The following image and table explain the features in the System Center Configur
 
 ![mbam2\-5.](images/mbam2-5-cmcomponents.png)
 
-**Important**  
+**Important**
 The Self-Service Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1, in which the MBAM Client, the Administration and Monitoring Website, and the Self-Service Portal communicate directly with the Recovery Database.
 
-**Warning**  
+**Warning**
 The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM Client and the websites communicate directly with the Recovery Database.
 
 

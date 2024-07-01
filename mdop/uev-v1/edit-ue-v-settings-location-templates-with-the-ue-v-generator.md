@@ -3,8 +3,7 @@ title: Edit UE-V Settings Location Templates with the UE-V Generator
 description: Edit UE-V Settings Location Templates with the UE-V Generator
 author: aczechowski
 ms.assetid: da78f9c8-1624-4111-8c96-79db7224bd0b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

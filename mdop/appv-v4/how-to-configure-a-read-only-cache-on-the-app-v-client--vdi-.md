@@ -3,8 +3,7 @@ title: How to Configure a Read-only Cache on the App-V Client (VDI)
 description: How to Configure a Read-only Cache on the App-V Client (VDI)
 author: aczechowski
 ms.assetid: 7a41e017-9e23-4a6a-a659-04d23f008b83
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,7 +20,7 @@ In Microsoft Application Virtualization (App-V) 4.6 the Client supports using a 
 **Note**  
 The details outlined in these procedures are intended as examples only. You might use different methods to complete the overall process.
 
- 
+
 
 ## Deploying the App-V Client in a VDI Scenario
 
@@ -43,7 +42,7 @@ These tasks require careful planning. We recommend that you prepare and document
 **Note**  
 Although you can publish the applications by using several different methods, the following procedures are based on the use of an App-V Management Server for publishing.
 
- 
+
 
 **To configure the read-only cache for initial deployment in a Pooled VM VDI or Static VM VDI scenario**
 
@@ -53,24 +52,24 @@ Although you can publish the applications by using several different methods, th
 
 3. Set up a staging computer that has the App-V Client installed. Log on to the staging computer with an account that has access to all applications so that the complete set of applications are published to the computer, and then stream the applications to cache so that they are fully loaded.
 
-   **Important**  
+   **Important**
    The staging computer must use the same operating system type and system architecture as those used by the VMs on which the App-V Client will run.
 
-     
+
 
 4. Restart the staging computer in Safe Mode to ensure the drivers are not started, which would lock the cache file.
 
-   **Note**  
+   **Note**
    Alternatively, you can stop and disable the Application Virtualization service, and then restart the computer. After the file has been copied, remember to enable and start the service again.
 
-     
+
 
 5. Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder. Set the folder access permissions to Read-only for the group Everyone and to Full Control for administrators who will manage the cache file updates. The location of the cache file can be obtained from the registry AppFS\\FileName.
 
-   **Important**  
+   **Important**
    You must put the FSD file in a location that has the responsiveness and reliability equivalent to locally attached storage performance, for example, a SAN.
 
-     
+
 
 6. Install the App-V Desktop Client on the VDI Master VM Image, and then configure it to use the read-only cache by adding the following registry key values to the AppFS key on the client. The AppFS key is located at HKEY\_LOCAL\_MACHINE\\SOFTWARE\\\[Wow6432Node\\\]Microsoft\\SoftGrid\\4.5\\Client\\AppFS.
 
@@ -111,7 +110,7 @@ Although you can publish the applications by using several different methods, th
    </tbody>
    </table>
 
-     
+
 
 7. Configure the Master VM Image client to use the publishing server and to use publishing refresh at logon. As users log on to the VDI system and their VM is built from the Master VM Image, a publishing refresh cycle occurs and publishes all the applications for which their account is authorized. These applications are run from the shared cache.
 
@@ -126,7 +125,7 @@ Although you can publish the applications by using several different methods, th
     **Note**  
     Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer. After the file has been copied, remember to enable and start the service again.
 
-     
+
 
 4.  Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder. You can use a different filename, for example, SFTFS\_V2.FSD, to distinguish the new version.
 
@@ -143,7 +142,7 @@ Although you can publish the applications by using several different methods, th
     **Note**  
     Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer. After the file has been copied, remember to enable and start the service again.
 
-     
+
 
 4.  Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder. You can use a different filename, for example, SFTFS\_V2.FSD, to distinguish the new version.
 
@@ -171,7 +170,7 @@ Instead of modifying the AppFS key FILENAME value every time that a new cache fi
     **Note**  
     On the storage server, appropriate link permissions must be enabled. Depending on the location of link and the Sftfs.fsd file, the permissions are **L2L:1** or **L2R:1** or **R2L:1** or **R2R:1**.
 
-     
+
 
 4.  When you configure the App-V Desktop Client on the VDI Master VM Image, set the AppFS key FILENAME value equal to the UNC path of the FSD file that is using the symbolic link; for example, set it to \\\\VDIHostserver\\Symlinkname. When the App-V client first accesses the cache, the symbolic link passes to the client a handle to the cache file. The client continues to use that handle as long as the client is running. The value of the symbolic link can safely be updated even if existing clients have the old shared cache open.
 
@@ -186,9 +185,9 @@ Instead of modifying the AppFS key FILENAME value every time that a new cache fi
 
 [How to Install the Client by Using the Command Line](how-to-install-the-client-by-using-the-command-line-new.md)
 
- 
 
- 
+
+
 
 
 

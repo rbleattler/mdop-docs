@@ -3,8 +3,7 @@ title: Limit the GPO Versions Stored
 description: Limit the GPO Versions Stored
 author: aczechowski
 ms.assetid: da14edc5-0c36-4c54-b122-861c86b99eb1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -32,7 +31,7 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
     **Important**  
     Only GPO versions displayed on the **Unique Versions** tab of the **History** window count toward the limit.
 
-     
+
 
 4.  Click the **Apply** button.
 
@@ -46,9 +45,9 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 -   [Managing the Archive](managing-the-archive.md)
 
- 
 
- 
+
+
 
 
 

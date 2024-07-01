@@ -3,8 +3,7 @@ title: Install the Sequencer
 description: Install the Sequencer
 author: aczechowski
 ms.assetid: a122caf0-f408-458c-b119-dc84123c1d58
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -24,7 +23,7 @@ Upgrading a previous installation of the App-V sequencer is not supported.
 **Important**  
 For a full list of the sequencer requirements see sequencer sections of [App-V 5.0 Prerequisites](app-v-50-prerequisites.md) and [App-V 5.0 Supported Configurations](app-v-50-supported-configurations.md).
 
- 
+
 
 You can also use the command line to install the App-V 5.0 sequencer. The following list displays information about options for installing the sequencer using the command line and **appv\_sequencer\_setup.exe**:
 
@@ -79,7 +78,7 @@ You can also use the command line to install the App-V 5.0 sequencer. The follow
 </tbody>
 </table>
 
- 
+
 
 **To install the App-V 5.0 sequencer**
 
@@ -104,9 +103,9 @@ You can also use the command line to install the App-V 5.0 sequencer. The follow
 
 [Planning to Deploy App-V](planning-to-deploy-app-v.md)
 
- 
 
- 
+
+
 
 
 

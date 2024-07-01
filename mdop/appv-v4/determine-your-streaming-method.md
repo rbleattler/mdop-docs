@@ -3,8 +3,7 @@ title: Determine Your Streaming Method
 description: Determine Your Streaming Method
 author: aczechowski
 ms.assetid: 50d5e0ec-7f48-4cea-8711-5882bd89153b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,14 +20,14 @@ The first time that a user double-clicks the icon that has been placed on a comp
 **Note**  
 *Streaming* is the term used to describe the process of obtaining content from a sequenced application package, starting with the primary feature block and then obtaining additional blocks as needed.
 
- 
+
 
 The streaming source location is usually a server that is accessible by the user’s computer; however, some electronic distribution systems, such as Microsoft Endpoint Configuration Manager, can distribute the SFT file to the user’s computer and then stream the virtual application package locally from that computer’s cache.
 
 **Note**  
 A streaming source location for virtual packages can be set up on a computer that is not a server. This is especially useful in a small branch office that has no server.
 
- 
+
 
 The streaming sources that can be used to store sequenced applications are described in the following table.
 
@@ -94,7 +93,7 @@ The streaming sources that can be used to store sequenced applications are descr
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
@@ -105,9 +104,9 @@ The streaming sources that can be used to store sequenced applications are descr
 
 [Determine Your Publishing Method](determine-your-publishing-method.md)
 
- 
 
- 
+
+
 
 
 

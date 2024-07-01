@@ -2,8 +2,7 @@
 title: App-V 5.1 Prerequisites
 description: App-V 5.1 Prerequisites
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

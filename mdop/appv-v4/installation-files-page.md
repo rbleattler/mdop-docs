@@ -3,8 +3,7 @@ title: Installation Files Page
 description: Installation Files Page
 author: aczechowski
 ms.assetid: b0aad26f-b143-4f09-87a1-9f016a23cb62
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,16 +19,16 @@ Use the **Installation Files** page to specify the installation files that were 
 
 This page contains the following elements:
 
-<a href="" id="original-installation-files"></a>**Original Installation Files**  
+<a href="" id="original-installation-files"></a>**Original Installation Files**
 Click **Browse** to specify the installation files that were originally used to create the virtual application package. The parent directory you specify should be saved locally to the computer running the Sequencer and must contain all required installation files or subfolders that contain the installation files. The installation files can be contained in the parent folder or in any of the subfolders of the specified parent folder.
 
-<a href="" id="files-installed-on-local-system"></a>**Files installed on local system**  
+<a href="" id="files-installed-on-local-system"></a>**Files installed on local system**
 Click **Browse** to specify the installation files that have been installed locally on the computer running the Sequencer. You can only select this option if the application installation files have been installed to the application’s default location.
 
 **Note**  
 The default installation location you provide depends on the following conditions:
 
- 
+
 
 -   The package root specified when the package was originally created.
 
@@ -48,9 +47,9 @@ When you create a package using a package accelerator, each file in the package,
 
 [Create Package Accelerator Wizard (AppV 4.6 SP1)](create-package-accelerator-wizard--appv-46-sp1-.md)
 
- 
 
- 
+
+
 
 
 

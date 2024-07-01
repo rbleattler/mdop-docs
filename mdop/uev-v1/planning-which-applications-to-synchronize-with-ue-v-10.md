@@ -3,8 +3,7 @@ title: Planning Which Applications to Synchronize with UE-V 1.0
 description: Planning Which Applications to Synchronize with UE-V 1.0
 author: aczechowski
 ms.assetid: c718274f-87b4-47f3-8ef7-5e1bd5557a9d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -71,7 +70,7 @@ The UE-V agent installation software installs the agent and registers a default 
 </tbody>
 </table>
 
- 
+
 
 Application settings are applied to the application when the application is started. They are saved when the application closes.
 
@@ -116,7 +115,7 @@ User Experience Virtualization includes settings location templates that capture
 </tbody>
 </table>
 
- 
+
 
 The Windows desktop background and Ease of Access settings are applied when the user logs on, when the computer is unlocked, or upon remote connection to another computer. The agent saves these settings when the user logs off, when the computer is locked, or when a remote connection is disconnected. By default, Windows desktop background settings are roamed between computers of the same operating system version.
 
@@ -127,7 +126,7 @@ UE-V does not support the roaming of settings between operating systems with dif
 **Note**  
 If you change the settings location templates that are provided by Microsoft, User Experience Virtualization might not work properly for the designated application or Windows settings group.
 
- 
+
 
 ## <a href="" id="prevent-unintentional-user-settings-configuration-"></a>Prevent unintentional user Settings configuration
 
@@ -164,9 +163,9 @@ For guidance on whether a line-of-business application should be synchronized, s
 
 [Deploying UE-V 1.0](deploying-ue-v-10.md)
 
- 
 
- 
+
+
 
 
 

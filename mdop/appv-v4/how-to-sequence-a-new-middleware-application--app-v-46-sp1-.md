@@ -3,8 +3,7 @@ title: How to Sequence a New Middleware Application (App-V 4.6 SP1)
 description: How to Sequence a New Middleware Application (App-V 4.6 SP1)
 author: aczechowski
 ms.assetid: 304045c2-5e5e-4c91-b59e-a91fdf2500fb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the following procedure to create a new middleware virtual application packa
 
 Use this type of package by using Dynamic Suite Composition in App-V. Dynamic Suite Composition enables you to define a virtual application package as being dependent on another virtual application package. The dependency enables the application to interact with the middleware or plug-in in the virtual environment, where typically this interaction is prevented. This is useful because a secondary application package can be used with several other primary applications, which enables each primary application to reference the same secondary package. For more information about how to use Dynamic Suite Composition, see [How To Use Dynamic Suite Composition](https://go.microsoft.com/fwlink/?LinkID=203804&clcid=0x409) in the Microsoft Technical Library (https://go.microsoft.com/fwlink/?LinkID=203804&clcid=0x409).
 
-**Important**  
+**Important**
 During sequencing, if the computer running the App-V Sequencer is running Windows Vista or Windows 7 and a restart is initiated outside of the virtual environment, for example, **Start** / **Shut Down**, you must click **Cancel** when prompted to close the program that is preventing Windows from shutting down. If you click **Force shut down**, the package creation fails. When you click **Cancel**, App-V Sequencer successfully records the restart while the application is being sequenced.
 
 
@@ -33,7 +32,7 @@ During sequencing, if the computer running the App-V Sequencer is running Window
 
 3.  On the **Prepare Computer** page, review the issues that might cause the package creation to fail, or for the package to contain unnecessary data. We strongly recommend that you resolve all potential issues before you continue. After you have fixed the conflicts, to update the information displayed, click **Refresh**. After you have resolved all potential issues, click **Next**.
 
-    **Important**  
+    **Important**
     If you are required to disable virus scanning software, you must scan the computer running the App-VSequencer to ensure that no unwanted or malicious files can be added to the package.
 
 
@@ -46,7 +45,7 @@ During sequencing, if the computer running the App-V Sequencer is running Window
 
 6.  On the **Package Name** page, specify a name that will be associated with the package. The name helps identify the purpose and version of the application that will be added to the package. The package name is also displayed in the App-V Management Console. The **Installation Location** displays the application virtualization path where the application will be installed. To edit this location, select **Edit (Advanced)**.
 
-    **Important**  
+    **Important**
     Editing the Application Virtualization path is an advanced configuration task. You should fully understand the implications of changing the path. For most applications, we recommend the default path.
 
 
@@ -71,7 +70,7 @@ Click **Next**.
 
    The package is now available in the Sequencer. To edit the package properties, click **Edit \[Package Name\]**. For more information about modifying a package, see [How to Modify an Existing Virtual Application Package (App-V 4.6 SP1)](how-to-modify-an-existing-virtual-application-package--app-v-46-sp1-.md)
 
-   **Important**  
+   **Important**
    After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the Sequencer.
 
 

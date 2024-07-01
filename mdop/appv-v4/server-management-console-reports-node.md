@@ -3,8 +3,7 @@ title: Server Management Console Reports Node
 description: Server Management Console Reports Node
 author: aczechowski
 ms.assetid: 9dde6332-5882-40dd-8a8f-857216df80ed
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The topics in this section provide information about the screen reference for th
 ## In This Section
 
 
-<a href="" id="reports-node"></a>Reports Node  
+<a href="" id="reports-node"></a>Reports Node
 Describes the features and commands available from the **Reports** node.
 
-<a href="" id="reports-results-pane"></a>[Reports Results Pane](reports-results-pane.md)  
+<a href="" id="reports-results-pane"></a>[Reports Results Pane](reports-results-pane.md)
 Describes the features and commands available in the **Reports** node **Results** pane.
 
-<a href="" id="reports-results-pane-columns"></a>[Reports Results Pane Columns](reports-results-pane-columns.md)  
+<a href="" id="reports-results-pane-columns"></a>[Reports Results Pane Columns](reports-results-pane-columns.md)
 Describes the columns available in the **Reports** node **Results** pane.
 
 ## Related topics

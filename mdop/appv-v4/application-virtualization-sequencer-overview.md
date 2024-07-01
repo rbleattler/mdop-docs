@@ -3,8 +3,7 @@ title: Application Virtualization Sequencer Overview
 description: Application Virtualization Sequencer Overview
 author: aczechowski
 ms.assetid: e6422a28-633e-4dff-8abb-7cf6a5468112
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,16 +22,16 @@ Click the associated link for more information about the App-V Sequencer:
 ## In This Section
 
 
-<a href="" id="about-the-application-virtualization-sequencer"></a>[About the Application Virtualization Sequencer](about-the-application-virtualization-sequencer.md)  
+<a href="" id="about-the-application-virtualization-sequencer"></a>[About the Application Virtualization Sequencer](about-the-application-virtualization-sequencer.md)
 Provides general information about the sequencer.
 
-<a href="" id="about-the-sequencer-console"></a>[About the Sequencer Console](about-the-sequencer-console.md)  
+<a href="" id="about-the-sequencer-console"></a>[About the Sequencer Console](about-the-sequencer-console.md)
 Provides information about the App-V sequencer console.
 
-<a href="" id="about-using-the-sequencer-command-line"></a>[About Using the Sequencer Command Line](about-using-the-sequencer-command-line.md)  
+<a href="" id="about-using-the-sequencer-command-line"></a>[About Using the Sequencer Command Line](about-using-the-sequencer-command-line.md)
 Provides information about using the command line to sequence applications.
 
-<a href="" id="best-practices-for-the-application-virtualization-sequencer"></a>[Best Practices for the Application Virtualization Sequencer](best-practices-for-the-application-virtualization-sequencer-sp1.md)  
+<a href="" id="best-practices-for-the-application-virtualization-sequencer"></a>[Best Practices for the Application Virtualization Sequencer](best-practices-for-the-application-virtualization-sequencer-sp1.md)
 Provides important security-related planning information about setting up the Application Virtualization Sequencer to sequence application packages.
 
  

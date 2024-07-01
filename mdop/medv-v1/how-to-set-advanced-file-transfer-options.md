@@ -3,8 +3,7 @@ title: How to Set Advanced File Transfer Options
 description: How to Set Advanced File Transfer Options
 author: aczechowski
 ms.assetid: 5e9f8749-a5a9-48c6-9bfc-6b8e0cbe6cab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

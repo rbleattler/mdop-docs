@@ -3,8 +3,7 @@ title: Getting Started with DaRT 10
 description: Getting Started with DaRT 10
 author: aczechowski
 ms.assetid: 593dd317-4fba-4d51-8a80-951590acede6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -15,7 +14,7 @@ ms.date: 04/20/2021
 
 # Getting Started with DaRT 10
 
-Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning before you deploy it or use its features. If you are new to this product, we recommend that you read the documentation carefully. Before you deploy the product to a production environment, we also recommend that you validate your deployment plan in a test network environment. You might also consider taking a class about relevant technologies. 
+Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning before you deploy it or use its features. If you are new to this product, we recommend that you read the documentation carefully. Before you deploy the product to a production environment, we also recommend that you validate your deployment plan in a test network environment. You might also consider taking a class about relevant technologies.
 
 >[!NOTE]
 > A downloadable version of this administrator’s guide is not available. However, you can click **Download PDF** at the bottom of the Table of Contents pane to get a PDF version of this guide.

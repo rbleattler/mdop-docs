@@ -3,8 +3,7 @@ title: Open Package Wizard (AppV 4.6 SP1)
 description: Open Package Wizard (AppV 4.6 SP1)
 author: aczechowski
 ms.assetid: 26bdef59-2ea3-4e30-9095-0ee0d0085b2d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,10 +20,10 @@ Use any of the following links for more information about the App-V Open Package
 ## In This Section
 
 
-<a href="" id="select-task-page--learn-more-"></a>[Select Task Page (Learn More)](select-task-page--learn-more-.md)  
+<a href="" id="select-task-page--learn-more-"></a>[Select Task Page (Learn More)](select-task-page--learn-more-.md)
 Describes the options on the **Select Task** page to modify an existing virtual application package.
 
-<a href="" id="packaging-method--learn-more-"></a>[Packaging Method (Learn More)](packaging-method--learn-more-.md)  
+<a href="" id="packaging-method--learn-more-"></a>[Packaging Method (Learn More)](packaging-method--learn-more-.md)
 
 ## Related topics
 

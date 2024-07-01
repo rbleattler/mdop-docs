@@ -3,8 +3,7 @@ title: Getting Started With User Experience Virtualization 1.0
 description: Getting Started With User Experience Virtualization 1.0
 author: aczechowski
 ms.assetid: 74a068dc-4f87-4cb4-b114-8ca2a37149f7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -41,7 +40,7 @@ If you are new to this product, we recommend that you read the documentation car
 **Note**  
 A downloadable version of this administrator’s guide is not available. However, you can learn about a special mode of the TechNet Library that allows you to select articles, group them in a collection, and print them or export them to a file at <https://go.microsoft.com/fwlink/?LinkId=272497> (https://go.microsoft.com/fwlink/?LinkId=272497).
 
- 
+
 
 ## Getting started with Microsoft User Experience Virtualization topics
 
@@ -75,9 +74,9 @@ A downloadable version of this administrator’s guide is not available. However
 
 -   [Troubleshooting UE-V 1.0](troubleshooting-ue-v-10.md)
 
- 
 
- 
+
+
 
 
 

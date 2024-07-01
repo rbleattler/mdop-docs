@@ -3,8 +3,7 @@ title: How to Set Up an Unlimited License Group
 description: How to Set Up an Unlimited License Group
 author: aczechowski
 ms.assetid: 0c37c7b7-aba9-4c03-9e0e-94c966f874cf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
