@@ -564,6 +564,2666 @@
       "source_path": "mdop/mbam-v1/understanding-mbam-reports-mbam-1.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/understanding-mbam-reports-mbam-1.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-app-v-package-accelerators--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-app-v-package-accelerators--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-application-licensing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-application-licensing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-application-virtualization-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-application-virtualization-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-application-virtualization-packages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-application-virtualization-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-application-virtualization-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-application-virtualization-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-45-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-45-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-45-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-45-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-45.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-45",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-46-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-46-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-46-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-46-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-microsoft-application-virtualization-46.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-microsoft-application-virtualization-46",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-publishing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-publishing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-sequencing-phases.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-sequencing-phases",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-sharing-package-accelerators-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-sharing-package-accelerators-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-application-virtualization-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-application-virtualization-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-deployment-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-deployment-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-files-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-files-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-osd-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-osd-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-properties-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-properties-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-sequencer-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-sequencer-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-virtual-file-system-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-virtual-file-system-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-virtual-registry-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-virtual-registry-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-the-virtual-services-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-the-virtual-services-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-using-the-sequencer-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-using-the-sequencer-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/about-virtual-environments.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/about-virtual-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/add-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/add-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/add-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/add-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/add-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/add-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/add-type.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/add-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/administrators-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/administrators-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/administrators-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/administrators-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/administrators-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/administrators-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/antivirus-running-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/antivirus-running-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-45-sp2-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-45-sp2-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-46-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-46-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-46-sp1-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-46-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-46-sp2-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-46-sp2-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-46-sp3-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-46-sp3-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-application-wmi-class.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-application-wmi-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-client-registry-values-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-client-registry-values-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-desktop-client-security.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-desktop-client-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-installation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-installation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-interoperability-with-windows-applocker.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-interoperability-with-windows-applocker",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-package-wmi-class.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-package-wmi-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-postinstallation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-postinstallation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-pre-installation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-pre-installation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/app-v-upgrade-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/app-v-upgrade-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-utilization-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-utilization-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-hardware-and-software-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-hardware-and-software-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-installer-command-line-parameters.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-installer-command-line-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-management-console-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-management-console-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-management-console-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-management-console-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-management-console-roadmap.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-management-console-roadmap",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client-wmi-provider.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client-wmi-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-deployment-and-upgrade-checklists.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-deployment-and-upgrade-checklists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-deployment-and-upgrade-considerations-copy.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-deployment-and-upgrade-considerations-copy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-deployment-and-upgrade-considerations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-deployment-and-upgrade-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-deployment-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-deployment-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-glossary.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-glossary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-connectivity-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-connectivity-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-file-system-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-file-system-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-general-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-general-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-import-search-path-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-import-search-path-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-interface-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-interface-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-properties-permissions-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-properties-permissions-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-report-types.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-report-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-console-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-console-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-hardware-and-software-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-hardware-and-software-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-online-help.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-online-help",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-options-dialog-box.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer-technical-reference-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer-technical-reference-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-add-application-dialog-box.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-add-application-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-add-file-type-association-dialog-box.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-add-file-type-association-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-add-files-to-virtual-file-system-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-add-files-to-virtual-file-system-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-advanced-options-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-advanced-options-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-configure-application-page-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-configure-application-page-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-launch-applications-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-launch-applications-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-monitor-installation-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-monitor-installation-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-package-information-page-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-package-information-page-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-sequence-package-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-sequence-package-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-sequencing-wizard-shortcut-locations-dialog-box.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-sequencing-wizard-shortcut-locations-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-server-based-scenario-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-server-based-scenario-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-server-based-scenario.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-server-based-scenario",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-server-management-console-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-server-management-console-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-server-management-help.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-server-management-help",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-system-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-system-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/application-virtualization-technical-publications-white-papers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/application-virtualization-technical-publications-white-papers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-licenses-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-licenses-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-licenses-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-licenses-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-licenses-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-licenses-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-node-in-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-node-in-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-results-pane-columns-in-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-results-pane-columns-in-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-results-pane-in-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-results-pane-in-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/applications-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/applications-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/best-practices-for-the-application-virtualization-sequencer-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/best-practices-for-the-application-virtualization-sequencer-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/change-history-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/change-history-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/clear-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/clear-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/clear-obj.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/clear-obj",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-about-dialog-boxes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-about-dialog-boxes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-application-virtualization-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-application-virtualization-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-application-virtualization-properties.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-application-virtualization-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-applications-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-applications-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-file-type-associations-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-file-type-associations-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/client-management-console-publishing-servers-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/client-management-console-publishing-servers-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/command-line-errors.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/command-line-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/command-line-parameters.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/command-line-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/completion-page-package-accelerator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/completion-page-package-accelerator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/completion-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/completion-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-software-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-software-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-software-page-app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-software-page-app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configure-type.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configure-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-app-v-administration-for-a-distributed-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-app-v-administration-for-a-distributed-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-app-v-for-secure-administration.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-app-v-for-secure-administration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-certificates-to-support-app-v-management-server-or-streaming-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-certificates-to-support-app-v-management-server-or-streaming-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-certificates-to-support-secure-streaming.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-certificates-to-support-secure-streaming",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-certificates-to-support-the-app-v-web-management-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-certificates-to-support-the-app-v-web-management-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-iis-for-secure-streaming.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-iis-for-secure-streaming",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-management-or-streaming-server-for-secure-communications-post-installation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-management-or-streaming-server-for-secure-communications-post-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-prerequisite-groups-in-active-directory-for-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-prerequisite-groups-in-active-directory-for-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-the-application-virtualization-sequencer--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-the-application-virtualization-sequencer--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-the-firewall-for-the-app-v-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-the-firewall-for-the-app-v-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/configuring-windows-firewall-for-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/configuring-windows-firewall-for-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/create-new-package-wizard---appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/create-new-package-wizard---appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/create-package-accelerator--review-errors--page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/create-package-accelerator--review-errors--page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/create-package-accelerator-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/create-package-accelerator-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/create-package-accelerator-wizard--appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/create-package-accelerator-wizard--appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/create-package-page--app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/create-package-page--app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/creating-app-v-45-databases-using-sql-scripting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/creating-app-v-45-databases-using-sql-scripting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/customize-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/customize-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/defender-running-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/defender-running-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/defrag-running-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/defrag-running-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/delete-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/delete-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/delete-obj.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/delete-obj",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/delete-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/delete-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/delete-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/delete-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/delete-type.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/delete-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/deployment-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/deployment-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/determine-your-publishing-method.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/determine-your-publishing-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/determine-your-streaming-method.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/determine-your-streaming-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/dialog-boxes--appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/dialog-boxes--appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/disconnected-operation-mode.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/disconnected-operation-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/domain-joined-and-non-domain-joined-clients.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/domain-joined-and-non-domain-joined-clients",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/edit-shortcuts-learn-more.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/edit-shortcuts-learn-more",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/electronic-software-distribution-based-scenario-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/electronic-software-distribution-based-scenario-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/electronic-software-distribution-based-scenario.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/electronic-software-distribution-based-scenario",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/exclusion-item-dialog-box.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/exclusion-item-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/exclusion-items-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/exclusion-items-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/failed-launch-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/failed-launch-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-association-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-association-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-association-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-association-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-associations-node-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-associations-node-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-associations-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-associations-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-associations-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-associations-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/file-type-associations-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/file-type-associations-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/files-excluded-page-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/files-excluded-page-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/files-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/files-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/gathering-information-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/gathering-information-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/general-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/general-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/guidance-page-app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/guidance-page-app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/help.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/help",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-a-file-type-association.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-a-file-type-association",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-a-package-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-a-package-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-a-package-version.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-a-package-version",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-a-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-a-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-a-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-a-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-an-administrator-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-an-administrator-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-add-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-add-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-apply-a-package-accelerator-to-create-a-virtual-application-package---app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-apply-a-package-accelerator-to-create-a-virtual-application-package---app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-apply-an-app-v-project-template--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-apply-an-app-v-project-template--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-assign--the-proper-credentials-for-windows-vista.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-assign--the-proper-credentials-for-windows-vista",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-assign--the-proper-credentials-for-windows-xp.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-assign--the-proper-credentials-for-windows-xp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-associate-an-application-with-a-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-associate-an-application-with-a-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-branch-a-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-branch-a-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-cancel-loading-of-virtual-applications-from-the-desktop-notification-area.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-cancel-loading-of-virtual-applications-from-the-desktop-notification-area",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-an-application-icon.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-an-application-icon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-an-application-iconserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-an-application-iconserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-deployment-properties.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-deployment-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-import-search-paths.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-import-search-paths",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-package-properties.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-package-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-cache-size-and-the-drive-letter-designation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-cache-size-and-the-drive-letter-designation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-log-reporting-levels-and-reset-the-log-files.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-log-reporting-levels-and-reset-the-log-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-server-cache-size.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-server-cache-size",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-server-logging-level-and-the-database-parameters.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-server-logging-level-and-the-database-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-server-port.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-server-port",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-the-size-of-the-filesystem-cache.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-the-size-of-the-filesystem-cache",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-change-user-access-permissions.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-change-user-access-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-clear-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-clear-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-a-read-only-cache-on-the-app-v-client--rds--sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-a-read-only-cache-on-the-app-v-client--rds--sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-management-server-security-post-installation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-management-server-security-post-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-microsoft-sql-server-mirroring-support-for-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-microsoft-sql-server-mirroring-support-for-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-servers-for-esd-based-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-servers-for-esd-based-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-servers-for-server-based-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-servers-for-server-based-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-shortcut-and-file-type-association-behavior-46-only.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-shortcut-and-file-type-association-behavior-46-only",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-streaming-server-security-post-installation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-streaming-server-security-post-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-app-v-client-registry-settings-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-app-v-client-registry-settings-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-app-v-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-app-v-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-app-v-system-for-package-upgrade.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-app-v-system-for-package-upgrade",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-application-virtualization-client-settings-manually.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-application-virtualization-client-settings-manually",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-application-virtualization-management-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-application-virtualization-management-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-application-virtualization-streaming-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-application-virtualization-streaming-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-client-for-application-package-retrieval.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-client-for-application-package-retrieval",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-client-for-disconnected-operation-mode.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-client-for-disconnected-operation-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-client-for-mit-kerberos-realm-support.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-client-for-mit-kerberos-realm-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-client-in-the-application-virtualization-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-client-in-the-application-virtualization-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-client-log-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-client-log-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-file-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-file-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-server-for-iis.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-server-for-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-the-server-to-be-trusted-for-delegation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-the-server-to-be-trusted-for-delegation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-user-permissions.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-user-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-windows-server-2003-firewall-for-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-windows-server-2003-firewall-for-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-windows-server-2008-firewall-for-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-windows-server-2008-firewall-for-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-configure-windows-server-2008-for-app-v-management-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-configure-windows-server-2008-for-app-v-management-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-connect-to-an-application-virtualization-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-connect-to-an-application-virtualization-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-a-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-a-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-a-server-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-a-server-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-a-virtual-environment-for-a-web-based-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-a-virtual-environment-for-a-web-based-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-an-app-v-project-template--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-an-app-v-project-template--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-an-application-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-an-application-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-an-application-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-an-application-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-app-v-package-accelerators--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-app-v-package-accelerators--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-the-package-root-directory.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-the-package-root-directory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-create-the-sequencer-package-root-directory.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-create-the-sequencer-package-root-directory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-customize-an-application-virtualization-system-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-customize-an-application-virtualization-system-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-a-file-type-association.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-a-file-type-association",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-a-package-version.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-a-package-version",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-a-packageserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-a-packageserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-a-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-a-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-all-virtual-applications-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-all-virtual-applications-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-an-administrator-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-an-administrator-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-an-application-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-an-application-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-delete-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-delete-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-deny-access-to-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-deny-access-to-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-determine-whether-to-edit-or-upgrade-a-virtual-application-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-determine-whether-to-edit-or-upgrade-a-virtual-application-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-determine-which-type-of-application-to-sequence---app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-determine-which-type-of-application-to-sequence---app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-disable-or-modify-disconnected-operation-mode-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-disable-or-modify-disconnected-operation-mode-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-edit-an-existing-virtual-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-edit-an-existing-virtual-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-edit-an-osd-file-using-a-text-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-edit-an-osd-file-using-a-text-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-edit-an-osd-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-edit-an-osd-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-exit-the-app-v-client-from-the-notification-area.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-exit-the-app-v-client-from-the-notification-area",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-export-a-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-export-a-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-grant-access-to-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-grant-access-to-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-import-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-import-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-import-an-applicationserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-import-an-applicationserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-a-database.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-a-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-and-configure-the-default-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-and-configure-the-default-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-application-virtualization-management-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-application-virtualization-management-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-app-v-client-by-using-setupexe-new.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-app-v-client-by-using-setupexe-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-app-v-client-by-using-setupmsi-new.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-app-v-client-by-using-setupmsi-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-application-virtualization-streaming-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-application-virtualization-streaming-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-client-by-using-the-command-line-new.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-client-by-using-the-command-line-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-management-web-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-management-web-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-sequencer---app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-sequencer---app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-install-the-servers-and-system-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-install-the-servers-and-system-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-load-files-and-packages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-load-files-and-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-load-or-unload-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-load-or-unload-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-load-virtual-applications-from-the-desktop-notification-area.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-load-virtual-applications-from-the-desktop-notification-area",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-lock-or-unlock-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-lock-or-unlock-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-application-groups-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-application-groups-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-application-licenses-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-application-licenses-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-applications-in-the-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-applications-in-the-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-applications-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-applications-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-packages-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-packages-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-reports-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-reports-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-servers-in-the-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-servers-in-the-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-the-app-v-client-cache-using-performance-counters.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-the-app-v-client-cache-using-performance-counters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-virtual-applications-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-virtual-applications-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-virtual-applications-manually.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-virtual-applications-manually",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manage-virtual-applications-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manage-virtual-applications-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manually-add-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manually-add-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manually-install-the-application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manually-install-the-application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-manually-manage-applications-in-the-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-manually-manage-applications-in-the-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-migrate-the-app-v-sql-database-to-a-different-sql-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-migrate-the-app-v-sql-database-to-a-different-sql-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-a-virtual-application-package--app-v-46-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-a-virtual-application-package--app-v-46-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-an-existing-virtual-application-package--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-an-existing-virtual-application-package--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-attributes-of-embedded-services.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-attributes-of-embedded-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-file-mapping-information.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-file-mapping-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-private-key-permissions-to-support-management-server-or-streaming-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-files-included-in-a-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-files-included-in-a-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-location-of-the-log-directory.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-location-of-the-log-directory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-location-of-the-scratch-directory.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-location-of-the-scratch-directory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-log-directory-location.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-log-directory-location",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-operating-systems-associated-with-an-existing-windows-installer-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-operating-systems-associated-with-an-existing-windows-installer-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-the-scratch-directory-location.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-the-scratch-directory-location",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-modify-virtual-registry-key-information.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-modify-virtual-registry-key-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-move-an-application-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-move-an-application-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-move-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-move-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-open-a-sequenced-application-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-open-a-sequenced-application-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-perform-administrative-tasks-in-the-application-virtualization-server-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-perform-administrative-tasks-in-the-application-virtualization-server-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-perform-general-administrative-tasks-in-the-app-v-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-perform-general-administrative-tasks-in-the-app-v-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-perform-general-administrative-tasks-in-the-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-perform-general-administrative-tasks-in-the-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-print-a-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-print-a-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-publish-a-virtual-application-on-the-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-publish-a-virtual-application-on-the-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-publish-application-shortcuts.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-publish-application-shortcuts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-refresh-the-publishing-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-refresh-the-publishing-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-refresh-virtual-applications-from-the-desktop-notification-area.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-refresh-virtual-applications-from-the-desktop-notification-area",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-a-package-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-a-package-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-a-server-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-a-server-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-a-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-a-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-an-application-from-a-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-an-application-from-a-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-an-application-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-an-application-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-an-application-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-an-application-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-remove-the-application-virtualization-system-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-remove-the-application-virtualization-system-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-rename-an-application-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-rename-an-application-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-rename-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-rename-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-repair-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-repair-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-reset-the-filesystem-cache.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-reset-the-filesystem-cache",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-run-a-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-run-a-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-add-on-or-plug-in-application--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-add-on-or-plug-in-application--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-application--app-v-46-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-application--app-v-46-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-application-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-application-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-application-package-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-application-package-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-middleware-application--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-middleware-application--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-a-new-standard-application--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-a-new-standard-application--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-sequence-an-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-sequence-an-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-a-concurrent-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-a-concurrent-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-a-named-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-a-named-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-an-unlimited-license-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-an-unlimited-license-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-and-enable-or-disable-authentication.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-and-enable-or-disable-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-or-disable-application-licensing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-or-disable-application-licensing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-or-disable-database-size.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-or-disable-database-size",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-or-disable-usage-reporting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-or-disable-usage-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-periodic-publishing-refresh.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-periodic-publishing-refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-publishing-refresh-on-login.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-publishing-refresh-on-login",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-set-up-publishing-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-set-up-publishing-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-uninstall-the-app-v-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-uninstall-the-app-v-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-package-using-the-open-package-command.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-package-using-the-open-package-command",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-sequenced-application-package-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-sequenced-application-package-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-sequenced-virtual-application-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-sequenced-virtual-application-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-virtual-application-by-using-the-command-line.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-virtual-application-by-using-the-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-a-virtual-application-package--app-v-46-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-a-virtual-application-package--app-v-46-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-an-existing-virtual-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-an-existing-virtual-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-the-application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-the-application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-upgrade-the-servers-and-system-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-upgrade-the-servers-and-system-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-use-dynamic-suite-composition.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-use-dynamic-suite-composition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-use-the-cache-space-management-feature.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-use-the-cache-space-management-feature",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-use-the-desktop-notification-area-for-application-virtualization-client-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-use-the-desktop-notification-area-for-application-virtualization-client-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-use-the-differential-sft-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-use-the-differential-sft-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/how-to-work-offline-or-online-with-application-virtualization.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/how-to-work-offline-or-online-with-application-virtualization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/improving-security-during-app-v-sequencing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/improving-security-during-app-v-sequencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/incompatible-installer-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/incompatible-installer-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/installation-files-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/installation-files-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/installation-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/installation-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/installation-report-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/installation-report-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/installing-app-v-management-server-or-streaming-server-securely.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/installing-app-v-management-server-or-streaming-server-securely",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/internet-facing-considerations-for-app-v-clients.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/internet-facing-considerations-for-app-v-clients",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/internet-facing-server-scenarios-for-perimeter-networks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/internet-facing-server-scenarios-for-perimeter-networks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/introduction-to-the-application-virtualization-security-guide.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/introduction-to-the-application-virtualization-security-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/load-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/load-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/load-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/load-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/lock-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/lock-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/log-file-for-the-application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/log-file-for-the-application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/log-files-for-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/log-files-for-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-46-service-pack-1-privacy-statement.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-46-service-pack-1-privacy-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-46-service-pack-2-privacy-statement.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-46-service-pack-2-privacy-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-client-management-help.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-client-management-help",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-getting-started-guide.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-getting-started-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-management-system-release-notes-45-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-management-system-release-notes-45-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-management-system-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-management-system-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/microsoft-application-virtualization-security-guide.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/microsoft-application-virtualization-security-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/monitoring-application-virtualization-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/monitoring-application-virtualization-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/online-help-for-application-virtualization.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/online-help-for-application-virtualization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/open-package-wizard---appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/open-package-wizard---appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/operations-guide-for-the-application-virtualization-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/operations-guide-for-the-application-virtualization-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/osd-file-elements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/osd-file-elements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/osd-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/osd-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/oversized-package-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/oversized-package-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/overview-of-application-virtualization.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/overview-of-application-virtualization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/overview-of-the-application-virtualization-system-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/overview-of-the-application-virtualization-system-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/package-name-page---learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/package-name-page---learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/package-name-page--app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/package-name-page--app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/package-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/package-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/package-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/package-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/packages-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/packages-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/packaging-method--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/packaging-method--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/packaging-method-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/packaging-method-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/parse-items-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/parse-items-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-and-deployment-guide-for-the-application-virtualization-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-and-deployment-guide-for-the-application-virtualization-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-application-virtualization-client-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-application-virtualization-client-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-application-virtualization-system-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-application-virtualization-system-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-client-security.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-client-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-migration-from-previous-versions.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-migration-from-previous-versions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-security-and-protection.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-security-and-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-sequencer-security.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-sequencer-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-for-server-security.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-for-server-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-the-application-virtualization-sequencer-implementation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-the-application-virtualization-sequencer-implementation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-your-streaming-solution-in-an-application-virtualization-server-based-implementation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-your-streaming-solution-in-an-application-virtualization-server-based-implementation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/planning-your-streaming-solution-in-an-electronic-software-distribution-implementation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/planning-your-streaming-solution-in-an-electronic-software-distribution-implementation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/prepare-computer-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/prepare-computer-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/properties-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/properties-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/provider-policies-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/provider-policies-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/provider-policies-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/provider-policies-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/provider-policies-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/provider-policies-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publish-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publish-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publish-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publish-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publishing-servers-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publishing-servers-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publishing-servers-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publishing-servers-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publishing-servers-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publishing-servers-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publishing-virtual-applications-using-application-virtualization-management-servers.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publishing-virtual-applications-using-application-virtualization-management-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/publishing-virtual-applications-using-electronic-software-distribution.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/publishing-virtual-applications-using-electronic-software-distribution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/query-obj.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/query-obj",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/refresh-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/refresh-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/repair-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/repair-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/reports-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/reports-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/reports-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/reports-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/reports-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/reports-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/restart-task-failure-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/restart-task-failure-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/run-each-program-page-app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/run-each-program-page-app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/security-and-protection-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/security-and-protection-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-files-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-files-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-guidance-page--package-accelerators-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-guidance-page--package-accelerators-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-installation-files-page-app-v-46-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-installation-files-page-app-v-46-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-installer-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-installer-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-package--learn-more--page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-package--learn-more--page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-package-accelerator--learn-more--page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-package-accelerator--learn-more--page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-package-accelerator-page.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-package-accelerator-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-primary-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-primary-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/select-task-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/select-task-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-command-line-error-codes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-command-line-error-codes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-command-line-parameters.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-command-line-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-dialog-boxes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-dialog-boxes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-hardware-and-software-requirements.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-hardware-and-software-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencer-wizard---package-accelerator--appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencer-wizard---package-accelerator--appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sequencing-wizard.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sequencing-wizard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-groups-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-groups-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-groups-results-pane-columns.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-groups-results-pane-columns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-groups-results-pane.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-groups-results-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-about-dialog-boxes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-about-dialog-boxes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-administrators-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-administrators-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-application-licenses-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-application-licenses-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-application-virtualization-system-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-application-virtualization-system-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-applications-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-applications-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-file-type-associations-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-file-type-associations-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-packages-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-packages-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-provider-policies-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-provider-policies-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-reports-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-reports-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/server-management-console-server-groups-node.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/server-management-console-server-groups-node",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sftmime--command-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sftmime--command-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sfttray-command-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sfttray-command-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/side-by-side-privatization-failed-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/side-by-side-privatization-failed-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/software-audit-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/software-audit-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/stand-alone-delivery-scenario-for-application-virtualization-clients.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/stand-alone-delivery-scenario-for-application-virtualization-clients",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/stand-alone-delivery-scenario-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/stand-alone-delivery-scenario-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/streaming-page-learn-more.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/streaming-page-learn-more",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/support-for-client-reporting-over-http.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/support-for-client-reporting-over-http",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/sxs-conflict-detected-dialog-box--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/sxs-conflict-detected-dialog-box--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/system-error-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/system-error-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/system-utilization-reportserver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/system-utilization-reportserver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/target-os-page-learn-more.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/target-os-page-learn-more",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/tasks-for-the-application-virtualization-sequencer--app-v-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/tasks-for-the-application-virtualization-sequencer--app-v-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/tasks-for-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/tasks-for-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/troubleshooting-application-virtualization-sequencer-issues.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/troubleshooting-application-virtualization-sequencer-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/troubleshooting-certificate-permission-issues.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/troubleshooting-certificate-permission-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/troubleshooting-information-for-the-application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/troubleshooting-information-for-the-application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/troubleshooting-information-for-the-application-virtualization-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/troubleshooting-information-for-the-application-virtualization-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/troubleshooting-the-application-virtualization-sequencer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/troubleshooting-the-application-virtualization-sequencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/type-of-application-page--learn-more-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/type-of-application-page--learn-more-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/unload-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/unload-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/unload-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/unload-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/unlock-app.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/unlock-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/unpublish-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/unpublish-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/user-access-permissions-in-application-virtualization-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/user-access-permissions-in-application-virtualization-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/using-application-virtualization-servers-as-a-package-management-solution.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/using-application-virtualization-servers-as-a-package-management-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/using-electronic-software-distribution-as-a-package-management-solution.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/using-electronic-software-distribution-as-a-package-management-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/verify-applications-page--package-accelerators-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/verify-applications-page--package-accelerators-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/virtual-application-package-additional-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/virtual-application-package-additional-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/virtual-file-system-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/virtual-file-system-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/virtual-registry-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/virtual-registry-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/virtual-services-tab-keep.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/virtual-services-tab-keep",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v4/wizard-pages--appv-46-sp1-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/wizard-pages--appv-46-sp1-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/about-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/about-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/accessibility-for-dart-70.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/accessibility-for-dart-70",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/creating-the-dart-70-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/creating-the-dart-70-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/dart-70-deployment-checklist-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/dart-70-deployment-checklist-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/dart-70-planning-checklist-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/dart-70-planning-checklist-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/dart-70-supported-configurations-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/dart-70-supported-configurations-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/deploying-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/deploying-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/deploying-dart-70-to-administrator-computers-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/deploying-dart-70-to-administrator-computers-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/deploying-the-dart-70-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/deploying-the-dart-70-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/diagnosing-system-failures-with-crash-analyzer--dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/diagnosing-system-failures-with-crash-analyzer--dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/getting-started-with-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/getting-started-with-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-change-repair-or-remove-dart-70.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-change-repair-or-remove-dart-70",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-create-a-time-limited-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-create-a-time-limited-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-deploy-dart-70.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-deploy-dart-70",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-deploy-the-dart-recovery-image-as-a-remote-partition-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-deploy-the-dart-recovery-image-as-a-remote-partition-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-deploy-the-dart-recovery-image-as-part-of-a-recovery-partition-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-deploy-the-dart-recovery-image-as-part-of-a-recovery-partition-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-deploy-the-dart-recovery-image-using-a-usb-flash-drive-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-deploy-the-dart-recovery-image-using-a-usb-flash-drive-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-ensure-that-crash-analyzer-can-access-symbol-files-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-ensure-that-crash-analyzer-can-access-symbol-files-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-recover-local-computers-using-the-dart-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-recover-local-computers-using-the-dart-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-recover-remote-computers-using-the-dart-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-recover-remote-computers-using-the-dart-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-run-the-crash-analyzer-in-stand-alone-mode-on-a-computer-other-than-an-end-user-computer-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-run-the-crash-analyzer-in-stand-alone-mode-on-a-computer-other-than-an-end-user-computer-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-run-the-crash-analyzer-on-an-end-user-computer-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-run-the-crash-analyzer-on-an-end-user-computer-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/how-to-use-the-dart-recovery-image-wizard-to-create-the-recovery-image-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/how-to-use-the-dart-recovery-image-wizard-to-create-the-recovery-image-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/operations-for-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/operations-for-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/overview-of-the-tools-in-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/overview-of-the-tools-in-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/planning-for-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/planning-for-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/planning-how-to-save-and-deploy-the-dart-70-recovery-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/planning-how-to-save-and-deploy-the-dart-70-recovery-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/planning-to-create-the-dart-70-recovery-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/planning-to-create-the-dart-70-recovery-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/planning-to-deploy-dart-70.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/planning-to-deploy-dart-70",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/recovering-computers-using-dart-70-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/recovering-computers-using-dart-70-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/release-notes-for-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/release-notes-for-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/security-considerations-for-dart-70-dart-7.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/security-considerations-for-dart-70-dart-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/technical-reference-for-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/technical-reference-for-dart-70-new-ia",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v7/troubleshooting-dart-70-new-ia.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/troubleshooting-dart-70-new-ia",
+      "redirect_document_id": false
     }
   ]
 }
