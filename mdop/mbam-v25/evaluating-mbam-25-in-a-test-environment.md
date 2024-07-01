@@ -3,8 +3,7 @@ title: Evaluating MBAM 2.5 in a Test Environment
 description: Evaluating MBAM 2.5 in a Test Environment
 author: aczechowski
 ms.assetid: 72959b7a-e55f-4797-91b3-5be23c8c2844
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -111,7 +110,7 @@ To evaluate MBAM by using the Stand-alone topology, use the information in the f
        "NoStartupDelay"=dword:00000001
        ```
 
-       **Note**  
+       **Note**
        Because these keys wake up the MBAM Client every minute, we recommend that you use these registry key settings only in a test environment.
 
 
@@ -226,7 +225,7 @@ To evaluate MBAM by using the Configuration Manager Integration topology, use th
        "NoStartupDelay"=dword:00000001
        ```
 
-       **Note**  
+       **Note**
        Because these keys wake up the MBAM Client every minute, we recommend that you use these registry key settings only in a test environment.
 
 
@@ -365,7 +364,7 @@ To evaluate MBAM by using the Configuration Manager Integration topology, follow
        "NoStartupDelay"=dword:00000001
        ```
 
-       **Note**  
+       **Note**
        Because these keys wake up the MBAM Client every minute, we recommend that you use these registry key settings only in an evaluation environment.
 
 

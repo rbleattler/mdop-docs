@@ -3,8 +3,7 @@ title: How to Use the Administration and Monitoring Website
 description: How to Use the Administration and Monitoring Website
 author: aczechowski
 ms.assetid: bb96a4e8-d4f4-4e6f-b7db-82d96998bfa6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ The Administration and Monitoring Website, also referred to as the Help Desk, is
 **Note**  
 If you are using MBAM in the Stand-alone topology, you view all reports from the Administration and Monitoring Website. If you are using the Configuration Manager Integration topology, you view all reports in Configuration Manager, except the Recovery Audit report, which you continue to view from the Administration and Monitoring Website. For more information about reports, see [Monitoring and Reporting BitLocker Compliance with MBAM 2.5](monitoring-and-reporting-bitlocker-compliance-with-mbam-25.md).
 
- 
+
 
 ## Required roles for using the Administration and Monitoring Website
 
@@ -58,7 +57,7 @@ To access specific areas of the Administration and Monitoring Website, you must 
 </tbody>
 </table>
 
- 
+
 
 ## Tasks you can perform on the Administration and Monitoring Website
 
@@ -117,7 +116,7 @@ The following table summarizes the tasks you can perform on the Administration a
 </tbody>
 </table>
 
- 
+
 
 
 ## Related topics
@@ -125,7 +124,7 @@ The following table summarizes the tasks you can perform on the Administration a
 
 [Performing BitLocker Management with MBAM 2.5](performing-bitlocker-management-with-mbam-25.md)
 
- 
+
 
 ## Got a suggestion for MBAM?
 

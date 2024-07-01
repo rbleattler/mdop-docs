@@ -2,8 +2,7 @@
 title: About App-V 5.0 SP1
 description: About App-V 5.0 SP1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -28,7 +27,7 @@ This service pack contains the following changes:
 
     -   Reporting - **HKEY\_LOCAL\_MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **AppV** \\ **Server** \\ **ReportingService** \\ **REPORTING\_DB\_NAME**
 
-     
+
 
 ## How to get MDOP
 

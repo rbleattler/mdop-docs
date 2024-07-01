@@ -3,8 +3,7 @@ title: How to Request Deletion of a GPO
 description: Request Deletion of a GPO in AGPM 4.
 author: aczechowski
 ms.assetid: 2410f7a1-ccca-44cf-ab26-76ad474409e7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

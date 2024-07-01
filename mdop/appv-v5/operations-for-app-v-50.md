@@ -3,8 +3,7 @@ title: Operations for App-V 5.0
 description: Operations for App-V 5.0
 author: aczechowski
 ms.assetid: 4d0d41a6-f7da-4a2f-8ac9-2d67cc18ea93
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

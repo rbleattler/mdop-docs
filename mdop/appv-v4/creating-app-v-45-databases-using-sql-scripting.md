@@ -2,8 +2,7 @@
 title: Create App-V 4.5 databases using SQL scripting
 description: How to create App-V 4.5 databases using SQL scripting.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 06/16/2016
 ---

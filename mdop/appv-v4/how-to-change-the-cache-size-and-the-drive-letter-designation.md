@@ -3,8 +3,7 @@ title: How to Change the Cache Size and the Drive Letter Designation
 description: How to Change the Cache Size and the Drive Letter Designation
 author: aczechowski
 ms.assetid: e7d7b635-079e-41aa-a5e6-655f33b4e317
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 You can change the cache size and drive letter designation directly from the **Application Virtualization** node in the Application Virtualization Client Management Console.
 
-**Note**  
+**Note**
 After the cache size has been set, it cannot be made smaller.
 
 
@@ -29,7 +28,7 @@ After the cache size has been set, it cannot be made smaller.
 
 2.  Select the **File System** tab on the **Properties** dialog box. In the **Client Cache Configuration Settings** section, click one of the following radio buttons to choose how to manage the cache space:
 
-    **Important**  
+    **Important**
     If you select the **Use free disk space threshold** setting, the value you enter will set the cache size to the total disk size minus the free disk space threshold number you entered. If you then want revert to using the **Use maximum cache size** setting, you must specify a larger number than the existing cache size. Otherwise, the error “New size must be larger than the existing cache size” will appear.
 
 

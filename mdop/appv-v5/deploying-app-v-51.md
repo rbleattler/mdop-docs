@@ -3,8 +3,7 @@ title: Deploying App-V 5.1
 description: Deploying App-V 5.1
 author: aczechowski
 ms.assetid: af8742bf-e24b-402a-bcf4-0f2297f26bc4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

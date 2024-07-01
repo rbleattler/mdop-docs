@@ -3,8 +3,7 @@ title: How to Configure the AGPM Server Connection
 description: Configure the AGPM Server Connection
 author: aczechowski
 ms.assetid: 9a42b5bc-41be-44ef-a6e2-6f56e2cf1996
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

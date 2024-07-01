@@ -3,8 +3,7 @@ title: How to Add a Package by Using the Command Line
 description: How to Add a Package by Using the Command Line
 author: aczechowski
 ms.assetid: e75af49e-811a-407a-a7f0-6de8562b9188
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -36,7 +35,7 @@ The following procedures list the steps that are necessary to add a virtual appl
 
     `SFTMIME ADD PACKAGE:”name” /MANIFEST <manifest-path> /GLOBAL`
 
-2.  
+2.
 
     If you want to add the package for specific users only, run the **ADD PACKAGE** command, and then explicitly publish the package for each user by running the following **PUBLISH PACKAGE** command under each person’s user account:
 

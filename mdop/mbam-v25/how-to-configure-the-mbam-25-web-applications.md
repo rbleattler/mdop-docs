@@ -3,8 +3,7 @@ title: How to Configure the MBAM 2.5 Web Applications
 description: How to Configure the MBAM 2.5 Web Applications
 author: aczechowski
 ms.assetid: 909bf2d3-028c-4ac1-9247-171532a1eeae
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -376,7 +375,7 @@ The web applications comprise the following websites and their corresponding web
 
 5. On the **Summary** page, review the features that will be added.
 
-   **Note**  
+   **Note**
    To create a Windows PowerShell script for the entries you made, click **Export PowerShell Script** and save the script.
 
 
@@ -389,7 +388,7 @@ The web applications comprise the following websites and their corresponding web
 
 1.  Determine whether you are running Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1. If so, do nothing. Your Self-Service Portal configuration is complete.
 
-    **Note**  
+    **Note**
     Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 installs the JavaScript files in setup, and so does not need to be connected to the Microsoft Ajax Content Delivery Network in order to configure the Self-Service Portal. The following steps are necessary only if you are using a version of Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 previous to SP1.
 
 
@@ -422,7 +421,7 @@ The web applications comprise the following websites and their corresponding web
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

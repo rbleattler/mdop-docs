@@ -3,8 +3,7 @@ title: Choosing Which Version of AGPM to Install
 description: Choosing Which Version of AGPM to Install
 author: aczechowski
 ms.assetid: 31357d2a-bc23-4e15-93f4-0beda8ab7a7b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -307,9 +306,9 @@ AGPM 4.0 SP2 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP i
 
 [Advanced Group Policy Management](index.md)
 
- 
 
- 
+
+
 
 
 

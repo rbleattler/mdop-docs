@@ -3,8 +3,7 @@ title: Manage User BitLocker Encryption Exemptions
 description: Manage User BitLocker Encryption Exemptions
 author: aczechowski
 ms.assetid: 1bfd9d66-6a9a-4d0e-b54a-e5a6627f5ada
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -23,7 +22,7 @@ To exempt users from BitLocker protection, an organization will have to create a
 **Note**  
 If the computer is already BitLocker-protected, the user exemption policy has no effect.
 
- 
+
 
 The following table shows how BitLocker protection is applied based on how exemptions are set.
 
@@ -54,7 +53,7 @@ The following table shows how BitLocker protection is applied based on how exemp
 </tbody>
 </table>
 
- 
+
 
 **To exempt a user from BitLocker encryption**
 
@@ -67,7 +66,7 @@ The following table shows how BitLocker protection is applied based on how exemp
     **Important**  
     Shared computer scenarios require special consideration when using user exemptions. If a non-exempt user logs on to a computer shared with an exempt user, the computer may be encrypted.
 
-     
+
 
 **To enable users to request an exemption from BitLocker encryption**
 
@@ -78,7 +77,7 @@ The following table shows how BitLocker protection is applied based on how exemp
     **Note**  
     Selecting **Request Exemption** postpones the BitLocker protection until the maximum time that is set in the User Exemption Policy.
 
-     
+
 
 3.  If users select **Request Exemption**, they receive a notification telling them to contact your organization’s BitLocker administration group. Depending on how the Configure User Exemption Policy is configured, users are provided with one or more of the following contact methods:
 
@@ -93,16 +92,16 @@ The following table shows how BitLocker protection is applied based on how exemp
     **Note**  
     Once a user submits an exemption request, the MBAM agent reports the user as “temporarily exempt” and then waits a configurable number of days before it checks the computer’s compliance again. If the MBAM administrator rejects the exemption request, the exemption request option is deactivated, which prevents the user from being able to request the exemption again.
 
-     
+
 
 ## Related topics
 
 
 [Administering MBAM 2.0 Features](administering-mbam-20-features-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

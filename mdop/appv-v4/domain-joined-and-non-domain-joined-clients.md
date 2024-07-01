@@ -3,8 +3,7 @@ title: Domain-Joined and Non-Domain-Joined Clients
 description: Domain-Joined and Non-Domain-Joined Clients
 author: aczechowski
 ms.assetid: a935dc98-de60-45f3-ab74-2444ce082e88
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

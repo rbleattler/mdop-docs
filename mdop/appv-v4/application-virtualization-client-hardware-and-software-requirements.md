@@ -3,8 +3,7 @@ title: Application Virtualization Client Hardware and Software Requirements
 description: Application Virtualization Client Hardware and Software Requirements
 author: aczechowski
 ms.assetid: 8b877a2c-5721-4b22-a47f-e2838d58ab12
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -26,7 +25,7 @@ The following list includes the recommended minimum hardware and software requir
 **Note**  
 The Application Virtualization (App-V) Desktop Client requires no additional processor or RAM resources beyond the requirements of the host operating system.
 
- 
+
 
 ### Hardware Requirements
 

@@ -3,8 +3,7 @@ title: Manage MED-V URL Redirection
 description: Manage MED-V URL Redirection
 author: aczechowski
 ms.assetid: 274161c0-b54a-4364-bb63-89996afccd04
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -23,10 +22,10 @@ Included in this section are both information and instructions to help you manag
 ## In This Section
 
 
-<a href="" id="how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace"></a>[How to Add or Remove URL Redirection Information in a Deployed MED-V Workspace](how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace.md)  
+<a href="" id="how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace"></a>[How to Add or Remove URL Redirection Information in a Deployed MED-V Workspace](how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace.md)
 Provides assistance in adding and removing URL redirection information on MED-V workspaces.
 
-<a href="" id="how-to-manage-url-redirection-by-using-the-med-v-workspace-packager"></a>[How to Manage URL Redirection by Using the MED-V Workspace Packager](how-to-manage-url-redirection-by-using-the-med-v-workspace-packager.md)  
+<a href="" id="how-to-manage-url-redirection-by-using-the-med-v-workspace-packager"></a>[How to Manage URL Redirection by Using the MED-V Workspace Packager](how-to-manage-url-redirection-by-using-the-med-v-workspace-packager.md)
 Provides assistance in managing URL redirection information through the MED-V Workspace Packager.
 
 ## Related topics

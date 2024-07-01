@@ -3,8 +3,7 @@ title: How to Perform General Administrative Tasks in the Client Management Cons
 description: How to Perform General Administrative Tasks in the Client Management Console
 author: aczechowski
 ms.assetid: 90bb7101-1075-4654-8a5e-ad08374e381f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,13 +20,13 @@ The Application Virtualization Client Management Console enables users who are l
 ## In This Section
 
 
-<a href="" id="how-to-set-up-publishing-servers"></a>[How to Set Up Publishing Servers](how-to-set-up-publishing-servers.md)  
+<a href="" id="how-to-set-up-publishing-servers"></a>[How to Set Up Publishing Servers](how-to-set-up-publishing-servers.md)
 Provides procedures for adding more Application Virtualization Servers to the Application Virtualization Desktop Client or Client for Remote Desktop Services (formerly Terminal Services) and for setting up those servers.
 
-<a href="" id="how-to-refresh-the-publishing-servers"></a>[How to Refresh the Publishing Servers](how-to-refresh-the-publishing-servers.md)  
+<a href="" id="how-to-refresh-the-publishing-servers"></a>[How to Refresh the Publishing Servers](how-to-refresh-the-publishing-servers.md)
 Provides a procedure for refreshing the Application Virtualization Servers from the Client Management Console.
 
-<a href="" id="how-to-disable-or-modify-disconnected-operation-mode-settings"></a>[How to Disable or Modify Disconnected Operation Mode Settings](how-to-disable-or-modify-disconnected-operation-mode-settings.md)  
+<a href="" id="how-to-disable-or-modify-disconnected-operation-mode-settings"></a>[How to Disable or Modify Disconnected Operation Mode Settings](how-to-disable-or-modify-disconnected-operation-mode-settings.md)
 Provides procedures you can use to disable or modify disconnected operation mode settings.
 
 ## Related topics

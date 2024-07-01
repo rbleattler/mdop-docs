@@ -3,8 +3,7 @@ title: How to Recover Remote Computers Using the DaRT Recovery Image
 description: How to Recover Remote Computers Using the DaRT Recovery Image
 author: aczechowski
 ms.assetid: 66bc45fb-dc40-4d47-b583-5bb1ff5c97a7
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support
@@ -18,7 +17,7 @@ ms.date: 08/30/2016
 
 The Remote Connection feature in Microsoft Diagnostics and Recovery Toolset (DaRT) 7 lets an IT administrator run the DaRT tools remotely on an end-user computer. After certain information is provided by the end user (or by a helpdesk professional working on the end-user computer), the IT administrator or helpdesk agent can take control of the end user's computer and run the necessary DaRT tools remotely.
 
-**Important**  
+**Important**
 The two computers establishing a remote connection must be part of the same network.
 
 
@@ -37,7 +36,7 @@ The two computers establishing a remote connection must be part of the same netw
 
     Whichever method that you use to boot into DaRT, you must enable the boot device in the BIOS for the boot option or options that you want to make available to the end user.
 
-    **Note**  
+    **Note**
     Configuring the BIOS is unique, depending on the kind of hard disk drive, network adapters, and other hardware that is used in your organization.
 
 
@@ -50,7 +49,7 @@ The two computers establishing a remote connection must be part of the same netw
 
 4.  Following the remapping dialog box, a **System Recovery Options** dialog box appears and asks you to select a keyboard layout. Then it displays the system root directory, the kind of operating system installed, and the partition size. If you do not see your operating system listed, and suspect that the lack of drivers is a possible cause of the failure, click **Load Drivers** to load the suspect drivers. This prompts you to insert the installation media for the device and to select the driver. Select the installation that you want to repair or diagnose, and then click **Next**.
 
-    **Note**  
+    **Note**
     If the Windows Recovery Environment (WinRE) detects or suspects that Windows 7 did not start correctly the last time that it was tried, **Startup Repair** might start to run automatically. For information about this situation including how to resolve it, see [Troubleshooting DaRT 7.0](troubleshooting-dart-70-new-ia.md).
 
 
@@ -73,7 +72,7 @@ The **System Recovery Options** window appears and lists various recovery tools.
 
 8. In the **DaRT Remote Connection** window, enter the required ticket, IP address, and port information.
 
-   **Note**  
+   **Note**
    This information is created on the end-user computer and must be provided by the end user. There might be multiple IP addresses to choose from, depending on how many are available on the end-user computer.
 
 
@@ -82,7 +81,7 @@ The **System Recovery Options** window appears and lists various recovery tools.
 
 The IT administrator now assumes control of the end-user computer and can run the DaRT tools remotely.
 
-**Note**  
+**Note**
 A file is provided that is named inv32.xml and contains remote connection information, such as the port number and IP address. By default, the file is typically located at %windir%\\system32.
 
 
@@ -172,7 +171,7 @@ A file is provided that is named inv32.xml and contains remote connection inform
 
 
 
-**Note**  
+**Note**
 The variables for these parameters are created on the end-user computer and must be provided by the end user.
 
 

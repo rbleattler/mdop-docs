@@ -3,8 +3,7 @@ title: MED-V overview
 description: Overview of MED-V
 author: aczechowski
 ms.assetid: 32a85b79-91b0-4507-a57a-01ff0fa029f5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

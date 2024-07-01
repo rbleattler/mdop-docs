@@ -3,8 +3,7 @@ title: The Connection Group File
 description: About the Connection Group File
 author: aczechowski
 ms.assetid: 1f4df515-f5f6-4b58-91a8-c71598cb3ea4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -52,7 +51,7 @@ ms.date: 06/16/2016
 </tbody>
 </table>
 
- 
+
 
 ## <a href="" id="bkmk-define-cg-5-0sp3"></a>Structure of the connection group XML file
 
@@ -112,7 +111,7 @@ The following table describes the parameters in the XML file that define the con
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-params-define-pkgs-incg"></a>Parameters that define the packages in the connection group
 
@@ -151,7 +150,7 @@ In the &lt;Packages&gt; section of the connection group XML file, you list the m
 </tbody>
 </table>
 
- 
+
 
 ### <a href="" id="bkmk-50sp3-exp-cg-xml"></a>App-V example connection group XML file
 
@@ -159,24 +158,24 @@ The following example connection group XML file shows examples of the fields in 
 
 ```XML
 <?xml version="1.0" encoding="UTF-16">
-<appv:AppConnectionGroup 
+<appv:AppConnectionGroup
   xmlns="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup"
-  xmlns:appv="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup"  
+  xmlns:appv="https://schemas.microsoft.com/appv/2014/virtualapplicationconnectiongroup"
   AppConnectionGroupId="61BE9B14-D2B4-41CE-A6E3-A1B658DE7000"
   VersionId="E6B6AA57-F2A7-49C9-ADF8-F2B5B3C8A42F"
-  Priority="0"  
+  Priority="0"
   DisplayName="Sample Connection Group">
-  <appv:Packages>    
+  <appv:Packages>
     <appv:Package
       PackageId="1DC709C8-309F-4AB4-BD47-F75926D04276"
       VersionId="*"
-      IsOptional="true"    
+      IsOptional="true"
     />
     <appv:Package
       PackageId="04220DCA-EE77-42BE-A9F5-96FD8E8593F2"
       VersionId="E15EFFE9-043D-4C01-BC52-AD2BD1E8BAFA"
-      IsOptional="false"    
-    />  
+      IsOptional="false"
+    />
   </appv:Packages>
 </appv:AppConnectionGroup>
 ```
@@ -221,7 +220,7 @@ You can use the connection group file to configure each connection group by usin
     **Note**  
     Priority is required only if the package is associated with more than one connection group.
 
-     
+
 
 -   Specify package precedence within the connection group.
 
@@ -316,7 +315,7 @@ The virtual application Microsoft Outlook is running in virtual environment **XY
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -328,9 +327,9 @@ The virtual application Microsoft Outlook is running in virtual environment **XY
 
 [Managing Connection Groups](managing-connection-groups51.md)
 
- 
 
- 
+
+
 
 
 

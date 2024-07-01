@@ -3,8 +3,7 @@ title: How to Pack a MED-V Image
 description: How to Pack a MED-V Image
 author: aczechowski
 ms.assetid: e1ce2307-0f1b-4bf8-b146-e4012dc138d2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -34,7 +33,7 @@ A MED-V image must be packed before it can be added to a deployment package or u
 
     -   In the **Image name** field, type the desired name.
 
-        **Note**  
+        **Note**
         The following characters cannot be included in the image name: space " &lt; &gt; | \\ / : \* ?
 
 
@@ -51,7 +50,7 @@ A MED-V image must be packed before it can be added to a deployment package or u
 
    A new MED-V packed image is created on your host computer with the properties defined in the following table.
 
-**Note**  
+**Note**
 In the **Local Packed Images** and **Packed Images on Server** panes, the most recent version of each image is displayed as the parent node. Click the parent node to view all other existing versions of the image.
 
 

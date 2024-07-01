@@ -3,8 +3,7 @@ title: Create a Package Accelerator by Using PowerShell
 description: How to Create a Package Accelerator by Using PowerShell
 author: aczechowski
 ms.assetid: 0cb98394-4477-4193-8c5f-1c1773c7263a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

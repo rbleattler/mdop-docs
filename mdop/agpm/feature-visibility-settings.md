@@ -3,8 +3,7 @@ title: Feature Visibility Settings
 description: Feature Visibility Settings
 author: aczechowski
 ms.assetid: 9db2ba03-fb75-4f95-9138-ec89b9fc8d01
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

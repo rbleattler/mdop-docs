@@ -3,8 +3,7 @@ title: Application Virtualization Client WMI Provider
 description: Application Virtualization Client WMI Provider
 author: aczechowski
 ms.assetid: 384e33e0-6689-4e28-af84-53acee8a5c24
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -23,10 +22,10 @@ You can use a query tool such as wbemtest.exe or a scripting language such as Wi
 ## In This Section
 
 
-<a href="" id="app-v-application-wmi-class"></a>[App-V Application WMI Class](app-v-application-wmi-class.md)  
+<a href="" id="app-v-application-wmi-class"></a>[App-V Application WMI Class](app-v-application-wmi-class.md)
 Represents an individual application object in a package.
 
-<a href="" id="app-v-package-wmi-class"></a>[App-V Package WMI Class](app-v-package-wmi-class.md)  
+<a href="" id="app-v-package-wmi-class"></a>[App-V Package WMI Class](app-v-package-wmi-class.md)
 Represents an individual virtual package that can contain multiple applications.
 
 ## Related topics

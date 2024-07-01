@@ -3,8 +3,7 @@ title: Select Guidance Page (Package Accelerators)
 description: Select Guidance Page (Package Accelerators)
 author: aczechowski
 ms.assetid: 608b8823-6eac-40c0-a6dc-2f0bfc0d42a1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ Use the **Select Guidance** page to specify a file that contains prescriptive gu
 
 This page contains the following elements:
 
-<a href="" id="browse"></a>**Browse**  
+<a href="" id="browse"></a>**Browse**
 Click **Browse** to specify the file that contains information about how to apply the Package Accelerator.
 
 ## Related topics

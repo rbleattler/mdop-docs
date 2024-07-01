@@ -3,8 +3,7 @@ title: UE-V 1.0 Security Considerations
 description: UE-V 1.0 Security Considerations
 author: aczechowski
 ms.assetid: c5cdf9ff-dc96-4491-98e9-0eada898ffe0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -221,7 +220,7 @@ To ensure that UE-V works optimally, create only the root share on the server, a
 
 This permission configuration allows users to create folders for settings storage. The UE-V agent creates and secures a settingspackage folder while running in the context of the user. The user receives full control to their settingspackage folder. Other users do not inherit access to this folder. You do not need to create and secure individual user directories. This will be done automatically by the agent that runs in the context of the user.
 
-**Note**  
+**Note**
 Additional security can be configured when a Windows server is utilized for the settings storage share. UE-V can be configured to verify that either the local administrator's group or the current user is the owner of the folder where settings packages are stored. To enable additional security use the following command:
 
 1.  Add a REG\_DWORD registry key named "RepositoryOwnerCheckEnabled" to `HKEY_LOCAL_MACHINE\Software\Microsoft\UEV\Agent\Configuration`.

@@ -3,8 +3,7 @@ title: How to Configure the MBAM 2.5 Databases
 description: How to Configure the MBAM 2.5 Databases
 author: aczechowski
 ms.assetid: 66e1c81b-f785-4398-9175-bb5f112c2a35
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -203,7 +202,7 @@ The instructions are based on the recommended architecture in [High-Level Archit
 
 4. On the **Summary** page, review the features that will be added.
 
-   **Note**  
+   **Note**
    To create a Windows PowerShell script of the entries that you just made, click **Export PowerShell Script**, and then save the script.
 
 
@@ -229,7 +228,7 @@ The instructions are based on the recommended architecture in [High-Level Archit
 
 ## Got a suggestion for MBAM?
 
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
+For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 
 

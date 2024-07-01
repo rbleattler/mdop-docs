@@ -3,8 +3,7 @@ title: App-V 5.0 Planning Checklist
 description: App-V 5.0 Planning Checklist
 author: aczechowski
 ms.assetid: 81d3fa62-3c9e-4de7-a9da-cd13112b0862
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ This checklist can be used to help you plan for preparing your computing environ
 **Note**  
 This checklist outlines the recommended steps and a high-level list of items to consider when planning for an App-V 5.0 deployment. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
- 
+
 
 <table>
 <colgroup>
@@ -79,7 +78,7 @@ This checklist outlines the recommended steps and a high-level list of items to 
 </tbody>
 </table>
 
- 
+
 
 
 
@@ -91,9 +90,9 @@ This checklist outlines the recommended steps and a high-level list of items to 
 
 [Planning for App-V 5.0](planning-for-app-v-50-rc.md)
 
- 
 
- 
+
+
 
 
 

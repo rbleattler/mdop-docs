@@ -3,8 +3,7 @@ title: How to Disable or Modify Disconnected Operation Mode Settings
 description: How to Disable or Modify Disconnected Operation Mode Settings
 author: aczechowski
 ms.assetid: 39f166d7-2d25-4899-8405-b45f051facb8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

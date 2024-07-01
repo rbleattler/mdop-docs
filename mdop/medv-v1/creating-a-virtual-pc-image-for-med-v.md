@@ -3,8 +3,7 @@ title: Creating a Virtual PC Image for MED-V
 description: Creating a Virtual PC Image for MED-V
 author: aczechowski
 ms.assetid: 5e02ea07-25b9-41a5-a803-d70c55eef586
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -56,13 +55,13 @@ After the Virtual PC image is created, install the MED-V workspace .msi package 
 
 2.  Double-click the MED-V workspace .msi package, and follow the installation wizard instructions.
 
-    **Note**  
+    **Note**
     When a new MED-V version is released, and an existing Virtual PC image is updated, uninstall the existing MED-V workspace .msi package, reboot the computer, and install the new MED-V workspace .msi package.
 
 
 
 
-**Note**  
+**Note**
 After the MED-V workspace .msi package is installed, other products that replace GINA cannot be installed.
 
 
@@ -73,7 +72,7 @@ After the MED-V workspace .msi package is installed, other products that replace
 
 The virtual machine (VM) prerequisites tool is a wizard that automates several of the prerequisites.
 
-**Note**  
+**Note**
 Although many parameters are configurable in the wizard, the properties required for the proper functioning of MED-V are not configurable.
 
 
@@ -82,7 +81,7 @@ Although many parameters are configurable in the wizard, the properties required
 
 1.  After the MED-V workspace .msi package is installed, on the Windows **Start** menu, select **All Programs &gt; MED-V &gt; VM Prerequisites Tool**.
 
-    **Note**  
+    **Note**
     The user running the virtual machine prerequisites tool must have local administrator rights and must be the only user logged in.
 
 
@@ -101,7 +100,7 @@ The **MED-V VM Prerequisite Wizard Welcome** page appears.
 
    -   **Disable sounds on following Windows events: start, logon, logoff**
 
-   **Note**  
+   **Note**
    Do not enable Windows page saver in a group policy.
 
 
@@ -148,7 +147,7 @@ The **MED-V VM Prerequisite Wizard Welcome** page appears.
 
 11. On the **Summary** page, click **Finish** to quit the wizard
 
-**Note**  
+**Note**
 Verify that group policies do not overwrite the mandatory settings set in the prerequisites tool.
 
 
@@ -199,7 +198,7 @@ Several of the configurations cannot be configured through the virtual machine p
 
 In a MED-V workspace, Sysprep can be configured in order to assign unique security ID (SID), particularly when multiple MED-V workspaces are run on a single computer. It is not recommended to use Sysprep to join a domain; instead, use the MED-V join domain script action as described in [How to Set Up Script Actions](how-to-set-up-script-actions.md).
 
-**Note**  
+**Note**
 Sysprep is Microsoft's system preparation utility for the Windows operating system.
 
 

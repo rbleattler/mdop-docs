@@ -3,8 +3,7 @@ title: Evaluating App-V 5.0
 description: Evaluating App-V 5.0
 author: aczechowski
 ms.assetid: 0b4a6b12-559d-429f-9659-dc8f4883feab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

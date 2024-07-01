@@ -3,8 +3,7 @@ title: How to Remove a Package by Using the Command Line
 description: How to Remove a Package by Using the Command Line
 author: aczechowski
 ms.assetid: 47697ec7-20e5-4258-8865-a0a710d41d5a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

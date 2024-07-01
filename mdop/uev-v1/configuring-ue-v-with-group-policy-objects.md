@@ -3,8 +3,7 @@ title: Configuring UE-V with Group Policy Objects
 description: Configuring UE-V with Group Policy Objects
 author: aczechowski
 ms.assetid: 5c9be706-a05f-4397-9a38-e6b73ebff1e5
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -94,7 +93,7 @@ The following policy settings can be configured for UE-V:
 </tbody>
 </table>
 
- 
+
 
 **To configure computer-targeted policies**
 
@@ -127,9 +126,9 @@ The UE-V agent uses the following order of precedence to determine synchronizati
 
 [Operations for UE-V 1.0](operations-for-ue-v-10.md)
 
- 
 
- 
+
+
 
 
 

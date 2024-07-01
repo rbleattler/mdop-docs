@@ -3,8 +3,7 @@ title: Administrative Templates Settings
 description: With the Administrative template settings for Advanced Group Policy Management (AGPM), you configure logging and tracing options for AGPM Clients and AGPM Servers to which a Group Policy Object (GPO) is applied.
 author: aczechowski
 ms.assetid: abc41968-4505-4b09-94f2-67ee0e6c9aaf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

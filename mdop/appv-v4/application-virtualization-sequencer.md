@@ -3,8 +3,7 @@ title: Application Virtualization Sequencer
 description: Application Virtualization Sequencer
 author: aczechowski
 ms.assetid: f078f3c9-7b5c-4ff1-b319-4c076b88bc39
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,28 +20,28 @@ Sequencing is the process by which you create an application package using the M
 ## In This Section
 
 
-<a href="" id="application-virtualization-sequencer-console-overview"></a>[Application Virtualization Sequencer Console Overview](application-virtualization-sequencer-console-overview.md)  
+<a href="" id="application-virtualization-sequencer-console-overview"></a>[Application Virtualization Sequencer Console Overview](application-virtualization-sequencer-console-overview.md)
 Provides information about the menu, toolbar, and tabs on the Application Virtualization Sequencer Console.
 
-<a href="" id="about-sequencing-phases"></a>[About Sequencing Phases](about-sequencing-phases.md)  
+<a href="" id="about-sequencing-phases"></a>[About Sequencing Phases](about-sequencing-phases.md)
 Provides information about sequencing an application.
 
-<a href="" id="how-to-configure-the-app-v-sequencer"></a>[How to Configure the App-V Sequencer](how-to-configure-the-app-v-sequencer.md)  
+<a href="" id="how-to-configure-the-app-v-sequencer"></a>[How to Configure the App-V Sequencer](how-to-configure-the-app-v-sequencer.md)
 Provides a set of procedures you can use to configure the Application Virtualization Sequencer.
 
-<a href="" id="configuring-the-application-virtualization-sequencer--app-v-4-6-sp1-"></a>[Configuring the Application Virtualization Sequencer (App-V 4.6 SP1)](configuring-the-application-virtualization-sequencer--app-v-46-sp1-.md)  
+<a href="" id="configuring-the-application-virtualization-sequencer--app-v-4-6-sp1-"></a>[Configuring the Application Virtualization Sequencer (App-V 4.6 SP1)](configuring-the-application-virtualization-sequencer--app-v-46-sp1-.md)
 Provides a set of procedures you can use to configure the Application Virtualization Sequencer.
 
-<a href="" id="how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer"></a>[How to Create or Upgrade Virtual Applications Using the App-V Sequencer](how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer.md)  
+<a href="" id="how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer"></a>[How to Create or Upgrade Virtual Applications Using the App-V Sequencer](how-to-create-or-upgrade-virtual-applications-using--the-app-v-sequencer.md)
 Provides step-by-step procedures for sequencing or upgrading virtual application, using either the user interface or the command line.
 
-<a href="" id="tasks-for-the-application-virtualization-sequencer--app-v-4-6-sp1-"></a>[Tasks for the Application Virtualization Sequencer (App-V 4.6 SP1)](tasks-for-the-application-virtualization-sequencer--app-v-46-sp1-.md)  
+<a href="" id="tasks-for-the-application-virtualization-sequencer--app-v-4-6-sp1-"></a>[Tasks for the Application Virtualization Sequencer (App-V 4.6 SP1)](tasks-for-the-application-virtualization-sequencer--app-v-46-sp1-.md)
 Provides step-by-step procedures for sequencing or upgrading virtual application.
 
-<a href="" id="troubleshooting-application-virtualization-sequencer-issues"></a>[Troubleshooting Application Virtualization Sequencer Issues](troubleshooting-application-virtualization-sequencer-issues.md)  
+<a href="" id="troubleshooting-application-virtualization-sequencer-issues"></a>[Troubleshooting Application Virtualization Sequencer Issues](troubleshooting-application-virtualization-sequencer-issues.md)
 Provides troubleshooting tips for a variety of issues that you might encounter when working with the App-V Sequencer.
 
-<a href="" id="application-virtualization-sequencer-reference"></a>[Application Virtualization Sequencer Reference](application-virtualization-sequencer-reference.md)  
+<a href="" id="application-virtualization-sequencer-reference"></a>[Application Virtualization Sequencer Reference](application-virtualization-sequencer-reference.md)
 Provides detailed technical reference material related to working with the Application Virtualization Sequencer.
 
 ## Related topics

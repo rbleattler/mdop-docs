@@ -3,8 +3,7 @@ title: DaRT 10 Planning Checklist
 description: DaRT 10 Planning Checklist
 author: aczechowski
 ms.assetid: d6482534-cdf3-4997-bec0-33d0edf6924a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

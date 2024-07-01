@@ -3,8 +3,7 @@ title: Configuring App-V for Secure Administration
 description: Configuring App-V for Secure Administration
 author: aczechowski
 ms.assetid: 4543fa81-c8cc-4b10-83b7-060778eb1349
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -25,10 +24,10 @@ The App-V Web Management Service is installed as a Web-based application on IIS.
 ## In This Section
 
 
-<a href="" id="configuring-certificates-to-support-the-app-v-web-management-service"></a>[Configuring Certificates to Support the App-V Web Management Service](configuring-certificates-to-support-the-app-v-web-management-service.md)  
+<a href="" id="configuring-certificates-to-support-the-app-v-web-management-service"></a>[Configuring Certificates to Support the App-V Web Management Service](configuring-certificates-to-support-the-app-v-web-management-service.md)
 Provides helpful information about configuring certificates to support SSL-based connections, to help secure communication for the App-V Web Management Service.
 
-<a href="" id="how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment"></a>[How to Install and Configure the App-V Management Console for a More Secure Environment](how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment.md)  
+<a href="" id="how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment"></a>[How to Install and Configure the App-V Management Console for a More Secure Environment](how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment.md)
 Provides a step-by-step procedure for connecting to an App-V Web Management Service by using a secure connection.
 
  

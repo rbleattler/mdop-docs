@@ -3,8 +3,7 @@ title: Create, Edit, and Deploy GPO Tasks
 description: Create, Edit, and Deploy a GPO Checklist
 author: aczechowski
 ms.assetid: a7a17706-304a-4455-9ada-52508ec620f1
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -59,15 +58,15 @@ In an environment where multiple people make changes to Group Policy Objects (GP
 </tbody>
 </table>
 
- 
+
 
 ### Additional references
 
 [Operations Guide for Microsoft Advanced Group Policy Management 3.0](operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops.md)
 
- 
 
- 
+
+
 
 
 

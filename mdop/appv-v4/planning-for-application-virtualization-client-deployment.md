@@ -3,8 +3,7 @@ title: Planning for Application Virtualization Client Deployment
 description: Planning for Application Virtualization Client Deployment
 author: aczechowski
 ms.assetid: a352f80f-f0f9-4fbf-ac10-24c510b2d6be
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

@@ -2,8 +2,7 @@
 title: Microsoft Application Virtualization Management System Release Notes
 description: Microsoft Application Virtualization Management System Release Notes
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---
@@ -21,7 +20,7 @@ These Release Notes have been updated to reflect the changes introduced with Mic
 
 -   Improved support for sequencing the .NET Framework: App-V 4.5 CU1 addresses previous issues with sequencing the .NET Framework 3.5 and earlier on Windows XP (SP2 or later).
 
--   Customer Feedback and Hotfix Rollup: App-V 4.5 CU1 also includes a rollup up of fixes to address issues found since the App-V 4.5 RTM release. This includes a combination of known issues and customer feedback from our internal teams, partners, and customers who are using App-V 4.5. 
+-   Customer Feedback and Hotfix Rollup: App-V 4.5 CU1 also includes a rollup up of fixes to address issues found since the App-V 4.5 RTM release. This includes a combination of known issues and customer feedback from our internal teams, partners, and customers who are using App-V 4.5.
 
 ## Protect Against Security Vulnerabilities and Viruses
 

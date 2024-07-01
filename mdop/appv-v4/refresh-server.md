@@ -3,8 +3,7 @@ title: REFRESH SERVER
 description: REFRESH SERVER
 author: aczechowski
 ms.assetid: 232df842-a160-46cd-b60b-f464cd9a0086
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

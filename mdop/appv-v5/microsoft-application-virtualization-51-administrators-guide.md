@@ -3,8 +3,7 @@ title: Microsoft Application Virtualization 5.1 Administrator's Guide
 description: Microsoft Application Virtualization 5.1 Administrator's Guide
 author: aczechowski
 ms.assetid: 3049996a-7253-4599-a29a-1b58f9ab14a4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

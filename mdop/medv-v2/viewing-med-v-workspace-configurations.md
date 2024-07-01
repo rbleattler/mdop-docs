@@ -3,8 +3,7 @@ title: Viewing MED-V Workspace Configurations
 description: Viewing MED-V Workspace Configurations
 author: aczechowski
 ms.assetid: 5de6cf04-6beb-4ac9-ad52-26ac8c0c8ce6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

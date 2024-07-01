@@ -3,8 +3,7 @@ title: Apply the Deployment Configuration File by Using PowerShell
 description: How to Apply the Deployment Configuration File by Using PowerShell
 author: aczechowski
 ms.assetid: 78fe0f15-4a36-41e3-96d6-7d5aa77c1e06
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -29,7 +28,7 @@ The dynamic deployment configuration file is applied when a package is added or 
 
     **Add-AppVClientPackage –Path c:\\Packages\\Contoso\\MyApp.appv -DynamicDeploymentConfiguration c:\\Packages\\Contoso\\DynamicConfigurations\\deploymentconfig.xml**
 
-    **Note**  
+    **Note**
     This command captures the resulting object into $pkg. If the package is already present on the computer, the **Set-AppVclientPackage** cmdlet can be used to apply the deployment configuration document:
 
     **Set-AppVClientPackage –Name Myapp –Path c:\\Packages\\Contoso\\MyApp.appv -DynamicDeploymentConfiguration c:\\Packages\\Contoso\\DynamicConfigurations\\deploymentconfig.xml**

@@ -3,8 +3,7 @@ title: Deploying the App-V 5.1 Server
 description: Deploying the App-V 5.1 Server
 author: aczechowski
 ms.assetid: 987b61dc-00d6-49ba-8f1b-92d7b948e702
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

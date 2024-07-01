@@ -2,8 +2,7 @@
 title: How to Deploy the App-V Databases by Using SQL Scripts
 description: How to Deploy the App-V Databases by Using SQL Scripts
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
@@ -135,7 +134,7 @@ Steps to install "AppVReporting" schema in SQL SERVER.
 
  2. Ensure the target SQL Server instance and SQL Server Agent service are running.
 
- 3. If you are not running the scripts directly on the server, ensure the 
+ 3. If you are not running the scripts directly on the server, ensure the
     necessary SQL Server client software is installed and executable from
     the location you have chosen.  Specifically, the "osql" command must
 ##     be supported for these scripts to run.
@@ -155,7 +154,7 @@ Steps to install "AppVReporting" schema in SQL SERVER.
     in the file will not work.
 
  3. Review the ScheduleReportingJob.sql file and make sure that the stored proc schedule
-    time is acceptable. The default stored proc schedule time is at 12.01 AM (line 84). 
+    time is acceptable. The default stored proc schedule time is at 12.01 AM (line 84).
     If this time is not suitable, you can change this to a more suitable time. The time is
 ##     in the format HHMMSS.
 

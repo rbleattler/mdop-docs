@@ -3,8 +3,7 @@ title: Managing MED-V Workspace Configuration Settings
 description: Managing MED-V Workspace Configuration Settings
 author: aczechowski
 ms.assetid: 517d04de-c31f-4b50-b2b3-5f8c312ed37b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -32,7 +31,7 @@ If the value is still not found, MED-V uses the default.
 
 A general best practice is to set the value in the HKEY\_LOCAL\_MACHINE\\System hive or in the machine policy. But if you want the end user to be able to configure a particular setting, then you should leave it out.
 
-**Note**  
+**Note**
 Before you deploy your MED-V workspaces, you can use a script editor to change the Windows PowerShell script (.ps1 file) that the MED-V workspace packager created. For more information, see [Configuring Advanced Settings by Using Windows PowerShell](configuring-advanced-settings-by-using-windows-powershell.md).
 
 After you have deployed your MED-V workspaces, you can change certain MED-V configuration settings by editing the registry entries.

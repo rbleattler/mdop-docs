@@ -3,8 +3,7 @@ title: Example MED-V Image Preparation Checklist
 description: Example MED-V Image Preparation Checklist
 author: aczechowski
 ms.assetid: d69f252f-624b-439e-814b-b68cdaf7d582
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -45,11 +44,11 @@ The following checklist provides a high-level list of items to consider and outl
 </tbody>
 </table>
 
- 
 
- 
 
- 
+
+
+
 
 
 

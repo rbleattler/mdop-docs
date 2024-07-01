@@ -3,8 +3,7 @@ title: Accessibility for App-V 5.1
 description: Accessibility for App-V 5.1
 author: aczechowski
 ms.assetid: ef3f7742-f2e9-4748-ad60-74e0961b1bd9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -51,7 +50,7 @@ Following are the keyboard Shortcuts for the App-V 5.1 Management Server:
 </tbody>
 </table>
 
- 
+
 
 ## Keyboard Shortcuts for the App-V 5.1 Sequencer
 
@@ -81,14 +80,14 @@ Following are the keyboard shortcuts for the Virtual Registry tab in the package
 </tbody>
 </table>
 
- 
+
 
 ### Access Any Command with a Few Keystrokes
 
 **Important**  
 The information in this section only applies to the App-V 5.1 sequencer. For specific information about the App-V 5.1 server, see the Keyboard Shortcuts for the App-V 5.1 Management Server section of this document.
 
- 
+
 
 Access keys let you quickly use a command by pressing a few keys. You can get to most commands by using two keystrokes. To use an access key:
 
@@ -101,7 +100,7 @@ Access keys let you quickly use a command by pressing a few keys. You can get to
 **Note**  
 To cancel the action that you are taking and hide the keyboard shortcuts, press ALT.
 
- 
+
 
 ## Documentation in Alternative Formats
 
@@ -141,7 +140,7 @@ For information about the availability of Microsoft product documentation and bo
 </tbody>
 </table>
 
- 
+
 
 ## Customer Service for People with Hearing Impairments
 
@@ -164,9 +163,9 @@ For more information about how accessible technology for computers helps to impr
 
 [Getting Started with App-V 5.1](getting-started-with-app-v-51.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Importing a GPO from Production
 description: Importing a GPO from Production
 author: aczechowski
 ms.assetid: 071270fa-1890-40ce-ab89-ce070a54aa59
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

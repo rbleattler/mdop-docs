@@ -3,8 +3,7 @@ title: Planning to Deploy MBAM with Configuration Manager
 description: Planning to Deploy MBAM with Configuration Manager
 author: aczechowski
 ms.assetid: fb768306-48c2-40b4-ac4e-c279db987391
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -18,7 +17,7 @@ ms.date: 08/30/2016
 
 To deploy MBAM with the Configuration Manager topology, a three-server architecture, which supports 200,000 clients, is recommended. Use a separate server to run Configuration Manager, and install the basic Administration and Monitoring features on two servers, as shown in the architecture image in [Getting Started - Using MBAM with Configuration Manager](getting-started---using-mbam-with-configuration-manager.md).
 
-**Important**  
+**Important**
 Windows To Go is not supported when you install the integrated topology of MBAM with Configuration Manager 2007.
 
 

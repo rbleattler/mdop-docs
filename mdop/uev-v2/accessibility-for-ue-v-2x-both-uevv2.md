@@ -3,8 +3,7 @@ title: Accessibility for UE-V 2.x
 description: Accessibility for UE-V 2.x
 author: aczechowski
 ms.assetid: ec05da5f-4558-4d4d-9b58-3b8ed68cf2fe
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, virtualization
@@ -67,7 +66,7 @@ For information about the availability of Microsoft product documentation and bo
 </tbody>
 </table>
 
- 
+
 
 ### Customer service for people with hearing impairments
 
@@ -94,9 +93,9 @@ For more information about how accessible technology for computers can help to i
 
 [Technical Reference for UE-V 2.x](technical-reference-for-ue-v-2x-both-uevv2.md)
 
- 
 
- 
+
+
 
 
 

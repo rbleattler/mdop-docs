@@ -3,8 +3,7 @@ title: Creating a MED-V Workspace
 description: Creating a MED-V Workspace
 author: aczechowski
 ms.assetid: 9578bb99-8a09-44c1-b88f-538901f16ad3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

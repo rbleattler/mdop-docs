@@ -4,9 +4,8 @@ description: Applying hotfixes on MBAM 2.5 SP1
 ms.author: aaroncz
 ms.collection: must-keep
 author: aczechowski
-ms.assetid: 
-ms.reviewer: 
-manager: dansimp
+ms.assetid:
+ms.reviewer:
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -22,7 +21,7 @@ This topic describes the process for applying the hotfixes for Microsoft BitLock
 > [!NOTE]
 > For more information about the hotfix releases, see the [MBAM version chart](/archive/blogs/dubaisec/mbam-version-chart).
 
-#### Steps to update the MBAM Server for existing MBAM environment 
+#### Steps to update the MBAM Server for existing MBAM environment
 1. Remove MBAM server feature (do this by opening the MBAM Server Configuration Tool, then selecting Remove Features).
 2. Remove MDOP MBAM from Control Panel | Programs and Features.
 3. Install MBAM 2.5 SP1 RTM server components.

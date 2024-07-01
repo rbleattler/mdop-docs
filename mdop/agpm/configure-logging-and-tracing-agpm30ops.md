@@ -3,8 +3,7 @@ title: Configuring Logging and Tracing
 description: Centrally configure logging and tracing using Administrative templates
 author: aczechowski
 ms.assetid: 4f89552f-e949-48b0-9325-23746034eaa4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

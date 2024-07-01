@@ -3,8 +3,7 @@ title: UNPUBLISH PACKAGE
 description: UNPUBLISH PACKAGE
 author: aczechowski
 ms.assetid: 1651427c-72a5-4701-bb57-71e14a7a3803
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -59,7 +58,7 @@ Enables you to remove the shortcuts and file types for an entire package.
 </tbody>
 </table>
 
- 
+
 
 For version 4.6, the following option has been added.
 
@@ -76,7 +75,7 @@ For version 4.6, the following option has been added.
 </tbody>
 </table>
 
- 
+
 
 **Important**  
 Before you can run the **UNPUBLISH PACKAGE** command, the package must already have been added to the Application Virtualization Client.
@@ -91,16 +90,16 @@ Using **UNPUBLISH PACKAGE** without **GLOBAL** removes the user shortcuts and fi
 
 **UNPUBLISH PACKAGE** always clears all the user settings, shortcuts, and file types regardless of the use of the /CLEAR switch.
 
- 
+
 
 ## Related topics
 
 
 [SFTMIME Command Reference](sftmime--command-reference.md)
 
- 
 
- 
+
+
 
 
 

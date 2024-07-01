@@ -2,8 +2,7 @@
 title: Technical Reference for App-V 5.1
 description: Technical Reference for App-V 5.1
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016

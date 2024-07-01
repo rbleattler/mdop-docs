@@ -3,8 +3,7 @@ title: About App-V 5.0 Reporting
 description: About App-V 5.0 Reporting
 author: aczechowski
 ms.assetid: 27c33dda-f017-41e3-8a78-1b681543ec4f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -41,7 +40,7 @@ The following list displays the end–to-end high-level workflow for reporting i
     **Note**  
     If you are using the Configuration Manager integration with App-V 5.0, most reports are generated from Configuration Manager rather than from App-V 5.0.
 
-     
+
 
 4.  After importing the App-V 5.0 PowerShell module using `Import-Module AppvClient` as administrator, enable the App-V 5.0 client. This sample PowerShell cmdlet enables App-V 5.0 reporting:
 
@@ -60,7 +59,7 @@ The following list displays the end–to-end high-level workflow for reporting i
     **Note**  
     By default the cache is cleared after the server confirms receipt of data. You can manually configure the client to save the data cache.
 
-     
+
 
 
 If the App-V 5.0 client device does not receive a success notification from the server, it retains data in the cache and tries to resend data at the next configured interval. Clients continue to collect data and add it to the cache.
@@ -127,7 +126,7 @@ The following table displays answers to common questions about App-V 5.0 reporti
 </tr>
 </tbody>
 </table>
- 
+
 
 
 ## <a href="" id="---------app-v-5-0-client-reporting"></a> App-V 5.0 Client Reporting
@@ -139,9 +138,9 @@ To use App-V 5.0 reporting you must install and configure the App-V 5.0 client. 
 
 The following examples show how PowerShell parameters can configure the reporting features of the App-V 5.0 client.
 
-**Note**  
+**Note**
 The following configuration task can also be configured using Group Policy settings in the App-V 5.0 ADMX template. For more information about using the ADMX template, see [How to Modify App-V 5.0 Client Configuration Using the ADMX Template and Group Policy](how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy.md).
- 
+
 
 
 **To enable reporting and to initiate data collection on the computer running the App-V 5.0 client**:
@@ -225,7 +224,7 @@ The following table displays the types of information you can collect by using A
 </tr>
 </tbody>
 </table>
- 
+
 
 
 The client collects and saves this data in an **.xml** format. The data cache is hidden by default and requires administrator rights to open the XML file.
@@ -277,13 +276,13 @@ You can also use the **Send-AppVClientReport** cmdlet to manually collect data. 
 <strong>Note</strong><br/><p>If a location other than the Reporting Server is specified, the data is sent using <strong>.xml</strong> format with no additional processing.</p>
 </div>
 <div>
- 
+
 </div></td>
 </tr>
 </tbody>
 </table>
 
- 
+
 
 ### Creating Reports
 
@@ -317,9 +316,9 @@ You should also ensure that the reporting server web service’s **Maximum Concu
 
 [How to install the Reporting Server on a Standalone Computer and Connect it to the Database](how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database.md)
 
- 
 
- 
+
+
 
 
 

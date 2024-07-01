@@ -3,8 +3,7 @@ title: How to Sequence a New Application (App-V 4.6)
 description: How to Sequence a New Application (App-V 4.6)
 author: aczechowski
 ms.assetid: f2c398c6-9200-4be3-b502-e00386fcd150
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 Use the following procedure to create a new virtual application by using the Application Virtualization (App-V) Sequencer. You can also use the App-V Sequencer to configure which files and configurations are applicable to all users and which files and configurations users can customize. After you successfully sequence the application, it is available in the App-V Sequencer.
 
-**Important**  
+**Important**
 During sequencing, if the computer running the sequencer is running Windows Vista or Windows 7, and a restart is initiated outside of the virtual environment, for example, by clicking **Start** / **Shut Down**, you must click **Cancel** when prompted to close the program that is preventing Windows from shutting down. If you click **Force shut down**, the package creation will fail, and the computer will restart. When you click **Cancel**, the sequencer successfully records the restart while the application is being sequenced.
 
 
@@ -27,7 +26,7 @@ During sequencing, if the computer running the sequencer is running Windows Vist
 
 1.  To create the App-V drive, configure drive Q as the location that can be used to save files while you are sequencing an application. You must then create individual directories for each application that you plan to sequence on drive Q. You can create the virtual application targeted folders before you sequence an application, or you can create them in step 5 of this procedure.
 
-    **Note**  
+    **Note**
     The App-V drive you specify must be accessible on targeted computers. If drive Q is not accessible, you can choose a different drive letter.
 
 
@@ -40,7 +39,7 @@ During sequencing, if the computer running the sequencer is running Windows Vist
 
 5.  On the **Monitor Installation** page, when you are ready to install the application, click **Begin Monitoring**, and in the **Browse for Folder** dialog box, specify the directory on drive Q where the application will be installed. If you did not configure drive Q and used a different drive letter for the application virtualization drive, select the drive letter you specified in step 1 of this procedure. To install the application to a folder that has not been created on the application virtualization drive, click **Make New Folder**. After you specify the folder, wait while the Sequencer configures the computer for sequencing.
 
-    **Important**  
+    **Important**
     You must install each application that you sequence into a separate directory on the virtual application drive, and the associated folder name must not be longer than eight characters.
 
 
@@ -57,7 +56,7 @@ After the computer has been configured for sequencing, install the application s
 
    You can optionally create an associated Windows Installer file (**.msi**) to install the virtual application package on targeted computers. To create a Windows Installer file, open the package in the Sequencer and select **Tools** / **Create MSI**. The Windows Installer file will be created and saved in the directory where the virtual application package is saved.
 
-   **Important**  
+   **Important**
    After you have successfully created a virtual application package, you cannot run the virtual application package on the computer running the sequencer.
 
 

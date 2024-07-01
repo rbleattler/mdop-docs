@@ -3,8 +3,7 @@ title: Use a Test Environment
 description: Use a Test Environment in AGPM 3.
 author: aczechowski
 ms.assetid: 86295084-b39e-4040-bb3f-15c3c1e99b1a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

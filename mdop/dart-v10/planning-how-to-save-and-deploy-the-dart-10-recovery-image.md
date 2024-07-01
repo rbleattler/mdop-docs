@@ -2,8 +2,7 @@
 title: Planning how to save and deploy the DaRT 10 recovery image
 description: Planning how to save and deploy the DaRT 10 recovery image.
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021

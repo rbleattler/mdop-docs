@@ -2,8 +2,7 @@
 title: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
 description: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 03/30/2017

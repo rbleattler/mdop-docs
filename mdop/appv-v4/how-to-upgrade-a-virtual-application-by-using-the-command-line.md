@@ -3,8 +3,7 @@ title: How to Upgrade a Virtual Application by Using the Command Line
 description: How to Upgrade a Virtual Application by Using the Command Line
 author: aczechowski
 ms.assetid: 83c97767-6ea1-42aa-b411-ccc9fa61cf81
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -28,7 +27,7 @@ Use the following procedure to upgrade a virtual application by using a command 
 
     `SFTSequencer /UPGRADE:"pathtosourceSPRJ" /INSTALLPACKAGE:"pathtoUpgradeInstaller" /DECODEPATH:"pathtodecodefolder" /OUTPUTFILE:"pathtodestinationSPRJ"`
 
-    **Note**  
+    **Note**
     You can specify additional parameters by using the command line, depending on the complexity of the application you are upgrading. For a complete list of parameters that are available for use with the App-V Sequencer, see [Sequencer Command-Line Parameters](sequencer-command-line-parameters.md).
 
 

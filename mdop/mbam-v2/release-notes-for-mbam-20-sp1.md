@@ -3,8 +3,7 @@ title: Release Notes for MBAM 2.0 SP1
 description: Release Notes for MBAM 2.0 SP1
 author: aczechowski
 ms.assetid: b39002ba-33c6-45ec-9d1b-464327b60f5c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -36,7 +35,7 @@ If you are using MBAM with Configuration Manager, and you want to upgrade to MBA
     **Note**  
     All existing BitLocker compliance data will be deleted when you delete the existing baseline in Configuration Manager. The data will be regenerated over time, but it is recommended that you save a copy of the data in case you need the compliance data for a particular computer before the compliance data has been regenerated.
 
-     
+
 
     1.  To save historical BitLocker compliance data, open the **BitLocker Enterprise Compliance Details** Report.
 
@@ -226,16 +225,16 @@ This section contains hotfixes and KB articles for MBAM 2.0 SP1.
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [About MBAM 2.0 SP1](about-mbam-20-sp1.md)
 
- 
 
- 
+
+
 
 
 

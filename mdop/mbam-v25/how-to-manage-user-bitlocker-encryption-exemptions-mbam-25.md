@@ -3,8 +3,7 @@ title: How to Manage User BitLocker Encryption Exemptions
 description: How to Manage User BitLocker Encryption Exemptions
 author: aczechowski
 ms.assetid: f582ab82-5bb5-4cd3-ad7c-483240533cf9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -56,7 +55,7 @@ The following steps describe what occurs when end users request an exemption fro
 
 1.  When end users sign in to a computer that is required to be encrypted, they receive a notification that their computer is going to be encrypted. They can select **Request Exemption** and postpone the encryption by selecting **Postpone**, or they can select **Start Encryption** to accept the BitLocker encryption.
 
-    **Note**  
+    **Note**
     Selecting **Request Exemption** postpones the BitLocker protection until the maximum time that is set in the User Exemption Policy.
 
 
@@ -112,7 +111,7 @@ The following steps describe what occurs when end users request an exemption fro
 
 1.  When end users sign in to a computer that is required to be encrypted, they receive a notification that their computer is going to be encrypted. They can select **Request Exemption** and postpone the encryption by selecting **Postpone**, or they can select **Start Encryption** to accept the BitLocker encryption.
 
-    **Note**  
+    **Note**
     Selecting **Request Exemption** postpones the BitLocker protection until the maximum time that is set in the User Exemption Policy.
 
 
@@ -141,7 +140,7 @@ The following steps describe what occurs when end users request an exemption fro
 
     When a user signs in to a computer controlled by BitLocker, the MBAM Client checks the User Exemption Policy setting. If the computer is already encrypted, BitLocker protection is not suspended. If the computer is not encrypted, MBAM does not prompt the user to encrypt.
 
-    **Important**  
+    **Important**
     Shared computer scenarios require special consideration when you are using BitLocker user exemptions. If a non-exempt user signs in to a computer that is shared with an exempt user, the computer may be encrypted.
 
 

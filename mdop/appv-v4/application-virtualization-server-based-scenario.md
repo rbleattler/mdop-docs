@@ -3,8 +3,7 @@ title: Application Virtualization Server-Based Scenario
 description: Application Virtualization Server-Based Scenario
 author: aczechowski
 ms.assetid: 10ed0b18-087d-470f-951b-5083f4cb076f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,22 +20,22 @@ If you plan to use a server-based deployment scenario for your Microsoft Applica
 ## In This Section
 
 
-<a href="" id="application-virtualization-server-based-scenario-overview"></a>[Application Virtualization Server-Based Scenario Overview](application-virtualization-server-based-scenario-overview.md)  
+<a href="" id="application-virtualization-server-based-scenario-overview"></a>[Application Virtualization Server-Based Scenario Overview](application-virtualization-server-based-scenario-overview.md)
 Provides important deployment information about the Application Virtualization Management Server, the Application Virtualization Streaming Server, and the package delivery methods, protocols, and external components relevant to your server-based deployment plan.
 
-<a href="" id="how-to-install-the-servers-and-system-components"></a>[How to Install the Servers and System Components](how-to-install-the-servers-and-system-components.md)  
+<a href="" id="how-to-install-the-servers-and-system-components"></a>[How to Install the Servers and System Components](how-to-install-the-servers-and-system-components.md)
 Describes how to install the Microsoft Application Virtualization platform components required for your server-based deployment.
 
-<a href="" id="how-to-configure-servers-for-server-based-deployment"></a>[How to Configure Servers for Server-Based Deployment](how-to-configure-servers-for-server-based-deployment.md)  
+<a href="" id="how-to-configure-servers-for-server-based-deployment"></a>[How to Configure Servers for Server-Based Deployment](how-to-configure-servers-for-server-based-deployment.md)
 Describes how to configure the Application Virtualization Management Server, the Application Virtualization Streaming Server, the Internet Information Integration (IIS) server, and the file server.
 
-<a href="" id="how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-"></a>[How to Configure a Read-only Cache on the App-V Client (VDI)](how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-.md)  
+<a href="" id="how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-"></a>[How to Configure a Read-only Cache on the App-V Client (VDI)](how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-.md)
 Describes how to configure the App-V client to use read-only cache.
 
-<a href="" id="how-to-configure-a-read-only-cache-on-the-app-v-client--rds-"></a>[How to Configure a Read-only Cache on the App-V Client (RDS)](how-to-configure-a-read-only-cache-on-the-app-v-client--rds--sp1.md)  
+<a href="" id="how-to-configure-a-read-only-cache-on-the-app-v-client--rds-"></a>[How to Configure a Read-only Cache on the App-V Client (RDS)](how-to-configure-a-read-only-cache-on-the-app-v-client--rds--sp1.md)
 Describes how to configure the App-V client to use read-only cache.
 
-<a href="" id="how-to-configure-microsoft-sql-server-mirroring-support-for-app-v"></a>[How to Configure Microsoft SQL Server Mirroring Support for App-V](how-to-configure-microsoft-sql-server-mirroring-support-for-app-v.md)  
+<a href="" id="how-to-configure-microsoft-sql-server-mirroring-support-for-app-v"></a>[How to Configure Microsoft SQL Server Mirroring Support for App-V](how-to-configure-microsoft-sql-server-mirroring-support-for-app-v.md)
 Describes how to configure database mirroring by using Microsoft SQL Server for your App-V system.
 
 ## Reference

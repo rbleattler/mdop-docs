@@ -3,8 +3,7 @@ title: Delegate Domain-Level Access
 description: Delegate Domain-Level Access
 author: aczechowski
 ms.assetid: 64c8e773-38cc-4991-9ed2-5a801094d06e
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -32,7 +31,7 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
     **Note**  
     Editor and Approver include Reviewer permissions.
 
-     
+
 
 4.  In the **Advanced Security Settings** dialog box, select a Group Policy administrator, and then click **Edit**.
 
@@ -56,9 +55,9 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 -   [Performing AGPM Administrator Tasks](performing-agpm-administrator-tasks.md)
 
- 
 
- 
+
+
 
 
 

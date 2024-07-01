@@ -3,8 +3,7 @@ title: How to Rename an Application
 description: How to Rename an Application
 author: aczechowski
 ms.assetid: 983136b7-66bf-49f6-8dea-8933b622072d
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -29,16 +28,16 @@ You can rename an application through the Application Virtualization Server Mana
     **Note**  
     You can also highlight the application in the right pane and press **F2**.
 
-     
+
 
 ## Related topics
 
 
 [How to Manage Applications in the Server Management Console](how-to-manage-applications-in-the-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

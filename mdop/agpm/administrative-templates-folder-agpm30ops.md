@@ -3,8 +3,7 @@ title: Administrative Templates Folder
 description: Administrative Templates Folder
 author: aczechowski
 ms.assetid: 0cc5b570-b6d3-4841-9646-02521c13519c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

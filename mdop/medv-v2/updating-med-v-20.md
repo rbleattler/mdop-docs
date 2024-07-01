@@ -3,8 +3,7 @@ title: Updating MED-V 2.0
 description: Updating MED-V 2.0
 author: aczechowski
 ms.assetid: beea2f54-42d7-4a17-98e0-d243a8562265
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

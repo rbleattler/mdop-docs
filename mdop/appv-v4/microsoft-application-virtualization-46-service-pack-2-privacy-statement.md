@@ -2,8 +2,7 @@
 title: Microsoft Application Virtualization 4.6 Service Pack 2 Privacy Statement
 description: Microsoft Application Virtualization 4.6 Service Pack 2 Privacy Statement
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.date: 08/30/2016
 ---
@@ -176,7 +175,7 @@ We use this information to improve the quality, reliability, and performance of 
 
 **Choice/Control:**
 
-CEIP is optional and the opt-in status can be updated during install or post install from the GUI.  
+CEIP is optional and the opt-in status can be updated during install or post install from the GUI.
 
 ### Application Package Accelerators
 

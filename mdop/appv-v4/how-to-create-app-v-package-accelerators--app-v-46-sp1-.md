@@ -3,8 +3,7 @@ title: How to Create App-V Package Accelerators (App-V 4.6 SP1)
 description: How to Create App-V Package Accelerators (App-V 4.6 SP1)
 author: aczechowski
 ms.assetid: 585e692e-cebb-48ac-93ab-b2e7eb7ae7ad
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -20,7 +19,7 @@ You can use App-V Package Accelerators to automatically generate a new virtual a
 
 In some situations, to create the Package Accelerator, you might have to install the application locally on the computer running the Sequencer. First try to create the Package Accelerator by using the installation media, and if there are a number of missing files that are required, install the application locally to the computer running the Sequencer, and then create the Package Accelerator.
 
-**Important**  
+**Important**
 Before you begin the following procedure, you should do the following:
 
 -   Copy the virtual application package that you must use to create the Package Accelerator locally to the computer running the Sequencer.
@@ -29,7 +28,7 @@ Before you begin the following procedure, you should do the following:
 
 
 
-**Important**  
+**Important**
 Disclaimer: The Microsoft Application Virtualization Sequencer does not give you any license rights to the software application you are using to create a Package Accelerator. You must abide by all end user license terms for such application. It is your responsibility to make sure the software application’s license terms allow you to create a Package Accelerator using Application Virtualization Sequencer.
 
 
@@ -42,7 +41,7 @@ Disclaimer: The Microsoft Application Virtualization Sequencer does not give you
 
 3.  On the **Select Package** page, to specify an existing virtual application package to use to create the Package Accelerator, click **Browse**, and locate the existing virtual application package (.sprj file).
 
-    **Tip**  
+    **Tip**
     Copy the files associated with the virtual application package you plan to use locally to the computer running the Sequencer.
 
 
@@ -53,7 +52,7 @@ Click **Next**.
 
 4. On the **Installation Files** page, to specify the folder that contains the installation files that you used to create the original virtual application package, click **Browse**, and then select the directory that contains the installation files.
 
-   **Tip**  
+   **Tip**
    Copy the folder that contains the required installation files to the computer running the Sequencer.
 
 
@@ -64,7 +63,7 @@ If the application is already installed on the computer running the Sequencer, t
 
 5. On the **Gathering Information** page, review the files that were not found in the location specified on the **Installation Files** page of this wizard. If the files displayed are not required, select **Remove these files**, and then click **Next**. If the files are required, click **Previous** and copy the required files to the directory specified on the **Installation Files** page.
 
-   **Note**  
+   **Note**
    You must either remove the unrequired files, or click **Previous** and locate the required files to advance to the next page of this wizard.
 
 
@@ -81,7 +80,7 @@ If the application is already installed on the computer running the Sequencer, t
 
 10. On the **Completion** page, to close the **Create Package Accelerator** wizard, click **Close**.
 
-   **Important**  
+   **Important**
    To help ensure that the Package Accelerator is as secure as possible, and so that the publisher can be verified when the Package Accelerator is applied, you should always digitally sign the Package Accelerator.
 
 

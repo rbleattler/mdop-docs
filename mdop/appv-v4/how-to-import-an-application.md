@@ -3,8 +3,7 @@ title: How to Import an Application
 description: How to Import an Application
 author: aczechowski
 ms.assetid: 85aaf5d8-489c-4929-996f-f15d2dab1ad8
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -27,11 +26,11 @@ You can use the following procedure to import an application into the cache dire
     **Note**  
     If you have already configured an import search path or if the SFT file is in the same path as the last successful import, step 2 is not required.
 
-     
 
- 
 
- 
+
+
+
 
 
 

@@ -3,8 +3,7 @@ title: Configuring Windows Firewall for App-V
 description: Configuring Windows Firewall for App-V
 author: aczechowski
 ms.assetid: 6b5e253c-473f-4afc-a48b-631eda11d9ca
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,10 +20,10 @@ Securing the communication between components in an App-V infrastructure is only
 ## In This Section
 
 
-<a href="" id="how-to-configure-windows-server-2003-firewall-for-app-v"></a>[How to Configure Windows Server 2003 Firewall for App-V](how-to-configure-windows-server-2003-firewall-for-app-v.md)  
+<a href="" id="how-to-configure-windows-server-2003-firewall-for-app-v"></a>[How to Configure Windows Server 2003 Firewall for App-V](how-to-configure-windows-server-2003-firewall-for-app-v.md)
 Provides a procedure you can use to configure the Windows Server 2003 firewall for App-V.
 
-<a href="" id="how-to-configure-windows-server-2008-firewall-for-app-v"></a>[How to Configure Windows Server 2008 Firewall for App-V](how-to-configure-windows-server-2008-firewall-for-app-v.md)  
+<a href="" id="how-to-configure-windows-server-2008-firewall-for-app-v"></a>[How to Configure Windows Server 2008 Firewall for App-V](how-to-configure-windows-server-2008-firewall-for-app-v.md)
 Provides a procedure you can use to configure the Windows Server 2008 firewall for App-V.
 
  

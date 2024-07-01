@@ -3,8 +3,7 @@ title: MBAM 2.0 Deployment Checklist
 description: MBAM 2.0 Deployment Checklist
 author: aczechowski
 ms.assetid: 7905d31d-f21c-4683-b9c4-95b815e08fab
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 This checklist can be used to help you during Microsoft BitLocker Administration and Monitoring (MBAM) deployment with a Stand-alone topology.
 
-**Note**  
+**Note**
 This checklist outlines the recommended steps and a high-level list of items to consider when deploying Microsoft BitLocker Administration and Monitoring features. It is recommended that you copy this checklist into a spreadsheet program and customize it for your use.
 
 

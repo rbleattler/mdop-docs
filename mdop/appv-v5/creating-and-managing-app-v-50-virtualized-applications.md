@@ -3,8 +3,7 @@ title: Creating and Managing App-V 5.0 Virtualized Applications
 description: Creating and Managing App-V 5.0 Virtualized Applications
 author: aczechowski
 ms.assetid: 66bab403-d7e0-4e7b-bc8f-a29a98a7160a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization
@@ -22,7 +21,7 @@ After you have properly deployed the Microsoft Application Virtualization (App-V
 > [!NOTE]
 > For more information about configuring the Microsoft Application Virtualization (App-V) 5.0 sequencer, sequencing best practices, and an example of creating and updating a virtual application, see the [Microsoft Application Virtualization 5.0 Sequencing Guide](https://www.microsoft.com/download/details.aspx?id=27760).
 
- 
+
 
 ## Sequencing an application
 
@@ -38,7 +37,7 @@ You can use the App-V 5.0 Sequencer to perform the following tasks:
     > [!NOTE]
     > You must create shortcuts and save them to an available network location to allow roaming. If a shortcut is created and saved in a private location, the package must be published locally to the computer running the App-V 5.0 client.
 
-     
+
 
 -   Convert existing virtual packages.
 
@@ -59,7 +58,7 @@ When you use the sequencer to create a new virtual application, the following li
 > [!IMPORTANT]
 You must configure the %TMP% and %TEMP% folders that the package converter uses to be a secure location and directory. A secure location is only accessible by an administrator. Additionally, when you sequence the package you should save the package to a location that is secure, or make sure that no other user is allowed to be logged in during the conversion and monitoring process.
 
- 
+
 
 The **Options** dialog box in the sequencer console contains the following tabs:
 
@@ -68,7 +67,7 @@ The **Options** dialog box in the sequencer console contains the following tabs:
     > [!IMPORTANT]
     > Package Accelerators created using App-V 4.6 are not supported by App-V 5.0.
 
-     
+
 
 -   **Parse Items**. This tab displays the associated file path locations that are parsed or tokenized into in the virtual environment. Tokens are useful for adding files using the **Package Files** tab in **Advanced Editing**.
 

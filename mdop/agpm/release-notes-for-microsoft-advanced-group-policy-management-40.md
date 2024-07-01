@@ -3,8 +3,7 @@ title: Release Notes for Microsoft Advanced Group Policy Management 4.0
 description: Release Notes for Microsoft Advanced Group Policy Management 4.0
 author: aczechowski
 ms.assetid: 44c19e61-c8e8-48aa-a2c2-20396d14d5bb
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -78,10 +77,10 @@ If the AGPM Server and the AGPM Client are in different sites, then the temporar
 On an AGPM Client, if you log on by using an account that has not been delegated permissions to the AGPM archive, start the Group Policy Management Console (GPMC), and then click **Change Control**, you receive the following error.
 
 ``` syntax
-Failed to read backup purge limit for this domain. 
+Failed to read backup purge limit for this domain.
 
-The following error occurred: 
-You do not have sufficient permissions to perform this operation. 
+The following error occurred:
+You do not have sufficient permissions to perform this operation.
 Microsoft.Agpm.AccessDeniedException (80070005)
 ```
 

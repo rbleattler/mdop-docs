@@ -3,8 +3,7 @@ title: How to Edit a GPO Offline
 description: Editing a GPO Offline
 author: aczechowski
 ms.assetid: 51677d8a-6209-41b5-82ed-4f3be817abc0
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -57,7 +56,7 @@ To edit a GPO, you check out the GPO from the archive, edit the GPO offline, and
     **Note**  
     To disable all Computer Configuration settings or all User Configuration settings, right-click the GPO in the **Group Policy Management Editor** window and click **Properties**. Select **Disable Computer Configuration settings** or **Disable User Configuration settings** as appropriate.
 
-     
+
 
 3.  When you have finished modifying the GPO, close the **Group Policy Management Editor** window.
 
@@ -101,9 +100,9 @@ To edit a GPO, you check out the GPO from the archive, edit the GPO offline, and
 
     -   [Deploy a GPO](deploy-a-gpo-agpm30ops.md)
 
- 
 
- 
+
+
 
 
 

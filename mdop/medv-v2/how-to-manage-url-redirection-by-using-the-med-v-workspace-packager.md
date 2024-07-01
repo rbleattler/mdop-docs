@@ -3,8 +3,7 @@ title: How to Manage URL Redirection by Using the MED-V Workspace Packager
 description: How to Manage URL Redirection by Using the MED-V Workspace Packager
 author: aczechowski
 ms.assetid: 1a8d25af-479f-42d3-bf5f-c7fd974bbf8c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -26,7 +25,7 @@ You can use the MED-V Workspace Packager to manage URL redirection in the MED-V 
 
 3.  In the **Manage Web Redirection** window, you can type, paste, or import a list of the URLs that are redirected to Internet Explorer in the MED-V workspace.
 
-    **Note**  
+    **Note**
     URL redirection in MED-V only supports the protocols HTTP and HTTPS. MED-V does not provide support for FTP or any other protocols.
 
 
@@ -42,7 +41,7 @@ http://\*.contoso.com
 
 https://www.contoso.com/webapps/\*
 
-**Important**  
+**Important**
 If you import a text file that includes a URL that uses special characters (such as ~ ! @ \# and so on), make sure that you specify UTF-8 encoding when you save the text file. Special characters do not import correctly into the MED-V Workspace Packager if the text file was saved using the default ANSI encoding.
 
 

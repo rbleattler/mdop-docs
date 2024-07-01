@@ -3,8 +3,7 @@ title: How to Use a Command Line to Install the MBAM Server
 description: How to Use a Command Line to Install the MBAM Server
 author: aczechowski
 ms.assetid: 6ffc6d41-a793-42c2-b997-95ba47550648
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -126,7 +125,7 @@ The following table describes the command line parameters for deploying the MBAM
 </tbody>
 </table>
 
- 
+
 
 ## Command Line for Deploying the MBAM 2.0 Server with the Configuration Manager Topology
 
@@ -201,16 +200,16 @@ The following table describes the command line parameters for installing the MBA
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Deploying the MBAM 2.0 Server Infrastructure](deploying-the-mbam-20-server-infrastructure-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

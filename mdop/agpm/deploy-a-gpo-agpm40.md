@@ -3,8 +3,7 @@ title: How to Deploy a GPO
 description: Deploying a GPO
 author: aczechowski
 ms.assetid: a6febeaa-144b-4c02-99af-d972f0f2b544
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -42,7 +41,7 @@ A user account with the Approver or AGPM Administrator (Full Control) role or ne
 **Note**  
 To verify whether the most recent version of a GPO has been deployed, on the **Controlled** tab, double-click the GPO to display its **History**. In the **History** for the GPO, the **State** column indicates whether a GPO has been deployed.
 
- 
+
 
 ### Additional considerations
 
@@ -52,9 +51,9 @@ To verify whether the most recent version of a GPO has been deployed, on the **C
 
 -   [Performing Approver Tasks](performing-approver-tasks-agpm40.md)
 
- 
 
- 
+
+
 
 
 

@@ -3,8 +3,7 @@ title: How to Localize the “HelpdeskText” Statement that Points Users to Mor
 description: How to Localize the “HelpdeskText” Statement that Points Users to More Self-Service Portal Information
 author: aczechowski
 ms.assetid: 09ba2a07-3186-45d9-adef-4034c70ae7cf
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, security
@@ -22,7 +21,7 @@ You can configure a localized version of the Self-Service Portal "HelpdeskText" 
 **Note**  
 In the following instructions, *SelfService* is the default virtual directory name for the Self-Service Portal. You might have used a different name when you configured the Self-Service Portal.
 
- 
+
 
 **To display a localized version of the HelpdeskText statement**
 
@@ -47,9 +46,9 @@ In the following instructions, *SelfService* is the default virtual directory na
 
 [Customizing the Self-Service Portal for Your Organization](customizing-the-self-service-portal-for-your-organization.md)
 
- 
 
- 
+
+
 
 ## Got a suggestion for MBAM?
 

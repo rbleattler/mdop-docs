@@ -3,8 +3,7 @@ title: Troubleshooting DaRT 7.0
 description: Troubleshooting DaRT 7.0
 author: aczechowski
 ms.assetid: 24c50efa-e9ac-45c4-aca2-b1dcfe834fdd
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop
 ms.mktglfcycl: support

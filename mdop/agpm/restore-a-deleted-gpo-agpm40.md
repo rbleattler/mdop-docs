@@ -3,8 +3,7 @@ title: How to Restore a Deleted GPO
 description: Restore a Deleted GPO in AGPM 4.
 author: aczechowski
 ms.assetid: 0a131d26-a741-4a51-b612-c0bc7dbba06b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop
@@ -36,7 +35,7 @@ A user account with the Approver or AGPM Administrator (Full Control) role or ne
 **Note**  
 If a GPO was deleted from the production environment, restoring it to the archive will not automatically redeploy it to the production environment. To return the GPO to the production environment, deploy the GPO. For information, see [Deploy a GPO](deploy-a-gpo-agpm40.md).
 
- 
+
 
 ### Additional considerations
 
@@ -46,9 +45,9 @@ If a GPO was deleted from the production environment, restoring it to the archiv
 
 -   [Deleting, Restoring, or Destroying a GPO](deleting-restoring-or-destroying-a-gpo-agpm40.md)
 
- 
 
- 
+
+
 
 
 

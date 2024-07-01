@@ -3,8 +3,7 @@ title: Administering UE-V 1.0
 description: Administering UE-V 1.0
 author: aczechowski
 ms.assetid: c399ae8d-c839-4f84-9bfc-adacd8f89f34
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy

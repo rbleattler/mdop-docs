@@ -3,8 +3,7 @@ title: How to Deploy a MED-V Workspace Manually
 description: How to Deploy a MED-V Workspace Manually
 author: aczechowski
 ms.assetid: 94bfb209-2230-49b6-bb40-9c6ab088dbf4
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
@@ -30,7 +29,7 @@ This section provides instruction about how to manually deploy a MED-V workspace
 
     -   **MED-V Host Agent Installation File** – installs the Host Agent (MED-V\_HostAgent\_Setup installation file).
 
-        **Warning**  
+        **Warning**
         Close Internet Explorer before you install the MED-V Host Agent, otherwise conflicts can occur later with URL redirection. You can also do this by specifying a computer restart during a distribution.
 
 
@@ -38,7 +37,7 @@ This section provides instruction about how to manually deploy a MED-V workspace
 
 -   **MED-V Workspace Installer, VHD, and Setup Executable** – created with the **MED-V Workspace Packager**. For more information, see [Create a MED-V Workspace Package](create-a-med-v-workspace-package.md).
 
-    **Important**  
+    **Important**
     The compressed VHD file (.medv) and the Setup executable program (setup.exe) must be in the same folder as the MED-V workspace installer.
 
 
@@ -50,7 +49,7 @@ This section provides instruction about how to manually deploy a MED-V workspace
 
    -   The MED-V Host Agent.
 
-       **Note**  
+       **Note**
        If it is running, Internet Explorer must be restarted before the installation of the MED-V Host Agent can finish.
 
 

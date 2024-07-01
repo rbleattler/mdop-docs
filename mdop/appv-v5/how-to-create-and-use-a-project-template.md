@@ -3,8 +3,7 @@ title: How to Create and Use a Project Template
 description: How to Create and Use a Project Template
 author: aczechowski
 ms.assetid: 2063f0b3-47a1-4090-bf99-0f26b107331c
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop, appcompat, virtualization

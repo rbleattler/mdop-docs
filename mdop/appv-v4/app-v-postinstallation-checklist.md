@@ -3,8 +3,7 @@ title: App-V Postinstallation Checklist
 description: App-V Postinstallation Checklist
 author: aczechowski
 ms.assetid: 74db297e-a744-4287-bcc6-0e096ca8b57a
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -53,16 +52,16 @@ The following checklist provides a high-level list of items to consider and outl
 </tbody>
 </table>
 
- 
+
 
 ## Related topics
 
 
 [Application Virtualization Deployment and Upgrade Checklists](application-virtualization-deployment-and-upgrade-checklists.md)
 
- 
 
- 
+
+
 
 
 

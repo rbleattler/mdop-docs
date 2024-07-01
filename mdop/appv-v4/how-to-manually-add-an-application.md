@@ -3,8 +3,7 @@ title: How to Manually Add an Application
 description: How to Manually Add an Application
 author: aczechowski
 ms.assetid: c635b07a-5c7f-4ab2-ba18-366457146cb9
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy

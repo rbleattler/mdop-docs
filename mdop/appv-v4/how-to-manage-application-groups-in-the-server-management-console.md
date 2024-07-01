@@ -3,8 +3,7 @@ title: How to Manage Application Groups in the Server Management Console
 description: How to Manage Application Groups in the Server Management Console
 author: aczechowski
 ms.assetid: 46997971-bdc8-4565-aefd-f47e90d6d7a6
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -33,21 +32,21 @@ You can create a group, place it where you would like in the console's **Applica
 **Note**  
 Moving applications into groups does not affect the locations of their files (SFT, OSD, or SPRJ) on the server's file system.
 
- 
+
 
 ## In This Section
 
 
-<a href="" id="how-to-create-an-application-group"></a>[How to Create an Application Group](how-to-create-an-application-group.md)  
+<a href="" id="how-to-create-an-application-group"></a>[How to Create an Application Group](how-to-create-an-application-group.md)
 Provides step-by-step instructions for creating an application group.
 
-<a href="" id="how-to-move-an-application-group"></a>[How to Move an Application Group](how-to-move-an-application-group.md)  
+<a href="" id="how-to-move-an-application-group"></a>[How to Move an Application Group](how-to-move-an-application-group.md)
 Provides step-by-step instructions for moving an application group.
 
-<a href="" id="how-to-rename-an-application-group"></a>[How to Rename an Application Group](how-to-rename-an-application-group.md)  
+<a href="" id="how-to-rename-an-application-group"></a>[How to Rename an Application Group](how-to-rename-an-application-group.md)
 Provides step-by-step instructions for renaming an application group.
 
-<a href="" id="how-to-remove-an-application-group"></a>[How to Remove an Application Group](how-to-remove-an-application-group.md)  
+<a href="" id="how-to-remove-an-application-group"></a>[How to Remove an Application Group](how-to-remove-an-application-group.md)
 Provides step-by-step instructions for removing or deleting an application group.
 
 ## Related topics
@@ -57,9 +56,9 @@ Provides step-by-step instructions for removing or deleting an application group
 
 [How to Perform Administrative Tasks in the Application Virtualization Server Management Console](how-to-perform-administrative-tasks-in-the-application-virtualization-server-management-console.md)
 
- 
 
- 
+
+
 
 
 

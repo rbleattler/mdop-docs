@@ -3,8 +3,7 @@ title: Planning for Sequencer Security
 description: Planning for Sequencer Security
 author: aczechowski
 ms.assetid: 8043cb02-476d-4c28-a850-903a8ac5b2d3
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -18,7 +17,7 @@ ms.date: 06/16/2016
 
 Incorporate recommended implementation practices as early as possible when configuring Application Virtualization (App-V) so that your Sequencer implementation is functional and more secure. If you have already configured the Sequencer, use the following best-practice guidelines to revisit your design decisions and analyze them from a security perspective.
 
-**Important**  
+**Important**
 The App-V Sequencer collects and deploys all application information recorded on the computer running the sequencer. You should ensure that all users accessing the computer running the Sequencer have administrative credentials. Users with user account credentials should not have access to control package contents and package files. If you are sequencing on a computer running Remote Desktop Services (formerly Terminal Services), make sure it is a computer that is dedicated to sequencing and that users with user account credentials are not connected to it during sequencing.
 
 
@@ -30,14 +29,14 @@ Consider the following scenarios and the associated best practices when implemen
 
 -   **Virus scanning on the computer running the Sequencer**—It is recommended that you scan the computer running the Sequencer for viruses and then disable all antivirus and malware detection software on the computer running the Sequencer during the sequencing process. This will speed the sequencing process and prevent the antivirus and anti-malware software components from interfering with the sequencing process. Next install the sequenced package on a computer not running the Sequencer, and after successful installation, scan that computer for viruses. If viruses are found, the manufacturer of the software should be contacted to inform them of the infected source files and request an updated installation source without viruses. Optionally, the Sequencer could be scanned after the installation phase and if a virus is found, the software manufacturer should be contacted as mentioned above.
 
-    **Note**  
+    **Note**
     If a virus is detected in an application, the application should not be deployed to target computers.
 
 
 
 -   **Capturing access control lists (ACLs) on NTFS files**—The App-V Sequencer captures NTFS file system permissions for the files that are monitored during the installation of the product. This capability allows you to more accurately replicate the intended behavior of the application, as if it were installed locally and not virtualized. In some scenarios, an application might store information that users were not intended to access within the application files. For example, an application could store credentials information in a file inside of the application. If ACLs are not enforced on the package, a user could potentially view and then use this information outside of the application.
 
-    **Note**  
+    **Note**
     You should not sequence applications that store unencrypted security-specific information, such as passwords, and so on.
 
 

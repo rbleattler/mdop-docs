@@ -3,8 +3,7 @@ title: AGPM 3
 description: AGPM 3
 author: aczechowski
 ms.assetid: b0d0051d-2900-4a0f-8307-552ad26b0e3b
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.pagetype: mdop

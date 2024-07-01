@@ -3,8 +3,7 @@ title: How to Create and Edit the Sms\_def.mof File
 description: Create or Edit the Sms\_def.mof File
 author: aczechowski
 ms.assetid: d1747e43-484e-4031-a63b-6342fe588aa2
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -32,7 +31,7 @@ In the following sections, complete the instructions that correspond to the vers
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2\\SMS")
@@ -194,7 +193,7 @@ In the following sections, complete the instructions that correspond to the vers
 
     ``` syntax
     //===================================================
-    // Microsoft BitLocker Administration and Monitoring 
+    // Microsoft BitLocker Administration and Monitoring
     //===================================================
 
     #pragma namespace ("\\\\.\\root\\cimv2\\SMS")

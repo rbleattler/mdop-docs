@@ -3,8 +3,7 @@ title: Planning for Security and Protection
 description: Planning for Security and Protection
 author: aczechowski
 ms.assetid: d0e2ef81-c197-4020-ad85-8d66fe5c178f
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
@@ -21,16 +20,16 @@ As an infrastructure administrator, you must provide a secure, productive, and s
 ## In This Section
 
 
-<a href="" id="security-and-protection-overview"></a>[Security and Protection Overview](security-and-protection-overview.md)  
+<a href="" id="security-and-protection-overview"></a>[Security and Protection Overview](security-and-protection-overview.md)
 Provides overview information about the security and protection of your App-V system.
 
-<a href="" id="planning-for-server-security"></a>[Planning for Server Security](planning-for-server-security.md)  
+<a href="" id="planning-for-server-security"></a>[Planning for Server Security](planning-for-server-security.md)
 Provides information you can use to configure the Application Virtualization Management Server and Application Virtualization Streaming Server.
 
-<a href="" id="planning-for-client-security"></a>[Planning for Client Security](planning-for-client-security.md)  
+<a href="" id="planning-for-client-security"></a>[Planning for Client Security](planning-for-client-security.md)
 Provides information you can use to configure the Application Virtualization Management Desktop Client.
 
-<a href="" id="planning-for-sequencer-security"></a>[Planning for Sequencer Security](planning-for-sequencer-security.md)  
+<a href="" id="planning-for-sequencer-security"></a>[Planning for Sequencer Security](planning-for-sequencer-security.md)
 Provides information you can use to configure the Application Virtualization Sequencer.
 
 ## Related topics

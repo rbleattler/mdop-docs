@@ -3,8 +3,7 @@ title: Understanding MBAM Reports
 description: Understanding MBAM Reports
 author: aczechowski
 ms.assetid: 8778f333-760e-4f26-acb4-4e73b6fbb536
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
@@ -21,7 +20,7 @@ If you chose the Stand-alone topology when you installed Microsoft BitLocker Adm
 **Note**  
 If you chose the Configuration Manager topology when you installed Microsoft BitLocker Administration and Monitoring (MBAM), reports are generated from Configuration Manager rather than from MBAM. For more information about reports that are run from Configuration Manager, see [Understanding MBAM Reports in Configuration Manager](understanding-mbam-reports-in-configuration-manager.md).
 
- 
+
 
 ## Understanding Reports
 
@@ -69,7 +68,7 @@ Use this report type to collect information on overall BitLocker compliance in y
 </tbody>
 </table>
 
- 
+
 
 **Enterprise Compliance Report Compliance States**
 
@@ -104,7 +103,7 @@ Use this report type to collect information on overall BitLocker compliance in y
 </tbody>
 </table>
 
- 
+
 
 ### Computer Compliance Report
 
@@ -115,7 +114,7 @@ This report can be viewed by clicking the computer name in the Enterprise Compli
 **Note**  
 Removable Data Volume encryption status will not be shown in the report.
 
- 
+
 
 **Computer Compliance Report Fields**
 
@@ -190,7 +189,7 @@ Removable Data Volume encryption status will not be shown in the report.
 </tbody>
 </table>
 
- 
+
 
 **Computer Compliance Report Drive Fields**
 
@@ -241,7 +240,7 @@ Removable Data Volume encryption status will not be shown in the report.
 </tbody>
 </table>
 
- 
+
 
 ### Recovery Audit Report
 
@@ -303,21 +302,21 @@ Use this report type to audit users who have requested access to recovery keys. 
 </tbody>
 </table>
 
- 
+
 
 **Note**  
 Report results can be saved to a file by clicking the **Export** button on the reports menu bar. For more information about how to run MBAM reports, see [How to Generate MBAM Reports](how-to-generate-mbam-reports-mbam-2.md).
 
- 
+
 
 ## Related topics
 
 
 [Monitoring and Reporting BitLocker Compliance with MBAM 2.0](monitoring-and-reporting-bitlocker-compliance-with-mbam-20-mbam-2.md)
 
- 
 
- 
+
+
 
 
 

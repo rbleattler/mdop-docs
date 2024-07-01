@@ -2,8 +2,7 @@
 title: Step-by-Step Guide for Microsoft Advanced Group Policy Management 3.0
 description: Step-by-Step Guide for Microsoft Advanced Group Policy Management 3.0
 author: aczechowski
-ms.reviewer: 
-manager: dansimp
+ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -52,7 +51,7 @@ Computers on which you want to install AGPM must meet the following requirements
 > [!NOTE]
 > If you have AGPM 2.5 installed and are upgrading from Windows Server® 2003 to Windows Server 2008 or Windows Vista® with no service packs installed to Windows Vista with Service Pack 1, you must upgrade the operating system before you can upgrade to AGPM 3.0.
 
- 
+
 
 ### AGPM Server requirements
 
@@ -97,7 +96,7 @@ Before you begin this scenario, create four user accounts. During the scenario, 
 > [!NOTE]
 > **Link GPOs** permission is assigned to members of Domain Administrators and Enterprise Administrators by default. To assign **Link GPOs** permission to additional users or groups (such as accounts with the roles of AGPM Administrator or Approver), select the node for the domain and then select the **Delegation** tab, select **Link GPOs**, select **Add**, and select users or groups to which to assign the permission.
 
- 
+
 
 ## Steps for installing and configuring AGPM
 
@@ -215,7 +214,7 @@ As an AGPM Administrator (Full Control), you delegate domain-level access to GPO
 > [!IMPORTANT]
 > You should restrict membership in the Group Policy Creator Owners group, so it cannot be used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, select **Group Policy Objects** in the forest and domain in which you want to manage GPOs, select **Delegation**, and then configure the settings to meet the needs of your organization.)
 
- 
+
 
 **To delegate access to all GPOs throughout a domain**
 

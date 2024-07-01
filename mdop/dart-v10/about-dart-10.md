@@ -3,7 +3,6 @@ title: About DaRT 10
 description: About DaRT 10.
 author: aczechowski
 ms.reviewer:
-manager: dansimp
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021
