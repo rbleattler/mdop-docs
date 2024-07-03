@@ -24,7 +24,7 @@
         - name: Microsoft Bitlocker Administration and Monitoring 2.5
           href: mbam-v25/index.md
         - name: Microsoft Bitlocker Administration and Monitoring 2
-          href: mbam-v2/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/
         - name: Microsoft Bitlocker Administration and Monitoring 1
           href: /previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/
     - name: Microsoft Enterprise Desktop Virtualization
