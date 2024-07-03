@@ -3229,6 +3229,776 @@
       "source_path": "mdop/dart-v7/troubleshooting-dart-70-new-ia.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/troubleshooting-dart-70-new-ia",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/about-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/about-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/about-mbam-20-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/about-mbam-20-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/about-the-computer-tpm-chip.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/about-the-computer-tpm-chip",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/accessibility-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/accessibility-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/administering-mbam-20-features-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/administering-mbam-20-features-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/administering-mbam-20-using-powershell-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/administering-mbam-20-using-powershell-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/create-or-edit-the-sms-defmof-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/create-or-edit-the-sms-defmof-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/deploying-mbam-20-group-policy-objects-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/deploying-mbam-20-group-policy-objects-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/deploying-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/deploying-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/deploying-mbam-with-configuration-manager-mbam2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/deploying-mbam-with-configuration-manager-mbam2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/deploying-the-mbam-20-client-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/deploying-the-mbam-20-client-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/deploying-the-mbam-20-server-infrastructure-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/deploying-the-mbam-20-server-infrastructure-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/edit-the-configurationmof-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/edit-the-configurationmof-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/evaluating-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/evaluating-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/getting-started---using-mbam-with-configuration-manager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/getting-started---using-mbam-with-configuration-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/getting-started-with-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/getting-started-with-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/helping-end-users-manage-bitlocker.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/helping-end-users-manage-bitlocker",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/high-availability-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/high-availability-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/high-level-architecture-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/high-level-architecture-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-brand-the-self-service-portal.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-brand-the-self-service-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-create-or-edit-the-mof-files.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-create-or-edit-the-mof-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-deploy-the-mbam-client-to-desktop-or-laptop-computers-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-determine-bitlocker-encryption-state-of-lost-computers-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-determine-bitlocker-encryption-state-of-lost-computers-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-edit-mbam-20-gpo-settings-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-edit-mbam-20-gpo-settings-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-generate-mbam-reports-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-generate-mbam-reports-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-install-and-configure-mbam-on-a-single-server-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-install-and-configure-mbam-on-a-single-server-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-install-and-configure-mbam-on-distributed-servers-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-install-and-configure-mbam-on-distributed-servers-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-install-mbam-with-configuration-manager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-install-mbam-with-configuration-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-install-the-mbam-20-group-policy-template-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-install-the-mbam-20-group-policy-template-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-manage-mbam-administrator-roles-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-manage-mbam-administrator-roles-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-manage-user-bitlocker-encryption-exemptions-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-manage-user-bitlocker-encryption-exemptions-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-move-mbam-20-features-to-another-computer-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-move-mbam-20-features-to-another-computer-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-recover-a-corrupted-drive-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-recover-a-corrupted-drive-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-recover-a-drive-in-recovery-mode-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-recover-a-drive-in-recovery-mode-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-recover-a-moved-drive-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-recover-a-moved-drive-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-reset-a-tpm-lockout-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-reset-a-tpm-lockout-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-use-a-command-line-to-install-the-mbam-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-use-a-command-line-to-install-the-mbam-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-use-a-command-line-to-install-the-mbam-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-use-a-command-line-to-install-the-mbam-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-use-the-help-desk-portal.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-use-the-help-desk-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-use-the-self-service-portal-to-regain-access-to-a-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-use-the-self-service-portal-to-regain-access-to-a-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/how-to-validate-the-mbam-installation-with-configuration-manager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/how-to-validate-the-mbam-installation-with-configuration-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/maintaining-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/maintaining-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-deployment-checklist-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-deployment-checklist-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-deployment-prerequisites-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-deployment-prerequisites-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-planning-checklist-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-planning-checklist-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-privacy-statement-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-privacy-statement-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-security-considerations-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-security-considerations-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/mbam-20-supported-configurations-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/mbam-20-supported-configurations-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/monitoring-and-reporting-bitlocker-compliance-with-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/monitoring-and-reporting-bitlocker-compliance-with-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/operations-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/operations-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/performing-bitlocker-management-with-mbam-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/performing-bitlocker-management-with-mbam-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-for-mbam-20-administrator-roles-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-for-mbam-20-administrator-roles-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-for-mbam-20-client-deployment-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-for-mbam-20-client-deployment-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-for-mbam-20-group-policy-requirements-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-for-mbam-20-group-policy-requirements-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-for-mbam-20-server-deployment-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-for-mbam-20-server-deployment-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-to-deploy-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-to-deploy-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/planning-to-deploy-mbam-with-configuration-manager-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/planning-to-deploy-mbam-with-configuration-manager-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/preparing-your-environment-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/preparing-your-environment-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/release-notes-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/release-notes-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/release-notes-for-mbam-20-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/release-notes-for-mbam-20-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/security-and-privacy-for-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/security-and-privacy-for-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/troubleshooting-mbam-20-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/troubleshooting-mbam-20-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/understanding-mbam-reports-in-configuration-manager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/understanding-mbam-reports-in-configuration-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/understanding-mbam-reports-mbam-2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/understanding-mbam-reports-mbam-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/upgrading-from-previous-versions-of-mbam.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/upgrading-from-previous-versions-of-mbam",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/using-mbam-with-configuration-manager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/using-mbam-with-configuration-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v2/using-your-pin-or-password.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/using-your-pin-or-password",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/about-med-v-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/about-med-v-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/about-med-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/about-med-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/about-this-guidemedv.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/about-this-guidemedv",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/client-installation-command-line-reference.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/client-installation-command-line-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/configuring-med-v-for-remote-networks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/configuring-med-v-for-remote-networks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/configuring-med-v-server-for-cluster-mode.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/configuring-med-v-server-for-cluster-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/configuring-med-v-workspace-policies.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/configuring-med-v-workspace-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/creating-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/creating-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/creating-a-med-v-workspacemedv-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/creating-a-med-v-workspacemedv-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/creating-a-virtual-pc-image-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/creating-a-virtual-pc-image-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/define-the-project-scope.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/define-the-project-scope",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/deploying-a-med-v-workspace-using-a-deployment-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/deploying-a-med-v-workspace-using-a-deployment-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/deploying-a-med-v-workspace-using-an-enterprise-software-distribution-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/deploying-a-med-v-workspace-using-an-enterprise-software-distribution-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/design-the-med-v-image-repositories.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/design-the-med-v-image-repositories",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/design-the-med-v-server-infrastructure.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/design-the-med-v-server-infrastructure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/examples-of-virtual-machine-configurationsv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/examples-of-virtual-machine-configurationsv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/getting-started-with-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/getting-started-with-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/high-level-architecturemedv.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/high-level-architecturemedv",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-apply-general-settings-to-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-apply-general-settings-to-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-apply-network-settings-to-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-apply-network-settings-to-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-apply-performance-settings-to-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-apply-performance-settings-to-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-apply-virtual-machine-settings-to-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-apply-virtual-machine-settings-to-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-back-up-and-restore-a-med-v-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-back-up-and-restore-a-med-v-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-a-deployment-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-a-deployment-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-a-domain-user-or-groupmedvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-a-domain-user-or-groupmedvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-image-pre-staging.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-image-pre-staging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-published-applicationsmedvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-published-applicationsmedvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-the-image-web-distribution-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-the-image-web-distribution-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-the-virtual-machine-setup-for-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-the-virtual-machine-setup-for-a-med-v-workspacemedvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-the-virtual-machine-setup-for-a-med-v-workspacemedvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-vm-computer-name-pattern-propertiesmedvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-vm-computer-name-pattern-propertiesmedvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-configure-web-settings-for-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-configure-web-settings-for-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-create-and-test-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-create-and-test-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-delete-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-delete-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-deploy-a-workspace-imagedeployment-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-deploy-a-workspace-imagedeployment-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-deploy-a-workspace-imageesds.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-deploy-a-workspace-imageesds",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-edit-a-published-application-with-advanced-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-edit-a-published-application-with-advanced-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-generate-reports-medvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-generate-reports-medvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-import-and-export-a-policy.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-import-and-export-a-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-install-and-configure-the-med-v-server-component.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-install-and-configure-the-med-v-server-component",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-install-med-v-client-and-med-v-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-install-med-v-client-and-med-v-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-install-med-v-clientdeployment-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-install-med-v-clientdeployment-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-install-med-v-clientesds.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-install-med-v-clientesds",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-localize-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-localize-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-lock-and-unlock-a-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-lock-and-unlock-a-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-pack-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-pack-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-set-advanced-file-transfer-options.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-set-advanced-file-transfer-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-set-med-v-workspace-deletion-options.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-set-med-v-workspace-deletion-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-set-up-script-actions.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-set-up-script-actions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-share-folders-between-the-host-and-the-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-share-folders-between-the-host-and-the-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-start-and-exit-the-med-v-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-start-and-exit-the-med-v-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-start-stop-and-restart-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-start-stop-and-restart-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-uninstall-med-v-componentsmedvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-uninstall-med-v-componentsmedvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-update-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-update-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-upload-a-med-v-image-to-the-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-upload-a-med-v-image-to-the-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-view-med-v-settings-and-general-information.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-view-med-v-settings-and-general-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/how-to-work-with-reports.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/how-to-work-with-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/identify-the-number-of-med-v-instances.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/identify-the-number-of-med-v-instances",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/installation-and-upgrade-checklists.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/installation-and-upgrade-checklists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/installing-and-configuring-med-v-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/installing-and-configuring-med-v-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/key-scenarios-for-using-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/key-scenarios-for-using-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-installation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-installation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-release-notesmedv-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-release-notesmedv-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-sp1-and-sp2-release-notesmedv-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-sp1-and-sp2-release-notesmedv-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-sp1-supported-configurationsmedv-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-sp1-supported-configurationsmedv-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-sp1-upgrade-checklistmedv-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-sp1-upgrade-checklistmedv-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-10-supported-configurationsmedv-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-10-supported-configurationsmedv-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-client-operations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-client-operations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-client-toolsv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-client-toolsv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-deployment-and-configuration.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-deployment-and-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-infrastructure-planning-and-design.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-infrastructure-planning-and-design",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-installation-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-installation-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-operations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-operations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-reporting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/med-v-trim-transfer-technology-medvv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/med-v-trim-transfer-technology-medvv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/overview-of-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/overview-of-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/supported-configurationsmedv-orientation.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/supported-configurationsmedv-orientation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/technical-referencemedv-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/technical-referencemedv-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/troubleshooting-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/troubleshooting-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/updating-a-med-v-workspace-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/updating-a-med-v-workspace-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v1/using-the-med-v-management-console-user-interface.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/using-the-med-v-management-console-user-interface",
+      "redirect_document_id": false
     }
   ]
 }
