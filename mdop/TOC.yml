@@ -8,7 +8,7 @@
         - name: Application Virtualization 5
           href: appv-v5/index.md
         - name: Application Virtualization 4
-          href: appv-v4/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/
         - name: Application Virtualization
           href: app-v/index.yml
     - name: Diagnostics and Recovery Toolset
@@ -18,7 +18,7 @@
         - name: Diagnostics and Recovery Toolset 8
           href: /previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/
         - name: Diagnostics and Recovery Toolset 7
-          href: dart-v7/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/
     - name: Microsoft Bitlocker Administration and Monitoring
       items:
         - name: Microsoft Bitlocker Administration and Monitoring 2.5
