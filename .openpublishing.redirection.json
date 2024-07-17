@@ -4619,6 +4619,736 @@
       "source_path": "mdop/uev-v1/working-with-custom-ue-v-templates-and-the-ue-v-generator.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/working-with-custom-ue-v-templates-and-the-ue-v-generator",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/administrative-template-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/administrative-template-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/administrative-templates-folder-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/administrative-templates-folder-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-25-navengl.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-25-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-3-navengl.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-connection-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-connection-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-connection-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-connection-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/approve-or-reject-a-pending-action-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/approve-or-reject-a-pending-action-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/approve-or-reject-a-pending-action.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/approve-or-reject-a-pending-action",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/back-up-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/back-up-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/best-practices-for-version-control.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/best-practices-for-version-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/check-in-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/check-in-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/check-in-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/check-in-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-administer-the-agpm-server-and-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-administer-the-agpm-server-and-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-create-edit-and-deploy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-create-edit-and-deploy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-create-edit-and-deploy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-create-edit-and-deploy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/common-secondary-tab-features.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/common-secondary-tab-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-agpm-server-connections-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-agpm-server-connections-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-an-agpm-server-connection-reviewer-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-an-agpm-server-connection-reviewer-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-notification-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-notification-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-notification.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-security-for-agpm-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-security-for-agpm-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-logging-and-tracing-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-logging-and-tracing-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-logging-and-tracing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-logging-and-tracing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-the-agpm-server-connection-reviewer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-the-agpm-server-connection-reviewer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-the-agpm-server-connection.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-the-agpm-server-connection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configuring-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configuring-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab-features-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab-features-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/control-a-previously-uncontrolled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/control-a-previously-uncontrolled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/control-an-uncontrolled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/control-an-uncontrolled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/controlled-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/controlled-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/controlled-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/controlled-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-new-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-new-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-new-controlled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-new-controlled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-a-template-and-setting-a-default-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-a-template-and-setting-a-default-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-a-template-and-setting-a-default-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-a-template-and-setting-a-default-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-editor-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-editor-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-an-individual-gpo-in-the-archive-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-an-individual-gpo-in-the-archive-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-an-individual-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-an-individual-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-the-production-environment-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-the-production-environment-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-domain-level-access-to-the-archive-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-domain-level-access-to-the-archive-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-domain-level-access.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-domain-level-access",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-management-of-a-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-management-of-a-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-gpo-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-gpo-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-or-restoring-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-or-restoring-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-restoring-or-destroying-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-restoring-or-destroying-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-restoring-or-destroying-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-restoring-or-destroying-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deploy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deploy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deploy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deploy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/destroy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/destroy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/destroy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/destroy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/domain-delegation-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/domain-delegation-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/domain-delegation-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/domain-delegation-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/edit-a-gpo-offline-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/edit-a-gpo-offline-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/edit-a-gpo-offline.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/edit-a-gpo-offline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/editing-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/editing-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/editing-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/editing-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/feature-visibility-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/feature-visibility-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/feature-visibility-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/feature-visibility-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/history-window-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/history-window-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/history-window.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/history-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/identify-differences-between-gpos-gpo-versions-or-templates.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/identify-differences-between-gpos-gpo-versions-or-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-editor-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-editor-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/label-the-current-version-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/label-the-current-version-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/label-the-current-version-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/label-the-current-version-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/limit-the-gpo-versions-stored-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/limit-the-gpo-versions-stored-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/logging-and-tracing-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/logging-and-tracing-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/logging-and-tracing-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/logging-and-tracing-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-agpm-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-agpm-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-agpm-service-account.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-agpm-service-account",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-archive-path.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-archive-path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-port-on-which-the-agpm-service-listens.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-port-on-which-the-agpm-service-listens",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/move-the-agpm-server-and-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/move-the-agpm-server-and-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/operations-guide-for-microsoft-advanced-group-policy-management-25.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/operations-guide-for-microsoft-advanced-group-policy-management-25",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/other-enhancements-to-the-gpmc.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/other-enhancements-to-the-gpmc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/overview-of-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/overview-of-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/overview-of-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/overview-of-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/pending-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/pending-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/pending-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/pending-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-agpm-administrator-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-agpm-administrator-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-agpm-administrator-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-agpm-administrator-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-approver-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-approver-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-approver-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-approver-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-editor-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-editor-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-editor-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-editor-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-reviewer-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-reviewer-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-reviewer-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-reviewer-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/production-delegation-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/production-delegation-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/recycle-bin-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/recycle-bin-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/recycle-bin-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/recycle-bin-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/rename-a-gpo-or-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/rename-a-gpo-or-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/rename-a-gpo-or-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/rename-a-gpo-or-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-control-of-a-previously-uncontrolled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-control-of-a-previously-uncontrolled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-control-of-an-uncontrolled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-control-of-an-uncontrolled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deletion-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deletion-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deployment-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deployment-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deployment-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deployment-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-restoration-of-a-deleted-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-restoration-of-a-deleted-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-the-creation-of-a-new-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-the-creation-of-a-new-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-the-creation-of-a-new-controlled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-the-creation-of-a-new-controlled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-a-deleted-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-a-deleted-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-a-deleted-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-a-deleted-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-the-archive-from-a-backup.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-the-archive-from-a-backup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-links-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-links-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-links.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-links",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/roll-back-to-a-previous-version-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/roll-back-to-a-previous-version-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/roll-back-to-a-previous-version-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/roll-back-to-a-previous-version-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/set-a-default-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/set-a-default-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/set-a-default-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/set-a-default-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/start-and-stop-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/start-and-stop-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/start-and-stop-the-agpm-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/start-and-stop-the-agpm-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-25.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-25",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-30.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-30",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/template-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/template-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/templates-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/templates-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-agpm40-upgrades.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-agpm40-upgrades",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/uncontrolled-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/uncontrolled-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/uncontrolled-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/uncontrolled-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/use-a-test-environment-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/use-a-test-environment-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/use-a-test-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/use-a-test-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/user-interface-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/user-interface-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/user-interface-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/user-interface-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-30.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-30",
+      "redirect_document_id": false
     }
   ]
 }
