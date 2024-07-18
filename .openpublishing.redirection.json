@@ -5349,6 +5349,586 @@
       "source_path": "mdop/agpm/whats-new-in-agpm-30.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-30",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-dynamic-configuration.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-dynamic-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-reporting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-client-configuration-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-client-configuration-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-the-connection-group-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-the-connection-group-virtual-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-virtual-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/accessibility-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/accessibility-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/administering-app-v-50-virtual-applications-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-50-virtual-applications-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/administering-app-v-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-capacity-planning.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-capacity-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-deployment-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-planning-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-security-considerations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-security-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-sp3-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-sp3-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/application-publishing-and-client-interaction.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/application-publishing-and-client-interaction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/creating-and-managing-app-v-50-virtualized-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/creating-and-managing-app-v-50-virtualized-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-50-packages-by-using-electronic-software-distribution--esd-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50-packages-by-using-electronic-software-distribution--esd-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2010-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2010-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2013-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2013-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2016-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2016-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-the-app-v-50-sequencer-and-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-sequencer-and-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-the-app-v-50-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/evaluating-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/evaluating-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/getting-started-with-app-v-50--rtm.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/getting-started-with-app-v-50--rtm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/high-level-architecture-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/high-level-architecture-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-access-the-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-access-the-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-add-or-remove-an-administrator-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-remove-an-administrator-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-add-or-upgrade-packages-by-using-the-management-console-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-upgrade-packages-by-using-the-management-console-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-allow-only-administrators-to-enable-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-allow-only-administrators-to-enable-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-apply-the-deployment-configuration-file-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-deployment-configuration-file-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-apply-the-user-configuration-file-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-user-configuration-file-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-configure-access-to-packages-by-using-the-management-console-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-access-to-packages-by-using-the-management-console-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-connect-to-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-connect-to-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-convert-a-package-created-in-a-previous-version-of-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-convert-a-package-created-in-a-previous-version-of-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-connection-group-with-user-published-and-globally-published-packages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group-with-user-published-and-globally-published-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-custom-configuration-file-by-using-the-app-v-50-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-custom-configuration-file-by-using-the-app-v-50-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-package-accelerator-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-package-accelerator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-and-use-a-project-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-and-use-a-project-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-delete-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-delete-a-package-in-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-package-in-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-app-v-50-packages-using-electronic-software-distribution.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-app-v-50-packages-using-electronic-software-distribution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-46-and-the-app-v--50-client-on-the-same-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-46-and-the-app-v--50-client-on-the-same-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-50-server-50sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-50sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-50-server-using-a-script.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-using-a-script",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-client-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-client-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-databases-by-using-sql-scripts.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-databases-by-using-sql-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-enable-only-administrators-to-publish-packages-by-using-an-esd.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-only-administrators-to-publish-packages-by-using-an-esd",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-app-v-50-client-for-shared-content-store-mode.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-50-client-for-shared-content-store-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-publishing-server-on-a-remote-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-publishing-server-on-a-remote-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-sequencer-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-sequencer-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-make-a-connection-group-ignore-the-package-version.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-make-a-connection-group-ignore-the-package-version",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-manage-app-v-50-packages-running-on-a-stand-alone-computer-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-app-v-50-packages-running-on-a-stand-alone-computer-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-50-package-for-all-users-on-a-specific-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-50-package-for-all-users-on-a-specific-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-50-for-a-specific-user.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-50-for-a-specific-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-an-existing-virtual-application-package-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-an-existing-virtual-application-package-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-client-configuration-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-client-configuration-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-move-the-app-v-server-to-another-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-move-the-app-v-server-to-another-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-publish-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-publish-a-package-by-using-the-management-console-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-package-by-using-the-management-console-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-register-and-unregister-a-publishing-server-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-register-and-unregister-a-publishing-server-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-a-specific-user.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-a-specific-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-sequence-a-new-application-with-app-v-50-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-new-application-with-app-v-50-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-sequence-a-package--by-using-powershell-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-package--by-using-powershell-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-uninstall-the-app-v-50-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-uninstall-the-app-v-50-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-use-an-app-v-46-sp1-application-from-an-app-v-50-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-an-app-v-46-sp1-application-from-an-app-v-50-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-use-optional-packages-in-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-optional-packages-in-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-view-and-configure-applications-and-default-virtual-application-extensions-by-using-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-view-and-configure-applications-and-default-virtual-application-extensions-by-using-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/maintaining-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/maintaining-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/managing-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/managing-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/microsoft-application-virtualization-50-administrators-guide.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/microsoft-application-virtualization-50-administrators-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/migrating-from-a-previous-version-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/migrating-from-a-previous-version-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/operations-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/operations-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/performance-guidance-for-application-virtualization-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-app-v-50-rc.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-app-v-50-rc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-high-availability-with-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-high-availability-with-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-migrating-from-a-previous-version-of-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-migrating-from-a-previous-version-of-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-the-app-v-50-sequencer-and-client-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-sequencer-and-client-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-the-app-v-50-server-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-server-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-using-app-v-with-office.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-using-app-v-with-office",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v-50-with-an-electronic-software-distribution-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v-50-with-an-electronic-software-distribution-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-use-folder-redirection-with-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-use-folder-redirection-with-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/preparing-your-environment-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/preparing-your-environment-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/technical-reference-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/technical-reference-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/troubleshooting-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/troubleshooting-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/using-the-app-v-50-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/using-the-app-v-50-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/viewing-app-v-server-publishing-metadata.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/viewing-app-v-server-publishing-metadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/whats-new-in-app-v-50-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/whats-new-in-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50",
+      "redirect_document_id": false
     }
   ]
 }
