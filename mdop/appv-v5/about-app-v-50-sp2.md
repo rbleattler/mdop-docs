@@ -93,10 +93,10 @@ When a task is placed in a pending state, the App-V client also generates a regi
 
 Use the following link for more information about App-V 5.0 supported Microsoft Office scenarios.
 
-[Virtualizing Microsoft Office 2013 for Application Virtualization (App-V) 5.0](deploying-microsoft-office-2013-by-using-app-v.md)
+[Deploying Microsoft Office 2013 by Using App-V (Windows 10/11)](deploying-microsoft-office-2013-by-using-app-v.md)
 
-**Note**  
-This document focuses on creating a Microsoft Office 2013 App-V 5.0 Package. However, it also provides information about scenarios for Microsoft Office 2010 with App-V 5.0.
+> [!NOTE]
+> This document focuses on creating a Microsoft Office 2013 App-V 5.0 Package. However, it also provides information about scenarios for Microsoft Office 2010 with App-V 5.0.
 
 
 
