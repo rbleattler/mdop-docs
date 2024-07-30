@@ -3999,6 +3999,1941 @@
       "source_path": "mdop/medv-v1/using-the-med-v-management-console-user-interface.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v1/using-the-med-v-management-console-user-interface",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/about-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/about-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/authentication-of-med-v-end-users.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/authentication-of-med-v-end-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/command-line-options-for-med-v-installation-files.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/command-line-options-for-med-v-installation-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/compacting-the-med-v-virtual-hard-disk.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/compacting-the-med-v-virtual-hard-disk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/configure-environment-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/configure-environment-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/configure-installation-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/configure-installation-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/configuring-a-windows-virtual-pc-image-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/configuring-a-windows-virtual-pc-image-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/configuring-advanced-settings-by-using-windows-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/configuring-advanced-settings-by-using-windows-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/create-a-med-v-workspace-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/create-a-med-v-workspace-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/creating-a-windows-virtual-pc-image-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/creating-a-windows-virtual-pc-image-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/define-and-plan-your-med-v-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/define-and-plan-your-med-v-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/deploy-the-med-v-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/deploy-the-med-v-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/deploying-the-med-v-workspace-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/deploying-the-med-v-workspace-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/deployment-of-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/deployment-of-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/deployment-troubleshooting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/deployment-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/detecting-network-changes-that-affect-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/detecting-network-changes-that-affect-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/determining-how-med-v-will-be-deployed.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/determining-how-med-v-will-be-deployed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/end-to-end-deployment-scenario-for-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/end-to-end-deployment-scenario-for-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/end-to-end-operations-scenario-for-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/end-to-end-operations-scenario-for-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/end-to-end-planning-scenario-for-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/end-to-end-planning-scenario-for-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-checklists.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-checklists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-environment-planning-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-environment-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-image-preparation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-image-preparation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-project-planning-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-project-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-system-installation-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-system-installation-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/example-med-v-workspace-deployment-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/example-med-v-workspace-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/getting-started-with-med-vmedv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/getting-started-with-med-vmedv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/high-level-architecturemedv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/high-level-architecturemedv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-add-or-remove-url-redirection-information-in-a-deployed-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-create-a-test-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-create-a-test-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-deploy-a-med-v-workspace-in-a-windows-7-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-deploy-a-med-v-workspace-in-a-windows-7-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-deploy-a-med-v-workspace-manually.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-deploy-a-med-v-workspace-manually",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-deploy-a-med-v-workspace-through-an-electronic-software-distribution-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-deploy-a-med-v-workspace-through-an-electronic-software-distribution-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-deploy-the-med-v-components-through-an-electronic-software-distribution-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-deploy-the-med-v-components-through-an-electronic-software-distribution-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-install-the-med-v-workspace-packager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-install-the-med-v-workspace-packager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-manage-url-redirection-by-using-the-med-v-workspace-packager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-manage-url-redirection-by-using-the-med-v-workspace-packager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-manually-install-the-med-v-host-agent.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-manually-install-the-med-v-host-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-publish-and-unpublish-an-application-on-the-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-publish-and-unpublish-an-application-on-the-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-test-application-publishing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-test-application-publishing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-test-url-redirection.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-test-url-redirection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-uninstall-the-med-v-components.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-uninstall-the-med-v-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/how-to-verify-first-time-setup-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/how-to-verify-first-time-setup-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/identifying-the-number-and-types-of-med-v-workspaces.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/identifying-the-number-and-types-of-med-v-workspaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/installing-and-removing-an-application-on-the-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/installing-and-removing-an-application-on-the-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/installing-applications-on-a-windows-virtual-pc-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/installing-applications-on-a-windows-virtual-pc-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/manage-med-v-url-redirection.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/manage-med-v-url-redirection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/manage-med-v-workspace-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/manage-med-v-workspace-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/manage-med-v-workspace-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/manage-med-v-workspace-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-applications-deployed-to-med-v-workspaces.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-applications-deployed-to-med-v-workspaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-automatic-updates-for-med-v-workspaces.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-automatic-updates-for-med-v-workspaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-med-v-workspace-configuration-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-med-v-workspace-configuration-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-med-v-workspace-settings-by-using-a-wmi.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-med-v-workspace-settings-by-using-a-wmi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-med-v-workspace-settings-by-using-the-med-v-workspace-packager.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-med-v-workspace-settings-by-using-the-med-v-workspace-packager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-printers-on-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-printers-on-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/managing-software-updates-for-med-v-workspaces.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/managing-software-updates-for-med-v-workspaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/med-v-20-best-practices.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/med-v-20-best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/med-v-20-deployment-overview.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/med-v-20-deployment-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/med-v-20-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/med-v-20-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/med-v-20-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/med-v-20-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/med-v-event-log-messages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/med-v-event-log-messages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/monitor-med-v-workspaces.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/monitor-med-v-workspaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/monitoring-med-v-workspace-deployments.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/monitoring-med-v-workspace-deployments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/operations-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/operations-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/operations-troubleshooting-medv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/operations-troubleshooting-medv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/overview-of-med-vmedv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/overview-of-med-vmedv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/planning-for-application-operating-system-compatibility.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/planning-for-application-operating-system-compatibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/planning-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/planning-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/prepare-a-med-v-image.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/prepare-a-med-v-image",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/prepare-the-deployment-environment-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/prepare-the-deployment-environment-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/restarting-and-resetting-a-med-v-workspace.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/restarting-and-resetting-a-med-v-workspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/security-and-protection-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/security-and-protection-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/security-best-practices-for-med-v-operations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/security-best-practices-for-med-v-operations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/technical-reference-for-med-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/technical-reference-for-med-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/test-and-deploy-the-med-v-workspace-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/test-and-deploy-the-med-v-workspace-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/testing-the-med-v-workspace-package.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/testing-the-med-v-workspace-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/troubleshooting-med-v-by-using-the-administration-toolkit.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/troubleshooting-med-v-by-using-the-administration-toolkit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/troubleshooting-med-vmedv2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/troubleshooting-med-vmedv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/updating-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/updating-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/viewing-and-configuring-med-v-logs.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/viewing-and-configuring-med-v-logs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/viewing-med-v-workspace-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/viewing-med-v-workspace-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/whats-new-in-med-v-20.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/whats-new-in-med-v-20",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/medv-v2/windows-virtual-pc-application-exclude-list.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/windows-virtual-pc-application-exclude-list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/about-user-experience-virtualization-10-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/about-user-experience-virtualization-10-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/about-user-experience-virtualization-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/about-user-experience-virtualization-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/accessibility-for-ue-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/accessibility-for-ue-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/administering-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/administering-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/administering-ue-v-with-powershell-and-wmi.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/administering-ue-v-with-powershell-and-wmi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/changing-the-frequency-of-ue-v-scheduled-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/changing-the-frequency-of-ue-v-scheduled-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/checklist-for-evaluating-line-of-business-applications-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/checklist-for-evaluating-line-of-business-applications-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/configuring-ue-v-with-group-policy-objects.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/configuring-ue-v-with-group-policy-objects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/create-ue-v-settings-location-templates-with-the-ue-v-generator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/create-ue-v-settings-location-templates-with-the-ue-v-generator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/deploying-the-settings-storage-location-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/deploying-the-settings-storage-location-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/deploying-the-settings-template-catalog-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/deploying-the-settings-template-catalog-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/deploying-the-ue-v-agent.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/deploying-the-ue-v-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/deploying-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/deploying-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/deploying-ue-v-settings-location-templates-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/deploying-ue-v-settings-location-templates-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/edit-ue-v-settings-location-templates-with-the-ue-v-generator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/edit-ue-v-settings-location-templates-with-the-ue-v-generator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/getting-started-with-user-experience-virtualization-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/getting-started-with-user-experience-virtualization-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/high-level-architecture-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/high-level-architecture-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/installing-the-ue-v-generator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/installing-the-ue-v-generator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/installing-the-ue-v-group-policy-admx-templates.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/installing-the-ue-v-group-policy-admx-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/managing-the-ue-v-10-agent-and-packages-with-powershell-and-wmi.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/managing-the-ue-v-10-agent-and-packages-with-powershell-and-wmi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/managing-ue-v-10-settings-location-templates-using-powershell-and-wmi.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/managing-ue-v-10-settings-location-templates-using-powershell-and-wmi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/microsoft-user-experience-virtualization--ue-v--10-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/microsoft-user-experience-virtualization--ue-v--10-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/microsoft-user-experience-virtualization--ue-v--10-sp1-release-notes.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/microsoft-user-experience-virtualization--ue-v--10-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/migrating-ue-v-settings-packages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/migrating-ue-v-settings-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/operations-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/operations-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/planning-for-custom-template-deployment-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/planning-for-custom-template-deployment-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/planning-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/planning-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/planning-for-ue-v-configuration-methods.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/planning-for-ue-v-configuration-methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/planning-for-ue-v-configuration.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/planning-for-ue-v-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/planning-which-applications-to-synchronize-with-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/planning-which-applications-to-synchronize-with-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/preparing-your-environment-for-ue-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/preparing-your-environment-for-ue-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/restoring-application-and-windows-settings-synchronized-with-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/restoring-application-and-windows-settings-synchronized-with-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/security-and-privacy-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/security-and-privacy-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/sharing-settings-location-templates-with-the-ue-v-template-gallery.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/sharing-settings-location-templates-with-the-ue-v-template-gallery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/supported-configurations-for-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/supported-configurations-for-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/troubleshooting-ue-v-10.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/troubleshooting-ue-v-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/ue-v-10-security-considerations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/ue-v-10-security-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/ue-v-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/ue-v-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/user-experience-virtualization-privacy-statement.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/user-experience-virtualization-privacy-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/validate-ue-v-settings-location-templates-with-ue-v-generator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/validate-ue-v-settings-location-templates-with-ue-v-generator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v1/working-with-custom-ue-v-templates-and-the-ue-v-generator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/working-with-custom-ue-v-templates-and-the-ue-v-generator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/administrative-template-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/administrative-template-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/administrative-templates-folder-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/administrative-templates-folder-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-25-navengl.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-25-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-3-navengl.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-connection-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-connection-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-connection-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-connection-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-server-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/agpm-server-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/approve-or-reject-a-pending-action-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/approve-or-reject-a-pending-action-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/approve-or-reject-a-pending-action.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/approve-or-reject-a-pending-action",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/back-up-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/back-up-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/best-practices-for-version-control.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/best-practices-for-version-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/check-in-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/check-in-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/check-in-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/check-in-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-administer-the-agpm-server-and-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-administer-the-agpm-server-and-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-create-edit-and-deploy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-create-edit-and-deploy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/checklist-create-edit-and-deploy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/checklist-create-edit-and-deploy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/common-secondary-tab-features.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/common-secondary-tab-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-agpm-server-connections-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-agpm-server-connections-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-an-agpm-server-connection-reviewer-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-an-agpm-server-connection-reviewer-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-notification-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-notification-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-notification.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-e-mail-security-for-agpm-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-e-mail-security-for-agpm-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-logging-and-tracing-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-logging-and-tracing-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-logging-and-tracing.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-logging-and-tracing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-the-agpm-server-connection-reviewer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-the-agpm-server-connection-reviewer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configure-the-agpm-server-connection.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configure-the-agpm-server-connection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/configuring-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/configuring-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab-features-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab-features-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/contents-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/contents-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/control-a-previously-uncontrolled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/control-a-previously-uncontrolled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/control-an-uncontrolled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/control-an-uncontrolled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/controlled-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/controlled-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/controlled-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/controlled-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-new-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-new-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-new-controlled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-new-controlled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/create-a-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/create-a-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-a-template-and-setting-a-default-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-a-template-and-setting-a-default-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-a-template-and-setting-a-default-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-a-template-and-setting-a-default-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-editor-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-editor-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/creating-controlling-or-importing-a-gpo-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/creating-controlling-or-importing-a-gpo-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-an-individual-gpo-in-the-archive-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-an-individual-gpo-in-the-archive-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-an-individual-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-an-individual-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-access-to-the-production-environment-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-access-to-the-production-environment-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-domain-level-access-to-the-archive-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-domain-level-access-to-the-archive-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-domain-level-access.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-domain-level-access",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delegate-management-of-a-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delegate-management-of-a-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-gpo-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-gpo-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/delete-a-gpo-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/delete-a-gpo-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-or-restoring-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-or-restoring-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-restoring-or-destroying-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-restoring-or-destroying-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deleting-restoring-or-destroying-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deleting-restoring-or-destroying-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deploy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deploy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/deploy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/deploy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/destroy-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/destroy-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/destroy-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/destroy-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/domain-delegation-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/domain-delegation-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/domain-delegation-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/domain-delegation-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/edit-a-gpo-offline-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/edit-a-gpo-offline-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/edit-a-gpo-offline.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/edit-a-gpo-offline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/editing-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/editing-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/editing-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/editing-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/feature-visibility-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/feature-visibility-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/feature-visibility-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/feature-visibility-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/history-window-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/history-window-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/history-window.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/history-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/identify-differences-between-gpos-gpo-versions-or-templates-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/identify-differences-between-gpos-gpo-versions-or-templates.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/identify-differences-between-gpos-gpo-versions-or-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-approver.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-approver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-editor-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-editor-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/import-a-gpo-from-production-editor.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/import-a-gpo-from-production-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/label-the-current-version-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/label-the-current-version-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/label-the-current-version-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/label-the-current-version-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/limit-the-gpo-versions-stored-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/limit-the-gpo-versions-stored-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/logging-and-tracing-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/logging-and-tracing-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/logging-and-tracing-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/logging-and-tracing-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-agpm-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-agpm-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/managing-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/managing-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-agpm-service-account.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-agpm-service-account",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-archive-path.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-archive-path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/modify-the-port-on-which-the-agpm-service-listens.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/modify-the-port-on-which-the-agpm-service-listens",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/move-the-agpm-server-and-the-archive.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/move-the-agpm-server-and-the-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/operations-guide-for-microsoft-advanced-group-policy-management-25.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/operations-guide-for-microsoft-advanced-group-policy-management-25",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/operations-guide-for-microsoft-advanced-group-policy-management-30-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/other-enhancements-to-the-gpmc.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/other-enhancements-to-the-gpmc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/overview-of-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/overview-of-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/overview-of-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/overview-of-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/pending-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/pending-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/pending-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/pending-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-agpm-administrator-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-agpm-administrator-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-agpm-administrator-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-agpm-administrator-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-approver-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-approver-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-approver-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-approver-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-editor-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-editor-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-editor-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-editor-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-reviewer-tasks-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-reviewer-tasks-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/performing-reviewer-tasks.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/performing-reviewer-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/production-delegation-tab-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/production-delegation-tab-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/recycle-bin-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/recycle-bin-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/recycle-bin-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/recycle-bin-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/rename-a-gpo-or-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/rename-a-gpo-or-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/rename-a-gpo-or-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/rename-a-gpo-or-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-control-of-a-previously-uncontrolled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-control-of-a-previously-uncontrolled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-control-of-an-uncontrolled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-control-of-an-uncontrolled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deletion-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deletion-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deployment-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deployment-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-deployment-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-deployment-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-restoration-of-a-deleted-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-restoration-of-a-deleted-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-the-creation-of-a-new-controlled-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-the-creation-of-a-new-controlled-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/request-the-creation-of-a-new-controlled-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/request-the-creation-of-a-new-controlled-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-a-deleted-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-a-deleted-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-a-deleted-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-a-deleted-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/restore-the-archive-from-a-backup.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/restore-the-archive-from-a-backup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-links-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-links-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-links.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-links",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-settings-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-settings-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/review-gpo-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/review-gpo-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/roll-back-to-a-previous-version-of-a-gpo-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/roll-back-to-a-previous-version-of-a-gpo-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/roll-back-to-a-previous-version-of-a-gpo.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/roll-back-to-a-previous-version-of-a-gpo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/set-a-default-template-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/set-a-default-template-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/set-a-default-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/set-a-default-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/start-and-stop-the-agpm-service-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/start-and-stop-the-agpm-service-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/start-and-stop-the-agpm-service.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/start-and-stop-the-agpm-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-25.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-25",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-30.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-30",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/template-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/template-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/templates-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/templates-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/troubleshooting-agpm40-upgrades.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/troubleshooting-agpm40-upgrades",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/uncontrolled-gpo-commands-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/uncontrolled-gpo-commands-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/uncontrolled-tab.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/uncontrolled-tab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/use-a-test-environment-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/use-a-test-environment-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/use-a-test-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/use-a-test-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/user-interface-advanced-group-policy-management-agpm30ops.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/user-interface-advanced-group-policy-management-agpm30ops",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/user-interface-advanced-group-policy-management.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/user-interface-advanced-group-policy-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-30.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-30",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-dynamic-configuration.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-dynamic-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-reporting.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-client-configuration-settings.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-client-configuration-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-the-connection-group-file.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/about-the-connection-group-virtual-environment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-virtual-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/accessibility-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/accessibility-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/administering-app-v-50-virtual-applications-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-50-virtual-applications-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/administering-app-v-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-capacity-planning.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-capacity-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-deployment-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-planning-checklist.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-security-considerations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-security-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-sp3-prerequisites.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-sp3-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/app-v-50-supported-configurations.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/application-publishing-and-client-interaction.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/application-publishing-and-client-interaction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/creating-and-managing-app-v-50-virtualized-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/creating-and-managing-app-v-50-virtualized-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-50-packages-by-using-electronic-software-distribution--esd-.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50-packages-by-using-electronic-software-distribution--esd-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2010-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2010-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2013-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2013-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-microsoft-office-2016-by-using-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2016-by-using-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-the-app-v-50-sequencer-and-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-sequencer-and-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-the-app-v-50-server.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/evaluating-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/evaluating-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/getting-started-with-app-v-50--rtm.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/getting-started-with-app-v-50--rtm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/high-level-architecture-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/high-level-architecture-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-access-the-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-access-the-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-add-or-remove-an-administrator-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-remove-an-administrator-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-add-or-upgrade-packages-by-using-the-management-console-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-upgrade-packages-by-using-the-management-console-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-allow-only-administrators-to-enable-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-allow-only-administrators-to-enable-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-apply-the-deployment-configuration-file-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-deployment-configuration-file-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-apply-the-user-configuration-file-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-user-configuration-file-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-configure-access-to-packages-by-using-the-management-console-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-access-to-packages-by-using-the-management-console-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-connect-to-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-connect-to-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-convert-a-package-created-in-a-previous-version-of-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-convert-a-package-created-in-a-previous-version-of-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-connection-group-with-user-published-and-globally-published-packages.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group-with-user-published-and-globally-published-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-custom-configuration-file-by-using-the-app-v-50-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-custom-configuration-file-by-using-the-app-v-50-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-package-accelerator-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-package-accelerator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-create-and-use-a-project-template.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-and-use-a-project-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-delete-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-delete-a-package-in-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-package-in-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-app-v-50-packages-using-electronic-software-distribution.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-app-v-50-packages-using-electronic-software-distribution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-46-and-the-app-v--50-client-on-the-same-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-46-and-the-app-v--50-client-on-the-same-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-50-server-50sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-50sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-50-server-using-a-script.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-using-a-script",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-client-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-client-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-deploy-the-app-v-databases-by-using-sql-scripts.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-databases-by-using-sql-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-enable-only-administrators-to-publish-packages-by-using-an-esd.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-only-administrators-to-publish-packages-by-using-an-esd",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-app-v-50-client-for-shared-content-store-mode.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-50-client-for-shared-content-store-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-publishing-server-on-a-remote-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-publishing-server-on-a-remote-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-install-the-sequencer-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-sequencer-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-make-a-connection-group-ignore-the-package-version.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-make-a-connection-group-ignore-the-package-version",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-manage-app-v-50-packages-running-on-a-stand-alone-computer-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-app-v-50-packages-running-on-a-stand-alone-computer-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-50-package-for-all-users-on-a-specific-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-50-package-for-all-users-on-a-specific-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-50-for-a-specific-user.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-50-for-a-specific-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-an-existing-virtual-application-package-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-an-existing-virtual-application-package-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-modify-client-configuration-by-using-powershell.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-client-configuration-by-using-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-move-the-app-v-server-to-another-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-move-the-app-v-server-to-another-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-publish-a-connection-group.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-connection-group",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-publish-a-package-by-using-the-management-console-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-package-by-using-the-management-console-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-register-and-unregister-a-publishing-server-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-register-and-unregister-a-publishing-server-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-a-specific-user.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-a-specific-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-sequence-a-new-application-with-app-v-50-beta-gb18030.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-new-application-with-app-v-50-beta-gb18030",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-sequence-a-package--by-using-powershell-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-package--by-using-powershell-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-uninstall-the-app-v-50-client.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-uninstall-the-app-v-50-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-use-an-app-v-46-sp1-application-from-an-app-v-50-application.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-an-app-v-46-sp1-application-from-an-app-v-50-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-use-optional-packages-in-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-optional-packages-in-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/how-to-view-and-configure-applications-and-default-virtual-application-extensions-by-using-the-management-console-beta.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-view-and-configure-applications-and-default-virtual-application-extensions-by-using-the-management-console-beta",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/index.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/maintaining-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/maintaining-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/managing-connection-groups.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/managing-connection-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/microsoft-application-virtualization-50-administrators-guide.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/microsoft-application-virtualization-50-administrators-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/migrating-from-a-previous-version-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/migrating-from-a-previous-version-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/operations-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/operations-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/performance-guidance-for-application-virtualization-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-app-v-50-rc.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-app-v-50-rc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-high-availability-with-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-high-availability-with-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-migrating-from-a-previous-version-of-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-migrating-from-a-previous-version-of-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-the-app-v-50-sequencer-and-client-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-sequencer-and-client-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-the-app-v-50-server-deployment.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-server-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-using-app-v-with-office.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-using-app-v-with-office",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v-50-with-an-electronic-software-distribution-system.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v-50-with-an-electronic-software-distribution-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-use-folder-redirection-with-app-v.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-use-folder-redirection-with-app-v",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/preparing-your-environment-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/preparing-your-environment-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50-sp2.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50-sp3.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/release-notes-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/technical-reference-for-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/technical-reference-for-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/troubleshooting-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/troubleshooting-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/using-the-app-v-50-client-management-console.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/using-the-app-v-50-client-management-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/viewing-app-v-server-publishing-metadata.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/viewing-app-v-server-publishing-metadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/whats-new-in-app-v-50-sp1.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/whats-new-in-app-v-50.md",
+      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50",
+      "redirect_document_id": false
     }
   ]
 }

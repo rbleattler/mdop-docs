@@ -30,7 +30,7 @@
     - name: Microsoft Enterprise Desktop Virtualization (MED-V)
       items:
         - name: Microsoft Enterprise Desktop Virtualization 2
-          href: medv-v2/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/
     - name: User Experience Virtualization (UE-V)
       items:
         - name: UE-V for Windows 10
@@ -38,6 +38,6 @@
         - name: User Experience Virtualization 2
           href: uev-v2/index.md
         - name: User Experience Virtualization 1
-          href: uev-v1/index.md
+          href: /previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/
     - name: MDOP group policy (.admx) templates
       href: solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md
