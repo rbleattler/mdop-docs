@@ -2,7 +2,7 @@
 title: MDOP information experience
 description: MDOP information experience.
 author: aczechowski
-ms.date: 06/28/2024
+ms.date: 07/30/2024
 ---
 
 # MDOP information experience
@@ -71,6 +71,8 @@ For information about UE-V in Windows 10, see [User Experience Virtualization (U
 
 ## Download MDOP
 
-MDOP is available as an additional subscription for Software Assurance customers. MDOP subscribers can download the software at the [Microsoft Volume Licensing website (MVLS)](https://go.microsoft.com/fwlink/p/?LinkId=166331).
+MDOP is available as an additional subscription for Software Assurance customers. MDOP subscribers can download the software at the [Microsoft M365 admin center](https://admin.microsoft.com/adminportal/home#/subscriptions/vlnew).
 
-You can manage the feature settings of certain Microsoft Desktop Optimization Pack (MDOP) technologies (for example, App-V, UE-V, or MBAM) by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
+## Manage settings
+
+You can manage the feature settings for App-V, UE-V, and MBAM by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
