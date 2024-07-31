@@ -1,17 +1,17 @@
 ---
-title: How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console (Windows 10/11)
-description: How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console
+title: How to view and configure applications and default virtual application extensions by using the management console
+description: Use the following procedure to view and configure default package extensions.
 author: aczechowski
 ms.date: 04/19/2017
 ---
 
-# How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console (Windows 10/11)
+# How to view and configure applications and default virtual application extensions by using the management console
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
 Use the following procedure to view and configure default package extensions.
 
-**To view and configure default virtual application extensions**
+## To view and configure default virtual application extensions
 
 1.  To view the package that you want to configure, open the App-V Management Console. Select the package that you want to configure, right-click the package name and select **edit default configuration**.
 
@@ -24,10 +24,6 @@ Use the following procedure to view and configure default package extensions.
 4.  To view any other application extensions, click **Advanced** and click **Export Configuration**. Type in a filename and click **Save**. You can view all application extensions associated with the package using the configuration file.
 
 5.  To edit other application extensions, modify the configuration file and click **Import and Overwrite this Configuration**. Select the modified file and click **Open**. In the dialog box, click **Overwrite** to complete the process.
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
 
 ## Related articles
 
