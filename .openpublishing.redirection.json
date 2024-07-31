@@ -5801,11 +5801,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mdop/appv-v5/index.md",
-      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/index",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "mdop/appv-v5/maintaining-app-v-50.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/maintaining-app-v-50",
       "redirect_document_id": false

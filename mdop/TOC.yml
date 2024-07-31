@@ -5,7 +5,7 @@
       href: agpm/index.md
     - name: Application Virtualization (App-V)
       items:
-        - name: App-V for Windows 10
+        - name: App-V for Windows
           href: app-v/appv-for-windows.md
         - name: Application Virtualization 5
           href: appv-v5/index.md
@@ -15,7 +15,7 @@
       href: mbam-v25/index.md
     - name: User Experience Virtualization (UE-V)
       items:
-        - name: UE-V for Windows 10
+        - name: UE-V for Windows
           href: ue-v/uev-for-windows.md
         - name: User Experience Virtualization 2
           href: uev-v2/index.md
