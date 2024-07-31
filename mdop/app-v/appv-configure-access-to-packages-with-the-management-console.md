@@ -2,14 +2,7 @@
 title: How to configure access to packages by using the Management Console (Windows 10/11)
 description: How to configure access to packages by using the App-V Management Console.
 author: aczechowski
-ms.service: windows-client
 ms.date: 06/18/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # How to configure access to packages by using the Management Console
 

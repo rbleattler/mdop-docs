@@ -2,14 +2,7 @@
 title: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications (Windows 10/11)
 description: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
 author: aczechowski
-ms.service: windows-client
 ms.date: 03/08/2018
-ms.reviewer:
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.subservice: itpro-apps
-ms.topic: article
 ---
 
 # Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications (Windows 10/11)

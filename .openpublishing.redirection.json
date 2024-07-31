@@ -66,6 +66,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "mdop/app-v/index.yml",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-for-windows",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "mdop/dart-v8/about-dart-80-dart-8.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/dart-v8/about-dart-80-dart-8.md",
       "redirect_document_id": false

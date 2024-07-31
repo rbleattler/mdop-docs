@@ -2,14 +2,7 @@
 title: About the connection group virtual environment (Windows 10/11)
 description: Learn how the connection group virtual environment works and how package priority is determined.
 author: aczechowski
-ms.service: windows-client
 ms.date: 06/25/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # About the connection group virtual environment
 

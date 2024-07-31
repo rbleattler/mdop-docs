@@ -2,14 +2,7 @@
 title: About App-V Reporting (Windows 10/11)
 description: Learn how the App-V reporting feature collects information about computers running the App-V client and virtual application package usage.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/16/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # About App-V reporting
@@ -48,7 +41,7 @@ The following list displays the end–to-end high-level workflow for reporting i
 
    > [!NOTE]
     >By default, the cache is cleared after the server confirms receipt of data. You can manually configure the client to save the data cache.
-    
+
     If the App-V client device doesn't receive a success notification from the server, it retains data in the cache and tries to resend data at the next configured interval. Clients continue to collect data and add it to the cache.
 
 ### App-V reporting server frequently asked questions

@@ -5,14 +5,7 @@ author: aczechowski
 ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
-ms.service: windows-client
 ms.date: 09/24/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # How to manage App-V packages running on a stand-alone computer by using Windows PowerShell
 
@@ -167,7 +160,7 @@ The pending task will run later, according to the following rules:
 
 For more information about pending tasks, see [Upgrading an in-use App-V package](appv-application-publishing-and-client-interaction.md#upgrading-an-in-use-app-v-package).
 
- 
+
 
 
 

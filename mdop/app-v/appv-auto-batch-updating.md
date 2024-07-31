@@ -2,14 +2,7 @@
 title: Automatically update multiple apps at the same time using Microsoft Application Virtualization Sequencer (App-V Sequencer) (Windows 10/11)
 description: How to automatically update multiple apps at the same time using Microsoft Application Virtualization Sequencer (App-V Sequencer).
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/18/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # Automatically update multiple apps at the same time using Microsoft Application Virtualization Sequencer (App-V Sequencer)
 
@@ -125,7 +118,7 @@ Updating multiple apps at the same time requires that you create a **ConfigFile*
                 <Enabled>true</Enabled>
             </Application>
         </Applications>
-        ```   
+        ```
 
 ### Start the App-V Sequencer interface and app installation process
 

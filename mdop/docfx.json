@@ -47,9 +47,9 @@
       "breadcrumb_path": "/microsoft-desktop-optimization-pack/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-Windows",
       "ROBOTS": "INDEX, FOLLOW",
-      "manager": "dansimp",
+      "manager": "aaroncz",
       "ms.author": "aaroncz",
-      "author": "aaroncz",
+      "author": "aczechowski",
       "ms.topic": "article",
       "recommendations": true,
       "feedback_system": "None",
@@ -60,9 +60,9 @@
           "folder_relative_path_in_docset": "./"
         }
       },
-      "contributors_to_exclude": [ 
-        "rjagiewich", 
-        "claydetels19", 
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "claydetels19",
         "jborsecnik",
         "shdyas",
         "garycentric",
