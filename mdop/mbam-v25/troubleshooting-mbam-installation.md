@@ -7,7 +7,7 @@ manager: aaroncz
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 09/16/2019
---- 
+---
 
 # Troubleshooting MBAM 2.5 installation problems
 
@@ -15,8 +15,8 @@ This article introduces how to troubleshoot Microsoft BitLocker Administration a
 
 ## Referring MBAM log files for troubleshooting
 
-MBAM includes logging for server installation, client installation, and events. This logging should be referred to for troubleshooting. 
- 
+MBAM includes logging for server installation, client installation, and events. This logging should be referred to for troubleshooting.
+
 ### MBAM server installation log files
 
 MBAMServerSetup.exe generates the following log files in the user’s %temp% folder during MBAM installation:<br /> **Microsoft_BitLocker_Administration_and_Monitoring_<14 numbers>.log**
@@ -30,13 +30,13 @@ MBAMServerSetup.exe logs additional actions that were taken during installation.
 The client installation is recorded in the following log file in the %temp% folder (or a custom location, depending on how the client was installed): <br />**MSI\<five random characters\>.log**
 
 This log contains the actions that are taken during MBAM client installation.
- 
+
 ### MBAM client event-logging channel
 
 MBAM has separate event-logging channels. The Admin, Analytical, and Operational log files are located in Event Viewer, under **Application and Services Logs** > **Microsoft** > **Windows** > **MBAM**.
 
 The following table provides a brief description of each event log.
- 
+
 |Event log|	Description|
 |----------|-------|
 |Microsoft-Windows-MBAM/Admin|	Contains error messages|
@@ -62,7 +62,7 @@ You can use the service trace viewer tool (part of Microsoft Visual Studio) to r
 ## Troubleshooting encryption and reporting issues
 
 This section contains troubleshooting information for server functionality, client functionality, configuration settings, and known issues:
- 
+
 ### MBAM client installation, Group Policy settings
 
 Determine whether the MBAM agent is installed on the client computer. When MBAM is installed, it creates a service that is named BitLocker Management Client Service. This service is configured to start automatically. Determine whether the service is running.
@@ -77,7 +77,7 @@ Verify that this key exists and is populated by using values per Group Policy se
 The MBAM client doesn't start the operation immediately after installation. There is an initial random delay of 1–18 minutes before the MBAM Agent starts its operation. In addition to the initial delay, there is a delay of at least 90 minutes. (The delay depends on the Group Policy settings that are configured for the frequency of checking the client status.) Therefore, the total delay before a client starts operation is *random startup delay* + *client checking frequency delay*.
 
 If the Operational and Admin event logs are blank, the client has not started the operation yet and is in the delay period that was mentioned earlier. If you want to bypass the delay, follow these steps:
- 
+
 1. Stop the BitLocker Management Client Service service.
 
 2. Under the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MBAM** registry subkey, create the **NoStartupDelay** registry value, set its type to **REG_DWORD**, and then set its value to **1**.
@@ -99,7 +99,7 @@ Review the MBAM Admin event log. You will see an event entry that resembles the 
     Event ID:      9
     Task Category: None
     Level:         Error
-    Keywords:      
+    Keywords:
     User:          SYSTEM
     Computer:      Mbamclient.contoso.com
     Description:
@@ -130,7 +130,7 @@ Date:          8/3/2013 4:13:37 AM
 Event ID:      8
 Task Category: None
 Level:         Error
-Keywords:      
+Keywords:
 User:          SYSTEM
 Computer:      BITTESTVM.xtremelabs.com
 Description:
@@ -161,7 +161,7 @@ Date:          7/25/2013 9:27:58 PM
 Event ID:      22
 Task Category: None
 Level:         Error
-Keywords:      
+Keywords:
 User:          SYSTEM
 Computer:      Mbamclient.contoso.com
 Description:
@@ -192,7 +192,7 @@ Date:          8/3/2013 3:06:40 PM
 Event ID:      13
 Task Category: None
 Level:         Warning
-Keywords:      
+Keywords:
 User:          SYSTEM
 Computer:      MBAMCLIENT.contoso.com
 Description:
@@ -201,7 +201,7 @@ The user is exempt from encryption.
 
 
 If you want to manually override user exemption for a computer, follow these steps:
- 
+
 1. Set the AllowUserExemption value to **0** under the following registry subkey: <br />
 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FVE\MDOPBitLockerManagement**
 
@@ -223,13 +223,13 @@ Date:          7/27/2013 11:18:51 PM
 Event ID:      4
 Task Category: None
 Level:         Error
-Keywords:      
+Keywords:
 User:          SYSTEM
 Computer:      BITTEST.xtremelabs.com
 Description:
 An error occurred while sending encryption status data.
 Error code:
-0x80041016 
+0x80041016
 Details:
 NULL
 ```
@@ -257,7 +257,7 @@ Date:          8/3/2013 4:13:36 PM
 Event ID:      4
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      Mbamclient.contoso.com
 Description:
@@ -273,7 +273,7 @@ Date:          8/3/2013 4:13:33 PM
 Event ID:      18
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      Mbamclient.contoso.com
 Description:
@@ -289,7 +289,7 @@ Date:          8/3/2013 4:20:32 PM
 Event ID:      4
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      Mbamclient.contoso.com
 Description:
@@ -305,7 +305,7 @@ Date:          8/3/2013 4:20:32 PM
 Event ID:      18
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      Mbamclient.contoso.com
 Description:
@@ -343,14 +343,14 @@ Date:          29-04-2014 18:21:22
 Event ID:      2
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      TESTLABS.CONTOSO.COM
 Description:
 An error occurred while applying MBAM policies.
-Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
+Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\
 Error code:
-0x803D0010 
+0x803D0010
 Details:
 The remote endpoint was not reachable.
 
@@ -360,14 +360,14 @@ Date:          29-04-2014 23:06:48
 Event ID:      2
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      TESTLABS.CONTOSO.COM
 Description:
 An error occurred while applying MBAM policies.
-Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\ 
+Volume ID:\\?\Volume{871c5858-2467-4d0b-8c83-d68af8ce10e5}\
 Error code:
-0x803D0006 
+0x803D0006
 Details:
 The operation did not complete within the time allotted.
 
@@ -377,13 +377,13 @@ Date:          02-09-2013 02:02:04
 Event ID:      18
 Task Category: None
 Level:         Error
-Keywords:     
+Keywords:
 User:          SYSTEM
 Computer:      TESTLABS.CONTOSO.COM
 Description:
 Unable to connect to the MBAM Recovery and Hardware service.
 Error code:
-0x803D0010 
+0x803D0010
 Details:
 The remote endpoint was not reachable.
 
@@ -399,7 +399,7 @@ Basic checks:
 
 * If the communication between client and server is secure, make sure that you are using a valid SSL certificate.
 
-* Verify network connectivity between the web server and the database server to which the data is sent for insertion. You can check database connectivity from the web server to the database server by using ODBC Data Source Administrator. Detailed SQL Server connection troubleshooting information is available in [How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx).
+* Verify network connectivity between the web server and the database server to which the data is sent for insertion. You can check database connectivity from the web server to the database server by using ODBC Data Source Administrator.
 
 ```
 
@@ -441,32 +441,32 @@ The MBAM services may be unable to connect to the database server because of a n
     Event ID: 6615fb8eb9d54e778b933d5bb7ca91ed
     Event sequence: 2
     Event occurrence: 1
-    Event detail code: 0 
+    Event detail code: 0
     Application information:
         Application domain: /LM/W3SVC/2/ROOT/MBAMAdministrationService-1-130180202570338699
         Trust level: Full
         Application Virtual Path: /MBAMAdministrationService
         Application Path: C:\inetpub\Microsoft BitLocker Management Solution\Administration Service\
-        Machine name: MBAM2-ADMIN 
-    
+        Machine name: MBAM2-ADMIN
+
     Process information:
         Process ID: 1940
         Process name: w3wp.exe
-        Account name: NT AUTHORITY\NETWORK SERVICE 
-    
+        Account name: NT AUTHORITY\NETWORK SERVICE
+
     Exception information:
         Exception type: SqlException
-        Exception message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) 
-    
+        Exception message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
     Request information:
-        Request URL: 
-        Request path: 
-        User host address: 
-        User: 
+        Request URL:
+        Request path:
+        User host address:
+        User:
         Is authenticated: False
-        Authentication Type: 
-        Thread account name: NT AUTHORITY\NETWORK SERVICE 
-    
+        Authentication Type:
+        Thread account name: NT AUTHORITY\NETWORK SERVICE
+
     Thread information:
         Thread ID: 7
         Thread account name: NT AUTHORITY\NETWORK SERVICE
@@ -493,7 +493,7 @@ The MBAM services may be unable to connect to the database server because of a n
        at System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
        at Microsoft.Mbam.Server.ServiceCommon.KeyRecoveryModelDataContext.GetRecoveryKeyIds(String partialRecoveryKeyId, String reason)
        at Microsoft.Mbam.ApplicationSupportService.AdministrationService.GetRecoveryKeyIds(String partialRecoveryKeyId, String reasonCode)
-    
+
     Custom event details:
         Application: MBAMAdministrationService
         Sql Server:

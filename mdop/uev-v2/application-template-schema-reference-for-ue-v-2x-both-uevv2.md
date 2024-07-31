@@ -268,7 +268,7 @@ This value is queried to determine if a new version of a template should be appl
 
 **Type: String**
 
-Author identifies the creator of the settings location template. Two optional child elements are supported: **Name** and **Email**. Both attributes are optional, but, if the Email child element is specified, it must be accompanied by the Name element. Author refers to the full name of the contact for the settings location template, and email should refer to an email address for the author. We recommend that you include this information in templates published publicly, for example, on the [UE-V Template Gallery](https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=UE-V).
+Author identifies the creator of the settings location template. Two optional child elements are supported: **Name** and **Email**. Both attributes are optional, but, if the Email child element is specified, it must be accompanied by the Name element. Author refers to the full name of the contact for the settings location template, and email should refer to an email address for the author. We recommend that you include this information in templates that you publish publicly.
 
 ### <a href="" id="processes21"></a>Processes and Process Element
 
@@ -1204,7 +1204,7 @@ This value is queried to determine if a new version of a template should be appl
 
 **Type: String**
 
-Author identifies the creator of the settings location template. Two optional child elements are supported: **Name** and **Email**. Both attributes are optional, but, if the Email child element is specified, it must be accompanied by the Name element. Author refers to the full name of the contact for the settings location template, and email should refer to an email address for the author. We recommend that you include this information in templates published publicly, for example, on the [UE-V Template Gallery](https://gallery.technet.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=UE-V).
+Author identifies the creator of the settings location template. Two optional child elements are supported: **Name** and **Email**. Both attributes are optional, but, if the Email child element is specified, it must be accompanied by the Name element. Author refers to the full name of the contact for the settings location template, and email should refer to an email address for the author. We recommend that you include this information in templates that you publish publicly.
 
 ### <a href="" id="processes"></a>Processes and Process Element
 
