@@ -27,30 +27,8 @@ If you are new to this product, we recommend that you read the documentation tho
 
 This section of the App-V 5.1 Administrator's Guide includes high-level information about App-V 5.1 to provide you with a basic understanding of the product before you begin the deployment planning.
 
-## Getting started with App-V 5.1
+## Next steps
 
-- [About App-V 5.1](about-app-v-51.md)
+[About App-V 5.1](about-app-v-51.md): Provides a high-level overview of App-V 5.1 and how it can be used in your organization.
 
-  Provides a high-level overview of App-V 5.1 and how it can be used in your organization.
-
-- [Evaluating App-V 5.1](evaluating-app-v-51.md)
-
-  Provides information about how you can best evaluate App-V 5.1 for use in your organization.
-
-- [High Level Architecture for App-V 5.1](high-level-architecture-for-app-v-51.md)
-
-  Provides a description of the App-V 5.1 features and how they work together.
-
-- [Accessibility for App-V 5.1](accessibility-for-app-v-51.md)
-
-  Provides information about features and services that make this product and its corresponding documentation more accessible for people with disabilities.
-
-## <a href="" id="other-resources-for-this-product-"></a>Other resources for this product
-
-- [Planning for App-V 5.1](planning-for-app-v-51.md)
-
-- [Deploying App-V 5.1](deploying-app-v-51.md)
-
-- [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-- [Technical Reference for App-V 5.1](technical-reference-for-app-v-51.md)
+[Evaluating App-V 5.1](evaluating-app-v-51.md): Provides information about how you can best evaluate App-V 5.1 for use in your organization.

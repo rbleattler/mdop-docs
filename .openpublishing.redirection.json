@@ -5939,6 +5939,31 @@
       "source_path": "mdop/appv-v5/troubleshooting-app-v-51.md",
       "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/preparing-your-environment-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/technical-reference-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-51",
+      "redirect_document_id": false
     }
   ]
 }

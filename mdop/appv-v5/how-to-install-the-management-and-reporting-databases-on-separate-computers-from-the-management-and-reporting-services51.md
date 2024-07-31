@@ -1,18 +1,13 @@
 ---
-title: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
-description: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
+title: How to install the management and reporting databases on separate computers from the management and reporting services
+description: Use the following procedure to install the database server and management server on different computers.
 author: aczechowski
-ms.assetid: 2a67402e-3119-40ea-a247-24d166af1ced
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-# How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
+# How to install the management and reporting databases on separate computers from the management and reporting services
 
 Use the following procedure to install the database server and management server on different computers. The computer you plan to install the database server on must be running a supported version of Microsoft SQL or the installation will fail.
 
@@ -78,8 +73,6 @@ Use the following procedure to install the database server and management server
 
 1. Run the scripts on the computer running Microsoft SQL Server.
 
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-[Deploying App-V 5.1](deploying-app-v-51.md)
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)

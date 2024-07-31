@@ -17,17 +17,13 @@ Items:
     - name: Accessibility for App-V 5.1
       href: accessibility-for-app-v-51.md
   - name: Planning for App-V 5.1
-    href: planning-for-app-v-51.md
+    href: app-v-51-planning-checklist.md
     items:
-    - name: Preparing Your Environment for App-V 5.1
-      href: preparing-your-environment-for-app-v-51.md
-      items:
-      - name: App-V 5.1 Prerequisites
-        href: app-v-51-prerequisites.md
-      - name: App-V 5.1 Security Considerations
-        href: app-v-51-security-considerations.md
+    - name: App-V 5.1 Prerequisites
+      href: app-v-51-prerequisites.md
+    - name: App-V 5.1 Security Considerations
+      href: app-v-51-security-considerations.md
     - name: Planning to Deploy App-V 5.1
-      href: planning-to-deploy-app-v51.md
       items:
       - name: App-V 5.1 Supported Configurations
         href: app-v-51-supported-configurations.md
@@ -47,10 +43,8 @@ Items:
         href: planning-for-using-app-v-with-office51.md
       - name: Planning to Use Folder Redirection with App-V 5.1
         href: planning-to-use-folder-redirection-with-app-v51.md
-    - name: App-V 5.1 Planning Checklist
-      href: app-v-51-planning-checklist.md
   - name: Deploying App-V 5.1
-    href: deploying-app-v-51.md
+    href: app-v-51-deployment-checklist.md
     items:
     - name: Deploying the App-V 5.1 Sequencer and Client
       href: deploying-the-app-v-51-sequencer-and-client.md
@@ -88,8 +82,6 @@ Items:
         href: about-app-v-51-reporting.md
       - name: How to install the Reporting Server on a Standalone Computer and Connect it to the Database 5.1
         href: how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database51.md
-    - name: App-V 5.1 Deployment Checklist
-      href: app-v-51-deployment-checklist.md
     - name: Deploying Microsoft Office 2016 by Using App-V 5.1
       href: deploying-microsoft-office-2016-by-using-app-v51.md
     - name: Deploying Microsoft Office 2013 by Using App-V 5.1
@@ -220,7 +212,6 @@ Items:
       - name: How to Install the App-V Databases and Convert the Associated Security Identifiers  by Using PowerShell 5.1
         href: how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell51.md
   - name: Technical Reference for App-V 5.1
-    href: technical-reference-for-app-v-51.md
     items:
     - name: Performance Guidance for Application Virtualization 5.1
       href: performance-guidance-for-application-virtualization-51.md

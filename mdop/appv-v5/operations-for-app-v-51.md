@@ -45,8 +45,6 @@ This section of the Microsoft Application Virtualization (App-V) 5.1 Administrat
 
 - [Getting Started with App-V 5.1](getting-started-with-app-v-51.md)
 
-- [Planning for App-V 5.1](planning-for-app-v-51.md)
+- [App-V 5.1 planning checklist](app-v-51-planning-checklist.md)
 
-- [Deploying App-V 5.1](deploying-app-v-51.md)
-
-- [Technical Reference for App-V 5.1](technical-reference-for-app-v-51.md)
+- [App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)

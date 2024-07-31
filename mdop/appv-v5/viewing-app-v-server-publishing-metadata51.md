@@ -1,35 +1,17 @@
 ---
-title: View App-V Server Publishing Metadata
-description: Viewing App-V Server Publishing Metadata
+title: View App-V server publishing metadata
+description: Use this procedure to view publishing metadata, which can help you resolve publishing-related issues.
 author: aczechowski
-ms.assetid: d5fa9eb5-647c-478d-8a4d-0ecda018bce6
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# View App-V Server Publishing Metadata
-
+# View App-V server publishing metadata
 
 Use this procedure to view publishing metadata, which can help you resolve publishing-related issues. You must be using the App-V Management server to use this procedure.
 
-This article contains the following information:
-
--   [App-V 5.1 requirements for viewing publishing metadata](#bkmk-51-reqs-pub-meta)
-
--   [Syntax to use for viewing publishing metadata](#bkmk-syntax-view-pub-meta)
-
--   [Query values for client operating system and version](#bkmk-values-query-pub-meta)
-
--   [Definition of publishing metadata](#bkmk-whatis-pub-metadata)
-
 ## <a href="" id="bkmk-51-reqs-pub-meta"></a>App-V 5.1 requirements for viewing publishing metadata
-
 
 In App-V 5.1, you must provide the following values in the address when you query the App-V Publishing server for metadata:
 
@@ -57,10 +39,7 @@ In App-V 5.1, you must provide the following values in the address when you quer
 </tbody>
 </table>
 
-
-
 ## <a href="" id="bkmk-syntax-view-pub-meta"></a>Query syntax for viewing publishing metadata
-
 
 The following table provides the syntax and query examples.
 
@@ -118,7 +97,7 @@ The following table provides the syntax and query examples.
 <td align="left"><p><code>http://pubsvr01:2718/?clientversion=5.0.10066.0&amp;clientos=WindowsClient_6.2_x64</code></p>
 <p>In the example:</p>
 <ul>
-<li><p>A Windows Server 2012 R2 named “pubsvr01” hosts the Publishing service.</p></li>
+<li><p>A Windows Server 2012 R2 named "pubsvr01" hosts the Publishing service.</p></li>
 <li><p>The Windows client is Windows 8.1 64-bit.</p></li>
 </ul></td>
 </tr>
@@ -133,7 +112,7 @@ The following table provides the syntax and query examples.
 </div></td>
 <td align="left"><p>See the information for App-V 5.0 SP3 and App-V 5.1.</p></td>
 <td align="left"><p><code>http://pubsvr01:2718</code></p>
-<p>In the example, A Windows Server 2012 R2 named “pubsvr01” hosts the Management and Publishing services.</p></td>
+<p>In the example, A Windows Server 2012 R2 named "pubsvr01" hosts the Management and Publishing services.</p></td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +122,7 @@ The following table provides the syntax and query examples.
 ## <a href="" id="bkmk-values-query-pub-meta"></a>Query values for client operating system and version
 
 
-In your publishing metadata query, enter the string values that correspond to the client operating system and version that you’re using.
+In your publishing metadata query, enter the string values that correspond to the client operating system and version that you're using.
 
 <table>
 <colgroup>
@@ -232,36 +211,14 @@ In your publishing metadata query, enter the string values that correspond to th
 </tbody>
 </table>
 
-
-
 ## <a href="" id="bkmk-whatis-pub-metadata"></a>Definition of publishing metadata
-
 
 When packages are published to a computer that is running the App-V client, metadata is sent to that computer indicating which packages and connection groups are being published. The App-V Client makes two separate requests for the following:
 
--   Packages and connection groups that are entitled to the client computer.
+- Packages and connection groups that are entitled to the client computer.
 
--   Packages and connection groups that are entitled to the current user.
+- Packages and connection groups that are entitled to the current user.
 
 The Publishing server communicates with the Management server to determine which packages and connection groups are available to the requester. The Publishing server must be registered with the Management server in order for the metadata to be generated.
 
 You can view the metadata for each request in an Internet browser by using a query that is in the context of the specific user or computer.
-
-
-
-
-
-
-## Related topics
-
-
-[Technical Reference for App-V 5.1](technical-reference-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

@@ -1,256 +1,91 @@
 ---
 title: About App-V 5.1
-description: About App-V 5.1
+description: Use this article to review information about significant changes that apply to Application Virtualization (App-V) 5.1.
 author: aczechowski
-ms.assetid: 35bc9908-d502-4a9c-873f-8ee17b6d9d74
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 08/30/2016
 ---
 
 
 # About App-V 5.1
 
-
-Use the following sections to review information about significant changes that apply to Application Virtualization (App-V) 5.1:
-
-[App-V 5.1 software prerequisites and supported configurations](#bkmk-51-prereq-configs)
-
-[Migrating to App-V 5.1](#bkmk-migrate-to-51)
-
-[What’s New in App-V 5.1](#bkmk-whatsnew)
-
-[App-V support for Windows 10](#bkmk-win10support)
-
-[App-V Management Console Changes](#bkmk-mgmtconsole)
-
-[Sequencer Improvements](#bkmk-seqimprove)
-
-[Improvements to Package Converter](#bkmk-pkgconvimprove)
-
-[Support for multiple scripts on a single event trigger](#bkmk-supmultscripts)
-
-[Hardcoded path to installation folder is redirected to virtual file system root](#bkmk-hardcodepath)
+Use this article to review information about significant changes that apply to Application Virtualization (App-V) 5.1.
 
 ## <a href="" id="bkmk-51-prereq-configs"></a>App-V 5.1 software prerequisites and supported configurations
 
-
 See the following links for the App-V 5.1 software prerequisites and supported configurations.
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Links to prerequisites and supported configurations</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p><a href="app-v-51-prerequisites.md" data-raw-source="[App-V 5.1 Prerequisites](app-v-51-prerequisites.md)">App-V 5.1 Prerequisites</a></p></td>
-<td align="left"><p>Prerequisite software that you must install before starting the App-V 5.1 installation</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><a href="app-v-51-supported-configurations.md" data-raw-source="[App-V 5.1 Supported Configurations](app-v-51-supported-configurations.md)">App-V 5.1 Supported Configurations</a></p></td>
-<td align="left"><p>Supported operating systems and hardware requirements for the App-V Server, Sequencer, and Client components</p></td>
-</tr>
-</tbody>
-</table>
+- [App-V 5.1 Prerequisites](app-v-51-prerequisites.md): Prerequisite software that you must install before starting the App-V 5.1 installation.
+- [App-V 5.1 Supported Configurations](app-v-51-supported-configurations.md): Supported operating systems and hardware requirements for the App-V Server, Sequencer, and Client components.
 
-
-
-**Support for using Configuration Manager with App-V:** App-V 5.1 supports System Center 2012 R2 Configuration Manager SP1. See [Planning for App-V Integration with Configuration Manager](https://technet.microsoft.com/library/jj822982.aspx) for information about integrating your App-V environment with Configuration Manager and Configuration Manager.
+App-V 5.1 supports System Center 2012 R2 Configuration Manager SP1. for information about integrating your App-V environment with Configuration Manager, see [Planning for App-V Integration with Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj822982(v=technet.10)).
 
 ## <a href="" id="bkmk-migrate-to-51"></a>Migrating to App-V 5.1
 
-
-Use the following information to upgrade to App-V 5.1 from earlier versions. See [Migrating to App-V 5.1 from a Previous Version](migrating-to-app-v-51-from-a-previous-version.md) for more information.
+Use the following information to upgrade to App-V 5.1 from earlier versions. For more information, see [Migrating to App-V 5.1 from a Previous Version](migrating-to-app-v-51-from-a-previous-version.md).
 
 ### Before you start the upgrade
 
 Review the following information before you start the upgrade:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Items to review before upgrading</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Components to upgrade, in any order</p></td>
-<td align="left"><ol>
-<li><p>App-V Server</p></li>
-<li><p>Sequencer</p></li>
-<li><p>App-V Client or App-V Remote Desktop Services (RDS) Client</p></li>
-</ol>
-<div class="alert">
-<strong>Note</strong><br/><p>Prior to App-V 5.0 SP2, the Client Management User Interface (UI) was provided with the App-V Client installation. For App-V 5.0 SP2 installations (or later), you can use the Client Management UI by downloading from <a href="https://www.microsoft.com/download/details.aspx?id=41186" data-raw-source="[Application Virtualization 5.0 Client UI Application](https://www.microsoft.com/download/details.aspx?id=41186)">Application Virtualization 5.0 Client UI Application</a>.</p>
-</div>
-<div>
-
-</div></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Upgrading from App-V 4.x</p></td>
-<td align="left"><p>You must first upgrade to App-V 5.0. You cannot upgrade directly from App-V 4.x to App-V 5.1. For more information, see:</p>
-<ul>
-<li><p>“Differences between App-V 4.6 and App-V 5.0” in <a href="about-app-v-50.md" data-raw-source="[About App-V 5.0](about-app-v-50.md)">About App-V 5.0</a></p></li>
-<li><p><a href="planning-for-migrating-from-a-previous-version-of-app-v.md" data-raw-source="[Planning for Migrating from a Previous Version of App-V](planning-for-migrating-from-a-previous-version-of-app-v.md)">Planning for Migrating from a Previous Version of App-V</a></p></li>
-</ul>
-<p></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Upgrading from App-V 5.0 or later</p></td>
-<td align="left"><p>You can upgrade to App-V 5.1 directly from any of the following versions:</p>
-<ul>
-<li><p>App-V 5.0</p></li>
-<li><p>App-V 5.0 SP1</p></li>
-<li><p>App-V 5.0 SP2</p></li>
-<li><p>App-V 5.0 SP3</p></li>
-</ul>
-<p>To upgrade to App-V 5.1, follow the steps in the remaining sections of this topic.</p>
-<p>Packages and connection groups will continue to work with App-V 5.1 as they currently do.</p></td>
-</tr>
-</tbody>
-</table>
-
-
+| Items to review before upgrading | Description |
+|--|--|
+| Components to upgrade, in any order | - App-V Server <br> - Sequencer <br> - App-V Client or App-V Remote Desktop Services (RDS) Client <br> **Note:** Prior to App-V 5.0 SP2, the Client Management User Interface (UI) was provided with the App-V Client installation.|
+| Upgrading from App-V 4.x | You must first upgrade to App-V 5.0. You cannot upgrade directly from App-V 4.x to App-V 5.1. For more information, see: <br> - "Differences between App-V 4.6 and App-V 5.0" in [About App-V 5.0](about-app-v-50.md) <br> - [Planning for Migrating from a Previous Version of App-V](planning-for-migrating-from-a-previous-version-of-app-v.md) |
+| Upgrading from App-V 5.0 or later | You can upgrade to App-V 5.1 directly from any of the following versions: <br> - App-V 5.0 <br> - App-V 5.0 SP1 <br> - App-V 5.0 SP2 <br> - App-V 5.0 SP3 <br> To upgrade to App-V 5.1, follow the steps in the remaining sections of this topic. <br> Packages and connection groups will continue to work with App-V 5.1 as they currently do. |
 
 ### <a href="" id="bkmk-steps-upgrd-infrastruc"></a>Steps to upgrade the App-V infrastructure
 
 Complete the following steps to upgrade each component of the App-V infrastructure to App-V 5.1. The following order is only a suggestion; you may upgrade components in any order.
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">For more information</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Step 1: Upgrade the App-V Server.</p>
-<div class="alert">
-<strong>Note</strong><br/><p>If you are not using the App-V Server, skip this step and go to the next step.</p>
-</div>
-<div>
+#### Step 1: Upgrade the App-V Server
 
-</div></td>
-<td align="left"><p>Follow these steps:</p>
-<ol>
-<li><p>Do one of the following, depending on the method you are using to upgrade the Management database and/or Reporting database:</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Database upgrade method</th>
-<th align="left">Step</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Windows Installer</p></td>
-<td align="left"><p>Skip this step and go to step 2, “If you are upgrading the App-V Server...”</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>SQL scripts</p></td>
-<td align="left"><p>Follow the steps in <a href="how-to-deploy-the-app-v-databases-by-using-sql-scripts.md" data-raw-source="[How to Deploy the App-V Databases by Using SQL Scripts](how-to-deploy-the-app-v-databases-by-using-sql-scripts.md)">How to Deploy the App-V Databases by Using SQL Scripts</a>.</p></td>
-</tr>
-</tbody>
-</table>
-<li><p>If you are upgrading the App-V Server from App-V 5.0 SP1 Hotfix Package 3 or later, complete the steps in section <a href="check-reg-key-svr.md" data-raw-source="[Check registry keys after installing the App-V 5.0 SP3 Server](check-reg-key-svr.md)">Check registry keys after installing the App-V 5.0 SP3 Server</a>.</p></li>
-<li><p>Follow the steps in <a href="how-to-deploy-the-app-v-51-server.md" data-raw-source="[How to Deploy the App-V 5.1 Server](how-to-deploy-the-app-v-51-server.md)">How to Deploy the App-V 5.1 Server</a></p></li>
-<p> </p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Step 2: Upgrade the App-V Sequencer.</p></td>
-<td align="left"><p>See <a href="how-to-install-the-sequencer-beta-gb18030.md" data-raw-source="[How to Install the Sequencer](how-to-install-the-sequencer-beta-gb18030.md)">How to Install the Sequencer</a>.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Step 3: Upgrade the App-V Client or App-V RDS Client.</p></td>
-<td align="left"><p>See <a href="how-to-deploy-the-app-v-client-gb18030.md" data-raw-source="[How to Deploy the App-V Client](how-to-deploy-the-app-v-client-gb18030.md)">How to Deploy the App-V Client</a>.</p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If you aren't using the App-V Server, skip this step and go to the next step.
 
+1. Do one of the following actions, depending on the method you are using to upgrade the Management database and/or Reporting database:
 
+    - Windows Installer: Skip this step and go to step 2, "If you are upgrading the App-V Server..."
+
+    - SQL scripts: Follow the steps in [How to Deploy the App-V Databases by Using SQL Scripts](how-to-deploy-the-app-v-databases-by-using-sql-scripts51.md)
+
+1. If you're upgrading the App-V Server from App-V 5.0 SP1 Hotfix Package 3 or later, complete the steps in section [Check registry keys before installing App-V 5.x Server](check-reg-key-svr.md).
+
+1. Follow the steps in [How to deploy the App-V 5.1 server](how-to-deploy-the-app-v-51-server.md)
+
+#### Step 2: Upgrade the App-V Sequencer
+
+For more information, see [Learn to Install the Sequencer](how-to-install-the-sequencer-51beta-gb18030.md).
+
+#### Step 3: Upgrade the App-V Client or App-V RDS Client
+
+For more information, see [How to deploy the App-V client](how-to-deploy-the-app-v-client-51gb18030.md).
 
 ### Converting packages created using a prior version of App-V
 
 Use the package converter utility to upgrade virtual application packages created using versions of App-V prior to App-V 5.0. The package converter uses PowerShell to convert packages and can help automate the process if you have many packages that require conversion.
 
-**Note**
-App-V 5.1 packages are exactly the same as App-V 5.0 packages. There has been no change in the package format between the versions and so there is no need to convert App-V 5.0 packages to App-V 5.1 packages.
+> [!NOTE]
+> App-V 5.1 packages are exactly the same as App-V 5.0 packages. There has been no change in the package format between the versions and so there is no need to convert App-V 5.0 packages to App-V 5.1 packages.
 
+## <a href="" id="bkmk-whatsnew"></a>What's New in App-V 5.1
 
-
-## <a href="" id="bkmk-whatsnew"></a>What’s New in App-V 5.1
-
-
-These sections are for users who are already familiar with App-V and want to know what has changed in App-V 5.1. If you are not already familiar with App-V, you should start by reading [Planning for App-V 5.1](planning-for-app-v-51.md).
+These sections are for users who are already familiar with App-V and want to know what has changed in App-V 5.1. If you are not already familiar with App-V, you should start with the [App-V 5.1 planning checklist](app-v-51-planning-checklist.md).
 
 ### <a href="" id="bkmk-win10support"></a>App-V support for Windows 10
 
 The following table lists the Windows 10 support for App-V. Windows 10 is not supported in versions of App-V prior to App-V 5.1.
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Component</th>
-<th align="left">App-V 5.1</th>
-<th align="left">App-V 5.0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>App-V Client</p></td>
-<td align="left"><p>Yes</p></td>
-<td align="left"><p>No</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>App-V RDS Client</p></td>
-<td align="left"><p>Yes</p></td>
-<td align="left"><p>No</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>App-V Sequencer</p></td>
-<td align="left"><p>Yes</p></td>
-<td align="left"><p>No</p></td>
-</tr>
-</tbody>
-</table>
-
-
+| Component         | App-V 5.1 | App-V 5.0 |
+|-------------------|-----------|-----------|
+| App-V Client      | Yes       | No        |
+| App-V RDS Client  | Yes       | No        |
+| App-V Sequencer   | Yes       | No        |
 
 ### <a href="" id="bkmk-mgmtconsole"></a>App-V Management Console Changes
 
-This section compares the App-V Management Console’s current and previous functionality.
+This section compares the App-V Management Console's current and previous functionality.
 
 ### Silverlight is no longer required
 
@@ -258,143 +93,40 @@ The Management Console UI no longer requires Silverlight. The 5.1 Management Con
 
 ### Notifications and messages are displayed individually in a dialog box
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">New in App-V 5.1</th>
-<th align="left">Prior to App-V 5.1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p><strong>Number of messages indicator:</strong></p>
-<p>On the title bar of the App-V Management Console, a number is now displayed next to a flag icon to indicate the number of messages that are waiting to be read.</p></td>
-<td align="left"><p>You could see only one message or error at a time, and you were unable to determine how many messages there were.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><strong>Message appearance:</strong></p>
-<ul>
-<li><p>Messages that require user input appear in a separate dialog box that displays on top of the current page that you were viewing, and require a response before you can dismiss them.</p></li>
-<li><p>Messages and errors appear in a list, with one beneath the other.</p></li>
-</ul></td>
-<td align="left"><p>You could see only one message or error at a time.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><strong>Dismissing messages:</strong></p>
-<p>Use the <strong>Dismiss All</strong> link to dismiss all messages and errors at one time, or dismiss them one at a time.</p></td>
-<td align="left"><p>You could dismiss messages and errors only one at a time.</p></td>
-</tr>
-</tbody>
-</table>
+### App-V Management Console Changes
 
+This section compares the App-V Management Console's current and previous functionality.
 
+### Silverlight is no longer required
+
+The Management Console UI no longer requires Silverlight. The 5.1 Management Console is built on HTML5 and Javascript.
+
+### Notifications and messages are displayed individually in a dialog box
+
+| New in App-V 5.1 | Prior to App-V 5.1 |
+|--|--|
+| **Number of messages indicator:** On the title bar of the App-V Management Console, a number is now displayed next to a flag icon to indicate the number of messages that are waiting to be read. | You could see only one message or error at a time, and you were unable to determine how many messages there were. |
+| **Message appearance:** <ul><li>Messages that require user input appear in a separate dialog box that displays on top of the current page that you were viewing, and require a response before you can dismiss them.</li><li>Messages and errors appear in a list, with one beneath the other.</li></ul> | You could see only one message or error at a time. |
+| **Dismissing messages:** Use the **Dismiss All** link to dismiss all messages and errors at one time, or dismiss them one at a time. | You could dismiss messages and errors only one at a time. |
 
 ### Console pages are now separate URLs
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">New in App-V 5.1</th>
-<th align="left">Prior to App-V 5.1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Each page in the console has a different URL, which enables you to bookmark specific pages for quick access in the future.</p>
-<p>The number that appears in some URLs indicates the specific package. These numbers are unique.</p></td>
-<td align="left"><p>All console pages are accessed through the same URL.</p></td>
-</tr>
-</tbody>
-</table>
-
-
+| New in App-V 5.1 | Prior to App-V 5.1 |
+|--|--|
+| Each page in the console has a different URL, which enables you to bookmark specific pages for quick access in the future. The number that appears in some URLs indicates the specific package. These numbers are unique. | All console pages are accessed through the same URL. |
 
 ### New, separate CONNECTION GROUPS page and menu option
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">New in App-V 5.1</th>
-<th align="left">Prior to App-V 5.1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>The CONNECTION GROUPS page is now part of the main menu, at the same level as the PACKAGES page.</p></td>
-<td align="left"><p>To open the CONNECTION GROUPS page, you navigate through the PACKAGES page.</p></td>
-</tr>
-</tbody>
-</table>
-
-
+| New in App-V 5.1 | Prior to App-V 5.1 |
+|--|--|
+| The CONNECTION GROUPS page is now part of the main menu, at the same level as the PACKAGES page. | To open the CONNECTION GROUPS page, you navigate through the PACKAGES page. |
 
 ### Menu options for packages have changed
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">New in App-V 5.1</th>
-<th align="left">Prior to App-V 5.1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>The following options are now buttons that appear at the bottom of the PACKAGES page:</p>
-<ul>
-<li><p>Add or Upgrade</p></li>
-<li><p>Publish</p></li>
-<li><p>Unpublish</p></li>
-<li><p>Delete</p></li>
-</ul>
-<p>The following options will still appear when you right-click a package to open the drop-down context menu:</p>
-<ul>
-<li><p>Publish</p></li>
-<li><p>Unpublish</p></li>
-<li><p>Edit AD Access</p></li>
-<li><p>Edit Deployment Config</p></li>
-<li><p>Transfer deployment configuration from…</p></li>
-<li><p>Transfer access and configuration from…</p></li>
-<li><p>Delete</p></li>
-</ul>
-<p>When you click <strong>Delete</strong> to remove a package, a dialog box opens and asks you to confirm that you want to delete the package.</p></td>
-<td align="left"><p>The <strong>Add or Upgrade</strong> option was a button at the top right of the PACKAGES page.</p>
-<p>The <strong>Publish</strong>, <strong>Unpublish</strong>, and <strong>Delete</strong> options were available only if you right-clicked a package name in the packages list.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>The following package operations are now buttons on the package details page for each package:</p>
-<ul>
-<li><p>Transfer (drop-down menu with the following options):</p>
-<ul>
-<li><p>Transfer deployment configuration from…</p></li>
-<li><p>Transfer access and configuration from…</p></li>
-</ul></li>
-<li><p>Edit (connection groups and AD Access)</p></li>
-<li><p>Unpublish</p></li>
-<li><p>Delete</p></li>
-<li><p>Edit Default Configuration</p></li>
-</ul></td>
-<td align="left"><p>These package options were available only if you right-clicked a package name in the packages list.</p></td>
-</tr>
-</tbody>
-</table>
-
-
+| New in App-V 5.1 | Prior to App-V 5.1 |
+|--|--|
+| The following options are now buttons that appear at the bottom of the PACKAGES page: <ul><li>Add or Upgrade</li><li>Publish</li><li>Unpublish</li><li>Delete</li></ul> The following options will still appear when you right-click a package to open the drop-down context menu: <ul><li>Publish</li><li>Unpublish</li><li>Edit AD Access</li><li>Edit Deployment Config</li><li>Transfer deployment configuration from…</li><li>Transfer access and configuration from…</li><li>Delete</li></ul> When you click **Delete** to remove a package, a dialog box opens and asks you to confirm that you want to delete the package. | The **Add or Upgrade** option was a button at the top right of the PACKAGES page. The **Publish**, **Unpublish**, and **Delete** options were available only if you right-clicked a package name in the packages list. |
+| The following package operations are now buttons on the package details page for each package: <ul><li>Transfer (drop-down menu with the following options): <ul><li>Transfer deployment configuration from…</li><li>Transfer access and configuration from…</li></ul></li><li>Edit (connection groups and AD Access)</li><li>Unpublish</li><li>Delete</li><li>Edit Default Configuration</li></ul> | These package options were available only if you right-clicked a package name in the packages list. |
 
 ### Icons in left pane have new colors and text
 
@@ -414,10 +146,8 @@ You can import and export the AppxManifest.xml file. To export the manifest file
 
 After you make your changes, click **Import...** and select the file you edited. After you successfully import it back in, the manifest file is immediately updated within the package editor.
 
-**Caution**
-When you import the file, your changes are validated against the XML schema. If the file is not valid, you will receive an error. Be aware that it is possible to import a file that is validated against the XML schema, but that might still fail to run for other reasons.
-
-
+> [!CAUTION]
+> When you import the file, your changes are validated against the XML schema. If the file is not valid, you will receive an error. Be aware that it is possible to import a file that is validated against the XML schema, but that might still fail to run for other reasons.
 
 ### Addition of Windows 10 to operating systems list
 
@@ -427,9 +157,9 @@ In the Deployment tab, Windows 10 32-bit and Windows 10-64 bit have been added t
 
 In the Virtual Registry tab, the path now displays at the bottom of the virtual registry editor, which enables you to determine the currently selected key. Previously, you had to scroll through the registry tree to find the currently selected key.
 
-### <a href="" id="combined--find-and-replace--dialog-box-and-shortcut-keys-added-in-virtual-registry-editor"></a>Combined “find and replace” dialog box and shortcut keys added in virtual registry editor
+### <a href="" id="combined--find-and-replace--dialog-box-and-shortcut-keys-added-in-virtual-registry-editor"></a>Combined "find and replace" dialog box and shortcut keys added in virtual registry editor
 
-In the virtual registry editor, shortcut keys have been added for the Find option (Ctrl+F), and a dialog box that combines the “find” and “replace” tasks has been added to enable you to find and replace values and data. To access this combined dialog box, select a key and do one of the following:
+In the virtual registry editor, shortcut keys have been added for the Find option (Ctrl+F), and a dialog box that combines the "find" and "replace" tasks has been added to enable you to find and replace values and data. To access this combined dialog box, select a key and do one of the following:
 
 -   Press **Ctrl+H**
 
@@ -437,7 +167,7 @@ In the virtual registry editor, shortcut keys have been added for the Find optio
 
 -   Select **View** &gt; **Virtual Registry** &gt; **Replace**.
 
-Previously, the “Replace” dialog box did not exist, and you had to make changes manually.
+Previously, the "Replace" dialog box did not exist, and you had to make changes manually.
 
 ### Rename registry keys and package files successfully
 
@@ -501,26 +231,6 @@ Previously, the 4.6 root folder was not recognized and could not be accessed by 
 
 **Technical Details:** The App-V 5.1 package converter will save the App-V 4.6 installation root folder and short folder names in the FilesystemMetadata.xml file in the Filesystem element. When the App-V 5.1 client creates the virtual process, it will map requests from the App-V 4.6 installation root to the virtual file system root.
 
-## How to Get MDOP Technologies
-
-
-App-V is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049).
-
-
-
-
-
-
 ## Related topics
 
-
 [Release Notes for App-V 5.1](release-notes-for-app-v-51.md)
-
-
-
-
-
-
-
-
-
