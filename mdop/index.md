@@ -9,13 +9,9 @@ ms.date: 07/30/2024
 
 The Microsoft Desktop Optimization Pack (MDOP) is a portfolio of technologies available as a subscription for Software Assurance customers. MDOP helps to improve compatibility and management, reduce support costs, improve asset management, and improve policy control.
 
-> [!IMPORTANT]
-> Extended support for MDOP ends on April 14, 2026. For more information, see [Microsoft Desktop Optimization Pack (MDOP) support extended](/lifecycle/announcements/mdop-extended).
+[!INCLUDE [mdop-lifecycle-statement](includes/mdop-lifecycle-statement.md)]
 
 The following sections provide links to the product documentation for supported MDOP products.
-
-> [!NOTE]
-> Documentation for previous versions of MDOP is available with the [Windows previous versions documentation](/previous-versions/windows/microsoft-desktop-optimization-pack/).
 
 ## Advanced Group Policy Management (AGPM)
 

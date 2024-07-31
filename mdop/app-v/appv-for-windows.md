@@ -9,8 +9,7 @@ ms.date: 09/27/2018
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
-> [!NOTE]
-> [!INCLUDE [Application Virtualization will be end of life in April 2026](../includes/app-v-end-life-statement.md)]
+[!INCLUDE [mdop-lifecycle-statement](../includes/mdop-lifecycle-statement.md)]
 
 The articles in this section provide information and instructions to help you administer App-V and its components. This information is for system administrators who manage large installations with many servers and clients, and for support personnel who interact directly with the computers or users.
 
