@@ -2,14 +2,7 @@
 title: How to sequence a package by using Windows PowerShell (Windows 10/11)
 description: Learn how to sequence a new Microsoft Application Virtualization (App-V) package by using Windows PowerShell.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/19/2017
-ms.reviewer:
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.subservice: itpro-apps
-ms.topic: article
 ---
 
 # How to Sequence a Package by using Windows PowerShell

@@ -2,14 +2,7 @@
 title: Manually sequence a new app using the Microsoft Application Virtualization Sequencer (App-V Sequencer) (Windows 10/11)
 description: Learn how to manually sequence a new app by using the App-V Sequencer that's included with the Windows ADK.
 author: aczechowski
-ms.service: windows-client
 ms.date: 04/16/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # Manually sequence a new app using the Microsoft Application Virtualization Sequencer (App-V Sequencer)
@@ -117,7 +110,7 @@ Starting with Windows 10 version 1607, the App-V Sequencer is included with the 
 
 > [!NOTE]
 > Before performing the following procedure, install the parent application locally on the computer that is running the sequencer. Or if you have the parent application virtualized, you can follow the steps in the add-on or plug-in workflow to unpack the parent application on the computer.
-> 
+>
 > For example, if you are sequencing a plug-in for Microsoft Excel, install Microsoft Excel locally on the computer that's running the sequencer. You should also install the parent application in the same directory where the application is installed on target computers. If the plug-in or add-on is going to be used with an existing virtual application package, install the application on the same virtual application drive that was used when you created the parent virtual application package.
 
 1. On the computer that runs the sequencer, first, select **All Programs**, then select **Microsoft Application Virtualization**, and then select **Microsoft Application Virtualization Sequencer**.

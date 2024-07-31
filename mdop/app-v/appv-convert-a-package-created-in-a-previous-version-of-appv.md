@@ -2,14 +2,7 @@
 title: How to convert a package created in a previous version of App-V (Windows 10/11)
 description: Use the package converter utility to convert a virtual application package created in a previous version of App-V.
 author: aczechowski
-ms.service: windows-client
 ms.date: 07/10/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 # How to convert a package created in a previous version of App-V
 
@@ -65,11 +58,11 @@ The App-V package converter will save the App-V 4.6 installation root folder and
     ```
 
     In this example, the directory object that represents `myPackage` will be given as input to the **Test-AppvLegacyPackage** cmdlet and bound to the *-Source* parameter. Piping like this is especially useful when you want to batch commands together, such as in the following example cmdlet:
-     
+
     ```PowerShell
     dir .\ | Test-AppvLegacyPackage | ConvertFrom-AppvLegacyAppvPackage -Target .\ConvertedPackages
     ```
-      
+
     This piped example command tests packages, then passes the objects on for conversion. You can also apply a filter on packages without errors or only specify a directory that contains an **.sprj** file or pipe them to another cmdlet that adds the filtered package to the server or publishes them to the App-V client.
 
 - Batching—The Windows PowerShell command enables batching. More specifically, the cmdlets support taking a string\[\] object for the *-Source* parameter that represents a list of directory paths. This feature allows you to enter the following cmdlets together:

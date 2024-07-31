@@ -2,14 +2,7 @@
 title: About App-V Dynamic Configuration (Windows 10/11)
 description: Learn how to create or edit an existing Application Virtualization (App-V) dynamic configuration file.
 author: aczechowski
-ms.service: windows-client
 ms.date: 09/27/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # About App-V dynamic configuration

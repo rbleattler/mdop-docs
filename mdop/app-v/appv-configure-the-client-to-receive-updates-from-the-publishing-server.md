@@ -2,14 +2,7 @@
 title: How to configure the client to receive package and connection groups updates from the publishing server (Windows 10/11)
 description: How to configure the client to receive package and connection groups updates from the publishing server.
 author: aczechowski
-ms.service: windows-client
 ms.date: 06/25/2018
-ms.reviewer: 
-manager: aaroncz
-ms.author: aaroncz
-ms.collection: must-keep
-ms.topic: article
-ms.subservice: itpro-apps
 ---
 
 # How to configure the client to receive package and connection groups updates from the publishing server
@@ -34,7 +27,7 @@ This article will tell you how to configure the App-V client to receive updates 
     ```
 
     This command will configure the specified publishing server. You should see output similar to the following:
-    
+
     ```PowerShell
     Id                        : 1
     SetByGroupPolicy          : False
