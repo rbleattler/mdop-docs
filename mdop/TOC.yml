@@ -9,35 +9,15 @@
           href: app-v/appv-for-windows.md
         - name: Application Virtualization 5
           href: appv-v5/index.md
-        - name: Application Virtualization 4
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v4/
-    - name: Diagnostics and Recovery Toolset (DaRT)
-      items:
-        - name: Diagnostics and Recovery Toolset 10
-          href: dart-v10/index.md
-        - name: Diagnostics and Recovery Toolset 8
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/dart-v8/
-        - name: Diagnostics and Recovery Toolset 7
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/dart-v7/
-    - name: Microsoft BitLocker Administration and Monitoring (MBAM)
-      items:
-        - name: Microsoft BitLocker Administration and Monitoring 2.5
-          href: mbam-v25/index.md
-        - name: Microsoft BitLocker Administration and Monitoring 2
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v2/
-        - name: Microsoft BitLocker Administration and Monitoring 1
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/mbam-v1/
-    - name: Microsoft Enterprise Desktop Virtualization (MED-V)
-      items:
-        - name: Microsoft Enterprise Desktop Virtualization 2
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/medv-v2/
+    - name: Diagnostics and Recovery Toolset (DaRT) 10
+      href: dart-v10/index.md
+    - name: Microsoft BitLocker Administration and Monitoring (MBAM) 2.5
+      href: mbam-v25/index.md
     - name: User Experience Virtualization (UE-V)
       items:
         - name: UE-V for Windows 10
           href: ue-v/uev-for-windows.md
         - name: User Experience Virtualization 2
           href: uev-v2/index.md
-        - name: User Experience Virtualization 1
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/uev-v1/
     - name: MDOP group policy (.admx) templates
       href: solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md
