@@ -18,8 +18,6 @@ We recommend looking at Azure Virtual Desktop with MSIX app attach. For more inf
 
 To get started with App-V 5, see the following articles:
 
-[App-V 5.1 administrator's guide](microsoft-application-virtualization-51-administrators-guide.md)
-
 [Release notes for App-V 5.1](release-notes-for-app-v-51.md)
 
 [Release notes for App-V 5.0 service pack 3 (SP3)](release-notes-for-app-v-50-sp3.md)

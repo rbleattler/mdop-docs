@@ -25,7 +25,7 @@ AGPM extends the capabilities of the Group Policy Management Console (GPMC) to p
 
 App-V lets you make applications available to end user computers without installing the applications directly on those computers.
 
-For more information, see the [Microsoft Application Virtualization 5.1 administrator's guide](appv-v5/microsoft-application-virtualization-51-administrators-guide.md).
+For more information, see the [Microsoft Application Virtualization 5.1 administrator's guide](appv-v5/index.md).
 
 - Application Virtualization 5.0 for Remote Desktop Services Service Pack 3
 
