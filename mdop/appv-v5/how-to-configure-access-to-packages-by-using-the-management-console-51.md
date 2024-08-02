@@ -1,26 +1,19 @@
 ---
-title: How to Configure Access to Packages by Using the Management Console
-description: How to configure access to packages by using the Management Console in App-V 5.1.
+title: How to configure access to packages by using the management console
+description: Before you deploy an App-V 5.1 virtualized package, you must configure the Active Directory Domain Services (AD DS) security groups that will be allowed to access and run the applications.
 author: aczechowski
-ms.assetid: 4fd39bc2-d814-46de-a108-1c21fa404e8a
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to Configure Access to Packages by Using the Management Console
-
+# How to configure access to packages by using the management console
 
 Before you deploy an App-V 5.1 virtualized package, you must configure the Active Directory Domain Services (AD DS) security groups that will be allowed to access and run the applications. The security groups may contain computers or users. Entitling a package to a computer group publishes the package globally to all computers in the group.
 
 Use the following procedure to configure access to virtualized packages.
 
-**To grant access to an App-V 5.1 package**
+## To grant access to an App-V 5.1 package
 
 1.  Find the package you want to configure:
 
@@ -43,7 +36,7 @@ Use the following procedure to configure access to virtualized packages.
 
     To customize configurations for a specific group, click the **ASSIGNED CONFIGURATIONS** drop-down and select **Custom**. To configure the custom configurations, click **EDIT**. After you grant access, click **Close**.
 
-**To remove access to an App-V 5.1 package**
+## To remove access to an App-V 5.1 package
 
 1.  Find the package you want to configure:
 
@@ -55,17 +48,6 @@ Use the following procedure to configure access to virtualized packages.
 
 3.  To close the **AD ACCESS** page, click **Close**.
 
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

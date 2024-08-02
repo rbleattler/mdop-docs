@@ -1,20 +1,13 @@
 ---
-title: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
-description: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
+title: How to deploy App-V 5.1 packages using electronic software distribution
+description: You can use an electronic software distribution (ESD) system to deploy App-V 5.1 virtual applications to App-V clients.
 author: aczechowski
-ms.assetid: e1957a5a-1f18-42da-b2c1-a5ae5a4cca7a
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 08/30/2016
 ---
 
-
-# How to deploy App-V 5.1 Packages Using Electronic Software Distribution
-
+# How to deploy App-V 5.1 packages using electronic software distribution
 
 You can use an electronic software distribution (ESD) system to deploy App-V 5.1 virtual applications to App-V clients. For details, see the documentation available with the ESD you are using.
 
@@ -22,36 +15,16 @@ For component requirements and options for using an ESD to deploy App-V packages
 
 Use one of the following methods to publish packages to App-V client computers with an ESD:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Method</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Functionality provided by a third-party ESD</p></td>
-<td align="left"><p>Use the functionality in a third-party ESD.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Stand-alone Windows Installer</p></td>
-<td align="left"><p>Install the application on the target client computer by using the associated Windows Installer (.msi) file that is created when you initially sequence an application. The Windows Installer file contains the associated App-V 5.1 package file information used to configure a package and copies the required package files to the client.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>PowerShell</p></td>
-<td align="left"><p>Use PowerShell cmdlets to deploy virtualized applications. For more information about using PowerShell and App-V 5.1, see <a href="administering-app-v-51-by-using-powershell.md" data-raw-source="[Administering App-V 5.1 by Using PowerShell](administering-app-v-51-by-using-powershell.md)">Administering App-V 5.1 by Using PowerShell</a>.</p></td>
-</tr>
-</tbody>
-</table>
+| Method | Description |
+|--|--|
+| Functionality provided by a third-party ESD | Use the functionality in a third-party ESD. |
+| Stand-alone Windows Installer | Install the application on the target client computer by using the associated Windows Installer (.msi) file that is created when you initially sequence an application. The Windows Installer file contains the associated App-V 5.1 package file information used to configure a package and copies the required package files to the client. |
+| PowerShell | Use PowerShell cmdlets to deploy virtualized applications. For more information about using PowerShell and App-V 5.1, see [Administering App-V 5.1 by Using PowerShell](administering-app-v-51-by-using-powershell.md). |
 
+> [!NOTE]
+> If you use System Center Configuration Manager, start by reviewing [Introduction to Application Management in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682125(v=technet.10)) for information about using App-V 5.1 and System Center 2012 Configuration Manager.
 
-
-**To deploy App-V 5.1 packages by using an ESD**
+## To deploy App-V 5.1 packages by using an ESD
 
 1.  Install the App-V 5.1 Sequencer on a computer in your environment. For more information about installing the sequencer, see [How to Install the Sequencer](how-to-install-the-sequencer-51beta-gb18030.md).
 
@@ -59,20 +32,6 @@ Use one of the following methods to publish packages to App-V client computers w
 
 3.  After you create the virtual application, deploy the package by using your ESD solution.
 
-    If you are using System Center Configuration Manager, start by reviewing [Introduction to Application Management in Configuration Manager](https://go.microsoft.com/fwlink/?LinkId=281816) for information about using App-V 5.1 and System Center 2012 Configuration Manager.
-
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

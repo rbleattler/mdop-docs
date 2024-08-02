@@ -1,53 +1,25 @@
 ---
-title: How to Sequence a New Application with App-V 5.1
-description: How to Sequence a New Application with App-V 5.1
+title: How to sequence a new application with App-V 5.1
+description: This article explains how to sequence a new application.
 author: aczechowski
-ms.assetid: 7d7699b1-0cb8-450d-94e7-5af937e16c21
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# How to sequence a new application with App-V 5.1
 
-# How to Sequence a New Application with App-V 5.1
+This article explains how to sequence a new application.
 
-
-**To review or do before you start sequencing**
+## To review or do before you start sequencing
 
 1.  Determine the type of virtualized application package you want to create:
 
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th align="left">Application type</th>
-    <th align="left">Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td align="left"><p>Standard</p></td>
-    <td align="left"><p>Creates a package that contains an application or a suite of applications. This is the preferred option for most application types.</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p>Add-on or plug-in</p></td>
-    <td align="left"><p>Creates a package that extends the functionality of a standard application, for example, a plug-in for Microsoft Excel. Additionally, you can use plug-ins for natively installed applications, or for another package that is linked by using connection groups.</p></td>
-    </tr>
-    <tr class="odd">
-    <td align="left"><p>Middleware</p></td>
-    <td align="left"><p>Creates a package that is required by a standard application, for example, Java. Middleware packages are used for linking to other packages by using connection groups.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
-
+    | Application type | Description |
+    |--|--|
+    | Standard | Creates a package that contains an application or a suite of applications. This is the preferred option for most application types. |
+    | Add-on or plug-in | Creates a package that extends the functionality of a standard application, for example, a plug-in for Microsoft Excel. Additionally, you can use plug-ins for natively installed applications, or for another package that is linked by using connection groups. |
+    | Middleware | Creates a package that is required by a standard application, for example, Java. Middleware packages are used for linking to other packages by using connection groups. |
 
 2.  Copy all required installation files to the computer that is running the sequencer.
 
@@ -57,12 +29,12 @@ ms.date: 06/16/2016
 
     -   If an application installer changes the security access to a new or existing file or directory, those changes are not captured in the package.
 
-    -   If short paths have been disabled for the virtualized package’s target volume, you must also sequence the package to a volume that was created and still has short-paths disabled. It cannot be the system volume.
+    -   If short paths have been disabled for the virtualized package's target volume, you must also sequence the package to a volume that was created and still has short-paths disabled. It cannot be the system volume.
 
 > [!NOTE]
 > The App-V 5.x Sequencer cannot sequence applications with filenames matching "CO_&lt;x&gt;" where x is any numeral. Error 0x8007139F will be generated.
 
-**To sequence a new standard application**
+## To sequence a new standard application
 
 1.  On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
 
@@ -73,14 +45,8 @@ ms.date: 06/16/2016
     > [!IMPORTANT]
     > If you are required to disable virus scanning software, you should first scan the computer that runs the sequencer in order to ensure that no unwanted or malicious files could be added to the package.
 
-
-
-
-> [!NOTE]
-> There is currently no way to disable Windows Defender in Windows 10. If you receive a warning, you can safely ignore it. It is unlikely that Windows Defender will affect sequencing at all.
-
-
-
+    > [!NOTE]
+    > There is currently no way to disable Windows Defender in Windows 10. If you receive a warning, you can safely ignore it. It is unlikely that Windows Defender will affect sequencing at all.
 
 4. On the **Type of Application** page, click the **Standard Application (default)** check box, and then click **Next**.
 
@@ -89,11 +55,7 @@ ms.date: 06/16/2016
    > [!NOTE]
    > If the specified application installer modifies security access to a file or directory, existing or new, the associated changes will not be captured into the package.
 
-
-
-
 If the application does not have an associated installer file and you plan to run all installation steps manually, select the **Perform a Custom Installation** check box, and then Click **Next**.
-
 
 6. On the **Package Name** page, type a name that will be associated with the package. Use a name that helps identify the purpose and version of the application that will be added to the package. The package name is displayed in the App-V 5.0 Management Console.
 
@@ -104,11 +66,7 @@ If the application does not have an associated installer file and you plan to ru
    > [!IMPORTANT]
    > You should always install applications to a secure location and make sure no other users are logged on to the computer running the sequencer during monitoring.
 
-
-
-
-Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
-
+    Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
 
 8. On the **Installation** page, wait while the sequencer configures the virtualized application package.
 
@@ -117,11 +75,7 @@ Use the application's installation process to perform the installation. If addit
    > [!NOTE]
    > To run first-use tasks for any application that is not available in the list, open the application. The associated information will be captured during this step.
 
-
-
-
 Click **Next**.
-
 
 10. On the **Installation Report** page, you can review information about the virtualized application package you have just sequenced. In **Additional Information**, double-click an event to obtain more detailed information. To proceed, click **Next**.
 
@@ -138,14 +92,10 @@ Click **Next**.
    > [!NOTE]
    > If you do not open any applications during this step, the default streaming method is on-demand streaming delivery. This means applications will be downloaded bit by bit until it can be opened, and then depending on how the background loading is configured, will load the rest of the application.
 
-
-
 13. On the **Target OS** page, specify the operating systems that can run this package. To allow all supported operating systems in your environment to run this package, select **Allow this package to run on any operating system**. To configure this package to run only on specific operating systems, select **Allow this package to run only on the following operating systems** and select the operating systems that can run this package. Click **Next**.
 
    > [!IMPORTANT]
    > Make sure that the operating systems you specify here are supported by the application you are sequencing.
-
-
 
 14. The **Create Package** page is displayed. To modify the package without saving it, select **Continue to modify package without saving using the package editor**. This option opens the package in the sequencer console so that you can modify the package before it is saved. Click **Next**.
 
@@ -154,11 +104,7 @@ Click **Next**.
    > [!IMPORTANT]
    > The system does not support non-printable characters in **Comments** and **Descriptions**.
 
-
-
-
-The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-
+    The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
 
 15. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory where the package was created.
 
@@ -167,29 +113,21 @@ The default **Save Location** is also displayed on this page. To change the defa
    > [!IMPORTANT]
    > After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the sequencer.
 
+## To sequence an add-on or plug-in application
 
+> [!NOTE]
+> Before doing the following procedure, install the parent application locally on the computer that is running the sequencer. Or if you have the parent application virtualized, you can follow the steps in the add-on or plug-in workflow to unpack the parent application on the computer.
+>
+> For example, if you are sequencing a plug-in for Microsoft Excel, install Microsoft Excel locally on the computer that is running the sequencer. Also install the parent application in the same directory where the application is installed on target computers. If the plug-in or add-on is going to be used with an existing virtual application package, install the application on the same virtual application drive that was used when you created the parent virtual application package.
 
-**To sequence an add-on or plug-in application**
+1. On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
 
-1. > [!NOTE]
-   > Before performing the following procedure, install the parent application locally on the computer that is running the sequencer. Or if you have the parent application virtualized, you can follow the steps in the add-on or plug-in workflow to unpack the parent application on the computer.
-   >
-   > For example, if you are sequencing a plug-in for Microsoft Excel, install Microsoft Excel locally on the computer that is running the sequencer. Also install the parent application in the same directory where the application is installed on target computers. If the plug-in or add-on is going to be used with an existing virtual application package, install the application on the same virtual application drive that was used when you created the parent virtual application package.
-
-
-
-
-On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
-
-
-2. *<strong><em>In the sequencer, click *</em>Create a New Virtual Application Package</strong>. Select **Create Package (default)**, and then click **Next**.
+2. In the sequencer, click **Create a New Virtual Application Package**. Select **Create Package (default)**, and then click **Next**.
 
 3. On the **Prepare Computer** page, review the issues that might cause the package creation to fail or could cause the package to contain unnecessary data. You should resolve all potential issues before you continue. After making any corrections, click **Refresh** to display the updated information. After you have resolved all potential issues, click **Next**.
 
    > [!IMPORTANT]
    > If you are required to disable virus scanning software, you should first scan the computer that runs the sequencer in order to ensure that no unwanted or malicious files could be added to the package.
-
-
 
 4. On the **Type of Application** page, select **Add-on or Plug-in**, and then click **Next**.
 
@@ -220,8 +158,6 @@ On the computer that runs the sequencer, click **All Programs**, and then Click 
     > [!NOTE]
     > If necessary, you can stop an application from loading during this step. In the **Application Launch** dialog box, click **Stop** and select one of the check boxes: **Stop all applications** or **Stop this application only**.
 
-
-
 12. On the **Target OS** page, specify the operating systems that can run this package. To allow all supported operating systems in your environment to run this package, select the **Allow this package to run on any operating system** check box. To configure this package to run only on specific operating systems, select the **Allow this package to run only on the following operating systems** check box, and then select the operating systems that can run this package. Click **Next**.
 
 13. The **Create Package** page is displayed. To modify the package without saving it, select **Continue to modify package without saving using the package editor** check box. This option opens the package in the sequencer console so that you can modify the package before it is saved. Click **Next**.
@@ -229,26 +165,20 @@ On the computer that runs the sequencer, click **All Programs**, and then Click 
     To save the package immediately, select **Save the package now**. Optionally, add a **Description** that will be associated with the package. Descriptions are useful for identifying the version and other information about the package.
 
     > [!IMPORTANT]
-    > The system does not support non-printable characters in Comments and Descriptions.
+    > The system doesn't support non-printable characters in Comments and Descriptions.
 
+    The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
 
-
-
-The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-
-
-**To sequence a middleware application**
+## To sequence a middleware application
 
 1. On the computer that runs the sequencer, click **All Programs**, and then Click **Microsoft Application Virtualization**, and then click **Microsoft Application Virtualization Sequencer**.
 
-2. *<strong><em>In the sequencer, click *</em>Create a New Virtual Application Package</strong>. Select **Create Package (default)**, and then click **Next**.
+2. In the sequencer, click **Create a New Virtual Application Package**. Select **Create Package (default)**, and then click **Next**.
 
 3. On the **Prepare Computer** page, review the issues that could cause the package creation to fail or could cause the package to contain unnecessary data. You should resolve all potential issues before you continue. After making any corrections, click **Refresh** to display the updated information. After you have resolved all potential issues, click **Next**.
 
    > [!IMPORTANT]
    > If you are required to disable virus scanning software, you should first scan the computer that runs the App-V 5.0 Sequencer in order to ensure that no unwanted or malicious files can be added to the package.
-
-
 
 4. On the **Type of Application** page, select **Middleware**, and then click **Next**.
 
@@ -271,13 +201,9 @@ The default **Save Location** is also displayed on this page. To change the defa
     To save the package immediately, select **Save the package now**. Optionally, add a **Description** to be associated with the package. Descriptions are useful for identifying the program version and other information about the package.
 
     > [!IMPORTANT]
-    > The system does not support non-printable characters in Comments and Descriptions.
+    > The system doesn't support non-printable characters in Comments and Descriptions.
 
-
-
-
-The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
-
+    The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
 
 12. The **Completion** page is displayed. Review the information in the **Virtual Application Package Report** pane as needed, then click **Close**. This information is also available in the **Report.xml** file that is located in the directory specified in step 11 of this procedure.
 
@@ -286,20 +212,6 @@ The default **Save Location** is also displayed on this page. To change the defa
    > [!IMPORTANT]
    > After you have successfully created a virtual application package, you cannot run the virtual application package on the computer that is running the sequencer.
 
-
-
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

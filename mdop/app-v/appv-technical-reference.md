@@ -1,5 +1,5 @@
 ---
-title: Technical Reference for App-V (Windows 10/11)
+title: Technical Reference for App-V
 description: Learn strategy and context for many performance optimization practices in this technical reference for Application Virtualization (App-V).
 author: aczechowski
 ms.date: 04/19/2017
@@ -39,11 +39,6 @@ Describes how the following App-V client operations affect the local operating s
 -   [Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications](appv-running-locally-installed-applications-inside-a-virtual-environment.md)
 
     Describes reasons and methods for running a locally installed application in a virtual environment, alongside applications that have been virtualized by using Application Virtualization (App-V).
-
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
 
 ## Related articles
 

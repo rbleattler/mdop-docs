@@ -1,18 +1,13 @@
 ---
-title: How to Deploy the App-V 5.1 Server Using a Script
-description: How to Deploy the App-V 5.1 Server Using a Script
+title: How to deploy the App-V 5.1 server using a script
+description: How to deploy the App-V 5.1 server using a script.
 author: aczechowski
-ms.assetid: 15c33d7b-9b61-4dbc-8674-399bb33e5f7e
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 03/20/2020
 ---
 
-# How to Deploy the App-V 5.1 Server Using a Script
+# How to deploy the App-V 5.1 server using a script
 
 In order to complete the **appv\_server\_setup.exe** Server setup successfully using the command line, you must specify and combine multiple parameters.
 
@@ -371,8 +366,6 @@ To use a custom instance of Microsoft SQL Server, use these parameters (differen
 | /EXISTING_ MANAGEMENT_DB_SQLINSTANCE_USE_DEFAULT | Indicates that the default SQL instance is to be used. Switch parameter so no value is expected. If **/DB_PREDEPLOY_MANAGEMENT** is specified, this will be ignored. |
 | /EXISTING_MANAGEMENT_DB_ CUSTOM_SQLINSTANCE | Specifies the name of the custom SQL instance that will be used. Example usage **/EXISTING_MANAGEMENT_DB_ CUSTOM_SQLINSTANCE="AppVManagement"**. If **/DB_PREDEPLOY_MANAGEMENT** is specified, this will be ignored. |
 | /EXISTING_MANAGEMENT_DB_NAME | Specifies the name of the existing management database that should be used. Example usage: **/EXISTING_MANAGEMENT_DB_NAME="AppVMgmtDB"**. If **/DB_PREDEPLOY_MANAGEMENT** is specified, this will be ignored. |
-
-Got an App-V issue? Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

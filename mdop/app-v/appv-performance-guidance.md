@@ -27,7 +27,7 @@ You should read and understand the following information before reading this doc
 
 -   [App-V Sequencing Guide](https://www.microsoft.com/download/details.aspx?id=27760)
 
-> [!Note]
+> [!NOTE]
 > Some terms used in this document may have different meanings depending on external source and context. For more information about terms used in this document followed by an asterisk `*`, review the [Application Virtualization Performance Guidance Terminology](#bkmk-terms1) section of this document.
 
 Finally, this document will provide you with the information to configure the computer running App-V client and the environment for optimal performance. Optimize your virtual application packages for performance using the sequencer, and to understand how to use User Experience Virtualization (UE-V) or other user environment management technologies to provide the optimal user experience with App-V in both Remote Desktop Services (RDS) and non-persistent virtual desktop infrastructure (VDI).
@@ -42,21 +42,21 @@ Use the information in the following section for more information:
 
 [Usage Scenarios](#bkmk-us) - As you review the two scenarios, keep in mind that these scenarios are the approach extremes. Based on your usage requirements, you may choose to apply these steps to a subset of users and/or virtual applications packages.
 
--   Optimized for Performance – To provide the optimal experience, you can expect the base image to include some of the App-V virtual application package. This and other requirements are discussed.
+-   Optimized for Performance: To provide the optimal experience, you can expect the base image to include some of the App-V virtual application package. This and other requirements are discussed.
 
--   Optimized for Storage – If you're concerned with the storage impact, following this scenario will help address those concerns.
+-   Optimized for Storage: If you're concerned with the storage impact, following this scenario will help address those concerns.
 
 [Preparing your Environment](#bkmk-pe)
 
--   Steps to Prepare the Base Image – Whether in a non-persistent VDI or RDSH environment, only a few steps must be completed in the base image to enable this approach.
+-   Steps to Prepare the Base Image: Whether in a non-persistent VDI or RDSH environment, only a few steps must be completed in the base image to enable this approach.
 
--   Use UE-V as the User Profile Management (UPM) solution for the App-V approach – the cornerstone of this approach is the ability of a UEM solution to persist the contents of just a few registry and file locations. These locations constitute the user integrations\*. Be sure to review the specific requirements for the UPM solution.
+-   Use UE-V as the User Profile Management (UPM) solution for the App-V approach: the cornerstone of this approach is the ability of a UEM solution to persist the contents of just a few registry and file locations. These locations constitute the user integrations\*. Be sure to review the specific requirements for the UPM solution.
 
 [User Experience Walk-through](#bkmk-uewt)
 
--   Walk-through – It's a step-by-step walk-through of the App-V and UE-V operations and the expectations users should have.
+-   Walk-through: It's a step-by-step walk-through of the App-V and UE-V operations and the expectations users should have.
 
--   Outcome – It describes the expected results.
+-   Outcome: It describes the expected results.
 
 [Impact to Package Lifecycle](#bkmk-plc)
 
@@ -73,7 +73,6 @@ Use the information in the following section for more information:
 |--- |--- |
 |![Checklist box](images/checklistbox.gif)|User Experience Virtualization (UE-V) with the App-V user state template enabled or User Profile Management (UPM) software. Non-UE-V UPM software must be capable of triggering on Login or Process/Application Start and Logoff.|
 |![Checklist box](images/checklistbox.gif)|App-V Shared Content Store (SCS) is configured or can be configured.|
-
 
 |Checklist|IT Administration|
 |--- |--- |
@@ -135,7 +134,7 @@ For critical App-V Client configurations and for a little more context and how-t
   - Configurable in Windows PowerShell: `Set-AppvClientConfiguration -SharedContentStoreMode 1`
   - Configurable with Group Policy: See [Deploying the App-V Sequencer and Configuring the Client](appv-deploying-the-appv-sequencer-and-client.md).
 
-- **PreserveUserIntegrationsOnLogin**: If you have not pre-configured (**Add-AppvClientPackage**) a specific package and this setting isn't configured, the App-V Client will de-integrate* the persisted user integrations, then reintegrate*.
+- **PreserveUserIntegrationsOnLogin**: If you have not pre-configured (**Add-AppvClientPackage**) a specific package and this setting isn't configured, the App-V Client will de-integrate the persisted user integrations, then reintegrate.
 
   For every package that meets the above conditions, effectively twice the work will be done during publishing/refresh.
 
@@ -165,7 +164,7 @@ For more information, see:
 
 - [Get Started with UE-V](../ue-v/uev-getting-started.md)
 
-> [!Note]
+> [!NOTE]
 > Without performing an additional configuration step, User Environment Virtualization (UE-V) won't be able to synchronize the Start menu shortcuts (.lnk files) on the target computer. The .lnk file type is excluded by default.
 
 UE-V will only support removing the .lnk file type from the exclusion list in the RDS and VDI scenarios, where every user's device will have the same set of applications installed to the same location and every .lnk file is valid for all the users' devices. For example, UE-V wouldn't currently support the following two scenarios, because the net result will be that the shortcut will be valid on one but not all devices.
@@ -174,7 +173,7 @@ UE-V will only support removing the .lnk file type from the exclusion list in th
 
 -   If a user has an application installed on one device but not another with .lnk files enabled.
 
-> [!Important]
+> [!IMPORTANT]
 > This topic describes how to change the Windows registry by using Registry Editor. If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows. You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry. Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved. Change the registry at your own risk.
 
 Using the Microsoft Registry Editor (regedit.exe), navigate to `HKEY\_LOCAL\_MACHINE\Software\Microsoft\UEV\Agent\Configuration\ExcludedFileTypes` and remove `.lnk` from the excluded file types.
@@ -193,7 +192,7 @@ To enable an optimized sign-in experience, for example the App-V approach for th
 
 -   Attaching and detaching a user profile disk (UPD) or similar technology that contains the user integrations.
 
-  > [!Note]
+  > [!NOTE]
   >
   > App-V is supported when using UPD only when the entire profile is stored on the user profile disk.
   >
@@ -207,7 +206,7 @@ In previous versions of App-V, both scheduled tasks were configured using a VBSc
 
 ### User Integrations
 
-Registry – HKEY\_CURRENT\_USER
+Registry: HKEY\_CURRENT\_USER
 
 -   Path - Software\\Classes
 
@@ -219,21 +218,21 @@ Registry – HKEY\_CURRENT\_USER
 
 ### File Locations
 
--   Root – “Environment Variable” APPDATA
+-   Root: "Environment Variable" APPDATA
 
-    Path – Microsoft\\AppV\\Client\\Catalog
+    Path: Microsoft\\AppV\\Client\\Catalog
 
--   Root – “Environment Variable” APPDATA
+-   Root: "Environment Variable" APPDATA
 
-    Path – Microsoft\\AppV\\Client\\Integration
+    Path: Microsoft\\AppV\\Client\\Integration
 
--   Root – “Environment Variable” APPDATA
+-   Root: "Environment Variable" APPDATA
 
     Path - Microsoft\\Windows\\Start Menu\\Programs
 
 -   (To persist all desktop shortcuts, virtual and non-virtual)
 
-    Root - “KnownFolder” {B4BFCC3A-DB2C-424C-B029-7FE99A87C641}FileMask - \*.lnk
+    Root - "KnownFolder" {B4BFCC3A-DB2C-424C-B029-7FE99A87C641}FileMask - \*.lnk
 
 ### <a href="" id="bkmk-uewt"></a>User Experience Walk-through
 
@@ -343,7 +342,9 @@ Several App-V features facilitate new scenarios or enable new customer deploymen
 
 Removing FB1 doesn't require the original application installer. After completing the following steps, it's suggested that you revert the computer running the sequencer to a clean snapshot.
 
-**Sequencer UI** - Create a New Virtual Application Package.
+#### Sequencer UI
+
+Create a new virtual application package.
 
 1.  Complete the sequencing steps up to Customize -&gt; Streaming.
 
@@ -351,7 +352,7 @@ Removing FB1 doesn't require the original application installer. After completin
 
 3.  If desired, move on to **Target OS**.
 
-**Modify an Existing Virtual Application Package**
+#### Modify an existing virtual application package
 
 1.  Complete the sequencing steps up to Streaming.
 
@@ -359,7 +360,9 @@ Removing FB1 doesn't require the original application installer. After completin
 
 3.  Move to **Create Package**.
 
-**Windows PowerShell** - Update an Existing Virtual Application Package.
+#### Windows PowerShell
+
+Update an existing virtual application package.
 
 1.  Open an elevated Windows PowerShell session.
 
@@ -373,34 +376,33 @@ Removing FB1 doesn't require the original application installer. After completin
 
     "C:\\UpgradedPackages"
 
-    > [!Note]
+    > [!NOTE]
     > This cmdlet requires an executable (.exe) or batch file (.bat). You must provide an empty (does nothing) executable or batch file.
 
 |Step|Considerations|Benefits|Tradeoffs|
 |--- |--- |--- |--- |
 |No SXS Install at Publish (Pre-Install SxS assemblies)|Virtual Application packages don't need to be resequenced. SxS Assemblies can remain in the virtual application package.|The SxS Assembly dependencies won't install at publishing time.|SxS Assembly dependencies must be pre-installed.|
 
-
 ### Creating a new virtual application package on the sequencer
 
 If, during sequencer monitoring, an SxS Assembly (such as a VC++ Runtime) is installed as part of an application's installation, SxS Assembly will be automatically detected and included in the package. The administrator will be notified and will have the option to exclude the SxS Assembly.
 
-**Client Side**:
+#### Client side
 
 When publishing a virtual application package, the App-V Client will detect if a required SxS dependency is already installed. If the dependency is unavailable on the computer and it's included in the package, a traditional Windows Installer (.**msi**) installation of the SxS assembly will be initiated. As previously documented, simply install the dependency on the computer running the client to ensure that the Windows Installer (.msi) installation won't occur.
 
 |Step|Considerations|Benefits|Tradeoffs|
 |--- |--- |--- |--- |
-|Selectively Employ Dynamic Configuration files|The App-V client must parse and process these Dynamic Configuration files. <br> <br>Be conscious of size and complexity (script execution, VREG inclusions/exclusions) of the file.<br> <br>Numerous virtual application packages may already have User- or computer–specific dynamic configurations files.|Publishing times will improve if these files are used selectively or not at all.|Virtual application packages would need to be reconfigured individually or via the App-V server management console to remove associated Dynamic Configuration files.|
+|Selectively Employ Dynamic Configuration files|The App-V client must parse and process these Dynamic Configuration files. <br> <br>Be conscious of size and complexity (script execution, VREG inclusions/exclusions) of the file.<br> <br>Numerous virtual application packages may already have User- or computer-specific dynamic configurations files.|Publishing times will improve if these files are used selectively or not at all.|Virtual application packages would need to be reconfigured individually or via the App-V server management console to remove associated Dynamic Configuration files.|
 
 
 ### Disabling a Dynamic Configuration by using Windows PowerShell
 
--   For already published packages, you can use `Set-AppVClientPackage –Name Myapp –Path c:\Packages\Apps\MyApp.appv` without
+-   For already published packages, you can use `Set-AppVClientPackage -Name Myapp -Path c:\Packages\Apps\MyApp.appv` without
 
     **-DynamicDeploymentConfiguration** parameter
 
--   Similarly, when adding new packages using `Add-AppVClientPackage –Path c:\Packages\Apps\MyApp.appv`, don't use the
+-   Similarly, when adding new packages using `Add-AppVClientPackage -Path c:\Packages\Apps\MyApp.appv`, don't use the
 
     **-DynamicDeploymentConfiguration** parameter.
 
@@ -430,12 +432,12 @@ For documentation on How to Apply a Dynamic Configuration, see:
     </appv:Fonts>
     ```
 
-  > [!Note]
+  > [!NOTE]
   > If there are fonts marked as **DelayLoad**, those won't impact first launch.
 
 ### Excluding virtual fonts from the package
 
-Use the dynamic configuration file that best suits the user scope – deployment configuration for all users on computer, user configuration for specific user or users.
+Use the dynamic configuration file that best suits the user scope: deployment configuration for all users on computer, user configuration for specific user or users.
 
 -   Disable fonts with the deployment or user configuration.
 
@@ -449,26 +451,25 @@ Fonts
 
 ## <a href="" id="bkmk-terms1"></a> App-V Performance Guidance Terminology
 
-
 The following terms are used when describing concepts and actions related to App-V performance optimization.
 
--   **Complexity** – Refers to the one or more package characteristics that may impact performance during pre-configure (**Add-AppvClientPackage**) or integration (**Publish-AppvClientPackage**). Some example characteristics are: manifest size, number of virtual fonts, number of files.
+-   **Complexity**: Refers to the one or more package characteristics that may impact performance during pre-configure (**Add-AppvClientPackage**) or integration (**Publish-AppvClientPackage**). Some example characteristics are: manifest size, number of virtual fonts, number of files.
 
--   **De-Integrate** – Removes the user integrations
+-   **De-Integrate**: Removes the user integrations
 
--   **Re-Integrate** – Applies the user integrations.
+-   **Re-Integrate**: Applies the user integrations.
 
--   **Non-Persistent, Pooled** – Creates a computer running a virtual environment each time they sign in.
+-   **Non-Persistent, Pooled**: Creates a computer running a virtual environment each time they sign in.
 
--   **Persistent, Personal** – A computer running a virtual environment that remains the same for every sign in.
+-   **Persistent, Personal**: A computer running a virtual environment that remains the same for every sign in.
 
--   **Stateful** - For this document, implies that user integrations are persisted between sessions and a user environment management technology is used in conjunction with non-persistent RDSH or VDI.
+-   **Stateful**: For this document, implies that user integrations are persisted between sessions and a user environment management technology is used in conjunction with non-persistent RDSH or VDI.
 
--   **Stateless** – Represents a scenario when no user state is persisted between sessions.
+-   **Stateless**: Represents a scenario when no user state is persisted between sessions.
 
--   **Trigger** – (or Native Action Triggers). UPM uses these types of triggers to initiate monitoring or synchronization operations.
+-   **Trigger**: (or Native Action Triggers). UPM uses these types of triggers to initiate monitoring or synchronization operations.
 
--   **User Experience** - In the context of App-V, the user experience, quantitatively, is the sum of the following parts:
+-   **User Experience**: In the context of App-V, the user experience, quantitatively, is the sum of the following parts:
 
     -   From the point that users initiate a sign in to when they're able to manipulate the desktop.
 
@@ -478,11 +479,7 @@ The following terms are used when describing concepts and actions related to App
 
     -   From the point where the virtual application is available to launch from a shortcut. Alternatively, it's from the point at which the file type association is registered and will launch a specified virtual application.
 
--   **User Profile Management** – The controlled and structured approach to managing user components associated with the environment. For example, user profiles, preference and policy management, application control and application deployment. You can use scripting or third-party solutions configure the environment as needed.
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
+-   **User Profile Management**: The controlled and structured approach to managing user components associated with the environment. For example, user profiles, preference and policy management, application control and application deployment. You can use scripting or third-party solutions configure the environment as needed.
 
 ## Related articles
 

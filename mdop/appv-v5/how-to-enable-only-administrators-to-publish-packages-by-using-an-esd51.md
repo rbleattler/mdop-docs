@@ -1,24 +1,17 @@
 ---
-title: How to Enable Only Administrators to Publish Packages by Using an ESD
-description: How to Enable Only Administrators to Publish Packages by Using an ESD
+title: How to enable only administrators to publish packages by using an ESD
+description: Starting in App-V 5.0 SP3, you can configure the App-V client so that only administrators can publish or unpublish packages.
 author: aczechowski
-ms.assetid: bbc9fda2-fc09-4d72-8d9a-e83d2fcfe234
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to Enable Only Administrators to Publish Packages by Using an ESD
-
+# How to enable only administrators to publish packages by using an ESD
 
 Starting in App-V 5.0 SP3, you can configure the App-V client so that only administrators (not end users) can publish or unpublish packages. In earlier versions of App-V, you could not prevent end users from performing these tasks.
 
-**To enable only administrators to publish or unpublish packages**
+## To enable only administrators to publish or unpublish packages
 
 1.  Navigate to the following Group Policy Object node:
 
@@ -27,14 +20,3 @@ Starting in App-V 5.0 SP3, you can configure the App-V client so that only admin
 2.  Enable the **Require publish as administrator** Group Policy setting.
 
     To alternatively use PowerShell to set this item, see [How to Manage App-V 5.1 Packages Running on a Stand-Alone Computer by Using PowerShell](how-to-manage-app-v-51-packages-running-on-a-stand-alone-computer-by-using-powershell.md#bkmk-admins-pub-pkgs).
-
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
- 
-
- 
-
-
-
-
-
