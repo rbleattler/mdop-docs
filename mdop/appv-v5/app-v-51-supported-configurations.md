@@ -19,11 +19,11 @@ This section lists the operating system and hardware requirements for all of the
 
 ### Unsupported App-V 5.1 Server scenarios
 
-The App-V 5.1 Server does not support the following scenarios:
+The App-V 5.1 Server doesn't support the following scenarios:
 
 - Deployment to a computer that runs Microsoft Windows Server Core.
 
-- Deployment to a computer that runs a previous version of App-V 5.1 Server components. You can install App-V 5.1 side by side with the App-V 4.5 Lightweight Streaming Server (LWS) server only. Deployment of App-V side by side with the App-V 4.5 Application Virtualization Management Service (HWS) server is not supported.
+- Deployment to a computer that runs a previous version of App-V 5.1 Server components. You can install App-V 5.1 side by side with the App-V 4.5 Lightweight Streaming Server (LWS) server only. Deployment of App-V side by side with the App-V 4.5 Application Virtualization Management Service (HWS) server isn't supported.
 
 - Deployment to a computer that runs Microsoft SQL Server Express edition.
 
@@ -51,11 +51,11 @@ The following table lists the operating systems that are supported for the App-V
 
 ### <a href="" id="management-server-hardware-requirements-"></a>Management server hardware requirements
 
-- Processor—1.4 GHz or faster, 64-bit (x64) processor
+- Processor: 1.4 GHz or faster, 64-bit (x64) processor
 
-- RAM—1 GB RAM (64-bit)
+- RAM: 1 GB RAM (64-bit)
 
-- Disk space—200 MB available hard disk space, not including the content directory
+- Disk space: 200 MB available hard disk space, not including the content directory
 
 ### Management server database requirements
 
@@ -86,13 +86,13 @@ The following table lists the operating systems that are supported for the App-V
 
 ### <a href="" id="publishing-server-hardware-requirements-"></a>Publishing server hardware requirements
 
-App-V adds no additional requirements beyond those of Windows Server.
+App-V adds no other requirements beyond those of Windows Server.
 
-- Processor—1.4 GHz or faster, 64-bit (x64) processor
+- Processor: 1.4 GHz or faster, 64-bit (x64) processor
 
-- RAM—2 GB RAM (64-bit)
+- RAM: 2 GB RAM (64-bit)
 
-- Disk space—200 MB available hard disk space, not including the content directory
+- Disk space: 200 MB available hard disk space, not including the content directory
 
 ### Reporting server operating system requirements
 
@@ -108,13 +108,13 @@ The following table lists the operating systems that are supported for the App-V
 
 ### <a href="" id="reporting-server-hardware-requirements-"></a>Reporting server hardware requirements
 
-App-V adds no additional requirements beyond those of Windows Server.
+App-V adds no other requirements beyond those of Windows Server.
 
-- Processor—1.4 GHz or faster, 64-bit (x64) processor
+- Processor: 1.4 GHz or faster, 64-bit (x64) processor
 
-- RAM—2 GB RAM (64-bit)
+- RAM: 2 GB RAM (64-bit)
 
-- Disk space—200 MB available hard disk space
+- Disk space: 200 MB available hard disk space
 
 ### Reporting server database requirements
 
@@ -142,7 +142,7 @@ The following table lists the operating systems that are supported for the App-V
 | Microsoft Windows 8.1                     |              | 32-bit or 64-bit    |
 | Windows 7                                 | SP1          | 32-bit or 64-bit    |
 
-The following App-V client installation scenarios are not supported, except as noted:
+The following App-V client installation scenarios aren't supported, except as noted:
 
 - Computers that run Windows Server
 
@@ -154,11 +154,11 @@ The following App-V client installation scenarios are not supported, except as n
 
 The following list displays the supported hardware configuration for the App-V 5.1 client installation.
 
-- Processor— 1.4 GHz or faster 32-bit (x86) or 64-bit (x64) processor
+- Processor: 1.4 GHz or faster 32-bit (x86) or 64-bit (x64) processor
 
-- RAM— 1 GB (32-bit) or 2 GB (64-bit)
+- RAM: 1 GB (32-bit) or 2 GB (64-bit)
 
-- Disk— 100 MB for installation, not including the disk space that is used by virtualized applications.
+- Disk: 100 MB for installation, not including the disk space that is used by virtualized applications.
 
 ## Remote Desktop Services client system requirements
 
@@ -175,13 +175,13 @@ The following table lists the operating systems that are supported for App-V 5.1
 
 ### Remote Desktop Services client hardware requirements
 
-App-V adds no additional requirements beyond those of Windows Server.
+App-V adds no other requirements beyond those of Windows Server.
 
-- Processor—1.4 GHz or faster, 64-bit (x64) processor
+- Processor: 1.4 GHz or faster, 64-bit (x64) processor
 
-- RAM—2 GB RAM (64-bit)
+- RAM: 2 GB RAM (64-bit)
 
-- Disk space—200 MB available hard disk space
+- Disk space: 200 MB available hard disk space
 
 ## Sequencer system requirements
 
@@ -200,7 +200,7 @@ The following table lists the operating systems that are supported for the App-V
 
 ### Sequencer hardware requirements
 
-See the Windows or Windows Server documentation for the hardware requirements. App-V adds no additional hardware requirements.
+See the Windows or Windows Server documentation for the hardware requirements. App-V adds no other hardware requirements.
 
 ## <a href="" id="bkmk-supp-ver-sccm"></a>Supported versions of System Center Configuration Manager
 
@@ -224,6 +224,6 @@ The following App-V and System Center Configuration Manager version matrix shows
 
 For more information about how Configuration Manager integrates with App-V, see [Planning for App-V Integration with Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj822982(v=technet.10)).
 
-## Related topics
+## Related articles
 
 [App-V 5.1 Prerequisites](app-v-51-prerequisites.md)
