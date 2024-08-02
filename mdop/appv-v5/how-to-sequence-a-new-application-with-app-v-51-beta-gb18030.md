@@ -63,8 +63,8 @@ If the application does not have an associated installer file and you plan to ru
 
 7. On the **Installation** page, when the sequencer and application installer are ready you can proceed to install the application so that the sequencer can monitor the installation process.
 
-   > [!IMPORTANT]
-   > You should always install applications to a secure location and make sure no other users are logged on to the computer running the sequencer during monitoring.
+    > [!IMPORTANT]
+    > You should always install applications to a secure location and make sure no other users are logged on to the computer running the sequencer during monitoring.
 
     Use the application's installation process to perform the installation. If additional installation files must be run as part of the installation, click **Run** to locate and run the additional installation files. When you are finished with the installation, select **I am finished installing**. Click **Next**.
 
@@ -99,10 +99,10 @@ Click **Next**.
 
 14. The **Create Package** page is displayed. To modify the package without saving it, select **Continue to modify package without saving using the package editor**. This option opens the package in the sequencer console so that you can modify the package before it is saved. Click **Next**.
 
-   To save the package immediately, select **Save the package now** (default). Add optional **Comments** to be associated with the package. Comments are useful for identifying the program version and other information about the package.
+    To save the package immediately, select **Save the package now** (default). Add optional **Comments** to be associated with the package. Comments are useful for identifying the program version and other information about the package.
 
-   > [!IMPORTANT]
-   > The system does not support non-printable characters in **Comments** and **Descriptions**.
+    > [!IMPORTANT]
+    > The system doesn't support non-printable characters in **Comments** and **Descriptions**.
 
     The default **Save Location** is also displayed on this page. To change the default location, click **Browse** and specify the new location. Click **Create**.
 

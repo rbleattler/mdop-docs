@@ -5,7 +5,6 @@ author: aczechowski
 ms.date: 04/19/2017
 ---
 
-
 # How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell
 
 >Applies to: Windows 10, Windows 11, Windows Server 2016

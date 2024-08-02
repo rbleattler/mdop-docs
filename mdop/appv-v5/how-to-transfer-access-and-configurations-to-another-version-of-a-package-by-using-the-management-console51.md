@@ -1,13 +1,13 @@
 ---
-title: How to transfer access and configurations to another version of a package by using the management console
-description: Use the following procedure to transfer the access and default package configurations to another version of a package by using the management console.
+title: How to transfer access and configurations to another version of a package by using the App-V 5.1 management console
+description: Use the following procedure to transfer the access and default package configurations to another version of a package by using the App-V 5.1 management console.
 author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
 ---
 
-# How to transfer access and configurations to another version of a package by using the management console
+# How to transfer access and configurations to another version of a package by using the App-V 5.1 management console
 
 Use the following procedure to transfer the access and default package configurations to another version of a package by using the management console.
 

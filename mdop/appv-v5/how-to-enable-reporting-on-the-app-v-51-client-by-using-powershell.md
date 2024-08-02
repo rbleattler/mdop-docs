@@ -18,7 +18,7 @@ Use the following procedure to configure the App-V 5.1 for reporting.
 
 2. After you have installed the App-V 5.1 client, use the **Set-AppvClientConfiguration** PowerShell to configure appropriate Reporting Configuration settings:
 
-    |  | Setting | Description |
+    | Setting | Description |
     |--|--|
     | ReportingEnabled | Enables the client to return information to a reporting server. This setting is required for the client to collect the reporting data on the client. |
     | ReportingServerURL | Specifies the location on the reporting server where client information is saved. For example, `http://<reportingservername>:<reportingportnumber>`. <br> **Note:** This is the port number that was assigned during the Reporting Server setup. |

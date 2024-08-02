@@ -1,6 +1,6 @@
 ---
 title: Manage connection groups on a stand-alone computer by using Windows PowerShell
-description: An App-V connection group allows you to run all the virtual applications as a defined set of packages in a single virtual environment.
+description: An App-V 5.1 connection group allows you to run all the virtual applications as a defined set of packages in a single virtual environment.
 author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep

@@ -1,13 +1,13 @@
 ---
-title: How to install the reporting server on a standalone computer and connect it to the database (5.1)
-description: Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
+title: How to install the App-V 5.1 reporting server on a standalone computer and connect it to the database
+description: Use the following procedure to install the App-V 5.1 reporting server on a standalone computer and connect it to the database.
 author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
 ---
 
-# How to install the reporting server on a standalone computer and connect it to the database (5.1)
+# How to install the App-V 5.1 reporting server on a standalone computer and connect it to the database
 
 Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
 

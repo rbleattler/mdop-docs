@@ -20,7 +20,7 @@ You can create user-entitled connection groups that contain both user-published 
 | Unsupported scenarios and potential issues | Result |
 |--|--|
 | You cannot include user-published packages in globally entitled connection groups. | The connection group will fail. |
-| If you publish a package globally and then create a user-published connection group in which you've made that package non-optional, you can still run **Unpublish-AppvClientPackage <package> -global** to unpublish the package, even when that package is being used in another connection group. | If any other connection groups are using that package, the package will fail in those connection groups. <br> To avoid inadvertently unpublishing a non-optional package that is being used in another connection group, we recommend that you track the connection groups in which you've used a non-optional package. |
+| If you publish a package globally and then create a user-published connection group in which you've made that package non-optional, you can still run `Unpublish-AppvClientPackage <package> -global` to unpublish the package, even when that package is being used in another connection group. | If any other connection groups are using that package, the package will fail in those connection groups. <br> To avoid inadvertently unpublishing a non-optional package that is being used in another connection group, we recommend that you track the connection groups in which you've used a non-optional package. |
 
 ## <a href="" id="bkmk-posh-userentitled-cg"></a> How to use PowerShell cmdlets to create user-entitled connection groups
 

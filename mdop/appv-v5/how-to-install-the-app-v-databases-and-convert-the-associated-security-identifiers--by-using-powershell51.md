@@ -1,13 +1,13 @@
 ---
-title: How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell
-description: Use the following Windows PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs) both in the standard format and in the hexadecimal format used by Microsoft SQL Server when running SQL scripts.
+title: How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell (5.1)
+description: Use the following Windows PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs).
 author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
 ---
 
-# How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell
+# How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell (5.1)
 
 Use the following Windows PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs) both in the standard format and in the hexadecimal format used by Microsoft SQL Server when running SQL scripts.
 
