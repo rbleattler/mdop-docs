@@ -1,5 +1,5 @@
 ---
-title: How to install the reporting server on a standalone computer and connect it to the database
+title: How to install the reporting server on a standalone computer and connect it to the database (5.1)
 description: Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
 author: aczechowski
 ms.author: aaroncz
@@ -7,7 +7,7 @@ ms.collection: must-keep
 ms.date: 06/16/2016
 ---
 
-# How to install the reporting server on a standalone computer and connect it to the database
+# How to install the reporting server on a standalone computer and connect it to the database (5.1)
 
 Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
 

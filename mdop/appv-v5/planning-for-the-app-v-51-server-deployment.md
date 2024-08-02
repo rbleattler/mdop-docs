@@ -46,10 +46,10 @@ The App-V 5.1 Management Server contains the repository of packages and their as
 
 The following displays information about server-related protocols used by the App-V 5.1 servers. The table also includes the reporting mechanism for each server type.
 
-| Server Type | Protocols | External Features Needed | Reporting |  |
-|--|--|--|--|--|
-| IIS server | HTTP<br>HTTPS | This server-protocol combination requires a mechanism to synchronize the content between the Management Server and the Streaming Server. When using HTTP or HTTPS, use an IIS server and a firewall to protect the server from exposure to the Internet. | Internal |  |
-| File | SMB | This server-protocol combination requires support to synchronize the content between the Management Server and the Streaming Server. Use a client computer with file sharing or streaming capability. | Internal |  |
+| Server Type | Protocols | External Features Needed | Reporting |
+|--|--|--|--|
+| IIS server | HTTP<br>HTTPS | This server-protocol combination requires a mechanism to synchronize the content between the Management Server and the Streaming Server. When using HTTP or HTTPS, use an IIS server and a firewall to protect the server from exposure to the Internet. | Internal |
+| File | SMB | This server-protocol combination requires support to synchronize the content between the Management Server and the Streaming Server. Use a client computer with file sharing or streaming capability. | Internal |
 
 ## Related topics
 

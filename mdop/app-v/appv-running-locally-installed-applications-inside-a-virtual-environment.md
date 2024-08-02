@@ -1,11 +1,11 @@
 ---
 title: Running a locally installed application inside a virtual environment with virtualized applications
-description: You can run a locally installed application in a virtual environment, alongside applications that have been virtualized by using Microsoft Application Virtualization (App-V).
+description: You can run a locally installed application in a virtual environment, alongside applications that have been virtualized by using Microsoft Application Virtualization (App-V) for Windows.
 author: aczechowski
 ms.date: 03/08/2018
 ---
 
-# Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications (Windows 10/11)
+# Running a locally installed application inside a virtual environment with virtualized applications
 
 > Applies to: Windows 7 SP1, Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016
 

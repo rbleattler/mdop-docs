@@ -1,5 +1,5 @@
 ---
-title: How to install the publishing server on a remote computer
+title: How to install the publishing server on a remote computer (5.1)
 description: Use the following procedure to install the publishing server on a separate computer.
 author: aczechowski
 ms.author: aaroncz
@@ -7,7 +7,7 @@ ms.collection: must-keep
 ms.date: 06/16/2016
 ---
 
-# How to install the publishing server on a remote computer
+# How to install the publishing server on a remote computer (5.1)
 
 Use the following procedure to install the publishing server on a separate computer. Before you perform the following procedure, ensure the database and management server are available.
 
