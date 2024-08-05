@@ -11,15 +11,13 @@ ms.date: 04/19/2017
 
 For information that can help with troubleshooting App-V for Windows client, see:
 
-- [Application Virtualization (App-V): List of Microsoft Support Knowledge Base Articles](https://social.technet.microsoft.com/wiki/contents/articles/14272.app-v-v5-x-list-of-microsoft-support-knowledge-base-articles.aspx)
+- [Application Virtualization (App-V): List of Microsoft Support Knowledge Base Articles](/archive/technet-wiki/14272.app-v-v5-x-list-of-microsoft-support-knowledge-base-articles)
 
 - [Microsoft App-V Team Blog](/archive/blogs/appv/)
 
 - [Release Notes for App-V](appv-release-notes-for-appv-for-windows.md)
 
 - [Technical Reference for App-V](appv-technical-reference.md)
-
-- [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv)
 
 
 ## Other resources
@@ -33,7 +31,3 @@ For information that can help with troubleshooting App-V for Windows client, see
 -   [Deploying App-V](appv-deploying-appv.md)
 
 -   [Operations for App-V](appv-operations.md)
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).

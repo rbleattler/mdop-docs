@@ -1,5 +1,5 @@
 ---
-title: Migrating to App-V from a Previous Version (Windows 10/11)
+title: Migrating to App-V from a previous version
 description: Learn how to migrate to Microsoft Application Virtualization (App-V) for Windows 10/11 from a previous version.
 author: aczechowski
 ms.date: 04/19/2017
@@ -13,10 +13,9 @@ To migrate from App-V 4.x to App-V for Windows 10/11, you must upgrade to App-V 
 
 ## <a href="" id="bkmk-pkgconvimprove"></a>Improvements to the App-V Package Converter
 
-
 You can now use the package converter to convert App-V 4.6 packages that contain scripts, and registry information and scripts from source .osd files are now included in package converter output.
 
-You can also use the `–OSDsToIncludeInPackage` parameter with the `ConvertFrom-AppvLegacyPackage` cmdlet to specify which .osd files’ information is converted and placed within the new package.
+You can also use the `-OSDsToIncludeInPackage` parameter with the `ConvertFrom-AppvLegacyPackage` cmdlet to specify which .osd files' information is converted and placed within the new package.
 
 |New in App-V for Windows client|Prior to App-V for Windows 10|
 |--- |--- |
@@ -28,43 +27,43 @@ To understand the new process, review the following example `ConvertFrom-AppvLeg
 
 **If the source directory (\\\\OldPkgStore\\ContosoApp) includes the following:**
 
--   ContosoApp.sft
+- ContosoApp.sft
 
--   ContosoApp.msi
+- ContosoApp.msi
 
--   ContosoApp.sprj
+- ContosoApp.sprj
 
--   ContosoApp\_manifest.xml
+- ContosoApp\_manifest.xml
 
--   X.osd
+- X.osd
 
--   Y.osd
+- Y.osd
 
--   Z.osd
+- Z.osd
 
 **And you run this command:**
 
 ``` syntax
-ConvertFrom-AppvLegacyPackage –SourcePath \\OldPkgStore\ContosoApp\
+ConvertFrom-AppvLegacyPackage -SourcePath \\OldPkgStore\ContosoApp\
 -DestinationPath \\NewPkgStore\ContosoApp\
 -OSDsToIncludeInPackage X.osd,Y.osd
 ```
 
 **The following is created in the destination directory (\\\\NewPkgStore\\ContosoApp):**
 
--   ContosoApp.appv
+- ContosoApp.appv
 
--   ContosoApp.msi
+- ContosoApp.msi
 
--   ContosoApp\_DeploymentConfig.xml
+- ContosoApp\_DeploymentConfig.xml
 
--   ContosoApp\_UserConfig.xml
+- ContosoApp\_UserConfig.xml
 
--   X\_Config.xml
+- X\_Config.xml
 
--   Y\_Config.xml
+- Y\_Config.xml
 
--   Z\_Config.xml
+- Z\_Config.xml
 
 **In the above example:**
 
@@ -75,16 +74,12 @@ ConvertFrom-AppvLegacyPackage –SourcePath \\OldPkgStore\ContosoApp\
 
 ## Converting packages created using a prior version of App-V
 
-
 Use the package converter utility to upgrade virtual application packages created using versions of App-V prior to App-V 5.0. The package converter uses Windows PowerShell to convert packages and can help automate the process if you have many packages that require conversion. App-V packages created with App-V 5.x don't need to be converted.
 
+> [!IMPORTANT]
+> After you convert an existing package you should test the package prior to deploying the package to ensure the conversion process was successful.
 
-**Important**  
-After you convert an existing package you should test the package prior to deploying the package to ensure the conversion process was successful.
-
-
-
-**What to know before you convert existing packages**
+### What to know before you convert existing packages
 
 |Issue|Workaround|
 |--- |--- |
@@ -94,15 +89,14 @@ After you convert an existing package you should test the package prior to deplo
 
 When converting a package check for failing files or shortcuts, locate the item in App-V 4.6 package. It could possibly be a hard-coded path. Convert the path.
 
-**Note**  
-It's recommended that you use the App-V sequencer for converting critical applications or applications that need to take advantage of features. See [How to Sequence a New Application with App-V](appv-sequence-a-new-application.md).
+> [!NOTE]
+> It's recommended that you use the App-V sequencer for converting critical applications or applications that need to take advantage of features. See [How to Sequence a New Application with App-V](appv-sequence-a-new-application.md).
 
 If a converted package doesn't open after you convert it, it's also recommended that you resequence the application using the App-V sequencer.
 
 [How to Convert a Package Created in a Previous Version of App-V](appv-convert-a-package-created-in-a-previous-version-of-appv.md)
 
-## Migrating the App-V Server Full Infrastructure
-
+## Migrating the App-V server full infrastructure
 
 There's no direct method to upgrade to a full App-V infrastructure. Use the information in the following section for information about upgrading the App-V server.
 
@@ -112,8 +106,6 @@ There's no direct method to upgrade to a full App-V infrastructure. Use the info
 |Enable the App-V client.|[Enable the App-V desktop client](appv-enable-the-app-v-desktop-client.md)|
 |Install App-V Server.|[How to Deploy the App-V Server](appv-deploy-the-appv-server.md)|
 |Migrate existing packages.|See [Converting packages created using a prior version of App-V](#converting-packages-created-using-a-prior-version-of-app-v) earlier in this article.|
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
 
 ## Other resources for performing App-V migration tasks
 

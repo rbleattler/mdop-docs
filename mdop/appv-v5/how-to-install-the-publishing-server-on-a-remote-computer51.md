@@ -1,30 +1,23 @@
 ---
-title: How to Install the Publishing Server on a Remote Computer
-description: How to Install the Publishing Server on a Remote Computer
+title: How to install the publishing server on a remote computer (5.1)
+description: Use the following procedure to install the publishing server on a separate computer.
 author: aczechowski
-ms.assetid: 1c903f78-0558-458d-a149-d5f6fb55aefb
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to Install the Publishing Server on a Remote Computer
-
+# How to install the publishing server on a remote computer (5.1)
 
 Use the following procedure to install the publishing server on a separate computer. Before you perform the following procedure, ensure the database and management server are available.
 
-**To install the publishing server on a separate computer**
+## To install the publishing server on a separate computer
 
 1. Copy the App-V 5.1 server installation files to the computer on which you want to install it on. To start the App-V 5.1 server installation right-click and run **appv\_server\_setup.exe** as an administrator. Click **Install**.
 
 2. On the **Getting Started** page, review and accept the license terms, and click **Next**.
 
-3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don’t want to use Microsoft Update**. Click **Next**.
+3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don't want to use Microsoft Update**. Click **Next**.
 
 4. On the **Feature Selection** page, select the **Publishing Server** checkbox and click **Next**.
 
@@ -32,7 +25,7 @@ Use the following procedure to install the publishing server on a separate compu
 
 6. On the **Configure Publishing Server Configuration** page, specify the following items:
 
-   -   The URL for the management service that the publishing server will connect to. For example, **http://ManagementServerName:12345**.
+   -   The URL for the management service that the publishing server will connect to. For example, `http://ManagementServerName:12345`.
 
    -   Specify the website name that you want to use for the publishing service. Accept the default if you do not have a custom name.
 
@@ -48,7 +41,7 @@ Use the following procedure to install the publishing server on a separate compu
 
    3.  Type the name of this server and a description (if required) and click **Add**.
 
-9. To verify if the publishing server is running correctly, you should import a package to the management server, entitle the package to an AD group, and publish the package. Using an internet browser, open the following URL: <strong>http://publishingserver:pubport</strong>. If the server is running correctly information similar to the following will be displayed:
+9. To verify if the publishing server is running correctly, you should import a package to the management server, entitle the package to an AD group, and publish the package. Using an internet browser, open the following URL: `http://publishingserver:pubport`. If the server is running correctly information similar to the following will be displayed:
 
    ```xml
    <Publishing Protocol="1.0">
@@ -61,18 +54,6 @@ Use the following procedure to install the publishing server on a separate compu
    </Publishing>
    ```
 
-   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
-[Deploying App-V 5.1](deploying-app-v-51.md)
-
-
-
-
-
-
-
-
-
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)

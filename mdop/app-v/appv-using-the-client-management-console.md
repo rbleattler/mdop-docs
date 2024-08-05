@@ -37,7 +37,7 @@ The client management console contains the following described main tabs.
 
   - **Work Offline**: Disallows all automatic and manual virtual application updates.
 
-    Associated Windows PowerShell cmdlet: `-AppvPublishServer –UserRefreshEnabled –GlobalRefreshEnabled`
+    Associated Windows PowerShell cmdlet: `-AppvPublishServer -UserRefreshEnabled -GlobalRefreshEnabled`
 
 - **VIRTUAL APPS**: Displays all of the packages that have been published to the user.
 
@@ -49,8 +49,6 @@ The client management console contains the following described main tabs.
 
   - Download: `Mount-AppvClientConnectionGroup`
   - Repair: `AppvClientConnectionGroup`
-
-For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
 
 ## Related articles
 

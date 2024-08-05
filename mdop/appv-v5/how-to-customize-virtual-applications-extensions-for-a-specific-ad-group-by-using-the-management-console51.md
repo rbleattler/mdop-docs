@@ -1,24 +1,17 @@
 ---
-title: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
-description: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
+title: How to customize virtual applications extensions for a specific AD group by using the management console
+description: Use the following procedure to customize the virtual application extensions for an Active Directory (AD) group.
 author: aczechowski
-ms.assetid: dd71df05-512f-4eb4-a55f-e5b93601323d
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
-
+# How to customize virtual applications extensions for a specific AD group by using the management console
 
 Use the following procedure to customize the virtual application extensions for an Active Directory (AD) group.
 
-**To customize virtual applications extensions for an AD group**
+## To customize virtual applications extensions for an AD group
 
 1.  To view the package that you want to configure, open the App-V 5.1 Management Console. To view the configuration that is assigned to a given user group, select the package, and right-click the package name and select **Edit active directory access**. Alternatively, select the package and click **EDIT** in the **AD ACCESS** pane.
 
@@ -32,18 +25,6 @@ Use the following procedure to customize the virtual application extensions for 
 
 5.  To edit additional application extensions, modify the configuration file and click **Import and Overwrite this Configuration**. Select the modified file and click **Open**. In the dialog, click **Overwrite** to complete the process.
 
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
- 
-
- 
-
-
-
-
-
