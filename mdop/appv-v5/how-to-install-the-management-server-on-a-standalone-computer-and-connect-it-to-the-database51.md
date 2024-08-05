@@ -1,30 +1,23 @@
 ---
-title: Install the Management Server on a Standalone Computer and Connect it to the Database
-description: How to install the Management Server on a Standalone Computer and Connect it to the Database
+title: Install the management server on a standalone computer and connect it to the database
+description: Use the following procedure to install the management server on a standalone computer and connect it to the database.
 author: aczechowski
-ms.assetid: 3f83c335-d976-4abd-b8f8-d7f5e50b4318
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# Install the Management Server on a Standalone Computer and Connect it to the Database
-
+# Install the management server on a standalone computer and connect it to the database
 
 Use the following procedure to install the management server on a standalone computer and connect it to the database.
 
-**To install the management server on a standalone computer and connect it to the database**
+## To install the management server on a standalone computer and connect it to the database
 
-1.  Copy the App-V 5.1 server installation files to the computer on which you want to install it on. To start the App-V 5.1 server installation right-click and run **appv\_server\_setup.exe** as an administrator. Click **Install**.
+1.  Copy the App-V 5.1 server installation files to the computer on which you want to install it. To start the App-V 5.1 server installation right-click and run **appv\_server\_setup.exe** as an administrator. Click **Install**.
 
 2.  On the **Getting Started** page, review and accept the license terms, and click **Next**.
 
-3.  On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don’t want to use Microsoft Update**. Click **Next**.
+3.  On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don't want to use Microsoft Update**. Click **Next**.
 
 4.  On the **Feature Selection** page, select the **Management Server** checkbox and click **Next**.
 
@@ -32,37 +25,23 @@ Use the following procedure to install the management server on a standalone com
 
 6.  On the **Configure Existing Management Database** page, select **Use a remote SQL Server**, and type the machine name of the computer running Microsoft SQL SQL, for example **SqlServerMachine**.
 
-    **Note**
-    If the Microsoft SQL Server is deployed on the same server, select **Use local SQL Server**.
+    > [!NOTE]
+    > If the Microsoft SQL Server is deployed on the same server, select **Use local SQL Server**.
 
 
-
-
-For the SQL Server Instance, select **Use the default instance**. If you are using a custom Microsoft SQL Server instance, you must select **Use a custom instance** and then type the name of the instance.
+For the SQL Server Instance, select **Use the default instance**. If you use a custom Microsoft SQL Server instance, you must select **Use a custom instance** and then type the name of the instance.
 
 Specify the **SQL Server Database name** that this management server will use, for example **AppvManagement**.
 
 
-7. On the **Configure Management Server Configuration** page, specify the AD group or account that will connect to the management console for administrative purposes for example **MyDomain\\MyUser** or **MyDomain\\AdminGroup**. The account or AD group you specify will be enabled to manage the server through the management console. You can add additional users or groups using the management console after installation
+7. On the **Configure Management Server Configuration** page, specify the AD group or account that will connect to the management console for administrative purposes. For example, **MyDomain\\MyUser** or **MyDomain\\AdminGroup**. The account or AD group you specify will be enabled to manage the server through the management console. You can add other users or groups using the management console after installation.
 
-   Specify the **Website Name** that you want to use for the management service. Accept the default if you do not have a custom name. For the **Port Binding**, specify a unique port number to be used, for example **12345**.
+   Specify the **Website Name** that you want to use for the management service. Accept the default if you don't have a custom name. For the **Port Binding**, specify a unique port number to be used, for example **12345**.
 
 8. Click **Install**.
 
 9. To confirm that the setup has completed successfully, open a web browser, and type the following URL: http://managementserver:portnumber/Console. If the installation was successful, you should see the **Management Console** appear without any error messages or warnings being displayed.
 
-   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+## Related articles
 
-## Related topics
-
-
-[Deploying App-V 5.1](deploying-app-v-51.md)
-
-
-
-
-
-
-
-
-
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)

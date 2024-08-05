@@ -1,74 +1,26 @@
 ---
-title: Only Allow Administrators to Enable Connection Groups
-description: How to Allow Only Administrators to Enable Connection Groups
+title: Only allow administrators to enable connection groups
+description: You can configure the App-V client so that only administrators (not end users) can enable or disable connection groups. In earlier versions of App-V, you could not prevent end users from performing these tasks.
 author: aczechowski
-ms.assetid: 42ca3157-5d85-467b-a148-09404f8f737a
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# Only Allow Administrators to Enable Connection Groups
-
+# Only allow administrators to enable connection groups
 
 You can configure the App-V client so that only administrators (not end users) can enable or disable connection groups. In earlier versions of App-V, you could not prevent end users from performing these tasks.
 
-**Note**  
-**This feature is supported starting in App-V 5.0 SP3.**
-
-
+> [!NOTE]
+> This feature is supported starting in App-V 5.0 SP3.
 
 Use one of the following methods to allow only administrators to enable or disable connection groups.
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Method</th>
-<th align="left">Steps</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Group Policy setting</p></td>
-<td align="left"><p>Enable the “Require publish as administrator” Group Policy setting, which is located in the following Group Policy Object node:</p>
-<p><strong>Computer Configuration &gt; Policies &gt; Administrative Templates &gt; System &gt; App-V &gt; Publishing</strong></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>PowerShell cmdlet</p></td>
-<td align="left"><p>Run the <strong>Set-AppvClientConfiguration</strong> cmdlet with the <strong>–RequirePublishAsAdmin</strong> parameter.</p>
-<p>Parameter values:</p>
-<ul>
-<li><p>0 - False</p></li>
-<li><p>1 - True</p></li>
-</ul>
-<p><strong>Example:</strong>: Set-AppvClientConfiguration –RequirePublishAsAdmin1</p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+| Method | Steps |
+|--|--|
+| Group Policy setting | Enable the "Require publish as administrator" Group Policy setting, which is located in the following Group Policy Object node: **Computer Configuration > Policies > Administrative Templates > System > App-V > Publishing** |
+| PowerShell cmdlet | Run the **Set-AppvClientConfiguration** cmdlet with the **-RequirePublishAsAdmin** parameter. <br> Parameter values: <ul><li>0 - False</li><li>1 - True</li></ul> <br> **Example:** Set-AppvClientConfiguration -RequirePublishAsAdmin 1 |
 
 ## Related topics
 
-
 [Managing Connection Groups](managing-connection-groups51.md)
-
-
-
-
-
-
-
-
-

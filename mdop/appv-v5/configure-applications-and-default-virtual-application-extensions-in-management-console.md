@@ -1,22 +1,17 @@
 ---
-title: Configure Applications and Default Virtual Application Extensions in Management Console
-description: How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console
+title: Configure applications and default virtual application extensions in management console
+description: How to view and configure applications and default virtual application extensions by using the management console.
 author: aczechowski
-ms.assetid: 1e1941d3-fb22-4077-8ec6-7a0cb80335d8
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 09/26/2019
 ---
 
-# 	Configure Applications and Default Virtual Application Extensions in Management Console
+# Configure applications and default virtual application extensions in management console
 
 Use the following procedure to *view* and *configure* default package extensions.
 
-**To view and configure default virtual application extensions**
+## To view and configure default virtual application extensions
 
 1.  To view the package that you want to configure, open the App-V 5.1 Management Console. Select the package that you want to configure, right-click the package name and select **edit default configuration**.
 
@@ -30,22 +25,10 @@ Use the following procedure to *view* and *configure* default package extensions
 
 5.  To edit other application extensions, modify the configuration file and click **Import and Overwrite this Configuration**. Select the modified file and click **Open**. In the dialog box, click **Overwrite** to complete the process.
 
->**Note** If the upload fails and the size of your configuration file is above 4MB, you will need to increase the maximum file size allowed by the server. This can be done by adding the maxRequestLength attribute with a value greater than the size of your configuration file (in KB) to the httpRuntime element on line 26 of `C:\Program Files\Microsoft Application Virtualization Server\ManagementService\Web.config`.
+> [!NOTE]
+> If the upload fails and the size of your configuration file is above 4MB, you will need to increase the maximum file size allowed by the server. This can be done by adding the maxRequestLength attribute with a value greater than the size of your configuration file (in KB) to the httpRuntime element on line 26 of `C:\Program Files\Microsoft Application Virtualization Server\ManagementService\Web.config`.
 For example, changing `<httpRuntime targetFramework="4.5"/>` to `<httpRuntime targetFramework="4.5" maxRequestLength="8192"/>` will increase the maximum size to 8MB
-
-
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
- 
-
- 
-
-
-
-
-

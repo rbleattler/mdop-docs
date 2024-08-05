@@ -1,14 +1,9 @@
 ---
 title: Deploying the App-V 5.1 Server
-description: Deploying the App-V 5.1 Server
+description: You can install the Microsoft Application Virtualization (App-V) 5.1 server features by using different deployment configurations, which described in this topic.
 author: aczechowski
-ms.assetid: 987b61dc-00d6-49ba-8f1b-92d7b948e702
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
@@ -25,11 +20,11 @@ For information about deploying the App-V Server, see [About App-V 5.1](about-ap
 
 The App-V 5.1 Server is made up of five components. Each component serves a different purpose within the App-V 5.1 environment. Each of the five components is briefly described here:
 
-- Management Server – provides overall management functionality for the App-V 5.1 infrastructure.
-- Management Database – facilitates database predeployments for App-V 5.1 management.
-- Publishing Server – provides hosting and streaming functionality for virtual applications.
-- Reporting Server – provides App-V 5.1 reporting services.
-- Reporting Database – facilitates database predeployments for App-V 5.1 reporting.
+- Management Server: provides overall management functionality for the App-V 5.1 infrastructure.
+- Management Database: facilitates database predeployments for App-V 5.1 management.
+- Publishing Server: provides hosting and streaming functionality for virtual applications.
+- Reporting Server: provides App-V 5.1 reporting services.
+- Reporting Database: facilitates database predeployments for App-V 5.1 reporting.
 
 ## <a href="" id="---------app-v-5-1-stand-alone-deployment"></a> App-V 5.1 stand-alone deployment
 
@@ -92,4 +87,4 @@ Use the following link for more information [About App-V 5.1 Reporting](about-ap
 
 ## Other resources for the App-V server
 
-[Deploying App-V 5.1](deploying-app-v-51.md)
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)

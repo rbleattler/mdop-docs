@@ -1,11 +1,12 @@
 ---
-title: Technical Reference for App-V (Windows 10/11)
+title: Technical reference for App-V
 description: Learn strategy and context for many performance optimization practices in this technical reference for Application Virtualization (App-V).
 author: aczechowski
+ms.topic: reference
 ms.date: 04/19/2017
 ---
 
-# Technical Reference for App-V
+# Technical reference for App-V
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -16,7 +17,7 @@ This section provides reference information related to managing App-V.
 
 -   [Performance Guidance for Application Virtualization](appv-performance-guidance.md)
 
-    Provides strategy and context for many performance optimizations. Not all practices will be applicable. However, these practices are tested and supported. Using all suggested practices that are applicable to your organization will provide the optimal end-user experience.
+    Provides strategy and context for many performance optimizations. Not all practices are applicable. However, these practices are tested and supported. Using all suggested practices that are applicable to your organization can provide the optimal end-user experience.
 
 -   [Application Publishing and Client Interaction](appv-application-publishing-and-client-interaction.md)
 
@@ -38,12 +39,7 @@ Describes how the following App-V client operations affect the local operating s
 
 -   [Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications](appv-running-locally-installed-applications-inside-a-virtual-environment.md)
 
-    Describes reasons and methods for running a locally installed application in a virtual environment, alongside applications that have been virtualized by using Application Virtualization (App-V).
-
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
+    Describes reasons and methods for running a locally installed application in a virtual environment, alongside applications that are virtualized by using Application Virtualization (App-V).
 
 ## Related articles
 

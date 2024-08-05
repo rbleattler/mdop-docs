@@ -1,24 +1,19 @@
 ---
-title: How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
-description: How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
+title: How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell (5.1)
+description: Use the following Windows PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs).
 author: aczechowski
-ms.assetid: 2be6fb72-f3a6-4550-bba1-6defa78ca08a
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-# How to Install the App-V Databases and Convert the Associated Security Identifiers by Using PowerShell
+# How to install the App-V databases and convert the associated security identifiers by using Windows PowerShell (5.1)
 
-Use the following PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs) both in the standard format and in the hexadecimal format used by Microsoft SQL Server when running SQL scripts.
+Use the following Windows PowerShell procedure to convert any number of Active Directory Domain Services (AD DS) user or machine accounts into formatted Security Identifiers (SIDs) both in the standard format and in the hexadecimal format used by Microsoft SQL Server when running SQL scripts.
 
 Before attempting this procedure, you should read and understand the information and examples displayed in the following list:
 
-- **.INPUTS** – The account or accounts used to convert to SID format. This can be a single account name or an array of account names.
+- **.INPUTS** - The account or accounts used to convert to SID format. This can be a single account name or an array of account names.
 
 - **.OUTPUTS** - A list of account names with the corresponding SID in standard and hexadecimal formats.
 
@@ -137,8 +132,6 @@ Before attempting this procedure, you should read and understand the information
 
    **$accountsArray = @("DOMAIN\\user\_account1", "DOMAIN\\machine\_account1$", "DOMAIN\_user\_account2")**
    **.\\ConvertToSID.ps1 $accountsArray | Write-Output -FilePath .\\SIDs.txt -Width 200**
-
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
 ## Related topics
 

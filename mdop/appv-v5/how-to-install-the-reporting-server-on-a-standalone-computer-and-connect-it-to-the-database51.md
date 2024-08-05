@@ -1,19 +1,13 @@
 ---
-title: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
-description: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
+title: How to install the App-V 5.1 reporting server on a standalone computer and connect it to the database
+description: Use the following procedure to install the App-V 5.1 reporting server on a standalone computer and connect it to the database.
 author: aczechowski
-ms.assetid: 11f07750-4045-4c8d-a583-7d70c9e9aa7b
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to install the Reporting Server on a Standalone Computer and Connect it to the Database
+# How to install the App-V 5.1 reporting server on a standalone computer and connect it to the database
 
 Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
 
@@ -49,12 +43,10 @@ Before performing the following procedure you should read and understand [About 
 
 8. Click **Install**.
 
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
 [About App-V 5.1 Reporting](about-app-v-51-reporting.md)
 
-[Deploying App-V 5.1](deploying-app-v-51.md)
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)
 
 [How to Enable Reporting on the App-V 5.1 Client by Using PowerShell](how-to-enable-reporting-on-the-app-v-51-client-by-using-powershell.md)

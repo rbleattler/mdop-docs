@@ -1,24 +1,17 @@
 ---
-title: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
-description: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
+title: How to revert extension points from an App-V 5.1 package to an App-V 4.6 package for a specific user
+description: Use the following procedure to revert an App-V 5.1 package to the App-V file format using the user configuration file.
 author: aczechowski
-ms.assetid: bd53c5d6-7fd2-4816-b03b-d59da0a35819
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/21/2016
 ---
 
-
-# How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
-
+# How to revert extension points from an App-V 5.1 package to an App-V 4.6 package for a specific user
 
 Use the following procedure to revert an App-V 5.1 package to the App-V file format using the user configuration file.
 
-**To revert a package**
+## To revert a package
 
 1.  Ensure that App-V 4.6 package is published to the users but the FTAs and shortcuts have been assumed by App-V 5.1 package using the following migration method, [How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.1 for a Specific User](how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-51-for-a-specific-user.md).
 
@@ -26,27 +19,13 @@ Use the following procedure to revert an App-V 5.1 package to the App-V file for
 
 2.  From an elevated command prompt, type:
 
-    PS&gt;**Publish-AppVClientPackage $pkg –DynamicUserConfigurationPath** &lt;path to user configuration file&gt;
+    PS&gt;**Publish-AppVClientPackage $pkg -DynamicUserConfigurationPath** &lt;path to user configuration file&gt;
 
 3.  Perform a publishing refresh, or wait for the next scheduled publishing refresh for the App-V 4.6. Open the application using FTAs or shortcuts. The Application should now open using App-V 4.6.
 
-    **Note**
-    If you do not need the App-V 5.1 package anymore, you can unpublish the App-V 5.1 package and the extension points will automatically revert to App-V 4.6.
-
-
-
-**Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    > [!NOTE]
+    > If you don't need the App-V 5.1 package anymore, you can unpublish the App-V 5.1 package and the extension points will automatically revert to App-V 4.6.
 
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

@@ -1,17 +1,17 @@
 ---
-title: How to Enable Reporting on the App-V Client by Using Windows PowerShell (Windows 10/11)
-description: How to Enable Reporting on the App-V Client by Using Windows PowerShell
+title: How to enable reporting on the App-V client by using Windows PowerShell
+description: Use the following procedure to configure the App-V for reporting.
 author: aczechowski
 ms.date: 04/19/2017
 ---
 
-# How to Enable Reporting on the App-V Client by Using Windows PowerShell
+# How to enable reporting on the App-V client by using Windows PowerShell
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
 Use the following procedure to configure the App-V for reporting.
 
-**To configure the computer running the App-V client for reporting**
+## To configure the computer running the App-V client for reporting
 
 1. Enable the App-V client. For more information, see [Enable the App-V desktop client](appv-enable-the-app-v-desktop-client.md).
 
@@ -31,12 +31,6 @@ Use the following procedure to configure the App-V for reporting.
 
    Additionally, administrators can manually send the data back in an on-demand manner using the **Send-AppvClientReport** cmdlet.
 
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
-
 ## Related articles
-
 
 [Administering App-V by Using Windows PowerShell](appv-administering-appv-with-powershell.md)

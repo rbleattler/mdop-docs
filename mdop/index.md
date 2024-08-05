@@ -2,20 +2,16 @@
 title: MDOP information experience
 description: MDOP information experience.
 author: aczechowski
-ms.date: 06/28/2024
+ms.date: 07/30/2024
 ---
 
 # MDOP information experience
 
 The Microsoft Desktop Optimization Pack (MDOP) is a portfolio of technologies available as a subscription for Software Assurance customers. MDOP helps to improve compatibility and management, reduce support costs, improve asset management, and improve policy control.
 
-> [!IMPORTANT]
-> Extended support for MDOP ends on April 14, 2026. For more information, see [Microsoft Desktop Optimization Pack (MDOP) support extended](/lifecycle/announcements/mdop-extended).
+[!INCLUDE [mdop-lifecycle-statement](includes/mdop-lifecycle-statement.md)]
 
 The following sections provide links to the product documentation for supported MDOP products.
-
-> [!NOTE]
-> Documentation for previous versions of MDOP is available with the [Windows previous versions documentation](/previous-versions/windows/microsoft-desktop-optimization-pack/).
 
 ## Advanced Group Policy Management (AGPM)
 
@@ -29,7 +25,7 @@ AGPM extends the capabilities of the Group Policy Management Console (GPMC) to p
 
 App-V lets you make applications available to end user computers without installing the applications directly on those computers.
 
-For more information, see the [Microsoft Application Virtualization 5.1 administrator's guide](appv-v5/microsoft-application-virtualization-51-administrators-guide.md).
+For more information, see the [Microsoft Application Virtualization 5.1 administrator's guide](appv-v5/index.md).
 
 - Application Virtualization 5.0 for Remote Desktop Services Service Pack 3
 
@@ -71,6 +67,8 @@ For information about UE-V in Windows 10, see [User Experience Virtualization (U
 
 ## Download MDOP
 
-MDOP is available as an additional subscription for Software Assurance customers. MDOP subscribers can download the software at the [Microsoft Volume Licensing website (MVLS)](https://go.microsoft.com/fwlink/p/?LinkId=166331).
+MDOP is available as an additional subscription for Software Assurance customers. MDOP subscribers can download the software at the [Microsoft M365 admin center](https://admin.microsoft.com/adminportal/home#/subscriptions/vlnew).
 
-You can manage the feature settings of certain Microsoft Desktop Optimization Pack (MDOP) technologies (for example, App-V, UE-V, or MBAM) by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
+## Manage settings
+
+You can manage the feature settings for App-V, UE-V, and MBAM by using group policy templates, the `.admx` and `.adml` files. MDOP group policy templates are available for download in a self-extracting, compressed file, grouped by technology and version. For more information, see [How to download and deploy MDOP group policy (.admx) templates](solutions/how-to-download-and-deploy-mdop-group-policy--admx--templates.md).
