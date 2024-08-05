@@ -52,7 +52,8 @@ The following table lists the operating systems that are supported for the DaRT 
 > [!NOTE]
 >
 > - Make sure that you allocate enough space for any additional tools that you want to install on the administrator computer.
-> - Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Lifecycle Supported Service Packs](https://go.microsoft.com/fwlink/p/?LinkId=31975). For additional information about Microsoft Support Lifecycle Policy, see [Microsoft Support Lifecycle Support Policy FAQ](https://go.microsoft.com/fwlink/p/?LinkId=31976).
+>
+> - Microsoft provides support for the current service pack and, in some cases, the immediately preceding service pack. To find the support timelines for your product, see the [Microsoft Lifecycle Policy](/lifecycle/).
 
 | OS | Edition | Architecture | OS memory | DaRT memory |
 |--|--|--|--|--|

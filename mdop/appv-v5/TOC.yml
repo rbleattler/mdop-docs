@@ -2,488 +2,222 @@ Items:
 - name: Application Virtualization 5
   href: index.md
   items:
-  - name: Application Virtualization 5.1
-    href: microsoft-application-virtualization-51-administrators-guide.md
+  - name: Getting Started with App-V 5.1
+    href: getting-started-with-app-v-51.md
     items:
-    - name: Getting Started with App-V 5.1
-      href: getting-started-with-app-v-51.md
+    - name: About App-V 5.1
+      href: about-app-v-51.md
       items:
-      - name: About App-V 5.1
-        href: about-app-v-51.md
-        items:
-        - name: Release Notes for App-V 5.1
-          href: release-notes-for-app-v-51.md
-      - name: Evaluating App-V 5.1
-        href: evaluating-app-v-51.md
-      - name: High Level Architecture for App-V 5.1
-        href: high-level-architecture-for-app-v-51.md
-      - name: Accessibility for App-V 5.1
-        href: accessibility-for-app-v-51.md
-    - name: Planning for App-V 5.1
-      href: planning-for-app-v-51.md
-      items:
-      - name: Preparing Your Environment for App-V 5.1
-        href: preparing-your-environment-for-app-v-51.md
-        items:
-        - name: App-V 5.1 Prerequisites
-          href: app-v-51-prerequisites.md
-        - name: App-V 5.1 Security Considerations
-          href: app-v-51-security-considerations.md
-      - name: Planning to Deploy App-V 5.1
-        href: planning-to-deploy-app-v51.md
-        items:
-        - name: App-V 5.1 Supported Configurations
-          href: app-v-51-supported-configurations.md
-        - name: App-V 5.1 Capacity Planning
-          href: app-v-51-capacity-planning.md
-        - name: Planning for High Availability with App-V 5.1
-          href: planning-for-high-availability-with-app-v-51.md
-        - name: Planning to Deploy App-V 5.1 with an Electronic Software Distribution System
-          href: planning-to-deploy-app-v-51-with-an-electronic-software-distribution-system.md
-        - name: Planning for the App-V 5.1 Server Deployment
-          href: planning-for-the-app-v-51-server-deployment.md
-        - name: Planning for the App-V 5.1 Sequencer and Client Deployment
-          href: planning-for-the-app-v-51-sequencer-and-client-deployment.md
-        - name: Planning for Migrating from a Previous Version of App-V
-          href: planning-for-migrating-from-a-previous-version-of-app-v51.md
-        - name: Planning for Using App-V with Office 5.1
-          href: planning-for-using-app-v-with-office51.md
-        - name: Planning to Use Folder Redirection with App-V 5.1
-          href: planning-to-use-folder-redirection-with-app-v51.md
-      - name: App-V 5.1 Planning Checklist
-        href: app-v-51-planning-checklist.md
-    - name: Deploying App-V 5.1
-      href: deploying-app-v-51.md
-      items:
-      - name: Deploying the App-V 5.1 Sequencer and Client
-        href: deploying-the-app-v-51-sequencer-and-client.md
-        items:
-        - name: How to Deploy the App-V Client
-          href: how-to-deploy-the-app-v-client-51gb18030.md
-        - name: About Client Configuration Settings 5.1
-          href: about-client-configuration-settings51.md
-        - name: How to Deploy the App-V 4.6 and the App-V  5.1 Client on the Same Computer
-          href: how-to-deploy-the-app-v-46-and-the-app-v--51-client-on-the-same-computer.md
-        - name: How to Install the App-V 5.1 Client for Shared Content Store Mode
-          href: how-to-install-the-app-v-51-client-for-shared-content-store-mode.md
-        - name: How to Install the Sequencer
-          href: how-to-install-the-sequencer-51beta-gb18030.md
-        - name: How to Modify App-V 5.1 Client Configuration Using the ADMX Template and Group Policy
-          href: how-to-modify-app-v-51-client-configuration-using-the-admx-template-and-group-policy.md
-        - name: How to Uninstall the App-V 5.1 Client
-          href: how-to-uninstall-the-app-v-51-client.md
-      - name: Deploying the App-V 5.1 Server
-        href: deploying-the-app-v-51-server.md
-        items:
-        - name: How to Deploy the App-V 5.1 Server
-          href: how-to-deploy-the-app-v-51-server.md
-        - name: How to Deploy the App-V 5.1 Server Using a Script
-          href: how-to-deploy-the-app-v-51-server-using-a-script.md
-        - name: How to Deploy the App-V Databases by Using SQL Scripts 5.1
-          href: how-to-deploy-the-app-v-databases-by-using-sql-scripts51.md
-        - name: How to Install the Publishing Server on a Remote Computer
-          href: how-to-install-the-publishing-server-on-a-remote-computer51.md
-        - name: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services 5.1
-          href: how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services51.md
-        - name: How to install the Management Server on a Standalone Computer and Connect it to the Database 5.1
-          href: how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database51.md
-        - name: About App-V 5.1 Reporting
-          href: about-app-v-51-reporting.md
-        - name: How to install the Reporting Server on a Standalone Computer and Connect it to the Database 5.1
-          href: how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database51.md
-      - name: App-V 5.1 Deployment Checklist
-        href: app-v-51-deployment-checklist.md
-      - name: Deploying Microsoft Office 2016 by Using App-V 5.1
-        href: deploying-microsoft-office-2016-by-using-app-v51.md
-      - name: Deploying Microsoft Office 2013 by Using App-V 5.1
-        href: deploying-microsoft-office-2013-by-using-app-v51.md
-      - name: Deploying Microsoft Office 2010 by Using App-V 5.1
-        href: deploying-microsoft-office-2010-by-using-app-v51.md
-    - name: Operations for App-V 5.1
-      href: operations-for-app-v-51.md
-      items:
-      - name: Creating and Managing App-V 5.1 Virtualized Applications
-        href: creating-and-managing-app-v-51-virtualized-applications.md
-        items:
-        - name: How to Sequence a New Application with App-V 5.1
-          href: how-to-sequence-a-new-application-with-app-v-51-beta-gb18030.md
-        - name: How to Modify an Existing Virtual Application Package  5.1
-          href: how-to-modify-an-existing-virtual-application-package-51.md
-        - name: How to Create and Use a Project Template 5.1
-          href: how-to-create-and-use-a-project-template51.md
-        - name: How to Create a Package Accelerator 5.1
-          href: how-to-create-a-package-accelerator51.md
-        - name: How to Create a Virtual Application Package Using an App-V Package Accelerator 5.1
-          href: how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator51.md
-      - name: Administering App-V 5.1 Virtual Applications by Using the Management Console
-        href: administering-app-v-51-virtual-applications-by-using-the-management-console.md
-        items:
-        - name: About App-V 5.1 Dynamic Configuration
-          href: about-app-v-51-dynamic-configuration.md
-        - name: How to Connect to the Management Console  5.1
-          href: how-to-connect-to-the-management-console-51.md
-        - name: How to Add or Upgrade Packages by Using the Management Console
-          href: how-to-add-or-upgrade-packages-by-using-the-management-console-51-gb18030.md
-        - name: How to Configure Access to Packages by Using the Management Console  5.1
-          href: how-to-configure-access-to-packages-by-using-the-management-console-51.md
-        - name: How to Publish a Package by Using the Management Console  5.1
-          href: how-to-publish-a-package-by-using-the-management-console-51.md
-        - name: How to Delete a Package in the Management Console  5.1
-          href: how-to-delete-a-package-in-the-management-console-51.md
-        - name: How to Add or Remove an Administrator by Using the Management Console 5.1
-          href: how-to-add-or-remove-an-administrator-by-using-the-management-console51.md
-        - name: How to Register and Unregister a Publishing Server by Using the Management Console 5.1
-          href: how-to-register-and-unregister-a-publishing-server-by-using-the-management-console51.md
-        - name: How to Create a Custom Configuration File by Using the App-V 5.1 Management Console
-          href: how-to-create-a-custom-configuration-file-by-using-the-app-v-51-management-console.md
-        - name: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console 5.1
-          href: how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console51.md
-        - name: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console 5.1
-          href: how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console51.md
-        - name: Configure Applications and Default Virtual Application Extensions in Management Console
-          href: configure-applications-and-default-virtual-application-extensions-in-management-console.md
-      - name: Managing Connection Groups 5.1
-        href: managing-connection-groups51.md
-        items:
-        - name: About the Connection Group Virtual Environment 5.1
-          href: about-the-connection-group-virtual-environment51.md
-        - name: About the Connection Group File 5.1
-          href: about-the-connection-group-file51.md
-        - name: How to Create a Connection Group 5.1
-          href: how-to-create-a-connection-group51.md
-        - name: How to Create a Connection Group with User-Published and Globally Published Packages 5.1
-          href: how-to-create-a-connection-group-with-user-published-and-globally-published-packages51.md
-        - name: How to Delete a Connection Group 5.1
-          href: how-to-delete-a-connection-group51.md
-        - name: How to Publish a Connection Group 5.1
-          href: how-to-publish-a-connection-group51.md
-        - name: How to Use Optional Packages in Connection Groups 5.1
-          href: how-to-use-optional-packages-in-connection-groups51.md
-        - name: How to Make a Connection Group Ignore the Package Version 5.1
-          href: how-to-make-a-connection-group-ignore-the-package-version51.md
-        - name: How to Allow Only Administrators to Enable Connection Groups 5.1
-          href: how-to-allow-only-administrators-to-enable-connection-groups51.md
-      - name: Deploying App-V 5.1 Packages by Using Electronic Software Distribution (ESD)
-        href: deploying-app-v-51-packages-by-using-electronic-software-distribution--esd-.md
-        items:
-        - name: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
-          href: how-to-deploy-app-v-51-packages-using-electronic-software-distribution.md
-        - name: How to Enable Only Administrators to Publish Packages by Using an ESD 5.1
-          href: how-to-enable-only-administrators-to-publish-packages-by-using-an-esd51.md
-      - name: Using the App-V 5.1 Client Management Console
-        href: using-the-app-v-51-client-management-console.md
-        items:
-        - name: How to Access the Client Management Console 5.1
-          href: how-to-access-the-client-management-console51.md
-        - name: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server  5.1
-          href: how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-51.md
-      - name: Migrating to App-V 5.1 from a Previous Version
-        href: migrating-to-app-v-51-from-a-previous-version.md
-        items:
-        - name: Check Registry Keys before installing App-V 5.x Server
-          href: check-reg-key-svr.md
-        - name: How to Convert a Package Created in a Previous Version of App-V 5.1
-          href: how-to-convert-a-package-created-in-a-previous-version-of-app-v51.md
-        - name: How to Migrate Extension Points From an App-V 4.6 Package to a Converted App-V 5.1 Package for All Users on a Specific Computer
-          href: how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-51-package-for-all-users-on-a-specific-computer.md
-        - name: How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.1 for a Specific User
-          href: how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-51-for-a-specific-user.md
-        - name: How to Revert Extension Points from an App-V 5.1 Package to an App-V 4.6 Package For All Users on a Specific Computer
-          href: how-to-revert-extension-points-from-an-app-v-51-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer.md
-        - name: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
-          href: how-to-revert-extension-points-from-an-app-v-51-package-to-an-app-v-46-package-for-a-specific-user.md
-        - name: How to Use an App-V 4.6 Application From an App-V 5.1 Application
-          href: how-to-use-an-app-v-46-sp1-application-from-an-app-v-51-application.md
-      - name: Maintaining App-V 5.1
-        href: maintaining-app-v-51.md
-        items:
-        - name: How to Move the App-V Server to Another Computer 5.1
-          href: how-to-move-the-app-v-server-to-another-computer51.md
-      - name: Administering App-V 5.1 by Using PowerShell
-        href: administering-app-v-51-by-using-powershell.md
-        items:
-        - name: How to Load the PowerShell Cmdlets and Get Cmdlet Help  5.1
-          href: how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-51.md
-        - name: How to Manage App-V 5.1 Packages Running on a Stand-Alone Computer by Using PowerShell
-          href: how-to-manage-app-v-51-packages-running-on-a-stand-alone-computer-by-using-powershell.md
-        - name: How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell 5.1
-          href: how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell51.md
-        - name: How to Modify Client Configuration by Using PowerShell 5.1
-          href: how-to-modify-client-configuration-by-using-powershell51.md
-        - name: How to Apply the User Configuration File by Using PowerShell 5.1
-          href: how-to-apply-the-user-configuration-file-by-using-powershell51.md
-        - name: How to Apply the Deployment Configuration File by Using PowerShell 5.1
-          href: how-to-apply-the-deployment-configuration-file-by-using-powershell51.md
-        - name: How to Sequence a Package  by Using PowerShell  5.1
-          href: how-to-sequence-a-package--by-using-powershell-51.md
-        - name: How to Create a Package Accelerator by Using PowerShell 5.1
-          href: how-to-create-a-package-accelerator-by-using-powershell51.md
-        - name: How to Enable Reporting on the App-V 5.1 Client by Using PowerShell
-          href: how-to-enable-reporting-on-the-app-v-51-client-by-using-powershell.md
-        - name: How to Install the App-V Databases and Convert the Associated Security Identifiers  by Using PowerShell 5.1
-          href: how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell51.md
-    - name: Troubleshooting App-V 5.1
-      href: troubleshooting-app-v-51.md
-    - name: Technical Reference for App-V 5.1
-      href: technical-reference-for-app-v-51.md
-      items:
-      - name: Performance Guidance for Application Virtualization 5.1
-        href: performance-guidance-for-application-virtualization-51.md
-      - name: Application Publishing and Client Interaction 5.1
-        href: application-publishing-and-client-interaction51.md
-      - name: Viewing App-V Server Publishing Metadata 5.1
-        href: viewing-app-v-server-publishing-metadata51.md
-      - name: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications 5.1
-        href: running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications51.md
-  - name: Application Virtualization 5.0
-    href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/microsoft-application-virtualization-50-administrators-guide
+      - name: Release Notes for App-V 5.1
+        href: release-notes-for-app-v-51.md
+    - name: Evaluating App-V 5.1
+      href: evaluating-app-v-51.md
+    - name: High Level Architecture for App-V 5.1
+      href: high-level-architecture-for-app-v-51.md
+    - name: Accessibility for App-V 5.1
+      href: accessibility-for-app-v-51.md
+  - name: Planning for App-V 5.1
+    href: app-v-51-planning-checklist.md
     items:
-    - name: Getting Started with App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/getting-started-with-app-v-50--rtm
+    - name: App-V 5.1 Prerequisites
+      href: app-v-51-prerequisites.md
+    - name: App-V 5.1 Security Considerations
+      href: app-v-51-security-considerations.md
+    - name: Planning to Deploy App-V 5.1
       items:
-      - name: About App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50
-        items:
-        - name: What's New in App-V 5.0
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50
-        - name: Release Notes for App-V 5.0
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50
-      - name: About App-V 5.0 SP1
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp1
-        items:
-        - name: What's new in App-V 5.0 SP1
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50-sp1
-      - name: About App-V 5.0 SP2
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp2
-        items:
-        - name: Release Notes for App-V 5.0 SP2
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp2
-      - name: About App-V 5.0 SP3
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-sp3
-        items:
-        - name: Release Notes for App-V 5.0 SP3
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/release-notes-for-app-v-50-sp3
-      - name: Evaluating App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/evaluating-app-v-50
-      - name: High Level Architecture for App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/high-level-architecture-for-app-v-50
-      - name: Accessibility for App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/accessibility-for-app-v-50
-    - name: Planning for App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-app-v-50-rc
+      - name: App-V 5.1 Supported Configurations
+        href: app-v-51-supported-configurations.md
+      - name: App-V 5.1 Capacity Planning
+        href: app-v-51-capacity-planning.md
+      - name: Planning for High Availability with App-V 5.1
+        href: planning-for-high-availability-with-app-v-51.md
+      - name: Planning to Deploy App-V 5.1 with an Electronic Software Distribution System
+        href: planning-to-deploy-app-v-51-with-an-electronic-software-distribution-system.md
+      - name: Planning for the App-V 5.1 Server Deployment
+        href: planning-for-the-app-v-51-server-deployment.md
+      - name: Planning for the App-V 5.1 Sequencer and Client Deployment
+        href: planning-for-the-app-v-51-sequencer-and-client-deployment.md
+      - name: Planning for Migrating from a Previous Version of App-V
+        href: planning-for-migrating-from-a-previous-version-of-app-v51.md
+      - name: Planning for Using App-V with Office 5.1
+        href: planning-for-using-app-v-with-office51.md
+      - name: Planning to Use Folder Redirection with App-V 5.1
+        href: planning-to-use-folder-redirection-with-app-v51.md
+  - name: Deploying App-V 5.1
+    href: app-v-51-deployment-checklist.md
+    items:
+    - name: Deploying the App-V 5.1 Sequencer and Client
+      href: deploying-the-app-v-51-sequencer-and-client.md
       items:
-      - name: Preparing Your Environment for App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/preparing-your-environment-for-app-v-50
-        items:
-        - name: App-V 5.0 Prerequisites
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-prerequisites
-        - name: App-V 5.0 SP3 Prerequisites
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-prerequisites
-        - name: App-V 5.0 Security Considerations
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-security-considerations
-      - name: Planning to Deploy App-V
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v
-        items:
-        - name: App-V 5.0 Supported Configurations
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-supported-configurations
-        - name: App-V 5.0 SP3 Supported Configurations
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-sp3-supported-configurations
-        - name: App-V 5.0 Capacity Planning
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-capacity-planning
-        - name: Planning for High Availability with App-V 5.0
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-high-availability-with-app-v-50
-        - name: Planning to Deploy App-V 5.0 with an Electronic Software Distribution System
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-deploy-app-v-50-with-an-electronic-software-distribution-system
-        - name: Planning for the App-V 5.0 Server Deployment
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-server-deployment
-        - name: Planning for the App-V 5.0 Sequencer and Client Deployment
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-the-app-v-50-sequencer-and-client-deployment
-        - name: Planning for Migrating from a Previous Version of App-V
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-migrating-from-a-previous-version-of-app-v
-        - name: Planning for Using App-V with Office
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-for-using-app-v-with-office
-        - name: Planning to Use Folder Redirection with App-V
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/planning-to-use-folder-redirection-with-app-v
-      - name: App-V 5.0 Planning Checklist
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-planning-checklist
-    - name: Deploying App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50
+      - name: How to Deploy the App-V Client
+        href: how-to-deploy-the-app-v-client-51gb18030.md
+      - name: About Client Configuration Settings 5.1
+        href: about-client-configuration-settings51.md
+      - name: How to Deploy the App-V 4.6 and the App-V  5.1 Client on the Same Computer
+        href: how-to-deploy-the-app-v-46-and-the-app-v--51-client-on-the-same-computer.md
+      - name: How to Install the App-V 5.1 Client for Shared Content Store Mode
+        href: how-to-install-the-app-v-51-client-for-shared-content-store-mode.md
+      - name: How to Install the Sequencer
+        href: how-to-install-the-sequencer-51beta-gb18030.md
+      - name: How to Modify App-V 5.1 Client Configuration Using the ADMX Template and Group Policy
+        href: how-to-modify-app-v-51-client-configuration-using-the-admx-template-and-group-policy.md
+      - name: How to Uninstall the App-V 5.1 Client
+        href: how-to-uninstall-the-app-v-51-client.md
+    - name: Deploying the App-V 5.1 Server
+      href: deploying-the-app-v-51-server.md
       items:
-      - name: Deploying the App-V 5.0 Sequencer and Client
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-sequencer-and-client
-        items:
-        - name: How to Deploy the App-V Client
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-client-gb18030
-        - name: About Client Configuration Settings
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-client-configuration-settings
-        - name: How to Deploy the App-V 4.6 and the App-V  5.0 Client on the Same Computer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-46-and-the-app-v--50-client-on-the-same-computer
-        - name: How to Install the App-V 5.0 Client for Shared Content Store Mode
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-50-client-for-shared-content-store-mode
-        - name: How to Install the Sequencer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-sequencer-beta-gb18030
-        - name: How to Modify App-V 5.0 Client Configuration Using the ADMX Template and Group Policy
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-app-v-50-client-configuration-using-the-admx-template-and-group-policy
-        - name: How to Uninstall the App-V 5.0 Client
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-uninstall-the-app-v-50-client
-      - name: Deploying the App-V 5.0 Server
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-the-app-v-50-server
-        items:
-        - name: How to Deploy the App-V 5.0 Server
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-50sp3
-        - name: How to Deploy the App-V 5.0 Server Using a Script
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-50-server-using-a-script
-        - name: How to Deploy the App-V Databases by Using SQL Scripts
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-the-app-v-databases-by-using-sql-scripts
-        - name: How to Install the Publishing Server on a Remote Computer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-publishing-server-on-a-remote-computer
-        - name: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services
-        - name: How to install the Management Server on a Standalone Computer and Connect it to the Database
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database
-        - name: About App-V 5.0 Reporting
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-reporting
-        - name: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database
-      - name: App-V 5.0 Deployment Checklist
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/app-v-50-deployment-checklist
-      - name: Deploying Microsoft Office 2016 by Using App-V
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2016-by-using-app-v
-      - name: Deploying Microsoft Office 2013 by Using App-V
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2013-by-using-app-v
-      - name: Deploying Microsoft Office 2010 by Using App-V
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-microsoft-office-2010-by-using-app-v
-    - name: Operations for App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/operations-for-app-v-50
+      - name: How to Deploy the App-V 5.1 Server
+        href: how-to-deploy-the-app-v-51-server.md
+      - name: How to Deploy the App-V 5.1 Server Using a Script
+        href: how-to-deploy-the-app-v-51-server-using-a-script.md
+      - name: How to Deploy the App-V Databases by Using SQL Scripts 5.1
+        href: how-to-deploy-the-app-v-databases-by-using-sql-scripts51.md
+      - name: How to Install the Publishing Server on a Remote Computer
+        href: how-to-install-the-publishing-server-on-a-remote-computer51.md
+      - name: How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services 5.1
+        href: how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services51.md
+      - name: How to install the Management Server on a Standalone Computer and Connect it to the Database 5.1
+        href: how-to-install-the-management-server-on-a-standalone-computer-and-connect-it-to-the-database51.md
+      - name: About App-V 5.1 Reporting
+        href: about-app-v-51-reporting.md
+      - name: How to install the Reporting Server on a Standalone Computer and Connect it to the Database 5.1
+        href: how-to-install-the-reporting-server-on-a-standalone-computer-and-connect-it-to-the-database51.md
+    - name: Deploying Microsoft Office 2016 by Using App-V 5.1
+      href: deploying-microsoft-office-2016-by-using-app-v51.md
+    - name: Deploying Microsoft Office 2013 by Using App-V 5.1
+      href: deploying-microsoft-office-2013-by-using-app-v51.md
+    - name: Deploying Microsoft Office 2010 by Using App-V 5.1
+      href: deploying-microsoft-office-2010-by-using-app-v51.md
+  - name: Operations for App-V 5.1
+    href: operations-for-app-v-51.md
+    items:
+    - name: Creating and Managing App-V 5.1 Virtualized Applications
+      href: creating-and-managing-app-v-51-virtualized-applications.md
       items:
-      - name: Creating and Managing App-V 5.0 Virtualized Applications
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/creating-and-managing-app-v-50-virtualized-applications
-        items:
-        - name: How to Sequence a New Application with App-V 5.0
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-new-application-with-app-v-50-beta-gb18030
-        - name: How to Modify an Existing Virtual Application Package
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-an-existing-virtual-application-package-beta
-        - name: How to Create and Use a Project Template
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-and-use-a-project-template
-        - name: How to Create a Package Accelerator
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator
-        - name: How to Create a Virtual Application Package Using an App-V Package Accelerator
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator
-      - name: Administering App-V 5.0 Virtual Applications by Using the Management Console
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-50-virtual-applications-by-using-the-management-console
-        items:
-        - name: About App-V 5.0 Dynamic Configuration
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-app-v-50-dynamic-configuration
-        - name: How to Connect to the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-connect-to-the-management-console-beta
-        - name: How to Add or Upgrade Packages by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-upgrade-packages-by-using-the-management-console-beta-gb18030
-        - name: How to Configure Access to Packages by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-access-to-packages-by-using-the-management-console-50
-        - name: How to Publish a Package by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-package-by-using-the-management-console-50
-        - name: How to Delete a Package in the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-package-in-the-management-console-beta
-        - name: How to Add or Remove an Administrator by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-add-or-remove-an-administrator-by-using-the-management-console
-        - name: How to Register and Unregister a Publishing Server by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-register-and-unregister-a-publishing-server-by-using-the-management-console
-        - name: How to Create a Custom Configuration File by Using the App-V 5.0 Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-custom-configuration-file-by-using-the-app-v-50-management-console
-        - name: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console
-        - name: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console
-        - name: How to View and Configure Applications and Default Virtual Application Extensions by Using the Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-view-and-configure-applications-and-default-virtual-application-extensions-by-using-the-management-console-beta
-      - name: Managing Connection Groups
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/managing-connection-groups
-        items:
-        - name: About the Connection Group Virtual Environment
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-virtual-environment
-        - name: About the Connection Group File
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/about-the-connection-group-file
-        - name: How to Create a Connection Group
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group
-        - name: How to Create a Connection Group with User-Published and Globally Published Packages
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-connection-group-with-user-published-and-globally-published-packages
-        - name: How to Delete a Connection Group
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-delete-a-connection-group
-        - name: How to Publish a Connection Group
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-publish-a-connection-group
-        - name: How to Use Optional Packages in Connection Groups
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-optional-packages-in-connection-groups
-        - name: How to Make a Connection Group Ignore the Package Version
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-make-a-connection-group-ignore-the-package-version
-        - name: How to Allow Only Administrators to Enable Connection Groups
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-allow-only-administrators-to-enable-connection-groups
-      - name: Deploying App-V 5.0 Packages by Using Electronic Software Distribution (ESD)
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/deploying-app-v-50-packages-by-using-electronic-software-distribution--esd-
-        items:
-        - name: How to deploy App-V 5.0 Packages Using Electronic Software Distribution
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-deploy-app-v-50-packages-using-electronic-software-distribution
-        - name: How to Enable Only Administrators to Publish Packages by Using an ESD
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-only-administrators-to-publish-packages-by-using-an-esd
-      - name: Using the App-V 5.0 Client Management Console
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/using-the-app-v-50-client-management-console
-        items:
-        - name: How to Access the Client Management Console
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-access-the-client-management-console
-        - name: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-beta
-      - name: Migrating from a Previous Version
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/migrating-from-a-previous-version-app-v-50
-        items:
-        - name: How to Convert a Package Created in a Previous Version of App-V
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-convert-a-package-created-in-a-previous-version-of-app-v
-        - name: How to Migrate Extension Points From an App-V 4.6 Package to a Converted App-V 5.0 Package for All Users on a Specific Computer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-50-package-for-all-users-on-a-specific-computer
-        - name: How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.0 for a Specific User
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-50-for-a-specific-user
-        - name: How to Revert Extension Points from an App-V 5.0 Package to an App-V 4.6 Package For All Users on a Specific Computer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer
-        - name: How to Revert Extension Points From an App-V 5.0 Package to an App-V 4.6 Package for a Specific User
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-revert-extension-points-from-an-app-v-50-package-to-an-app-v-46-package-for-a-specific-user
-        - name: How to Use an App-V 4.6 Application From an App-V 5.0 Application
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-use-an-app-v-46-sp1-application-from-an-app-v-50-application
-      - name: Maintaining App-V 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/maintaining-app-v-50
-        items:
-        - name: How to Move the App-V Server to Another Computer
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-move-the-app-v-server-to-another-computer
-      - name: Administering App-V by Using PowerShell
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/administering-app-v-by-using-powershell
-        items:
-        - name: How to Load the PowerShell Cmdlets and Get Cmdlet Help
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-50-sp3
-        - name: How to Manage App-V 5.0 Packages Running on a Stand-Alone Computer by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-app-v-50-packages-running-on-a-stand-alone-computer-by-using-powershell
-        - name: How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell
-        - name: How to Modify Client Configuration by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-modify-client-configuration-by-using-powershell
-        - name: How to Apply the User Configuration File by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-user-configuration-file-by-using-powershell
-        - name: How to Apply the Deployment Configuration File by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-apply-the-deployment-configuration-file-by-using-powershell
-        - name: How to Sequence a Package  by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-sequence-a-package--by-using-powershell-50
-        - name: How to Create a Package Accelerator by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-create-a-package-accelerator-by-using-powershell
-        - name: How to Enable Reporting on the App-V 5.0 Client by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-enable-reporting-on-the-app-v-50-client-by-using-powershell
-        - name: How to Install the App-V Databases and Convert the Associated Security Identifiers  by Using PowerShell
-          href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell
-    - name: Troubleshooting App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/troubleshooting-app-v-50
-    - name: Technical Reference for App-V 5.0
-      href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/technical-reference-for-app-v-50
+      - name: How to Sequence a New Application with App-V 5.1
+        href: how-to-sequence-a-new-application-with-app-v-51-beta-gb18030.md
+      - name: How to Modify an Existing Virtual Application Package  5.1
+        href: how-to-modify-an-existing-virtual-application-package-51.md
+      - name: How to Create and Use a Project Template 5.1
+        href: how-to-create-and-use-a-project-template51.md
+      - name: How to Create a Package Accelerator 5.1
+        href: how-to-create-a-package-accelerator51.md
+      - name: How to Create a Virtual Application Package Using an App-V Package Accelerator 5.1
+        href: how-to-create-a-virtual-application-package-using-an-app-v-package-accelerator51.md
+    - name: Administering App-V 5.1 Virtual Applications by Using the Management Console
+      href: administering-app-v-51-virtual-applications-by-using-the-management-console.md
       items:
-      - name: Performance Guidance for Application Virtualization 5.0
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-50
-      - name: Application Publishing and Client Interaction
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/application-publishing-and-client-interaction
-      - name: Viewing App-V Server Publishing Metadata
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/viewing-app-v-server-publishing-metadata
-      - name: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications
-        href: /previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications
+      - name: About App-V 5.1 Dynamic Configuration
+        href: about-app-v-51-dynamic-configuration.md
+      - name: How to Connect to the Management Console  5.1
+        href: how-to-connect-to-the-management-console-51.md
+      - name: How to Add or Upgrade Packages by Using the Management Console
+        href: how-to-add-or-upgrade-packages-by-using-the-management-console-51-gb18030.md
+      - name: How to Configure Access to Packages by Using the Management Console  5.1
+        href: how-to-configure-access-to-packages-by-using-the-management-console-51.md
+      - name: How to Publish a Package by Using the Management Console  5.1
+        href: how-to-publish-a-package-by-using-the-management-console-51.md
+      - name: How to Delete a Package in the Management Console  5.1
+        href: how-to-delete-a-package-in-the-management-console-51.md
+      - name: How to Add or Remove an Administrator by Using the Management Console 5.1
+        href: how-to-add-or-remove-an-administrator-by-using-the-management-console51.md
+      - name: How to Register and Unregister a Publishing Server by Using the Management Console 5.1
+        href: how-to-register-and-unregister-a-publishing-server-by-using-the-management-console51.md
+      - name: How to Create a Custom Configuration File by Using the App-V 5.1 Management Console
+        href: how-to-create-a-custom-configuration-file-by-using-the-app-v-51-management-console.md
+      - name: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console 5.1
+        href: how-to-transfer-access-and-configurations-to-another-version-of-a-package-by-using-the-management-console51.md
+      - name: How to Customize Virtual Applications Extensions for a Specific AD Group by Using the Management Console 5.1
+        href: how-to-customize-virtual-applications-extensions-for-a-specific-ad-group-by-using-the-management-console51.md
+      - name: Configure Applications and Default Virtual Application Extensions in Management Console
+        href: configure-applications-and-default-virtual-application-extensions-in-management-console.md
+    - name: Managing Connection Groups 5.1
+      href: managing-connection-groups51.md
+      items:
+      - name: About the Connection Group Virtual Environment 5.1
+        href: about-the-connection-group-virtual-environment51.md
+      - name: About the Connection Group File 5.1
+        href: about-the-connection-group-file51.md
+      - name: How to Create a Connection Group 5.1
+        href: how-to-create-a-connection-group51.md
+      - name: How to Create a Connection Group with User-Published and Globally Published Packages 5.1
+        href: how-to-create-a-connection-group-with-user-published-and-globally-published-packages51.md
+      - name: How to Delete a Connection Group 5.1
+        href: how-to-delete-a-connection-group51.md
+      - name: How to Publish a Connection Group 5.1
+        href: how-to-publish-a-connection-group51.md
+      - name: How to Use Optional Packages in Connection Groups 5.1
+        href: how-to-use-optional-packages-in-connection-groups51.md
+      - name: How to Make a Connection Group Ignore the Package Version 5.1
+        href: how-to-make-a-connection-group-ignore-the-package-version51.md
+      - name: How to Allow Only Administrators to Enable Connection Groups 5.1
+        href: how-to-allow-only-administrators-to-enable-connection-groups51.md
+    - name: Deploying App-V 5.1 Packages by Using Electronic Software Distribution (ESD)
+      href: deploying-app-v-51-packages-by-using-electronic-software-distribution--esd-.md
+      items:
+      - name: How to deploy App-V 5.1 Packages Using Electronic Software Distribution
+        href: how-to-deploy-app-v-51-packages-using-electronic-software-distribution.md
+      - name: How to Enable Only Administrators to Publish Packages by Using an ESD 5.1
+        href: how-to-enable-only-administrators-to-publish-packages-by-using-an-esd51.md
+    - name: Using the App-V 5.1 Client Management Console
+      href: using-the-app-v-51-client-management-console.md
+      items:
+      - name: How to Access the Client Management Console 5.1
+        href: how-to-access-the-client-management-console51.md
+      - name: How to Configure the Client to Receive Package and Connection Groups Updates From the Publishing Server  5.1
+        href: how-to-configure-the-client-to-receive-package-and-connection-groups-updates-from-the-publishing-server-51.md
+    - name: Migrating to App-V 5.1 from a Previous Version
+      href: migrating-to-app-v-51-from-a-previous-version.md
+      items:
+      - name: Check Registry Keys before installing App-V 5.x Server
+        href: check-reg-key-svr.md
+      - name: How to Convert a Package Created in a Previous Version of App-V 5.1
+        href: how-to-convert-a-package-created-in-a-previous-version-of-app-v51.md
+      - name: How to Migrate Extension Points From an App-V 4.6 Package to a Converted App-V 5.1 Package for All Users on a Specific Computer
+        href: how-to-migrate-extension-points-from-an-app-v-46-package-to-a-converted-app-v-51-package-for-all-users-on-a-specific-computer.md
+      - name: How to Migrate Extension Points From an App-V 4.6 Package to App-V 5.1 for a Specific User
+        href: how-to-migrate-extension-points-from-an-app-v-46-package-to-app-v-51-for-a-specific-user.md
+      - name: How to Revert Extension Points from an App-V 5.1 Package to an App-V 4.6 Package For All Users on a Specific Computer
+        href: how-to-revert-extension-points-from-an-app-v-51-package-to-an-app-v-46-package-for-all-users-on-a-specific-computer.md
+      - name: How to Revert Extension Points From an App-V 5.1 Package to an App-V 4.6 Package for a Specific User
+        href: how-to-revert-extension-points-from-an-app-v-51-package-to-an-app-v-46-package-for-a-specific-user.md
+      - name: How to Use an App-V 4.6 Application From an App-V 5.1 Application
+        href: how-to-use-an-app-v-46-sp1-application-from-an-app-v-51-application.md
+    - name: Maintaining App-V 5.1
+      href: maintaining-app-v-51.md
+      items:
+      - name: How to Move the App-V Server to Another Computer 5.1
+        href: how-to-move-the-app-v-server-to-another-computer51.md
+    - name: Administering App-V 5.1 by Using PowerShell
+      href: administering-app-v-51-by-using-powershell.md
+      items:
+      - name: How to Load the PowerShell Cmdlets and Get Cmdlet Help  5.1
+        href: how-to-load-the-powershell-cmdlets-and-get-cmdlet-help-51.md
+      - name: How to Manage App-V 5.1 Packages Running on a Stand-Alone Computer by Using PowerShell
+        href: how-to-manage-app-v-51-packages-running-on-a-stand-alone-computer-by-using-powershell.md
+      - name: How to Manage Connection Groups on a Stand-alone Computer by Using PowerShell 5.1
+        href: how-to-manage-connection-groups-on-a-stand-alone-computer-by-using-powershell51.md
+      - name: How to Modify Client Configuration by Using PowerShell 5.1
+        href: how-to-modify-client-configuration-by-using-powershell51.md
+      - name: How to Apply the User Configuration File by Using PowerShell 5.1
+        href: how-to-apply-the-user-configuration-file-by-using-powershell51.md
+      - name: How to Apply the Deployment Configuration File by Using PowerShell 5.1
+        href: how-to-apply-the-deployment-configuration-file-by-using-powershell51.md
+      - name: How to Sequence a Package  by Using PowerShell  5.1
+        href: how-to-sequence-a-package--by-using-powershell-51.md
+      - name: How to Create a Package Accelerator by Using PowerShell 5.1
+        href: how-to-create-a-package-accelerator-by-using-powershell51.md
+      - name: How to Enable Reporting on the App-V 5.1 Client by Using PowerShell
+        href: how-to-enable-reporting-on-the-app-v-51-client-by-using-powershell.md
+      - name: How to Install the App-V Databases and Convert the Associated Security Identifiers  by Using PowerShell 5.1
+        href: how-to-install-the-app-v-databases-and-convert-the-associated-security-identifiers--by-using-powershell51.md
+  - name: Technical Reference for App-V 5.1
+    items:
+    - name: Performance Guidance for Application Virtualization 5.1
+      href: performance-guidance-for-application-virtualization-51.md
+    - name: Application Publishing and Client Interaction 5.1
+      href: application-publishing-and-client-interaction51.md
+    - name: Viewing App-V Server Publishing Metadata 5.1
+      href: viewing-app-v-server-publishing-metadata51.md
+    - name: Running a Locally Installed Application Inside a Virtual Environment with Virtualized Applications 5.1
+      href: running-a-locally-installed-application-inside-a-virtual-environment-with-virtualized-applications51.md

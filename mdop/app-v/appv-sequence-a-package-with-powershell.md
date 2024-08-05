@@ -1,11 +1,11 @@
 ---
-title: How to sequence a package by using Windows PowerShell (Windows 10/11)
+title: How to sequence a package by using Windows PowerShell
 description: Learn how to sequence a new Microsoft Application Virtualization (App-V) package by using Windows PowerShell.
 author: aczechowski
 ms.date: 04/19/2017
 ---
 
-# How to Sequence a Package by using Windows PowerShell
+# How to sequence a package by using Windows PowerShell
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -14,8 +14,7 @@ Use the following procedure to create a new App-V package using Windows PowerShe
 > [!NOTE]
 > Before you use this procedure you must copy the associated installer files to the computer running the sequencer and you have read and understand the sequencer section of [Planning for the App-V Sequencer and Client Deployment](appv-planning-for-sequencer-and-client-deployment.md).
 
-
-**To create a new virtual application by using Windows PowerShell**
+## To create a new virtual application by using Windows PowerShell
 
 1.  Install the App-V sequencer. For more information about installing the sequencer, see [How to Install the Sequencer](appv-install-the-sequencer.md).
 
@@ -35,16 +34,15 @@ Use the following procedure to create a new App-V package using Windows PowerShe
 
     For example:
 
+    ```powershell
+    New-AppvSequencerPackage -Name <name of package> -PrimaryVirtualApplicationDirectory <path to the package root> -Installer <path to the installer executable> -OutputPath <directory of the output path>
     ```
-    New-AppvSequencerPackage –Name <name of package> -PrimaryVirtualApplicationDirectory <path to the package root> -Installer <path to the installer executable> -OutputPath <directory of the output path>
-    ```
-
 
 Wait for the sequencer to create the package. Creating a package by using Windows PowerShell can take time. If the package was not created successfully, an error will be returned.
 
 The following list displays additional optional parameters that can be used with **New-AppvSequencerPackage** cmdlet:
 
--   AcceleratorFilePath – specifies the path to the accelerator .cab file to generate a package.
+-   AcceleratorFilePath - specifies the path to the accelerator .cab file to generate a package.
 
 -   InstalledFilesPath - specifies the path to where the local installed files of the application are saved.
 
@@ -61,8 +59,4 @@ Starting with Windows 10 version 1703, the `new-appvsequencerpackage` or the `up
 
 ## Related articles
 
-- [Administering App-V by using Windows PowerShell](appv-administering-appv-with-powershell.md)
-
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
+[Administering App-V by using Windows PowerShell](appv-administering-appv-with-powershell.md)

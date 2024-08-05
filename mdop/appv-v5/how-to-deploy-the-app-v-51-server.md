@@ -1,8 +1,7 @@
 ---
 title: How to Deploy the App-V 5.1 Server
-description: How to Deploy the App-V 5.1 Server
+description: Use the following procedure to install the Microsoft Application Virtualization (App-V) 5.1 server.
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
@@ -114,7 +113,7 @@ Use the following procedure to install the Microsoft Application Virtualization 
 
 ## Related information
 
-[Deploying App-V 5.1](deploying-app-v-51.md)
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)
 
 [How to Install the Management and Reporting Databases on Separate Computers from the Management and Reporting Services](how-to-install-the-management-and-reporting-databases-on-separate-computers-from-the-management-and-reporting-services51.md)
 

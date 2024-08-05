@@ -1,29 +1,20 @@
 ---
-title: Sequence a Package by Using PowerShell
-description: How to Sequence a Package by Using PowerShell
+title: Sequence a package by using Windows PowerShell
+description: Use the following procedure to create a new App-V 5.1 package using Windows PowerShell.
 author: aczechowski
-ms.assetid: 6134c6be-937d-4609-a516-92d49154b290
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Sequence a package by using Windows PowerShell
 
-# Sequence a Package by Using PowerShell
+Use the following procedure to create a new App-V 5.1 package using Windows PowerShell.
 
+> [!NOTE]
+> Before you use this procedure you must copy the associated installer files to the computer running the sequencer and you have read and understand the sequencer section of [Planning for the App-V 5.1 Sequencer and Client Deployment](planning-for-the-app-v-51-sequencer-and-client-deployment.md).
 
-Use the following procedure to create a new App-V 5.1 package using PowerShell.
-
-**Note**  
-Before you use this procedure you must copy the associated installer files to the computer running the sequencer and you have read and understand the sequencer section of [Planning for the App-V 5.1 Sequencer and Client Deployment](planning-for-the-app-v-51-sequencer-and-client-deployment.md).
-
-
-
-**To create a new virtual application using PowerShell**
+## To create a new virtual application using PowerShell
 
 1.  Install the App-V 5.1 sequencer. For more information about installing the sequencer see [How to Install the Sequencer](how-to-install-the-sequencer-51beta-gb18030.md).
 
@@ -43,13 +34,13 @@ Before you use this procedure you must copy the associated installer files to th
 
     For example:
 
-    **New-AppvSequencerPackage –Name &lt;name of Package&gt; -PrimaryVirtualApplicationDirectory &lt;path to the package root&gt; -Installer &lt;path to the installer executable&gt; -OutputPath &lt;directory of the output path&gt;**
+    **New-AppvSequencerPackage -Name &lt;name of Package&gt; -PrimaryVirtualApplicationDirectory &lt;path to the package root&gt; -Installer &lt;path to the installer executable&gt; -OutputPath &lt;directory of the output path&gt;**
 
     Wait for the sequencer to create the package. Creating a package using PowerShell can take time. If the package was not created successfully an error will be returned.
 
     The following list displays additional optional parameters that can be used with **New-AppvSequencerPackage** cmdlet:
 
-    -   AcceleratorFilePath – specifies the path to the accelerator .cab file to generate a package.
+    -   AcceleratorFilePath - specifies the path to the accelerator .cab file to generate a package.
 
     -   InstalledFilesPath - specifies the path to where the local installed files of the application are saved.
 
@@ -59,18 +50,6 @@ Before you use this procedure you must copy the associated installer files to th
 
     -   FullLoad - specifies that the package must be fully downloaded to the computer running the App-V 5.1 before it can be opened.
 
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Administering App-V 5.1 by Using PowerShell](administering-app-v-51-by-using-powershell.md)
-
-
-
-
-
-
-
-
-

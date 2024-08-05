@@ -1,25 +1,18 @@
 ---
-title: Server Event Logs
-description: Server Event Logs
+title: Server event logs
+description: The tables in this article provide information about MBAM Server log event IDs.
 author: aczechowski
-ms.assetid: 04e724d2-28cc-4fa8-86a1-0d4ab0234b11
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
+ms.topic: reference
 ---
 
-
-# Server Event Logs
-
+# Server event logs
 
 The tables in this section provide information about MBAM Server log event IDs.
 
 ## Configuration
-
 
 The following table contains messages and troubleshooting information for event IDs that can occur on the MBAM Server during configuration.
 
@@ -336,7 +329,7 @@ The following table contains messages and troubleshooting information for event 
 <li><p>Verify that the user running the setup is authorized to access/publish reports to SSRS.</p></li>
 </ul>
 <p><strong>A policy for group user name &#39;{userName}&#39; already exists. In case this is not correct, manually revise the Reporting Service for duplicate or invalid policies.</strong></p>
-<p>After Publishing MBAM reports, MBAM setup tries to create a MBAM Report Users roles (if it does not exist already) and sets corresponding user policy. The above error indicates that SSRS web service threw an exception while setting up report user role policy. Follow the instructions in the event message and refer to &quot;<a href="https://www.microsoft.com/technet/support/ee/transform.aspx?ProdName=SQL+Server+Reporting+Services&amp;ProdVer=8.00&amp;EvtID=rsInvalidPolicyDefinition&amp;EvtSrc=Microsoft.ReportingServices.Diagnostics.ErrorStrings.resources.Strings&amp;LCID=1033&amp;quot" data-raw-source="https://www.microsoft.com/technet/support/ee/transform.aspx?ProdName=SQL+Server+Reporting+Services&amp;amp;ProdVer=8.00&amp;amp;EvtID=rsInvalidPolicyDefinition&amp;amp;EvtSrc=Microsoft.ReportingServices.Diagnostics.ErrorStrings.resources.Strings&amp;amp;LCID=1033&amp;quot">https://www.microsoft.com/technet/support/ee/transform.aspx?ProdName=SQL+Server+Reporting+Services&amp;ProdVer=8.00&amp;EvtID=rsInvalidPolicyDefinition&amp;EvtSrc=Microsoft.ReportingServices.Diagnostics.ErrorStrings.resources.Strings&amp;LCID=1033&quot</a>; for more help.</p>
+<p>After Publishing MBAM reports, MBAM setup tries to create a MBAM Report Users roles (if it does not exist already) and sets corresponding user policy. The above error indicates that SSRS web service threw an exception while setting up report user role policy. Follow the instructions in the event message.</p>
 <p><strong>An error occurred while validating access to SSRS {exceptionDetails}.</strong></p>
 <p>As part of prerequisite check, MBAM setup verifies if the user has necessary permissions to access/create folder under SSRS. The error message indicates that an exception has occurred while verifying access to SSRS. Refer to the exception details for debugging tips.</p>
 <p><strong>A SOAP error occurred while checking the SSRS URL.{exceptionDetails}</strong></p>
@@ -476,7 +469,7 @@ The following table contains messages and troubleshooting information for event 
 <td align="left"><p>WebAppSpnError</p></td>
 <td align="left"><p>Application: {SiteName}{VirtualDirectory} is missing the following Service Principal Names (SPNs):{ListOfSpns} Register the required SPNs on the account: {ExecutionAccount}.</p></td>
 <td align="left"><p>For Integrated Windows Authentication to succeed, necessary SPNs needs to be in place. This message indicates that the SPN required for MBAM application has not been correctly configured. Details contained in this event should provide more information.</p>
-<p>See “Service Principal Name (SPN)” in <a href="mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md#bkmk-prereqsams" data-raw-source="[MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md#bkmk-prereqsams)">MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies</a> for more information.</p></td>
+<p>For more information, see [MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md#bkmk-prereqsams)</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>4</p></td>
@@ -511,8 +504,7 @@ The following table contains messages and troubleshooting information for event 
 <p><strong>QueryDriveRecoveryData</strong>: An error occurred while getting drive recovery data from the database. Message:{message}-or-</p>
 <p><strong>QueryRecoveryKeyIdsForUser</strong>: An error occurred while getting recovery key Ids from the database. Message:{message} -or-</p>
 <p><strong>QueryVolumeUsers</strong>: An error occurred while getting user information from the database.</p></td>
-<td align="left"><p>This message is logged whenever there is an exception while communicating with the MBAM recovery database. Read through the information contained in the trace to get specific details about the exception.</p>
-<p>For detailed troubleshooting steps, see the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a>.</p></td>
+<td align="left"><p>This message is logged whenever there is an exception while communicating with the MBAM recovery database. Read through the information contained in the trace to get specific details about the exception.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>101</p></td>
@@ -523,16 +515,14 @@ The following table contains messages and troubleshooting information for event 
 <p><strong>GetTpmHashForUser</strong>: An error occurred while logging an audit event to the compliance database. Message:{message} -or-</p>
 <p><strong>QueryRecoveryKeyIdsForUser</strong>: An error occurred while logging an audit event to the compliance database. Message:{message} -or-</p>
 <p><strong>QueryDriveRecoveryData</strong>: An error occurred while logging an audit event to the compliance database. Message:{message}</p></td>
-<td align="left"><p>This message is logged whenever there is an exception while communicating the MBAM compliance database. Read through the information contained in the trace to get specific details about the exception.</p>
-<p>For detailed troubleshooting steps, see the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a>.</p></td>
+<td align="left"><p>This message is logged whenever there is an exception while communicating the MBAM compliance database. Read through the information contained in the trace to get specific details about the exception.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>102</p></td>
 <td align="left"><p>Microsoft-Windows-MBAM-Web/Admin</p></td>
 <td align="left"><p>AgentServiceRecoveryDbError</p></td>
 <td align="left"><p></p></td>
-<td align="left"><p>This message indicates an exception when MBAM Agent service tries to communicate with the recovery database. Read through the message contained in the event to get specific information about the exception.</p>
-<p>See the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a> to verify whether the MBAM app pool account has required permissions in place to connect or execute on MBAM recovery database.</p></td>
+<td align="left"><p>This message indicates an exception when MBAM Agent service tries to communicate with the recovery database. Read through the message contained in the event to get specific information about the exception.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>103</p></td>
@@ -556,8 +546,7 @@ The following table contains messages and troubleshooting information for event 
 <td align="left"><p>Microsoft-Windows-MBAM-Web/Admin</p></td>
 <td align="left"><p>StatusServiceComplianceDbError</p></td>
 <td align="left"><p></p></td>
-<td align="left"><p>This error indicates that MBAM websites/web services were unable to connect to the MBAMCompliance database.</p>
-<p>See the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a> to verify that the IIS app pool account could connect to the MBAM compliance database.</p></td>
+<td align="left"><p>This error indicates that MBAM websites/web services were unable to connect to the MBAMCompliance database.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>106</p></td>
@@ -566,8 +555,8 @@ The following table contains messages and troubleshooting information for event 
 <td align="left"><p>The request to URL {url} caused an internal error. -or-</p>
 <p>An error occurred while obtaining execution context information. Unable to verify Service Principal Name (SPN) registration. -or-</p>
 <p>An error occurred while verifying Service Principal Name (SPN) registration.</p></td>
-<td align="left"><p>Indicates that an unhandled exception has been raised in Helpdesk application. Review the log entries in the MBAM Admin operational channel to find the specific exception. –or-</p>
-<p>During the initial Helpdesk website load operation, an SPN check is performed. To verify SPN, the Helpdesk requires execution account information, IIS Sitename, and ApplicationVirtualPath corresponding to Helpdesk website. This error message is logged when one or more of these is invalid or missing. –or-</p>
+<td align="left"><p>Indicates that an unhandled exception has been raised in Helpdesk application. Review the log entries in the MBAM Admin operational channel to find the specific exception. -or-</p>
+<p>During the initial Helpdesk website load operation, an SPN check is performed. To verify SPN, the Helpdesk requires execution account information, IIS Sitename, and ApplicationVirtualPath corresponding to Helpdesk website. This error message is logged when one or more of these is invalid or missing. -or-</p>
 <p>This message indicates that a security exception is thrown while performing SPN verification. Refer to the exception contained in event details section.</p></td>
 </tr>
 <tr class="even">
@@ -577,8 +566,8 @@ The following table contains messages and troubleshooting information for event 
 <td align="left"><p>An error occurred while getting recovery key for a user. EventDetails:{ExceptionMessage} -or-</p>
 <p>An error occurred while obtaining execution context information. Unable to verify Service Principal Name (SPN) registration. EventDetails: User: {username Identity} Application:{SiteName\ApplicationVirtualPath} -or-</p>
 <p>An error occurred while verifying Service Principal Name (SPN) registration. EventDetails:{ExceptionMessage}</p></td>
-<td align="left"><p>Indicates that an unexpected exception was thrown when a request was made to retrieve recovery key. Refer to the exception message contained in event details section. If tracing is enabled on MBAM Helpdesk, refer to trace data to obtain detailed exception messages. –or-</p>
-<p>During an initial load operation, the Self-Service Portal (SSP) retrieves execution account information, IIS Sitename, and ApplicationVirtualPath corresponding to the Self-Service website to verify SPN. This error message is logged when one or more of these is invalid. –or-</p>
+<td align="left"><p>Indicates that an unexpected exception was thrown when a request was made to retrieve recovery key. Refer to the exception message contained in event details section. If tracing is enabled on MBAM Helpdesk, refer to trace data to obtain detailed exception messages. -or-</p>
+<p>During an initial load operation, the Self-Service Portal (SSP) retrieves execution account information, IIS Sitename, and ApplicationVirtualPath corresponding to the Self-Service website to verify SPN. This error message is logged when one or more of these is invalid. -or-</p>
 <p>This message indicates that a security exception was thrown while performing SPN verification. Refer to the exception contained in event details section.</p></td>
 </tr>
 <tr class="odd">
@@ -587,7 +576,7 @@ The following table contains messages and troubleshooting information for event 
 <td align="left"><p>DomainControllerError</p></td>
 <td align="left"><p>An error occurred while resolving domain name {DomainName}, A memory allocation failure occurred. -or-</p>
 <p>Could not invoke DsGetDcName method. EventDetails:{ExceptionMessage}</p></td>
-<td align="left"><p>To resolve Domain name, MBAM leverages &quot;DsGetDcName&quot; windows API. This message is logged when &quot;DsGetDcName&quot; returns &quot;ERROR_NOT_ENOUGH_MEMORY&quot; indicating a memory allocation failure. –or-</p>
+<td align="left"><p>To resolve Domain name, MBAM leverages &quot;DsGetDcName&quot; windows API. This message is logged when &quot;DsGetDcName&quot; returns &quot;ERROR_NOT_ENOUGH_MEMORY&quot; indicating a memory allocation failure. -or-</p>
 <p>This message indicates that &quot;DsGetDcName&quot; API method is unavailable on the hosting system.</p></td>
 </tr>
 <tr class="even">
@@ -599,8 +588,7 @@ The following table contains messages and troubleshooting information for event 
 <p><strong>QueryDriveRecoveryData</strong>: an error occurred while getting drive recovery data. Message:{message} -or-</p>
 <p><strong>QueryRecoveryKeyIdsForUser</strong>: an error occurred while getting recovery key Ids for a user. Message:{message} -or-</p>
 <p>An error occurred while getting TPM password hash from the Recovery database. EventDetails:{ExceptionMessage}</p></td>
-<td align="left"><p>This message indicates that recovery database connection string information at &quot;HKLM\Software\Microsoft\MBAM Server\Web\RecoveryDBConnectionString&quot; is invalid. Verify the given registry key value. –or-</p>
-<p>If any of the remaining messages are logged, refer to the troubleshooting steps listed at the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a> to verify whether a connection could be made to the MBAM Recovery database from IIS server using app pool credentials.</p></td>
+<td align="left"><p>This message indicates that recovery database connection string information at &quot;HKLM\Software\Microsoft\MBAM Server\Web\RecoveryDBConnectionString&quot; is invalid. Verify the given registry key value. -or-</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>110</p></td>
@@ -610,8 +598,7 @@ The following table contains messages and troubleshooting information for event 
 <p><strong>GetRecoveryKeyForCurrentUser</strong>: an error occurred while logging an audit event to the Compliance database. Message:{message} -or-</p>
 <p><strong>QueryRecoveryKeyIdsForUser</strong>: an error occurred while logging an audit event to the Compliance database. Message:{message} -or-</p>
 <p><strong>QueryRecoveryKeyIdsForUser</strong>: an error occurred while logging an audit event to the compliance database. Message:{message}</p></td>
-<td align="left"><p>This message indicates that compliance db connection string information at &quot;HKLM\Software\Microsoft\MBAM Server\Web\ComplianceDBConnectionString&quot; is invalid. Verify the value corresponding to above registry key. –or-</p>
-<p>If any of the remaining messages are logged, refer to the troubleshooting steps listed at the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a> to verify whether a connection could be made to the MBAM Compliance database from IIS server using app pool credentials.</p></td>
+<td align="left"><p>This message indicates that compliance db connection string information at &quot;HKLM\Software\Microsoft\MBAM Server\Web\ComplianceDBConnectionString&quot; is invalid. Verify the value corresponding to above registry key. -or-</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>111</p></td>
@@ -623,8 +610,7 @@ The following table contains messages and troubleshooting information for event 
 <li><p>MBAM websites/webservices were unable to either connect to MBAMCompliance OR MBAMRecovery database</p></li>
 <li><p>MBAM websites/webservices execution account(app pool account) could not run the GetVersion stored procedure on MBAMCompliance OR MBAMRecovery database</p></li>
 </ul>
-<p>The message contained in the event will provide more details about the exception.</p>
-<p>Refer to the troubleshooting steps listed at the TechNet article <a href="https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx" data-raw-source="[How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)">How to Troubleshoot Connecting to the SQL Server Database Engine</a> to verify that the MBAM execution account (app pool account) could connect to MBAM compliance/recovery database and it has permissions in place to execute GetVersion stored procedure.</p></td>
+<p>The message contained in the event will provide more details about the exception.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>112</p></td>

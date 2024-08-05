@@ -1,8 +1,7 @@
 ---
 title: How to Deploy the App-V Client
-description: How to Deploy the App-V Client
+description: Use the following procedure to install the Microsoft Application Virtualization (App-V) 5.1 client and Remote Desktop Services client.
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 11/01/2016
@@ -147,10 +146,9 @@ See the error log in the `%temp%` folder. To review the log files, select `Start
     | Computer is running a 32-bit Microsoft Windows operating system | `appv_client_LP_xxxx_ x86.msi` |
     | Computer is running a 64-bit Microsoft Windows operating system | `appv_client_LP_xxxx_ x64.msi` |
 
-
 ## Related information
 
-[Deploying App-V 5.1](deploying-app-v-51.md)
+[App-V 5.1 Deployment Checklist](app-v-51-deployment-checklist.md)
 
 [About Client Configuration Settings](about-client-configuration-settings51.md)
 

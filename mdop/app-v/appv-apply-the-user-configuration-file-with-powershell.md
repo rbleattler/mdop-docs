@@ -1,9 +1,10 @@
 ---
-title: How to apply the user configuration file by using Windows PowerShell (Windows 10/11)
-description: How to apply the user configuration file by using Windows PowerShell (Windows 10/11).
+title: How to apply the user configuration file by using Windows PowerShell
+description: How to apply the user configuration file by using Windows PowerShell.
 author: aczechowski
 ms.date: 06/15/2018
 ---
+
 # How to apply the user configuration file by using Windows PowerShell
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
@@ -26,15 +27,12 @@ Here's how to specify a user-specific configuration file:
     ```PowerShell
     Add-AppVClientPackage C:\Packages\Contoso\MyApp.appv
     ```
+
 2. Enter the following cmdlet to publish the package to the user and specify the updated the dynamic user configuration file:
 
     ```PowerShell
     Publish-AppVClientPackage $pkg -DynamicUserConfigurationPath C:\Packages\Contoso\config.xml
     ```
-
-
-
-
 
 ## Related articles
 
