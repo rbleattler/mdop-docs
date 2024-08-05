@@ -1,8 +1,7 @@
 ---
 title: DaRT 10 privacy statement
-description: DaRT 10 privacy statement.
+description: This privacy statement explains many of the data collection and use practices of Microsoft Diagnostics and Recovery Toolset (DaRT).
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -73,7 +72,3 @@ Microsoft Privacy: Microsoft Corporation, One Microsoft Way, Redmond, Washington
 - **Choice/Control:**
 
     For details about controlling this feature, see the [Update Services Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=244400).
-
-## Related information
-
-- [Security and Privacy for DaRT 10](security-and-privacy-for-dart-10.md)
