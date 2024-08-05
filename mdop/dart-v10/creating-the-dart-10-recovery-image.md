@@ -217,4 +217,4 @@ To copy the recovery image to a CD, DVD, or USB:
 ## Related articles
 
 - [Overview of the Tools in DaRT 10](overview-of-the-tools-in-dart-10.md)
-- [Deploying DaRT 10](deploying-dart-10.md)
+- [DaRT 10 deployment checklist](dart-10-deployment-checklist.md)

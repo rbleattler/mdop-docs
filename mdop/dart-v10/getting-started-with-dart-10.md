@@ -16,7 +16,7 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning 
 >
 > For additional information about this product, see the [Diagnostics and Recovery Toolset documentation download page](https://www.microsoft.com/download/details.aspx?id=27754).
 
-## Getting started with DaRT 10
+## Learn how to get started with DaRT 10
 
 - [About DaRT 10](about-dart-10.md)
 
@@ -33,7 +33,4 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning 
 ## Related articles
 
 - [Diagnostics and Recovery Toolset 10](index.md)
-- [Planning for DaRT 10](planning-for-dart-10.md)
-- [Deploying DaRT 10](deploying-dart-10.md)
 - [Operations for DaRT 10](operations-for-dart-10.md)
-- [Troubleshooting DaRT 10](troubleshooting-dart-10.md)

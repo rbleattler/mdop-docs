@@ -45,4 +45,4 @@ By default, the communication between two computers that have established a **Re
 
 ## Related articles
 
-- [Security and Privacy for DaRT 10](security-and-privacy-for-dart-10.md)
+[DaRT 10 privacy statement](dart-10-privacy-statement.md)
