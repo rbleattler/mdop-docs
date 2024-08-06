@@ -13,13 +13,7 @@ Microsoft Advanced Group Policy Management (AGPM) extends the capabilities of th
 
 [!INCLUDE [mdop-lifecycle-statement](../includes/mdop-lifecycle-statement.md)]
 
-## AGPM version information
-
-[AGPM 4.0 SP3](agpm-40-sp3-navengl.md) supports Windows 11, Windows 10, Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
-
-[AGPM 4.0 SP2](agpm-40-sp2-navengl.md) supports Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
-
-[AGPM 4.0 SP1](agpm-40-sp1-navengl.md) supports Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
+[AGPM 4.0 SP3](whats-new-in-agpm-40-sp3) supports Windows 11, Windows 10, Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista with SP1.
 
 > [!NOTE]
 > Documentation for previous versions of MDOP is available with the [Windows previous versions documentation](/previous-versions/windows/microsoft-desktop-optimization-pack/).
