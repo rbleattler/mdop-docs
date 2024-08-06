@@ -1,14 +1,15 @@
 ---
-title: App-V Capacity Planning (Windows 10/11)
-description: Use these recommendations as a baseline to help determine capacity planning information that is appropriate to your organization’s App-V infrastructure.
+title: App-V for Windows capacity planning
+description: Use these recommendations as a baseline to help determine capacity planning information that is appropriate to your organization's App-V for Windows infrastructure.
 author: aczechowski
 ms.date: 04/18/2018
 ---
-# App-V Capacity Planning
 
->Applies to: Windows Server 2016
+# App-V for Windows capacity planning
 
-The following recommendations can be used as a baseline to help determine capacity planning information that is appropriate to your organization’s App-V infrastructure.
+>Applies to: Windows 10, Windows 11, Windows Server 2016
+
+The following recommendations can be used as a baseline to help determine capacity planning information that is appropriate to your organization's App-V infrastructure.
 
 >[!IMPORTANT]
 >Use the information in this section only as a general guide for planning your App-V deployment. Your system capacity requirements will depend on the specific details of your hardware and application environment. Additionally, the performance numbers displayed in this document are examples and your results may vary.
@@ -71,7 +72,7 @@ The following table describes each factor that impacts round-trip time in more d
 |Factors impacting round-trip response time|Description|
 |------------------------------------------|-----------|
 |The number of publishing servers simultaneously requesting package metadata refreshes.|A single management server can respond to up to 320 publishing servers simultaneously requesting publishing metadata. For example, in a case with 30 publishing servers simultaneously requesting publishing metadata, the round-trip response time is about 40 seconds, while for less than 50 servers it's less than 5 seconds. From 50 to 320 publishing servers, response team increases linearly (approximately 2×).|
-|The number of connection groups configured on the management server.|For up to 100 connection groups, there's no significant change in the round-trip response time on the publishing server. For 100–400 connection groups, there's a minor linear increase in the round-trip response time.|
+|The number of connection groups configured on the management server.|For up to 100 connection groups, there's no significant change in the round-trip response time on the publishing server. For 100-400 connection groups, there's a minor linear increase in the round-trip response time.|
 |The number of access groups configured on the management server.|For up to 40 access groups, there's a linear (approximately 3×) increase in the round-trip response time on the publishing server.|
 
 The following table displays sample values for each of the previous factors. In each variation, 120 packages are refreshed from the App-V management server.
@@ -120,13 +121,14 @@ Computers running the App-V client connect to the App-V publishing server to sen
 
 > [!IMPORTANT]
 > The following list displays the main factors to consider when setting up the App-V publishing server:
+>
 > * The number of clients connecting simultaneously to a single publishing server.
 > * The number of packages in each refresh.
 > * The available network bandwidth in your environment between the client and the App-V publishing server.
 
 |Scenario|Summary|
 |---|---|
-|Multiple App-V clients connect to a single publishing server simultaneously.|A publishing server running dual core processors can respond to at most 5000 clients requesting a refresh simultaneously. For 5,000–10,000 clients, the publishing server requires a minimum quad core. For 10,000–20,000 clients, the publishing server should have dual quad cores for more efficient response times. A publishing server with a quad core can refresh up to 10,000 packages within three seconds. (Supports 10,000 simultaneous clients.)|
+|Multiple App-V clients connect to a single publishing server simultaneously.|A publishing server running dual core processors can respond to at most 5000 clients requesting a refresh simultaneously. For 5,000-10,000 clients, the publishing server requires a minimum quad core. For 10,000-20,000 clients, the publishing server should have dual quad cores for more efficient response times. A publishing server with a quad core can refresh up to 10,000 packages within three seconds. (Supports 10,000 simultaneous clients.)|
 |Number of packages in each refresh.|Increasing number of packages will increase response time by about 40% (up to 1,000 packages).|
 |Network between the App-V client and the publishing server.|Across a slow network (1.5-Mbps bandwidth), there's a 97% increase in response time compared to LAN (up to 1,000 users).|
 
@@ -145,6 +147,7 @@ Computers running the App-V client stream the virtual application package from t
 
 > [!IMPORTANT]
 > The following list identifies the main factors to consider when setting up the App-V streaming server:
+>
 > * The number of clients streaming application packages simultaneously from a single streaming server.
 > * The size of the package being streamed.
 > * The available network bandwidth in your environment between the client and the streaming server.
@@ -153,7 +156,7 @@ Computers running the App-V client stream the virtual application package from t
 |---|---|
 |Multiple App-V clients stream applications from a single streaming server simultaneously.|If the number of clients simultaneously streaming from the same server increases, there's a linear relationship with the package download/streaming time.|
 |Size of the package being streamed.|The package size has a significant impact on the streaming/download time only for larger packages with a size of about 1 GB. For package sizes ranging from 3 MB to 100 MB, the streaming time ranges from 20 seconds to 100 seconds, with 100 simultaneous clients.|
-|Network between the App-V client and the streaming server.|Across a slow network (1.5-Mbps bandwidth), there's a 70–80% increase in response time compared to LAN (up to 100 users).|
+|Network between the App-V client and the streaming server.|Across a slow network (1.5-Mbps bandwidth), there's a 70-80% increase in response time compared to LAN (up to 100 users).|
 
 The following table displays sample values for each of the factors in the previous list:
 
@@ -166,7 +169,7 @@ The following table displays sample values for each of the factors in the previo
 Each App-V streaming server should be able to handle a minimum of 200 clients concurrently streaming virtualized applications.
 
 >[!NOTE]
->The actual time to it will take to stream is determined primarily by the number of clients streaming simultaneously, number of packages, package size, the server’s network activity, and network conditions.
+>The actual time to it will take to stream is determined primarily by the number of clients streaming simultaneously, number of packages, package size, the server's network activity, and network conditions.
 
 For example, an average user can stream a 100-MB package in less than 2 minutes, when 100 simultaneous clients are streaming from the server. However, a package of size 1 GB could take up to 30 minutes. In most real-world environments, streaming demand isn't uniformly distributed, you'll need to understand the approximate peak streaming requirements present in your environment to properly size the number of required streaming servers.
 
@@ -180,12 +183,7 @@ Notwithstanding scaling requirements, the minimum number of servers that a fault
 
 Although there are many fault-tolerance strategies and technologies you can use, not all are applicable to a given service. Additionally, if App-V roles are combined, the resulting incompatibilities could cause certain fault-tolerance options to stop working.
 
-
-
-
-
 ## Related articles
 
 * [App-V supported configurations](appv-supported-configurations.md)
 * [Planning for high availability with App-V](appv-planning-for-high-availability-with-appv.md)
-* [Planning to deploy App-V](appv-planning-to-deploy-appv.md)

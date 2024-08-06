@@ -95,8 +95,6 @@ For information that can help with troubleshooting App-V for Windows client, see
 
 - [The Official Microsoft App-V Team Blog](/archive/blogs/appv/)
 
-- [Technical Reference for App-V](./appv-technical-reference.md)
-
 ## Related articles
 
 - [What's new in App-V for Windows client](appv-about-appv.md)

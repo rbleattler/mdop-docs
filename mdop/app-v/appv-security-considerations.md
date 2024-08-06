@@ -1,11 +1,11 @@
 ---
-title: App-V Security Considerations (Windows 10/11)
-description: Learn about accounts and groups, log files, and other security-related considerations for Microsoft Application Virtualization (App-V).
+title: App-V for Windows security considerations
+description: Learn about accounts and groups, log files, and other security-related considerations for Microsoft Application Virtualization (App-V) for Windows.
 author: aczechowski
 ms.date: 04/16/2018
 ---
 
-# App-V security considerations
+# App-V for Windows security considerations
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -65,4 +65,4 @@ During App-V setup, setup log files are created in the **%temp%** folder of the 
 
 ## Related articles
 
-[Preparing Your Environment for App-V](appv-preparing-your-environment.md)
+[App-V for Windows client prerequisites](appv-prerequisites.md)

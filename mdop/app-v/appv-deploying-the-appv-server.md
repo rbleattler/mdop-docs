@@ -7,7 +7,7 @@ ms.date: 04/18/2018
 
 # Deploying the App-V server
 
->Applies to: Windows Server 2016
+>Applies to: Windows 10, Windows 11, Windows Server 2016
 
 You can install the Application Virtualization (App-V) server components using different deployment configurations, which are described in this topic. Before you install the server features, review the server section of [App-V security considerations](appv-security-considerations.md).
 
@@ -29,7 +29,7 @@ App-V offers the following five server components, each of which serves a specif
 * **Management server.** Use the App-V management server and console to manage your App-V infrastructure. See [Administering App-V with the management console](appv-administering-virtual-applications-with-the-management-console.md) for more information about the management server.
 
   > [!NOTE]
-  > If you are using App-V with your electronic software distribution solution, you don’t need to use the management server and console. However, you may want to take advantage of the reporting and streaming capabilities in App-V.
+  > If you are using App-V with your electronic software distribution solution, you don't need to use the management server and console. However, you may want to take advantage of the reporting and streaming capabilities in App-V.
 
 * **Management database.** Use the App-V management database to facilitate database pre-deployments for App-V management. For more information about the management database, see [How to deploy the App-V server](appv-deploy-the-appv-server.md).
 
@@ -41,8 +41,8 @@ App-V offers the following five server components, each of which serves a specif
 
 All five App-V server components are included in the Microsoft Desktop Optimization Pack (MDOP) 2015 ISO package, which can be downloaded from either of the following locations:
 
-* The [MSDN (Microsoft Developer Network) subscriptions site](https://msdn.microsoft.com/subscriptions/downloads/default.aspx#FileId=65215). You must have a MSDN subscription to download the MDOP ISO package from this site.
-* The [Volume Licensing Service Center](https://www.microsoft.com/licensing/default.aspx) if you're using [Windows client for Enterprise or Education](https://www.microsoft.com/WindowsForBusiness/windows-product-home).
+* If you have a Microsoft Visual Studio subscription, use the [Visual Studio subscriptions site](https://my.visualstudio.com/downloads) to download the MDOP ISO package.
+* If you're using [Windows client for Enterprise or Education](https://www.microsoft.com/windows/business), download it from the [Microsoft M365 admin center](https://admin.microsoft.com/adminportal/home#/subscriptions/vlnew).
 
 In large organizations, you might want to install more than one instance of the server components to get the following benefits.
 
@@ -104,8 +104,4 @@ For more information, see [About App-V reporting](appv-reporting.md) and [How to
 
 ## Other App-V server resources
 
-* [Deploying App-V](appv-deploying-appv.md)
-
-
-
-
+* [App-V deployment checklist](appv-deployment-checklist.md)
