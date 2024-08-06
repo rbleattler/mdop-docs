@@ -1,11 +1,11 @@
 ---
-title: Install the publishing server on a remote computer
-description: Use the procedures in this article to install the Microsoft Application Virtualization (App-V) publishing server on a separate computer.
+title: Install the publishing server on a remote computer for App-V in Windows
+description: Use the procedures in this article to install the Microsoft Application Virtualization (App-V) in Windows publishing server on a separate computer.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# How to install the publishing server on a remote computer
+# How to install the publishing server on a remote computer for App-V in Windows
 
 >Applies to: Windows 10, Windows 11, Windows Server 2016
 
@@ -51,4 +51,4 @@ Use the following procedure to install the publishing server on a separate compu
 
 ## Related articles
 
-[Deploying App-V](appv-deploying-appv.md)
+* [App-V deployment checklist](appv-deployment-checklist.md)

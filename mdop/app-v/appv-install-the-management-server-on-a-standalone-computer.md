@@ -1,11 +1,11 @@
 ---
-title: How to install the management server on a standalone computer and connect it to the database
-description: To install the management server on a standalone computer and connect it to the database, follow these steps.
+title: How to install the management server on a standalone computer and connect it to the database for App-V in Windows
+description: To install the management server on a standalone computer and connect it to the database for App-V in Windows, follow these steps.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# How to install the management server on a standalone computer and connect it to the database
+# How to install the management server on a standalone computer and connect it to the database for App-V in Windows
 
 >Applies to: Windows 10, Windows 11, Windows Server 2016
 
@@ -38,4 +38,4 @@ To install the management server on a standalone computer and connect it to the 
 
 ## Related articles
 
-[Deploying App-V](appv-deploying-appv.md)
+- [App-V deployment checklist](appv-deployment-checklist.md)

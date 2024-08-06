@@ -1,11 +1,11 @@
 ---
-title: How to install the reporting server on a standalone computer
-description: Use the following procedure to install the reporting server on a standalone computer and connect it to the database.
+title: How to install the reporting server on a standalone computer for App-V in Windows
+description: Use the following procedure to install the reporting server on a standalone computer and connect it to the database for App-V in Windows.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# How to install the reporting server on a standalone computer
+# How to install the reporting server on a standalone computer for App-V in Windows
 
 >Applies to: Windows 10, Windows 11, Windows Server 2016
 
@@ -34,5 +34,5 @@ Use the following procedure to install the reporting server on a standalone comp
 ## Related articles
 
 * [About App-V reporting](appv-reporting.md)
-* [Deploying App-V](appv-deploying-appv.md)
+* [App-V deployment checklist](appv-deployment-checklist.md)
 * [How to enable reporting on the App-V client by using Windows PowerShell](appv-enable-reporting-on-the-appv-client-with-powershell.md)

@@ -9,7 +9,7 @@ ms.date: 04/18/2018
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
-This section of the Microsoft Application Virtualization (App-V) Administratorâ€™s Guide includes information about the various types of App-V administration and operating tasks that are typically performed by an administrator. This section also includes step-by-step procedures to help you successfully perform those tasks.
+This section includes information about the various types of App-V administration and operating tasks that are typically performed by an administrator. This section also includes step-by-step procedures to help you successfully perform those tasks.
 
 ## Operations Information
 
@@ -39,10 +39,3 @@ This section of the Microsoft Application Virtualization (App-V) Administratorâ€
 
 - [Application Virtualization (App-V) overview](appv-for-windows.md)
 - [Getting Started with App-V](appv-getting-started.md)
-- [Planning for App-V](appv-planning-for-appv.md)
-- [Deploying App-V](appv-deploying-appv.md)
-- [Troubleshooting App-V](appv-troubleshooting.md)
-- [Technical Reference for App-V](appv-technical-reference.md)
-
-
-

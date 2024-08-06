@@ -1,11 +1,11 @@
 ---
-title: App-V Planning Checklist (Windows 10/11)
+title: App-V for Windows planning checklist
 description: Learn about the recommended steps and items to consider when planning an Application Virtualization (App-V) deployment.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# App-V Planning Checklist
+# App-V for Windows planning checklist
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -22,11 +22,3 @@ This checklist can be used to help you plan for preparing your organization for 
 |![Checklist box.](../app-v/images/checklistbox.gif)|Plan for the App-V sequencer and client to create and run virtualized applications.|[Planning for the App-V Sequencer and client deployment](appv-planning-for-sequencer-and-client-deployment.md)||
 |![Checklist box.](../app-v/images/checklistbox.gif)|If applicable, review the options and steps for migrating from a previous version of App-V.|[Migrating to App-V from a previous version](appv-migrating-to-appv-from-a-previous-version.md)||
 |![Checklist box.](../app-v/images/checklistbox.gif)|Decide whether to configure App-V clients in Shared Content Store mode.|[Deploying the App-V Sequencer and configuring the client](appv-deploying-the-appv-sequencer-and-client.md)||
-
-
-
-
-
-## Related articles
-
-[Planning for App-V](appv-planning-for-appv.md)

@@ -1,11 +1,11 @@
 ---
-title: App-V Deployment Checklist (Windows 10/11)
-description: Use the App-V deployment checklist to understand the recommended steps and items to consider when deploying App-V features.
+title: App-V in Windows deployment checklist
+description: Use the App-V in Windows deployment checklist to understand the recommended steps and items to consider when deploying App-V features.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# App-V Deployment Checklist
+# App-V in Windows deployment checklist
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -19,11 +19,3 @@ This checklist outlines the recommended steps and items to consider when deployi
 
 >[!NOTE]
 >Keep track of server names and associated URLs you create during installation. You'll need this information throughout the installation process.
-
-
-
-
-
-## Related articles
-
-* [Deploying App-V](appv-deploying-appv.md)
