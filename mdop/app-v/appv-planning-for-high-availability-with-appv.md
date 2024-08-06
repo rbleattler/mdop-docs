@@ -1,11 +1,11 @@
 ---
-title: Planning for High Availability with App-V Server
+title: Planning for high availability with App-V server
 description: Learn what you need to know so you can plan for high availability with Application Virtualization (App-V) server.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# Planning for high availability with App-V Server
+# Planning for high availability with App-V server
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -29,10 +29,10 @@ Review the following articles to learn more about configuring IIS and NLB for co
 
 * [Network load balancing overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831698(v=ws.11)) will tell you more about how to configure Microsoft Windows Server.
 
-    This information also applies to IIS NLB clusters in Windows Server 2008, Windows Server 2008 R2, or Windows Server 2012.
+    This information also applies to IIS NLB clusters in Windows Server 2008, Windows Server 2008 R2, or Windows Server 2012.
 
 >[!NOTE]
->The IIS NLB functionality in Windows Server 2012 is generally the same as in Windows Server 2008 R2. However, some task details have changed in Windows Server 2012. To learn how to work with these changes, see [Common management tasks and navigation in Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
+>The IIS NLB functionality in Windows Server 2012 is generally the same as in Windows Server 2008 R2. However, some task details have changed in Windows Server 2012. To learn how to work with these changes, see [Common management tasks and navigation in Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
 
 ## Support for clustered file servers when running SCS mode
 
@@ -80,8 +80,9 @@ Use the following steps to modify the connection string to include ```failover p
 2. Navigate to **HKEY\_LOCAL\_MACHINE** \\ **Software** \\ **Microsoft** \\ **AppV** \\ **Server** \\ **ManagementService**.
 3. Modify the **MANAGEMENT\_SQL\_CONNECTION\_STRING** value with the ```failover partner = <server2>``` value.
 4. Restart management service using the IIS console.
-  > [!NOTE]
-   >Database Mirroring is on the list of [deprecated database engine features in SQL Server 2012](/previous-versions/sql/sql-server-2012/ms143729(v=sql.110)) due to the **AlwaysOn** feature available starting with Microsoft SQL Server 2012.
+
+    > [!NOTE]
+    > Database Mirroring is on the list of [deprecated database engine features in SQL Server 2012](/previous-versions/sql/sql-server-2012/ms143729(v=sql.110)) due to the **AlwaysOn** feature available starting with Microsoft SQL Server 2012.
 
 For more information, see the following articles:
 
@@ -93,10 +94,6 @@ For more information, see the following articles:
 
 The App-V management server database supports deployments to computers running Microsoft SQL Server with the **Always On** configuration. For more information, see [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server).
 
-
-
-
-
 ## Related articles
 
-* [Planning to deploy App-V](appv-planning-to-deploy-appv.md)
+* [App-V supported configurations](appv-supported-configurations.md)

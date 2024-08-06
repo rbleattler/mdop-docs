@@ -1,13 +1,13 @@
 ---
-title: How to Install the Management and Reporting Databases on separate computers from the Management and Reporting Services (Windows 10/11)
-description: How to install the Management and Reporting Databases on separate computers from the Management and Reporting Services.
+title: How to install the management and reporting databases on separate computers from the management and reporting services for App-V in Windows
+description: Use the following procedure for App-V in Windows to install the database server and management server on different computers.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# How to Install the Management and Reporting Databases on separate computers from the Management and Reporting Services
+# How to install the management and reporting databases on separate computers from the management and reporting services for App-V in Windows
 
->Applies to: Windows Server 2016
+>Applies to: Windows 10, Windows 11, Windows Server 2016
 
 Use the following procedure to install the database server and management server on different computers. The computer you plan to install the database server on must be running a supported version of Microsoft SQL or the installation will fail.
 
@@ -18,7 +18,7 @@ Use the following procedure to install the database server and management server
 
 1. Copy the App-V server installation files to the computer you want to install it on. To start the App-V server installation, run **appv\_server\_setup.exe** as an administrator, then select **Install**.
 2. On the **Getting started** page, review and accept the license terms, then select **Next**.
-3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don’t want to use Microsoft Update**, then select **Next**.
+3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft updates, select **Use Microsoft Update when I check for updates (recommended).** To disable Microsoft updates, select **I don't want to use Microsoft Update**, then select **Next**.
 4. On the **Feature selection** page, select the components you want to install by first selecting the **Management Server Database** checkbox, then selecting **Next**.
 5. On the **Installation location** page, accept the default location and select **Next**.
 6. On the initial **Create new management server database** page, accept the default selections if appropriate, then select **Next**.
@@ -34,7 +34,7 @@ Use the following procedure to install the database server and management server
 
 1. Copy the App-V server installation files to the computer you want to install it on. To start the App-V server installation, run **appv\_server\_setup.exe** as an administrator, then select **Install**.
 2. On the **Getting started** page, review and accept the license terms, then select **Next**.
-3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft Update, select **Use Microsoft Update when I check for updates (recommended)**. To disable Microsoft Update, select **I don’t want to use Microsoft Update**. After that, select **Next**.
+3. On the **Use Microsoft Update to help keep your computer secure and up-to-date** page, to enable Microsoft Update, select **Use Microsoft Update when I check for updates (recommended)**. To disable Microsoft Update, select **I don't want to use Microsoft Update**. After that, select **Next**.
 4. On the **Feature selection** page, select the components you want to install by first selecting the **Reporting Server Database** checkbox, then selecting **Next**.
 5. On the **Installation Location** page, accept the default location and select **Next**.
 6. On the initial **Create new management server database** page, accept the default selections if appropriate, then select **Next**.
@@ -52,7 +52,7 @@ Use the following procedure to install the database server and management server
 2. To extract the App-V database scripts, open a command prompt and specify the location where the installation files are saved and run the following command:
 
    ```SQL
-    appv\_server\_setup.exe /LAYOUT /LAYOUTDIR=”InstallationExtractionLocation”
+    appv\_server\_setup.exe /LAYOUT /LAYOUTDIR="InstallationExtractionLocation"
    ```
 
 3. After the extraction has been completed, to access the App-V database scripts and instructions readme file:
@@ -63,12 +63,9 @@ Use the following procedure to install the database server and management server
 
   > [!NOTE]
    >For more information about modifying the required SIDs contained in the scripts, see, [How to Install the App-V Databases and Convert the Associated Security Identifiers by Using Windows PowerShell](appv-install-the-appv-databases-and-convert-the-associated-security-identifiers-with-powershell.md).
+
 5. Run the scripts on the computer running Microsoft SQL Server.
-
-
-
-
 
 ## Related articles
 
-* [Deploying App-V](appv-deploying-appv.md)
+* [App-V deployment checklist](appv-deployment-checklist.md)

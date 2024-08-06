@@ -1,13 +1,13 @@
 ---
-title: Planning for the App-V Server Deployment (Windows 10/11)
+title: Planning for the App-V in Windows server deployment
 description: Learn what you need to know so you can plan for the Microsoft Application Virtualization (App-V) 5.1 server deployment.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# Planning for the App-V server deployment
+# Planning for the App-V in Windows server deployment
 
->Applies to: Windows Server 2016
+>Applies to: Windows 11, Windows 10, Windows Server 2016
 
 The Microsoft Application Virtualization (App-V) server infrastructure consists of a set of specialized features that can be installed on one or more server computers, based on the requirements of the enterprise.
 
@@ -46,11 +46,7 @@ The following table lists server-related protocols used by the App-V servers, an
 |IIS server|HTTP<br>HTTPS|This server-protocol combination requires a mechanism to synchronize content between the Management Server and the Streaming Server. When using HTTP or HTTPS, use an IIS server and a firewall to protect the server from exposure to the Internet.|Internal|
 |File|SMB|This server-protocol combination requires support to synchronize the content between the Management Server and the Streaming Server. Use a client computer that's capable of file sharing or streaming.|Internal|
 
-
-
-
-
 ## Related articles
 
-* [Planning to deploy App-V](appv-planning-to-deploy-appv.md)
+* [App-V supported configurations](appv-supported-configurations.md)
 * [Deploying the App-V server](appv-deploying-the-appv-server.md)
