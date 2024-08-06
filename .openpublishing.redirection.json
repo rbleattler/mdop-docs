@@ -6019,6 +6019,56 @@
       "source_path": "mdop/dart-v10/troubleshooting-dart-10.md",
       "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp2-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/agpm-40-sp3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40-sp2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp1-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/agpm-40-sp3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40-sp1.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp1.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-4-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/advanced-group-policy-management-40",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp3-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
     }
   ]
 }
