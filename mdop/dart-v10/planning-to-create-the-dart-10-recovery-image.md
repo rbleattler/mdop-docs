@@ -28,6 +28,6 @@ The following items are required or recommended for creating the DaRT recovery i
 | [Windows debugging tools](/windows-hardware/drivers/debugger/) | Required when you run the **Crash Analyzer** to determine the cause of a computer failure. We recommend that you specify the path of the Windows Debugging Tools at the time that you create the DaRT recovery image. |
 | Optional: Windows symbols files | Typically, debugging information is stored in a symbol file that is separate from the program. You must have access to the symbol information when you debug an application that has stopped responding, for example, if it stopped working. For more information, see [Diagnosing system failures with crash analyzer](diagnosing-system-failures-with-crash-analyzer-dart-10.md). |
 
-## Related topics
+## Related information
 
-- [Planning to Deploy DaRT 10](planning-to-deploy-dart-10.md)
+[DaRT 10 planning checklist](dart-10-planning-checklist.md)

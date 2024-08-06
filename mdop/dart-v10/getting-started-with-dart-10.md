@@ -1,27 +1,22 @@
 ---
-title: Getting Started with DaRT 10
-description: Getting Started with DaRT 10
+title: Getting started with DaRT 10
+description: Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning before you deploy it or use its features.
 author: aczechowski
-ms.assetid: 593dd317-4fba-4d51-8a80-951590acede6
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
 ms.date: 04/20/2021
 ---
 
-# Getting Started with DaRT 10
+# Getting started with DaRT 10
 
 Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning before you deploy it or use its features. If you are new to this product, we recommend that you read the documentation carefully. Before you deploy the product to a production environment, we also recommend that you validate your deployment plan in a test network environment. You might also consider taking a class about relevant technologies.
 
 >[!NOTE]
-> A downloadable version of this administrator’s guide is not available. However, you can click **Download PDF** at the bottom of the Table of Contents pane to get a PDF version of this guide.
+> A downloadable version of this administrator's guide isn't available. To get a PDF version of this guide, select **Download PDF** at the bottom of the table of contents.
 >
->Additional information about this product can also be found on the [Diagnostics and Recovery Toolset documentation download page.](https://www.microsoft.com/download/details.aspx?id=27754)
+> For additional information about this product, see the [Diagnostics and Recovery Toolset documentation download page](https://www.microsoft.com/download/details.aspx?id=27754).
 
-## Getting started with DaRT 10
+## Learn how to get started with DaRT 10
 
 - [About DaRT 10](about-dart-10.md)
 
@@ -35,14 +30,7 @@ Microsoft Diagnostics and Recovery Toolset (DaRT) 10 requires thorough planning 
 
     Provides information about features and services that make this product and its corresponding documentation more accessible for people with disabilities.
 
-## How to Get DaRT 10
-
-DaRT 10 is a part of the Microsoft Desktop Optimization Pack (MDOP). MDOP is part of Microsoft Software Assurance. For more information about Microsoft Software Assurance and acquiring MDOP, see [How Do I Get MDOP](https://go.microsoft.com/fwlink/?LinkId=322049).
-
-## Related topics
+## Related articles
 
 - [Diagnostics and Recovery Toolset 10](index.md)
-- [Planning for DaRT 10](planning-for-dart-10.md)
-- [Deploying DaRT 10](deploying-dart-10.md)
 - [Operations for DaRT 10](operations-for-dart-10.md)
-- [Troubleshooting DaRT 10](troubleshooting-dart-10.md)

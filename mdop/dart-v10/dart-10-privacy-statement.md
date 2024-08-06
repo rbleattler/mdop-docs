@@ -1,8 +1,7 @@
 ---
 title: DaRT 10 privacy statement
-description: DaRT 10 privacy statement.
+description: This privacy statement explains many of the data collection and use practices of Microsoft Diagnostics and Recovery Toolset (DaRT).
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 08/30/2016
@@ -36,7 +35,7 @@ Information that's collected by or sent to Microsoft by DaRT may be stored and p
 
 ## Collection and Use of Information about Your Computer
 
-When you use software with Internet-enabled features, information about your computer ("standard computer information") is sent to the web sites you visit, and online services you use. Microsoft uses standard computer information to provide you Internet-enabled services to help improve our products and services, and for statistical analysis. Standard computer information typically includes information such as your IP address, operating system version, browser version, and regional and language settings. In some cases, standard computer information may also include hardware ID, which indicates the device manufacturer, device name, and version. If a particular feature or service sends information to Microsoft, standard computer information is also sent.
+When you use software with Internet-enabled features, information about your computer ("standard computer information") is sent to the web sites you visit, and online services you use. Microsoft uses standard computer information to provide you with Internet-enabled services to help improve our products and services, and for statistical analysis. Standard computer information typically includes information such as your IP address, operating system version, browser version, and regional and language settings. In some cases, standard computer information may also include hardware ID, which indicates the device manufacturer, device name, and version. If a particular feature or service sends information to Microsoft, standard computer information is also sent.
 
 The privacy details for each DaRT feature, software or service listed in this privacy statement describe what additional information is collected and how it's used.
 
@@ -73,7 +72,3 @@ Microsoft Privacy: Microsoft Corporation, One Microsoft Way, Redmond, Washington
 - **Choice/Control:**
 
     For details about controlling this feature, see the [Update Services Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=244400).
-
-## Related information
-
-- [Security and Privacy for DaRT 10](security-and-privacy-for-dart-10.md)

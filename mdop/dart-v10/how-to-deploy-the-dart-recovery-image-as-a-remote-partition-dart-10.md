@@ -31,6 +31,5 @@ For more information about how to deploy DaRT as a remote partition, see [Walkth
 
 ## Related topics
 
-- [Creating the DaRT 10 Recovery Image](creating-the-dart-10-recovery-image.md)
-- [Deploying the DaRT Recovery Image](deploying-the-dart-recovery-image-dart-10.md)
-- [Planning for DaRT 10](planning-for-dart-10.md)
+- [Creating the DaRT 10 recovery image](creating-the-dart-10-recovery-image.md)
+- [Deploying the DaRT recovery image](deploying-the-dart-recovery-image-dart-10.md)
