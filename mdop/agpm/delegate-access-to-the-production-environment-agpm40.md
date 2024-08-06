@@ -1,106 +1,52 @@
 ---
-title: Delegating Access to the Production Environment
-description: Delegating Access to the Production Environment
+title: Delegating access to the production environment
+description: In Advanced Group Policy Management (AGPM), you can change access to group policy objects (GPOs) in the production environment of the domain, replacing any existing permissions on those GPOs.
 author: aczechowski
-ms.assetid: 4c670581-8c47-41ea-80eb-02846ff1ec1f
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Delegating access to the production environment
 
-# Delegating Access to the Production Environment
+In Advanced Group Policy Management (AGPM), you can change access to group policy objects (GPOs) in the production environment of the domain, replacing any existing permissions on those GPOs. You can configure permissions at the domain level to either allow or prevent users from editing, deleting, or modifying the security of GPOs in the production environment when they aren't using the **Change Control** folder in the Group Policy Management Console (GPMC).
 
+> [!NOTE]
+>
+> - Changing how access to the production environment is delegated doesn't affect users' ability to link GPOs.
+> - When GPOs are controlled or deployed, access for any other accounts except those with **Read** and **Apply** permissions is removed.
 
-In Advanced Group Policy Management (AGPM), you can change access to Group Policy Objects (GPOs) in the production environment of the domain, replacing any existing permissions on those GPOs. You can configure permissions at the domain level to either allow or prevent users from editing, deleting, or modifying the security of GPOs in the production environment when they are not using the **Change Control** folder in the Group Policy Management Console (GPMC).
+A user account that has either the role of AGPM administrator (full control) or the necessary permissions in AGPM is required to complete this procedure.
 
-**Note**  
--   Changing how access to the production environment is delegated does not affect users' ability to link GPOs.
+## To change access to GPOs in the production environment of the domain
 
--   When GPOs are controlled or deployed, access for any other accounts except those with **Read** and **Apply** permissions is removed.
+1. In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
- 
+2. Select the **Production Delegation** tab.
 
-A user account that has either the role of AGPM Administrator (Full Control) or the necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
+3. To add permissions for a user or group that doesn't have access to the production environment, or to replace the permissions for a user or group that does have access:
 
-**To change access to GPOs in the production environment of the domain**
+    1. Select **Add**, select a user or group, and then select **OK**.
 
-1.  In the **Group Policy Management Console** tree, click **Change Control** in the forest and domain in which you want to manage GPOs.
+    2. Select permissions to delegate to that user or group for the production environment, and then select **OK**.
 
-2.  Click the **Production Delegation** tab.
+4. To remove all permissions to the production environment for a user or group, select the user or group, select **Remove**, and then select **OK**.
 
-3.  To add permissions for a user or group that does not have access to the production environment, or to replace the permissions for a user or group that does have access:
+## Other considerations
 
-    1.  Click **Add**, select a user or group, and then click **OK**.
+- By default, you must be an AGPM administrator (full control) to perform this procedure. Specifically, you must have **Modify Security** permission for the domain.
 
-    2.  Select permissions to delegate to that user or group for the production environment, and then click **OK**.
+- Permissions for the AGPM Service Account can't be changed on the **Production Delegation** tab.
 
-4.  To remove all permissions to the production environment for a user or group, select the user or group, click **Remove**, and then click **OK**.
+- By default, the following accounts have permissions for GPOs in the production environment:
 
-### Additional considerations
+    | Account | Default permissions for GPOs |
+    |--|--|
+    | "AGPM Service Account" | Edit settings, delete, modify security |
+    | Authenticated Users | Read, apply |
+    | Domain Admins | Edit settings, delete, modify security |
+    | Enterprise Admins | Edit settings, delete, modify security |
+    | Enterprise Domain Controllers | Read |
+    | System | Edit settings, delete, modify security |
 
--   By default, you must be an AGPM Administrator (Full Control) to perform this procedure. Specifically, you must have **Modify Security** permission for the domain.
-
--   Permissions for the AGPM Service Account cannot be changed on the **Production Delegation** tab.
-
--   By default, the following accounts have permissions for GPOs in the production environment:
-
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th align="left">Account</th>
-    <th align="left">Default Permissions for GPOs</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td align="left"><p>&lt;AGPM Service Account&gt;</p></td>
-    <td align="left"><p>Edit Settings, Delete, Modify Security</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p>Authenticated Users</p></td>
-    <td align="left"><p>Read, Apply</p></td>
-    </tr>
-    <tr class="odd">
-    <td align="left"><p>Domain Admins</p></td>
-    <td align="left"><p>Edit Settings, Delete, Modify Security</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p>Enterprise Admins</p></td>
-    <td align="left"><p>Edit Settings, Delete, Modify Security</p></td>
-    </tr>
-    <tr class="odd">
-    <td align="left"><p>Enterprise Domain Controllers</p></td>
-    <td align="left"><p>Read</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p>System</p></td>
-    <td align="left"><p>Edit Settings, Delete, Modify Security</p></td>
-    </tr>
-    </tbody>
-    </table>
-
-     
-
--   Membership in the Group Policy Creator Owners group should be restricted, so it is not used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, click **Group Policy Objects** in the forest and domain in which you want to manage GPOs, click **Delegation**, and then configure the settings to meet the needs of your organization.)
-
-### Additional references
-
--   [Configuring Advanced Group Policy Management](configuring-advanced-group-policy-management-agpm40.md)
-
- 
-
- 
-
-
-
-
-
+- Membership in the Group Policy Creator Owners group should be restricted, so it isn't used to circumvent AGPM management of access to GPOs. In the **Group Policy Management Console**, select **Group Policy Objects** in the forest and domain in which you want to manage GPOs, select **Delegation**, and then configure the settings to meet the needs of your organization.
