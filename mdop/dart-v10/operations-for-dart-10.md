@@ -1,14 +1,9 @@
 ---
 title: Operations for DaRT 10
-description: Operations for DaRT 10
+description: This section includes information about the various types of Microsoft Diagnostics and Recovery Toolset (DaRT) 10 administration and operating tasks that are typically performed by an administrator.
 author: aczechowski
-ms.assetid: 1776d5ed-96c6-4841-a097-721d8cf5c7f7
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop
-ms.mktglfcycl: support
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
@@ -26,7 +21,7 @@ This section includes information about the various types of Microsoft Diagnosti
 
     This section explains how to open and run the Crash Analyzer on either an end-user or non-end-user computer to debug a memory dump file and then diagnose computer errors.
 
-- [Security and Privacy for DaRT 10](security-and-privacy-for-dart-10.md)
+- [Security considerations for DaRT 10](security-considerations-for-dart-10.md)
 
     This section describes measures for maintaining security while using DaRT.
 
@@ -34,10 +29,7 @@ This section includes information about the various types of Microsoft Diagnosti
 
     This section lists the Windows PowerShell commands that administrators can use to perform various DaRT tasks.
 
-## Related topics
+## Related articles
 
 - [Diagnostics and Recovery Toolset 10](index.md)
-- [Getting Started with DaRT 10](getting-started-with-dart-10.md)
-- [Planning for DaRT 10](planning-for-dart-10.md)
-- [Deploying DaRT 10](deploying-dart-10.md)
-- [Troubleshooting DaRT 10](troubleshooting-dart-10.md)
+- [Getting started with DaRT 10](getting-started-with-dart-10.md)

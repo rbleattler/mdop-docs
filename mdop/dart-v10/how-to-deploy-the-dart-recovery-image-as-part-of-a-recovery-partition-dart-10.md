@@ -37,4 +37,3 @@ To deploy DaRT in the recovery partition of a Windows 10 image:
 
 - [Creating the DaRT 10 Recovery Image](creating-the-dart-10-recovery-image.md)
 - [Deploying the DaRT Recovery Image](deploying-the-dart-recovery-image-dart-10.md)
-- [Planning for DaRT 10](planning-for-dart-10.md)

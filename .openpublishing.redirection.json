@@ -5994,6 +5994,31 @@
       "source_path": "mdop/app-v/appv-technical-reference.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-available-mdm-settings",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/planning-for-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/planning-to-deploy-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/deploying-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/security-and-privacy-for-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/security-considerations-for-dart-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/troubleshooting-dart-10.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
     }
   ]
 }

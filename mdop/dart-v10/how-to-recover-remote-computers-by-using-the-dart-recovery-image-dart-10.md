@@ -1,8 +1,7 @@
 ---
 title: How to recover remote computers by using the DaRT recovery image
-description: How to recover remote computers by using the DaRT recovery image.
+description: Use the Remote Connection feature in Microsoft Diagnostics and Recovery Toolset (DaRT) 10 to run the DaRT tools remotely on an end-user computer.
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 04/20/2021
@@ -18,7 +17,7 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
 
 1. Boot an end-user computer by using the DaRT recovery image.
 
-    You will typically use one of the following methods to boot into DaRT to recover a remote computer, depending on how you deploy the DaRT recovery image. For more information about deploying the DaRT recovery image, see [Deploying DaRT 10](deploying-dart-10.md).
+    You will typically use one of the following methods to boot into DaRT to recover a remote computer, depending on how you deploy the DaRT recovery image.
 
     - Boot into DaRT from a recovery partition on the problem computer.
     - Boot into DaRT from a remote partition on the network.
@@ -49,7 +48,7 @@ If you disabled the DaRT tools when you created the recovery image, you still ha
     The **System Recovery Options** window appears and lists various recovery tools.
 
     > [!NOTE]
-    > If the Windows Recovery Environment (WinRE) detects or suspects that Windows 10 did not start correctly the last time that it was tried, **Startup Repair** might start to run automatically. For information about how to resolve this issue, see [Troubleshooting DaRT 10](troubleshooting-dart-10.md).
+    > If the Windows Recovery Environment (WinRE) detects or suspects that Windows 10 didn't start correctly the last time that it was tried, **Startup Repair** might start to run automatically.
 
     > [!IMPORTANT]
     > If any of the registry hives are corrupted or missing, Registry Editor and several other DaRT utilities will have limited functionality. If no operating system is selected, some tools will not be available.

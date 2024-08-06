@@ -10,11 +10,11 @@ ms.date: 04/20/2021
 
 # DaRT 10 Supported Configurations
 
-This topic specifies the prerequisite software and supported configurations requirements that are necessary to install and run Microsoft Diagnostics and Recovery Toolset (DaRT) 10 in your environment. Both the operating system requirements and the system requirements that are required to run DaRT 10 are specified. For information about prerequisites that you need to consider to create the DaRT recovery image, see [Planning to Create the DaRT 10 Recovery Image](planning-to-create-the-dart-10-recovery-image.md).
+This article specifies the prerequisite software and supported configurations requirements that are necessary to install and run Microsoft Diagnostics and Recovery Toolset (DaRT) 10 in your environment. Both the operating system requirements and the system requirements that are required to run DaRT 10 are specified. For information about prerequisites that you need to consider to create the DaRT recovery image, see [Planning to Create the DaRT 10 Recovery Image](planning-to-create-the-dart-10-recovery-image.md).
 
 For supported configurations that apply to later releases, see the documentation for the applicable release.
 
-You can install DaRT in one of two ways. You can install all functionality on an IT administrator computer, where you will perform all the tasks associated with running DaRT. Alternatively, you can install, on the administrator computer, only the DaRT functionality that creates the recovery image, and then install the functionality used to run DaRT (that is, the DaRT Remote Connection Viewer) on a help desk computer.
+You can install DaRT in one of two ways. You can install all functionality on an administrator computer, where you do all the tasks associated with running DaRT. Alternatively, you can install, on the administrator computer, only the DaRT functionality that creates the recovery image, and then install the functionality used to run DaRT (that is, the DaRT Remote Connection Viewer) on a help desk computer.
 
 ## DaRT 10 prerequisite software
 
@@ -22,26 +22,26 @@ Make sure that the following prerequisites are met before you install DaRT.
 
 ### Administrator computer prerequisites
 
-The following table lists the installation prerequisites for the administrator computer when you are installing DaRT 10 and all of the DaRT tools.
+The following table lists the installation prerequisites for the administrator computer when you install DaRT 10 and all of the DaRT tools.
 
 | Prerequisite | Details |
 |--|--|
-| [Windows Assessment and Deployment Kit (ADK) 10.0](/windows-hardware/get-started/adk-install) | Required for the DaRT Recovery Image wizard. Contains the Deployment Tools, which are used to customize, deploy, and service Windows images, and contains the Windows Preinstallation Environment (Windows PE). The ADK is not required if you are installing only the Remote Connection Viewer or Crash Analyzer. |
+| [Windows Assessment and Deployment Kit (ADK) 10.0](/windows-hardware/get-started/adk-install) | Required for the DaRT Recovery Image wizard. Contains the Deployment Tools, which are used to customize, deploy, and service Windows images, and contains the Windows Preinstallation Environment (Windows PE). The ADK isn't required if you install only the Remote Connection Viewer or Crash Analyzer. |
 | Windows SDK or Windows Driver Kit (optional) | Crash Analyzer requires the Windows 10 Debugging Tools from the Windows Driver Kit to analyze memory dump files. |
 | Windows 10 x64 or x86 ISO image | DaRT requires the Windows Recovery Environment (Windows RE) image from the Windows 10 media. Download the x86 or x64 version of Windows 10, depending on the type of DaRT recovery image you want to create. If you support both system types in your environment, download both versions of Windows 10. |
 
 ### Help desk computer prerequisites
 
-The following table lists the installation prerequisites for the help desk computer when you are running the DaRT 10 Remote Connection Viewer.
+The following table lists the installation prerequisites for the help desk computer when you run the DaRT 10 Remote Connection Viewer.
 
 | Prerequisite | Details |
 |--|--|
 | DaRT 10 Remote Connection Viewer | Must be installed on a Windows 10 operating system. |
-| Debugging Tools for Windows | Required only if you are installing the Crash Analyzer tool. |
+| Debugging Tools for Windows | Required only if you install the Crash Analyzer tool. |
 
 ### End-user computer prerequisites
 
-There is no prerequisite software that must be installed on end-user computers, other than the Windows 10 operating system.
+There's no prerequisite software that must be installed on user computers, other than the Windows 10 operating system.
 
 ## DaRT 10 operating system requirements
 
@@ -80,7 +80,7 @@ The following table lists the operating systems that are supported for the DaRT 
 
 DaRT also has the following minimum hardware requirements for the end-user computer:
 
-- A CD or DVD drive or a USB port - required only if you are deploying DaRT in your enterprise by using a CD, DVD, or USB.
+- A CD or DVD drive or a USB port - required only if you deploy DaRT in your enterprise by using a CD, DVD, or USB.
 - BIOS support for starting the computer from a CD or DVD, a USB flash drive, or from a remote or recovery partition.
 
 ### DaRT 10 end-user computer system requirements
@@ -92,6 +92,6 @@ The Diagnostics and Recovery Toolset window in DaRT 10 requires that the end-use
 | Windows 10 | All editions | x64 | 2 GB | 2.5 GB |
 | Windows 10 | All editions | x86 | 1 GB | 1.5 GB |
 
-## Related topics
+## Related articles
 
-- [Planning to Deploy DaRT 10](planning-to-deploy-dart-10.md)
+[DaRT 10 planning checklist](dart-10-planning-checklist.md)
