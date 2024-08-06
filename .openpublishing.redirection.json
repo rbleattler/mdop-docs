@@ -5964,6 +5964,36 @@
       "source_path": "mdop/appv-v5/technical-reference-for-app-v-51.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-51",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-planning-for-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-preparing-your-environment.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-planning-to-deploy-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-deploying-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-troubleshooting.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-technical-reference.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-available-mdm-settings",
+      "redirect_document_id": false
     }
   ]
 }

@@ -74,7 +74,3 @@ In your publishing metadata query, enter the string values that correspond to th
 |Windows Server 2012|32-bit|WindowsServer_6.2_x86|
 |Windows Server 2008 R2|64-bit|WindowsServer_6.1_x64|
 |Windows Server 2008 R2|32-bit|WindowsServer_6.1_x86|
-
-## Related articles
-
-[Technical Reference for App-V](appv-technical-reference.md)

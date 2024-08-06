@@ -1,11 +1,11 @@
 ---
-title: Planning for the App-V Sequencer and Client Deployment (Windows 10/11)
-description: Learn what you need to do to plan for the App-V Sequencer and Client deployment, and where to find additional information about the deployment process.
+title: Planning for the App-V in Windows sequencer and client deployment
+description: Learn what you need to do to plan for the App-V in Windows sequencer and client deployment, and where to find additional information about the deployment process.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# Planning for the App-V Sequencer and Client Deployment
+# Planning for the App-V in Windows sequencer and client deployment
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -20,11 +20,11 @@ App-V uses a process called sequencing to create virtualized applications and ap
 
 The computer running the App-V sequencer must meet the minimum system requirements. For a list of these requirements, see [App-V supported configurations](appv-supported-configurations.md).
 
-Ideally, you should install the sequencer on a computer running as a virtual machine. This lets you revert the computer that's running the sequencer to a “clean” state before sequencing another application. When installing the sequencer using a virtual machine, you should do the following things:
+Ideally, you should install the sequencer on a computer running as a virtual machine. This lets you revert the computer that's running the sequencer to a "clean" state before sequencing another application. When installing the sequencer using a virtual machine, you should do the following things:
 
 1. Install all associated sequencer prerequisites.
 2. Install the sequencer.
-3. Take a “snapshot” of the environment.
+3. Take a "snapshot" of the environment.
 
 >[!IMPORTANT]
 >Your corporate security team should review and approve the sequencing process plan before implementing it. For security reasons, it's a good idea to keep sequencer operations in a lab separate from the production environment. The sequencing computers must be capable of connecting to the corporate network to copy finished packages to the production servers. However, because the sequencing computers are typically operated without antivirus protection, they shouldn't remain on the corporate network unprotected. You can protect your sequencing computers by operating them on an isolated network, behind a firewall, or by using virtual machines on an isolated virtual network. Make sure your solution follows your company's corporate security policies.
@@ -42,14 +42,6 @@ The following list displays some of the benefits of using App-V SCS:
 * Reduced app-to-app and multi-user application conflicts reduces the need for regression testing
 * Reduced deployment risk accelerates application deployment
 * Simplified profile management
-
-
-
-
-
-## Other App-V deployment resources
-
-* [Planning to deploy App-V](appv-planning-to-deploy-appv.md)
 
 ## Related articles
 

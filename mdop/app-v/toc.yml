@@ -22,19 +22,13 @@ items:
     - name: Planning
       items:
         - name: Planning for App-V
-          href: ./appv-planning-for-appv.md
-        - name: Preparing your environment
-          items:
-            - name: Preparing your environment for App-V
-              href: ./appv-preparing-your-environment.md
-            - name: App-V Prerequisites
-              href: ./appv-prerequisites.md
-            - name: App-V security considerations
-              href: ./appv-security-considerations.md
+          href: ./appv-planning-checklist.md
+        - name: App-V Prerequisites
+          href: ./appv-prerequisites.md
+        - name: App-V security considerations
+          href: ./appv-security-considerations.md
         - name: Planning to deploy
           items:
-            - name: Planning to Deploy App-V
-              href: ./appv-planning-to-deploy-appv.md
             - name: App-V Supported Configurations
               href: ./appv-supported-configurations.md
             - name: App-V Capacity Planning
@@ -51,12 +45,10 @@ items:
               href: ./appv-planning-for-using-appv-with-office.md
             - name: Planning to Use Folder Redirection with App-V
               href: ./appv-planning-folder-redirection-with-appv.md
-            - name: App-V Planning Checklist
-              href: ./appv-planning-checklist.md
     - name: Deploying
       items:
         - name: Deploying App-V
-          href: ./appv-deploying-appv.md
+          href: ./appv-deployment-checklist.md
         - name: App-V sequencer and client configuration
           items:
             - name: Deploying the App-V Sequencer and Configuring the Client
@@ -87,8 +79,6 @@ items:
               href: ./appv-reporting.md
             - name: How to install the Reporting Server on a Standalone Computer and Connect it to the Database
               href: ./appv-install-the-reporting-server-on-a-standalone-computer.md
-        - name: App-V Deployment Checklist
-          href: ./appv-deployment-checklist.md
         - name: Deploying Microsoft Office 2016 by Using App-V
           href: ./appv-deploying-microsoft-office-2016-with-appv.md
         - name: Deploying Microsoft Office 2013 by Using App-V
@@ -219,12 +209,8 @@ items:
                   href: ./appv-enable-reporting-on-the-appv-client-with-powershell.md
                 - name: How to Install the App-V Databases and Convert the Associated Security Identifiers  by Using Windows PowerShell
                   href: ./appv-install-the-appv-databases-and-convert-the-associated-security-identifiers-with-powershell.md
-        - name: Troubleshooting App-V
-          href: ./appv-troubleshooting.md
         - name: Technical Reference
           items:
-            - name: Technical Reference for App-V
-              href: ./appv-technical-reference.md
             - name: Available Mobile Device Management (MDM) settings for App-V
               href: ./appv-available-mdm-settings.md
             - name: Performance Guidance for Application Virtualization

@@ -150,5 +150,3 @@ For information that can help with troubleshooting App-V for Windows 10, see:
 - [Application Virtualization (App-V): List of Microsoft Support Knowledge Base Articles](/archive/technet-wiki/14272.app-v-v5-x-list-of-microsoft-support-knowledge-base-articles)
 
 - [The Official Microsoft App-V Team Blog](/archive/blogs/appv/)
-
-- [Technical Reference for App-V](./appv-technical-reference.md)

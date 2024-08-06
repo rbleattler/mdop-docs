@@ -106,7 +106,3 @@ To get the package GUID and version GUID of your application, run the **Get-Appv
 If you don't know the exact name of your package, use the command line `Get-AppvClientPackage YourExecutable`, where `YourExecutable` is the name of the application. For example, enter `Get-AppvClientPackage Word`.
 
 This method lets you launch any command within the context of an App-V package, regardless of whether the package is currently running.
-
-## Related articles
-
-[Technical Reference for App-V](appv-technical-reference.md)
