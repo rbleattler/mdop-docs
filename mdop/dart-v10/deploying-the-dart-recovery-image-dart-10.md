@@ -36,6 +36,6 @@ ms.date: 04/20/2021
 
     You can host the recovery image on a central network boot server, such as Windows Deployment Services, and allow users or support staff to stream the image to computers on demand.
 
-## Related topics
+## Related information
 
-- [Deploying DaRT 10](deploying-dart-10.md)
+- [DaRT 10 deployment checklist](dart-10-deployment-checklist.md)
