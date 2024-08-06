@@ -1,6 +1,6 @@
 ---
-title: Differences Between GPOs, GPO Versions, or Templates
-description: Differences Between GPOs, GPO Versions, or Templates
+title: Differences between GPOs, GPO versions, or templates
+description: You can generate HTML-based or XML-based difference reports to analyze the differences between group policy objects (GPOs), templates, or different versions of a GPO.
 author: aczechowski
 ms.assetid: 3f03c368-162b-450f-be6c-2807c3e8d741
 ms.reviewer:
@@ -13,134 +13,71 @@ ms.date: 06/16/2016
 ---
 
 
-# Differences Between GPOs, GPO Versions, or Templates
+# Differences between GPOs, GPO versions, or templates
 
+You can generate HTML-based or XML-based difference reports to analyze the differences between group policy objects (GPOs), templates, or different versions of a GPO.
 
-You can generate HTML-based or XML-based difference reports to analyze the differences between Group Policy Objects (GPOs), templates, or different versions of a GPO.
+A user account with the reviewer, editor, approver, or Advanced Group Policy Management (AGPM) administrator (full control) role or necessary permissions in AGPM is required to complete this procedure.
 
-A user account with the Reviewer, Editor, Approver, or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
+## To identify differences between two GPOs or templates
 
-## Identifying differences between GPOs, GPO versions, or templates
+1.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
-
--   [Between two GPOs or templates](#bkmk-two-gpos)
-
--   [Between a GPO and a template](#bkmk-gpo-and-template)
-
--   [Between two versions of one GPO](#bkmk-two-versions)
-
--   [Between a GPO version and a template](#bkmk-gpo-version-and-template)
-
-## <a href="" id="bkmk-two-gpos"></a>
-
-
-**To identify differences between two GPOs or templates**
-
-1.  In the **Group Policy Management Console** tree, click **Change Control** in the forest and domain in which you want to manage GPOs.
-
-2.  On the **Contents** tab in the details pane, click a tab to display GPOs (or templates, if comparing two templates).
+2.  On the **Contents** tab in the details pane, select a tab to display GPOs (or templates, if comparing two templates).
 
 3.  Select the two GPOs or templates.
 
-4.  Right-click one of the GPOs or templates, click **Differences**, and then click **HTML Report** or **XML Report** to display a difference report summarizing the settings of the GPOs or templates.
+4.  Right-click one of the GPOs or templates, select **Differences**, and then select **HTML Report** or **XML Report** to display a difference report summarizing the settings of the GPOs or templates.
 
-### <a href="" id="bkmk-gpo-and-template"></a>
+## To identify differences between a GPO and a template
 
-**To identify differences between a GPO and a template**
+1.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
-1.  In the **Group Policy Management Console** tree, click **Change Control** in the forest and domain in which you want to manage GPOs.
+2.  On the **Contents** tab in the details pane, select a tab to display GPOs (or templates, if comparing two templates).
 
-2.  On the **Contents** tab in the details pane, click a tab to display GPOs (or templates, if comparing two templates).
+3.  Right-click the GPO, select **Differences**, and then select **Template**.
 
-3.  Right-click the GPO, click **Differences**, and then click **Template**.
+4.  Select the template and type of report, and then select **OK** to display a difference report summarizing the settings of the GPO and template.
 
-4.  Select the template and type of report, and then click **OK** to display a difference report summarizing the settings of the GPO and template.
+## To identify differences between two versions of one GPO
 
-### <a href="" id="bkmk-two-versions"></a>
+1.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
-**To identify differences between two versions of one GPO**
-
-1.  In the **Group Policy Management Console** tree, click **Change Control** in the forest and domain in which you want to manage GPOs.
-
-2.  On the **Contents** tab in the details pane, click a tab to display GPOs (or templates, if comparing two templates).
+2.  On the **Contents** tab in the details pane, select a tab to display GPOs (or templates, if comparing two templates).
 
 3.  Double-click the GPO to display its history, and then highlight the versions to be compared.
 
-4.  Right-click one of the versions, click **Differences**, and then click **HTML Report** or **XML Report** to display a difference report summarizing the settings of the GPOs.
+4.  Right-click one of the versions, select **Differences**, and then select **HTML Report** or **XML Report** to display a difference report summarizing the settings of the GPOs.
 
-### <a href="" id="bkmk-gpo-version-and-template"></a>
+## To identify differences between a GPO version and a template
 
-**To identify differences between a GPO version and a template**
+1.  In the **Group Policy Management Console** tree, select **Change Control** in the forest and domain in which you want to manage GPOs.
 
-1.  In the **Group Policy Management Console** tree, click **Change Control** in the forest and domain in which you want to manage GPOs.
-
-2.  On the **Contents** tab in the details pane, click a tab to display GPOs (or templates, if comparing two templates).
+2.  On the **Contents** tab in the details pane, select a tab to display GPOs (or templates, if comparing two templates).
 
 3.  Double-click the GPO to display its history.
 
-4.  Right-click the GPO version of interest, click **Differences**, and then click **Template**.
+4.  Right-click the GPO version of interest, select **Differences**, and then select **Template**.
 
-5.  Select the template and type of report, and then click **OK** to display a difference report summarizing the settings of the GPO version and template.
+5.  Select the template and type of report, and then select **OK** to display a difference report summarizing the settings of the GPO version and template.
 
 ## Key to difference reports
 
+| Symbol | Meaning | Color |
+|--|--|--|
+| None | Item exists with identical settings in both GPOs | Varies with level |
+| `#` | Item exists in both GPOs, but with changed settings | Blue |
+| `-` | Item exists only in the first GPO | Red |
+| `+` | Item exists only in the second GPO | Green |
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Symbol</th>
-<th align="left">Meaning</th>
-<th align="left">Color</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>None</p></td>
-<td align="left"><p>Item exists with identical settings in both GPOs</p></td>
-<td align="left"><p>Varies with level</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><strong>[#]</strong></p></td>
-<td align="left"><p>Item exists in both GPOs, but with changed settings</p></td>
-<td align="left"><p>Blue</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><strong>[-]</strong></p></td>
-<td align="left"><p>Item exists only in the first GPO</p></td>
-<td align="left"><p>Red</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><strong>[+]</strong></p></td>
-<td align="left"><p>Item exists only in the second GPO</p></td>
-<td align="left"><p>Green</p></td>
-</tr>
-</tbody>
-</table>
+- For items with changed settings, the changed settings are identified when the item is expanded. The value for the attribute in each GPO is displayed in the same order that the GPOs are displayed in the report.
 
- 
+- Some changes to settings might cause an item to be reported as two different items (one present only in the first GPO, one present only in the second) rather than as one item that has changed.
 
--   For items with changed settings, the changed settings are identified when the item is expanded. The value for the attribute in each GPO is displayed in the same order that the GPOs are displayed in the report.
+## Other considerations
 
--   Some changes to settings may cause an item to be reported as two different items (one present only in the first GPO, one present only in the second) rather than as one item that has changed.
+By default, you must be a reviewer, an editor, an approver, or an AGPM administrator (full control) to do this procedure. Specifically, you must have **List Contents** and **Read Settings** permissions for the GPO. Also, to display the list of GPOs, you must have **List Contents** permission for the domain.
 
-### Additional considerations
+### Other articles
 
--   By default, you must be a Reviewer, an Editor, an Approver, or an AGPM Administrator (Full Control) to perform this procedure. Specifically, you must have **List Contents** and **Read Settings** permissions for the GPO. Also, to display the list of GPOs, you must have **List Contents** permission for the domain.
-
-### Additional references
-
--   [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md)
-
- 
-
- 
-
-
-
-
-
+- [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md)
