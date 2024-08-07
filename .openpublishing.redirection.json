@@ -6019,6 +6019,51 @@
       "source_path": "mdop/dart-v10/troubleshooting-dart-10.md",
       "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/getting-started-with-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/about-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/about-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/about-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/release-notes-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/planning-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/mbam-25-deployment-prerequisites.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/deploying-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/deploying-the-mbam-25-server-infrastructure.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/installing-the-mbam-25-server-software",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mbam-v25/troubleshooting-mbam-25.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mbam-v25/technical-reference-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/client-event-logs",
+      "redirect_document_id": false
     }
   ]
 }
