@@ -16,15 +16,15 @@ You can use this checklist to help you during Microsoft BitLocker Administration
 
 |Check| Task | References | Notes |
 |--|--|--|--|
-| ![Checklist box](images/checklistbox.gif) | Review and complete all planning steps to prepare your environment for MBAM deployment. | [MBAM 2.5 Planning Checklist](mbam-25-planning-checklist.md) |  |
-| ![Checklist box](images/checklistbox.gif) | Review the supported configurations information to ensure that MBAM supports the selected client and server computers. | [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md) |  |
-| ![Checklist box](images/checklistbox.gif) | Install the MBAM Server software. | [Installing the MBAM 2.5 Server Software](installing-the-mbam-25-server-software.md) |  |
-| ![Checklist box](images/checklistbox.gif) | Configure the MBAM Server features: | [Configuring the MBAM 2.5 Server Features](configuring-the-mbam-25-server-features.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Review and complete all planning steps to prepare your environment for MBAM deployment. | [MBAM 2.5 Planning Checklist](mbam-25-planning-checklist.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Review the supported configurations information to ensure that MBAM supports the selected client and server computers. | [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Install the MBAM Server software. | [Installing the MBAM 2.5 Server Software](installing-the-mbam-25-server-software.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Configure the MBAM Server features: | [Configuring the MBAM 2.5 Server Features](configuring-the-mbam-25-server-features.md) |  |
 |  | - Compliance and Audit Database and Recovery Database |  |  |
 |  | - Reports |  |  |
 |  | - Web applications |  |  |
 |  | - Configuration Manager Integration topology (needed only if you run MBAM with this topology) |  |  |
 |  | **Note:** Note the names of the servers on which you configure each feature. You'll use this information throughout the configuration process. |  |  |
-| ![Checklist box](images/checklistbox.gif) | Validate the MBAM configuration. | [Validating the MBAM 2.5 Server Feature Configuration](validating-the-mbam-25-server-feature-configuration.md) |  |
-| ![Checklist box](images/checklistbox.gif) | Copy the MBAM Group Policy Template and edit the Group Policy settings. | [Copying the MBAM 2.5 Group Policy Templates](copying-the-mbam-25-group-policy-templates.md) and [Editing the MBAM 2.5 Group Policy Settings](editing-the-mbam-25-group-policy-settings.md) |  |
-| ![Checklist box](images.checklistbox.gif) | Deploy the MBAM Client software. | [Deploying the MBAM 2.5 Client](deploying-the-mbam-25-client.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Validate the MBAM configuration. | [Validating the MBAM 2.5 Server Feature Configuration](validating-the-mbam-25-server-feature-configuration.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Copy the MBAM Group Policy Template and edit the Group Policy settings. | [Copying the MBAM 2.5 Group Policy Templates](copying-the-mbam-25-group-policy-templates.md) and [Editing the MBAM 2.5 Group Policy Settings](editing-the-mbam-25-group-policy-settings.md) |  |
+| :::image type="icon" source="images/checklistbox.gif" border="false"::: | Deploy the MBAM client software. | [Deploying the MBAM 2.5 Client](deploying-the-mbam-25-client.md) |  |

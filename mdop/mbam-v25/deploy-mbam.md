@@ -560,7 +560,7 @@ Next, review the following logs and determine whether the clients are reporting 
 
 - If a certificate is used, the certificate must have both FQDN and NetBIOS names entered into the **Subject Alternative Name** field for all IIS servers in the load balance group and also as the Friendly Name (for example: bitlocker.corp.net). Otherwise, the browser doesn't trust the certificate when you browse load-balanced addresses.
 
-For more information, see [IIS network load balancing](planning-for-mbam-25-high-availability.md#a-href-idbkmk-load-balanceaiis-network-load-balancing) and [Registering SPNs for the application pool account](planning-how-to-secure-the-mbam-websites.md#registering-spns-for-the-application-pool-account).
+For more information, see [IIS network load balancing](planning-for-mbam-25-high-availability.md#bkmk-load-balance) and [Registering SPNs for the application pool account](planning-how-to-secure-the-mbam-websites.md#registering-spns-for-the-application-pool-account).
 
 ### How to configure a certificate
 

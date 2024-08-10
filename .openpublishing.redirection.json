@@ -6056,12 +6056,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mbam-v25/troubleshooting-mbam-25.md",
+      "source_path": "mdop/mbam-v25/troubleshooting-mbam-25.md",
       "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
       "redirect_document_id": false
     },
     {
-      "source_path": "mbam-v25/technical-reference-for-mbam-25.md",
+      "source_path": "mdop/mbam-v25/technical-reference-for-mbam-25.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/client-event-logs",
       "redirect_document_id": false
     },

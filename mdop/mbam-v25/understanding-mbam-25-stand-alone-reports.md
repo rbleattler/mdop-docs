@@ -46,7 +46,7 @@ Use this report type to collect information about overall BitLocker compliance i
 
 #### Enterprise compliance computer details
 
-|| Column Name | Description |
+| Column Name | Description |
 |--|--|
 | Computer Name | User-specified DNS name that MBAM manages. |
 | Domain Name | Fully qualified domain name where the client computer resides and MBAM manages. |

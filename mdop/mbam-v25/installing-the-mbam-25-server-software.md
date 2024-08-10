@@ -53,7 +53,7 @@ The following table describes the command-line parameters for installing the MBA
 |--|--|--|
 | `CEIPENABLED` | True False | True - participate in the Customer Improvement Experience Program, which helps Microsoft identify which MBAM features to improve.<br>False - don't participate in the Customer Improvement Experience Program. |
 | `OPTIN_FOR_MICROSOFT_UPDATES` | True False | True - use Microsoft Update to keep your computer secure and up-to-date for Windows and other Microsoft products, including MBAM.<br>False - don't use Microsoft Update. |
-| `INSTALLDIR` | <Path> | Location where you want to install MBAM.<br>Example:<br>`INSTALLDIR=c:\mbaminstall` |
+| `INSTALLDIR` | `<Path>` | Location where you want to install MBAM.<br>Example:<br>`INSTALLDIR=c:\mbaminstall` |
 | `FORCE_UNINSTALL` | True False | True - continue the process of uninstalling MBAM, even if any features fail to be removed.<br>False (default) - if the uninstallation custom action fails to remove an added MBAM Server feature, the uninstallation fails, and MBAM remains installed.<br>In both instances, any features that were successfully removed during the attempt to uninstall MBAM stay removed. |
 
 ## Related articles
