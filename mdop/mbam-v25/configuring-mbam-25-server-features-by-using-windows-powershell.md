@@ -15,7 +15,7 @@ For information about the **Get-MbamBitLockerRecoveryKey** and **Get-MbamTPMOwne
 
 ## <a href="" id="bkmk-load-posh-help"></a>How to load Windows PowerShell help for MBAM 2.5
 
-For a list of the Windows PowerShell cmdlets on TechNet, see [Microsoft Desktop Optimization Pack automation with Windows PowerShell](/powershell/mdop/get-started).
+For a list of the Windows PowerShell cmdlets, see [Microsoft Desktop Optimization Pack automation with Windows PowerShell](/powershell/mdop/get-started).
 
 ### To load the MBAM 2.5 help for Windows PowerShell cmdlets after installing the MBAM server software
 
