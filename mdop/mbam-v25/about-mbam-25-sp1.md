@@ -143,7 +143,7 @@ For more information, see [Planning for MBAM 2.5 group policy requirements](plan
 
 ### MBAM Client support for Encrypted Hard Drives
 
-MBAM supports BitLocker on Encrypted Hard Drives that meet TCG specification requirements for Opal and IEEE 1667 standards. When BitLocker is enabled on these devices, it generates keys and perform management functions on the encrypted drive. See [Encrypted Hard Drive](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831627(v=ws.11)) for more information.
+MBAM supports BitLocker on Encrypted Hard Drives that meet TCG specification requirements for Opal and IEEE 1667 standards. When BitLocker is enabled on these devices, it generates keys and performs management functions on the encrypted drive. See [Encrypted Hard Drive](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831627(v=ws.11)) for more information.
 
 ### Delegation configuration no longer required when registering SPNs
 
@@ -153,7 +153,7 @@ The requirement to configure constrained delegation for SPNs that you register f
 
 In MBAM 2.5 SP1, you can use a PowerShell script to configure BitLocker drive encryption and escrow recovery keys to the MBAM Server.
 
-For more information, see [How to enable BitLocker by using MBAM as part of a Windows deployment](how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md)
+For more information, see [How to enable BitLocker by using MBAM as part of a Windows deployment](how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md).
 
 ### Self-Service Portal can be customized by using either PowerShell or the SSP customization wizard
 
