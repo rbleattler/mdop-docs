@@ -311,7 +311,7 @@ To install the MBAM server software by using the Microsoft BitLocker Administrat
 
 7. Select **Finish**.
 
-8. Before proceeding with configuring MBAM, install the latest MDOP servicing release update. Otherwise your database server isnt' recognized or supported. When you try to validate the database configuration, the configuration wizard reports an error.
+8. Before proceeding with configuring MBAM, install the latest MDOP servicing release update. Otherwise your database server isn't recognized or supported. When you try to validate the database configuration, the configuration wizard reports an error.
 
    [October 2020 servicing release for Microsoft Desktop Optimization Pack](https://support.microsoft.com/topic/october-2020-servicing-release-for-microsoft-desktop-optimization-pack-9c509089-51d3-0877-15c5-04b83313b7c9)
 
