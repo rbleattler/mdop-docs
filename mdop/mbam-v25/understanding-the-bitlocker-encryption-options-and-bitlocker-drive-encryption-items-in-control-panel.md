@@ -1,132 +1,36 @@
 ---
-title: Understanding the BitLocker Encryption Options and BitLocker Drive Encryption Items in Control Panel
-description: Understanding the BitLocker Encryption Options and BitLocker Drive Encryption Items in Control Panel
+title: Understanding the BitLocker encryption options and BitLocker Drive Encryption items in Control Panel
+description: This article describes the BitLocker encryption options and BitLocker Drive Encryption Control Panel items.
 author: aczechowski
-ms.assetid: f8a01cc2-0c77-48b9-8351-8194e80b0cf8
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Understanding the BitLocker encryption options and BitLocker Drive Encryption items in Control Panel
 
-# Understanding the BitLocker Encryption Options and BitLocker Drive Encryption Items in Control Panel
+This article describes the **BitLocker Encryption Options** and **BitLocker Drive Encryption** Control Panel items. It explains how these items are created and the tasks they enable you to do.
 
+- **Manage BitLocker** "right-click" shortcut menu, when it's visible versus hidden, and how to set it to be visible by default.
 
-This topic describes the **BitLocker Encryption Options** and **BitLocker Drive Encryption** Control Panel items and explains the following:
+## BitLocker encryption options and BitLocker Drive Encryption Control Panel items
 
--   How these items are created
+The following table lists the tasks you can do from each Control Panel item and describes how these items are created.
 
--   Tasks they enable you to perform
+| Description | BitLocker encryption options (MBAM) | BitLocker Drive Encryption (Windows) |
+|--|--|--|
+| **Tasks you can do** | - Change your PIN or password <br> - Check encryption status for a drive <br> - Open the TPM Management console <br> - Turn on BitLocker | - Suspend protection for a drive <br> - Back up your recovery key <br> - Change your PIN <br> - Turn off BitLocker for a drive <br> - Turn on BitLocker for a drive <br> - Open the TPM Management console <br> - Decrypt a drive (appears only if the MBAM client is NOT installed) |
+| **How the Control Panel item is created** | Created in Control Panel when you install the MBAM client. This item can't be hidden. <br> **Note:** This item appears in addition to, but doesn't replace, the default BitLocker Drive Encryption Control Panel item. | Appears by default in Control Panel as part of the Windows operating system, but you can hide it. <br> To hide it, see [Hiding the default BitLocker Drive Encryption item in Control Panel](hiding-the-default-bitlocker-drive-encryption-item-in-control-panel-mbam-25.md). |
 
--   **Manage BitLocker** “right-click” shortcut menu, when it is visible versus hidden, and how to set it to be visible by default
+## <a href="" id="-manage-bitlocker--shortcut-menu"></a>"Manage BitLocker" shortcut menu
 
-## BitLocker Encryption Options and BitLocker Drive Encryption Control Panel items
+The following table describes how the **Manage BitLocker** shortcut menu differs depending on whether the MBAM client is installed. The term "shortcut menu" refers to options that appear when you right-click a drive in Windows Explorer.
 
+| Description | When MBAM client is installed | When MBAM client isn't installed |
+|--|--|--|
+| Visibility of shortcut menu | The Manage BitLocker option is hidden. <br> To make the Manage BitLocker option visible on the shortcut menu, which displays the option to decrypt a drive, delete the following registry key: <br> `HKEY_CLASSES_ROOT\Drive\Shell\manage-bde \REG_SZ LegacyDisable` | The Manage BitLocker option appears on the shortcut menu. |
+| What users can do | With the shortcut hidden, users can open the BitLocker Drive Encryption Control Panel item, but the option to decrypt a drive isn't available. | With the shortcut visible, selecting the **Manage BitLocker** option opens the BitLocker Drive Encryption Control Panel item, which displays the option to decrypt a drive. |
 
-The following table lists the tasks you can perform from each Control Panel item and describes how these items are created.
+## Related articles
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="left">BitLocker Encryption Options (MBAM)</th>
-<th align="left">BitLocker Drive Encryption (Windows)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Tasks you can do</p></td>
-<td align="left"><ul>
-<li><p>Change your PIN or password</p></li>
-<li><p>Check encryption status for a drive</p></li>
-<li><p>Open the TPM Management console</p></li>
-<li><p>Turn on BitLocker</p></li>
-</ul></td>
-<td align="left"><ul>
-<li><p>Suspend protection for a drive</p></li>
-<li><p>Back up your recovery key</p></li>
-<li><p>Change your PIN</p></li>
-<li><p>Turn off BitLocker for a drive</p></li>
-<li><p>Turn on BitLocker for a drive</p></li>
-<li><p>Open the TPM Management console</p></li>
-<li><p>Decrypt a drive (appears only if the MBAM Client is NOT installed)</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td align="left"><p>How the Control Panel item is created</p></td>
-<td align="left"><p>Created in Control Panel when you install the MBAM Client. This item cannot be hidden.</p>
-<div class="alert">
-<strong>Note</strong><br/><p>This item appears in addition to, but does not replace, the default BitLocker Drive Encryption Control Panel item.</p>
-</div>
-<div>
-
-</div></td>
-<td align="left"><p>Appears by default in Control Panel as part of the Windows operating system, but you can hide it.</p>
-<p>To hide it, see <a href="hiding-the-default-bitlocker-drive-encryption-item-in-control-panel-mbam-25.md" data-raw-source="[Hiding the Default BitLocker Drive Encryption Item in Control Panel](hiding-the-default-bitlocker-drive-encryption-item-in-control-panel-mbam-25.md)">Hiding the Default BitLocker Drive Encryption Item in Control Panel</a>.</p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-## <a href="" id="-manage-bitlocker--shortcut-menu"></a>“Manage BitLocker” shortcut menu
-
-
-The following table describes how the **Manage BitLocker** shortcut menu differs depending on whether the MBAM Client is installed. The term “shortcut menu” refers to options that appear when you right-click a drive in Windows Explorer.
-
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"></th>
-<th align="left">When MBAM Client is installed</th>
-<th align="left">When MBAM Client is not installed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Visibility of shortcut menu</p></td>
-<td align="left"><p>The Manage BitLocker option is hidden.</p>
-<p>To make the Manage BitLocker option visible on the shortcut menu, which displays the option to decrypt a drive, delete the following registry key:</p>
-<pre class="syntax"><code>HKEY_CLASSES_ROOT\Drive\Shell\manage-bde \REG_SZ LegacyDisable</code></pre></td>
-<td align="left"><p>The Manage BitLocker option appears on the shortcut menu.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>What users can do</p></td>
-<td align="left"><p>With the shortcut hidden, users can open the BitLocker Drive Encryption Control Panel item, but the option to decrypt a drive is not available.</p></td>
-<td align="left"><p>With the shortcut visible, selecting the <strong>Manage BitLocker</strong> option opens the BitLocker Drive Encryption Control Panel item, which displays the option to decrypt a drive.</p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-
-## Related topics
-
-
-[Administering MBAM 2.5 Features](administering-mbam-25-features.md)
-
-
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
-
+[Administering MBAM 2.5 features](administering-mbam-25-features.md)

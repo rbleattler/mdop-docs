@@ -1,149 +1,66 @@
 ---
-title: How to Configure the MBAM 2.5 System Center Configuration Manager Integration
-description: How to Configure the MBAM 2.5 System Center Configuration Manager Integration
+title: How to configure the MBAM 2.5 System Center Configuration Manager integration
+description: This article explains how to configure Microsoft BitLocker Administration and Monitoring (MBAM) to use the System Center Configuration Manager integration topology, which integrates MBAM with Configuration Manager.
 author: aczechowski
-ms.assetid: 2b8a4c13-1dad-41e8-89ac-6889c5f7e051
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# How to configure the MBAM 2.5 System Center Configuration Manager integration
 
-# How to Configure the MBAM 2.5 System Center Configuration Manager Integration
+This article explains how to configure Microsoft BitLocker Administration and Monitoring (MBAM) to use the System Center Configuration Manager integration topology, which integrates MBAM with Configuration Manager.
 
+The instructions explain how to configure Configuration Manager integration by using:
 
-This topic explains how to configure Microsoft BitLocker Administration and Monitoring (MBAM) to use the System Center Configuration Manager Integration topology, which integrates MBAM with Configuration Manager.
+- A Windows PowerShell cmdlet.
 
-The instructions explain how to configure Configuration Manager Integration by using:
+- The MBAM Server Configuration wizard.
 
--   A Windows PowerShell cmdlet
+The instructions are based on the recommended architecture in [High-level architecture for MBAM 2.5](high-level-architecture-for-mbam-25.md).
 
--   The MBAM Server Configuration wizard
+## Before you start the configuration
 
-The instructions are based on the recommended architecture in [High-Level Architecture for MBAM 2.5](high-level-architecture-for-mbam-25.md).
+- Review the recommended architecture for MBAM. For more information, see [High-level architecture of MBAM 2.5 with Configuration Manager integration topology](high-level-architecture-of-mbam-25-with-configuration-manager-integration-topology.md).
+- Review the supported configurations for MBAM. For more information, see [MBAM 2.5 supported configurations](mbam-25-supported-configurations.md).
+- Complete the required prerequisites on each server. For more information, see:
+  - [MBAM 2.5 server prerequisites for stand-alone and Configuration Manager integration topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)
+  - [MBAM 2.5 server prerequisites that apply only to the Configuration Manager integration topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)
+- Install the MBAM server software on each server where you'll configure an MBAM Server feature. For this topology, you must install the Configuration Manager console on the computer where you're installing the MBAM server software. For more information, see [Installing the MBAM 2.5 server software](installing-the-mbam-25-server-software.md).
+- Review Windows PowerShell prerequisites. This task is applicable only if you're going to use Windows PowerShell cmdlets to configure MBAM. For more information, see [Configuring MBAM 2.5 server features by using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md).
 
-**Before you start the configuration:**
+## To configure Configuration Manager integration by using Windows PowerShell
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Where to get instructions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Review the recommended architecture for MBAM.</p></td>
-<td align="left"><p><a href="high-level-architecture-of-mbam-25-with-configuration-manager-integration-topology.md" data-raw-source="[High-Level Architecture of MBAM 2.5 with Configuration Manager Integration Topology](high-level-architecture-of-mbam-25-with-configuration-manager-integration-topology.md)">High-Level Architecture of MBAM 2.5 with Configuration Manager Integration Topology</a></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Review the supported configurations for MBAM.</p></td>
-<td align="left"><p><a href="mbam-25-supported-configurations.md" data-raw-source="[MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md)">MBAM 2.5 Supported Configurations</a></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Complete the required prerequisites on each server.</p></td>
-<td align="left"><ul>
-<li><p><a href="mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md" data-raw-source="[MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)">MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies</a></p></li>
-<li><p><a href="mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md" data-raw-source="[MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)">MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology</a></p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Install the MBAM Server software on each server where you will configure an MBAM Server feature.</p>
-<div class="alert">
-<strong>Note</strong><br/><p>For this topology, you must install the Configuration Manager console on the computer where you are installing the MBAM Server software.</p>
-</div>
-<div>
-
-</div></td>
-<td align="left"><p><a href="installing-the-mbam-25-server-software.md" data-raw-source="[Installing the MBAM 2.5 Server Software](installing-the-mbam-25-server-software.md)">Installing the MBAM 2.5 Server Software</a></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Review Windows PowerShell prerequisites (applicable only if you are going to use Windows PowerShell cmdlets to configure MBAM).</p></td>
-<td align="left"><p><a href="configuring-mbam-25-server-features-by-using-windows-powershell.md" data-raw-source="[Configuring MBAM 2.5 Server Features by Using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md)">Configuring MBAM 2.5 Server Features by Using Windows PowerShell</a></p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-**To configure Configuration Manager Integration by using Windows PowerShell**
-
-1.  Before you start the configuration, see [Configuring MBAM 2.5 Server Features by Using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md) to review the prerequisites for using Windows PowerShell.
+1.  Before you start the configuration, see [Configuring MBAM 2.5 server features by using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md) to review the prerequisites for using Windows PowerShell.
 
 2.  Use the **Enable-MbamCMIntegration** Windows PowerShell cmdlet to configure the Reports. To get information about this cmdlet, type **Get-Help Enable-MbamCMIntegration**.
 
-**To configure the System Center Configuration Manager Integration by using the wizard**
+## To configure the System Center Configuration Manager integration by using the wizard
 
 1.  On the server where you want to configure the System Center Configuration Manager Integration feature, start the MBAM Server Configuration wizard. You can select **MBAM Server Configuration** from the **Start** menu to open the wizard.
 
-2.  Click **Add New Features**, select **System Center Configuration Manager Integration**, and then click **Next**.
+2.  Select **Add New Features**, select **System Center Configuration Manager Integration**, and then select **Next**.
 
-    The wizard checks that all prerequisites for the Configuration Manager Integration have been met.
+    The wizard checks that the server meets all prerequisites for the Configuration Manager integration.
 
-3.  If the prerequisite check is successful, click **Next** to continue. Otherwise, resolve any missing prerequisites, and then click **Check prerequisites again**.
+3.  If the prerequisite check is successful, select **Next** to continue. Otherwise, resolve any missing prerequisites, and then select **Check prerequisites again**.
 
 4.  Use the following descriptions to enter the field values in the wizard:
 
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th align="left">Field</th>
-    <th align="left">Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td align="left"><p><strong>SQL Server Reporting Services server</strong></p></td>
-    <td align="left"><p>Fully qualified domain name (FQDN) of the server with the Reporting Service point role. This is the server to which the MBAM Configuration Manager Reports are deployed.</p>
-    <p>If you don’t specify a server, the Configuration Manager Reports will be deployed to the local server.</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p><strong>SQL Server Reporting Services instance</strong></p></td>
-    <td align="left"><p>Name of the SQL Server Reporting Services (SSRS) instance where the Configuration Manager Reports are deployed.</p>
-    <p>If you don’t specify an instance, the Configuration Manager Reports will be deployed to the default SSRS instance name. The value you enter is ignored if the server has System Center 2012 Configuration Manager installed.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
-
+    | Field | Description |
+    |--|--|
+    | SQL Server Reporting Services server | Fully qualified domain name (FQDN) of the server with the Reporting Service point role. This is the server to which the MBAM Configuration Manager Reports are deployed. If you don't specify a server, the Configuration Manager reports are deployed to the local server. |
+    | SQL Server Reporting Services instance | Name of the SQL Server Reporting Services (SSRS) instance where the Configuration Manager Reports are deployed. If you don't specify an instance, the Configuration Manager reports are deployed to the default SSRS instance name. The value you enter is ignored if the server has System Center 2012 Configuration Manager installed. |
 
 5.  On the **Summary** page, review the features that will be added.
 
-    **Note**
-    To create a Windows PowerShell script of the entries you just made, click **Export PowerShell Script** and save the script.
+    > [!NOTE]
+    > To create a Windows PowerShell script of the entries you just made, select **Export PowerShell Script**, and save the script.
 
+6.  Select **Add** to add the Configuration Manager Integration feature to the server, and then select **Close**.
 
+## Related articles
 
-6.  Click **Add** to add the Configuration Manager Integration feature to the server, and then click **Close**.
+[Configuring the MBAM 2.5 server features](configuring-the-mbam-25-server-features.md)
 
-
-
-## Related topics
-
-
-[Configuring the MBAM 2.5 Server Features](configuring-the-mbam-25-server-features.md)
-
-[Validating the MBAM 2.5 Server Feature Configuration](validating-the-mbam-25-server-feature-configuration.md)
-
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
-
-
+[Validating the MBAM 2.5 server feature configuration](validating-the-mbam-25-server-feature-configuration.md)

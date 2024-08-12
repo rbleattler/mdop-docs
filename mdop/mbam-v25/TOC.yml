@@ -1,23 +1,18 @@
 Items:
-- name: Microsoft BitLocker Administration and Monitoring 2.5
+- name: Microsoft BitLocker Administration and Monitoring (MBAM) 2.5
   href: index.md
   items:
-  - name: Getting Started with MBAM 2.5
-    href: getting-started-with-mbam-25.md
+  - name: Get started
     items:
-    - name: About MBAM 2.5
-      href: about-mbam-25.md
-      items:
-      - name: Release Notes for MBAM 2.5
-        href: release-notes-for-mbam-25.md
     - name: About MBAM 2.5 SP1
       href: about-mbam-25-sp1.md
-      items:
-      - name: Release Notes for MBAM 2.5 SP1
-        href: release-notes-for-mbam-25-sp1.md
-    - name: Evaluating MBAM 2.5 in a Test Environment
+    - name: Release notes for MBAM 2.5 SP1
+      href: release-notes-for-mbam-25-sp1.md
+    - name: Applying hotfixes on MBAM 2.5 SP1
+      href: apply-hotfix-for-mbam-25-sp1.md
+    - name: Evaluating MBAM 2.5 in a test environment
       href: evaluating-mbam-25-in-a-test-environment.md
-    - name: High-Level Architecture for MBAM 2.5
+    - name: High-level architecture for MBAM 2.5
       href: high-level-architecture-for-mbam-25.md
       items:
       - name: High-Level Architecture of MBAM 2.5 with Stand-alone Topology
@@ -28,14 +23,13 @@ Items:
         href: illustrated-features-of-an-mbam-25-deployment.md
     - name: Accessibility for MBAM 2.5
       href: accessibility-for-mbam-25.md
-  - name: Planning for MBAM 2.5
-    href: planning-for-mbam-25.md
+  - name: Plan
+    href: mbam-25-planning-checklist.md
     items:
     - name: Preparing your Environment for MBAM 2.5
       href: preparing-your-environment-for-mbam-25.md
       items:
       - name: MBAM 2.5 Deployment Prerequisites
-        href: mbam-25-deployment-prerequisites.md
         items:
         - name: MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies
           href: mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md
@@ -69,13 +63,10 @@ Items:
         href: planning-for-mbam-25-high-availability.md
       - name: MBAM 2.5 Security Considerations
         href: mbam-25-security-considerations.md
-    - name: MBAM 2.5 Planning Checklist
-      href: mbam-25-planning-checklist.md
-  - name: Deploying MBAM 2.5
-    href: deploying-mbam-25.md
+  - name: Deploy
+    href: mbam-25-deployment-checklist.md
     items:
     - name: Deploying the MBAM 2.5 Server Infrastructure
-      href: deploying-the-mbam-25-server-infrastructure.md
       items:
       - name: Installing the MBAM 2.5 Server Software
         href: installing-the-mbam-25-server-software.md
@@ -98,9 +89,9 @@ Items:
               href: how-to-set-the-self-service-portal-branding-and-session-time-out.md
             - name: How to Turn the Self-Service Portal Notice Text On or Off
               href: how-to-turn-the-self-service-portal-notice-text-on-or-off.md
-            - name: How to Localize the “HelpdeskText” Statement that Points Users to More Self-Service Portal Information
+            - name: How to Localize the "HelpdeskText" Statement that Points Users to More Self-Service Portal Information
               href: how-to-localize-the-helpdesktext-statement-that-points-users-to-more-self-service-portal-information.md
-            - name: How to Localize the Self-Service Portal “HelpdeskURL”
+            - name: How to Localize the Self-Service Portal "HelpdeskURL"
               href: how-to-localize-the-self-service-portal-helpdeskurl.md
             - name: How to Localize the Self-Service Portal Notice Text
               href: how-to-localize-the-self-service-portal-notice-text.md
@@ -128,15 +119,18 @@ Items:
         href: how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md
       - name: How to Deploy the MBAM Client by Using a Command Line
         href: how-to-deploy-the-mbam-client-by-using-a-command-line.md
-    - name: MBAM 2.5 Deployment Checklist
-      href: mbam-25-deployment-checklist.md
+    - name: Deploying MBAM 2.5 in a stand-alone configuration
+      href: deploy-mbam.md
+    - name: Upgrade MBAM to the latest servicing release update
+      href: upgrade-mbam2.5-sp1.md
     - name: Upgrading to MBAM 2.5 SP1 from MBAM 2.5
       href: upgrading-to-mbam-25-sp1-from-mbam-25.md
-    - name: Upgrading to MBAM 2.5 or MBAM 2.5 SP1 from Previous Versions
+    - name: Upgrading to MBAM 2.5 SP1 from previous versions
       href: upgrading-to-mbam-25-or-mbam-25-sp1-from-previous-versions.md
-    - name: Removing MBAM Server Features or Software
+
+    - name: Removing MBAM server features or software
       href: removing-mbam-server-features-or-software.md
-  - name: Operations for MBAM 2.5
+  - name: Operations
     href: operations-for-mbam-25.md
     items:
     - name: Administering MBAM 2.5 Features
@@ -192,23 +186,14 @@ Items:
         href: monitoring-web-service-request-performance-counters.md
     - name: Using Windows PowerShell to Administer MBAM 2.5
       href: using-windows-powershell-to-administer-mbam-25.md
-  - name: Troubleshooting MBAM 2.5
-    href: troubleshooting-mbam-25.md
-    items:
-    - name: Upgrade from MBAM 2.5 to MBAM 2.5 SP1
-      href: upgrade-mbam2.5-sp1.md
     - name: Troubleshooting MBAM 2.5 installation problems
       href: troubleshooting-mbam-installation.md
-    - name: Deploying MBAM 2.5 in a stand-alone configuration
-      href: deploy-mbam.md
-  - name: Applying hotfixes on MBAM 2.5 SP1
-    href: apply-hotfix-for-mbam-25-sp1.md
-  - name: Technical Reference for MBAM 2.5
-    href: technical-reference-for-mbam-25.md
+
+  - name: Technical reference
     items:
-    - name: Client Event Logs
+    - name: Client event logs
       href: client-event-logs.md
-    - name: Server Event Logs
+    - name: Server event logs
       href: server-event-logs.md
-    - name: Determining why a Device Receives a Noncompliance Message
+    - name: Determining why a device receives a noncompliance message
       href: determining-why-a-device-receives-a-noncompliance-message.md
