@@ -1,22 +1,15 @@
 ---
-title: How to Move the MBAM 2.5 Reports
-description: How to Move the MBAM 2.5 Reports
+title: How to move the MBAM 2.5 reports
+description: Use these procedures to move the reports feature from one computer to another.
 author: aczechowski
-ms.assetid: c8223656-ca9d-41c8-94a3-64d07a6b99e9
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# How to move the MBAM 2.5 reports
 
-# How to Move the MBAM 2.5 Reports
-
-
-Use these procedures to move the Reports feature from one computer to another, that is, to move the Reports feature from Server A to Server B.
+Use these procedures to move the reports feature from one computer to another. For example, to move the reports feature from Server A to Server B.
 
 The high-level steps for moving the Reports feature are:
 
@@ -28,32 +21,30 @@ The high-level steps for moving the Reports feature are:
 
 4.  Resume the instance of the MBAM Administration and Monitoring Website.
 
-**Note**  
-To run the example Windows PowerShell scripts in this topic, you must update the Windows PowerShell execution policy to enable scripts to be run. See [Running Windows PowerShell Scripts](https://technet.microsoft.com/library/ee176949.aspx) for instructions.
+> [!NOTE]
+> To run the example Windows PowerShell scripts in this topic, you must update the Windows PowerShell execution policy to enable scripts to be run. For more information, see [Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started#execution-policy).
 
-
-
-**Stop the MBAM Administration and Monitoring Website**
+## Stop the MBAM Administration and Monitoring website
 
 -   On the server that is running the Administration and Monitoring Website, use the Internet Information Services (IIS) Manager console to stop the Administration and Monitoring Website.
 
-    To automate this procedure, you can use Windows PowerShell to enter a command that is similar to the following:
+    To automate this procedure, you can use Windows PowerShell to enter a command that's similar to the following command:
 
-    ``` syntax
-    PS C:\> Stop-Website "Microsoft BitLocker Administration and Monitoring"
+    ```powershell
+    Stop-Website "Microsoft BitLocker Administration and Monitoring"
     ```
 
-**Install MBAM Server software and run the MBAM Server Configuration wizard on Server B**
+## Install MBAM Server software and run the MBAM Server Configuration wizard on Server B
 
 1.  Install the MBAM Server software on Server B. For instructions, see [Installing the MBAM 2.5 Server Software](installing-the-mbam-25-server-software.md).
 
-2.  On Server B, start the MBAM Server Configuration wizard, click **Add New Features**, and then select only the **Reports** feature.
+2.  On Server B, start the MBAM Server Configuration wizard, select **Add New Features**, and then select only the **Reports** feature.
 
     Alternatively, you can use the **Enable-MbamReport** Windows PowerShell cmdlet to configure the Reports.
 
     For instructions on how to configure the Reports, see [How to Configure the MBAM 2.5 Reports](how-to-configure-the-mbam-25-reports.md).
 
-**Update the reports connection data on the Administration and Monitoring Server**
+## Update the reports connection data on the Administration and Monitoring Server
 
 1.  On the server that is running the Reports feature, use the Internet Information Services (IIS) Manager console to update the Reports URL.
 
@@ -63,7 +54,7 @@ To run the example Windows PowerShell scripts in this topic, you must update the
 
 4.  In the **Section** field, select **appSettings**.
 
-5.  Select the **Collection** row, and then click the "ellipses" button **(…)** at the far right of the pane to open the **Collection Editor**.
+5.  Select the **Collection** row, and then select the "ellipses" button (`...`) at the far right of the pane to open the **Collection Editor**.
 
 6.  In the **Collection Editor**, select the row that contains **Microsoft.Mbam.Reports.Url**, and update the value for **Microsoft.Mbam.Reports.Url** to reflect the server name for Server B.
 
@@ -73,70 +64,34 @@ To run the example Windows PowerShell scripts in this topic, you must update the
 
 7.  To automate this procedure, you can use Windows PowerShell to run a command on the Administration and Monitoring Server that is similar to the following code example.
 
-    ``` syntax
-    PS C:\> Set-WebConfigurationProperty '/appSettings/add[@key="Microsoft.Mbam.Reports.Url"]' -PSPath "IIS:\\sites\Microsoft Bitlocker Administration and Monitoring\HelpDesk" -Name "Value" -Value "http://$SERVERNAME$/ReportServer[_$SRSINSTANCENAME$]/Pages/ReportViewer.aspx?/Microsoft+BitLocker+Administration+and+Monitoring/"
+    ```powershell
+    Set-WebConfigurationProperty '/appSettings/add[@key="Microsoft.Mbam.Reports.Url"]' -PSPath "IIS:\\sites\Microsoft Bitlocker Administration and Monitoring\HelpDesk" -Name "Value" -Value "http://$SERVERNAME$/ReportServer[_$SRSINSTANCENAME$]/Pages/ReportViewer.aspx?/Microsoft+BitLocker+Administration+and+Monitoring/"
     ```
 
     Using the descriptions in the following table, replace the values in the code example with values that match your environment.
 
-    <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th align="left">Parameter</th>
-    <th align="left">Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td align="left"><p>$SERVERNAME$</p></td>
-    <td align="left"><p>Name of the server to which the Reports were moved.</p></td>
-    </tr>
-    <tr class="even">
-    <td align="left"><p>$SRSINSTANCENAME$</p></td>
-    <td align="left"><p>Name of the instance of SQL Server Reporting Services to which the Reports were moved.</p></td>
-    </tr>
-    </tbody>
-    </table>
+    | Parameter         | Description                                                        |
+    |-------------------|--------------------------------------------------------------------|
+    | `$SERVERNAME$`    | Name of the server to which the Reports were moved.                |
+    | `$SRSINSTANCENAME$` | Name of the instance of SQL Server Reporting Services to which the Reports were moved. |
 
-
-
-**Resume the instance of the Administration and Monitoring Website**
+## Resume the instance of the Administration and Monitoring Website
 
 1.  On the server that is running the Administration and Monitoring Website, use the Internet Information Services (IIS) Manager console to start the Administration and Monitoring Website.
 
-2.  To automate this procedure, you can use Windows PowerShell to run a command that is similar to the following:
+2.  To automate this procedure, you can use Windows PowerShell to run a command that is similar to the following command:
 
-    ``` syntax
-    PS C:\> Start-Website "Microsoft BitLocker Administration and Monitoring"
+    ``` powershell
+    Start-Website "Microsoft BitLocker Administration and Monitoring"
     ```
 
-    **Note**  
-    To run this command, you must add the IIS module for Windows PowerShell to the current instance of Windows PowerShell.
+    > [!NOTE]
+    > To run this command, you must add the IIS module for Windows PowerShell to the current instance of Windows PowerShell.
 
+## Related articles
 
+[How to configure the MBAM 2.5 reports](how-to-configure-the-mbam-25-reports.md)
 
+[Configuring MBAM 2.5 server features by using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md)
 
-
-## Related topics
-
-
-[How to Configure the MBAM 2.5 Reports](how-to-configure-the-mbam-25-reports.md)
-
-[Configuring MBAM 2.5 Server Features by Using Windows PowerShell](configuring-mbam-25-server-features-by-using-windows-powershell.md)
-
-[Moving MBAM 2.5 Features to Another Server](moving-mbam-25-features-to-another-server.md)
-
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
-
-
+[Moving MBAM 2.5 features to another server](moving-mbam-25-features-to-another-server.md)

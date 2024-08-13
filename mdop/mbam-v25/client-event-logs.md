@@ -1,274 +1,57 @@
 ---
-title: Client Event Logs
-description: Client Event Logs
+title: Client event logs
+description: This article contains event IDs that can occur on the MBAM client.
 author: aczechowski
-ms.assetid: d5c2f270-db6a-45f1-8557-8c6fb28fd568
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
+ms.topic: reference
 ms.date: 06/16/2016
 ---
 
-
 # Client Event Logs
 
-MBAM Client event logs are located in Event Viewer – Applications and Services Logs – Microsoft – Windows – MBAM - Operational path.
-The following table contains event IDs that can occur on the MBAM Client.
+MBAM client event logs are located in Event Viewer - Applications and Services Logs - Microsoft - Windows - MBAM - Operational path.
+The following table contains event IDs that can occur on the MBAM client.
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Event ID</th>
-<th align="left">Channel</th>
-<th align="left">Event symbol</th>
-<th align="left">Message</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>1</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>VolumeEnactmentSuccessful</p></td>
-<td align="left"><p>The MBAM policies were applied successfully.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>2</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>VolumeEnactmentFailed</p></td>
-<td align="left"><p>An error occurred while applying MBAM policies.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>3</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>TransferStatusDataSuccessful</p></td>
-<td align="left"><p>The encryption status data was sent successfully.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>4</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TransferStatusDataFailed</p></td>
-<td align="left"><p>An error occurred while sending encryption status data.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>8</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>SystemVolumeNotFound</p></td>
-<td align="left"><p>The system volume is missing. SystemVolume is needed to encrypt the operating system drive.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>9</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TPMNotFound</p></td>
-<td align="left"><p>The TPM hardware is missing. TPM is needed to encrypt the operating system drive with any TPM protector.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>10</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>MachineHWExempted</p></td>
-<td align="left"><p>The computer is exempted from Encryption. Machine’s hardware status: Exempted</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>11</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>MachineHWUnknown</p></td>
-<td align="left"><p>The computer is exempted from encryption. Machine’s hardware status: Unknown</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>12</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>HWCheckFailed</p></td>
-<td align="left"><p>Hardware exemption check failed.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>13</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>UserIsExempted</p></td>
-<td align="left"><p>The user is exempt from encryption.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>14</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>UserIsWaiting</p></td>
-<td align="left"><p>The user requested an exemption.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>15</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>UserExemptionCheckFailed</p></td>
-<td align="left"><p>User exemption check failed.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>16</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>UserPostponed</p></td>
-<td align="left"><p>The user postponed the encryption process.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>17</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TPMInitializationFailed</p></td>
-<td align="left"><p>TPM initialization failed. The user rejected the BIOS changes.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>18</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>CoreServiceDown</p></td>
-<td align="left"><p>Unable to connect to the MBAM Recovery and Hardware service.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>19</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>CoreServiceUp</p></td>
-<td align="left"><p>Successfully connected to the MBAM Recovery and Hardware service.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>20</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>PolicyMismatch</p></td>
-<td align="left"><p>The MBAM policy is in conflict or corrupt.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>21</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>ConflictingOSVolumePolicies</p></td>
-<td align="left"><p>Detected OS volume encryption policies conflict. Check BitLocker and MBAM policies related to OS drive protectors.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>22</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>ConflictingFDDVolumePolicies</p></td>
-<td align="left"><p>Detected Fixed Data Drive volume encryption policies conflict. Check BitLocker and MBAM policies related to FDD drive protectors.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>27</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>EncryptionFailedNoDra</p></td>
-<td align="left"><p>An error occurred while encrypting. A Data Recovery Agent (DRA) protector is required in FIPS mode for pre-Windows 8.1 machines.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>28</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>TpmOwnerAuthEscrowed</p></td>
-<td align="left"><p>The TPM OwnerAuth has been escrowed.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>29</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>RecoveryKeyEscrowed</p></td>
-<td align="left"><p>The BitLocker recovery key for the volume has been escrowed.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>30</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>RecoveryKeyReset</p></td>
-<td align="left"><p>The BitLocker recovery key for the volume has been updated.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>31</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>EnforcePolicyDateSet</p></td>
-<td align="left"><p>The enforce policy date, <em>&lt;date&gt;</em>, has been set for the volume</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>32</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>EnforcePolicyDateCleared</p></td>
-<td align="left"><p>The enforce policy date, <em>&lt;date&gt;</em>, has been cleared for the volume.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>33</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>TpmLockOutResetSucceeded</p></td>
-<td align="left"><p>Successfully reset TPM lockout.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>34</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TpmLockOutResetFailed</p></td>
-<td align="left"><p>Failed to reset TPM lockout.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>35</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>TpmOwnerAuthRetrievalSucceeded</p></td>
-<td align="left"><p>Successfully retrieved TPM OwnerAuth from MBAM services.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>36</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TpmOwnerAuthRetrievalFailed</p></td>
-<td align="left"><p>Failed to retrieve TPM OwnerAuth from MBAM services.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>37</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>WmiProviderDllSearchPathUpdateFailed</p></td>
-<td align="left"><p>Failed to update the DLL search path for WMI provider.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>38</p></td>
-<td align="left"><p>Admin</p></td>
-<td align="left"><p>TimedOutWaitingForWmiProvider</p></td>
-<td align="left"><p>Agent Stopping - Timed-out waiting for MBAM WMI Provider Instance.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>39</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>RemovableDriveMounted</p></td>
-<td align="left"><p>Removable drive was mounted.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>40</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>RemovableDriveDismounted</p></td>
-<td align="left"><p>Removable drive was unmounted.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>41</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>FailedToEnactEndpointUnreachable</p></td>
-<td align="left"><p>Failure to connect to the MBAM Recovery and Hardware service prevented MBAM policies from being applied successfully to the volume.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>42</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>FailedToEnactLockedVolume</p></td>
-<td align="left"><p>Locked volume state prevented MBAM policies from being applied successfully to the volume.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>43</p></td>
-<td align="left"><p>Operational</p></td>
-<td align="left"><p>TransferStatusDataFailedEndpointUnreachable</p></td>
-<td align="left"><p>Failure to connect to the MBAM Compliance and Status service prevented the transfer of encryption status data.</p></td>
-</tr>
-</tbody>
-</table>
+| Event ID | Channel | Event symbol | Message |
+|--|--|--|--|
+| 1 | Operational | VolumeEnactmentSuccessful | The MBAM policies were applied successfully. |
+| 2 | Admin | VolumeEnactmentFailed | An error occurred while applying MBAM policies. |
+| 3 | Operational | TransferStatusDataSuccessful | The encryption status data was sent successfully. |
+| 4 | Admin | TransferStatusDataFailed | An error occurred while sending encryption status data. |
+| 8 | Admin | SystemVolumeNotFound | The system volume is missing. SystemVolume is needed to encrypt the operating system drive. |
+| 9 | Admin | TPMNotFound | The TPM hardware is missing. TPM is needed to encrypt the operating system drive with any TPM protector. |
+| 10 | Admin | MachineHWExempted | The computer is exempted from Encryption. Machine's hardware status: Exempted |
+| 11 | Admin | MachineHWUnknown | The computer is exempted from encryption. Machine's hardware status: Unknown |
+| 12 | Admin | HWCheckFailed | Hardware exemption check failed. |
+| 13 | Admin | UserIsExempted | The user is exempt from encryption. |
+| 14 | Admin | UserIsWaiting | The user requested an exemption. |
+| 15 | Admin | UserExemptionCheckFailed | User exemption check failed. |
+| 16 | Admin | UserPostponed | The user postponed the encryption process. |
+| 17 | Admin | TPMInitializationFailed | TPM initialization failed. The user rejected the BIOS changes. |
+| 18 | Admin | CoreServiceDown | Unable to connect to the MBAM Recovery and Hardware service. |
+| 19 | Operational | CoreServiceUp | Successfully connected to the MBAM Recovery and Hardware service. |
+| 20 | Admin | PolicyMismatch | The MBAM policy is in conflict or corrupt. |
+| 21 | Admin | ConflictingOSVolumePolicies | Detected OS volume encryption policies conflict. Check BitLocker and MBAM policies related to OS drive protectors. |
+| 22 | Admin | ConflictingFDDVolumePolicies | Detected Fixed Data Drive volume encryption policies conflict. Check BitLocker and MBAM policies related to FDD drive protectors. |
+| 27 | Admin | EncryptionFailedNoDra | An error occurred while encrypting. A Data Recovery Agent (DRA) protector is required in FIPS mode for pre-Windows 8.1 machines. |
+| 28 | Operational | TpmOwnerAuthEscrowed | The TPM OwnerAuth has been escrowed. |
+| 29 | Operational | RecoveryKeyEscrowed | The BitLocker recovery key for the volume has been escrowed. |
+| 30 | Operational | RecoveryKeyReset | The BitLocker recovery key for the volume has been updated. |
+| 31 | Operational | EnforcePolicyDateSet | The enforce policy date, <em>&lt;date&gt;</em>, has been set for the volume |
+| 32 | Operational | EnforcePolicyDateCleared | The enforce policy date, <em>&lt;date&gt;</em>, has been cleared for the volume. |
+| 33 | Operational | TpmLockOutResetSucceeded | Successfully reset TPM lockout. |
+| 34 | Admin | TpmLockOutResetFailed | Failed to reset TPM lockout. |
+| 35 | Operational | TpmOwnerAuthRetrievalSucceeded | Successfully retrieved TPM OwnerAuth from MBAM services. |
+| 36 | Admin | TpmOwnerAuthRetrievalFailed | Failed to retrieve TPM OwnerAuth from MBAM services. |
+| 37 | Admin | WmiProviderDllSearchPathUpdateFailed | Failed to update the DLL search path for WMI provider. |
+| 38 | Admin | TimedOutWaitingForWmiProvider | Agent Stopping - Timed-out waiting for MBAM WMI Provider Instance. |
+| 39 | Operational | RemovableDriveMounted | Removable drive was mounted. |
+| 40 | Operational | RemovableDriveDismounted | Removable drive was unmounted. |
+| 41 | Operational | FailedToEnactEndpointUnreachable | Failure to connect to the MBAM Recovery and Hardware service prevented MBAM policies from being applied successfully to the volume. |
+| 42 | Operational | FailedToEnactLockedVolume | Locked volume state prevented MBAM policies from being applied successfully to the volume. |
+| 43 | Operational | TransferStatusDataFailedEndpointUnreachable | Failure to connect to the MBAM Compliance and Status service prevented the transfer of encryption status data. |
 
- 
+## Related articles
 
-
-## Related topics
-[Technical Reference for MBAM 2.5](technical-reference-for-mbam-25.md)
-
-[Server Event Logs](server-event-logs.md)
-
- 
-
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
-
-
-
-
-
+[Server event logs](server-event-logs.md)

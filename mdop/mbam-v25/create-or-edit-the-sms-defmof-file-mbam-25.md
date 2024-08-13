@@ -1,30 +1,23 @@
 ---
-title: Create or Edit the Sms\_def.mof File
-description: Create or Edit the Sms\_def.mof File
+title: Create or edit the sms\_def.mof file
+description: To enable the client computers to report BitLocker compliance details through the MBAM Configuration Manager reports, you have to create or edit the Sms\_def.mof file.
 author: aczechowski
-ms.assetid: 0bc5e7d8-9747-4da6-a1b3-38d8f27ba121
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# Create or Edit the Sms\_def.mof File
-
+# Create or edit the sms\_def.mof file
 
 To enable the client computers to report BitLocker compliance details through the MBAM Configuration Manager reports, you have to create or edit the Sms\_def.mof file.
 
-If you are using System Center 2012 Configuration Manager, you must create the file. Create the file on the top-tier site. The changes will be replicated to the other sites in your infrastructure.
+If you use System Center 2012 Configuration Manager, you must create the file. Create the file on the top-tier site. The changes are replicated to the other sites in your infrastructure.
 
 In Configuration Manager 2007, the file already exists, so you only have to edit it. **Do not overwrite the existing file.**
 
-In the following sections, complete the instructions that correspond to the version of Configuration Manager that you are using.
+In the following sections, complete the instructions that correspond to the version of Configuration Manager that you're using.
 
-**To create the Sms\_def.mof file for System Center 2012 Configuration Manager**
+## To create the Sms\_def.mof file for System Center 2012 Configuration Manager
 
 1.  On the Configuration Manager Server, browse to the location where you have to create the Sms\_def.mof file, for example, the Desktop.
 
@@ -152,7 +145,7 @@ In the following sections, complete the instructions that correspond to the vers
 
 3.  Import the **Sms\_def.mof** file by doing the following:
 
-    1.  Open the **System Center 2012 Configuration Manager console** and select the **Administration** tab.
+    1.  Open the **System Center 2012 Configuration Manager console** and select the **Administration** tab.
 
     2.  On the **Administration** tab, select **Client Settings**.
 
@@ -160,17 +153,17 @@ In the following sections, complete the instructions that correspond to the vers
 
     4.  In the **Default Settings** window, select **Hardware Inventory**.
 
-    5.  Click **Set Classes**, and then click **Import**.
+    5.  Select **Set Classes**, and then select **Import**.
 
-    6.  In the browser that opens, select your **.mof** file, and then click **Open**. The **Import Summary** window opens.
+    6.  In the browser that opens, select your **.mof** file, and then select **Open**. The **Import Summary** window opens.
 
-    7.  In the **Import Summary** window, ensure that the option to import both hardware inventory classes and class settings is selected, and then click **Import**.
+    7.  In the **Import Summary** window, ensure that the option to import both hardware inventory classes and class settings is selected, and then select **Import**.
 
-    8.  In both the **Hardware Inventory Classes** window and the **Default Settings** window, click **OK**.
+    8.  In both the **Hardware Inventory Classes** window and the **Default Settings** window, select **OK**.
 
 4.  Enable the **Win32\_Tpm** class as follows:
 
-    1.  Open the **System Center 2012 Configuration Manager console** and select the **Administration** tab.
+    1.  Open the **System Center 2012 Configuration Manager console** and select the **Administration** tab.
 
     2.  On the **Administration** tab, select **Client Settings**.
 
@@ -178,15 +171,15 @@ In the following sections, complete the instructions that correspond to the vers
 
     4.  In the **Default Settings** window, select **Hardware Inventory**.
 
-    5.  Click **Set Classes**.
+    5.  Select **Set Classes**.
 
     6.  In the main window, scroll down, and then select the **TPM (Win32\_Tpm)** class.
 
     7.  Under **TPM**, ensure that the **SpecVersion** property is selected.
 
-    8.  In both the **Hardware Inventory Classes** window and the **Default Settings** window, click **OK**.
+    8.  In both the **Hardware Inventory Classes** window and the **Default Settings** window, select **OK**.
 
-**To edit the sms\_def.mof file for Configuration Manager 2007**
+## To edit the sms\_def.mof file for Configuration Manager 2007
 
 1.  On the Configuration Manager Server, browse to the location of the **sms\_def.mof** file:
 
@@ -367,28 +360,14 @@ In the following sections, complete the instructions that correspond to the vers
 
 3.  Modify the **Win32\_Tpm** class as follows:
 
-    -   Set **SMS\_REPORT** to **TRUE** in the class attributes.
+    - Set **SMS\_REPORT** to **TRUE** in the class attributes.
 
-    -   Set **SMS\_REPORT** to **TRUE** in the **SpecVersion** property attribute.
+    - Set **SMS\_REPORT** to **TRUE** in the **SpecVersion** property attribute.
 
-    **Got a MBAM issue**? Use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+## Related articles
 
-## Related topics
+[MBAM 2.5 server prerequisites that apply only to the Configuration Manager integration topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)
 
+[Edit the configuration.mof file](edit-the-configurationmof-file-mbam-25.md)
 
-[MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)
-
-[Edit the Configuration.mof File](edit-the-configurationmof-file-mbam-25.md)
-
-[MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)
-
- 
-
- 
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
+[MBAM 2.5 server prerequisites for stand-alone and Configuration Manager integration topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)
