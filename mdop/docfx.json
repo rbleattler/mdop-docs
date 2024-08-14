@@ -53,6 +53,7 @@
       "ms.topic": "article",
       "recommendations": true,
       "feedback_system": "None",
+      "is_archived": true,
       "hideEdit": true,
       "_op_documentIdPathDepotMapping": {
         "./": {
