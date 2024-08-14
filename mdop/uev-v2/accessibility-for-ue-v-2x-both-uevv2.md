@@ -1,6 +1,6 @@
 ---
 title: Accessibility for UE-V 2.1 SP1
-description: This section provides information about features and services that make this product and its corresponding documentation more accessible for people with disabilities.
+description: This section provides information about features and services that make UE-V 2.1 SP1 and its corresponding documentation more accessible for people with disabilities.
 author: aczechowski
 ms.author: aaroncz
 ms.collection: must-keep
