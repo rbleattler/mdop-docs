@@ -1,7 +1,30 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
-  items:
-    - name: Microsoft Desktop Optimization Pack
-      tocHref: /microsoft-desktop-optimization-pack
-      topicHref: /microsoft-desktop-optimization-pack/index
+items:
+  - name: Docs
+    tocHref: /
+    topicHref: /
+    items:
+      - name: Microsoft Desktop Optimization Pack
+        tocHref: /microsoft-desktop-optimization-pack
+        topicHref: /microsoft-desktop-optimization-pack/index
+        items:
+          - name: AGPM
+            tocHref: /agpm
+            topicHref: /agpm/index
+          - name: App-V v5
+            tocHref: /appv-v5
+            topicHref: /appv-v5/index
+          - name: App-V
+            tocHref: /app-v
+            topicHref: /app-v/index
+          - name: DaRT
+            tocHref: /dart-v10
+            topicHref: /dart-v10/index
+          - name: MBAM
+            tocHref: /mbam-v25
+            topicHref: /mbam-v25/index
+          - name: UE-V
+            tocHref: /ue-v
+            topicHref: /ue-v/index
+          - name: UE-V v2
+            tocHref: /uev-v2
+            topicHref: /uev-v2/index
