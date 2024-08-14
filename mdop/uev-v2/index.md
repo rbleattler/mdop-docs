@@ -56,9 +56,9 @@ Use these UE-V components to create and manage custom templates for your line-of
 
 UE-V synchronizes settings for these applications by default. For a complete list and more detailed information, see [Settings that are automatically synchronized in a UE-V deployment](prepare-a-ue-v-2x-deployment-new-uevv2.md#autosyncsettings).
 
-- Microsoft Office 2013 applications (UE-V 2.1 SP1 and 2.1)
+- Microsoft Office 2013 applications
 
-- Microsoft Office 2010 applications (UE-V 2.1 SP1, 2.1, and 2.0)
+- Microsoft Office 2010 applications
 
 - Microsoft Office 2007 applications (UE-V 2.0 only)
 

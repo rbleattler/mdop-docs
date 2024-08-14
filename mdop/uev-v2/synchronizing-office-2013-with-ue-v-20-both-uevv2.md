@@ -58,7 +58,7 @@ You can deploy UE-V settings location template with the following methods:
     Register-UevTemplate -Path <Path_to_Template>
     ```
 
-    For more information using UE-V and Windows PowerShell, see [Managing UE-V 2.x settings location templates using Windows PowerShell and WMI](managing-ue-v-2x-settings-location-templates-using-windows-powershell-and-wmi-both-uevv2.md).
+    For more information using UE-V and Windows PowerShell, see [Managing UE-V 2.1 SP1 settings location templates using Windows PowerShell and WMI](managing-ue-v-2x-settings-location-templates-using-windows-powershell-and-wmi-both-uevv2.md).
 
 - **Registering template via template catalog path**. If you use the settings template catalog path to manage templates on users' computers, copy the Office 2013 template into the folder defined in the UE-V agent. The next time the template auto update (ApplySettingsCatalog.exe) scheduled task runs, the settings location template is registered on the device. For more information, see [Deploying the settings template catalog for UE-V 2](deploy-ue-v-2x-for-custom-applications-new-uevv2.md#deploycatalogue).
 

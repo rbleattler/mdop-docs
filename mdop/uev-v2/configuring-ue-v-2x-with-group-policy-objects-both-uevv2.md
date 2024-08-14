@@ -1,21 +1,15 @@
 ---
-title: Configuring UE-V 2.x with group policy objects
-description: Configuring UE-V 2.x with group policy objects
+title: Configuring UE-V 2.1 SP1 with group policy objects
+description: Some Microsoft User Experience Virtualization (UE-V) 2.1 SP1 group policy settings can be defined for computers, and other group policy settings can be defined for users.
 author: aczechowski
-ms.assetid: 2bb55834-26ee-4f19-9860-dfdf3c797143
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Configuring UE-V 2.1 SP1 with group policy objects
 
-# Configuring UE-V 2.x with group policy objects
-
-Some Microsoft User Experience Virtualization (UE-V) 2.1 SP1 group policy settings can be defined for computers, and other group policy settings can be defined for users. For more information about how to install UE-V group policy ADMX files, see [Deploy required features for UE-V 2.x](deploy-required-features-for-ue-v-2x-new-uevv2.md).
+Some Microsoft User Experience Virtualization (UE-V) 2.1 SP1 group policy settings can be defined for computers, and other group policy settings can be defined for users. For more information about how to install UE-V group policy ADMX files, see [Deploy required features for UE-V 2.1 SP1](deploy-required-features-for-ue-v-2x-new-uevv2.md).
 
 ## Group policy settings
 
@@ -78,6 +72,6 @@ The UE-V Agent uses the following order of precedence to determine synchronizati
 
 ## Related articles
 
-[Administering UE-V 2.x](administering-ue-v-2x-new-uevv2.md)
+[Administering UE-V 2.1 SP1](administering-ue-v-2x-new-uevv2.md)
 
-[Manage configurations for UE-V 2.x](manage-configurations-for-ue-v-2x-new-uevv2.md)
+[Manage configurations for UE-V 2.1 SP1](manage-configurations-for-ue-v-2x-new-uevv2.md)

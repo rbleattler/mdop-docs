@@ -1,5 +1,5 @@
 ---
-title: Managing the UE-V 2.x agent and packages with Windows PowerShell and WMI
+title: Managing the UE-V 2.1 SP1 agent and packages with Windows PowerShell and WMI
 description: You can use Windows Management Instrumentation (WMI) and Windows PowerShell to manage Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Agent configuration and synchronization behavior.
 author: aczechowski
 ms.author: aaroncz
@@ -7,7 +7,7 @@ ms.collection: must-keep
 ms.date: 08/30/2016
 ---
 
-# Managing the UE-V 2.x agent and packages with Windows PowerShell and WMI
+# Managing the UE-V 2.1 SP1 agent and packages with Windows PowerShell and WMI
 
 You can use Windows Management Instrumentation (WMI) and Windows PowerShell to manage Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Agent configuration and synchronization behavior. For a complete list of UE-V PowerShell cmdlets, see [MDOP cmdlet reference](/powershell/mdop/get-started).
 
@@ -123,6 +123,6 @@ Upon configuration of the UE-V Agent with WMI and Windows PowerShell, the define
 
 ## Related articles
 
-[Administering UE-V 2.x with Windows PowerShell and WMI](administering-ue-v-2x-with-windows-powershell-and-wmi-both-uevv2.md)
+[Administering UE-V 2.1 SP1 with Windows PowerShell and WMI](administering-ue-v-2x-with-windows-powershell-and-wmi-both-uevv2.md)
 
-[Administering UE-V 2.x](administering-ue-v-2x-new-uevv2.md)
+[Administering UE-V 2.1 SP1](administering-ue-v-2x-new-uevv2.md)

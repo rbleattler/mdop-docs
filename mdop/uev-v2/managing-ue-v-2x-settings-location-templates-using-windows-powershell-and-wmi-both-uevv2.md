@@ -7,7 +7,7 @@ ms.collection: must-keep
 ms.date: 08/30/2016
 ---
 
-# Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI
+# Managing UE-V 2.1 SP1 settings location templates using Windows PowerShell and WMI
 
 Microsoft User Experience Virtualization (UE-V) 2.1 SP1 use XML settings location templates to define the settings that UE-V captures and applies. UE-V includes a set of standard settings location templates. It also includes the UE-V Generator tool that enables you to create custom settings location templates. After you create and deploy settings location templates, you can manage those templates by using Windows PowerShell and the Windows Management Instrumentation (WMI). For a complete list of UE-V PowerShell cmdlets, see [MDOP cmdlet reference](/powershell/mdop/get-started).
 
@@ -175,6 +175,6 @@ UE-V provides the following set of WMI commands. Administrators can use these in
 
 ## Related articles
 
-[Administering UE-V 2.x with Windows PowerShell and WMI](administering-ue-v-2x-with-windows-powershell-and-wmi-both-uevv2.md)
+[Administering UE-V 2.1 SP1 with Windows PowerShell and WMI](administering-ue-v-2x-with-windows-powershell-and-wmi-both-uevv2.md)
 
-[Administering UE-V 2.x](administering-ue-v-2x-new-uevv2.md)
+[Administering UE-V 2.1 SP1](administering-ue-v-2x-new-uevv2.md)
