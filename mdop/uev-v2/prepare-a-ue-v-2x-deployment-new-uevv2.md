@@ -430,6 +430,4 @@ The UE-V generator must be installed on a computer that uses an NTFS file system
 
 - [Administering UE-V 2.1 SP1](administering-ue-v-2x-new-uevv2.md)
 
-- [Troubleshooting UE-V 2.1 SP1](troubleshooting-ue-v-2x-both-uevv2.md)
-
 - [Technical Reference for UE-V 2.1 SP1](technical-reference-for-ue-v-2x-both-uevv2.md)

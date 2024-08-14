@@ -124,6 +124,4 @@ You can change the settings in Computer B back to the original Computer A settin
 
 - [Administering UE-V 2.1 SP1](administering-ue-v-2x-new-uevv2.md)
 
-- [Troubleshooting UE-V 2.1 SP1](troubleshooting-ue-v-2x-both-uevv2.md)
-
 - [Technical reference for UE-V 2.1 SP1](technical-reference-for-ue-v-2x-both-uevv2.md)
