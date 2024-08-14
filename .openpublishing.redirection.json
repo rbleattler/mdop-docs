@@ -6114,6 +6114,31 @@
       "source_path": "mdop/agpm/agpm-40-sp3-navengl.md",
       "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/whats-new-in-ue-v-21-new-uevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/whats-new-in-ue-v-20-new-uevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/microsoft-user-experience-virtualization--ue-v--21-release-notesuevv21.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/microsoft-user-experience-virtualization--ue-v--20-release-notesuevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/troubleshooting-ue-v-2x-both-uevv2.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
     }
   ]
 }
