@@ -1,75 +1,62 @@
 Items:
-- name: User Experience Virtualization 2.x
+- name: User Experience Virtualization (UE-V) 2.1 SP1
   href: index.md
   items:
-  - name: Get Started with UE-V 2.x
+  - name: Get started
     href: get-started-with-ue-v-2x-new-uevv2.md
     items:
-    - name: What's New in UE-V 2.1 SP1
+    - name: What's new in UE-V 2.1 SP1
       href: whats-new-in-ue-v-21-sp1uevv21-sp1.md
-      items:
-      - name: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
-        href: microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes.md
-    - name: What's New in UE-V 2.1
-      href: whats-new-in-ue-v-21-new-uevv2.md
-      items:
-      - name: Microsoft User Experience Virtualization (UE-V) 2.1 Release Notes
-        href: microsoft-user-experience-virtualization--ue-v--21-release-notesuevv21.md
-    - name: What's New in UE-V 2.0
-      href: whats-new-in-ue-v-20-new-uevv2.md
-      items:
-      - name: Microsoft User Experience Virtualization (UE-V) 2.0 Release Notes
-        href: microsoft-user-experience-virtualization--ue-v--20-release-notesuevv2.md
-  - name: Prepare and Deploy UE-V 2.x
+    - name: UE-V 2.1 SP1 release notes
+      href: microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes.md
+  - name: Prepare and deploy
     href: prepare-a-ue-v-2x-deployment-new-uevv2.md
     items:
-    - name: Deploy Required Features for UE-V 2.x
+    - name: Deploy required features
       href: deploy-required-features-for-ue-v-2x-new-uevv2.md
-    - name: Custom Application Deployment for UE-V 2.x
+    - name: Custom application deployment
       href: deploy-ue-v-2x-for-custom-applications-new-uevv2.md
-  - name: Administer UE-V 2.x
+  - name: Administer
     href: administering-ue-v-2x-new-uevv2.md
     items:
-    - name: Manage Configurations for UE-V 2.x
+    - name: Manage configurations
       href: manage-configurations-for-ue-v-2x-new-uevv2.md
       items:
-      - name: Configure UE-V 2.x with Group Policy
+      - name: Configure UE-V with group policy
         href: configuring-ue-v-2x-with-group-policy-objects-both-uevv2.md
-      - name: Configure UE-V 2.x with Configuration Manager
+      - name: Configure UE-V with Configuration Manager
         href: configuring-ue-v-2x-with-system-center-configuration-manager-2012-both-uevv2.md
-      - name: Administer UE-V 2.x with PowerShell and WMI
+      - name: Administer UE-V with PowerShell and WMI
         href: administering-ue-v-2x-with-windows-powershell-and-wmi-both-uevv2.md
         items:
-        - name: Manage UE-V 2.x Agent and Packages
+        - name: Manage UE-V agent and packages
           href: managing-the-ue-v-2x-agent-and-packages-with-windows-powershell-and-wmi-both-uevv2.md
-        - name: Manage UE-V 2.x Templates
+        - name: Manage UE-V templates
           href: managing-ue-v-2x-settings-location-templates-using-windows-powershell-and-wmi-both-uevv2.md
-      - name: Configure the Company Settings Center for UE-V 2.x
+      - name: Configure the Company Settings Center
         href: configuring-the-company-settings-center-for-ue-v-2x-both-uevv2.md
-    - name: Custom UE-V 2.x Templates and the UE-V 2.x Generator
+    - name: Custom UE-V templates and the UE-V generator
       href: working-with-custom-ue-v-2x-templates-and-the-ue-v-2x-generator-new-uevv2.md
-    - name: Backup and Restore in UE-V 2.x
+    - name: Backup and restore
       href: manage-administrative-backup-and-restore-in-ue-v-2x-new-topic-for-21.md
-    - name: UE-V 2.x Scheduled Tasks
+    - name: UE-V scheduled tasks
       href: changing-the-frequency-of-ue-v-2x-scheduled-tasks-both-uevv2.md
-    - name: Migrate UE-V 2.x Settings Packages
+    - name: Migrate settings packages
       href: migrating-ue-v-2x-settings-packages-both-uevv2.md
-    - name: UE-V 2.x and App-V
+    - name: UE-V and App-V
       href: using-ue-v-2x-with-application-virtualization-applications-both-uevv2.md
-  - name: Troubleshoot UE-V 2.x
-    href: troubleshooting-ue-v-2x-both-uevv2.md
-  - name: Technical Reference for UE-V 2.x
+  - name: Technical reference
     href: technical-reference-for-ue-v-2x-both-uevv2.md
     items:
-    - name: Sync Methods for UE-V 2.x
+    - name: Sync methods
       href: sync-methods-for-ue-v-2x-both-uevv2.md
-    - name: Sync Trigger Events for UE-V 2.x
+    - name: Sync trigger events
       href: sync-trigger-events-for-ue-v-2x-both-uevv2.md
     - name: Sync Office 2013 with UE-V 2.0
       href: synchronizing-office-2013-with-ue-v-20-both-uevv2.md
-    - name: Schema Reference for UE-V 2.x
+    - name: Schema reference for UE-V 2.1 SP1
       href: application-template-schema-reference-for-ue-v-2x-both-uevv2.md
-    - name: Accessibility for UE-V 2.x
+    - name: Accessibility for UE-V
       href: accessibility-for-ue-v-2x-both-uevv2.md
-    - name: Security Considerations for UE-V 2.x
+    - name: Security considerations
       href: security-considerations-for-ue-v-2x-both-uevv2.md

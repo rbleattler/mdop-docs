@@ -1,22 +1,19 @@
 ---
-title: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
-description: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
+title: Microsoft User Experience Virtualization (UE-V) 2.1 SP1 release notes
+description: Before you install User Experience Virtualization (UE-V) 2.1 SP1, thoroughly read these release notes. The release notes contain information that is required to successfully install UE-V, and contain additional information that isn't available in the product documentation.
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 03/30/2017
 ---
 
+# Microsoft User Experience Virtualization (UE-V) 2.1 SP1 release notes
 
-# Microsoft User Experience Virtualization (UE-V) 2.1 SP1 Release Notes
-
-You should read these release notes thoroughly before you install UE-V. The release notes contain information that is required to successfully install User Experience Virtualization, and contain additional information that isn't available in the product documentation. If there are differences between these release notes and other UE-V documentation, the latest change should be considered authoritative. These release notes supersede the content that is included with this product.
+Before you install User Experience Virtualization (UE-V) 2.1 SP1, thoroughly read these release notes. The release notes contain information that is required to successfully install UE-V, and contain additional information that isn't available in the product documentation. If there are differences between these release notes and other UE-V documentation, the latest change should be considered authoritative. These release notes supersede the content that is included with this product.
 
 ## UE-V known issues
 
-
-This section contains release notes for User Experience Virtualization 2.1 SP1.
+This section contains release notes for UE-V 2.1 SP1.
 
 ### UE-V settings location templates for Skype cause Skype to crash
 
@@ -24,7 +21,7 @@ When a user generates a valid settings location template for the Skype desktop a
 
 WORKAROUND: Remove or unregister the Skype template to allow Skype to work again.
 
-### Existing scripts for silent installations of UE-V may fail
+### Existing scripts for silent installations of UE-V might fail
 
 Two changes made to the UE-V installer can cause silent installation scripts that worked for previous versions of UE-V to fail when installing UE-V 2.1 SP1. The first is a new requirement that users must accept the license terms and agree to or decline participation in the Customer Experience Improvement Program (CEIP), even during a silent installation. Using the /q parameter is no longer sufficient to indicate acceptance of the license terms and agreement to participate in CEIP.
 
@@ -35,7 +32,7 @@ WORKAROUND: The UE-V installer (.msi) has two new command-line parameters that s
 | Parameter | Description |
 |--|--|
 | `/ACCEPTLICENSETERMS=True` | Set this parameter to **True** to install UE-V silently. Adding this parameter implies that the user accepts the UE-V license terms, which are found by default in the following path: `%ProgramFiles%\Microsoft User Experience Virtualization\Agent`. |
-| `/NORESTART` | This parameter prevents the mandatory restart after the UE-V agent is installed. A return code of 3010 indicates that a restart is required prior to using UE-V. |
+| `/NORESTART` | This parameter prevents the mandatory restart after the UE-V agent is installed. A return code of 3010 indicates that a restart is required before using UE-V. |
 
 ### Registry settings don't synchronize between App-V and native applications on the same computer
 
@@ -51,7 +48,7 @@ WORKAROUND: Install only one version of Office or limit which settings are synch
 
 ### Uninstall and reinstall of Windows 8 app reverts settings to initial state
 
-While using UE-V settings synchronization for a Windows 8 app, if the user uninstalls the app and then reinstalls the app, the app's settings revert to their default values.  This happens because the uninstall removes the local (cached) copy of the app's settings but doesn't remove the local UE-V settings package.  When the app is reinstalled and launched, UE-V gathers the app settings that were reset to the app defaults and then uploads the default settings to the central storage location.  Other computers running the app then download the default settings.  This behavior is identical to the behavior of desktop applications.
+While using UE-V settings synchronization for a Windows 8 app, if the user uninstalls the app and then reinstalls the app, the app's settings revert to their default values. This happens because the uninstall removes the local (cached) copy of the app's settings but doesn't remove the local UE-V settings package. When the app is reinstalled and launched, UE-V gathers the app settings that were reset to the app defaults and then uploads the default settings to the central storage location. Other computers running the app then download the default settings. This behavior is identical to the behavior of desktop applications.
 
 WORKAROUND: None.
 
@@ -71,7 +68,7 @@ WORKAROUND: None
 
 The favicons that are associated with Internet Explorer 9 favorites aren't roamed by User Experience Virtualization and don't appear when the favorites first appear on a new computer.
 
-WORKAROUND: Favicons will appear with their associated favorites once the bookmark is used and cached in the Internet Explorer 9 browser.
+WORKAROUND: Favicons appear with their associated favorites once the bookmark is used and cached in the Internet Explorer 9 browser.
 
 ### File settings paths are stored in registry
 
@@ -99,7 +96,7 @@ WORKAROUND: None
 
 If a UE-V 2 settings location template is distributed to a computer installed with a UE-V 1 agent, some settings fail to synchronize between computers and the agent reports errors in the event log.
 
-WORKAROUND: When migrating from UE-V 1 to UE-V 2 and it's likely you'll have computers running the previous version of the agent, create a separate UE-V 2.x catalog to support the UE-V 2.x Agent and templates.
+WORKAROUND: When migrating from UE-V 1 to UE-V 2 and it's likely you'll have computers running the previous version of the agent, create a separate UE-V 2.1 SP1 catalog to support the UE-V 2.1 SP1 agent and templates.
 
 ### UE-V sign out delay
 
@@ -113,8 +110,7 @@ WORKAROUND: Starting with HF03, a new registry key is available. Use the followi
 
 For more information, see [UE-V registry settings](/troubleshoot/windows-client/ue-v/ue-v-registry-settings).
 
-## Hotfixes and Knowledge Base articles for UE-V 2.1 SP1
-
+## Hotfixes and knowledge base articles for UE-V 2.1 SP1
 
 This section contains hotfixes and KB articles for UE-V 2.1 SP1.
 
@@ -132,7 +128,7 @@ This section contains hotfixes and KB articles for UE-V 2.1 SP1.
 
 - 2769586: UE-V roams empty folders and registry keys
 
-- 2782997: [How To Enable Debug Logging in Microsoft User Experience Virtualization (UE-V)](/troubleshoot/windows-client/ue-v/enable-debug-logging)
+- 2782997: [How To enable debug logging in Microsoft User Experience Virtualization (UE-V)](/troubleshoot/windows-client/ue-v/enable-debug-logging)
 
 - 2769570: UE-V doesn't update the theme on RDS or VDI sessions
 
