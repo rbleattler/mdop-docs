@@ -1,51 +1,28 @@
 ---
 title: Maintaining MBAM 2.5
-description: Maintaining MBAM 2.5
+description: The articles in this section describe maintenance tasks that you can perform with Microsoft BitLocker Administration and Monitoring (MBAM) 2.5.
 author: aczechowski
-ms.assetid: 44d398a0-2ca0-4d47-943c-322345409b59
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
 # Maintaining MBAM 2.5
 
-
-The topics in this section describe maintenance tasks that you can perform with Microsoft BitLocker Administration and Monitoring (MBAM) 2.5.
+The articles in this section describe maintenance tasks that you can perform with Microsoft BitLocker Administration and Monitoring (MBAM) 2.5.
 
 ## Moving MBAM 2.5 features to another server
 
+Use the steps in this article to move an MBAM Server feature from one server computer to another.
 
-Use the steps in this topic to move an MBAM Server feature from one server computer to another.
-
-[Moving MBAM 2.5 Features to Another Server](moving-mbam-25-features-to-another-server.md)
+[Moving MBAM 2.5 features to another server](moving-mbam-25-features-to-another-server.md)
 
 ## Monitoring web service request performance counters
 
+Use the steps in this article to monitor the performance counters that record the performance of requests that are sent to the web services for the Administration and Monitoring Website and the Self-Service Portal.
 
-Use the steps in this topic to monitor the performance counters that record the performance of requests that are sent to the web services for the Administration and Monitoring Website and the Self-Service Portal.
-
-[Monitoring Web Service Request Performance Counters](monitoring-web-service-request-performance-counters.md)
+[Monitoring web service request performance counters](monitoring-web-service-request-performance-counters.md)
 
 ## Other resources for maintaining MBAM
 
-
 [Operations for MBAM 2.5](operations-for-mbam-25.md)
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
- 
-
- 
-
-
-
-
-

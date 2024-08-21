@@ -1,5 +1,5 @@
 ---
-title: App-V Prerequisites (Windows 10/11)
+title: App-V for Windows client prerequisites
 description: Learn about the prerequisites you need before you begin installing Application Virtualization (App-V).
 author: aczechowski
 ms.date: 04/18/2018
@@ -21,7 +21,7 @@ The following table indicates the software that is already installed for differe
 |---|---|
 |Windows 10/11|All prerequisite software is already installed.|
 |Windows 8.1|All prerequisite software is already installed.<br>If you're running Windows 8, upgrade to Windows 8.1 before using App-V.|
-|Windows Server 2016|The following prerequisite software is already installed:<br>- Microsoft .NET Framework 4.5<br>- Windows PowerShell 3.0<br><br>Installing Windows PowerShell requires a restart.|
+|Windows Server 2016|The following prerequisite software is already installed:<br>- Microsoft .NET Framework 4.5<br>- Windows PowerShell 3.0<br><br>Installing Windows PowerShell requires a restart.|
 |Windows 7|No prerequisite software is installed. You must install the software before you can install App-V.|
 
 ## App-V Server prerequisite software
@@ -63,7 +63,7 @@ The following deployment scenarios are not supported:
 |---|---|
 |Supported version of SQL Server|For supported versions, see [App-V supported configurations](appv-supported-configurations.md).|
 |[Microsoft .NET Framework 4.5.1 (Web Installer)](https://www.microsoft.com//download/details.aspx?id=40773)||
-|[Windows PowerShell 3.0](https://www.microsoft.com/download/details.aspx?id=34595)|Installing Windows PowerShell 3.0 requires a restart.|
+|[Windows PowerShell 3.0](https://www.microsoft.com/download/details.aspx?id=34595)|Installing Windows PowerShell 3.0 requires a restart.|
 |Download and install [KB2533623](https://support.microsoft.com/kb/2533623)|Applies to Windows 7 only.|
 |[Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/download/details.aspx?id=40784)||
 |64-bit ASP.NET registration||
@@ -150,10 +150,9 @@ What to know before installing the prerequisites:
 |Prerequisite|Details|
 |---|---|
 |[Microsoft .NET Framework 4.5.1 (Web Installer)](https://www.microsoft.com//download/details.aspx?id=40773)||
-|[Windows PowerShell 3.0](https://www.microsoft.com/download/details.aspx?id=34595)|Installing Windows PowerShell 3.0 requires a restart.|
+|[Windows PowerShell 3.0](https://www.microsoft.com/download/details.aspx?id=34595)|Installing Windows PowerShell 3.0 requires a restart.|
 |[KB2533623](https://support.microsoft.com/kb/2533623)|Applies to Windows 7 only: download and install the KB.|
 
 ## Related articles
 
-* [Planning for App-V](appv-planning-for-appv.md)
-* [App-V Supported Configurations](appv-supported-configurations.md)
+* [App-V supported configurations](appv-supported-configurations.md)

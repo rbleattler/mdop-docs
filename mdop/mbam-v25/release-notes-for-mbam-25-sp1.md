@@ -1,6 +1,6 @@
 ---
-title: Release Notes for MBAM 2.5 SP1
-description: Release Notes for MBAM 2.5 SP1
+title: Release notes for MBAM 2.5 SP1
+description: Read these release notes thoroughly before you install Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1.
 author: aczechowski
 ms.reviewer:
 ms.author: aaroncz
@@ -9,12 +9,11 @@ ms.date: 09/06/2017
 ---
 
 
-# Release Notes for MBAM 2.5 SP1
+# Release notes for MBAM 2.5 SP1
 
 Read these release notes thoroughly before you install Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1. These release notes contain information that is required to successfully install MBAM and can contain information that isn't available in the product documentation. If these release notes differ from other MBAM 2.5 SP1 documentation, consider the latest change to be authoritative. These release notes supersede the content that is included with this product.
 
 ## MBAM 2.5 SP1 known issues
-
 
 This section contains release notes for MBAM 2.5 SP1.
 
@@ -140,9 +139,8 @@ Original setting is:
 
 `<meta http-equiv="X-UA-Compatible" content="IE=8" />`
 
-
 This is the reason why the issue wasn't seen with other browsers like Chrome, Firefox etc.
 
 ## Related information
 
-[About MBAM 2.5](about-mbam-25.md)
+[About MBAM 2.5 SP1](about-mbam-25-sp1.md)

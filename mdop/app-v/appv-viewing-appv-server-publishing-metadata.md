@@ -1,24 +1,15 @@
 ---
-title: Viewing App-V Server Publishing Metadata (Windows 10/11)
+title: Viewing App-V server publishing metadata
 description: Use this procedure to view App-V Server publishing metadata, which can help you resolve publishing-related issues.
 author: aczechowski
 ms.date: 04/19/2017
 ---
 
-# Viewing App-V Server Publishing Metadata (Windows 10/11)
+# Viewing App-V server publishing metadata
 
-**Applies to**
--   Windows Server 2016
+>Applies to: Windows 10, Windows 11, Windows Server 2016
 
 Use this procedure to view App-V Server publishing metadata, which can help you resolve publishing-related issues. You must be using the App-V Management server to use this procedure.
-
-This article contains the following information:
-
--   [Definition of publishing metadata](#bkmk-whatis-pub-metadata)
-
--   [Syntax to use for viewing publishing metadata](#bkmk-syntax-view-pub-meta)
-
--   [Query values for client operating system](#bkmk-values-query-pub-meta)
 
 ## <a href="" id="bkmk-whatis-pub-metadata"></a>Definition of publishing metadata
 
@@ -36,23 +27,23 @@ You can view the metadata for each request in an Internet browser by using a que
 
 This section provides information about queries for viewing publishing metadata for App-V 5.0 SP3 Server and App-V 5.1 server. The App-V server components have not changed since App-V 5.0 was released, so App-V 5.x Server is the version of the server used with App-V for Windows client.
 
-**Query syntax**
+### Query syntax
 
 `http://<PubServer>:<Publishing Port#>/?ClientVersion=<BuildNumber>&ClientOS=<OSStringValue>`
 
 For information about the variables in this syntax, see the table that follows.
 
-**Query example**
+### Query example
 
 `http://pubsvr01:2718/?ClientVersion=10.0.14393&ClientOS=WindowsClient_10.0_x64`
 
 In this example:
 
-- A computer running Windows Server 2016 named “pubsvr01” hosts the Publishing service.
+- A computer running Windows Server 2016 named "pubsvr01" hosts the Publishing service.
 
 - The Windows client is 64-bit.
 
-**Query parameter descriptions**
+### Query parameter descriptions
 
 The following table describes the parameters shown in the preceding **Query syntax**.
 
@@ -67,7 +58,7 @@ To get the name of the Publishing server and the port number (`http://<PubServer
 
 ## <a href="" id="bkmk-values-query-pub-meta"></a>Query values for client operating system
 
-In your publishing metadata query, enter the string values that correspond to the client operating system that you’re using.
+In your publishing metadata query, enter the string values that correspond to the client operating system that you're using.
 
 |Operating system|Architecture|String value|
 |--- |--- |--- |
@@ -83,10 +74,3 @@ In your publishing metadata query, enter the string values that correspond to th
 |Windows Server 2012|32-bit|WindowsServer_6.2_x86|
 |Windows Server 2008 R2|64-bit|WindowsServer_6.1_x64|
 |Windows Server 2008 R2|32-bit|WindowsServer_6.1_x86|
-
-
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
-
-## Related articles
-
-[Technical Reference for App-V](appv-technical-reference.md)

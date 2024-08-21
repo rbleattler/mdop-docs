@@ -53,6 +53,7 @@
       "ms.topic": "article",
       "recommendations": true,
       "feedback_system": "None",
+      "is_archived": true,
       "hideEdit": true,
       "_op_documentIdPathDepotMapping": {
         "./": {
@@ -69,7 +70,9 @@
         "dstrome",
         "beccarobins",
         "Stacyrch140",
-        "American-Dipper"
+        "American-Dipper",
+        "padmagit77",
+        "aditisrivastava07"
       ],
       "titleSuffix": "Microsoft Desktop Optimization Pack"
     },

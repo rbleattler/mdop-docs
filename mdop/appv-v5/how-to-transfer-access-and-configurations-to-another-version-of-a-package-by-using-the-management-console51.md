@@ -1,24 +1,17 @@
 ---
-title: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
-description: How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
+title: How to transfer access and configurations to another version of a package by using the App-V 5.1 management console
+description: Use the following procedure to transfer the access and default package configurations to another version of a package by using the App-V 5.1 management console.
 author: aczechowski
-ms.assetid: bf53f064-76ae-4eac-9266-d087c480cda7
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
-
-# How to Transfer Access and Configurations to Another Version of a Package by Using the Management Console
-
+# How to transfer access and configurations to another version of a package by using the App-V 5.1 management console
 
 Use the following procedure to transfer the access and default package configurations to another version of a package by using the management console.
 
-**To transfer access and configurations to another version of a package**
+## To transfer access and configurations to another version of a package
 
 1.  To view the package that you want to configure, open the App-V 5.1 Management Console. Select the package to which you will transfer the new configuration, right-click the package and select **transfer default configuration from** or **transfer access and configurations from**, depending on the configuration that you want to transfer.
 
@@ -28,18 +21,6 @@ Use the following procedure to transfer the access and default package configura
 
     If you select **transfer access and configurations from**, then all access permissions, as well as the configuration settings, will be copied.
 
-    **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
- 
-
- 
-
-
-
-
-

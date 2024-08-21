@@ -1,24 +1,17 @@
 ---
-title: Editing the Configuration.mof File
-description: Edit the Configuration.mof File
+title: Editing the configuration.mof file
+description: To enable the client computers to report BitLocker compliance details through the Microsoft BitLocker Administration and Monitoring (MBAM) Configuration Manager reports, you have to edit the **Configuration.mof** file, whether you're using System Center 2012 Configuration Manager or Configuration Manager 2007.
 author: aczechowski
-ms.assetid: 5d8cd76b-8ffc-4d46-b761-1b8350310c48
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Editing the configuration.mof file
 
-# Editing the Configuration.mof File
+To enable the client computers to report BitLocker compliance details through the Microsoft BitLocker Administration and Monitoring (MBAM) Configuration Manager reports, you have to edit the **Configuration.mof** file, whether you're using System Center 2012 Configuration Manager or Configuration Manager 2007. Complete the following instructions for the version of Configuration Manager that you're using.
 
-
-To enable the client computers to report BitLocker compliance details through the MBAM Configuration Manager reports, you have to edit the **Configuration.mof** file, whether you are using System Center 2012 Configuration Manager or Configuration Manager 2007. Complete the following instructions for the version of Configuration Manager that you are using.
-
-**To edit the Configuration.mof file for System Center 2012 Configuration Manager**
+## To edit the Configuration.mof file for System Center 2012 Configuration Manager
 
 1.  On the Configuration Manager Server, browse to the location of the **Configuration.mof** file:
 
@@ -161,7 +154,7 @@ To enable the client computers to report BitLocker compliance details through th
     //=======================================================
     ```
 
-**To edit the Configuration.mof file for Configuration Manager 2007**
+## To edit the Configuration.mof file for Configuration Manager 2007
 
 1.  On the Configuration Manager Server, browse to the location of the **Configuration.mof** file:
 
@@ -366,23 +359,10 @@ To enable the client computers to report BitLocker compliance details through th
     //=======================================================
     ```
 
+## Related articles
 
-## Related topics
+[MBAM 2.5 server prerequisites that apply only to the Configuration Manager integration topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)
 
+[Create or edit the sms\_def.mof file](create-or-edit-the-sms-defmof-file-mbam-25.md)
 
-[MBAM 2.5 Server Prerequisites that Apply Only to the Configuration Manager Integration Topology](mbam-25-server-prerequisites-that-apply-only-to-the-configuration-manager-integration-topology.md)
-
-[Create or Edit the Sms\_def.mof File](create-or-edit-the-sms-defmof-file-mbam-25.md)
-
-[MBAM 2.5 Server Prerequisites for Stand-alone and Configuration Manager Integration Topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)
-
- 
-
- 
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
-
-
-
-
+[MBAM 2.5 server prerequisites for stand-alone and Configuration Manager integration topologies](mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies.md)

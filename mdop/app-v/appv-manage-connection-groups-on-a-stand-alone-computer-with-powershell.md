@@ -1,11 +1,11 @@
 ---
-title: How to Manage Connection Groups on a Stand-alone Computer by Using Windows PowerShell (Windows 10/11)
-description: How to Manage Connection Groups on a Stand-alone Computer by Using Windows PowerShell
+title: how to manage connection groups on a stand-alone computer by using Windows PowerShell
+description: An App-V connection group allows you to run all the virtual applications as a defined set of packages in a single virtual environment.
 author: aczechowski
 ms.date: 04/19/2017
 ---
 
-# How to Manage Connection Groups on a Stand-alone Computer by Using Windows PowerShell
+# How to manage connection groups on a stand-alone computer by using Windows PowerShell
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -13,21 +13,11 @@ An App-V connection group allows you to run all the virtual applications as a de
 
 A connection group XML file defines the connection group for the App-V client. For information about the connection group XML file and how to configure it, see [About the Connection Group File](appv-connection-group-file.md).
 
-This article explains the following procedures:
-
--   [To add and publish the App-V packages in the connection group](#to-add-and-publish-the-app-v-packages-in-the-connection-group)
-
--   [To add and enable the connection group on the App-V client](#to-add-and-enable-the-connection-group-on-the-app-v-client)
-
--   [To enable or disable a connection group for a specific user](#to-enable-or-disable-a-connection-group-for-a-specific-user)
-
--   [To allow only administrators to enable connection groups](#to-allow-only-administrators-to-enable-connection-groups)
-
 ## To add and publish the App-V packages in the connection group
 
 1.  To add and publish the App-V packages to the computer running the App-V client, type the following command:
 
-    Add-AppvClientPackage –path c:\\tmpstore\\quartfin.appv | Publish-AppvClientPackage
+    Add-AppvClientPackage -path c:\\tmpstore\\quartfin.appv | Publish-AppvClientPackage
 
 2.  Repeat **step 1** of this procedure for each package in the connection group.
 
@@ -35,13 +25,13 @@ This article explains the following procedures:
 
 1.  Add the connection group by typing the following command:
 
-    Add-AppvClientConnectionGroup –path c:\\tmpstore\\financ.xml
+    Add-AppvClientConnectionGroup -path c:\\tmpstore\\financ.xml
 
 2.  Enable the connection group by typing the following command:
 
-    Enable-AppvClientConnectionGroup –name "Financial Applications"
+    Enable-AppvClientConnectionGroup -name "Financial Applications"
 
-    When any virtual applications that are in the member packages are run on the target computer, they'll run inside the connection group’s virtual environment and will be available to all the virtual applications in the other packages in the connection group.
+    When any virtual applications that are in the member packages are run on the target computer, they'll run inside the connection group's virtual environment and will be available to all the virtual applications in the other packages in the connection group.
 
 ## To enable or disable a connection group for a specific user
 
@@ -57,9 +47,9 @@ This article explains the following procedures:
 
     -   The end user must be logged in.
 
-    -   You must provide the end user’s security identifier (SID).
+    -   You must provide the end user's security identifier (SID).
 
-2.  Use the following cmdlets, and add the optional **–UserSID** parameter, where **-UserSID** represents the end user’s security identifier (SID):
+2.  Use the following cmdlets, and add the optional **-UserSID** parameter, where **-UserSID** represents the end user's security identifier (SID):
 
     |Cmdlet|Examples|
     |--- |--- |
@@ -80,10 +70,7 @@ This article explains the following procedures:
     |--- |--- |--- |
     |Set-AppvClientConfiguration|-RequirePublishAsAdmin<li>0 - False<li>1 - True|Set-AppvClientConfiguration -RequirePublishAsAdmin<br>1|
 
-<br>For App-V issues, use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=mdopappv).
-
 ## Related articles
-
 
 [Operations for App-V](appv-operations.md)
 

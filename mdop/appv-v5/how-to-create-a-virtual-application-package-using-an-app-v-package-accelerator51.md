@@ -1,34 +1,23 @@
 ---
-title: Create a Virtual Application Package Using an App-V Package Accelerator
-description: Create a Virtual Application Package Using an App-V Package Accelerator
+title: Create a virtual application package using an App-V package accelerator
+description: Use the following procedure to create a virtual application package with the App-V 5.1 Package Accelerator.
 author: aczechowski
-ms.assetid: eae1e4f8-f14f-4bc8-9867-052561c37297
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, appcompat, virtualization
-ms.mktglfcycl: deploy
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Create a virtual application package using an App-V package accelerator
 
-# Create a Virtual Application Package Using an App-V Package Accelerator
-
-
-**Important**
-The App-V 5.1 Sequencer does not grant any license rights to the software application that you use to create the Package Accelerator. You must abide by all end user license terms for the application that you use. It is your responsibility to make sure that the software application’s license terms allow you to create a Package Accelerator with the App-V 5.1 Sequencer.
-
-
+> [!IMPORTANT]
+> The App-V 5.1 Sequencer does not grant any license rights to the software application that you use to create the Package Accelerator. You must abide by all end user license terms for the application that you use. It is your responsibility to make sure that the software application's license terms allow you to create a Package Accelerator with the App-V 5.1 Sequencer.
 
 Use the following procedure to create a virtual application package with the App-V 5.1 Package Accelerator.
 
-**Note**
-Before you start this procedure, copy the required Package Accelerator locally to the computer that runs the App-V 5.1 Sequencer. You should also copy all required installation files for the package to a local directory on the computer that runs the Sequencer. This is the directory that you have to specify in step 5 of this procedure.
+> [!NOTE]
+> Before you start this procedure, copy the required Package Accelerator locally to the computer that runs the App-V 5.1 Sequencer. You should also copy all required installation files for the package to a local directory on the computer that runs the Sequencer. This is the directory that you have to specify in step 5 of this procedure.
 
-
-
-**To create a virtual application package with an App-V 5.1 Package Accelerator**
+## To create a virtual application package with an App-V 5.1 package accelerator
 
 1.  To start the App-V Sequencer, on the computer that runs the App-V 5.1 Sequencer, click **Start** / **All Programs** / **Microsoft Application Virtualization** / **Microsoft Application Virtualization Sequencer**.
 
@@ -36,10 +25,8 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
 3.  To specify the package accelerator that will be used to create the new virtual application package, click **Browse** on the **Select Package Accelerator** page. Click **Next**.
 
-    **Important**
-    If the publisher of the package accelerator cannot be verified and does not contain a valid digital signature, then before you click **Run**, you must confirm that you trust the source of the package accelerator. Confirm your choice in the **Security Warning** dialog box.
-
-
+    > [!IMPORTANT]
+    > If the publisher of the package accelerator cannot be verified and does not contain a valid digital signature, then before you click **Run**, you must confirm that you trust the source of the package accelerator. Confirm your choice in the **Security Warning** dialog box.
 
 4.  On the **Guidance** page, review the publishing guidance information that is displayed in the information pane. This information was added when the Package Accelerator was created and it contains guidance about how to create and publish the package. To export the guidance information to a text (.txt) file, click **Export** and specify the location where the file should be saved, and then click **Next**.
 
@@ -47,24 +34,20 @@ Before you start this procedure, copy the required Package Accelerator locally t
 
     Alternatively, if you have already copied the installation files to a directory on this computer, click **Make New Folder**, browse to the folder that contains the installation files, and then click **Next**.
 
-    **Note**
-    You can specify the following types of supported installation files:
+    > [!NOTE]
+    > You can specify the following types of supported installation files:
+    >
+    > - Windows Installer files (**.msi**)
+    >
+    > - Cabinet files (.cab)
+    >
+    > - Compressed files with a .zip file name extension
+    >
+    > - The actual application files
+    >
+    > The following file types are not supported: **.msp** and **.exe** files. If you specify an **.exe** file, you must extract the installation files manually.
 
-    -   Windows Installer files (**.msi**)
-
-    -   Cabinet files (.cab)
-
-    -   Compressed files with a .zip file name extension
-
-    -   The actual application files
-
-    The following file types are not supported: **.msp** and **.exe** files. If you specify an **.exe** file, you must extract the installation files manually.
-
-
-
-
-If the package accelerator requires an application to be installed before you apply the Package Accelerator, and if you have already installed the required application, select **I have installed all applications**, and then click **Next** on the **Local Installation** page.
-
+    If the package accelerator requires an application to be installed before you apply the Package Accelerator, and if you have already installed the required application, select **I have installed all applications**, and then click **Next** on the **Local Installation** page.
 
 6. On the **Package Name** page, specify a name that will be associated with the package. The name that you specify identifies the package in the App-V Management Console. Click **Next**.
 
@@ -90,18 +73,6 @@ If the package accelerator requires an application to be installed before you ap
 
    The package is now available in the Sequencer. To edit the package properties, click **Edit \[Package Name\]**. For more information about how to modify a package, see [How to Modify an Existing Virtual Application Package](how-to-modify-an-existing-virtual-application-package-beta.md).
 
-   **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
-
 ## Related topics
 
-
 [Operations for App-V 5.1](operations-for-app-v-51.md)
-
-
-
-
-
-
-
-
-

@@ -9,8 +9,7 @@ ms.date: 04/19/2017
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
-> [!NOTE]
-> [!INCLUDE [Application Virtualization will be end of life in April 2026](../includes/app-v-end-life-statement.md)]
+[!INCLUDE [mdop-lifecycle-statement](../includes/mdop-lifecycle-statement.md)]
 
 Before you deploy App-V into a production environment, you should evaluate it in a lab environment. You can use the information in this article to set up App-V in a lab environment for evaluation purposes only.
 

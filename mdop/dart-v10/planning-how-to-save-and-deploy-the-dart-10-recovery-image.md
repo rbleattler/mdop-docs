@@ -72,4 +72,4 @@ Disadvantages:
 
 ## Related information
 
-- [Planning to Deploy DaRT 10](planning-to-deploy-dart-10.md)
+[DaRT 10 planning checklist](dart-10-planning-checklist.md)

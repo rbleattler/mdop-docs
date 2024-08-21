@@ -1,55 +1,35 @@
 ---
-title: Deploy the MBAM Client to Desktop and Laptop Computers
-description: Deploy the MBAM Client to Desktop or Laptop Computers
+title: Deploy the MBAM client to desktop and laptop computers
+description: This article explains how to deploy the MBAM client to users' computers.
 author: aczechowski
-ms.assetid: 3a7639e0-468e-4496-8be2-ed29b8e07c53
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop, security
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Deploy the MBAM client to desktop and laptop computers
 
-# Deploy the MBAM Client to Desktop and Laptop Computers
+This article explains how to deploy the MBAM client to users' computers. You can deploy the MBAM client through an electronic software distribution system, such as Active Directory Domain Services or Microsoft System Center Configuration Manager.
 
+To deploy the MBAM client as part of a Windows deployment, see [How to enable BitLocker by using MBAM as part of a Windows deployment](how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md).
 
-This topic explains how to deploy the MBAM Client to end users’ computers. You can deploy the MBAM Client through an electronic software distribution system, such as Active Directory Domain Services or Microsoft System Center Configuration Manager.
+Before you start the MBAM client deployment, review the [MBAM 2.5 supported configurations](mbam-25-supported-configurations.md).
 
-To deploy the MBAM Client as part of a Windows deployment, see [How to Enable BitLocker by Using MBAM as Part of a Windows Deployment](how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md).
+## To deploy the MBAM client to desktop or laptop computers
 
-Before you start the MBAM Client deployment, review the [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
+1.  Locate the MBAM client installation files that are provided with the MBAM software.
 
-**To deploy the MBAM Client to desktop or laptop computers**
+2.  To deploy the Windows Installer package to target computers, use Active Directory Domain Services or an enterprise software deployment tool like Microsoft System Center Configuration Manager.
 
-1.  Locate the MBAM Client installation files that are provided with the MBAM software.
+3.  Configure the distribution settings or Group Policy settings to run the MBAM client installation file.
 
-2.  Use Active Directory Domain Services or an enterprise software deployment tool like Microsoft System Center Configuration Manager to deploy the Windows Installer package to target computers.
+    After successful installation, the MBAM client applies the Group Policy settings that are received from a domain controller to begin BitLocker Drive Encryption and management functions.
 
-3.  Configure the distribution settings or Group Policy settings to run the MBAM Client installation file.
+    > [!IMPORTANT]
+    > If a remote desktop protocol connection is active, the MBAM client doesn't start BitLocker Drive Encryption actions. Before BitLocker Drive Encryption begins, all remote console connections must be closed and a user must be signed in to a physical console session.
 
-    After successful installation, the MBAM Client applies the Group Policy settings that are received from a domain controller to begin BitLocker Drive Encryption and management functions.
+## Related articles
 
-    **Important**  
-    The MBAM Client does not start BitLocker Drive Encryption actions if a remote desktop protocol connection is active. All remote console connections must be closed and a user must be logged on to a physical console session before BitLocker Drive Encryption begins.
+[Deploying the MBAM 2.5 client](deploying-the-mbam-25-client.md)
 
-
-
-
-## Related topics
-[Deploying the MBAM 2.5 Client](deploying-the-mbam-25-client.md)
-
-[Planning for MBAM 2.5 Client Deployment](planning-for-mbam-25-client-deployment.md)
-
-
-
-## Got a suggestion for MBAM?
-
-For MBAM issues, use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam). 
-
-
-
-
-
+[Planning for MBAM 2.5 client deployment](planning-for-mbam-25-client-deployment.md)

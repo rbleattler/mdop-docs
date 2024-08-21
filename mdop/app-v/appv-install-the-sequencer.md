@@ -1,11 +1,11 @@
 ---
-title: Install the App-V Sequencer (Windows 10/11)
-description: Learn how to install the App-V Sequencer to convert Win32 applications into virtual packages for deployment to user devices.
+title: Install the App-V for Windows sequencer
+description: Learn how to install the App-V for Windows sequencer to convert Win32 applications into virtual packages for deployment to user devices.
 author: aczechowski
 ms.date: 04/18/2018
 ---
 
-# Install the App-V Sequencer
+# Install the App-V for Windows sequencer
 
 [!INCLUDE [Applies to Windows client versions](../includes/applies-to-windows-client-versions.md)]
 
@@ -18,7 +18,7 @@ The App-V Sequencer is included in the Windows client Assessment and Deployment 
 
 ## How to install the App-V Sequencer
 
-1. Go to [Download the Windows ADK](https://developer.microsoft.com/windows/hardware/windows-assessment-deployment-kit).
+1. Go to [Download the Windows ADK](/windows-hardware/get-started/adk-install).
 2. Select the **Get Windows ADK for Windows 10** button on the page to start the ADK installer. Make sure that **Microsoft Application Virtualization (App-V) Sequencer** is selected during the installation.
 
     ![Selecting APP-V features in ADK.](images/app-v-in-adk.png)
@@ -33,22 +33,18 @@ You can also use the command line to install the App-V sequencer. The following 
 | Command       | Description  |
 |-------------------|------------------|
 | **/INSTALLDIR**       | Specifies the installation directory.  |
-| **/Log**   | Specifies where the installation log will be saved. The default location is **%Temp%**. For example, **C:\\Logs\\log.log**.    |
+| **/Log**   | Specifies where the installation log will be saved. The default location is **%Temp%**. For example, **C:\\Logs\\log.log**.    |
 | **/q**     | Specifies a quiet or silent installation.      |
 | **/Uninstall**        | Specifies the removal of the sequencer.  |
-| **/ACCEPTEULA**       | Accepts the license agreement. This is required for an unattended installation. For example, **/ACCEPTEULA** or **/ACCEPTEULA=1**.         |
+| **/ACCEPTEULA**       | Accepts the license agreement. This is required for an unattended installation. For example, **/ACCEPTEULA** or **/ACCEPTEULA=1**.         |
 | **/LAYOUT**           | Specifies the associated layout action. It also extracts the Windows Installer (.msi) and script files to a folder without installing App-V. No value is expected. |
-| **/LAYOUTDIR**        | Specifies the layout directory. Requires a string value. For example, **/LAYOUTDIR=”C:\\Application Virtualization Client”**.    |
+| **/LAYOUTDIR**        | Specifies the layout directory. Requires a string value. For example, **/LAYOUTDIR="C:\\Application Virtualization Client"**.    |
 | **/?** or **/h** or **/help** | Displays associated help.   |
 
 ## To troubleshoot the App-V sequencer installation
 
-For more information regarding the sequencer installation, you can view the error log in the **%temp%** folder. To review the log files, click **Start**, type **%temp%**, and then look for the **appv\_ log**.
-
-
-
-
+For more information regarding the sequencer installation, you can view the error log in the **%temp%** folder. To review the log files, click **Start**, type **%temp%**, and then look for the **appv\_ log**.
 
 ## Related articles
 
-* [Planning to deploy App-V](appv-planning-to-deploy-appv.md)
+* [App-V supported configurations](appv-supported-configurations.md)

@@ -1,8 +1,7 @@
 ---
 title: App-V 5.1 Prerequisites
-description: App-V 5.1 Prerequisites
+description: Before installing Microsoft Application Virtualization (App-V) 5.1, ensure that you have installed all of the following required prerequisite software.
 author: aczechowski
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
 ms.date: 06/16/2016
@@ -11,13 +10,11 @@ ms.date: 06/16/2016
 
 # App-V 5.1 Prerequisites
 
-
 Before installing Microsoft Application Virtualization (App-V) 5.1, ensure that you have installed all of the following required prerequisite software.
 
 For a list of supported operating systems and hardware requirements for the App-V Server, Sequencer, and Client, see [App-V 5.1 Supported Configurations](app-v-51-supported-configurations.md).
 
 ## Summary of software preinstalled on each operating system
-
 
 The following table indicates the software that is already installed for different operating systems.
 
@@ -183,6 +180,6 @@ Before installing the prerequisites:
 
 ## Related information
 
-[Planning for App-V 5.1](planning-for-app-v-51.md)
+[App-V 5.1 planning checklist](app-v-51-planning-checklist.md)
 
-[App-V 5.1 Supported Configurations](app-v-51-supported-configurations.md)
+[App-V 5.1 supported configurations](app-v-51-supported-configurations.md)

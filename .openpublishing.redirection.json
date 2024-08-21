@@ -5801,11 +5801,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mdop/appv-v5/index.md",
-      "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/index",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "mdop/appv-v5/maintaining-app-v-50.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/maintaining-app-v-50",
       "redirect_document_id": false
@@ -5933,6 +5928,216 @@
     {
       "source_path": "mdop/appv-v5/whats-new-in-app-v-50.md",
       "redirect_url": "/previous-versions/windows/microsoft-desktop-optimization-pack/appv-v5/whats-new-in-app-v-50",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/microsoft-application-virtualization-51-administrators-guide.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/troubleshooting-app-v-51.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/preparing-your-environment-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/planning-to-deploy-app-v51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/deploying-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/app-v-51-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/appv-v5/technical-reference-for-app-v-51.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/appv-v5/performance-guidance-for-application-virtualization-51",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-planning-for-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-preparing-your-environment.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-planning-to-deploy-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-supported-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-deploying-appv.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-troubleshooting.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/app-v/appv-technical-reference.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/app-v/appv-available-mdm-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/planning-for-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/planning-to-deploy-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/deploying-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/dart-10-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/security-and-privacy-for-dart-10.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/dart-v10/security-considerations-for-dart-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/dart-v10/troubleshooting-dart-10.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/getting-started-with-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/about-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/about-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/about-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/release-notes-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/release-notes-for-mbam-25-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/planning-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-planning-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/mbam-25-deployment-prerequisites.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-server-prerequisites-for-stand-alone-and-configuration-manager-integration-topologies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/deploying-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/mbam-25-deployment-checklist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/deploying-the-mbam-25-server-infrastructure.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/installing-the-mbam-25-server-software",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/troubleshooting-mbam-25.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/mbam-v25/technical-reference-for-mbam-25.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/mbam-v25/client-event-logs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp2-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/agpm-40-sp3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40-sp2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp1-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/agpm-40-sp3-navengl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40-sp1.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp1.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/release-notes-for-microsoft-advanced-group-policy-management-40.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/release-notes-for-microsoft-advanced-group-policy-management-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/whats-new-in-agpm-40.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-4-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/advanced-group-policy-management-40",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/agpm/agpm-40-sp3-navengl.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/agpm/whats-new-in-agpm-40-sp3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/whats-new-in-ue-v-21-new-uevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/whats-new-in-ue-v-20-new-uevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/whats-new-in-ue-v-21-sp1uevv21-sp1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/microsoft-user-experience-virtualization--ue-v--21-release-notesuevv21.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/microsoft-user-experience-virtualization--ue-v--20-release-notesuevv2.md",
+      "redirect_url": "/microsoft-desktop-optimization-pack/uev-v2/microsoft-user-experience-virtualization--ue-v--21-sp1-release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mdop/uev-v2/troubleshooting-ue-v-2x-both-uevv2.md",
+      "redirect_url": "/troubleshoot/windows-client/welcome-windows-client",
       "redirect_document_id": false
     }
   ]

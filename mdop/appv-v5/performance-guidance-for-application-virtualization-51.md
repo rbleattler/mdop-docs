@@ -1,6 +1,6 @@
 ---
 title: Performance Guidance for Application Virtualization 5.1
-description: Performance Guidance for Application Virtualization 5.1
+description: Learn how to configure App-V 5.1 for optimal performance, optimize virtual app packages, and provide a better user experience with RDS and VDI.
 author: aczechowski
 ms.reviewer:
 ms.author: aaroncz
@@ -16,8 +16,6 @@ Learn how to configure App-V 5.1 for optimal performance, optimize virtual app p
 Implementing multiple methods can help you improve the end-user experience. However, your environment may not support all methods.
 
 You should read and understand the following information before reading this document.
-
-- [Microsoft Application Virtualization 5.1 Administrator's Guide](microsoft-application-virtualization-51-administrators-guide.md)
 
 - [App-V 5 SP2 Application Publishing and Client Interaction](https://www.microsoft.com/download/details.aspx?id=41635)
 
@@ -438,7 +436,3 @@ The following terms are used when describing concepts and actions related to App
     - From the point where the virtual application is available to launch from a shortcut. Alternatively, it is from the point at which the file type association is registered and will launch a specified virtual application.
 
 - **User Profile Management** - The controlled and structured approach to managing user components associated with the environment. For example, user profiles, preference and policy management, application control and application deployment. You can use scripting or third-party solutions configure the environment as needed.
-
-## Related information
-
-[Microsoft Application Virtualization 5.1 Administrator's Guide](microsoft-application-virtualization-51-administrators-guide.md)

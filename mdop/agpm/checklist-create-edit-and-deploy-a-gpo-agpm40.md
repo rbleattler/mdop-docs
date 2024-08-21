@@ -1,78 +1,22 @@
 ---
-title: Create, Edit, and Deploy a GPO Checklist
-description: Checklist Create, Edit, and Deploy a GPO
+title: Create, edit, and deploy a GPO checklist
+description: In an environment where multiple people change group policy objects (GPOs) by using Advanced Group Policy Management (AGPM), an AGPM administrator (full control) delegates permission to editors, approvers, and reviewers either as groups or as individuals.
 author: aczechowski
-ms.assetid: 44631bed-16d2-4b5a-af70-17a73fb5f6af
-ms.reviewer:
 ms.author: aaroncz
 ms.collection: must-keep
-ms.pagetype: mdop
-ms.mktglfcycl: manage
-ms.sitesec: library
 ms.date: 06/16/2016
 ---
 
+# Create, edit, and deploy a GPO checklist
 
-# Create, Edit, and Deploy a GPO Checklist
+In an environment where multiple people change group policy objects (GPOs) by using Advanced Group Policy Management (AGPM), an AGPM administrator (full control) delegates permission to editors, approvers, and reviewers either as groups or as individuals. The following table lists a typical GPO development process for an editor and an approver.
 
-
-In an environment where multiple people change Group Policy Objects (GPOs) by using Advanced Group Policy Management (AGPM), an AGPM Administrator (Full Control) delegates permission to Editors, Approvers, and Reviewers either as groups or as individuals. The following is a typical GPO development process for an Editor and an Approver.
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Task</th>
-<th align="left">Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>Editor requests that a new GPO be created or an Approver creates a new GPO.</p></td>
-<td align="left"><p><a href="request-the-creation-of-a-new-controlled-gpo-agpm40.md" data-raw-source="[Request the Creation of a New Controlled GPO](request-the-creation-of-a-new-controlled-gpo-agpm40.md)">Request the Creation of a New Controlled GPO</a></p>
-<p><a href="create-a-new-controlled-gpo-agpm40.md" data-raw-source="[Create a New Controlled GPO](create-a-new-controlled-gpo-agpm40.md)">Create a New Controlled GPO</a></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Approver approves the creation of the GPO if it was requested by an Editor.</p></td>
-<td align="left"><p><a href="approve-or-reject-a-pending-action-agpm40.md" data-raw-source="[Approve or Reject a Pending Action](approve-or-reject-a-pending-action-agpm40.md)">Approve or Reject a Pending Action</a></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Editor checks out a copy of the GPO from the archive so that no one else can modify the GPO. Editor makes changes to the GPO, and then checks the modified GPO into the archive.</p></td>
-<td align="left"><p><a href="edit-a-gpo-offline-agpm40.md" data-raw-source="[Edit a GPO Offline](edit-a-gpo-offline-agpm40.md)">Edit a GPO Offline</a></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>If developing in a test forest, Editor exports the GPO to a file, transfers the file to the production forest, and imports the file. Additionally, an Editor can link the GPO to an organizational unit that contains test computers and users.</p></td>
-<td align="left"><p><a href="using-a-test-environment.md" data-raw-source="[Using a Test Environment](using-a-test-environment.md)">Using a Test Environment</a></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Editor requests deployment of the GPO to the production environment of the domain.</p></td>
-<td align="left"><p><a href="request-deployment-of-a-gpo-agpm40.md" data-raw-source="[Request Deployment of a GPO](request-deployment-of-a-gpo-agpm40.md)">Request Deployment of a GPO</a></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>Reviewers, such as Approvers or Editors, analyze the GPO.</p></td>
-<td align="left"><p><a href="performing-reviewer-tasks-agpm40.md" data-raw-source="[Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md)">Performing Reviewer Tasks</a></p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>Approver approves and deploys the GPO to the production environment of the domain or rejects the GPO.</p></td>
-<td align="left"><p><a href="approve-or-reject-a-pending-action-agpm40.md" data-raw-source="[Approve or Reject a Pending Action](approve-or-reject-a-pending-action-agpm40.md)">Approve or Reject a Pending Action</a></p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-### Additional references
-
-[Advanced Group Policy Management 4.0](advanced-group-policy-management-40.md)
-
-
-
-
-
-
-
-
-
+| Task | Reference |
+|--|--|
+| An editor requests that a new GPO is created or an approver creates a new GPO. | [Request the creation of a new controlled GPO](request-the-creation-of-a-new-controlled-gpo-agpm40.md) <br> [Create a new controlled GPO](create-a-new-controlled-gpo-agpm40.md) |
+| An editor requests the creation of a GPO, and an approver approves it. | [Approve or reject a pending action](approve-or-reject-a-pending-action-agpm40.md) |
+| An editor checks out a copy of the GPO from the archive so that no one else can modify the GPO. The editor makes changes to the GPO, and then checks the modified GPO into the archive. | [Edit a GPO offline](edit-a-gpo-offline-agpm40.md) |
+| If developing in a test forest, an editor exports the GPO to a file. They then transfer the file to the production forest, and import the file. Additionally, an editor can link the GPO to an organizational unit (OU) that contains test computers and users. | [Using a test environment](using-a-test-environment.md) |
+| An editor requests deployment of the GPO to the production environment of the domain. | [Request deployment of a GPO](request-deployment-of-a-gpo-agpm40.md) |
+| Reviewers, such as approvers or editors, analyze the GPO. | [Performing reviewer tasks](performing-reviewer-tasks-agpm40.md) |
+| An approver approves and deploys the GPO to the production environment of the domain or rejects the GPO. | [Approve or reject a pending action](approve-or-reject-a-pending-action-agpm40.md) |
